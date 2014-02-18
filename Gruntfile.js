@@ -85,327 +85,327 @@ module.exports = function (grunt) {
   });
 
 
-    grunt.initConfig({
-      yeoman: yeomanConfig,
-      watch: {
-        styles: {
-          files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
-          tasks: ['copy:styles', 'autoprefixer']
-        },
-        livereload: {
-          options: {
-            livereload: LIVERELOAD_PORT
-          },
-          files: [
-            '.tmp/{,*/}*.html',
-            '<%= yeoman.app %>/{,*/}*.html',
-            '.tmp/styles/{,*/}*.css',
-            '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
-            '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-          ]
-        },
-        compass: {
-          files: ['<%= yeoman.app %>/styles/sass/{,*/}*.sass'],
-          tasks: ['compass:dev']
-        },
-        jade: {
-          files: ['<%= yeoman.app %>/{,*/}*.jade'],
-          tasks: ['jade']
-        }
+  grunt.initConfig({
+    yeoman: yeomanConfig,
+    watch: {
+      styles: {
+        files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
+        tasks: ['copy:styles', 'autoprefixer']
       },
-      autoprefixer: {
-        options: ['last 1 version'],
-        dist: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= yeoman.app %>/styles/',
-              src: '{,*/}*.css',
-              dest: '<%= yeoman.app %>/styles/'
-            }
-          ]
-        }
-      },
-      connect: {
+      livereload: {
         options: {
-          port: 9000,
-          // Change this to '0.0.0.0' to access the server from outside.
-          hostname: 'localhost'
+          livereload: LIVERELOAD_PORT
         },
-        livereload: {
-          options: {
-            middleware: function (connect) {
-              return [
-                lrSnippet,
-                mountFolder(connect, '.tmp'),
-                mountFolder(connect, yeomanConfig.app)
-              ];
-            }
-          }
-        },
-        dist: {
-          options: {
-            middleware: function (connect) {
-              return [
-                mountFolder(connect, yeomanConfig.dist)
-              ];
-            }
-          }
-        }
-      },
-      open: {
-        server: {
-          url: 'http://localhost:<%= connect.options.port %>'
-        }
-      },
-      clean: {
-        dist: {
-          files: [
-            {
-              dot: true,
-              src: [
-                '<%= yeoman.dist %>/*',
-                '!<%= yeoman.dist %>/.git*'
-              ]
-            }
-          ]
-        },
-        server: '.tmp'
-      },
-      jshint: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
-        all: [
-          'Gruntfile.js',
-          '<%= yeoman.app %>/scripts/{,*/}*.js'
+        files: [
+          '.tmp/{,*/}*.html',
+          '<%= yeoman.app %>/{,*/}*.html',
+          '.tmp/styles/{,*/}*.css',
+          '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
+          '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       },
-      rev: {
-        dist: {
-          files: {
+      compass: {
+        files: ['<%= yeoman.app %>/styles/sass/{,*/}*.sass'],
+        tasks: ['compass:dev']
+      },
+      jade: {
+        files: ['<%= yeoman.app %>/{,*/}*.jade'],
+        tasks: ['jade']
+      }
+    },
+    autoprefixer: {
+      options: ['last 1 version'],
+      dist: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= yeoman.app %>/styles/',
+            src: '{,*/}*.css',
+            dest: '<%= yeoman.app %>/styles/'
+          }
+        ]
+      }
+    },
+    connect: {
+      options: {
+        port: 9000,
+        // Change this to '0.0.0.0' to access the server from outside.
+        hostname: 'localhost'
+      },
+      livereload: {
+        options: {
+          middleware: function (connect) {
+            return [
+              lrSnippet,
+              mountFolder(connect, '.tmp'),
+              mountFolder(connect, yeomanConfig.app)
+            ];
+          }
+        }
+      },
+      dist: {
+        options: {
+          middleware: function (connect) {
+            return [
+              mountFolder(connect, yeomanConfig.dist)
+            ];
+          }
+        }
+      }
+    },
+    open: {
+      server: {
+        url: 'http://localhost:<%= connect.options.port %>'
+      }
+    },
+    clean: {
+      dist: {
+        files: [
+          {
+            dot: true,
             src: [
-              '<%= yeoman.dist %>/scripts/{,*/}*.js',
-              '<%= yeoman.dist %>/styles/{,*/}*.css',
-              '<%= yeoman.dist %>/styles/fonts/*'
+              '<%= yeoman.dist %>/*',
+              '!<%= yeoman.dist %>/.git*'
             ]
           }
-        }
-      },
-      useminPrepare: {
-        html: '.tmp/index.html',
-        options: {
-          dest: '<%= yeoman.dist %>'
-        }
-      },
-      usemin: {
-        html: ['<%= yeoman.dist %>/{,*/}*.html'],
-        css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
-        js: ['<%= yeoman.dist %>/scripts/{,*/}*.js'],
-        options: {
-          dirs: ['<%= yeoman.dist %>']
-        }
-      },
-      imagemin: {
-        dist: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= yeoman.app %>/images',
-              src: '{,*/}*.{png,jpg,jpeg}',
-              dest: '<%= yeoman.dist %>/images'
-            }
-          ]
-        },
-        server: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= yeoman.app %>/images',
-              src: '{,*/}*.{png,jpg,jpeg}',
-              dest: '.tmp/images'
-            }
-          ]
-        },
-      },
-      svgmin: {
-        dist: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= yeoman.app %>/images',
-              src: '{,*/}*.svg',
-              dest: '<%= yeoman.dist %>/images'
-            }
-          ]
-        }
-      },
-      htmlmin: {
-        dist: {
-          options: {
-            /*removeCommentsFromCDATA: true,
-             // https://github.com/yeoman/grunt-usemin/issues/44
-             //collapseWhitespace: true,
-             collapseBooleanAttributes: true,
-             removeAttributeQuotes: true,
-             removeRedundantAttributes: true,
-             useShortDoctype: true,
-             removeEmptyAttributes: true,
-             removeOptionalTags: true*/
-          },
-          files: [
-            {
-              expand: true,
-              cwd: '.tmp',
-              src: ['*.html', 'views/*.html'],
-              dest: '<%= yeoman.dist %>'
-            }
-          ]
-        }
-      },
-      // Put files not handled in other tasks here
-      copy: {
-        dist: {
-          files: [
-            {
-              expand: true,
-              dot: true,
-              cwd: '<%= yeoman.app %>',
-              dest: '<%= yeoman.dist %>',
-              src: [
-                '*.{ico,png,txt}',
-                '.htaccess',
-                'bower_components/**/*',
-                'images/{,*/}*.{jpg,gif,png,webp}',
-                'scripts/{,*/}*.js',
-                'styles/fonts/*'
-              ]
-            }
-          ]
-        },
-        styles: {
-          expand: true,
-          cwd: '<%= yeoman.app %>/styles',
-          dest: '.tmp/styles/',
-          src: '{,*/}*.css'
-        }
-      },
-      concurrent: {
-        server: [
-          'copy:styles',
-          'compass:dev',
-          'imagemin:server'
-        ].concat(jade.dev),
-        dist: [
-          'copy:styles',
-          'svgmin',
-          'htmlmin',
-          'compass',
-          'imagemin:dist'
         ]
       },
-      uglify: {
-        dist: {
-          files: {
-            '<%= yeoman.dist %>/scripts/scripts.js': [
-              '<%= yeoman.dist %>/scripts/scripts.js'
+      server: '.tmp'
+    },
+    jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
+      all: [
+        'Gruntfile.js',
+        '<%= yeoman.app %>/scripts/{,*/}*.js'
+      ]
+    },
+    rev: {
+      dist: {
+        files: {
+          src: [
+            '<%= yeoman.dist %>/scripts/{,*/}*.js',
+            '<%= yeoman.dist %>/styles/{,*/}*.css',
+            '<%= yeoman.dist %>/styles/fonts/*'
+          ]
+        }
+      }
+    },
+    useminPrepare: {
+      html: '.tmp/index.html',
+      options: {
+        dest: '<%= yeoman.dist %>'
+      }
+    },
+    usemin: {
+      html: ['<%= yeoman.dist %>/{,*/}*.html'],
+      css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
+      js: ['<%= yeoman.dist %>/scripts/{,*/}*.js'],
+      options: {
+        dirs: ['<%= yeoman.dist %>']
+      }
+    },
+    imagemin: {
+      dist: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= yeoman.app %>/images',
+            src: '{,*/}*.{png,jpg,jpeg}',
+            dest: '<%= yeoman.dist %>/images'
+          }
+        ]
+      },
+      server: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= yeoman.app %>/images',
+            src: '{,*/}*.{png,jpg,jpeg}',
+            dest: '.tmp/images'
+          }
+        ]
+      },
+    },
+    svgmin: {
+      dist: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= yeoman.app %>/images',
+            src: '{,*/}*.svg',
+            dest: '<%= yeoman.dist %>/images'
+          }
+        ]
+      }
+    },
+    htmlmin: {
+      dist: {
+        options: {
+          /*removeCommentsFromCDATA: true,
+           // https://github.com/yeoman/grunt-usemin/issues/44
+           //collapseWhitespace: true,
+           collapseBooleanAttributes: true,
+           removeAttributeQuotes: true,
+           removeRedundantAttributes: true,
+           useShortDoctype: true,
+           removeEmptyAttributes: true,
+           removeOptionalTags: true*/
+        },
+        files: [
+          {
+            expand: true,
+            cwd: '.tmp',
+            src: ['*.html', 'views/*.html'],
+            dest: '<%= yeoman.dist %>'
+          }
+        ]
+      }
+    },
+    // Put files not handled in other tasks here
+    copy: {
+      dist: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= yeoman.app %>',
+            dest: '<%= yeoman.dist %>',
+            src: [
+              '*.{ico,png,txt}',
+              '.htaccess',
+              'bower_components/**/*',
+              'images/{,*/}*.{jpg,gif,png,webp}',
+              'scripts/{,*/}*.js',
+              'styles/fonts/*'
             ]
           }
-        }
+        ]
       },
-      compass: {                  // Task
-        dist: {                   // Target
-          options: {              // Target options
-            sassDir: '<%= yeoman.app %>/styles/sass',
-            cssDir: '<%= yeoman.dist %>/css',
-            environment: 'production',
-            require: 'susy'
-          }
-        },
-        dev: {                    // Another target
-          options: {
-            sassDir: '<%= yeoman.app %>/styles/sass',
-            cssDir: '.tmp/styles',
-            require: 'susy'
-          }
-        }
-      },
-      jade: jade_config
-    });
-
-
-    grunt.registerTask('server', function (target) {
-      if (target === 'dist') {
-        return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
+      styles: {
+        expand: true,
+        cwd: '<%= yeoman.app %>/styles',
+        dest: '.tmp/styles/',
+        src: '{,*/}*.css'
       }
-
-      grunt.task.run([
-        'clean:server',
-        'concurrent:server',
-        'setLangs:server',
-        'autoprefixer',
-        'connect:livereload',
-        'open',
-        'watch',
+    },
+    concurrent: {
+      server: [
+        'copy:styles',
+        'compass:dev',
         'imagemin:server'
-      ]);
-    });
+      ].concat(jade.dev),
+      dist: [
+        'copy:styles',
+        'svgmin',
+        'htmlmin',
+        'compass',
+        'imagemin:dist'
+      ]
+    },
+    uglify: {
+      dist: {
+        files: {
+          '<%= yeoman.dist %>/scripts/scripts.js': [
+            '<%= yeoman.dist %>/scripts/scripts.js'
+          ]
+        }
+      }
+    },
+    compass: {                  // Task
+      dist: {                   // Target
+        options: {              // Target options
+          sassDir: '<%= yeoman.app %>/styles/sass',
+          cssDir: '<%= yeoman.dist %>/css',
+          environment: 'production',
+          require: 'susy'
+        }
+      },
+      dev: {                    // Another target
+        options: {
+          sassDir: '<%= yeoman.app %>/styles/sass',
+          cssDir: '.tmp/styles',
+          require: 'susy'
+        }
+      }
+    },
+    jade: jade_config
+  });
 
-    grunt.registerTask('build', [
-      'clean:dist',
-      'useminPrepare',
-      'concurrent:dist',
+
+  grunt.registerTask('server', function (target) {
+    if (target === 'dist') {
+      return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
+    }
+
+    grunt.task.run([
+      'clean:server',
+      'concurrent:server',
+      'setLangs:server',
       'autoprefixer',
-      'setLangs:dist',
-      'copy:dist',
-      'uglify',
-      'rev',
-      'usemin',
-      'imagemin'
-    ].concat(jade.dist));
-
-    grunt.registerTask('default', [
-      'server'
+      'connect:livereload',
+      'open',
+      'watch',
+      'imagemin:server'
     ]);
+  });
 
-    grunt.registerTask('setLangs', function (env) {
-      var views = grunt.file.readJSON('./app/views.json');
-      var langs = grunt.file.readJSON('./app/locales/languages.json');
-      if(env === "dist"){
-        folder = "dist";
-      }else{
-        folder = ".tmp";
-      }
+  grunt.registerTask('build', [
+    'clean:dist',
+    'useminPrepare',
+    'concurrent:dist',
+    'autoprefixer',
+    'setLangs:dist',
+    'copy:dist',
+    'uglify',
+    'rev',
+    'usemin',
+    'imagemin'
+  ].concat(jade.dist));
 
-      var outputFilename = './app/routing.json';
+  grunt.registerTask('default', [
+    'server'
+  ]);
 
-      langs = langs.codes;
-      var langFiles = {}, lang, aux, routing = {};
+  grunt.registerTask('setLangs', function (env) {
+    var views = grunt.file.readJSON('./app/views.json');
+    var langs = grunt.file.readJSON('./app/locales/languages.json');
+    if(env === "dist"){
+      folder = "dist";
+    }else{
+      folder = ".tmp";
+    }
 
-      for(var i=0; i < langs.length; i++){
-        lang = langs[i].language_country;
-        langFiles[lang] = grunt.file.readJSON('./app/locales/' + lang + '.json');
-      }
+    var outputFilename = './app/routing.json';
 
-      for(var view in views){
-        routing[view]={};
+    langs = langs.codes;
+    var langFiles = {}, lang, aux, routing = {};
 
-        if(views.hasOwnProperty(view)){
-          for(var i=0; i < langs.length; i++){
-            lang = langs[i].language_country;
-            routing[view][lang] = langFiles[lang][view]._url;
-          }
+    for(var i=0; i < langs.length; i++){
+      lang = langs[i].language_country;
+      langFiles[lang] = grunt.file.readJSON('./app/locales/' + lang + '.json');
+    }
+
+    for(var view in views){
+      routing[view]={};
+
+      if(views.hasOwnProperty(view)){
+        for(var i=0; i < langs.length; i++){
+          lang = langs[i].language_country;
+          routing[view][lang] = langFiles[lang][view]._url;
         }
       }
+    }
 
-      fs.writeFile(outputFilename, JSON.stringify(routing, null, 4), function(err) {
-        if(err) {
-          console.log(err);
-        } else {
-          console.log("Routing file saved to " + outputFilename);
-        }
-      });
+    fs.writeFile(outputFilename, JSON.stringify(routing, null, 4), function(err) {
+      if(err) {
+        console.log(err);
+      } else {
+        console.log("Routing file saved to " + outputFilename);
+      }
     });
+  });
 
-    grunt.loadNpmTasks('grunt-jade-i18n-extended');
-  };
+  grunt.loadNpmTasks('grunt-jade-i18n-extended');
+};

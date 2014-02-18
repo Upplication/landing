@@ -1,5 +1,5 @@
 .idea
-bower_components
+app/bower_components
 dist
 *.iml
 node_modules

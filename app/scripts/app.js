@@ -1,6 +1,6 @@
 'use strict';
 
-(function(){
+(function($){
 
 
   /*$.ready(function() {
@@ -8,7 +8,9 @@
    $("#change-lang a").set("href", "hola/");
    });
    });  */
+
   Zepto(function($){
+
     $.getJSON('/routing.json', function(data){
       console.log(data)
       var template = $("body").attr("id");
@@ -25,20 +27,18 @@
       console.log("click");
       $(".slide-pannel.effects").toggleClass("slide-right")
     })
-    $(".icon-list").tap(function(){
-      console.log("tap");
-      $(".slide-pannel.effects").toggleClass("slide-right")
-    });
+//    $(".icon-list").tap(function(){
+//      console.log("tap");
+//      $(".slide-pannel.effects").toggleClass("slide-right")
+//    });
 
     $("a").tap(function(){
       $(this).click();
     });
+
+    $('.open-popup-link').magnificPopup({
+      type:'inline',
+      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+    });
   });
-
-
-  $('.open-popup-link').magnificPopup({
-    type:'inline',
-    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-  });
-
 })();
