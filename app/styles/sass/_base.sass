@@ -1,0 +1,176 @@
+*, *:before, *:after
+  +box-sizing(border-box)
+
+.clearfix
+  +clearfix
+
+h1
+  font-size: 1.4em
+  margin-bottom: 1em
+  line-height: 1.3em
+
+.white-popup
+  position: relative
+  background: #FFF
+  padding: 20px
+  width: auto
+  max-width: 500px
+  margin: 20px auto
+
+.uppercase
+  text-transform: uppercase
+
+body
+  font-family: 'Open Sans', sans-serif
+
+.full-width
+  width: 100%
+.width-80
+  width: 80%
+
+.center
+  margin: 0 auto
+
+.acenter
+  text-align: center
+
+.ajustify
+  text-align: justify
+
+.btn
+  line-height: 4em
+  display: block
+  text-align: center
+  text-decoration: none
+
+.normal
+  font-size: 1em
+
+.big
+  font-size: 1.2em
+  &.btn
+    line-height: 1.8em
+
+.bigger
+  font-size: 1.4em
+  &.btn
+    line-height: 3.4em
+.huge
+  font-size: 1.7em
+  &.btn
+    line-height: 2em
+.insane
+  font-size: 2em
+  &.btn
+    line-height: 2.5em
+
+input
+  line-height: 2em
+  padding: .5em
+  border: 0
+  width: 100%
+
+p
+  line-height: 1.3em
+
+.margin-bottom
+  margin-bottom: .5em
+
+.margin-top
+  margin-top: .5em
+
+.padding
+  padding: .5em
+
+.padding-bottom
+  padding-bottom: .5em
+
+.padding-top
+  padding-top: .5em
+
+.padding-2x
+  padding: 1em
+
+.padding-bottom-2x
+  padding-bottom: 1em
+
+.padding-top-2x
+  padding-top: 1em
+
+.margin-bottom-2x
+  margin-bottom: 1em
+
+.margin-top-2x
+  margin-top: 1em
+
+.margin-bottom-3x
+  margin-bottom: 2em
+
+.margin-top-3x
+  margin-top: 2em
+
+.padding-bottom-2x
+  padding-bottom: 1em
+
+.padding-top-2x
+  padding-top: 1em
+
+.unstyled a,
+a.unstyled
+  text-decoration: none
+
+.block
+  display: block
+
+.arrow-down-black
+  +arrow(black, 1em)
+
+//*****************
+// Sidebar panel
+//*****************
+
+.outer-wrap
+  background: $dark-grey
+  overflow: hidden
+  overflow-x: hidden
+  position: absolute
+  width: 100%
+
+.slide-pannel.effects 
+  +box-shadow(2px 0 2px rgba(0,0,0,.3))
+  +transition-delay(0s)
+  +transition-duration(.2s)
+  +transition-timing-function(ease)
+
+
+.slide-right 
+  +transform(translate3d(200px,0,0))
+
+.slide-pannel 
+  background: #fff
+  display: block
+  min-height: 100%
+  overflow: hidden
+  position: relative
+  width: 100%
+  z-index: 120
+
+.nav-basement 
+  background: transparent
+  display: block
+  font-size: 1.05em
+  position: absolute
+  left: 0
+  width: 200px
+  z-index: 100
+  +transform(translate3d(0,0,0))
+  li
+    padding: 1em
+
+
+.nav-basement-options a
+  color: white
+
+//*****************
+// END: Sidebar panel
+//*****************

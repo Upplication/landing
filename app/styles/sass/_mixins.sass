@@ -1,0 +1,16 @@
+@mixin arrow($color: black, $size: 1em, $direction: down)
+  position: relative
+  margin-bottom: $size
+
+  &:after
+    content: ' '
+    width: 0
+    height: 0
+    position: absolute
+    @if ($direction == down)
+      border-left: $size solid transparent
+      border-right: $size solid transparent
+      border-top: $size solid $color
+      bottom: -$size * 3/4
+      left: 50%
+      margin-left: -$size/2

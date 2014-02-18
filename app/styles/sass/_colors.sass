@@ -1,0 +1,32 @@
+$dark-grey: #333333
+$mine-shaft: #303030
+$jungle-green: #27a979
+$dove-gray: #646464
+
+//[Color name] [Color] [Text-color]
+$color-list: ( dark-grey #333333, cwhite #FFFFFF, cblack #000000, chateau-green #47AC65 #fff, alabaster #F9F9F9, mine-shaft #303030, dove-gray #646464)
+$links-color-list: ( dark-grey #FFFFFF, cwhite #000)
+$selector: ()
+
+@each $item in $color-list
+  $class-name: nth($item, 1)
+  $color: nth($item, 2)
+
+  #{unquote('.#{$class-name}')}
+    color: $color
+  #{unquote('.bg-#{$class-name}')}
+    background-color: $color
+    @if (length($item) == 3)
+      color: nth($item, 3)
+    @else
+      color: invert($color)
+
+@each $item in $links-color-list
+  $class-name: nth($item, 1)
+  $color: nth($item, 2)
+
+  #{unquote('.#{$class-name} a')}
+    background-color: $color
+  #{unquote('.bg-#{$class-name} a')}
+    color: $color
+

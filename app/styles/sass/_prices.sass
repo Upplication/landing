@@ -1,0 +1,13 @@
+$total-columns: 14 // 12 columns
+$column-width: 4em // columns are 4em wide
+$gutter-width: 1em // with 1em gutters
+$grid-padding: 1em // and 1em padding on the grid container
+
+
+#prices
+  font-size: 10px
+  @include container
+  .col1
+    @include span-columns(1 omega,14)
+  .col2
+    @include span-columns(1 omega,14)

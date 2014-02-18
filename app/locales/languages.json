@@ -1,0 +1,14 @@
+{
+  "codes": [
+    {
+      "language_name": "English",
+      "language_country" : "en_EN",
+      "language_short_code": "Eng"
+    },
+    {
+      "language_name": "Español",
+      "language_country" : "es_ES",
+      "language_short_code": "Esp"
+    }
+  ]
+}

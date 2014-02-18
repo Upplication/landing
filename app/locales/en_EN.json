@@ -1,0 +1,24 @@
+{
+  "home": {
+    "_url": "/build-your-app/",
+    "_template": "home",
+    "_meta_title": "Create the app of your business",
+    "_meta_description": "Description tag",
+    "test_free": "Test for free 30 days"
+  },
+  "prices": {
+    "_url": "/prices/",
+    "_template": "prices",
+    "_meta_title": "Prices page",
+    "_meta_description": "Description tag",
+    "asdasd": "Your app is your business"
+  },
+
+  "apps": {
+    "_url": "/apps-eng/",
+    "_template": "apps",
+    "_meta_title": "Apps files- Upplication",
+    "_meta_description": "Description tag"
+  }
+
+}

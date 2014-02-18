@@ -1,0 +1,25 @@
+{
+  "home": {
+    "_url": "/",
+    "_template": "home",
+    "_meta_title": "Crea la app de tu negocio",
+    "_meta_description": "Description tag",
+    "test_free": "Pruebalo gratis 30 días"
+
+  },
+  "prices": {
+    "_url": "/precios/",
+    "_template": "prices",
+    "_meta_title": "Página de precios",
+    "_meta_description": "Description tag",
+    "asdasd": "Tu app es tu negocio"
+  },
+  "apps": {
+    "_url": "/apps/",
+    "_template": "apps",
+    "_meta_title": "Página de apps",
+    "_meta_description": "Description tag",
+    "title": "Apps Archivos - Upplication"
+  }
+
+}
