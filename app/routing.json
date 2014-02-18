@@ -1,0 +1,14 @@
+{
+    "home": {
+        "en_EN": "/build-your-app/",
+        "es_ES": "/"
+    },
+    "prices": {
+        "en_EN": "/prices/",
+        "es_ES": "/precios/"
+    },
+    "apps": {
+        "en_EN": "/apps-eng/",
+        "es_ES": "/apps/"
+    }
+}
