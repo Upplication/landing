@@ -18,18 +18,19 @@ DEVELOPMENT
 `grunt server`
 
 Starts development environment:
-* Watch changes in sass, jade -> compile
-* live reload browser
+* Watch changes in sass, jade, ... folders and compiles if it is necessary
+* Browser live's reload 
 
 DEPLOYMENT
 --------
 `grunt build`
 
 Builds the project:
-* Unify/minify js & css
+Optimization for distribution.
 
 DOCUMENTATION
 --------
+This is a quick reference that aims to help you to learn how to add new languages and views on this project.
 
 ## Add a new view
 1. *URI definition*: 
@@ -42,7 +43,9 @@ DOCUMENTATION
 
 3. *Adding styles*: 
 
-    Create: `app/styles/sass/[view_name].sass` using `app/styles/sass/_foo.sass` schema. Add sass file to `app/styles/sass/main.sass`
+    - Create: `app/styles/sass/[view_name].sass` using `app/styles/sass/_foo.sass` schema. 
+
+    - Include your new sass file in `app/styles/sass/main.sass`
 
 4. *Add translations*: 
 
