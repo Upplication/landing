@@ -1,49 +1,49 @@
-Upplication landing page
-=======
+INSTALLATION
+--------
+Clone this repo and install the dependencies:
 
-TODO: New Upplication Landing Page.
-This is project builds an static and internationalized page.
+* [nodejs](http://nodejs.org/)
+* [bower](http://bower.io/)
+* [ruby](https://www.ruby-lang.org/)
+* [sass](http://sass-lang.com/)
+* [susy](http://susy.oddbird.net/)
+* [Compass Core](http://compass-style.org/install/)
+* [grunt-cli](http://gruntjs.com/getting-started)
+* [Bower](http://bower.io/)
+* Install node dependencies -- `npm install`
+* Install project dependencies -- `bower install`
 
-Requirements
-============
-grunt
-bower
-ruby
-sass
- * Compass
- * Sussy
+DEVELOPMENT
+--------
+`grunt server`
 
-Install
-============
+Starts development environment:
+* Watch changes in sass, jade -> compile
+* live reload browser
 
-HOW TO
-============
-TODO:
-Add a new view
-------------
-Note: you don't need to follow this process in order to link external resources (blog, youtube videos, etc.) using the language file.
+DEPLOYMENT
+--------
+`grunt build`
 
-* URI
-Update: urls.json
+Builds the project:
+* Unify/minify js & css
 
-* Template
-Create: views/[view_name].jade
+# How to
 
-* Styles
-Create: styles/sass/[view_name].sass using styles/sass/_foo.sass schema
-Add sass file to main.sass
 
-* Localization
-Update all: locales/[contry_lang].json schema in locales/_foo.json
+## Add a new view
+1. *URI definition*: Update: urls.json
+2. *Adding template*: Create: views/[view_name].jade
+3. *Adding styles*: Create: styles/sass/[view_name].sass using styles/sass/_foo.sass schema. Add sass file to main.sass
+4. *Add translations*: Update all: locales/[contry_lang].json schema in locales/_foo.json
+
 Notes:
-  - Do not overwrite any other URL (you can check the languages files or the auto-generated routing.json file)
-  - All de variable starting with "_" are mandatory
 
-* Links
-Create a link using $.{section._url} translation
+* You don't need to follow this process in order to link external resources (blog, youtube videos, etc.) using the language file.
+* Do not overwrite any other URL (you can check the languages files or the auto-generated routing.json file)
+* All de variable starting with "_" are mandatory
+* Links: To include links use the internationalized variables like `$.{section._url}` ex. #.{home._url}
 
-New language
--------------------
-Update: locales/languages.json adding the new language
-
-Add the translation file: locales/[country_language].json
+##New language
+1. *Add language*: Update: locales/languages.json adding the new language
+2. *Add the translation file*: Create: locales/[country_language].json
