@@ -48,9 +48,11 @@ html.no-js
                     include footer
 
     // build:js({.tmp,app}) scripts/scripts.js
+    // bower:js
     script(src='/bower_components/zepto/zepto.min.js')
     //-script(src='/bower_components/zeptojs/src/touch.js')
     script(src='/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js')
+    // endbower
     script(src='/scripts/app.js')
     // endbuild
 

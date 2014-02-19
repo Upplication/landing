@@ -19,6 +19,10 @@
     "_template": "apps",
     "_meta_title": "Apps files- Upplication",
     "_meta_description": "Description tag"
+  },
+  "external": {
+    "blog": "/blog-english",
+    "dashboard": "http://dashboard.upplication.com"
   }
 
 }

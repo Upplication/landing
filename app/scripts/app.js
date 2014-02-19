@@ -31,10 +31,10 @@
 //      console.log("tap");
 //      $(".slide-pannel.effects").toggleClass("slide-right")
 //    });
-
-    $("a").tap(function(){
-      $(this).click();
-    });
+//
+//    $("a").tap(function(){
+//      $(this).click();
+//    });
 
     $('.open-popup-link').magnificPopup({
       type:'inline',

@@ -29,7 +29,7 @@ module.exports = function (grunt) {
   }
 
   //SETUP JADE DINAMICALLY
-  var views = grunt.file.readJSON('./app/views.json');
+  var views = grunt.file.readJSON('./app/urls.json');
   var langs = grunt.file.readJSON('./app/locales/languages.json');
 
   var jade_config = {};
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
             localeExtension: true
           },
           pretty: true,
-          data: {langs:grunt.file.readJSON("app/locales/languages.json")}
+          data: {langs: grunt.file.readJSON("app/locales/languages.json")}
         },
         files: {}
       };
@@ -195,15 +195,21 @@ module.exports = function (grunt) {
     useminPrepare: {
       html: '.tmp/index.html',
       options: {
+        root: 'app',
+        staging: '.tmp-dist',
         dest: '<%= yeoman.dist %>'
       }
     },
     usemin: {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
-      js: ['<%= yeoman.dist %>/scripts/{,*/}*.js'],
+      js: '<%= yeoman.dist %>/scripts/{,*/}*.js',
       options: {
-        dirs: ['<%= yeoman.dist %>']
+        dirs: ['<%= yeoman.dist %>'],
+        assetsDirs: '<%= yeoman.dist %>/images',
+        patterns: {
+          js: [['{,*/}*.{png,jpg,jpeg,gif,webp}', 'Replacing reference to images in js']]
+        }
       }
     },
     imagemin: {
@@ -278,7 +284,7 @@ module.exports = function (grunt) {
               'bower_components/**/*',
               'images/{,*/}*.{jpg,gif,png,webp}',
               'scripts/{,*/}*.js',
-              'styles/fonts/*'
+              'fonts/{,*/}*'
             ]
           }
         ]
@@ -307,8 +313,8 @@ module.exports = function (grunt) {
     uglify: {
       dist: {
         files: {
-          '<%= yeoman.dist %>/scripts/scripts.js': [
-            '<%= yeoman.dist %>/scripts/scripts.js'
+          '<%= yeoman.dist %>/scripts/app.js': [
+            '<%= yeoman.dist %>/scripts/app.js'
           ]
         }
       }
@@ -361,7 +367,7 @@ module.exports = function (grunt) {
     'uglify',
     'rev',
     'usemin',
-    'imagemin'
+    'imagemin:dist'
   ].concat(jade.dist));
 
   grunt.registerTask('default', [
@@ -369,7 +375,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('setLangs', function (env) {
-    var views = grunt.file.readJSON('./app/views.json');
+    var views = grunt.file.readJSON('./app/urls.json');
     var langs = grunt.file.readJSON('./app/locales/languages.json');
     if(env === "dist"){
       folder = "dist";

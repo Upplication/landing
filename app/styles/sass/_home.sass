@@ -1,12 +1,14 @@
 #content.home
 
   ////Mobile layout
-  @include at-breakpoint($mobile-columns $mobile-bp)
+  ///******************************************************
+  @include at-breakpoint($mobile-columns $desktop-bp)
+
 
     #register
       @include container
-      background-image: url('/images/header_mobile.png')
-      background-width: 100%
+      background-image: url('/images/mobile/header.png')
+      background-size: 100%
 
     input
       text-align: center
@@ -22,9 +24,9 @@
         color: #fff
         +opacity(.7)
 
-    .col
-      @include span-columns(2,8)
-      @include nth-omega(4n)
+    //.col
+    //  @include span-columns(2,8)
+    //  @include nth-omega(4n)
 
   img.screenshot-devices
     width: 80%
@@ -54,17 +56,38 @@
     a
       color: #FFF
 
+
   $column-width   : 12em
   //Tablet layout
-  @include at-breakpoint($mobile-bp $tablet-columns $tablet-bp)
+  ///******************************************************
+  @include at-breakpoint($mobile-bp $tablet-columns)
 
-    .col
-      @include span-columns(4,12)
-      @include nth-omega(3n)
+
+    //.col
+    //  @include span-columns(4,12)
+    //  @include nth-omega(3n)
 
   $column-width   : 16em
   //Desktop layout
-  @include at-breakpoint($tablet-bp $desktop-columns)
+  ///******************************************************
+  @include at-breakpoint($desktop-bp $desktop-columns)
+    a.logo
+      text-align: left
+
+    #register
+      @include container
+      min-height: 21em
+      background-image: url('/images/header.png')
+      background-size: 100%
+
+      input
+        @include span-columns(1,4)
+        &:last-child
+          @include span-columns(1 omega,4)
+
+
+    #test-free
+      display: none
 
     .col
       @include span-columns(4,16)

@@ -1,23 +1,76 @@
 header
-  .logo
-    background: none
-    img
-      max-height: 2.7em
-
-  .icon-list
-    position: absolute
-    left: 1em
-    top: .8em
-    font-size: 1.5em
-
-    //+border-radius(9999px)
-
-  .main-menu
-    display: none
-
-  @include container
-
-  a
-    text-decoration: none
+  //Common layout
+  ///******************************************************
 
 
+  //Mobile layout
+  ///******************************************************
+  @include at-breakpoint($mobile-columns $desktop-bp)
+    a.logo
+      text-align: center
+      display: block
+      background: none
+
+      img
+        max-height: 2.6em
+
+
+    .icon-list
+      position: absolute
+      left: 1em
+      top: .8em
+      font-size: 1.5em
+
+      //+border-radius(9999px)
+
+    .main-menu
+      display: none
+
+    @include container
+
+    a
+      text-decoration: none
+
+  //Desktop layout
+  ///******************************************************
+  @include at-breakpoint($desktop-bp $desktop-columns)
+    min-height: 5em
+    a.logo
+      text-align: left
+      padding-left: 1em
+
+      img
+        padding-top: .5em
+        max-height: 2.8em
+
+    .icon-list
+      display: none
+
+    .main-menu
+      float: right
+      margin-top: .5em
+      margin-right: 1em
+
+      ul,li
+        display: inline-block
+
+
+      li
+        margin-right: 1em
+
+      #sections,
+      #change-lang
+        margin-right: 1.5em
+
+      #change-lang
+        li
+          margin-right: .25em
+          border-right: 1px solid $white
+          padding-right: .55em
+          &:last-child
+            border: 0
+
+    .btn
+      display: inline-block
+      line-height: 1em
+      padding: 1em

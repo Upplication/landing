@@ -20,6 +20,11 @@
     "_meta_title": "Página de apps",
     "_meta_description": "Description tag",
     "title": "Apps Archivos - Upplication"
+  },
+  "external": {
+    "blog": "/blog",
+    "dashboard": "http://dashboard.upplication.com"
   }
+
 
 }

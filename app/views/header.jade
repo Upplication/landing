@@ -1,16 +1,16 @@
-
 header.padding-top
-    a.logo.acenter.block.margin-bottom(href='#{$.home._url}')
+    a.logo.margin-bottom(href='#{$.home._url}')
         img(src="/images/upplication.png")
+
     span.icon-list
-    nav.main-menu
-        ul.uppercase
+
+    nav.main-menu.uppercase.unstyled
+
+        ul#sections
             include header-links
 
         ul#change-lang
-            li(data-lang="en_EN")
-                a(href="/build-your-app") ENG
-            li(data-lang="es_ES")
-                a(href="/") ES
-
-
+            each lang in langs.codes
+                li(data-lang="#{lang.language_country}")
+                    a(href="#{lang.home}") #{lang.language_short_code}
+        a.btn.bg-jade.unstyled(href="#register") Prueba gratis
