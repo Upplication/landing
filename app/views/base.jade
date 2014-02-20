@@ -17,9 +17,9 @@ html.no-js
         meta(name='viewport', content='width=device-width')
 
         // build:css(.tmp, app) styles/main.css
-        link(rel='stylesheet', href='/styles/main.css')
-        link(rel='stylesheet', href='/fonts/style.css')
-        link(rel='stylesheet', href='/bower_components/magnific-popup/dist/magnific-popup.css')
+        link(rel='stylesheet', href='#{BASE_PATH}/styles/main.css')
+        link(rel='stylesheet', href='#{BASE_PATH}/fonts/style.css')
+        link(rel='stylesheet', href='#{BASE_PATH}/bower_components/magnific-popup/dist/magnific-popup.css')
         // endbuild
 
         // Place favicon.ico and apple-touch-icon.png in the root directory
@@ -49,11 +49,11 @@ html.no-js
 
     // build:js({.tmp,app}) scripts/scripts.js
     // bower:js
-    script(src='/bower_components/zepto/zepto.min.js')
+    script(src='#{BASE_PATH}/bower_components/zepto/zepto.min.js')
     //-script(src='/bower_components/zeptojs/src/touch.js')
-    script(src='/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js')
+    script(src='#{BASE_PATH}/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js')
     // endbower
-    script(src='/scripts/app.js')
+    script(src='#{BASE_PATH}/scripts/app.js')
     // endbuild
 
 

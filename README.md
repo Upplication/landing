@@ -25,8 +25,15 @@ DEPLOYMENT
 --------
 `grunt build`
 
+If you are going to upload the project to a folder different than root (/), you can use a parameter called `path` with the destination root path. Example `grunt build --path="/static/web"` to make the static files points to the proper path.
+
 Builds the project:
 Optimization for distribution.
+
+UPDATE GH-PAGES
+--------
+Run this: `grunt upplication --path="https://raw.github.com/Upplication/landing/gh-pages"`
+Go to: [http://upplication.github.io/landing](http://upplication.github.io/landing)
 
 DOCUMENTATION
 --------

@@ -17,6 +17,9 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   require('time-grunt')(grunt);
 
+
+  var BASE_PATH = grunt.option( "path" )? grunt.option( "path" ): "";
+
   // configurable paths
   var yeomanConfig = {
     app: 'app',
@@ -38,7 +41,7 @@ module.exports = function (grunt) {
   //TODO: For {"dist", "dev"}
   var tasks = {
     dist: {
-      name: "dist",
+      name: "dist"
 
     }
   };
@@ -59,7 +62,10 @@ module.exports = function (grunt) {
             localeExtension: true
           },
           pretty: true,
-          data: {langs: grunt.file.readJSON("app/locales/languages.json")}
+          data: {
+            BASE_PATH: BASE_PATH,
+            langs: grunt.file.readJSON("app/locales/languages.json")
+          }
         },
         files: {}
       };
@@ -232,7 +238,7 @@ module.exports = function (grunt) {
             dest: '.tmp/images'
           }
         ]
-      },
+      }
     },
     svgmin: {
       dist: {
@@ -332,7 +338,13 @@ module.exports = function (grunt) {
         }
       }
     },
-    jade: jade_config
+    jade: jade_config,
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    }
   });
 
 
@@ -408,6 +420,13 @@ module.exports = function (grunt) {
       }
     });
   });
+
+  grunt.registerTask('upplication', [
+    'build',
+    'gh-pages'
+  ]);
+
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.loadNpmTasks('grunt-jade-i18n-extended');
 };

@@ -1,4 +1,8 @@
 #content.home
+  & > section
+    & > div,
+    & > article
+      @include container
 
   ////Mobile layout
   ///******************************************************
@@ -59,23 +63,21 @@
 
   $column-width   : 12em
   //Tablet layout
-  ///******************************************************
-  @include at-breakpoint($mobile-bp $tablet-columns)
+  @include at-breakpoint($mobile-bp $tablet-columns $tablet-bp)
 
 
-    //.col
-    //  @include span-columns(4,12)
-    //  @include nth-omega(3n)
+    .col
+      @include span-columns(4,12)
+      @include nth-omega(3n)
 
-  $column-width   : 16em
+  $column-width   : 4.5em
   //Desktop layout
   ///******************************************************
-  @include at-breakpoint($desktop-bp $desktop-columns)
+  @include at-breakpoint($tablet-bp $desktop-columns)
     a.logo
       text-align: left
 
     #register
-      @include container
       min-height: 21em
       background-image: url('/images/header.png')
       background-size: 100%
