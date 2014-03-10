@@ -38,11 +38,13 @@ html.no-js
         .outer-wrap
 
             #main-container.slide-pannel.effects
-                .header-container.bg-dark-grey.white
+                .header-container
                     include header
 
                 #content(class="#{$.home._template}")
                     block content
+
+                #dark-layout
 
                 .footer-container
                     include footer

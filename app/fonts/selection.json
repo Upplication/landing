@@ -21,33 +21,8 @@
 				"name": "play",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 4,
 			"iconIdx": 0
-		},
-		{
-			"icon": {
-				"paths": [
-					"M0 0h256v256h-256zM384 64h640v128h-640zM0 384h256v256h-256zM384 448h640v128h-640zM0 768h256v256h-256zM384 832h640v128h-640z"
-				],
-				"tags": [
-					"list",
-					"bullet",
-					"ul",
-					"todo",
-					"menu"
-				],
-				"grid": 16
-			},
-			"properties": {
-				"id": 180,
-				"order": 2,
-				"prevSize": 32,
-				"code": 58881,
-				"name": "list",
-				"ligatures": ""
-			},
-			"setIdx": 1,
-			"iconIdx": 1
 		},
 		{
 			"icon": {
@@ -62,14 +37,14 @@
 			},
 			"properties": {
 				"id": 442,
-				"order": 3,
+				"order": 2,
 				"prevSize": 32,
 				"code": 58882,
 				"name": "html5",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 442
+			"setIdx": 4,
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -85,14 +60,14 @@
 			},
 			"properties": {
 				"id": 408,
-				"order": 4,
+				"order": 3,
 				"prevSize": 32,
 				"code": 58883,
 				"name": "android",
 				"ligatures": ""
 			},
-			"setIdx": 0,
-			"iconIdx": 408
+			"setIdx": 4,
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -106,14 +81,38 @@
 			},
 			"properties": {
 				"id": 406,
-				"order": 5,
+				"order": 4,
 				"prevSize": 32,
 				"code": 58884,
 				"name": "apple",
 				"ligatures": ""
 			},
+			"setIdx": 4,
+			"iconIdx": 4
+		},
+		{
+			"icon": {
+				"paths": [
+					"M819.2 460.8h-614.4c-28.262 0-51.2 22.938-51.2 51.2s22.938 51.2 51.2 51.2h614.4c28.314 0 51.2-22.938 51.2-51.2s-22.886-51.2-51.2-51.2zM204.8 358.4h614.4c28.314 0 51.2-22.938 51.2-51.2s-22.886-51.2-51.2-51.2h-614.4c-28.262 0-51.2 22.938-51.2 51.2s22.938 51.2 51.2 51.2zM819.2 665.6h-614.4c-28.262 0-51.2 22.886-51.2 51.2s22.938 51.2 51.2 51.2h614.4c28.314 0 51.2-22.886 51.2-51.2s-22.886-51.2-51.2-51.2z"
+				],
+				"tags": [
+					"list",
+					"menu",
+					"options",
+					"lines"
+				],
+				"grid": 20
+			},
+			"properties": {
+				"id": 150,
+				"order": 5,
+				"prevSize": 20,
+				"code": 58881,
+				"name": "list",
+				"ligatures": ""
+			},
 			"setIdx": 0,
-			"iconIdx": 406
+			"iconIdx": 150
 		}
 	],
 	"height": 1024,

@@ -1,8 +1,29 @@
-footer
+.footer-container
   background-color: $mine-shaft
+  padding-top: 1em
+
+  footer
+    font-size: 0
+    > ul
+      font-weight: 400
+      > li
+        margin-bottom: 2em
+      span
+        padding: .5em
+        display: inline-block
+        font-size: .9rem
+
+
+  
   color: white
-  li
-    text-transform: uppercase
+  li li
+    font-weight: 300
+    width: 50%
+    font-size: .9rem
+    padding: .5em
+    display: inline-block
+    &:last-child
+      margin-bottom: 1em
   a
     color: white
     text-decoration: none
@@ -10,7 +31,10 @@ footer
     color: $jungle-green
 
   hr
-    width: 90%
+    width: 100%
     margin: 0 auto
     border-color: $dove-gray
     margin: 1em 0
+  .sign
+    font-size: 14px
+    margin-top: 1em

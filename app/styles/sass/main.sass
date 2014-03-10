@@ -15,17 +15,7 @@
 @import "colors"
 @import "base"
 
-#main-container
-
-
-  @include at-breakpoint($mobile-columns $mobile-bp)
-    font-size: $mobile-font-size
-  @include at-breakpoint($mobile-bp $tablet-columns $tablet-bp)
-    font-size: $tablet-font-size
-  @include at-breakpoint($tablet-bp $desktop-columns)
-    font-size: $desktop-font-size
-
-  @import "header"
-  @import "footer"
-  @import "home"
-  @import "prices"
+@import "header"
+@import "footer"
+@import "home"
+@import "prices"

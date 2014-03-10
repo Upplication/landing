@@ -1,8 +1,14 @@
+li.menu_txt
+  p.uppercase.pastel-green Menu
 li
     a(href='#{$.prices._url}') Precio
 li
     a(href='#{$.apps._url}') Apps
 li
     a(href='#{$.external.blog}') Blog
-li
+li#login_btn
     a(href='#{$.external.dashboard}') Entrar
+
+each lang in langs.codes
+  li(data-lang="#{lang.language_country}", class="lang")
+      a(href="#{lang.home}") #{lang.language_name}
