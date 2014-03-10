@@ -16,7 +16,7 @@ html.no-js
         meta(name='description', content='#{description}')
         meta(name='viewport', content='width=device-width')
 
-        // build:css(.tmp, app) styles/main.css
+        // build:css({.tmp, app}) styles/main.css
         link(rel='stylesheet', href='#{BASE_PATH}/styles/main.css')
         link(rel='stylesheet', href='#{BASE_PATH}/fonts/style.css')
         link(rel='stylesheet', href='#{BASE_PATH}/bower_components/magnific-popup/dist/magnific-popup.css')
@@ -49,10 +49,10 @@ html.no-js
                 .footer-container
                     include footer
 
-    // build:js({.tmp,app}) scripts/scripts.js
+    //-script(src='/bower_components/zeptojs/src/touch.js')
+    // build:js({.tmp,app}) scripts/app.js
     // bower:js
     script(src='#{BASE_PATH}/bower_components/zepto/zepto.min.js')
-    //-script(src='/bower_components/zeptojs/src/touch.js')
     script(src='#{BASE_PATH}/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js')
     // endbower
     script(src='#{BASE_PATH}/scripts/app.js')

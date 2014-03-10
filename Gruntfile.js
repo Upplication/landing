@@ -201,8 +201,6 @@ module.exports = function (grunt) {
     useminPrepare: {
       html: '.tmp/index.html',
       options: {
-        root: 'app',
-        staging: '.tmp-dist',
         dest: '<%= yeoman.dist %>'
       }
     },
@@ -307,8 +305,6 @@ module.exports = function (grunt) {
       dist: [
         'copy:styles',
         'svgmin',
-        'htmlmin',
-        'compass',
         'imagemin:dist'
       ]
     },
@@ -325,7 +321,7 @@ module.exports = function (grunt) {
       dist: {                   // Target
         options: {              // Target options
           sassDir: '<%= yeoman.app %>/styles/sass',
-          cssDir: '<%= yeoman.dist %>/css',
+          cssDir: '<%= yeoman.dist %>/styles',
           environment: 'production',
           require: 'susy'
         }
@@ -365,18 +361,24 @@ module.exports = function (grunt) {
     ]);
   });
 
-  grunt.registerTask('build', [
-    'clean:dist',
+  var myTasks = [
+    
+    'htmlmin',
+    'compass',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
     'setLangs:dist',
     'copy:dist',
     'uglify',
-    'rev',
     'usemin',
+    'rev',
+    
     'imagemin:dist'
-  ].concat(jade.dist));
+  ];
+
+
+  grunt.registerTask('build', ['clean:dist'].concat(jade.dist.concat(myTasks)));
 
   grunt.registerTask('default', [
     'server'
