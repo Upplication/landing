@@ -371,10 +371,8 @@ module.exports = function (grunt) {
     'setLangs:dist',
     'copy:dist',
     'uglify',
-    'usemin',
     'rev',
-    
-    'imagemin:dist'
+    'usemin'
   ];
 
 
