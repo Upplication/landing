@@ -199,7 +199,7 @@ module.exports = function (grunt) {
       }
     },
     useminPrepare: {
-      html: '.tmp/index.html',
+      html: '.tmp/{,*/}*.html',
       options: {
         dest: '<%= yeoman.dist %>'
       }
@@ -207,13 +207,11 @@ module.exports = function (grunt) {
     usemin: {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
-      js: '<%= yeoman.dist %>/scripts/{,*/}*.js',
+
+
       options: {
-        dirs: ['<%= yeoman.dist %>'],
-        assetsDirs: '<%= yeoman.dist %>/images',
-        patterns: {
-          js: [['{,*/}*.{png,jpg,jpeg,gif,webp}', 'Replacing reference to images in js']]
-        }
+        dirs: ['<%= yeoman.dist %>']
+
       }
     },
     imagemin: {
@@ -263,7 +261,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: '.tmp',
-            src: ['*.html', 'views/*.html'],
+            src: ['{,*/}*.html', 'views/{,*/}*.html'],
             dest: '<%= yeoman.dist %>'
           }
         ]
@@ -308,6 +306,18 @@ module.exports = function (grunt) {
         'imagemin:dist'
       ]
     },
+      ngmin: {
+          dist: {
+              files: [
+                  {
+                      expand: true,
+                      cwd: '<%= yeoman.dist %>/scripts',
+                      src: '*.js',
+                      dest: '<%= yeoman.dist %>/scripts'
+                  }
+              ]
+          }
+      },
     uglify: {
       dist: {
         files: {
@@ -340,7 +350,20 @@ module.exports = function (grunt) {
         base: 'dist'
       },
       src: ['**']
-    }
+    },
+      cssmin: {
+          // By default, your `index.html` <!-- Usemin Block --> will take care of
+          // minification. This option is pre-configured if you do not wish to use
+          // Usemin blocks.
+          // dist: {
+          //   files: {
+          //     '<%= yeoman.dist %>/styles/main.css': [
+          //       '.tmp/styles/{,*/}*.css',
+          //       '<%= yeoman.app %>/styles/{,*/}*.css'
+          //     ]
+          //   }
+          // }
+      }
   });
 
 
@@ -362,23 +385,24 @@ module.exports = function (grunt) {
   });
 
   var myTasks = [
-    
+      'setLangs:dist',
     'htmlmin',
     'compass',
+
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
-    'setLangs:dist',
+    'concat',
     'copy:dist',
+    'ngmin',
+    'cssmin',
     'uglify',
-    'usemin',
     'rev',
-    
+    'usemin',
     'imagemin:dist'
   ];
 
-
-  grunt.registerTask('build', ['clean:dist'].concat(jade.dist.concat(myTasks)));
+    grunt.registerTask('build', ['clean:dist'].concat(jade.dist.concat(myTasks)));
 
   grunt.registerTask('default', [
     'server'
