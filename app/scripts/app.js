@@ -15,13 +15,16 @@
       console.log(data)
       var template = $("body").attr("id");
 
-      var lang_elems = $("#change-lang li"), lang;
+      var lang_elems = $(".change-lang li[data-lang]"), lang;
       for(var i=0 ; i < lang_elems.length; i++){
         lang = $(lang_elems[i]).data("lang");
 
-        $("#change-lang li[data-lang='" + lang + "'] a").attr("href", data[template][lang]);
+        $(".change-lang li[data-lang='" + lang + "'] a").attr("href", data[template][lang]);
       }
     });
+
+    
+    $(".change-lang li[data-lang='"+$("body").attr("data-lang")+"']").css("font-weight","600");
 
     $(".icon-list").on("click",function(){
       console.log("click");

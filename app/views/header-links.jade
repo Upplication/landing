@@ -1,13 +1,13 @@
 li.menu_txt
-  p.uppercase.pastel-green Menu
+  p.uppercase.pastel-green #{header.menu}
 li
-    a(href='#{$.prices._url}') Precio
+    a(href='#{$.external.pricing.url}') #{$.external.pricing.anchor}
 li
-    a(href='#{$.apps._url}') Apps
+    a(href='#{$.external.apps.url}') #{$.header.nav.apps}
 li
-    a(href='#{$.external.blog}') Blog
-li#login_btn
-    a(href='#{$.external.dashboard}') Entrar
+    a(href='#{$.external.blog.url}') #{$.external.blog.anchor}
+li.login_btn
+    a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
 
 each lang in langs.codes
   li(data-lang="#{lang.language_country}", class="lang")

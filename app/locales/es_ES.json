@@ -1,30 +1,167 @@
 {
+  "header": {
+    "menu": "menu",
+    "nav": {
+      "apps": "Apps"
+
+    }
+  },
+  "footer": {
+    "company": "Compañía",
+    "community": "Comunidad",
+    "media": "Medios y redes",
+    "signature": "Designed and assembled in Madrid"
+  },
   "home": {
     "_url": "/",
     "_template": "home",
-    "_meta_title": "Crea la app de tu negocio",
-    "_meta_description": "Description tag",
-    "test_free": "Pruebalo gratis 30 días"
-
-  },
-  "prices": {
-    "_url": "/precios/",
-    "_template": "prices",
-    "_meta_title": "Página de precios",
-    "_meta_description": "Description tag",
-    "asdasd": "Tu app es tu negocio"
-  },
-  "apps": {
-    "_url": "/apps/",
-    "_template": "apps",
-    "_meta_title": "Página de apps",
-    "_meta_description": "Description tag",
-    "title": "Apps Archivos - Upplication"
+    "_name": "Inicio",
+    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+    "_meta_description": "Upplication® Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_canonical": "http://www.upplication.com",
+    "register": {
+      "claim": "Tu negocio, tu app.",
+      "arguments": "Crea la app de tu negocio, sin programar, fácil y rápido.",
+      "app_name": "Nombre del negocio",
+      "email": "E-mail",
+      "password": "Contraseña",
+      "call_to_action": "Probar gratis"
+    },
+    "multidevice": {
+      "title": "App y web multidispositivo",
+      "text": "Al hacer una aplicación móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones.",
+      "devices_alt": "Apps para todos los dispositivos",
+      "html5_alt": "Crea tu app con HTML5",
+      "android_alt": "Crea tu app con Android",
+      "ios_alt": "Crea tu app con iOS"
+    },
+    "apps": {
+      "title": "Estas son algunas de nuestras apps",
+      "more": "more",
+      "bikers": {
+        "title": "Bikers",
+        "description": "Description bikers",
+        "link": "/loquesea1"
+      },
+      "welovesushy": {
+        "title": "We love susy",
+        "description": "Description we love sushy",
+        "link": "/loquesea2"
+      },
+      "educapp": {
+        "title": "Educapp",
+        "description": "Description educapp",
+        "link": "/loquesea3"
+      }
+    },
+    "testimonials": {
+      "title": "¿Qué dicen de nosotros?",
+      "client1": {
+        "cite": "Quote 1",
+        "name": "Name1"
+      },
+      "client2": {
+        "cite": "Quote 2",
+        "name": "Name 2"
+      },
+      "client3": {
+        "cite": "Quote 3",
+        "name": "Name3"
+      }
+    },
+    "register_inline": {
+      "title": "Regístrate y empieza a crear tu app gratis",
+      "app_name": "Nombre del negocio",
+      "email": "E-mail",
+      "password": "Contraseña",
+      "call_to_action": "Probar gratis"
+    }
   },
   "external": {
-    "blog": "/blog",
-    "dashboard": "http://dashboard.upplication.com"
+    "blog": {
+      "anchor": "Blog",
+      "url": "/blog"
+    },
+    "manifest": {
+      "anchor": "Manifiesto",
+      "url": "a"
+    },
+    "team": {
+      "anchor": "Equipo",
+      "url": "a"
+    },
+    "features": {
+      "anchor": "Características",
+      "url": "a"
+    },
+    "partners": {
+      "anchor": "Hazte distribuidor",
+      "url": ""
+    },
+    "jobs": {
+      "anchor": "Empleo",
+      "url": ""
+    },
+    "tos": {
+      "anchor": "Condiciones legales",
+      "url": ""
+    },
+    "tutorials": {
+      "anchor": "Tutoriales",
+      "url": ""
+    },
+    "helpcenter": {
+      "anchor": "Centro de ayuda",
+      "url": ""
+    },
+    "breakfasts": {
+      "anchor": "Desayunos",
+      "url": ""
+    },
+    "apps": {
+      "anchor": "Ejemplos de apps",
+      "url": ""
+    },
+    "create_apps": {
+      "anchor": "Creamos tu app",
+      "url": ""
+    },
+    "pricing": {
+      "anchor": "Precios",
+      "url": ""
+    },
+    "media_kit": {
+      "anchor": "Mediakit",
+      "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
+    },
+    "youtube": {
+      "anchor": "Youtube",
+      "url": "http://youtube.com/upplication"
+    },
+    "twitter": {
+      "anchor": "Twitter",
+      "url": "http://www.twitter.com/upplication"
+    },
+    "linkedin": {
+      "anchor": "Linkedin",
+      "url": "http://www.linkedin.com/company/upplication?trk=hb_tab_compy_id_2851092"
+    },
+    "facebook": {
+      "anchor": "Facebook",
+      "url": "http://www.facebook.com/Upplication"
+    },
+    "googleplus": {
+      "anchor": "Google Plus",
+      "url": "https://plus.google.com/+Upplication?prsrc=5"
+    },
+    "instagram": {
+      "anchor": "Instagram",
+      "url": "http://www.instagram.com/upplication"
+    },
+    "dashboard": {
+      "anchor": "Entrar",
+      "url": "http://dashboard.upplication.com"
+    }
   }
-
-
 }

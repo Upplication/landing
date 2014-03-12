@@ -1,28 +1,165 @@
 {
+  "header": {
+    "menu": "menu",
+    "nav": {
+      "apps": "Apps"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "community": "Community",
+    "media": "Media and Networks",
+    "signature": "Designed and assembled in Madrid"
+  },
   "home": {
     "_url": "/build-your-app/",
     "_template": "home",
-    "_meta_title": "Create the app of your business",
+    "_name": "Home",
+    "_meta_title": "Create the app for your business",
     "_meta_description": "Description tag",
-    "test_free": "Test for free 30 days"
-  },
-  "prices": {
-    "_url": "/prices/",
-    "_template": "prices",
-    "_meta_title": "Prices page",
-    "_meta_description": "Description tag",
-    "asdasd": "Your app is your business"
-  },
-
-  "apps": {
-    "_url": "/apps-eng/",
-    "_template": "apps",
-    "_meta_title": "Apps files- Upplication",
-    "_meta_description": "Description tag"
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "register": {
+      "claim": "Your app, your business",
+      "arguments": "Create the app for your business, without coding, quick and easy.",
+      "app_name": "Name of the business",
+      "email": "Email",
+      "password": "Password",
+      "call_to_action": "Try it now"
+    },
+    "multidevice": {
+      "title": "App and multi-device site",
+      "text": "When you make a mobile app, a website adapted for computers, tablets and smartphones, is automatically created.",
+      "devices_alt": "Apps for all devices",
+      "html5_alt": "Create your app with HTML5",
+      "android_alt": "Create your app with Android",
+      "ios_alt": "Create your app with iOS"
+    },
+    "apps": {
+      "title": "These are some of our apps",
+      "more": "more",
+      "bikers": {
+        "title": "Bikers",
+        "description": "Description bikers",
+        "link": "/ loquesea1"
+      },
+      "welovesushy": {
+        "title": "We love susy",
+        "description": "Description sushy we love",
+        "link": "/loquesea2"
+      },
+      "educapp": {
+        "title": "Educapp",
+        "description": "Description educapp",
+        "link": "/loquesea3"
+      }
+    },
+    "testimonials": {
+      "title": "What do they say about us?",
+      "client1": {
+        "cite": "Quote 1",
+        "name": "Name1"
+      },
+      "client2": {
+        "cite": "Quote 2",
+        "name": "Name 2"
+      },
+      "client3": {
+        "cite": "Quote 3",
+        "name": "Name3 "
+      }
+    },
+    "register_inline": {
+      "title": "Sign in and start your app for free",
+      "app_name": "Name of the business",
+      "email": "Email",
+      "password": "Password",
+      "call_to_action": "Try it now"
+    }
   },
   "external": {
-    "blog": "/blog-english",
-    "dashboard": "http://dashboard.upplication.com"
+    "blog": {
+      "anchor": "Blog",
+      "url": "/blog"
+    },
+    "manifest": {
+      "anchor": "Manifesto",
+      "url": "a"
+    },
+    "team": {
+      "anchor": "Team",
+      "url": "a"
+    },
+    "features": {
+      "anchor": "Features",
+      "url": "a"
+    },
+    "partners": {
+      "anchor": "Become a Dealer",
+      "url": ""
+    },
+    "jobs": {
+      "anchor": "Careers",
+      "url": ""
+    },
+    "tos": {
+      "anchor": "Terms and Conditions",
+      "url": ""
+    },
+    "tutorials": {
+      "anchor": "Tutorials",
+      "url": ""
+    },
+    "helpcenter": {
+      "anchor": "Help Center",
+      "url": ""
+    },
+    "breakfasts": {
+      "anchor": "Breakfast",
+      "url": ""
+    },
+    "apps": {
+      "anchor": "App sambles",
+      "url": ""
+    },
+    "create_apps": {
+      "anchor": "We created your app",
+      "url": ""
+    },
+    "pricing": {
+      "anchor": "Pricing",
+      "url": ""
+    },
+    "media_kit": {
+      "anchor": "",
+      "url": ""
+    },
+    "youtube": {
+      "anchor": "Youtube",
+      "url": "http://youtube.com/upplication"
+    },
+    "twitter": {
+      "anchor": "Twitter",
+      "url": "http://www.twitter.com/upplication"
+    },
+    "linkedin": {
+      "anchor": "Linkedin",
+      "url": "http://www.linkedin.com/company/upplication?trk=hb_tab_compy_id_2851092"
+    },
+    "facebook": {
+      "anchor": "Facebook",
+      "url": "http://www.facebook.com/Upplication"
+    },
+    "googleplus": {
+      "anchor": "Google Plus",
+      "url": "https://plus.google.com/+Upplication?prsrc=5"
+    },
+    "instagram": {
+      "anchor": "Instagram",
+      "url": "http://www.instagram.com/upplication"
+    },
+    "dashboard": {
+      "anchor": "Login",
+      "url": "http://dashboard.upplication.com "
+    }
   }
-
 }

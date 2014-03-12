@@ -3,48 +3,52 @@ div
     
         ul
             li 
-                span Compañía
+                span #{footer.company}
                 ul
                     li
-                        a(href="") Manifiesto
+                        a(href="#{external.manifest.url}") #{external.manifest.anchor}
                     li
-                        a(href="") Equipo
+                        a(href="#{external.team.url}") #{external.team.anchor}
                     li
-                        a(href="") Empleo
+                        a(href="#{external.features.url}") #{external.features.anchor}
                     li
-                        a(href="") Condiciones legales
+                        a(href="#{external.partners.url}") #{external.partners.anchor}
                     li
-                        a(href="") Colaboradores
+                        a(href="#{external.jobs.url}") #{external.jobs.anchor}
+                    li
+                        a(href="#{external.tos.url}") #{external.tos.anchor}
             li 
-                span Comunidad
+                span #{footer.community}
                 ul
                     li
-                        a(href="") Preguntas frecuentes
+                        a(href="#{external.tutorials.url}") #{external.tutorials.anchor}
                     li
-                        a(href="") Vídeo tutoriales
+                        a(href="#{external.helpcenter.url}") #{external.helpcenter.anchor}
                     li
-                        a(href="") Creamos la app por ti
+                        a(href="#{external.breakfasts.url}") #{external.breakfasts.anchor}
+                    li
+                        a(href="#{external.apps.url}") #{external.apps.anchor}
+                    li
+                        a(href="#{external.create_apps.url}") #{external.create_apps.anchor}
             li 
-                span Medios y redes
+                span #{footer.media}
                 ul
                     li
-                        a(href="") Media
+                        a(href="#{external.youtube.url}") #{external.youtube.anchor}
                     li
-                        a(href="") Blog
+                        a(href="#{external.twitter.url}") #{external.twitter.anchor}
                     li
-                        a(href="") Youtube
+                        a(href="#{external.linkedin.url}") #{external.linkedin.anchor}
                     li
-                        a(href="") Twitter
+                        a(href="#{external.facebook.url}") #{external.facebook.anchor}
                     li
-                        a(href="") Linkedin
+                        a(href="#{external.instagram.url}") #{external.instagram.anchor}
                     li
-                        a(href="") RSS
+                        a(href="#{external.googleplus.url}") #{external.googleplus.anchor}
                     li
-                        a(href="") Facebook
-                    li
-                        a(href="") Instagram
+                        a(href="#{external.media_kit.url}") #{external.media_kit.anchor}
 
         hr
         p.padding-bottom-2x.acenter.big.sign
             | Upplication 2014 <br>
-            | Designed and assembled in Madrid
+            | #{footer.signature}

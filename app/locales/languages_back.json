@@ -3,14 +3,12 @@
     {
       "language_name": "English",
       "language_country" : "en_EN",
-      "language_country_html" : "en-EN",
       "language_short_code": "Eng",
       "home": "/build-your-app"
     },
     {
       "language_name": "Español",
       "language_country" : "es_ES",
-      "language_country_html" : "es-ES",
       "language_short_code": "Esp",
       "home": "/"
     }

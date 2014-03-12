@@ -34,9 +34,10 @@ module.exports = function (grunt) {
   //SETUP JADE DINAMICALLY
   var views = grunt.file.readJSON('./app/urls.json');
   var langs = grunt.file.readJSON('./app/locales/languages.json');
+  console.log("langs=",langs);
 
   var jade_config = {};
-  var dest, src, task, curr_lang, jade = {}, folder;
+  var dest, src, task, curr_lang, jade = {}, folder, lang_html;
 
   //TODO: For {"dist", "dev"}
   var tasks = {
@@ -50,7 +51,12 @@ module.exports = function (grunt) {
     jade[env] = [];
 
     langs.codes.forEach(function(lang){
-      lang = lang.language_country
+      lang_html = lang.language_country_html;
+      lang = lang.language_country;
+      console.log("lang=",lang);
+      
+      
+      console.log("lang_html=",lang_html)
       jade[env].push('jade:' + env + "-" + lang);
 
       task = env + '-' + lang;
@@ -64,7 +70,9 @@ module.exports = function (grunt) {
           pretty: true,
           data: {
             BASE_PATH: BASE_PATH,
-            langs: grunt.file.readJSON("app/locales/languages.json")
+            langs: grunt.file.readJSON("app/locales/languages.json"),
+            lang: lang,
+            lang_html: lang_html
           }
         },
         files: {}
