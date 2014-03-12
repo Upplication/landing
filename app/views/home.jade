@@ -21,7 +21,7 @@ block content
 
                 form(name="register", action="/register", method="post")
                     input(type="text", name="name", placeholder="Nombre de la app")
-                    input(type="text", name="email", placeholder="Email")
+                    input(type="email", name="email", placeholder="Email")
                     input(type="password", name="pass", placeholder="Contraseña")
                     input.bg-pastel-green.big.btn.margin-bottom-2x(type="submit", value="Regístrate gratis")
     section.bg-alabaster.padding.clearfix
@@ -47,19 +47,19 @@ block content
         h1.bigger.acenter.margin-top-2x.width-90.center.margin-bottom-2x Descubre nuestras aplicaciones y todo lo que puedes hacer
         ul.apps-list
             li
-                .image(style="background-image:url('#{BASE_PATH}/images/app 1.png')")
+                a.image(style="background-image:url('#{BASE_PATH}/images/app 1.png')", href="#")
                 .padding-2x
                     h1 La Florette
                     p
                         | La Florette es una aplicación a través de la cual se venden flores y macetas. Ha usado el template <a href="">Milion</a>... >>
             li.clearfix
-                .image(style="background-image:url('#{BASE_PATH}/images/app 2.png')")
+                a.image(style="background-image:url('#{BASE_PATH}/images/app 2.png')", href="#"))
                 .padding-2x
                     h1 Cooking Love
                     p
                         | Cooking Love es una aplicación a través de la cual se venden flores y macetas. Ha usado el template <a href="">Milion</a>... >>
             li.clearfix
-                .image(style="background-image:url('#{BASE_PATH}/images/app 3.png')")
+                a.image(style="background-image:url('#{BASE_PATH}/images/app 3.png')", href="#"))
                 .padding-2x
                     h1 La Bicicleta
                     p
@@ -92,11 +92,11 @@ block content
 
     section.bg-pastel-green.padding.clearfix.padding-top-2x
         h1.width-80.big.center.acenter.mine-shaft.margin-bottom-2x Regístrate y empieza a crear tu aplicación gratis
-        form.width-80.center(name="register", action="/register", method="post")
+        form.width-80.center.inline-form(name="register", action="/register", method="post")
             input(type="text", name="name", placeholder="Nombre de la app")
-            input(type="text", name="email", placeholder="Email")
+            input(type="email", name="email", placeholder="Email")
             input(type="password", name="pass", placeholder="Contraseña")
-            input.bg-mine-shaft.big.btn.margin-bottom-2x.white.big(type="submit", value="Probar gratis")
+            input.bg-mine-shaft.big.btn.margin-bottom-2x.white.big.uppercase(type="submit", value="Probar gratis")
 
 
         #test-popup.cwhite.popup.mfp-hide

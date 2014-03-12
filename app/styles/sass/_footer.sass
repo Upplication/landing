@@ -38,3 +38,18 @@
   .sign
     font-size: 14px
     margin-top: 1em
+
+//Tablet layout
+$column-width: 12em
+@include at-breakpoint($tablet-bp $desktop-columns)//($mobile-bp $tablet-columns $tablet-bp)
+  .footer-container footer > ul > li
+    width: 32%
+    float: left
+    margin-right: 2%
+    text-transform: uppercase
+
+    &:last-child
+      margin-right: 0
+
+    ul li
+      font-size: 0.7rem
