@@ -17,8 +17,8 @@ block content
             .mobile
                 img(src="#{BASE_PATH}/images/la-florette-mobile.png", alt="App móvil")
             .claim.padding-top-2x.margin-bottom-2x.text-shadow.width-90.center 
-                h1.uppercase.cwhite #{home.register.claim}
-                p.big #{home.register.arguments}
+                h1.uppercase.cwhite.acenter #{home.register.claim}
+                p.big.acenter #{home.register.arguments}
             .video-container.acenter.margin-bottom-3x
                 a.unstyled.open-popup-link.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
             article
@@ -29,9 +29,9 @@ block content
                     input(type="text", name="name", placeholder="#{home.register.app_name}")
                     input(type="email", name="email", placeholder="#{home.register.email}")
                     input(type="password", name="pass", placeholder="#{home.register.password}")
-                    input.bg-pastel-green.big.btn.margin-bottom-2x(type="submit", value="#{home.register.call_to_action}")
-    section.bg-alabaster.padding.clearfix
-        .margin-bottom-2x.margin-top-2x.multidevice
+                    input.bg-pastel-green.big.btn.margin-bottom-2x.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
+    section#multidevice.bg-alabaster.padding.clearfix
+        .margin-bottom-2x.margin-top-2x
 
             .width-55.left
                 h1.acenter #{home.multidevice.title}
@@ -46,12 +46,12 @@ block content
                 li
                     a.icon-html5(title="#{home.multidevice.html5_alt}")
                 li
-                    a.icon-android(title="#{home.multidevice.android_alt}")
-                li
                     a.icon-apple(title="#{home.multidevice.ios_alt}")
+                li
+                    a.icon-android(title="#{home.multidevice.android_alt}")
 
     section.bg-white
-        h1.bigger.acenter.margin-top-2x.width-90.center.margin-bottom-2x #{home.apps.title}
+        h1.acenter.margin-top-2x.width-90.center.margin-bottom-2x #{home.apps.title}
         ul.apps-list
             li
                 a.image(style="background-image:url('#{BASE_PATH}/images/app 1.png')", href="#")
@@ -73,37 +73,37 @@ block content
                         | #{home.apps.educapp.description} <a href="#{home.apps.educapp.link}">#{home.apps.more}</a> >>
 
     section.bg-alabaster.padding.clearfix
-        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x.big #{home.testimonials.title}
+        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
         ul.testimonials
             li
-                blockquote
+                blockquote.clearfix
                     img(src="#{BASE_PATH}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
                     p #{home.testimonials.client1.cite}
                     footer 
                         cite - #{home.testimonials.client1.name}
 
             li
-                blockquote
+                blockquote.clearfix
                     img(src="#{BASE_PATH}/images/david.jpeg", alt="David, Bar Trapatapa")
                     p #{home.testimonials.client2.cite}
                     footer 
                         cite - #{home.testimonials.client2.name}
 
             li
-                blockquote
+                blockquote.clearfix
                     img(src="#{BASE_PATH}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
                     p #{home.testimonials.client3.cite}
                     footer 
                         cite - #{home.testimonials.client3.name}
 
 
-    section.bg-pastel-green.padding.clearfix.padding-top-2x
-        h1.width-80.big.center.acenter.mine-shaft.margin-bottom-2x #{home.register_inline.title}
+    section.bg-pastel-green.padding.clearfix.padding-top-3x.padding-bottom-3x
+        h1.center.acenter.mine-shaft.margin-bottom-2x #{home.register_inline.title}
         form.width-80.center.inline-form(name="register", action="/register", method="post")
             input(type="text", name="name", placeholder="#{home.register_inline.app_name}")
             input(type="email", name="email", placeholder="#{home.register_inline.email}")
             input(type="password", name="pass", placeholder="#{home.register_inline.password}")
-            input.bg-mine-shaft.big.btn.margin-bottom-2x.white.big.uppercase(type="submit", value="#{home.register_inline.call_to_action}")
+            input.bg-mine-shaft.big.btn.margin-bottom-2x.white.big.uppercase.bold(type="submit", value="#{home.register_inline.call_to_action}")
 
 
         #test-popup.cwhite.popup.mfp-hide

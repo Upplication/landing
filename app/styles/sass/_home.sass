@@ -16,19 +16,19 @@
   ////Common layout
   ///******************************************************
   blockquote
-    font-size: 1.2em
+    font-size: 1em
     line-height: 1.3em
     color: $dove-gray
     footer
       background: none
     img
-      width: 180px
+      width: 90px
       display: block
       margin: 0 auto 1em
       +border-radius(999px)
     cite
       color:  $pastel-green
-      font-weight: 400
+      font-weight: 600
 
   .claim
     color: #fff
@@ -64,14 +64,24 @@
       display: block
       width: 100%
       height: 250px
-      background-size: 100% auto
+      background-size: auto 100% 
 
   ////Mobile layout
   ///******************************************************
   @include at-breakpoint($mobile-columns $desktop-bp)
+    .apps-list
+      padding: 0
+
+    #multidevice .width-55
+      width: 100%
+      float: none
 
     #register
       //@include container
+      input
+        width: 85%
+        margin 0 auto
+        display: block
       background-image: url('/images/mobile/header.png')
       background-size: 100% 100%
       
@@ -86,7 +96,7 @@
     input[type="submit"]
       text-align: center
       text-transform: uppercase
-      font-weight: 400
+      font-weight: 600
 
     .video-container
       display: none
@@ -116,6 +126,18 @@
   
   //Tablet layout
   @include at-breakpoint($tablet-bp $desktop-columns)//($mobile-bp $tablet-columns $tablet-bp)
+    h1
+      font-size: 1.6em
+
+    #multidevice .width-55
+      width: 50%
+      display: inline-block
+      float: left
+      h1,p
+        text-align: left
+      h1
+        margin-top: 2em
+
 
     .video-container
       display: block
@@ -160,6 +182,7 @@
         position: absolute
         display: block
         bottom: -6px
+        margin-left: 1.5em
         img
           width: 90%
 
@@ -180,13 +203,14 @@
         width: 300px
 
     .so-available
-      top: 250px
-      position: absolute
+      float: left
       width: 360px
+      margin: 3em auto 0
     
     .apps-list li
-      width: 46%
+      width: 29%
       float: left
+      display: block
       margin: 0 2% 6%
     
       &:nth-child(2)
@@ -200,6 +224,8 @@
           float: left
       blockquote 
         clear: both
+        font-size: 1.2em
+        margin: 0 auto .5em
 
       img,
       p,
@@ -223,29 +249,70 @@
       input[type="email"],
       input[type="submit"]
         display: inline-block
-        width: 24%
+        width: 23%
 
       input[type="submit"]
         font-size: 1em
         line-height: 1.3em
+        width: 29%
 
 
   
   //Desktop layout
   ///******************************************************
   @include at-breakpoint($desktop-bp $desktop-columns)
-    .multidevice > div img
+    h1
+      font-size: 1.8em
+
+    #multidevice > div img
       width: 400px
 
     #register
-      height: 600px
+      height: 500px
+      background-image: url('/images/header_desktop.jpeg')
+      background-size: auto
+      background-position: center
+      .claim 
+        h1
+          font-size: 1.8em
+        p
+          font-size: 1.4em
+          margin-top: .3em
+      .claim,
+      form
+        width: 320px
+    
+      .mobile
+        img
+          width: 102%
+    
+    .width-55
+      font-size: 1em
+      p
+        font-size: 1.3em
+
+    .video-container 
+      top: 220px
 
     .apps-list li
       width: 30.6%
       margin-right: 1%
+      h1
+        font-size: 1.4em
       
       &:last-child
         margin-right: 0
+
+    .so-available 
+      width: 55%
+      li
+        text-align: left
+        font-size: 3em
+        color: #AAA7A8
+        width: 25.5%
+        
+        &:last-child
+          float: none
 
     .testimonials
       margin-bottom: 2em
