@@ -9,7 +9,8 @@
     "company": "Company",
     "community": "Community",
     "media": "Media and Networks",
-    "signature": "Designed and assembled in Madrid"
+    "signature": "Designed and assembled in Madrid",
+    "cookies": "In UPPLICATION use cookies to measure user behavior within our website. Why? This will improve your experience in our tool. Agree to continue browsing our cookies policy. For more information, please refer to our cookies policy."
   },
   "home": {
     "_url": "/build-your-app/",
@@ -56,16 +57,16 @@
     "testimonials": {
       "title": "What do they say about us?",
       "client1": {
-        "cite": "Quote 1",
-        "name": "Name1"
+        "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app",
+        "name": "Ana, C,UP Your choice on top"
       },
       "client2": {
-        "cite": "Quote 2",
-        "name": "Name 2"
+        "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication",
+        "name": "David, Trapatapa Bar"
       },
       "client3": {
-        "cite": "Quote 3",
-        "name": "Name3 "
+        "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week",
+        "name": "Gabriel, Moto Urban"
       }
     },
     "register_inline": {

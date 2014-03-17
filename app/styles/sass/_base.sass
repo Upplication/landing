@@ -8,6 +8,9 @@ h1,h2,h3,h4
   font-weight: 400
   color: $mine-shaft
 
+.display-none
+  display: none
+
 h1
   font-size: 1.6em
   margin-bottom: 1em
@@ -30,8 +33,16 @@ input
   font-weight: 300
   line-height: 1.5em
 
+.right
+  float: right
+.left
+  float: left
 .full-width
   width: 100%
+.width-44
+  width: 44%
+.width-55
+  width: 55%
 .width-80
   width: 80%
 .width-90
@@ -78,7 +89,9 @@ input
 
 input
   line-height: 2em
+  height: 50px
   padding: .5em
+  margin: 2px auto
   border: 0
   width: 100%
 
@@ -209,6 +222,46 @@ $default-text-shadow-v-offset: 1px
 //*****************
 // END: Sidebar panel
 //*****************
+
+#cookies
+  display: block
+  font-size: .9em
+  position: fixed
+  bottom: -400px
+  left: 0
+  z-index: 8999
+  color: #FFF
+  background-color: #FABE78
+  width: 600px
+  background-image: url("/images/cookie.png")
+  background-position: 15px 20px
+  background-repeat: no-repeat
+  +transition(all, 3s, ease-in-out)
+  +single-box-shadow(#333, 0, 0, 10px, 1px)
+
+  &.show
+    bottom: 0px
+  
+  p
+    padding: 1.5em 2em 1.5em 13em 
+    color: brown
+    position: relative
+
+    .close
+      position: absolute
+      display: block
+      cursor: pointer
+      top: 7px
+      right: 0
+      color: white
+
+  &:before
+    background: url("/images/cookie.png")
+    display: block
+    width: 147px
+    height: 121px
+
+
 
 
 

@@ -6,6 +6,8 @@ var fs = require('fs');
 var mountFolder = function (connect, dir) {
   return connect.static(require('path').resolve(dir));
 };
+
+
 // # Globbing
 // for performance reasons we're only matching one level down:
 // 'test/spec/{,*/}*.js'
@@ -17,7 +19,30 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   require('time-grunt')(grunt);
 
+  var getRoutes = function(){
+    var views = grunt.file.readJSON('./app/urls.json');
+    var langs = grunt.file.readJSON('./app/locales/languages.json');
+    langs = langs.codes;
+    var langFiles = {}, lang, aux, routing = {};
 
+    for(var i=0; i < langs.length; i++){
+      lang = langs[i].language_country;
+      langFiles[lang] = grunt.file.readJSON('./app/locales/' + lang + '.json');
+    }
+
+    for(var view in views){
+      routing[view]={};
+
+      if(views.hasOwnProperty(view)){
+        for(var i=0; i < langs.length; i++){
+          lang = langs[i].language_country;
+          routing[view][lang] = langFiles[lang][view]._url;
+        }
+      }
+    }
+    return routing;
+  }
+  
   var BASE_PATH = grunt.option( "path" )? grunt.option( "path" ): "";
 
   // configurable paths
@@ -34,7 +59,7 @@ module.exports = function (grunt) {
   //SETUP JADE DINAMICALLY
   var views = grunt.file.readJSON('./app/urls.json');
   var langs = grunt.file.readJSON('./app/locales/languages.json');
-  console.log("langs=",langs);
+  //console.log("langs=",langs);
 
   var jade_config = {};
   var dest, src, task, curr_lang, jade = {}, folder, lang_html;
@@ -53,10 +78,11 @@ module.exports = function (grunt) {
     langs.codes.forEach(function(lang){
       lang_html = lang.language_country_html;
       lang = lang.language_country;
-      console.log("lang=",lang);
+      //console.log("lang=",lang);
+      var routing = JSON.stringify(getRoutes());
+      console.log("routing=",routing);
       
-      
-      console.log("lang_html=",lang_html)
+      //console.log("lang_html=",lang_html)
       jade[env].push('jade:' + env + "-" + lang);
 
       task = env + '-' + lang;
@@ -72,7 +98,8 @@ module.exports = function (grunt) {
             BASE_PATH: BASE_PATH,
             langs: grunt.file.readJSON("app/locales/languages.json"),
             lang: lang,
-            lang_html: lang_html
+            lang_html: lang_html,
+            routing: routing
           }
         },
         files: {}
@@ -98,7 +125,7 @@ module.exports = function (grunt) {
     //END SETUP JADE DINAMICALLY
   });
 
-
+  
   grunt.initConfig({
     yeoman: yeomanConfig,
     watch: {
@@ -379,8 +406,8 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
-      'concurrent:server',
       'setLangs:server',
+      'concurrent:server',
       'autoprefixer',
       'connect:livereload',
       'open',
@@ -392,7 +419,6 @@ module.exports = function (grunt) {
   var myTasks = [
     'htmlmin',
     'compass',
-    'setLangs:dist',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
@@ -406,15 +432,13 @@ module.exports = function (grunt) {
     'imagemin:dist'
   ];
 
-    grunt.registerTask('build', ['clean:dist'].concat(jade.dist.concat(myTasks)));
+  grunt.registerTask('build', ['clean:dist','setLangs:dist'].concat(jade.dist.concat(myTasks)));
 
   grunt.registerTask('default', [
     'server'
   ]);
 
   grunt.registerTask('setLangs', function (env) {
-    var views = grunt.file.readJSON('./app/urls.json');
-    var langs = grunt.file.readJSON('./app/locales/languages.json');
     if(env === "dist"){
       folder = "dist";
     }else{
@@ -423,24 +447,7 @@ module.exports = function (grunt) {
 
     var outputFilename = './app/routing.json';
 
-    langs = langs.codes;
-    var langFiles = {}, lang, aux, routing = {};
-
-    for(var i=0; i < langs.length; i++){
-      lang = langs[i].language_country;
-      langFiles[lang] = grunt.file.readJSON('./app/locales/' + lang + '.json');
-    }
-
-    for(var view in views){
-      routing[view]={};
-
-      if(views.hasOwnProperty(view)){
-        for(var i=0; i < langs.length; i++){
-          lang = langs[i].language_country;
-          routing[view][lang] = langFiles[lang][view]._url;
-        }
-      }
-    }
+    var routing = getRoutes();
 
     fs.writeFile(outputFilename, JSON.stringify(routing, null, 4), function(err) {
       if(err) {

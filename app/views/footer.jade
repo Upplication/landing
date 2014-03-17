@@ -52,3 +52,36 @@ div
         p.padding-bottom-2x.acenter.big.sign
             | Upplication 2014 <br>
             | #{footer.signature}
+
+
+script(type='text/javascript').
+    var mixpanel_token = "", tagmanager_token="", segmentio_token="", environment;
+
+    var host = window.location.host;
+    if(host!=="upplication.com"){
+        //PRE-Production
+        segmentio_token = "j44nuye4y6";
+        tagmanager_token = "GTM-M8KJZG";
+        environment = "pre-production";
+    }else if(host==="upplication.com"){
+        //PRO-duction
+        segmentio_token = "pqbi6xsdfe";
+        tagmanager_token = "GTM-PPJS3G";
+        environment = "production";
+    }
+
+  
+    window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;window.analytics.methods.length>i;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",
+    window.analytics.load(segmentio_token);
+    window.analytics.page();
+  
+noscript
+    iframe(src="//www.googletagmanager.com/ns.html?id=GTM-PPJS3G", height="0", width="0", style="display:none;visibility:hidden")
+script(type='text/javascript').
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer',tagmanager_token);
+
+  

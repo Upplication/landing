@@ -10,6 +10,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
     //<![endif]
     block vars
     head
+        script(type="text/javascript", src='#{BASE_PATH}/scripts/utils.js')
+        include scripts
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
 
@@ -46,7 +48,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // endbuild
 
         // Place favicon.ico and apple-touch-icon.png in the root directory
-        include scripts
 
 
     body(id="#{template}", data-lang="#{lang}")
@@ -69,7 +70,12 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
                 #dark-layout
 
+
                 .footer-container
+                    #cookies
+                        p #{footer.cookies}
+                            span.close(onclick="closeCookies()") X
+
                     include footer
 
         //-script(src='/bower_components/zeptojs/src/touch.js')
@@ -78,7 +84,9 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type="text/javascript", src='#{BASE_PATH}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{BASE_PATH}/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js')
         // endbower
+        script(type="text/javascript", src='#{BASE_PATH}/scripts/ua.js')
         script(type="text/javascript", src='#{BASE_PATH}/scripts/app.js')
+        script(type="text/javascript", src='#{BASE_PATH}/scripts/tracking.js')
         // endbuild
 
 

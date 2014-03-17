@@ -8,6 +8,10 @@ block vars
     - var canonical = $.home._canonical
 
 block content
+    script(type='text/javascript')
+        window.$UPP = window.$UPP || {};
+        $UPP.url = "#{$.home._url}";
+        
     section#register
         div
             .mobile
@@ -29,11 +33,12 @@ block content
     section.bg-alabaster.padding.clearfix
         .margin-bottom-2x.margin-top-2x.multidevice
 
-            h1.acenter #{home.multidevice.title}
-            p.acenter.center
-                | #{home.multidevice.text}
+            .width-55.left
+                h1.acenter #{home.multidevice.title}
+                p.acenter.center
+                    | #{home.multidevice.text}
 
-            .margin-top-3x.margin-bottom-3x.acenter
+            #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
                 img.screenshot-devices(src='#{BASE_PATH}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
 
 
@@ -53,40 +58,40 @@ block content
                 .padding-2x
                     h1 #{home.apps.bikers.title}
                     p
-                        | #{home.apps.bikers.description} <a href="#{home.apps.bikers.link}">#{home.apps.more}</a>... >>
+                        | #{home.apps.bikers.description} <a href="#{home.apps.bikers.link}">#{home.apps.more}</a> >>
             li.clearfix
                 a.image(style="background-image:url('#{BASE_PATH}/images/app 2.png')", href="#"))
                 .padding-2x
                     h1 #{home.apps.welovesushy.title}
                     p
-                        | #{home.apps.welovesushy.description} <a href="#{home.apps.welovesushy.link}">#{home.apps.more}</a>... >>
+                        | #{home.apps.welovesushy.description} <a href="#{home.apps.welovesushy.link}">#{home.apps.more}</a> >>
             li.clearfix
                 a.image(style="background-image:url('#{BASE_PATH}/images/app 3.png')", href="#"))
                 .padding-2x
                     h1 #{home.apps.educapp.title}
                     p
-                        | #{home.apps.educapp.description} <a href="#{home.apps.educapp.link}">#{home.apps.more}</a>... >>
+                        | #{home.apps.educapp.description} <a href="#{home.apps.educapp.link}">#{home.apps.more}</a> >>
 
     section.bg-alabaster.padding.clearfix
         h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x.big #{home.testimonials.title}
         ul.testimonials
             li
                 blockquote
-                    img(src="https://pbs.twimg.com/profile_images/378800000613334751/94f948347b9ec15471b0828827ff27e9.jpeg", alt="hhkaos")
+                    img(src="#{BASE_PATH}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
                     p #{home.testimonials.client1.cite}
                     footer 
                         cite - #{home.testimonials.client1.name}
 
             li
                 blockquote
-                    img(src="https://pbs.twimg.com/profile_images/378800000408560435/b67cbef9b282aef0337a38706a25d928_bigger.jpeg", alt="hhkaos")
+                    img(src="#{BASE_PATH}/images/david.jpeg", alt="David, Bar Trapatapa")
                     p #{home.testimonials.client2.cite}
                     footer 
                         cite - #{home.testimonials.client2.name}
 
             li
                 blockquote
-                    img(src="https://pbs.twimg.com/profile_images/378800000645794108/3a39a59e4ddfd372f23b28eeae9b28cb_bigger.jpeg", alt="hhkaos")
+                    img(src="#{BASE_PATH}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
                     p #{home.testimonials.client3.cite}
                     footer 
                         cite - #{home.testimonials.client3.name}

@@ -8,22 +8,37 @@
    $("#change-lang a").set("href", "hola/");
    });
    });  */
+  
+  //TODO: change cookie lang on clic
 
   Zepto(function($){
-
-    $.getJSON('/routing.json', function(data){
-      console.log(data)
-      var template = $("body").attr("id");
-
-      var lang_elems = $(".change-lang li[data-lang]"), lang;
-      for(var i=0 ; i < lang_elems.length; i++){
-        lang = $(lang_elems[i]).data("lang");
-
-        $(".change-lang li[data-lang='" + lang + "'] a").attr("href", data[template][lang]);
-      }
-    });
-
+    //TODO: Language detection & redirection
     
+
+    var template = $("body").attr("id"),
+        lang_elems = $(".change-lang li[data-lang]"), 
+        lang;
+    
+    for(var i=0 ; i < lang_elems.length; i++){
+      lang = $(lang_elems[i]).data("lang");
+      //TODO: Move this to jade in header (not with JS
+      $(".change-lang li[data-lang='" + lang + "'] a").attr("href", routing[template][lang]);
+      
+      //Change lang_cookie
+      $(".change-lang li[data-lang='" + lang + "'] a").click(function(){
+        setCookie("ppl_language",$(this).parent().data("lang"));
+        console.log("Cambio lang a =" + $(this).parent().data("lang"));
+      });
+    }
+    
+    if(!getCookie("showed-cookies")){
+      $("#cookies").addClass("show");
+
+      //$("#cookies .close").on('click',closeCookies());
+
+      setTimeout("closeCookies()",10000);
+    }
+
     $(".change-lang li[data-lang='"+$("body").attr("data-lang")+"']").css("font-weight","600");
 
     $(".icon-list").on("click",function(){

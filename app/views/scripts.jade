@@ -2,6 +2,16 @@
 //- var langs = JSON.stringify(langs)
 script(type="text/javascript", src="http://cdn.optimizely.com/js/524801012.js")
 
-script(type='text/javascript').
-    var base = window.location.origin.split("//")[1];
-    document.write('<base href="//' + base  + '" />');
+script(type='text/javascript')
+  if (!window.location.origin) {
+    window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
+  }
+  var base = window.location.origin.split("//")[1];
+  document.write('<base href="//' + base  + '" />');
+
+
+script(type='text/javascript')
+  var routing = !{routing};
+  var view = "#{home._template}";
+  var current_lang = "#{lang}";
+  checkLanguage();

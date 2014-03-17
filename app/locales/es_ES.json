@@ -10,7 +10,8 @@
     "company": "Compañía",
     "community": "Comunidad",
     "media": "Medios y redes",
-    "signature": "Designed and assembled in Madrid"
+    "signature": "Designed and assembled in Madrid",
+    "cookies": "En UPPLICATION utilizamos las cookies para medir el comportamiento de usuario dentro de nuestra web. ¿Por qué? Así mejoraremos tu experiencia dentro de nuestra herramienta. Al seguir navegando aceptas nuestra política de cookies. Para más información puedes consultar nuestra <a href='http://upplication.com/terminos-legales'>política de cookies.</a>"
   },
   "home": {
     "_url": "/",
@@ -30,7 +31,7 @@
     },
     "multidevice": {
       "title": "App y web multidispositivo",
-      "text": "Al hacer una aplicación móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones.",
+      "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
       "devices_alt": "Apps para todos los dispositivos",
       "html5_alt": "Crea tu app con HTML5",
       "android_alt": "Crea tu app con Android",
@@ -38,40 +39,40 @@
     },
     "apps": {
       "title": "Estas son algunas de nuestras apps",
-      "more": "more",
+      "more": "Ver app",
       "bikers": {
         "title": "Bikers",
-        "description": "Description bikers",
+        "description": "Bikers ha elegido crear una app con un diseño elegante para hacer la mejor apps de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
         "link": "/loquesea1"
       },
       "welovesushy": {
-        "title": "We love susy",
-        "description": "Description we love sushy",
+        "title": "We Love Susy",
+        "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
         "link": "/loquesea2"
       },
       "educapp": {
-        "title": "Educapp",
-        "description": "Description educapp",
+        "title": "Guardepeque",
+        "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
         "link": "/loquesea3"
       }
     },
     "testimonials": {
-      "title": "¿Qué dicen de nosotros?",
+      "title": "¿Qué dicen de nuestras apps?",
       "client1": {
-        "cite": "Quote 1",
-        "name": "Name1"
+        "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes",
+        "name": "Ana, C,UP Your choice on top"
       },
       "client2": {
-        "cite": "Quote 2",
-        "name": "Name 2"
+        "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos",
+        "name": "David, Bar Trapatapa"
       },
       "client3": {
-        "cite": "Quote 3",
-        "name": "Name3"
+        "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana",
+        "name": "Gabriel, Moto Urban"
       }
     },
     "register_inline": {
-      "title": "Regístrate y empieza a crear tu app gratis",
+      "title": "Regístrate y empieza a crear tu primera app gratis",
       "app_name": "Nombre del negocio",
       "email": "E-mail",
       "password": "Contraseña",
