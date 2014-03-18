@@ -10,7 +10,21 @@
     "community": "Community",
     "media": "Media and Networks",
     "signature": "Designed and assembled in Madrid",
-    "cookies": "In UPPLICATION use cookies to measure user behavior within our website. Why? This will improve your experience in our tool. Agree to continue browsing our cookies policy. For more information, please refer to our cookies policy."
+    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='http://upplication.com/terminos-legales'>política de cookies.</a>."
+  },
+  "register": {
+      "error":{
+        "num1": "Registro completado sin errores",
+        "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
+        "num3": "Mmmmm, ya está ese e-mail registrado en Upplication",
+        "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
+        "num5": "¡No! El código seller no es correcto",
+        "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
+        "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
+        "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
+        "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
+        "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+      }
   },
   "home": {
     "_url": "/build-your-app/",
@@ -20,12 +34,21 @@
     "_meta_description": "Description tag",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "register": {
+      "announce": "You can change it later",
       "claim": "Your app, your business",
       "arguments": "Create the app for your business, without coding, quick and easy.",
-      "app_name": "Name of the business",
+      "app_name": "Name of the app",
       "email": "Email",
       "password": "Password",
-      "call_to_action": "Try it now"
+      "call_to_action": "Try it now",
+      "accept_terms": "When you click the <i>Try</i> button you accept our",
+      "terms": "terms and conditions",
+      "warning":{
+        "name": "The name of your app must be between 3 and 32 characters and can not start with a number",
+        "password": "The minimum password length is 8 characters",
+        "ajax": "Uuups..., we had a tiny problem",
+        "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
+      }
     },
     "multidevice": {
       "title": "App and multi-device site",
@@ -71,7 +94,7 @@
     },
     "register_inline": {
       "title": "Sign in and start your app for free",
-      "app_name": "Name of the business",
+      "app_name": "Name of the app",
       "email": "Email",
       "password": "Password",
       "call_to_action": "Try it now"

@@ -1,3 +1,20 @@
+window.$UPP = window.$UPP || {};
+
+$UPP.env = function(document,window){
+    
+    var host = window.location.host;
+    
+    if(host === "upplication.com"){
+      return "PRO";
+    }else if(host === "upptesting.com"){
+      return "PRE";
+    }else{
+      return "DES";
+    }
+}(document,window);
+
+
+
 var getQueryParams = function(name) {
   name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
   var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),

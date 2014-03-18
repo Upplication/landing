@@ -3,7 +3,6 @@
     "menu": "menu",
     "nav": {
       "apps": "Apps"
-
     }
   },
   "footer": {
@@ -11,7 +10,21 @@
     "community": "Comunidad",
     "media": "Medios y redes",
     "signature": "Designed and assembled in Madrid",
-    "cookies": "En UPPLICATION utilizamos las cookies para medir el comportamiento de usuario dentro de nuestra web. ¿Por qué? Así mejoraremos tu experiencia dentro de nuestra herramienta. Al seguir navegando aceptas nuestra política de cookies. Para más información puedes consultar nuestra <a href='http://upplication.com/terminos-legales'>política de cookies.</a>"
+    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='http://upplication.com/terminos-legales'>política de cookies.</a>"
+  },
+  "register": {
+      "error":{
+        "num1": "¡Fenomenal! Has terminado el registro",
+        "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
+        "num3": "Mmmmm, ya está ese e-mail registrado en Upplication",
+        "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
+        "num5": "¡No! El código seller no es correcto",
+        "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
+        "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
+        "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
+        "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
+        "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+      }
   },
   "home": {
     "_url": "/",
@@ -22,12 +35,21 @@
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_canonical": "http://www.upplication.com",
     "register": {
+      "announce": "Podrás cambiarlo después",
       "claim": "Tu negocio, tu app.",
       "arguments": "Crea la app de tu negocio, sin programar, fácil y rápido.",
-      "app_name": "Nombre del negocio",
+      "app_name": "Nombre de la app",
       "email": "E-mail",
       "password": "Contraseña",
-      "call_to_action": "Probar gratis"
+      "call_to_action": "Probar gratis",
+      "accept_terms": "Al hacer clic en el botón <i>Probar</i> aceptas nuestros",
+      "terms": "terminos y condiciones",
+      "warning":{
+        "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
+        "password": "La longitud mínima para la contraseña es de 8 caracteres",
+        "ajax": "Uuups..., hubo un problemilla",
+        "ajax_msg": "El registro no pudo ser completado, por favor vuelva a intentarlo o escríbanos a <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
+      }
     },
     "multidevice": {
       "title": "App y web multidispositivo",
@@ -42,11 +64,11 @@
       "more": "Ver app",
       "bikers": {
         "title": "Bikers",
-        "description": "Bikers ha elegido crear una app con un diseño elegante para hacer la mejor apps de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
+        "description": "Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
         "link": "/loquesea1"
       },
       "welovesushy": {
-        "title": "We Love Susy",
+        "title": "We Love Sushi",
         "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
         "link": "/loquesea2"
       },
@@ -73,7 +95,7 @@
     },
     "register_inline": {
       "title": "Regístrate y empieza a crear tu primera app gratis",
-      "app_name": "Nombre del negocio",
+      "app_name": "Nombre de la app",
       "email": "E-mail",
       "password": "Contraseña",
       "call_to_action": "Probar gratis"
@@ -133,7 +155,7 @@
       "url": ""
     },
     "media_kit": {
-      "anchor": "Mediakit",
+      "anchor": "Prensa",
       "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
     },
     "youtube": {

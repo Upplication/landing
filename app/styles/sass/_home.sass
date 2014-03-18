@@ -66,9 +66,30 @@
       height: 250px
       background-size: auto 100% 
 
+  .register a
+    color: $white
+  #register
+    .tos,
+    .tos a
+      color: $white
+    .tos
+      background-color: rgba(0, 0, 0, 0.4)
+      font-size: .9em
+      padding: .3em .5em
+      +border-radius(7px)
+    
+  .announce
+    font-size: .9em
+    margin-bottom: -2px
+    width: 100%
+
   ////Mobile layout
   ///******************************************************
   @include at-breakpoint($mobile-columns $desktop-bp)
+    .announce
+      width: 85%
+      margin: 0 auto
+
     .apps-list
       padding: 0
 
@@ -163,6 +184,10 @@
       background-size: 100%
       height: 450px
       
+      .announce
+        width: 85%
+        margin: 0 7.5%
+      
       .claim,
       form
         width: 280px
@@ -174,7 +199,7 @@
           padding: 0.8em
 
       .claim
-        margin-top: 40px
+        margin-top: 0.5em
         h1
           font-size: 1.4em
 
@@ -285,6 +310,10 @@
       .mobile
         img
           width: 102%
+
+      .announce
+        width: 100%
+        margin: 0 auto
     
     .width-55
       font-size: 1em

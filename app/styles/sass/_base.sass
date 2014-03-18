@@ -27,6 +27,9 @@ h1
 .uppercase
   text-transform: uppercase
 
+i
+  font-weight: 600
+
 body,
 input
   font-family: 'Open Sans', sans-serif
@@ -54,6 +57,9 @@ input
 .acenter
   text-align: center
 
+.aright
+  text-align: right
+
 .ajustify
   text-align: justify
 
@@ -70,6 +76,13 @@ input
 
 .normal
   font-size: 1em
+
+.error
+  border: 1px dotted #F00
+  background: #FDC4C4
+  font-size: 0.8em
+  padding: .3em
+  margin: .3em 0
 
 .big
   font-size: 1.2em
@@ -158,6 +171,19 @@ a.unstyled
 .arrow-down-black
   +arrow(black, 1em)
 
+.white-popup-block 
+  background: #FFF
+  padding: 20px 30px 30px
+  text-align: left
+  max-width: 450px
+  margin: 40px auto
+  position: relative
+  p
+    color: $black
+  a
+    background-color: $white
+    color: $jungle-green
+
 $default-text-shadow-color: rgba($black, 0.6)
 $default-text-shadow-blur: 3px
 $default-text-shadow-v-offset: 1px
@@ -177,6 +203,7 @@ $default-text-shadow-v-offset: 1px
   +single-text-shadow
 
 .slide-pannel.effects 
+  height: 100%
   +box-shadow(2px 0 2px rgba(0,0,0,.3))
   +transition-delay(0s)
   +transition-duration(.2s)
@@ -199,7 +226,7 @@ $default-text-shadow-v-offset: 1px
   background: transparent
   display: block
   font-size: 1.05em
-  position: absolute
+  position: fixed
   left: 0
   width: 200px
   z-index: 100
@@ -240,7 +267,7 @@ $default-text-shadow-v-offset: 1px
   z-index: 8999
   color: #FFF
   background-color: #FABE78
-  width: 600px
+  width: 280px
   background-image: url("/images/cookie.png")
   background-position: 15px 20px
   background-repeat: no-repeat
@@ -251,7 +278,7 @@ $default-text-shadow-v-offset: 1px
     bottom: 0px
   
   p
-    padding: 1.5em 2em 1.5em 13em 
+    padding: 1em 1.5em 1em 6em
     color: brown
     position: relative
 
@@ -261,7 +288,7 @@ $default-text-shadow-v-offset: 1px
       cursor: pointer
       top: 7px
       right: 0
-      color: white
+      color: brown
 
   &:before
     background: url("/images/cookie.png")
