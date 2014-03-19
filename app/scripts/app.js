@@ -2,20 +2,9 @@
 
 (function($){
 
-
-  /*$.ready(function() {
-   langs.codes.forEach(function(code){
-   $("#change-lang a").set("href", "hola/");
-   });
-   });  */
   
-  //TODO: change cookie lang on clic
-  var asd,asda;
-
   Zepto(function($){
-    //TODO: Language detection & redirection
     
-
     var template = $("body").attr("id"),
         lang_elems = $(".change-lang li[data-lang]"), 
         lang;
@@ -23,13 +12,13 @@
     //Add dynamic translations
     for(var i=0 ; i < lang_elems.length; i++){
       lang = $(lang_elems[i]).data("lang");
-      //TODO: Move this to jade in header (not with JS
+      //TODO: Move this to jade in header (not with JS)
       $(".change-lang li[data-lang='" + lang + "'] a").attr("href", routing[template][lang]);
       
       //Change lang_cookie
       $(".change-lang li[data-lang='" + lang + "'] a").click(function(){
         setCookie("ppl_language",$(this).parent().data("lang"));
-        console.log("Cambio lang a =" + $(this).parent().data("lang"));
+        log("Cambio lang a =" + $(this).parent().data("lang"));
       });
     }
     //Stilize current language
@@ -46,37 +35,31 @@
       e.preventDefault();
       
       var vals = $(this).serialize(),
-          host, url;
-      
-      if($UPP.env === "DES"){
-        host = "desarrollo.upplication.priv";
-      }else if($UPP.env === "PRE"){
-        host = "prepro.upplication.com";
-      }else if($UPP.env === "PRO"){
-        host = "dashboard.upplication.com";
-      }
-      
+          host, url;     
 
-      url = "http://"+host+"/web/register.action;?"+vals+"&__checkbox_terms=true&category=business";
-      console.log("URL=",url);
+      url = "http://"+$UPP.host+"/web/register.action;?"+vals+"&__checkbox_terms=true&category=business";
+      if($UPP.params)
+        url += "&" + $UPP.params;
+      log("URL=",url);
 
       $.ajax({
-        type: "GET",
+        type: "POST",
         url: url,
         context: this,
         dataType: "JSON",
         success: function(data){
+          console.log(data)
           data = $.parseJSON(data);
           
           if(data.success){
-            window.location = data.url;
+            window.location = "http://" + $UPP.host + "/web" + data.url;
           }else{
             var error = {};
 
             switch(data.case){
               case 2:
                 //CREATING_APPREQUEST_ERROR
-                error.appName = ajax.error[2]; 
+                error.appName = ajax.error[2];
                 break;
               case 3:
                 //DUPLICATE_EMAIL_ERROR
@@ -118,21 +101,24 @@
             }
             //debugger
             //Seller is never used in home
-            var $email = $(this).find("[for=email] p.error"),
-                $appName = $(this).find("[for=appName] p.error"),
-                $seller = $(this).find("[for=seller] p.error");
+            var $email = $(this).find("[for=email]"),
+                $appName = $(this).find("[for=appName]"),
+                $seller = $(this).find("[for=seller]");
 
-            if(error.appName){
-              $appName.text(error.appName);
-              $appName.show();
-            }
             if(error.email){
-              $email.text(error.email);
-              $email.show();
+              $email.find('p.error').text(error.email);
+              $email.find('p.error').show();
+              $email.find('input').addClass("error");
+            }
+            if(error.appName){
+              $appName.find('p.error').text(error.appName);
+              $appName.find('p.error').show();
+              $appName.find('input').addClass("error");
             }
             if(error.seller){
-              $seller.text(error.seller);
-              $seller.show();
+              $seller.find('p.error').text(error.seller);
+              $seller.find('p.error').show();
+              $seller.find('input').addClass("error");
             }
 
             /*            
@@ -158,6 +144,7 @@
     //Hide errors on input fields when it is modified
     $("[name='register'] input").on('keypress',function(){ 
       $(this).siblings("p.error").hide();
+      $(this).removeClass("error");
     });
     
 
@@ -174,9 +161,22 @@
     })
 
     //
-    $('.open-popup-link').magnificPopup({
+    $('#youtube-video').magnificPopup({
       type:'inline',
-      midClick: true 
+      midClick: true,
+      /*callbacks: {
+        open: function() {
+          // Will fire when this exact popup is opened
+          // this - is Magnific Popup object
+          console.log("Opened");
+
+
+        },
+        close: function() {
+          // Will fire when popup is closed
+          console.log("Closed");
+        }
+      }*/
     });
 
     $('#ajax-error-popup').magnificPopup({

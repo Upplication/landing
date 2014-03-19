@@ -58,30 +58,51 @@
     h1
       border-bottom: 1px solid $pastel-green
       color: $pastel-green
+      margin-bottom: .5em
     a
       color: #FFF
     .image
       display: block
       width: 100%
       height: 250px
-      background-size: auto 100% 
+      background-size: center
+      +background-size(cover)
 
   .register a
     color: $white
+
   #register
+    padding-bottom: 1em
     .tos,
     .tos a
-      color: $white
+      color: $black
     .tos
-      background-color: rgba(0, 0, 0, 0.4)
-      font-size: .9em
+      //background-color: rgba(0, 0, 0, 0.4)
+      font-size: .7em
       padding: .3em .5em
-      +border-radius(7px)
+      
+
+      //+border-radius(7px)
     
   .announce
     font-size: .9em
     margin-bottom: -2px
     width: 100%
+
+  .press
+    li
+      display: inline-block
+      margin-right: 1em
+      margin-bottom: 2em
+
+  .arguments
+    h2
+      border-bottom: 1px solid $dusty-gray
+    li
+      margin-bottom: 1em
+      span
+        font-size: .8em
+      
 
   ////Mobile layout
   ///******************************************************
@@ -103,11 +124,14 @@
         width: 85%
         margin 0 auto
         display: block
-      background-image: url('/images/mobile/header.png')
+      background-image: url('/images/mobile/header.jpg')
       background-size: 100% 100%
       
       .mobile
         display: none
+      p.error
+        width: 85%
+        margin: 0 auto
 
     input[type="text"],
     input[type="password"],
@@ -177,12 +201,27 @@
     a.logo
       text-align: left
 
+    .register
+      form
+        padding: 0
+      input.error
+        margin-bottom: 4em
+      label
+        position: relative
+        p.error
+          position: absolute
+          top: 3em
+          width: 98%
+
+
+
     #register
       min-height: 21em
       position: relative
-      background-image: url('/images/header.png')
-      background-size: 100%
-      height: 450px
+      background-image: url('/images/header_desktop.jpeg')
+      +background-size(cover)
+      background-position: center
+      min-height: 450px
       
       .announce
         width: 85%
@@ -210,6 +249,7 @@
         margin-left: 1.5em
         img
           width: 90%
+
 
     #test-free
       display: none
@@ -281,7 +321,13 @@
         line-height: 1.3em
         width: 29%
 
-
+    .arguments
+      li
+        width: 30%
+        margin-right: 5%
+        float: left
+        &:last-child
+          margin-right: 0
   
   //Desktop layout
   ///******************************************************
@@ -292,11 +338,12 @@
     #multidevice > div img
       width: 400px
 
+    
+
     #register
-      height: 500px
-      background-image: url('/images/header_desktop.jpeg')
-      background-size: auto
-      background-position: center
+      min-height: 500px
+      
+      
       .claim 
         h1
           font-size: 1.8em

@@ -14,7 +14,7 @@
   },
   "register": {
       "error":{
-        "num1": "Registro completado sin errores",
+        "num1": "¡Fenomenal! Has terminado el registro",
         "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
         "num3": "Mmmmm, ya está ese e-mail registrado en Upplication",
         "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
@@ -41,7 +41,7 @@
       "email": "Email",
       "password": "Password",
       "call_to_action": "Try it now",
-      "accept_terms": "When you click the <i>Try</i> button you accept our",
+      "accept_terms": "When you click the Try button you accept our",
       "terms": "terms and conditions",
       "warning":{
         "name": "The name of your app must be between 3 and 32 characters and can not start with a number",
@@ -64,17 +64,18 @@
       "bikers": {
         "title": "Bikers",
         "description": "Description bikers",
-        "link": "/ loquesea1"
+        "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822"
       },
       "welovesushy": {
         "title": "We love susy",
         "description": "Description sushy we love",
-        "link": "/loquesea2"
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597"
       },
       "educapp": {
         "title": "Educapp",
         "description": "Description educapp",
-        "link": "/loquesea3"
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852"
       }
     },
     "testimonials": {
@@ -98,6 +99,40 @@
       "email": "Email",
       "password": "Password",
       "call_to_action": "Try it now"
+    },
+    "arguments":{
+      "title": "Crea la app de tu negocio",
+      "loyalty":{
+        "title": "Fideliza",
+        "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."       
+      },
+      "sell":{
+        "title": "Vende",
+        "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."        
+      },
+      "notify":{
+        "title": "Notifica",
+        "clarification": "(Disponible en Abril de 2014)",
+        "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "        
+      },
+      "promote":{
+        "title": "Promociona tu app",
+        "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
+        "download": {
+          "anchor": "Descarga gratis",
+          "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
+        }
+
+      }
+    },
+    "press":{
+      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
+      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
+      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
+      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
+      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
     }
   },
   "external": {

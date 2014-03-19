@@ -1,25 +1,29 @@
-//- script(type='text/javascript').
-//- var langs = JSON.stringify(langs)
-script(type="text/javascript", src="http://cdn.optimizely.com/js/524801012.js")
+//- Those scripts needs to be executed before the page loads
+//- -----------------------------------------------------------
+//- Setup the envs variables
+//- Checks cookies looking for the preferred language
+
+script(type="text/javascript", src='#{BASE_PATH}/scripts/config.js')
+script(type="text/javascript", src='#{BASE_PATH}/scripts/utils.js')
 
 script(type='text/javascript')
+  
+  // Fix for IE
   if (!window.location.origin) {
     window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
   }
-  var base = window.location.origin.split("//")[1];
-  document.write('<base href="//' + base  + '" />');
-
-
-script(type='text/javascript')
-  var routing = !{routing};
-  var view = "#{home._template}";
-  var current_lang = "#{lang}";
+  
+  var base = window.location.origin.split("//")[1],
+      routing = !{routing},
+      view = "#{home._template}",
+      current_lang = "#{lang}";
+  
   checkLanguage();
 
-  //Javascript Error messages
-  var ajax = {
-      "error": []
-  };
+  document.write('<base href="//' + base  + '" />');
+  
+  // Javascript Error messages
+  var ajax = {"error": []};
 
   ajax.error[2] = "#{register.error.num2}";
   ajax.error[3] = "#{register.error.num3}";
@@ -27,3 +31,5 @@ script(type='text/javascript')
   ajax.error[5] = "#{register.error.num5}";
   ajax.error[6] = "#{register.error.num6}";
   ajax.error[10] = "#{register.error.num10}";
+
+script(type="text/javascript", src="http://cdn.optimizely.com/js/524801012.js")

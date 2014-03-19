@@ -16,7 +16,7 @@
       "error":{
         "num1": "¡Fenomenal! Has terminado el registro",
         "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-        "num3": "Mmmmm, ya está ese e-mail registrado en Upplication",
+        "num3": "Mmmmm, ya está ese e-mail registrado",
         "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
         "num5": "¡No! El código seller no es correcto",
         "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
@@ -42,8 +42,8 @@
       "email": "E-mail",
       "password": "Contraseña",
       "call_to_action": "Probar gratis",
-      "accept_terms": "Al hacer clic en el botón <i>Probar</i> aceptas nuestros",
-      "terms": "terminos y condiciones",
+      "accept_terms": "Al hacer clic en el botón Probar aceptas nuestros",
+      "terms": "términos y condiciones",
       "warning":{
         "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
         "password": "La longitud mínima para la contraseña es de 8 caracteres",
@@ -65,17 +65,18 @@
       "bikers": {
         "title": "Bikers",
         "description": "Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
-        "link": "/loquesea1"
+        "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822"
       },
       "welovesushy": {
         "title": "We Love Sushi",
         "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
-        "link": "/loquesea2"
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597"
       },
       "educapp": {
         "title": "Guardepeque",
         "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
-        "link": "/loquesea3"
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852"
       }
     },
     "testimonials": {
@@ -99,6 +100,39 @@
       "email": "E-mail",
       "password": "Contraseña",
       "call_to_action": "Probar gratis"
+    },
+    "arguments":{
+      "title": "Crea la app de tu negocio",
+      "loyalty":{
+        "title": "Fideliza",
+        "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."     
+      },
+      "sell":{
+        "title": "Vende",
+        "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."        
+      },
+      "notify":{
+        "title": "Notifica",
+        "clarification": "(Desde Abril de 2014)",
+        "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "        
+      },
+      "promote":{
+        "title": "Promociona tu app",
+        "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
+        "download": {
+          "anchor": "Descarga gratis",
+          "href": "http://upplication.com/como-conseguir-app-exito-rapido/"
+        }
+      }
+    },
+    "press":{
+      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
+      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
+      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
+      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
+      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
     }
   },
   "external": {

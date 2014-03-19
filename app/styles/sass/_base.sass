@@ -11,6 +11,9 @@ h1,h2,h3,h4
 .display-none
   display: none
 
+.italic
+  font-style: italic
+
 h1
   font-size: 1.4em
   margin-bottom: 1em
@@ -77,12 +80,26 @@ input
 .normal
   font-size: 1em
 
-.error
-  border: 1px dotted #F00
-  background: #FDC4C4
+input.error
+  color: red
+
+p.error
   font-size: 0.8em
-  padding: .3em
-  margin: .3em 0
+  padding: 0.3em
+  padding-right: 1em
+  margin: 0.3em 0
+  font-weight: 400
+  background-color: rgba(255, 255, 255, 0.5)
+  position: relative
+  &:after
+    content: '!'
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    background-color: red
+    padding: .5em
+    color: white
 
 .big
   font-size: 1.2em
@@ -121,6 +138,11 @@ p
 
 .padding
   padding: .5em
+
+.wide
+  padding-left: 2em !important
+  padding-right: 2em !important
+  display: inline-block
 
 .padding-bottom
   padding-bottom: .5em
@@ -167,6 +189,9 @@ a.unstyled
 
 .block
   display: block
+
+.inline-block
+  display: inline-block
 
 .arrow-down-black
   +arrow(black, 1em)
@@ -267,18 +292,18 @@ $default-text-shadow-v-offset: 1px
   z-index: 8999
   color: #FFF
   background-color: #FABE78
-  width: 280px
+  width: 380px
   background-image: url("/images/cookie.png")
-  background-position: 15px 20px
+  background-position: 15px 15px
   background-repeat: no-repeat
   +transition(all, 3s, ease-in-out)
-  +single-box-shadow(#333, 0, 0, 10px, 1px)
+  //+single-box-shadow(#333, 0, 0, 10px, 1px)
 
   &.show
     bottom: 0px
   
   p
-    padding: 1em 1.5em 1em 6em
+    padding: 1.5em 1.5em 1.5em 6em
     color: brown
     position: relative
 
@@ -296,7 +321,11 @@ $default-text-shadow-v-offset: 1px
     width: 147px
     height: 121px
 
-
+////Mobile layout
+///******************************************************
+@include at-breakpoint($mobile-columns $mobile-bp)
+  #cookies
+    width: 100%
 
 
 

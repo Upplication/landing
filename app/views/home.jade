@@ -15,18 +15,18 @@ block content
         div
             .mobile
                 img(src="#{BASE_PATH}/images/la-florette-mobile.png", alt="App móvil")
-            .claim.padding-top-2x.margin-bottom-2x.text-shadow.width-90.center 
-                h1.uppercase.cwhite.acenter #{home.register.claim}
+            .claim.padding-top-2x.margin-bottom-2x.width-90.center 
+                h1.uppercase.cwhite.acenter.bold #{home.register.claim}
                 p.big.acenter #{home.register.arguments}
             .video-container.acenter.margin-bottom-3x
-                a.unstyled.open-popup-link.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
+                a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
             article
 
                 form(name="register", action="/register", method="post")
                     div.announce.bg-cblack.acenter.btn.arrow-down-black
                         | #{$.home.register.announce}
                     label(for="appName")
-                        input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9]{2,}", title="#{home.register.warning.name}")
+                        input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
                         p.error.display-none
                             //| El nombre de la app ya está registrado
                     label(for="email")
@@ -34,11 +34,11 @@ block content
                         p.error.display-none
                             //| El email ya está registrado
                     label(for="password")
-                        input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{3,}")
+                        input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                         p.error.display-none
                             //| La contraseña debe contener al menos 6 caracteres
                     input.bg-pastel-green.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
-                    p.tos.acenter.text-shadow !{home.register.accept_terms} 
+                    p.tos.acenter.italic !{home.register.accept_terms} 
                         a(href="#{external.tos.url}") #{home.register.terms}        
     section#multidevice.bg-alabaster.padding.clearfix
         .margin-bottom-2x.margin-top-2x
@@ -64,23 +64,29 @@ block content
         h1.acenter.margin-top-2x.width-90.center.margin-bottom-2x #{home.apps.title}
         ul.apps-list
             li
-                a.image(style="background-image:url('#{BASE_PATH}/images/app 1.png')", href="#")
+                a.image(style="background-image:url('#{BASE_PATH}/images/app 1.png')", href="#{home.apps.bikers.android_app}")
                 .padding-2x
                     h1 #{home.apps.bikers.title}
                     p
-                        | #{home.apps.bikers.description} <a href="#{home.apps.bikers.link}">#{home.apps.more}</a> >>
+                        | #{home.apps.bikers.description} 
+                        a(href="#{home.apps.bikers.android_app}", class="italic") #{home.apps.more}
+                        |  >>
             li.clearfix
-                a.image(style="background-image:url('#{BASE_PATH}/images/app 2.png')", href="#"))
+                a.image(style="background-image:url('#{BASE_PATH}/images/app 2.png')", href="#{home.apps.welovesushy.android_app}"))
                 .padding-2x
                     h1 #{home.apps.welovesushy.title}
                     p
-                        | #{home.apps.welovesushy.description} <a href="#{home.apps.welovesushy.link}">#{home.apps.more}</a> >>
+                        | #{home.apps.welovesushy.description} 
+                        a(href="#{home.apps.welovesushy.android_app}", class="italic") #{home.apps.more}
+                        |  >>
             li.clearfix
-                a.image(style="background-image:url('#{BASE_PATH}/images/app 3.png')", href="#"))
+                a.image(style="background-image:url('#{BASE_PATH}/images/app 3.png')", href="#{home.apps.educapp.android_app}"))
                 .padding-2x
                     h1 #{home.apps.educapp.title}
                     p
-                        | #{home.apps.educapp.description} <a href="#{home.apps.educapp.link}">#{home.apps.more}</a> >>
+                        | #{home.apps.educapp.description} 
+                        a(href="#{home.apps.educapp.android_app}", class="italic") #{home.apps.more}
+                        |  >>
 
     section.bg-alabaster.padding.clearfix
         h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
@@ -110,14 +116,71 @@ block content
     section.bg-pastel-green.padding.clearfix.padding-top-3x.padding-bottom-3x.register
         h1.center.acenter.mine-shaft.margin-bottom-2x #{home.register_inline.title}
         form.width-80.center.inline-form(name="register", action="/register", method="post")
-            input(type="text", name="name", placeholder="#{home.register_inline.app_name}")
-            input(type="email", name="email", placeholder="#{home.register_inline.email}")
-            input(type="password", name="pass", placeholder="#{home.register_inline.password}")
-            input.bg-mine-shaft.big.btn.margin-bottom-2x.white.big.uppercase.bold(type="submit", value="#{home.register_inline.call_to_action}")
-            p.tos.acenter.text-shadow !{home.register.accept_terms} 
-                a(href="#{external.tos.url}") #{home.register.terms}        
+            label(for="appName")
+                input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
+                p.error.display-none
+                    //| El nombre de la app ya está registrado
+            label(for="email")
+                input(type="email", name="email", placeholder="#{home.register.email}", required="required")
+                p.error.display-none
+                    //| El email ya está registrado
+            label(for="password")
+                input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
+                p.error.display-none
+                    //| La contraseña debe contener al menos 6 caracteres
+            input.bg-mine-shaft.big.btn.margin-bottom.white.big.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
+            p.small.italic.tos !{home.register.accept_terms} 
+                a(href="#{external.tos.url}") #{home.register.terms}  
 
         #ajax-error-popup.cwhite.popup.mfp-hide.white-popup-block
             h1 #{home.register.warning.ajax}
             p.msg !{home.register.warning.ajax_msg}
+    
+    section.padding.clearfix.padding-top-3x.padding-bottom-3x.arguments
+        h1.acenter #{home.arguments.title}
+        ul
+            li 
+                h2.pastel-green.margin-bottom #{home.arguments.loyalty.title}
+                p #{home.arguments.loyalty.text}
+            li 
+                h2.pastel-green.margin-bottom #{home.arguments.sell.title}
+                p #{home.arguments.sell.text}
+            li 
+                h2.pastel-green.margin-bottom 
+                    | #{home.arguments.notify.title} 
+                    span #{home.arguments.notify.clarification}
+                p #{home.arguments.notify.text}
+    
+    section.acenter.bg-mine-shaft.padding.clearfix.padding-top-3x.padding-bottom-3x           
+        h1.cwhite.margin-bottom #{home.arguments.promote.title}
+        p.padding-bottom-3x.bigger #{home.arguments.promote.text}
+        p 
+            a.wide.btn.bg-pastel-green.bold(href="#{home.arguments.promote.download.href}", rel="nofollow") #{home.arguments.promote.download.anchor}
+
+    section.padding.clearfix.padding-top-3x.padding-bottom-2x.press
+        ul.acenter.margin-top-2x
+            li
+                a(href="#{home.press.abc}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/abc.jpg", alt="App móvil")
+            li
+                a(href="#{home.press.el_economista}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/elEconomista.jpg", alt="App móvil")
+            li
+                a(href="#{home.press.agencia_efe}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/emprende.jpg", alt="App móvil")
+            li
+                a(href="#{home.press.forbes}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/forbes.jpg", alt="App móvil")
+            li
+                a(href="#{home.press.telefonica}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/telefonica.jpg", alt="App móvil")
+            li
+                a(href="#{home.press.ticbeat}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/ticbeat.jpg", alt="App móvil")
+            li
+                a(href="#{home.press.wwwhatsnew}", rel="nofollow")
+                    img(src="#{BASE_PATH}/images/press/wwwhatsnew.jpg", alt="App móvil")
+
+    script(type='text/javascript', src='http://www.youtube.com/player_api')
+
         

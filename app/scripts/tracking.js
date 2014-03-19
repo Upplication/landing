@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 ADD UTM_* to LOGIN AND REGISTER LINKS
 */

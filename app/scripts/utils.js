@@ -1,36 +1,64 @@
-window.$UPP = window.$UPP || {};
+'use strict';
 
-$UPP.env = function(document,window){
+
+var log = function(text)
+{
+  if($UPP.env != "PRO"){
+    console.log(text);
+  }
+};
+
+//Inicialize $UPP global variable with config settings
+(function(document,window){  
+    var host = window.location.hostname,
+        env;
     
-    var host = window.location.host;
-    
-    if(host === "upplication.com"){
-      return "PRO";
-    }else if(host === "upptesting.com"){
-      return "PRE";
-    }else{
-      return "DES";
+    if(!$UPP.config.hasOwnProperty(host)){
+      log("No hay configuraciones para el entorno")
     }
-}(document,window);
+    else{
+      for(var index in $UPP.config[host]) { 
+         if ($UPP.config[host].hasOwnProperty(index)) {
+             $UPP[index] = $UPP.config[host][index];
+         }
+      }
+    }
+}(document,window));
 
 
 
-var getQueryParams = function(name) {
+
+
+function getQueryParams(name) 
+{
   name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
   var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
   results = regex.exec(location.search);
-  value = results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "))
+  var value = results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "))
   return value;
 }
-
-
-var log = function(text){
-  if(location.hostname != "upplication.com"){
-    console.log(text);
+  
+(function(){
+  
+  $UPP.params="";
+  var campaign_keywords = 'utm_source utm_medium utm_campaign utm_content'.split(' '), 
+      kw = '';
+  for (var i=0; i < campaign_keywords.length; i++){
+    kw = getQueryParams(campaign_keywords[i]);
+    if(kw.length){
+      if(i != 0){
+        $UPP.params+="&";
+      }
+      $UPP.params+=campaign_keywords[i]+"="+kw;
+    }
   }
-}
+  
+}(document,window));
 
-var updateVisitInfo = function() {
+
+
+var updateVisitInfo = function() 
+{
   localStorage.numVisits = (parseInt(localStorage.numVisits) || 0) + 1;
 }
 
@@ -60,12 +88,12 @@ var setCookie = function(c_name, c_value)
   var CookieDate = new Date;
   CookieDate.setFullYear(CookieDate.getFullYear( ) + 10);
   var domain = "";
-  if(document.domain != "localhost") 
+  if($UPP.env != "DES") 
     domain = " ;domain=" + document.domain; 
   var aux = c_name + "=" + c_value + "; expires=" + CookieDate.toGMTString( ) + domain + ";path=/";
-  console.log("aux=",aux)
+  log("aux=",aux)
   document.cookie = aux;
-}
+};
 
 //TODO: USE ACCEPT PREFERRED LANGUAGE (Not browser language)
 /*
@@ -82,7 +110,8 @@ $.ajax({
     }
 });
 */
-var checkLanguage = function(){
+var checkLanguage = function()
+{
   var lang_cookie = getCookie("ppl_language"),
       location, browser_lang, lang;
   
@@ -91,7 +120,7 @@ var checkLanguage = function(){
     if(lang_cookie.substring(0,2) !== current_lang.substring(0,2)){
       //Redirect to lang cookie version
       location = routing[view][lang_cookie];
-      console.log("Hay cookie -> ", location)
+      log("Hay cookie -> "+ location)
       window.location = location;
     }
   }else{
@@ -109,13 +138,14 @@ var checkLanguage = function(){
         setCookie(ppl_language, "en-EN") ;
       }
       location = routing[view][lang];
-      console.log("No hay cookie -> ", location)
+      log("No hay cookie -> "+ location)
       window.location = location;
     }
   }
-}
+};
 
-var closeCookies = function(){
+var closeCookies = function()
+{
   setCookie("showed-cookies", "true");
   $("#cookies").removeClass('show');
-}
+};

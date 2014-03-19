@@ -1,9 +1,14 @@
+'use strict';
+
 var upplication = function($,document,window){
 
-  var is_coworker = false, should_track, user_ip, _global_properties={};
+  var is_coworker = false, 
+      should_track, 
+      user_ip, 
+      _global_properties={};
   
   var _log = function(text){
-      if(location.hostname != "upplication.com"){
+      if($UPP.env != "PRO"){
           console.log(text);
       }
   }
@@ -14,10 +19,7 @@ var upplication = function($,document,window){
 
     _set_coworker();
 
-    if(is_coworker && (_getCookie("coworker_exclude") === "true"))
-      should_track = false;
-    else  
-      should_track = true;
+    should_track = ((is_coworker && (_getCookie("coworker_exclude") === "true"))? true: false);
     
     $(document).ready(function(){
       if (is_coworker && (_getCookie("coworker_exclude") === "false")  ){
@@ -55,14 +57,17 @@ var upplication = function($,document,window){
     Private function which setup the user_ip
   */
   var _myIP = function () {
-    if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
-    else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp;
+    if (window.XMLHttpRequest) 
+      xmlhttp = new XMLHttpRequest();
+    else 
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 
     xmlhttp.open("GET","http://api.hostip.info/get_html.php",false);
     xmlhttp.send();
 
-    hostipInfo = xmlhttp.responseText.split("\n");
-
+    var hostipInfo = xmlhttp.responseText.split("\n");
+    var ipAddress;
     for (i=0; hostipInfo.length >= i; i++) {
         ipAddress = hostipInfo[i].split(":");
         if ( ipAddress[0] == "IP" ){
@@ -78,11 +83,7 @@ var upplication = function($,document,window){
     Private function which initialize the is_coworker variable
   */
   var _set_coworker = function (){
-    if(_myIP().indexOf("79.148.255.215")!=-1){
-      is_coworker =  true;
-    }
-    else
-      is_coworker =  false;
+    is_coworker = ((_myIP().indexOf("79.148.255.215")!=-1)? true : false);
   }
   
   var _add_global = function(props){
@@ -112,18 +113,19 @@ var upplication = function($,document,window){
 
   var identify = function (userId, traits){
     if (should_track){
+      _log("Identificating the user");
       analytics.identify(userId, traits);
     }
   }
 
   var track_links = function(element_id, event, properties){
     $(document).ready(function(){
-      $element = $(element_id)
+      var $element = $(element_id)
       if (should_track && $element){
         properties = _add_global(properties);
         $element.each(function(i, elem){
           analytics.trackLink(elem, event, properties);
-          //_log("Trackeando link: "+element_id);
+          _log("Trackeando link: "+element_id);
         });
       }
     });
@@ -136,7 +138,7 @@ var upplication = function($,document,window){
         properties = _add_global(properties);
         $element.each(function(i, elem){
           analytics.trackForm(elem, event, properties);
-          //_log("Trackeando link: "+element_id);
+          _log("Trackeando link: "+element_id);
         });
       }
     });
