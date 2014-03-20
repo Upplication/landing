@@ -25,7 +25,7 @@ DEPLOYMENT
 --------
 `grunt deploy`
 
-If you are going to upload the project to a folder different than root (/), you can use a parameter called `path` with the destination root path. Example `grunt build --path="http://upplication.com/new"` to make the static files points to the proper path.
+If you are going to upload the project to a folder different than root (/), you can use a parameter called `path` with the destination root path. Example `grunt deploy --path="http://upplication.com/new"` to make the static files points to the proper path.
 
 Builds the project:
 Optimization for distribution.

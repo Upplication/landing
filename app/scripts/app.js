@@ -36,8 +36,10 @@
       
       var vals = $(this).serialize(),
           host, url;     
+      var aux = JSON.parse('{"' + decodeURI(vals).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
+      //debugger
 
-      url = "http://"+$UPP.host+"/web/register.action;?"+vals+"&__checkbox_terms=true&category=business";
+      url = "http://"+$UPP.host+"/web/register.action;?"+vals;
       if($UPP.params)
         url += "&" + $UPP.params;
       log("URL=",url);
@@ -45,12 +47,10 @@
       $.ajax({
         type: "POST",
         url: url,
+        data: aux,
         context: this,
-        dataType: "JSON",
-        success: function(data){
-          console.log(data)
-          data = $.parseJSON(data);
-          
+        dataType: "jsonp",
+        success: function(data){         
           if(data.success){
             window.location = "http://" + $UPP.host + "/web" + data.url;
           }else{

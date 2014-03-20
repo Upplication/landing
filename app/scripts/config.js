@@ -26,7 +26,8 @@ $UPP.config = {
   "localhost":{
     segmentio_token: "j44nuye4y6",
     tagmanager_token: "GTM-M8KJZG",
-    host: "desarrollo.upplication.priv",
+    //host: "desarrollo.upplication.priv",
+    host: "192.168.0.12:8080",
     env: "LOC"
   }
 
