@@ -43,6 +43,8 @@ input
   float: right
 .left
   float: left
+.clear
+  clear: both
 .full-width
   width: 100%
 .width-44
@@ -293,7 +295,7 @@ $default-text-shadow-v-offset: 1px
   color: #FFF
   background-color: #FABE78
   width: 380px
-  background-image: url("/images/cookie.png")
+  background-image: url("@@BASE_PATH/images/cookie.png")
   background-position: 15px 15px
   background-repeat: no-repeat
   +transition(all, 3s, ease-in-out)
@@ -316,7 +318,7 @@ $default-text-shadow-v-offset: 1px
       color: brown
 
   &:before
-    background: url("/images/cookie.png")
+    background: url("@@BASE_PATH/images/cookie.png")
     display: block
     width: 147px
     height: 121px

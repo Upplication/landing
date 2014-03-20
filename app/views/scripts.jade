@@ -3,8 +3,10 @@
 //- Setup the envs variables
 //- Checks cookies looking for the preferred language
 
-script(type="text/javascript", src='#{BASE_PATH}/scripts/config.js')
-script(type="text/javascript", src='#{BASE_PATH}/scripts/utils.js')
+// build:js({.tmp,app}) /scripts/header.js
+script(type="text/javascript", src='/scripts/config.js')
+script(type="text/javascript", src='/scripts/utils.js')
+// endbuild
 
 script(type='text/javascript')
   
@@ -19,6 +21,9 @@ script(type='text/javascript')
       current_lang = "#{lang}";
   
   checkLanguage();
+
+  var BASE_PATH = "@@BASE_PATH";
+
 
   document.write('<base href="//' + base  + '" />');
   

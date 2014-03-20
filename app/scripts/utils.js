@@ -120,7 +120,10 @@ var checkLanguage = function()
     if(lang_cookie.substring(0,2) !== current_lang.substring(0,2)){
       //Redirect to lang cookie version
       location = routing[view][lang_cookie];
+
       log("Hay cookie -> "+ location)
+      log("Routing -> "+ routing)
+      debugger
       window.location = location;
     }
   }else{

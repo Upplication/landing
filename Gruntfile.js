@@ -1,6 +1,8 @@
 // Generated on 2013-09-18 using generator-angular 0.4.0
 'use strict';
 var LIVERELOAD_PORT = 35729;
+var CONNECT_PORT = 9000;
+var BASE_PATH;
 var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
 var fs = require('fs');
 var mountFolder = function (connect, dir) {
@@ -19,6 +21,9 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   require('time-grunt')(grunt);
 
+  BASE_PATH = grunt.option( "path" )? grunt.option( "path" ): "http://localhost:"+CONNECT_PORT;
+  console.log("BASE PATH=",BASE_PATH);
+
   var getRoutes = function(){
     var views = grunt.file.readJSON('./app/urls.json');
     var langs = grunt.file.readJSON('./app/locales/languages.json');
@@ -36,14 +41,14 @@ module.exports = function (grunt) {
       if(views.hasOwnProperty(view)){
         for(var i=0; i < langs.length; i++){
           lang = langs[i].language_country;
-          routing[view][lang] = langFiles[lang][view]._url;
+          routing[view][lang] = BASE_PATH + langFiles[lang][view]._url;
         }
       }
     }
+    //console.log("Return routing=", routing);
     return routing;
   }
   
-  var BASE_PATH = grunt.option( "path" )? grunt.option( "path" ): "";
 
   // configurable paths
   var yeomanConfig = {
@@ -80,7 +85,7 @@ module.exports = function (grunt) {
       lang = lang.language_country;
       //console.log("lang=",lang);
       var routing = JSON.stringify(getRoutes());
-      console.log("routing=",routing);
+      //console.log("Routing a JADE=",routing);
       
       //console.log("lang_html=",lang_html)
       jade[env].push('jade:' + env + "-" + lang);
@@ -131,7 +136,7 @@ module.exports = function (grunt) {
     watch: {
       styles: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
-        tasks: ['copy:styles', 'autoprefixer']
+        tasks: ['copy:styles', 'autoprefixer', 'replace:dev']
       },
       livereload: {
         options: {
@@ -151,7 +156,7 @@ module.exports = function (grunt) {
       },
       jade: {
         files: ['<%= yeoman.app %>/{,*/}*.jade'],
-        tasks: ['jade']
+        tasks: ['jade', 'replace:dev']
       }
     },
     autoprefixer: {
@@ -169,7 +174,7 @@ module.exports = function (grunt) {
     },
     connect: {
       options: {
-        port: 9000,
+        port: CONNECT_PORT,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost'
       },
@@ -376,6 +381,71 @@ module.exports = function (grunt) {
         }
       }
     },
+    replace: {
+      dist: {
+        options: {
+          patterns: [
+            {
+              json:{
+                "BASE_PATH": BASE_PATH,
+              }
+            },
+            {
+              match: /href="\/styles\//g,
+              replacement: 'href="'+BASE_PATH+'/styles/'
+                
+            },
+            {
+              match: /src="\/scripts\//g,
+              replacement: 'src="'+BASE_PATH+'/scripts/'
+                
+            },
+            {
+              match: 'timestamp',
+              replacement: '<%= grunt.template.today() %>'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true, 
+            
+            src: [
+              'dist/{,*/}*.html',
+              'dist/{,*/}*.css'
+            ], 
+            //dest: 'dist/'
+          }
+        ]
+      },
+      "dev": {
+        options: {
+          patterns: [
+            {
+              json:{
+                "BASE_PATH": ""
+              }
+            },
+            {
+              match: 'timestamp',
+              replacement: '<%= grunt.template.today() %>'
+            }
+          ]
+        },
+        files: [
+          {
+            expand: true, 
+            
+            src: [
+              '.tmp/{,*/}*.html',
+              '.tmp/{,*/}*.css'
+            ], 
+            //dest: 'dist/'
+          }
+        ]
+      }
+
+    },
     jade: jade_config,
     'gh-pages': {
       options: {
@@ -398,7 +468,7 @@ module.exports = function (grunt) {
       }
   });
 
-
+  //-- GRUNT SERVER
   grunt.registerTask('server', function (target) {
     if (target === 'dist') {
       return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
@@ -409,13 +479,28 @@ module.exports = function (grunt) {
       'setLangs:server',
       'concurrent:server',
       'autoprefixer',
+      'replace:dev',
       'connect:livereload',
       'open',
       'watch',
       'imagemin:server'
     ]);
   });
+  //-- END GRUNT SERVER
 
+  //-- GRUNT PREPARE
+  grunt.registerTask('prepare', function (target) {
+    
+    grunt.task.run([
+      'clean:server',
+      'setLangs:server',
+      'concurrent:server',
+      'autoprefixer',
+    ]);
+  });
+  //-- END GRUNT PREPARE
+
+  //-- GRUNT BUILD
   var myTasks = [
     'htmlmin',
     'compass',
@@ -427,12 +512,24 @@ module.exports = function (grunt) {
     'ngmin',
     'cssmin',
     'uglify',
-    'rev',
+    //'rev',
     'usemin',
-    'imagemin:dist'
+    'imagemin:dist',
+    'replace:dist'
   ];
 
-  grunt.registerTask('build', ['clean:dist','setLangs:dist'].concat(jade.dist.concat(myTasks)));
+  grunt.registerTask('build', [
+    'clean:dist',
+    'setLangs:dist'
+  ].concat(jade.dist.concat(myTasks)));
+
+  grunt.registerTask('deploy', function(){
+    grunt.task.run('prepare');
+    grunt.task.run('build');
+  });
+
+    
+  //-- END GRUNT BUILD
 
   grunt.registerTask('default', [
     'server'
@@ -453,7 +550,7 @@ module.exports = function (grunt) {
       if(err) {
         console.log(err);
       } else {
-        console.log("Routing file saved to " + outputFilename);
+        //console.log("Routing file saved to " + outputFilename);
       }
     });
   });
@@ -464,6 +561,6 @@ module.exports = function (grunt) {
   ]);
 
   grunt.loadNpmTasks('grunt-gh-pages');
-
   grunt.loadNpmTasks('grunt-jade-i18n-extended');
+  grunt.loadNpmTasks('grunt-replace');
 };

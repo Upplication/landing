@@ -61,21 +61,27 @@
     "apps": {
       "title": "These are some of our apps",
       "more": "more",
+      "android": "Android",
+      "ios": "iOS",
+      "multidevice": "Multidevice",
       "bikers": {
         "title": "Bikers",
-        "description": "Description bikers",
+        "description": "Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
         "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
-        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822"
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
+        "webapp": "http://"
       },
       "welovesushy": {
-        "title": "We love susy",
-        "description": "Description sushy we love",
-        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597"
+        "title": "We Love Sushi",
+        "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
+        "webapp": "http://"
       },
       "educapp": {
-        "title": "Educapp",
-        "description": "Description educapp",
-        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852"
+        "title": "Guardepeque",
+        "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
+        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
+        "webapp": "http://"
       }
     },
     "testimonials": {

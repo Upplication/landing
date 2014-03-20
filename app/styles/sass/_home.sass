@@ -67,6 +67,14 @@
       height: 250px
       background-size: center
       +background-size(cover)
+    ul
+      margin-top: 1em
+    li a
+      text-decoration: none
+      font-size: 1.4em
+    li:first-child:nth-last-child(2),
+    li:first-child:nth-last-child(2) ~ li
+      width: 45.5%
 
   .register a
     color: $white
@@ -124,7 +132,7 @@
         width: 85%
         margin 0 auto
         display: block
-      background-image: url('/images/mobile/header.jpg')
+      background-image: url('@@BASE_PATH/images/mobile/header.jpg')
       background-size: 100% 100%
       
       .mobile
@@ -149,11 +157,16 @@
     img.screenshot-devices
       display: none
 
-    .apps-list li
+    .apps-list > li
       display: none
       &:first-child
         display: block
         margin-bottom: 0
+      li
+        width: 29%
+        float: left
+        display: block
+        margin: 0 2% 6%
 
       h1
         font-size: 1.4em
@@ -218,7 +231,7 @@
     #register
       min-height: 21em
       position: relative
-      background-image: url('/images/header_desktop.jpeg')
+      background-image: url('@@BASE_PATH/images/header_desktop.jpeg')
       +background-size(cover)
       background-position: center
       min-height: 450px

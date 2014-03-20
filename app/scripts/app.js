@@ -132,9 +132,28 @@
           }
         },error: function(xhr, type){
           $.magnificPopup.open({
-            items:{src:'#ajax-error-popup'},
-            type:'inline',
-            midClick: true 
+            items:{
+              src:'#ajax-error-popup',
+              type: 'inline'
+
+            },
+            //type:'inline',
+            //midClick: true ,
+            callbacks: {
+              open: function() {
+                // Will fire when this exact popup is opened
+                // this - is Magnific Popup object
+                console.log("Opened");
+
+
+              },
+              close: function() {
+                // Will fire when popup is closed
+                //debugger
+                //console.log("Closed");
+                $.magnificPopup.close();
+              }
+            }
           });
         }
 
@@ -164,7 +183,7 @@
     $('#youtube-video').magnificPopup({
       type:'inline',
       midClick: true,
-      /*callbacks: {
+      callbacks: {
         open: function() {
           // Will fire when this exact popup is opened
           // this - is Magnific Popup object
@@ -176,12 +195,13 @@
           // Will fire when popup is closed
           console.log("Closed");
         }
-      }*/
+      }
     });
 
     $('#ajax-error-popup').magnificPopup({
-      type:'inline',
-      midClick: true 
+      type:'inline'
+      //,
+      //midClick: true 
     });
   });
 })();

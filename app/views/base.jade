@@ -27,21 +27,21 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:description', content='#{description}')
         meta(property='og:url', content='http://upplication.com/')
         meta(property='og:site_name', content='Upplication')
-        meta(property='og:image', content='#{BASE_PATH}/images/upplication_rrss.png')
+        meta(property='og:image', content='/images/upplication_rrss.png')
 
         meta(name="twitter:card", content="summary")
         meta(name="twitter:site", content="@upplication")
         meta(name="twitter:domain", content="Upplication")
         meta(name="twitter:creator", content="@upplication")
-        meta(name="twitter:image:src", content="#{BASE_PATH}/images/upplication_rrss.png")
+        meta(name="twitter:image:src", content="/images/upplication_rrss.png")
 
         link(rel="canonical", href="#{canonical}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
         // build:css({.tmp, app}) /styles/main.css
-        link(rel='stylesheet', href='#{BASE_PATH}/styles/main.css')
-        link(rel='stylesheet', href='#{BASE_PATH}/fonts/style.css')
-        link(rel='stylesheet', href='#{BASE_PATH}/bower_components/magnific-popup/dist/magnific-popup.css')
+        link(rel='stylesheet', href='/styles/main.css')
+        link(rel='stylesheet', href='/fonts/style.css')
+        link(rel='stylesheet', href='/bower_components/magnific-popup/dist/magnific-popup.css')
         link(rel="shortcut icon", href="http://upplication.es/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
         // endbuild
@@ -50,8 +50,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
 
     body(id="#{template}", data-lang="#{lang}")
-
-
         //data = langs = #{data}! = #{langs}!
 
         nav.nav-basement
@@ -80,12 +78,12 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         //-script(src='/bower_components/zeptojs/src/touch.js')
         // build:js({.tmp,app}) /scripts/app.js
         // bower:js
-        script(type="text/javascript", src='#{BASE_PATH}/bower_components/zepto/zepto.min.js')
-        script(type="text/javascript", src='#{BASE_PATH}/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js')
+        script(type="text/javascript", src='/bower_components/zepto/zepto.min.js')
+        script(type="text/javascript", src='/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
         // endbower
-        script(type="text/javascript", src='#{BASE_PATH}/scripts/ua.js')
-        script(type="text/javascript", src='#{BASE_PATH}/scripts/app.js')
-        script(type="text/javascript", src='#{BASE_PATH}/scripts/tracking.js')
+        script(type="text/javascript", src='/scripts/ua.js')
+        script(type="text/javascript", src='/scripts/app.js')
+        script(type="text/javascript", src='/scripts/tracking.js')
         // endbuild
 
 
