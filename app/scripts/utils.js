@@ -123,7 +123,7 @@ var checkLanguage = function()
 
       log("Hay cookie -> "+ location)
       log("Routing -> "+ routing)
-      debugger
+      //debugger
       window.location = location;
     }
   }else{

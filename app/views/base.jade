@@ -13,6 +13,9 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         include scripts
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        
+        //- !!!!!!!!!!!!!!!!!! Remove this when the experiment ends !!!!!
+        meta(name="robots", content="noindex, nofollow")
 
         title #{title}
 
@@ -51,7 +54,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
     body(id="#{template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
-
         nav.nav-basement
             ul.nav-basement-options.unstyled.margin-top.change-lang
                 include header-links

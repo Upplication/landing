@@ -20,7 +20,7 @@ $(document).ready(function(){
   var parse_urls=["http://dashboard.upplication.com/web/login","http://dashboard.upplication.com/web/new-user","/precios/","/pricing/"];
   for(var i = 0; i < parse_urls.length; i++){
     $("[href*='" + parse_urls[i] + "']").each(function(i, elem){
-      $elem = $(elem);
+      var $elem = $(elem);
 
       prefix="";
       if($elem.attr("href").split("?").length > 1)

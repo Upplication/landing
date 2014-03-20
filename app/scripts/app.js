@@ -28,6 +28,10 @@
     if(!getCookie("showed-cookies")){
       $("#cookies").addClass("show");
     }
+    
+    $(".login_btn a").each(function(i, elem){
+      $(this).attr("href","http://" + $UPP.host + "/web");
+    });
 
     //Register form through AJAX
     //Validation done in HTML5 (patterns, minlength, etc)

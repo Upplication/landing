@@ -127,7 +127,7 @@
         "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
         "download": {
           "anchor": "Descarga gratis",
-          "href": "http://upplication.com/como-conseguir-app-exito-rapido/"
+          "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
         }
       }
     },
@@ -148,51 +148,51 @@
     },
     "manifest": {
       "anchor": "Manifiesto",
-      "url": "a"
+      "url": "http://upplication.com/manifiesto/"
     },
     "team": {
       "anchor": "Equipo",
-      "url": "a"
+      "url": "http://upplication.com/equipo/"
     },
     "features": {
       "anchor": "Características",
-      "url": "a"
+      "url": "http://upplication.com/caracteristicas/"
     },
     "partners": {
       "anchor": "Hazte distribuidor",
-      "url": ""
+      "url": "http://upplication.com/colaboremos/"
     },
     "jobs": {
       "anchor": "Empleo",
-      "url": ""
+      "url": "http://upplication.com/trabajo/"
     },
     "tos": {
       "anchor": "Condiciones legales",
-      "url": ""
+      "url": "http://upplication.com/terminos-legales/"
     },
     "tutorials": {
       "anchor": "Tutoriales",
-      "url": ""
+      "url": "http://upplication.com/tutorial/"
     },
     "helpcenter": {
       "anchor": "Centro de ayuda",
-      "url": ""
+      "url": "https://upplication.uservoice.com/"
     },
     "breakfasts": {
       "anchor": "Desayunos",
-      "url": ""
+      "url": "http://upplication.com/taller-crear-apps-madrid"
     },
     "apps": {
       "anchor": "Ejemplos de apps",
-      "url": ""
+      "url": "http://upplication.com/inspirate"
     },
     "create_apps": {
       "anchor": "Creamos tu app",
-      "url": ""
+      "url": "http://upplication.com/hacemos-el-trabajo-por-ti/"
     },
     "pricing": {
       "anchor": "Precios",
-      "url": ""
+      "url": "http://upplication.com/precios/"
     },
     "media_kit": {
       "anchor": "Prensa",
@@ -224,7 +224,7 @@
     },
     "dashboard": {
       "anchor": "Entrar",
-      "url": "http://dashboard.upplication.com"
+      "url": "http://dashboard.upplication.com/web"
     }
   }
 }

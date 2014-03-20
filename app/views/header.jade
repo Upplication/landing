@@ -1,5 +1,5 @@
 header.padding-top
-    a.logo.margin-bottom(href='#{$.home._url}')
+    a.logo.margin-bottom(href='@@BASE_PATH')
         img(src="@@BASE_PATH/images/upplication.png", alt="Upplication logo")
 
     span.icon-list
@@ -13,4 +13,4 @@ header.padding-top
             each lang in langs.codes
                 li(data-lang="#{lang.language_country}")
                     a(href="#{lang.home}") #{lang.language_short_code}
-    a.login.unstyled(href="#register") #{$.external.dashboard.anchor} 
+    a.login.unstyled(href="#{$.external.dashboard.url}") #{$.external.dashboard.anchor} 

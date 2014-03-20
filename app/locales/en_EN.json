@@ -148,51 +148,51 @@
     },
     "manifest": {
       "anchor": "Manifesto",
-      "url": "a"
+      "url": "http://upplication.com/manifesto/"
     },
     "team": {
       "anchor": "Team",
-      "url": "a"
+      "url": "http://upplication.com/team/"
     },
     "features": {
       "anchor": "Features",
-      "url": "a"
+      "url": "http://upplication.com/features/"
     },
     "partners": {
       "anchor": "Become a Dealer",
-      "url": ""
+      "url": "http://upplication.com/become-a-partner/"
     },
     "jobs": {
       "anchor": "Careers",
-      "url": ""
+      "url": "http://upplication.com/jobs/"
     },
     "tos": {
       "anchor": "Terms and Conditions",
-      "url": ""
+      "url": "http://upplication.com/terms-of-service/"
     },
     "tutorials": {
       "anchor": "Tutorials",
-      "url": ""
+      "url": "http://upplication.com/tutorial/"
     },
     "helpcenter": {
       "anchor": "Help Center",
-      "url": ""
+      "url": "https://upplication.uservoice.com/"
     },
     "breakfasts": {
-      "anchor": "Breakfast",
+      "anchor": "",
       "url": ""
     },
     "apps": {
-      "anchor": "App sambles",
-      "url": ""
+      "anchor": "App samples",
+      "url": "http://upplication.com/category/mobile-apps/"
     },
     "create_apps": {
       "anchor": "We created your app",
-      "url": ""
+      "url": "http://upplication.com/we-can-make-your-app/"
     },
     "pricing": {
       "anchor": "Pricing",
-      "url": ""
+      "url": "http://upplication.com/pricing/"
     },
     "media_kit": {
       "anchor": "",
@@ -224,7 +224,7 @@
     },
     "dashboard": {
       "anchor": "Login",
-      "url": "http://dashboard.upplication.com "
+      "url": "http://dashboard.upplication.com/web"
     }
   }
 }
