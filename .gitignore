@@ -6,3 +6,4 @@ node_modules
 .tmp
 app/routing.json
 .grunt/
+.sass-cache/
