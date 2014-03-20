@@ -556,7 +556,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('upplication', [
-    'build',
+    'deploy',
     'gh-pages'
   ]);
 
