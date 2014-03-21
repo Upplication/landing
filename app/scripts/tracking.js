@@ -58,10 +58,6 @@ updateVisitInfo();
 
 $(document).ready(function(){
 
-  
-  upplication.track_links("Click [landing] create-your-app",".crea-tu-app",prop,function(){
-    log("Click [landing] create-your-app: "+args);
-  });
 
   $("#download_ebook").click(function(){
     upplication.track("Click [landing] download-ebook",prop,function(){
@@ -69,32 +65,20 @@ $(document).ready(function(){
     });  
   });
     
-
-  if(track_pages.indexOf(page_slug) != -1){
+  $("#youtube-video").one("click",function(){
+    upplication.track("Video played",prop,function(){
+      log("Video played: "+args);;
+    });  
+  });
   
-    upplication.track("View landing",prop,function(){
-      log("View landing: "+args);
-    });
+  
+  upplication.track("View landing",prop,function(){
+    log("View landing: "+args);
+  });
 
-    //TODO: track form submit
-    $("#boton-upp-tu, .boton-upp-tu").click(function(){
-      if(!$(this).hasClass("spread")){
-        upplication.track("Click btn_start",prop,function(){
-          log("Click btn_start: "+args);;
-        });  
-      }
-    });
+  if ($UPP.env == "PRO" && upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
+    window.location = "/analytics";
+  }  
 
-    if ($UPP.env == "PRO" && upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
-      window.location = "/analytics";
-    }
-
-
-    $(".video-container a").one("click",function(){
-      upplication.track("Video played",prop,function(){
-        log("Video played: "+args);;
-      });  
-    });
-
-  }
+  
 });
