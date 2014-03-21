@@ -172,7 +172,7 @@
     
 
     //Display sidebar menu in mobile
-    $(".icon-list").on("click",function(){
+    $(".icon-list").on("tap",function(){
       $(".slide-pannel.effects").toggleClass("slide-right")
       var $outer = $("div.outer-wrap");
       if($outer.css("height") == "100%"){
@@ -181,7 +181,8 @@
       else{
         $outer.css("height","100%");
       }
-    })
+    });
+    
 
     //
     $('#youtube-video').magnificPopup({
