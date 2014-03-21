@@ -3,12 +3,13 @@
 //- Setup the envs variables
 //- Checks cookies looking for the preferred language
 
-// build:js({.tmp,app}) /scripts/header.js
+
 script(type="text/javascript")
   window.$UPP = window.$UPP || {};
 
   $UPP.config = !{config};
 
+// build:js({.tmp,app}) /scripts/header.js
 script(type="text/javascript", src='/scripts/utils.js')
 // endbuild
 
