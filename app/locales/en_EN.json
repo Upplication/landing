@@ -10,20 +10,20 @@
     "community": "Community",
     "media": "Media and Networks",
     "signature": "Designed and assembled in Madrid",
-    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='http://upplication.com/terminos-legales'>política de cookies.</a>."
+    "cookies": "If you close this window, you accept our <a href='http://upplication.com/terms-of-service/'>cookies policy.</a>."
   },
   "register": {
       "error":{
-        "num1": "¡Fenomenal! Has terminado el registro",
-        "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-        "num3": "Mmmmm, ya está ese e-mail registrado en Upplication",
-        "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
-        "num5": "¡No! El código seller no es correcto",
-        "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
-        "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
-        "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
-        "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
-        "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+        "num1": "Cool! Registration finished",
+        "num2": "Ouch! Error creating your app, please contact us",
+        "num3": "Mmmmm, that email account is already signed in Upplication",
+        "num4": "What a pity! Name of the app already chosen",
+        "num5": "No! Seller code is not correct",
+        "num6": "Wow! Name of the app and e-mail account already signed in",
+        "num7": "Wow! Name of the app already chosen and seller code is not correct",
+        "num8": "Wow! Email account already signed in and seller code is not correct",
+        "num9": "Wow! Name of the app, email account and seller code are not correct",
+        "num10": "Brrr! You need to refill name of the app and email account fields"
       }
   },
   "home": {
@@ -31,9 +31,9 @@
     "_template": "home",
     "_name": "Home",
     "_meta_title": "Create the app for your business",
-    "_meta_description": "Description tag",
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "register": {
+    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+   "register": {
       "announce": "You can change it later",
       "claim": "Your app, your business",
       "arguments": "Create the app for your business, without coding, quick and easy.",
@@ -44,15 +44,15 @@
       "accept_terms": "When you click the Try button you accept our",
       "terms": "terms and conditions",
       "warning":{
-        "name": "The name of your app must be between 3 and 32 characters and can not start with a number",
+        "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
         "password": "The minimum password length is 8 characters",
-        "ajax": "Uuups..., we had a tiny problem",
+        "ajax": "Uuups..., we had a small problem",
         "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
       }
     },
     "multidevice": {
       "title": "App and multi-device site",
-      "text": "When you make a mobile app, a website adapted for computers, tablets and smartphones, is automatically created.",
+      "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app, ",
       "devices_alt": "Apps for all devices",
       "html5_alt": "Create your app with HTML5",
       "android_alt": "Create your app with Android",
@@ -66,20 +66,20 @@
       "multidevice": "Multidevice",
       "bikers": {
         "title": "Bikers",
-        "description": "Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
+        "description": "Bikers created an app with a smart design to become the best bikes mobile app. Download it and you can check offers, items and cyclist events easily.",
         "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
         "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
         "webapp": "http://"
       },
       "welovesushy": {
         "title": "We Love Sushi",
-        "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
+        "description": "Why not to create an app for sushi lovers? We Love Sushi is an easy way to buy sushi from your mobile device, choose your menu and pay. A beautiful app, useful to enjoy the best sushi.",
         "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
         "webapp": "http://"
       },
       "educapp": {
         "title": "Guardepeque",
-        "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
+        "description": "A kindergarten app is possible. An app for parents, to know how their kids are all the time, to be updated about the school activities and schedule. Everything from a mobile device, with a easy design.",
         "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
         "webapp": "http://"
       }
@@ -107,25 +107,25 @@
       "call_to_action": "Try it now"
     },
     "arguments":{
-      "title": "Crea la app de tu negocio",
+      "title": "Create the app for your business",
       "loyalty":{
-        "title": "Fideliza",
-        "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."       
+        "title": "Secure",
+        "text": "With your app, your business is in the pocket of your customer with one touch. Take care of your mobile customer, offer them exclusive content."       
       },
       "sell":{
-        "title": "Vende",
-        "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."        
+        "title": "Sell",
+        "text": "Your costumers can buy when and where they want with their mobile devices. In addition, your app has PayPal payment gateway."         
       },
       "notify":{
-        "title": "Notifica",
-        "clarification": "(Disponible en Abril de 2014)",
-        "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "        
+        "title": "Notify",
+        "clarification": "(Available in April 2014)",
+        "text": "Reach your customers is simple, create offers and content value with push notifications. Your message on your customers' screens immediately."      
       },
       "promote":{
-        "title": "Promociona tu app",
-        "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
+        "title": "Promote your app",
+        "text": "Download for free this eBook to learn how to promote your app.",
         "download": {
-          "anchor": "Descarga gratis",
+          "anchor": "Free download",
           "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
         }
 
