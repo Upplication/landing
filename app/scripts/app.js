@@ -41,7 +41,6 @@
       var vals = $(this).serialize(),
           host, url;     
       var aux = JSON.parse('{"' + decodeURI(vals).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
-      //debugger
 
       url = "http://"+$UPP.host+"/web/register.action;?"+vals;
       if($UPP.params)
@@ -144,13 +143,13 @@
             //type:'inline',
             //midClick: true ,
             callbacks: {
-              open: function() {
+              /*open: function() {
                 // Will fire when this exact popup is opened
                 // this - is Magnific Popup object
                 console.log("Opened");
 
 
-              },
+              },*/
               close: function() {
                 // Will fire when popup is closed
                 //debugger
@@ -188,7 +187,7 @@
     $('#youtube-video').magnificPopup({
       type:'inline',
       midClick: true,
-      callbacks: {
+      /*callbacks: {
         open: function() {
           // Will fire when this exact popup is opened
           // this - is Magnific Popup object
@@ -200,7 +199,7 @@
           // Will fire when popup is closed
           console.log("Closed");
         }
-      }
+      }*/
     });
 
     $('#ajax-error-popup').magnificPopup({

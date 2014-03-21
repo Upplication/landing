@@ -85,10 +85,8 @@ $(document).ready(function(){
       }
     });
 
-    if (upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
-      //window.location = "/analytics";
-      //TODO: avoid contamine samples
-      console.log("TODO: Evitar contaminar muestras");
+    if ($UPP.env == "PRO" && upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
+      window.location = "/analytics";
     }
 
 
