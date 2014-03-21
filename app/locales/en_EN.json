@@ -69,19 +69,19 @@
         "description": "Bikers created an app with a smart design to become the best bikes mobile app. Download it and you can check offers, items and cyclist events easily.",
         "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
         "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
-        "webapp": "http://"
+        "webapp": "http://bikers.upplication.com/"
       },
       "welovesushy": {
         "title": "We Love Sushi",
         "description": "Why not to create an app for sushi lovers? We Love Sushi is an easy way to buy sushi from your mobile device, choose your menu and pay. A beautiful app, useful to enjoy the best sushi.",
         "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
-        "webapp": "http://"
+        "webapp": "http://welovesushi.upplication.com/"
       },
       "educapp": {
         "title": "Guardepeque",
         "description": "A kindergarten app is possible. An app for parents, to know how their kids are all the time, to be updated about the school activities and schedule. Everything from a mobile device, with a easy design.",
         "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
-        "webapp": "http://"
+        "webapp": "http://guardepeque.upplication.com/"
       }
     },
     "testimonials": {
