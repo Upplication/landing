@@ -8,13 +8,13 @@ block vars
     - var canonical = $.home._canonical
 
 block content
-    script(type='text/javascript')
+    script(type='text/javascript').
         $UPP.url = "#{$.home._url}";
         
     section#register
         div
             .mobile
-                img(src="@@BASE_PATH/images/la-florette-mobile.png", alt="App móvil")
+                img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
             .claim.padding-top-2x.margin-bottom-2x.width-90.center 
                 h1.uppercase.cwhite.acenter.bold #{home.register.claim}
                 p.big.acenter #{home.register.arguments}
@@ -49,7 +49,7 @@ block content
                     | #{home.multidevice.text}
 
             #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
-                img.screenshot-devices(src='@@BASE_PATH/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
+                img.screenshot-devices(src='#{localConfig.base_path}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
 
 
             ul.so-available
@@ -64,7 +64,7 @@ block content
         h1.acenter.margin-top-2x.width-90.center.margin-bottom-2x #{home.apps.title}
         ul.apps-list
             li
-                a.image(style="background-image:url('@@BASE_PATH/images/app 1.png')", href="#{home.apps.bikers.android_app}")
+                a.image(style="background-image:url('#{localConfig.base_path}/images/app1.png')", href="#{home.apps.bikers.android_app}")
                 .padding-2x
                     h1 #{home.apps.bikers.title}
                     p
@@ -78,7 +78,7 @@ block content
                             a.icon-apple(title="#{home.apps.more}: #{home.apps.ios}", href="#{home.apps.bikers.ios_app}")
 
             li.clearfix
-                a.image(style="background-image:url('@@BASE_PATH/images/app 2.png')", href="#{home.apps.welovesushy.android_app}"))
+                a.image(style="background-image:url('#{localConfig.base_path}/images/app2.png')", href="#{home.apps.welovesushy.android_app}"))
                 .padding-2x
                     h1 #{home.apps.welovesushy.title}
                     p
@@ -90,7 +90,7 @@ block content
                             a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.welovesushy.android_app}")
                         
             li.clearfix
-                a.image(style="background-image:url('@@BASE_PATH/images/app 3.png')", href="#{home.apps.educapp.android_app}"))
+                a.image(style="background-image:url('#{localConfig.base_path}/images/app3.png')", href="#{home.apps.educapp.android_app}"))
                 .padding-2x
                     h1 #{home.apps.educapp.title}
                     p
@@ -107,21 +107,21 @@ block content
         ul.testimonials
             li
                 blockquote.clearfix
-                    img(src="@@BASE_PATH/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
+                    img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
                     p #{home.testimonials.client1.cite}
                     footer 
                         cite - #{home.testimonials.client1.name}
 
             li
                 blockquote.clearfix
-                    img(src="@@BASE_PATH/images/david.jpeg", alt="David, Bar Trapatapa")
+                    img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
                     p #{home.testimonials.client2.cite}
                     footer 
                         cite - #{home.testimonials.client2.name}
 
             li
                 blockquote.clearfix
-                    img(src="@@BASE_PATH/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
+                    img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
                     p #{home.testimonials.client3.cite}
                     footer 
                         cite - #{home.testimonials.client3.name}
@@ -175,26 +175,24 @@ block content
         ul.acenter.margin-top-2x
             li
                 a(href="#{home.press.abc}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/abc.jpg", alt="ABC")
+                    img(src="#{localConfig.base_path}/images/press/abc.jpg", alt="ABC")
             li
                 a(href="#{home.press.el_economista}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/elEconomista.jpg", alt="elEconomista")
+                    img(src="#{localConfig.base_path}/images/press/elEconomista.jpg", alt="elEconomista")
             li
                 a(href="#{home.press.agencia_efe}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/emprende.jpg", alt="EFE Emprende")
+                    img(src="#{localConfig.base_path}/images/press/emprende.jpg", alt="EFE Emprende")
             li
                 a(href="#{home.press.forbes}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/forbes.jpg", alt="Forbes")
+                    img(src="#{localConfig.base_path}/images/press/forbes.jpg", alt="Forbes")
             li
                 a(href="#{home.press.telefonica}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/telefonica.jpg", alt="Think Big Telefonica")
+                    img(src="#{localConfig.base_path}/images/press/telefonica.jpg", alt="Think Big Telefonica")
             li
                 a(href="#{home.press.ticbeat}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/ticbeat.jpg", alt="Ticbeat")
+                    img(src="#{localConfig.base_path}/images/press/ticbeat.jpg", alt="Ticbeat")
             li
                 a(href="#{home.press.wwwhatsnew}", rel="nofollow")
-                    img(src="@@BASE_PATH/images/press/wwwhatsnew.jpg", alt="wwwhatsnew")
+                    img(src="#{localConfig.base_path}/images/press/wwwhatsnew.jpg", alt="wwwhatsnew")
 
-    script(type='text/javascript', src='http://www.youtube.com/player_api')
-
-        
+    script(type='text/javascript', src='http://www.youtube.com/player_api')        

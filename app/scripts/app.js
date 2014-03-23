@@ -28,11 +28,6 @@
     if(!getCookie("showed-cookies")){
       $("#cookies").addClass("show");
     }
-    
-    $(".login_btn a").each(function(i, elem){
-      $(this).attr("href","http://" + $UPP.host + "/web");
-    });
-
     //Register form through AJAX
     //Validation done in HTML5 (patterns, minlength, etc)
     $("form[name='register']").submit(function(e){
@@ -42,7 +37,7 @@
           host, url;     
       var aux = JSON.parse('{"' + decodeURI(vals).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
 
-      url = "http://"+$UPP.host+"/web/register.action;?"+vals;
+      url = "http://"+ DASHBOARD_BASE_PATH + "/web/register.action;?"+vals;
       if($UPP.params)
         url += "&" + $UPP.params;
       log("URL=",url);
@@ -55,7 +50,7 @@
         dataType: "jsonp",
         success: function(data){         
           if(data.success){
-            window.location = "http://" + $UPP.host + "/web" + data.url;
+            window.location = "http://" + DASHBOARD_BASE_PATH + "/web" + data.url;
           }else{
             var error = {};
 
@@ -123,15 +118,6 @@
               $seller.find('p.error').show();
               $seller.find('input').addClass("error");
             }
-
-            /*            
-            $("#ajax-error-popup .msg").text(msg);
-                
-            $.magnificPopup.open({
-              items:{src:'#ajax-error-popup'},
-              type:'inline',
-            });*/
-
           }
         },error: function(xhr, type){
           $.magnificPopup.open({
@@ -140,16 +126,7 @@
               type: 'inline'
 
             },
-            //type:'inline',
-            //midClick: true ,
             callbacks: {
-              /*open: function() {
-                // Will fire when this exact popup is opened
-                // this - is Magnific Popup object
-                console.log("Opened");
-
-
-              },*/
               close: function() {
                 // Will fire when popup is closed
                 //debugger
@@ -186,26 +163,11 @@
     //
     $('#youtube-video').magnificPopup({
       type:'inline',
-      midClick: true,
-      /*callbacks: {
-        open: function() {
-          // Will fire when this exact popup is opened
-          // this - is Magnific Popup object
-          console.log("Opened");
-
-
-        },
-        close: function() {
-          // Will fire when popup is closed
-          console.log("Closed");
-        }
-      }*/
+      midClick: true
     });
 
     $('#ajax-error-popup').magnificPopup({
       type:'inline'
-      //,
-      //midClick: true 
     });
   });
 })();

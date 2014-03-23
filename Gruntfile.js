@@ -3,6 +3,7 @@
 var LIVERELOAD_PORT = 35729;
 var CONNECT_PORT = 9000;
 var BASE_PATH;
+var environment;
 var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
 var fs = require('fs');
 var mountFolder = function (connect, dir) {
@@ -20,9 +21,27 @@ var mountFolder = function (connect, dir) {
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   require('time-grunt')(grunt);
+ 
+  // custom functions
 
-  BASE_PATH = grunt.option( "path" )? grunt.option( "path" ): "http://localhost:"+CONNECT_PORT;
-  console.log("BASE PATH=",BASE_PATH);
+  // load environment:
+  var getConfig = function(){
+      var configJson = grunt.file.readJSON('./app/config.json');
+      var localConfig = configJson[environment];
+      // override for grunt params
+      for (var key in localConfig) {
+        if (localConfig.hasOwnProperty(key)) {
+          //console.log(key + " -> " + localConfig[key]);
+          var override = grunt.option("config." + key); 
+          if (override){
+            localConfig[key] = override;
+          }
+        }
+      }
+      return localConfig;
+  }
+
+  // we can use configs vars inside locales json
 
   var getRoutes = function(){
     var views = grunt.file.readJSON('./app/urls.json');
@@ -49,6 +68,11 @@ module.exports = function (grunt) {
     return routing;
   }
   
+  environment = grunt.option("env")?grunt.option( "env" ): "localhost";
+  console.log("Loading environment=" + environment);
+  // FIXME: base_path are mandatory...
+  BASE_PATH = getConfig().base_path;
+  console.log("With base path: " + BASE_PATH);  
 
   // configurable paths
   var yeomanConfig = {
@@ -86,6 +110,7 @@ module.exports = function (grunt) {
       //console.log("lang=",lang);
       var routing = JSON.stringify(getRoutes());
       var config = JSON.stringify(grunt.file.readJSON('./app/config.json'));
+      var localConfig = getConfig();
       //console.log("Routing a JADE=",routing);
       
       //console.log("lang_html=",lang_html)
@@ -101,12 +126,12 @@ module.exports = function (grunt) {
           },
           pretty: true,
           data: {
-            BASE_PATH: BASE_PATH,
             langs: grunt.file.readJSON("app/locales/languages.json"),
             lang: lang,
             lang_html: lang_html,
             routing: routing,
-            config: config
+            config: config,
+            localConfig: localConfig
           }
         },
         files: {}
@@ -127,8 +152,6 @@ module.exports = function (grunt) {
         }
       }
     });
-
-
     //END SETUP JADE DINAMICALLY
   });
 
@@ -243,15 +266,16 @@ module.exports = function (grunt) {
     useminPrepare: {
       html: '.tmp/{,*/}*.html',
       options: {
-        dest: '<%= yeoman.dist %>'
-      }
+          dest: '<%= yeoman.dist %>'
+        }
     },
     usemin: {
-      html: ['<%= yeoman.dist %>/{,*/}*.html'],
-      css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
-      options: {
-        dirs: ['<%= yeoman.dist %>']
-      }
+        html: ['<%= yeoman.dist %>/{,*/}*.html'],
+        css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
+        //js: ['<%= yeoman.dist %>/scripts/{,*/}*.js'],
+        options: {
+          dirs: ['.tmp', '<%= yeoman.dist %>']
+        }
     },
     imagemin: {
       dist: {
@@ -320,11 +344,16 @@ module.exports = function (grunt) {
               '.htaccess',
               'bower_components/**/*',
               'images/{,*/}*.{jpg,gif,png,webp}',
-              'scripts/{,*/}*.js',
               'fonts/{,*/}*'
             ]
           }
         ]
+      },
+      scripts:{
+        expand: true,
+        cwd: '<%= yeoman.app %>/scripts',
+        dest: '.tmp/scripts/',
+        src: '{,*/}*.js'
       },
       styles: {
         expand: true,
@@ -341,37 +370,22 @@ module.exports = function (grunt) {
       ].concat(jade.dev),
       dist: [
         'copy:styles',
+        'copy:scripts',
         'svgmin',
         'imagemin:dist'
       ]
     },
-      ngmin: {
-          dist: {
-              files: [
-                  {
-                      expand: true,
-                      cwd: '<%= yeoman.dist %>/scripts',
-                      src: '*.js',
-                      dest: '<%= yeoman.dist %>/scripts'
-                  }
-              ]
-          }
-      },
     uglify: {
-      dist: {
-        files: {
-          '<%= yeoman.dist %>/scripts/app.js': [
-            '<%= yeoman.dist %>/scripts/app.js'
-          ]
-        }
-      }
+      // used by usemin
     },
     compass: {                  // Task
       dist: {                   // Target
         options: {              // Target options
           sassDir: '<%= yeoman.app %>/styles/sass',
           cssDir: '<%= yeoman.dist %>/styles',
-          environment: 'production',
+          // usemin css handles the minimification process
+          // using codeblocks in jade files
+          environment: 'development',
           require: 'susy'
         }
       },
@@ -388,10 +402,10 @@ module.exports = function (grunt) {
         options: {
           patterns: [
             {
-              json:{
-                "BASE_PATH": BASE_PATH,
-              }
+              json:getConfig()
             },
+            // the only way to replace usemin blocks
+            // other alternative: https://github.com/ghosert/grunt-applymin
             {
               match: /href="\/styles\//g,
               replacement: 'href="'+BASE_PATH+'/styles/'
@@ -406,7 +420,10 @@ module.exports = function (grunt) {
               match: 'timestamp',
               replacement: '<%= grunt.template.today() %>'
             }
-          ]
+          ],
+          // custom prefix indicate that we use vars inside config file
+          // FIXME: i want suffix in order to works like jade vars
+          prefix: '@@config.'
         },
         files: [
           {
@@ -424,15 +441,16 @@ module.exports = function (grunt) {
         options: {
           patterns: [
             {
-              json:{
-                "BASE_PATH": ""
-              }
+              json:getConfig()
             },
             {
               match: 'timestamp',
               replacement: '<%= grunt.template.today() %>'
             }
-          ]
+          ],
+          // custom prefix indicate that we use vars inside config file
+          // FIXME: i want suffix in order to works like jade vars
+          prefix: '@@config.'
         },
         files: [
           {
@@ -497,7 +515,7 @@ module.exports = function (grunt) {
       'clean:server',
       'setLangs:server',
       'concurrent:server',
-      'autoprefixer',
+      'autoprefixer'
     ]);
   });
   //-- END GRUNT PREPARE
@@ -511,8 +529,9 @@ module.exports = function (grunt) {
     'autoprefixer',
     'concat',
     'copy:dist',
-    'ngmin',
+    // usemin uses this to minimify the css
     'cssmin',
+    // usemin uses this to minimity the js
     'uglify',
     //'rev',
     'usemin',

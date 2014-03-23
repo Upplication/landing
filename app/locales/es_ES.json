@@ -10,7 +10,7 @@
     "community": "Comunidad",
     "media": "Medios y redes",
     "signature": "Designed and assembled in Madrid",
-    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='http://upplication.com/terminos-legales'>política de cookies.</a>"
+    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-legales'>política de cookies.</a>"
   },
   "register": {
       "error":{
@@ -148,31 +148,31 @@
     },
     "manifest": {
       "anchor": "Manifiesto",
-      "url": "http://upplication.com/manifiesto/"
+      "url": "@@config.base_path/manifiesto/"
     },
     "team": {
       "anchor": "Equipo",
-      "url": "http://upplication.com/equipo/"
+      "url": "@@config.base_path/equipo/"
     },
     "features": {
       "anchor": "Características",
-      "url": "http://upplication.com/caracteristicas/"
+      "url": "@@config.base_path/caracteristicas/"
     },
     "partners": {
       "anchor": "Hazte distribuidor",
-      "url": "http://upplication.com/colaboremos/"
+      "url": "@@config.base_path/colaboremos/"
     },
     "jobs": {
       "anchor": "Empleo",
-      "url": "http://upplication.com/trabajo/"
+      "url": "@@config.base_path/trabajo/"
     },
     "tos": {
       "anchor": "Condiciones legales",
-      "url": "http://upplication.com/terminos-legales/"
+      "url": "@@config.base_path/terminos-legales/"
     },
     "tutorials": {
       "anchor": "Tutoriales",
-      "url": "http://upplication.com/tutorial/"
+      "url": "@@config.base_path/tutorial/"
     },
     "helpcenter": {
       "anchor": "Centro de ayuda",
@@ -180,19 +180,19 @@
     },
     "breakfasts": {
       "anchor": "Desayunos",
-      "url": "http://upplication.com/taller-crear-apps-madrid"
+      "url": "@@config.base_path/taller-crear-apps-madrid"
     },
     "apps": {
       "anchor": "Ejemplos de apps",
-      "url": "http://upplication.com/inspirate"
+      "url": "@@config.base_path/inspirate"
     },
     "create_apps": {
       "anchor": "Creamos tu app",
-      "url": "http://upplication.com/hacemos-el-trabajo-por-ti/"
+      "url": "@@config.base_path/hacemos-el-trabajo-por-ti/"
     },
     "pricing": {
       "anchor": "Precios",
-      "url": "http://upplication.com/precios/"
+      "url": "@@config.base_path/precios/"
     },
     "media_kit": {
       "anchor": "Prensa",
@@ -224,7 +224,7 @@
     },
     "dashboard": {
       "anchor": "Entrar",
-      "url": "http://dashboard.upplication.com/web"
+      "url": "@@config.base_path/web"
     }
   }
 }

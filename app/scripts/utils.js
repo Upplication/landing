@@ -90,8 +90,8 @@ var setCookie = function(c_name, c_value)
   var domain = "";
   if($UPP.env != "DES") 
     domain = " ;domain=" + document.domain; 
-  var aux = c_name + "=" + c_value + "; expires=" + CookieDate.toGMTString( ) + domain + ";path=/";
-  log("aux=",aux)
+  var aux = c_name + "=" + c_value + "; expires=" + CookieDate.toGMTString( )+ ";path=/"; //+ domain + ";path=/";
+  log("aux=" + aux);
   document.cookie = aux;
 };
 
@@ -135,10 +135,10 @@ var checkLanguage = function()
        lang = "";
       if(browser_lang == "es"){
         lang = "es_ES";
-        setCookie(ppl_language, "es-ES") ;
+        setCookie("ppl_language", "es-ES") ;
       }else{
         lang = "en_EN";
-        setCookie(ppl_language, "en-EN") ;
+        setCookie("ppl_language", "en-EN") ;
       }
       location = routing[view][lang];
       log("No hay cookie -> "+ location)

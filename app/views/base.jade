@@ -14,7 +14,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         
-        //- !!!!!!!!!!!!!!!!!! Remove this when the experiment ends !!!!!
+        //- TODO: Remove this when the experiment ends !!!!!
         meta(name="robots", content="noindex, nofollow")
 
         title #{title}
@@ -41,13 +41,15 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="canonical", href="#{canonical}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
-        // build:css({.tmp, app}) /styles/main.css
+        // build:css({.tmp, app}) /styles/main.min.css
         link(rel='stylesheet', href='/styles/main.css')
+        // endbuild   
+
         link(rel="shortcut icon", href="http://upplication.es/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
-        // endbuild
-        link(rel='stylesheet', href='@@BASE_PATH/fonts/style.css')
-        link(rel='stylesheet', href='@@BASE_PATH/bower_components/magnific-popup/dist/magnific-popup.css')
+        
+        link(rel='stylesheet', href='#{localConfig.base_path}/fonts/style.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
 
         // Place favicon.ico and apple-touch-icon.png in the root directory
 
@@ -79,13 +81,16 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
 
         //-script(src='/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='@@BASE_PATH/bower_components/zepto/zepto.min.js')
-        script(type="text/javascript", src='@@BASE_PATH/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='@@BASE_PATH/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
         // bower:js
         // endbower
+
+        // build:js({.tmp,app}) /scripts/app.min.js
         script(type="text/javascript", src='/scripts/ua.js')
-        // build:js({.tmp,app}) /scripts/app.js
         script(type="text/javascript", src='/scripts/app.js')
-        // endbuild
         script(type="text/javascript", src='/scripts/tracking.js')
+        // endbuild
+        
+        

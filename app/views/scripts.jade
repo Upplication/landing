@@ -4,16 +4,15 @@
 //- Checks cookies looking for the preferred language
 
 
-script(type="text/javascript")
+script(type="text/javascript").
   window.$UPP = window.$UPP || {};
-
   $UPP.config = !{config};
 
-// build:js({.tmp,app}) /scripts/header.js
+// build:js({.tmp,app}) /scripts/utils.min.js
 script(type="text/javascript", src='/scripts/utils.js')
 // endbuild
 
-script(type='text/javascript')
+script(type='text/javascript').
   
   // Fix for IE
   if (!window.location.origin) {
@@ -26,9 +25,9 @@ script(type='text/javascript')
       current_lang = "#{lang}";
   
   checkLanguage();
-
-  var BASE_PATH = "@@BASE_PATH";
-
+  
+  var BASE_PATH = "#{localConfig.base_path}";
+  var DASHBOARD_PATH = "#{localConfig.dashboard_base_path}";
 
   document.write('<base href="//' + base  + '" />');
   
