@@ -37,7 +37,7 @@
           host, url;     
       var aux = JSON.parse('{"' + decodeURI(vals).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
 
-      url = "http://"+ DASHBOARD_BASE_PATH + "/web/register.action;?"+vals;
+      url = DASHBOARD_PATH + "/web/register.action;?"+vals;
       if($UPP.params)
         url += "&" + $UPP.params;
       log("URL=",url);
@@ -50,7 +50,7 @@
         dataType: "jsonp",
         success: function(data){         
           if(data.success){
-            window.location = "http://" + DASHBOARD_BASE_PATH + "/web" + data.url;
+            window.location = DASHBOARD_PATH + "/web" + data.url;
           }else{
             var error = {};
 
