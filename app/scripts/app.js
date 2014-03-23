@@ -37,7 +37,7 @@
           host, url;     
       var aux = JSON.parse('{"' + decodeURI(vals).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
 
-      url = DASHBOARD_PATH + "/web/register.action;?"+vals;
+      url = DASHBOARD_PATH + "/web/register.action?"+vals;
       if($UPP.params)
         url += "&" + $UPP.params;
       log("URL=",url);
