@@ -224,7 +224,7 @@
     },
     "dashboard": {
       "anchor": "Entrar",
-      "url": "@@config.base_path/web"
+      "url": "@@config.dashboard_base_path/web"
     }
   }
 }

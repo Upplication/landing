@@ -224,7 +224,7 @@
     },
     "dashboard": {
       "anchor": "Login",
-      "url": "@@config.base_pathH/web"
+      "url": "@@config.dashboard_base_path/web"
     }
   }
 }
