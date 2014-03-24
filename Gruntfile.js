@@ -108,7 +108,7 @@ module.exports = function (grunt) {
       lang_html = lang.language_country_html;
       lang = lang.language_country;
       //console.log("lang=",lang);
-      var routing = JSON.stringify(getRoutes());
+      var routing = getRoutes();
       var config = JSON.stringify(grunt.file.readJSON('./app/config.json'));
       var localConfig = getConfig();
       //console.log("Routing a JADE=",routing);
@@ -130,6 +130,7 @@ module.exports = function (grunt) {
             lang: lang,
             lang_html: lang_html,
             routing: routing,
+			routingString: JSON.stringify(routing),
             config: config,
             localConfig: localConfig
           }

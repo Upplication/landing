@@ -12,8 +12,6 @@
     //Add dynamic translations
     for(var i=0 ; i < lang_elems.length; i++){
       lang = $(lang_elems[i]).data("lang");
-      //TODO: Move this to jade in header (not with JS)
-      $(".change-lang li[data-lang='" + lang + "'] a").attr("href", routing[template][lang]);
       
       //Change lang_cookie
       $(".change-lang li[data-lang='" + lang + "'] a").click(function(){

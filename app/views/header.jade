@@ -12,5 +12,5 @@ header.padding-top
         ul.change-lang
             each lang in langs.codes
                 li(data-lang="#{lang.language_country}")
-                    a(href="#{lang.home}") #{lang.language_short_code}
+                    a(href="#{routing[template][lang.language_country]}") #{lang.language_short_code}
     a.login.unstyled(href="#{$.external.dashboard.url}") #{$.external.dashboard.anchor} 
