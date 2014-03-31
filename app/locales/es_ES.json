@@ -1,230 +1,290 @@
 {
-  "header": {
-    "menu": "menu",
-    "nav": {
-      "apps": "Apps"
-    }
-  },
-  "footer": {
-    "company": "Compañía",
-    "community": "Comunidad",
-    "media": "Medios y redes",
-    "signature": "Designed and assembled in Madrid",
-    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-legales'>política de cookies.</a>"
-  },
-  "register": {
-      "error":{
-        "num1": "¡Fenomenal! Has terminado el registro",
-        "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-        "num3": "Mmmmm, ya está ese e-mail registrado",
-        "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
-        "num5": "¡No! El código seller no es correcto",
-        "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
-        "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
-        "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
-        "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
-        "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
-      }
-  },
-  "home": {
-    "_url": "/",
-    "_template": "home",
-    "_name": "Inicio",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com",
-    "register": {
-      "announce": "Podrás cambiarlo después",
-      "claim": "Tu negocio, tu app.",
-      "arguments": "Crea la app de tu negocio, sin programar, fácil y rápido.",
-      "app_name": "Nombre de la app",
-      "email": "E-mail",
-      "password": "Contraseña",
-      "call_to_action": "Probar gratis",
-      "accept_terms": "Al hacer clic en el botón Probar aceptas nuestros",
-      "terms": "términos y condiciones",
-      "warning":{
-        "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
-        "password": "La longitud mínima para la contraseña es de 8 caracteres",
-        "ajax": "Uuups..., hubo un problemilla",
-        "ajax_msg": "El registro no pudo ser completado, por favor vuelva a intentarlo o escríbanos a <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
-      }
-    },
-    "multidevice": {
-      "title": "App y web multidispositivo",
-      "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
-      "devices_alt": "Apps para todos los dispositivos",
-      "html5_alt": "Crea tu app con HTML5",
-      "android_alt": "Crea tu app con Android",
-      "ios_alt": "Crea tu app con iOS"
-    },
-    "apps": {
-      "title": "Estas son algunas de nuestras apps",
-      "more": "Ver app",
-      "android": "Android",
-      "ios": "iOS",
-      "multidevice": "Multidispositivo",
-      "bikers": {
-        "title": "Bikers",
-        "description": "El equipo de Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
-        "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
-        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
-        "webapp": "http://bikers.upplication.com/"
-      },
-      "welovesushy": {
-        "title": "We Love Sushi",
-        "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
-        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
-        "webapp": "http://welovesushi.upplication.com/"
-      },
-      "educapp": {
-        "title": "Guardepeque",
-        "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
-        "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
-        "webapp": "http://guardepeque.upplication.com/"
-      }
-    },
-    "testimonials": {
-      "title": "¿Qué dicen de nuestras apps?",
-      "client1": {
-        "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes",
-        "name": "Ana, C,UP Your choice on top"
-      },
-      "client2": {
-        "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos",
-        "name": "David, Bar Trapatapa"
-      },
-      "client3": {
-        "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana",
-        "name": "Gabriel, Moto Urban"
-      }
-    },
-    "register_inline": {
-      "title": "Regístrate y empieza a crear tu primera app gratis",
-      "app_name": "Nombre de la app",
-      "email": "E-mail",
-      "password": "Contraseña",
-      "call_to_action": "Probar gratis"
-    },
-    "arguments":{
-      "title": "Crea la app de tu negocio",
-      "loyalty":{
-        "title": "Fideliza",
-        "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."     
-      },
-      "sell":{
-        "title": "Vende",
-        "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."        
-      },
-      "notify":{
-        "title": "Notifica",
-        "clarification": "(Desde Abril de 2014)",
-        "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "        
-      },
-      "promote":{
-        "title": "Promociona tu app",
-        "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
-        "download": {
-          "anchor": "Descarga gratis",
-          "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
+    "header": {
+        "menu": "menu",
+        "nav": {
+            "apps": "Apps"
         }
-      }
     },
-    "press":{
-      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
-      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
-      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
-      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
-      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
-      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
-      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
+    "footer": {
+        "company": "Compañía",
+        "community": "Comunidad",
+        "media": "Medios y redes",
+        "signature": "Designed and assembled in Madrid",
+        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-legales'>política de cookies.</a>"
+    },
+    "register": {
+        "error": {
+            "num1": "¡Fenomenal! Has terminado el registro",
+            "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
+            "num3": "Mmmmm, ya está ese e-mail registrado",
+            "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
+            "num5": "¡No! El código seller no es correcto",
+            "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
+            "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
+            "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
+            "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
+            "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+        }
+    },
+    "home": {
+        "_url": "/",
+        "_template": "home",
+        "_name": "Inicio",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com",
+        "register": {
+            "announce": "Podrás cambiarlo después",
+            "claim": "Tu negocio, tu app.",
+            "arguments": "Crea la app de tu negocio, sin programar, fácil y rápido.",
+            "app_name": "Nombre de la app",
+            "email": "E-mail",
+            "password": "Contraseña",
+            "call_to_action": "Probar gratis",
+            "accept_terms": "Al hacer clic en el botón Probar aceptas nuestros",
+            "terms": "términos y condiciones",
+            "warning": {
+                "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
+                "password": "La longitud mínima para la contraseña es de 8 caracteres",
+                "ajax": "Uuups..., hubo un problemilla",
+                "ajax_msg": "El registro no pudo ser completado, por favor vuelva a intentarlo o escríbanos a <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
+            }
+        },
+        "multidevice": {
+            "title": "App y web multidispositivo",
+            "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
+            "devices_alt": "Apps para todos los dispositivos",
+            "html5_alt": "Crea tu app con HTML5",
+            "android_alt": "Crea tu app con Android",
+            "ios_alt": "Crea tu app con iOS"
+        },
+        "apps": {
+            "title": "Estas son algunas de nuestras apps",
+            "more": "Ver app",
+            "android": "Android",
+            "ios": "iOS",
+            "multidevice": "Multidispositivo",
+            "bikers": {
+                "title": "Bikers",
+                "description": "El equipo de Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
+                "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
+                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
+                "webapp": "http://bikers.upplication.com/"
+            },
+            "welovesushy": {
+                "title": "We Love Sushi",
+                "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
+                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
+                "webapp": "http://welovesushi.upplication.com/"
+            },
+            "educapp": {
+                "title": "Guardepeque",
+                "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
+                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
+                "webapp": "http://guardepeque.upplication.com/"
+            }
+        },
+        "testimonials": {
+            "title": "¿Qué dicen de nuestras apps?",
+            "client1": {
+                "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes",
+                "name": "Ana, C,UP Your choice on top"
+            },
+            "client2": {
+                "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos",
+                "name": "David, Bar Trapatapa"
+            },
+            "client3": {
+                "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana",
+                "name": "Gabriel, Moto Urban"
+            }
+        },
+        "register_inline": {
+            "title": "Regístrate y empieza a crear tu primera app gratis",
+            "app_name": "Nombre de la app",
+            "email": "E-mail",
+            "password": "Contraseña",
+            "call_to_action": "Probar gratis"
+        },
+        "arguments": {
+            "title": "Crea la app de tu negocio",
+            "loyalty": {
+                "title": "Fideliza",
+                "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."
+            },
+            "sell": {
+                "title": "Vende",
+                "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."
+            },
+            "notify": {
+                "title": "Notifica",
+                "clarification": "(Desde Abril de 2014)",
+                "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "
+            },
+            "promote": {
+                "title": "Promociona tu app",
+                "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
+                "download": {
+                    "anchor": "Descarga gratis",
+                    "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
+                }
+            }
+        },
+        "press": {
+            "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
+            "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
+            "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+            "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
+            "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
+            "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+            "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
+        }
+    },
+    "prices": {
+        "_url": "/precios/",
+        "_template": "prices",
+        "_name": "Precios",
+        "_meta_title": "Página de precios",
+        "_meta_description": "Description tag",
+        "title": "La app es tu negocio",
+        "packages": {
+            "monthly": "/mes",
+            "features": {
+                "app_so": "App Android y App iOS",
+                "web_multi": "Web multidispositivo",
+                "upload_markets": "Subida a los markets",
+                "ads_yes": "Publicidad Upplication",
+                "ads_no": "SIN publicidad Upplication",
+                "signature_yes": "Firma en las plantillas",
+                "signature_no": "SIN Firma en las plantillas",
+                "stats": "Estadísticas",
+                "customer_service": "Atención al cliente personalizada"
+            },
+            "basic": {
+                "title": "Básico",
+                "price": {
+                    "before": "antes 9,95€",
+                    "actual": "4,95€"
+                }
+            },
+            "profesional": {
+                "title": "Profesional",
+                "price": {
+                    "actual": "19,95€"
+                }
+            },
+            "premium": {
+                "title": "Premium",
+                "price": {
+                    "actual": "49,95€"
+                }
+            }
+        },
+        "contact": {
+            "make_your_app": {
+                "made_to_measure": "Te hacemos tu app a medida",
+                "contact_to_explanation": "Contacta con nosotros  y te explicamos cómo lo hacemos"
+            },
+            "customer_service": {
+                "text": "Servicio de atención al cliente:",
+                "phone": {
+                    "link": "tel:+34912346896",
+                    "title": "912 346 896",
+                    "text": "912.346.896"
+                },
+                "email": {
+                    "link": "mailto:hola@upplication.com",
+                    "title": "hola@upplication.com",
+                    "text": "hola@upplication.com"
+                }
+            }
+        }
+    },
+    "external": {
+        "blog": {
+            "anchor": "Blog",
+            "url": "/blog"
+        },
+        "manifest": {
+            "anchor": "Manifiesto",
+            "url": "@@config.base_path/manifiesto/"
+        },
+        "team": {
+            "anchor": "Equipo",
+            "url": "@@config.base_path/equipo/"
+        },
+        "features": {
+            "anchor": "Características",
+            "url": "@@config.base_path/caracteristicas/"
+        },
+        "partners": {
+            "anchor": "Hazte distribuidor",
+            "url": "@@config.base_path/colaboremos/"
+        },
+        "jobs": {
+            "anchor": "Empleo",
+            "url": "@@config.base_path/trabajo/"
+        },
+        "tos": {
+            "anchor": "Condiciones legales",
+            "url": "@@config.base_path/terminos-legales/"
+        },
+        "tutorials": {
+            "anchor": "Tutoriales",
+            "url": "@@config.base_path/tutorial/"
+        },
+        "helpcenter": {
+            "anchor": "Centro de ayuda",
+            "url": "https://upplication.uservoice.com/"
+        },
+        "breakfasts": {
+            "anchor": "Desayunos",
+            "url": "@@config.base_path/taller-crear-apps-madrid"
+        },
+        "apps": {
+            "anchor": "Ejemplos de apps",
+            "url": "@@config.base_path/inspirate"
+        },
+        "create_apps": {
+            "anchor": "Creamos tu app",
+            "url": "@@config.base_path/hacemos-el-trabajo-por-ti/"
+        },
+        "pricing": {
+            "anchor": "Precios",
+            "url": "@@config.base_path/precios/"
+        },
+        "media_kit": {
+            "anchor": "Prensa",
+            "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
+        },
+        "youtube": {
+            "anchor": "Youtube",
+            "url": "http://youtube.com/upplication"
+        },
+        "twitter": {
+            "anchor": "Twitter",
+            "url": "http://www.twitter.com/upplication"
+        },
+        "linkedin": {
+            "anchor": "Linkedin",
+            "url": "http://www.linkedin.com/company/upplication?trk=hb_tab_compy_id_2851092"
+        },
+        "facebook": {
+            "anchor": "Facebook",
+            "url": "http://www.facebook.com/Upplication"
+        },
+        "googleplus": {
+            "anchor": "Google Plus",
+            "url": "https://plus.google.com/+Upplication?prsrc=5"
+        },
+        "instagram": {
+            "anchor": "Instagram",
+            "url": "http://www.instagram.com/upplication"
+        },
+        "dashboard": {
+            "anchor": "Entrar",
+            "url": "@@config.dashboard_base_path/web"
+        }
     }
-  },
-  "external": {
-    "blog": {
-      "anchor": "Blog",
-      "url": "/blog"
-    },
-    "manifest": {
-      "anchor": "Manifiesto",
-      "url": "@@config.base_path/manifiesto/"
-    },
-    "team": {
-      "anchor": "Equipo",
-      "url": "@@config.base_path/equipo/"
-    },
-    "features": {
-      "anchor": "Características",
-      "url": "@@config.base_path/caracteristicas/"
-    },
-    "partners": {
-      "anchor": "Hazte distribuidor",
-      "url": "@@config.base_path/colaboremos/"
-    },
-    "jobs": {
-      "anchor": "Empleo",
-      "url": "@@config.base_path/trabajo/"
-    },
-    "tos": {
-      "anchor": "Condiciones legales",
-      "url": "@@config.base_path/terminos-legales/"
-    },
-    "tutorials": {
-      "anchor": "Tutoriales",
-      "url": "@@config.base_path/tutorial/"
-    },
-    "helpcenter": {
-      "anchor": "Centro de ayuda",
-      "url": "https://upplication.uservoice.com/"
-    },
-    "breakfasts": {
-      "anchor": "Desayunos",
-      "url": "@@config.base_path/taller-crear-apps-madrid"
-    },
-    "apps": {
-      "anchor": "Ejemplos de apps",
-      "url": "@@config.base_path/inspirate"
-    },
-    "create_apps": {
-      "anchor": "Creamos tu app",
-      "url": "@@config.base_path/hacemos-el-trabajo-por-ti/"
-    },
-    "pricing": {
-      "anchor": "Precios",
-      "url": "@@config.base_path/precios/"
-    },
-    "media_kit": {
-      "anchor": "Prensa",
-      "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
-    },
-    "youtube": {
-      "anchor": "Youtube",
-      "url": "http://youtube.com/upplication"
-    },
-    "twitter": {
-      "anchor": "Twitter",
-      "url": "http://www.twitter.com/upplication"
-    },
-    "linkedin": {
-      "anchor": "Linkedin",
-      "url": "http://www.linkedin.com/company/upplication?trk=hb_tab_compy_id_2851092"
-    },
-    "facebook": {
-      "anchor": "Facebook",
-      "url": "http://www.facebook.com/Upplication"
-    },
-    "googleplus": {
-      "anchor": "Google Plus",
-      "url": "https://plus.google.com/+Upplication?prsrc=5"
-    },
-    "instagram": {
-      "anchor": "Instagram",
-      "url": "http://www.instagram.com/upplication"
-    },
-    "dashboard": {
-      "anchor": "Entrar",
-      "url": "@@config.dashboard_base_path/web"
-    }
-  }
 }

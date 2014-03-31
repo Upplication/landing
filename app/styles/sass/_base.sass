@@ -39,6 +39,9 @@ input
   font-weight: 300
   line-height: 1.5em
 
+input[type="submit"]
+  cursor: pointer
+
 .right
   float: right
 .left
@@ -223,7 +226,9 @@ $default-text-shadow-v-offset: 1px
 //*****************
 // Sidebar panel
 //*****************
-
+.icon-list
+  span
+    display: none
 .outer-wrap
   background: $white
   overflow: hidden
@@ -275,7 +280,6 @@ $default-text-shadow-v-offset: 1px
 #main-container #dark-layout
   display: none
 #main-container.slide-right #dark-layout
-  #dark-layout
   background-color: rgba(0, 0, 0, 0.5)
   height: 100%
   position: absolute
@@ -327,7 +331,7 @@ $default-text-shadow-v-offset: 1px
   &:before
     background: url("@@config.base_path/images/cookie.png")
     display: block
-    width: 147px
+    width: 147px 
     height: 121px
 
 ////Mobile layout
@@ -336,9 +340,7 @@ $default-text-shadow-v-offset: 1px
   #cookies
     width: 100%
 
-  .icon-list
-    span
-      display: none
+
 
 #main-container,
 input

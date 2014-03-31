@@ -146,8 +146,8 @@
     
 
     //Display sidebar menu in mobile
-    $(".icon-list").on("tap",function(){
-      $(".slide-pannel.effects").toggleClass("slide-right")
+    $(".icon-list").on("tap, click",function(){
+      $(".slide-pannel.effects").toggleClass("slide-right");
       var $outer = $("div.outer-wrap");
       if($outer.css("height") == "100%"){
         $outer.css("height","auto");

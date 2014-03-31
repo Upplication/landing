@@ -27,14 +27,14 @@
       "email": "Email",
       "password": "Contraseña",
       "call_to_action": "Regístrate gratis"
-    },
+    }
   },
   "prices": {
     "_url": "/precios/",
     "_template": "prices",
     "_name": "Precios",
     "_meta_title": "Página de precios",
-    "_meta_description": "Description tag",
+    "_meta_description": "Description tag"
   },
   "external": {
     "blog": {

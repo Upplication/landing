@@ -1,3 +1,9 @@
+@import "fonts"
+@import "colors"
+@import "mixins"
+@import "variables"
+
+
 @include at-breakpoint($tablet-bp $desktop-columns)
   $column-width: 12em
 @include at-breakpoint($desktop-bp $desktop-columns)
@@ -130,7 +136,7 @@
       //@include container
       input
         width: 85%
-        margin 0 auto
+        margin: 0 auto
         display: block
       background-image: url('@@config.base_path/images/mobile/header.jpg')
       background-size: 100% 100%
@@ -171,7 +177,9 @@
       h1
         font-size: 1.4em
         margin-bottom: .5em
+
       +clearfix
+
       width: 100%
       margin: 0 auto
       margin-bottom: 2em
@@ -183,7 +191,8 @@
         margin-bottom: .5em
   
   //Tablet layout
-  @include at-breakpoint($tablet-bp $desktop-columns)//($mobile-bp $tablet-columns $tablet-bp)
+  ///******************************************************
+  @include at-breakpoint($tablet-bp $desktop-columns)
     h1
       font-size: 1.6em
 
@@ -229,7 +238,6 @@
 
 
     #register
-      min-height: 21em
       position: relative
       background-image: url('@@config.base_path/images/header_desktop.jpeg')
       +background-size(cover)
@@ -331,7 +339,7 @@
 
       input[type="submit"]
         font-size: 1em
-        line-height: 1.3em
+        line-height: 1em
         width: 29%
 
     .arguments
