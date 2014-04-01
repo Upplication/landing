@@ -151,7 +151,7 @@
         "packages": {
             "monthly": "/month",
             "features": {
-                "app_so": "App for iPhone / iPad and Android",
+                "app_so": "App for iOs and Android",
                 "web_multi": "Multi-device website",
                 "upload_markets": "Upload to Markets",
                 "ads_yes": "Upplication Ads",

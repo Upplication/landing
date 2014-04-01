@@ -1,2 +1,218 @@
+@import 'colors'
+@import 'variables'
+
+///////////////////////////
+// COLORS & VARIABLES
+
+$color-prices-green: #90d49c
+$color-prices-header-back: $mine-shaft
+$color-prices-register-back: $mine-shaft
+$color-prices-profesional: #DEF2E1
+$color-prices-price-before: $white
+$color-prices-price-actual: #84CF91
+$color-prices-monthly: #838383
+$color-make-your-app: $white
+
+$package-height: 150px
+$package-triangle-height: 30px
+$package-width: 260px
+
+
+///////////////////////////
+// STYLES
+
 .prices-wrapper
-  background: $prices-green
+  background: $color-prices-green
+
+.prices__title
+  color: $white
+
+.package
+  width: $package-width
+  margin: 0 auto
+  background: $white
+  margin-bottom: 1em
+  text-align: center
+  &.package--profesional
+    background: $color-prices-profesional
+
+.package__title
+  position: relative
+  padding-top: 1.3em
+  min-height: 86px
+  color: $white
+  background: $color-prices-header-back
+  font-size: 1.4em
+  font-weight: 600
+  text-transform: uppercase
+  text-align: center
+
+  &:after
+    content: ''
+    position: absolute
+    bottom: -$package-triangle-height
+    left: 0
+    right: 0
+    width: 0
+    height: 0
+    border-left: $package-width/2 solid transparent
+    border-right: $package-width/2 solid transparent
+    border-top: $package-triangle-height solid $color-prices-header-back
+
+.package__price--before
+  color: $color-prices-price-before
+  margin-top: .6em
+  font-size: .7em
+  text-transform: lowercase
+  font-style: italic
+  font-weight: 300
+  &:after
+    content: ''
+    display: block
+    position: relative
+    top: -10px
+    width: 105px
+    margin: 0 auto
+    border-top: 1px solid $color-prices-price-before
+
+
+.package__price--actual
+  position: relative
+  display: inline-block
+  color: $color-prices-price-actual
+  margin-top: $package-triangle-height + 16px
+  margin-bottom: .8em
+  text-align: center
+  font-weight: 600
+  font-size: 2em
+
+  .monthly
+    position: absolute
+    right: 0
+    font-size: .4em
+    color: $color-prices-monthly
+    font-weight: 300
+
+.package__features
+  padding: 0 .8em
+  li
+    text-align: center
+    padding: 1em 0
+    &:not(:last-child)
+      border-bottom: 1px solid #d6d6d6
+
+.prices__register
+  background: $color-prices-register-back
+  padding: 1em 0
+  .register__form
+    width: $package-width
+    margin: 0 auto
+  .register__submit
+    line-height: inherit
+  .register__tos
+    a
+      color: black
+      padding: 0 3px
+      &:hover
+        background: white
+        text-decoration: none
+
+.prices__contact
+  padding: 1em 0
+
+.contact__make-your-app
+  background: $color-make-your-app url('@@config.base_path/prices-customer.png') 1em center no-repeat
+  width: $package-width
+  margin: 0 auto
+  margin-bottom: 1em
+  padding: .7em
+  padding-left: 5em
+  font-size: .8em
+.your-app__made-to-measure
+  text-transform: uppercase
+.your-app__contact-to-explanation
+  text-decoration: underline
+.contact__customer-service
+  color: $white
+  font-size: .7em
+  text-align: center
+  line-height: 15px
+  padding-top: 5px
+  a
+    color: $white
+    text-decoration: none
+    padding: 0 3px
+    &:hover
+      background: $mine-shaft
+
+
+//////////////////////////////
+// STYLES: TABLET + DESKTOP
+@include at-breakpoint($tablet-bp + 1px $desktop-columns)
+
+  $desktop-content-width: 750px
+  $desktop-package-margin: 4px
+  $desktop-package-width: ($desktop-content-width - $desktop-package-margin * 2) / 3
+  $desktop-packages-height: 590px
+
+  .prices__packages,
+  .prices__register .register__form,
+  .contact__make-your-app
+    width: $desktop-content-width
+    margin: 0 auto
+
+  .package,
+  .register__input
+    width: $desktop-package-width
+    float: left
+    margin-left: 0
+    margin-right: 0
+
+    &:nth-child(3n+2)
+      margin: 0 $desktop-package-margin
+
+  .prices__packages
+    height: $desktop-packages-height + 5px
+
+  .package
+    height: $desktop-packages-height
+    float: left
+    li
+      line-height: 21px
+
+    &:not(.package--premium)
+      .package__features
+        li
+          &:last-child
+            border-bottom: 1px solid #d6d6d6
+
+
+  .package__title
+    &:after
+      border-left-width: $desktop-package-width / 2
+      border-right-width: $desktop-package-width / 2
+
+  .prices__register
+    padding-top: .5em
+    background: none
+
+  .register__form
+    text-align: center
+
+  .register__submit
+    background: $mine-shaft
+
+  .contact__make-your-app
+    background-position: 3em center
+    padding: 1.5em 1.5em 1.5em 8em
+    font-size: 1.1em
+
+  .contact__customer-service
+    text-align: center
+    margin-top: 1em
+    margin-bottom: 3em
+
+  .customer-service__text,
+  .customer-service__links
+    font-size: 1.4em
+    display: inline-block

@@ -11,12 +11,12 @@ block vars
 block content
     script(type='text/javascript').
         $UPP.url = "#{$.home._url}";
-    h1.prices__title #{prices.title}
+    h1.page-title.prices__title #{prices.title}
     section.prices__packages
         ul
             li.package.package--basic
                 h2.package__title #{prices.packages.basic.title}
-                .package__price.package__price--before #{prices.packages.basic.price.before}
+                    .package__price.package__price--before #{prices.packages.basic.price.before}
                 .package__price.package__price--actual #{prices.packages.basic.price.actual}
                     .monthly #{prices.packages.monthly}
                 ul.package__features
@@ -39,7 +39,7 @@ block content
             li.package.package--premium
                 h2.package__title #{prices.packages.premium.title}
                 .package__price.package__price--actual #{prices.packages.premium.price.actual}
-                    .monthly #{prices.monthly}
+                    .monthly #{prices.packages.monthly}
                 ul.package__features
                     li #{prices.packages.features.app_so}
                     li #{prices.packages.features.web_multi}
@@ -49,23 +49,23 @@ block content
                     li #{prices.packages.features.stats}
                     li #{prices.packages.features.customer_service}
     section.prices__register
-        form(name="register", action="/register", method="post")
-            label(for="appName")
+        form.register__form(name="register", action="/register", method="post")
+            label.register__input(for="appName")
                 input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
                 p.error.display-none
                     //| El nombre de la app ya está registrado
-            label(for="email")
+            label.register__input(for="email")
                 input(type="email", name="email", placeholder="#{home.register.email}", required="required")
                 p.error.display-none
                     //| El email ya está registrado
-            label(for="password")
+            label.register__input(for="password")
                 input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                 p.error.display-none
                     //| La contraseña debe contener al menos 6 caracteres
-            input.bg-mine-shaft.big.btn.margin-bottom.white.big.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
-            p.small.italic.tos !{home.register.accept_terms}
+            input.register__submit.bg-pastel-green.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
+            p.register__tos.small.italic.tos !{home.register.accept_terms}
                 a(href="#{external.tos.url}") #{home.register.terms}
-            #ajax-error-popup.cwhite.popup.mfp-hide.white-popup-block
+            #ajax-error-popup.register__row.cwhite.popup.mfp-hide.white-popup-block
                 h1 #{home.register.warning.ajax}
                 p.msg !{home.register.warning.ajax_msg}
     section.prices__contact
@@ -73,6 +73,8 @@ block content
             .your-app__made-to-measure #{prices.contact.make_your_app.made_to_measure}
             .your-app__contact-to-explanation #{prices.contact.make_your_app.contact_to_explanation}
         .contact__customer-service
-            span.customer-service__text #{prices.contact.customer_service.text}
-            a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
-            a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
+            .customer-service__text #{prices.contact.customer_service.text}
+            .customer-service__links
+                a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
+                span -
+                a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
