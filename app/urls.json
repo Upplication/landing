@@ -1,4 +1,5 @@
 {
   "home": "/views/home.jade",
-  "prices": "/views/prices.jade"
+  "prices": "/views/prices.jade",
+  "helpcenter": "/views/help-center.jade"
 }

@@ -201,6 +201,85 @@
             }
         }
     },
+    "helpcenter": {
+        "_url": "/help-center/",
+        "_template": "helpcenter",
+        "_name": "Help center",
+        "_meta_title": "help center",
+        "_meta_description": "Description tag",
+        "title": "Help center",
+        "resources": {
+            "createupp": {
+                "title": "You create Upplication",
+                "links": [
+                    {
+                        "link": "https://upplication.uservoice.com/",
+                        "title": "User community",
+                        "text": "User community"
+                    },
+                    {
+                        "link": "https://upplication.uservoice.com/knowledgebase",
+                        "title": "FAQ",
+                        "text": "FAQ"
+                    }
+                ]
+            },
+            "videos": {
+                "title": "Videos",
+                "links": [
+                    {
+                        "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "title": "Our videos",
+                        "text": "Our videos"
+                    }
+                ]
+            },
+            "ebooks": {
+                "title": "Ebooks & Infographics",
+                "links": [
+                    {
+                        "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+                        "title": "Get a successful app",
+                        "text": "Get a successful app"
+                    },
+                    {
+                        "link": "http://upplication.com/ventajas-app-negocio/",
+                        "title": "Advantages of having an app",
+                        "text": "Advantages of having an app"
+                    }
+                ]
+            },
+            "makeyourapp": {
+                "title": "We make your app",
+                "links": [
+                    {
+                        "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
+                        "title": "We do the work for you",
+                        "text": "We do the work for you"
+                    },
+                    {
+                        "link": "http://upplication.com/taller-crear-apps-madrid/",
+                        "title": "Go to our breakfasts",
+                        "text": "Go to our breakfasts"
+                    }
+                ]
+            }
+        },
+        "customer_service": {
+            "text": "Customer service",
+            "phone": {
+                "link": "tel:+34912346896",
+                "title": "912 346 896",
+                "text": "Tel: 912.346.896"
+            },
+            "email": {
+                "link": "mailto:hola@upplication.com",
+                "title": "hola@upplication.com",
+                "text": "hola@upplication.com"
+            },
+            "schedule":"(Hours customer support Monday-Friday 10-17h)"
+        }
+    },
     "external": {
         "blog": {
             "anchor": "Blog",
@@ -228,7 +307,7 @@
         },
         "tos": {
             "anchor": "Terms and Conditions",
-            "url": "@@@config.base_path/terms-of-service/"
+            "url": "@@config.base_path/terms-of-service/"
         },
         "tutorials": {
             "anchor": "Tutorials",
@@ -236,7 +315,7 @@
         },
         "helpcenter": {
             "anchor": "Help Center",
-            "url": "https://upplication.uservoice.com/"
+            "url": "@@config.base_path/help-center/"
         },
         "breakfasts": {
             "anchor": "",

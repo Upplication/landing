@@ -142,12 +142,9 @@ $package-width: 260px
     color: $white
     text-decoration: none
     padding: 0 3px
-    &:hover
-      background: $mine-shaft
-
 
 //////////////////////////////
-// STYLES: TABLET + DESKTOP
+// STYLES: DESKTOP
 @include at-breakpoint($tablet-bp + 1px $desktop-columns)
 
   $desktop-content-width: 750px
@@ -212,7 +209,8 @@ $package-width: 260px
     margin-top: 1em
     margin-bottom: 3em
 
-  .customer-service__text,
-  .customer-service__links
-    font-size: 1.4em
-    display: inline-block
+  .prices-wrapper
+    .customer-service__text,
+    .customer-service__links
+      font-size: 1.4em
+      display: inline-block

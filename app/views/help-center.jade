@@ -1,0 +1,34 @@
+extends base
+
+mixin resource(info, cssClass)
+    li.resource(class=cssClass)
+        h2.resource__title #{info.title}
+        ul.resource__links
+            each link in info.links
+                li
+                    a(href="#{link.link}", title="#{link.title}", target="_blank") #{link.text}
+
+block vars
+    - var template = $.helpcenter._template
+    - var title = $.helpcenter._meta_title
+    - var description = $.helpcenter._meta_description
+    - var keywords = $.helpcenter._keywords
+    - var canonical = $.helpcenter._canonical
+    - var cssClass = 'help-center-wrapper'
+
+block content
+    script(type='text/javascript').
+        $UPP.url = "#{$.home._url}";
+    h1.page-title.help-center__title #{helpcenter.title}
+    section.help-center__resources.clearfix
+        ul
+            +resource(helpcenter.resources.createupp, 'resource--create-upp')
+            +resource(helpcenter.resources.videos, 'resource--videos')
+            +resource(helpcenter.resources.ebooks, 'resource--ebooks')
+            +resource(helpcenter.resources.makeyourapp, 'resource--make-your-app')
+    section.help-center__customer-service.clearfix
+        .customer-service__text #{helpcenter.customer_service.text}
+        a.customer-service__phone(href="#{helpcenter.customer_service.phone.link}", title="#{helpcenter.customer_service.phone.title}") #{helpcenter.customer_service.phone.text}
+        a.customer-service__email(href="#{helpcenter.customer_service.email.link}", title="#{helpcenter.customer_service.email.title}")  #{helpcenter.customer_service.email.text}
+        .customer-service__schedule #{helpcenter.customer_service.schedule}
+

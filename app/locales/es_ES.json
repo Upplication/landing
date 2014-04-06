@@ -201,6 +201,85 @@
             }
         }
     },
+    "helpcenter": {
+        "_url": "/centro-de-ayuda/",
+        "_template": "helpcenter",
+        "_name": "Centro de ayuda",
+        "_meta_title": "Centro de ayuda",
+        "_meta_description": "Description tag",
+        "title": "Centro de ayuda",
+        "resources": {
+            "createupp": {
+                "title": "Tu creas tu aplicación",
+                "links": [
+                    {
+                        "link": "https://upplication.uservoice.com/",
+                        "title": "Comunidad de usuarios",
+                        "text": "Comunidad de usuarios"
+                    },
+                    {
+                        "link": "https://upplication.uservoice.com/knowledgebase",
+                        "title": "Problemas frecuentes",
+                        "text": "Problemas frecuentes"
+                    }
+                ]
+            },
+            "videos": {
+                "title": "Videos",
+                "links": [
+                    {
+                        "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "title": "Nuestros videos",
+                        "text": "Nuestros videos"
+                    }
+                ]
+            },
+            "ebooks": {
+                "title": "Ebooks e Infografias",
+                "links": [
+                    {
+                        "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+                        "title": "Consigue una app de éxito",
+                        "text": "Consigue una app de éxito"
+                    },
+                    {
+                        "link": "http://upplication.com/ventajas-app-negocio/",
+                        "title": "Ventajas de tener una app",
+                        "text": "Ventajas de tener una app"
+                    }
+                ]
+            },
+            "makeyourapp": {
+                "title": "Te hacemos la app",
+                "links": [
+                    {
+                        "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
+                        "title": "Hacemos el trabajo por tí",
+                        "text": "Hacemos el trabajo por tí"
+                    },
+                    {
+                        "link": "http://upplication.com/taller-crear-apps-madrid/",
+                        "title": "Ven a nuestros desayunos",
+                        "text": "Ven a nuestros desayunos"
+                    }
+                ]
+            }
+        },
+        "customer_service": {
+            "text": "Atención al cliente",
+            "phone": {
+                "link": "tel:+34912346896",
+                "title": "912 346 896",
+                "text": "Telf: 912.346.896"
+            },
+            "email": {
+                "link": "mailto:hola@upplication.com",
+                "title": "hola@upplication.com",
+                "text": "hola@upplication.com"
+            },
+            "schedule":"(Horario de atención al cliente de lunes a viernes de 10 a 17h)"
+        }
+    },
     "external": {
         "blog": {
             "anchor": "Blog",
@@ -236,7 +315,7 @@
         },
         "helpcenter": {
             "anchor": "Centro de ayuda",
-            "url": "https://upplication.uservoice.com/"
+            "url": "@@config.base_path/centro-de-ayuda/"
         },
         "breakfasts": {
             "anchor": "Desayunos",
