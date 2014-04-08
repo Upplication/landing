@@ -42,6 +42,7 @@
             "password": "Password",
             "call_to_action": "Try it now",
             "accept_terms": "When you click the \"Try it now button\" you accept our",
+            "loading": "Loading...",
             "terms": "terms and conditions",
             "warning": {
                 "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",

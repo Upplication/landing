@@ -31,6 +31,8 @@
     $("form[name='register']").submit(function(e){
       e.preventDefault();
       
+
+
       var vals = $(this).serialize(),
           host, url;     
       var aux = JSON.parse('{"' + decodeURI(vals).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
@@ -39,6 +41,11 @@
       if($UPP.params)
         url += "&" + $UPP.params;
       log("URL=",url);
+      // loading
+      $(this).find("input").prop("disabled", true);
+      var submit = $(this).find("input[type='submit']");
+      
+      submit.val(submit.data("loading"));
 
       $.ajax({
         type: "POST",
@@ -46,7 +53,11 @@
         data: aux,
         context: this,
         dataType: "jsonp",
-        success: function(data){         
+        success: function(data){
+          // end loading     
+          $(this).find("input").prop("disabled", false);    
+          submit.val(submit.data("text"));
+
           if(data.success){
             window.location = DASHBOARD_PATH + "/web" + data.url;
           }else{
@@ -118,6 +129,11 @@
             }
           }
         },error: function(xhr, type){
+          console.log(xhr);
+           // end loading     
+          $(this).find("input").prop("disabled", false);    
+          submit.val(submit.data("text"));
+
           $.magnificPopup.open({
             items:{
               src:'#ajax-error-popup',

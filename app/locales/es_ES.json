@@ -41,6 +41,7 @@
             "app_name": "Nombre de la app",
             "email": "E-mail",
             "password": "Contraseña",
+            "loading": "Cargando...",
             "call_to_action": "Probar gratis",
             "accept_terms": "Al hacer clic en el botón \"Probar\" aceptas nuestros",
             "terms": "términos y condiciones",
