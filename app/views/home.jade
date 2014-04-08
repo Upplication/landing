@@ -38,7 +38,7 @@ block content
                         input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                         p.error.display-none
                             //| La contraseña debe contener al menos 6 caracteres
-                    input.bg-pastel-green.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
+                    input.bg-pastel-green.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
                     p.tos.acenter.italic !{home.register.accept_terms} 
                         a(href="#{external.tos.url}") #{home.register.terms}        
     section#multidevice.bg-alabaster.padding.clearfix
@@ -143,7 +143,7 @@ block content
                 input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                 p.error.display-none
                     //| La contraseña debe contener al menos 6 caracteres
-            input.bg-mine-shaft.big.btn.margin-bottom.white.big.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
+            input.bg-mine-shaft.big.btn.margin-bottom.white.big.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
             p.small.italic.tos !{home.register.accept_terms} 
                 a(href="#{external.tos.url}") #{home.register.terms}  
 

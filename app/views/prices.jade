@@ -62,7 +62,7 @@ block content
                 input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                 p.error.display-none
                     //| La contraseña debe contener al menos 6 caracteres
-            input.register__submit.bg-pastel-green.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}")
+            input.register__submit.bg-pastel-green.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
             p.register__tos.small.italic.tos !{home.register.accept_terms}
                 a(href="#{external.tos.url}") #{home.register.terms}
             #ajax-error-popup.register__row.cwhite.popup.mfp-hide.white-popup-block

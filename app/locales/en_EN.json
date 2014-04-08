@@ -41,6 +41,7 @@
             "email": "Email",
             "password": "Password",
             "call_to_action": "Try it now",
+            "loading": "Loading...",
             "accept_terms": "When you click the Try button you accept our",
             "terms": "terms and conditions",
             "warning": {
