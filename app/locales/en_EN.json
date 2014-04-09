@@ -10,7 +10,7 @@
         "community": "Community",
         "media": "Media and Networks",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms-of-service/'>cookies policy.</a>."
+        "cookies": "If you close this window, you accept our <a href='/terms-of-service/'>cookies policy.</a>."
     },
     "register": {
         "error": {
@@ -41,8 +41,8 @@
             "email": "Email",
             "password": "Password",
             "call_to_action": "Try it now",
+            "accept_terms": "When you click the \"Try it now button\" you accept our",
             "loading": "Loading...",
-            "accept_terms": "When you click the Try button you accept our",
             "terms": "terms and conditions",
             "warning": {
                 "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
@@ -53,7 +53,7 @@
         },
         "multidevice": {
             "title": "App and multi-device site",
-            "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app, ",
+            "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app. ",
             "devices_alt": "Apps for all devices",
             "html5_alt": "Create your app with HTML5",
             "android_alt": "Create your app with Android",
@@ -86,17 +86,17 @@
             }
         },
         "testimonials": {
-            "title": "What do they say about us?",
+            "title": "What do clients say about us?",
             "client1": {
-                "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app",
+                "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
                 "name": "Ana, C,UP Your choice on top"
             },
             "client2": {
-                "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication",
+                "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication.",
                 "name": "David, Trapatapa Bar"
             },
             "client3": {
-                "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week",
+                "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week.",
                 "name": "Gabriel, Moto Urban"
             }
         },
@@ -120,7 +120,7 @@
             "notify": {
                 "title": "Notify",
                 "clarification": "(Available in April 2014)",
-                "text": "Reach your customers is simple, create offers and content value with push notifications. Your message on your customers' screens immediately."
+                "text": "Reach your customers is simple, create offers and value content with push notifications. Your message on your customers' screens immediately."
             },
             "promote": {
                 "title": "Promote your app",
@@ -228,6 +228,11 @@
             "videos": {
                 "title": "Videos",
                 "links": [
+					{
+                        "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "title": "Tutorials",
+                        "text": "Tutorials"
+                    },
                     {
                         "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
                         "title": "Our videos",
@@ -240,8 +245,8 @@
                 "links": [
                     {
                         "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
-                        "title": "Get a successful app",
-                        "text": "Get a successful app"
+                        "title": "Download-Get a successful app",
+                        "text": "Download-Get a successful app"
                     },
                     {
                         "link": "http://upplication.com/ventajas-app-negocio/",
@@ -251,7 +256,7 @@
                 ]
             },
             "makeyourapp": {
-                "title": "We make your app",
+                "title": "We help you make your app",
                 "links": [
                     {
                         "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
@@ -269,16 +274,16 @@
         "customer_service": {
             "text": "Customer service",
             "phone": {
-                "link": "tel:+34912346896",
-                "title": "912 346 896",
-                "text": "Tel: 912.346.896"
+                "link": "tel:+34915190439",
+                "title": "915 190 439",
+                "text": "Telf: 915190439"
             },
             "email": {
-                "link": "mailto:hola@upplication.com",
-                "title": "hola@upplication.com",
-                "text": "hola@upplication.com"
+                "link": "mailto:soporte@upplication.com",
+                "title": "soporte@upplication.com",
+                "text": "soporte@upplication.com"
             },
-            "schedule":"(Hours customer support Monday-Friday 10-17h)"
+            "schedule":"(Hours customer support Monday-Friday 10-22h GTM+1)"
         }
     },
     "external": {
@@ -288,31 +293,31 @@
         },
         "manifest": {
             "anchor": "Manifesto",
-            "url": "@@config.base_path/manifesto/"
+            "url": "/manifesto/"
         },
         "team": {
             "anchor": "Team",
-            "url": "@@config.base_path/team/"
+            "url": "/team/"
         },
         "features": {
             "anchor": "Features",
-            "url": "@@config.base_path/features/"
+            "url": "/features/"
         },
         "partners": {
-            "anchor": "Become a Dealer",
-            "url": "@@config.base_path/become-a-partner/"
+            "anchor": "Become a partner",
+            "url": "/become-a-partner/"
         },
         "jobs": {
             "anchor": "Careers",
-            "url": "@@config.base_path/jobs/"
+            "url": "/jobs/"
         },
         "tos": {
             "anchor": "Terms and Conditions",
-            "url": "@@config.base_path/terms-of-service/"
+            "url": "terms-of-service/"
         },
         "tutorials": {
             "anchor": "Tutorials",
-            "url": "@@config.base_path/tutorial/"
+            "url": "/tutorial/"
         },
         "helpcenter": {
             "anchor": "Help Center",
@@ -324,11 +329,11 @@
         },
         "apps": {
             "anchor": "App samples",
-            "url": "@@config.base_path/category/mobile-apps/"
+            "url": "/category/mobile-apps/"
         },
         "create_apps": {
-            "anchor": "We created your app",
-            "url": "@@config.base_path/we-can-make-your-app/"
+            "anchor": "We create your app",
+            "url": "/we-can-make-your-app/"
         },
         "pricing": {
             "anchor": "Pricing",

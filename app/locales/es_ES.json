@@ -10,7 +10,7 @@
         "community": "Comunidad",
         "media": "Medios y redes",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-legales'>política de cookies.</a>"
+        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='/terminos-legales'>política de cookies.</a>"
     },
     "register": {
         "error": {
@@ -36,14 +36,14 @@
         "_canonical": "http://www.upplication.com",
         "register": {
             "announce": "Podrás cambiarlo después",
-            "claim": "Tu negocio, tu app.",
+            "claim": "Tu app, tu negocio.",
             "arguments": "Crea la app de tu negocio, sin programar, fácil y rápido.",
             "app_name": "Nombre de la app",
             "email": "E-mail",
             "password": "Contraseña",
             "loading": "Cargando...",
             "call_to_action": "Probar gratis",
-            "accept_terms": "Al hacer clic en el botón Probar aceptas nuestros",
+            "accept_terms": "Al hacer clic en el botón \"Probar\" aceptas nuestros",
             "terms": "términos y condiciones",
             "warning": {
                 "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
@@ -68,7 +68,7 @@
             "multidevice": "Multidispositivo",
             "bikers": {
                 "title": "Bikers",
-                "description": "El equipo de Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos ciclistas de una manera sencilla y divertida.",
+                "description": "El equipo de Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos de ciclistas de una manera sencilla y divertida.",
                 "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
                 "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
                 "webapp": "http://bikers.upplication.com/"
@@ -89,15 +89,15 @@
         "testimonials": {
             "title": "¿Qué dicen de nuestras apps?",
             "client1": {
-                "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes",
+                "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes.",
                 "name": "Ana, C,UP Your choice on top"
             },
             "client2": {
-                "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos",
+                "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos.",
                 "name": "David, Bar Trapatapa"
             },
             "client3": {
-                "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana",
+                "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana.",
                 "name": "Gabriel, Moto Urban"
             }
         },
@@ -211,7 +211,7 @@
         "title": "Centro de ayuda",
         "resources": {
             "createupp": {
-                "title": "Tu creas tu aplicación",
+                "title": "Tu creas Upplicación",
                 "links": [
                     {
                         "link": "https://upplication.uservoice.com/",
@@ -220,14 +220,19 @@
                     },
                     {
                         "link": "https://upplication.uservoice.com/knowledgebase",
-                        "title": "Problemas frecuentes",
-                        "text": "Problemas frecuentes"
+                        "title": "Base de conocimiento",
+                        "text": "Base de conocimiento"
                     }
                 ]
             },
             "videos": {
-                "title": "Videos",
+                "title": "Videos de ayuda",
                 "links": [
+					{
+                        "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "title": "Tutoriales",
+                        "text": "Tutoriales"
+                    },
                     {
                         "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
                         "title": "Nuestros videos",
@@ -240,8 +245,8 @@
                 "links": [
                     {
                         "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
-                        "title": "Consigue una app de éxito",
-                        "text": "Consigue una app de éxito"
+                        "title": "Descarga-Consigue una app de éxito",
+                        "text": "Descarga-Consigue una app de éxito"
                     },
                     {
                         "link": "http://upplication.com/ventajas-app-negocio/",
@@ -251,7 +256,7 @@
                 ]
             },
             "makeyourapp": {
-                "title": "Te hacemos la app",
+                "title": "Te ayudamos a crear tu app",
                 "links": [
                     {
                         "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
@@ -269,16 +274,16 @@
         "customer_service": {
             "text": "Atención al cliente",
             "phone": {
-                "link": "tel:+34912346896",
-                "title": "912 346 896",
-                "text": "Telf: 912.346.896"
+                "link": "tel:+34915190439",
+                "title": "915 190 439",
+                "text": "Telf: 915190439"
             },
             "email": {
-                "link": "mailto:hola@upplication.com",
-                "title": "hola@upplication.com",
-                "text": "hola@upplication.com"
+                "link": "mailto:soporte@upplication.com",
+                "title": "soporte@upplication.com",
+                "text": "soporte@upplication.com"
             },
-            "schedule":"(Horario de atención al cliente de lunes a viernes de 10 a 17h)"
+            "schedule":"(Horario de atención al cliente de lunes a viernes de 10 a 22h GTM+1)"
         }
     },
     "external": {
@@ -288,31 +293,31 @@
         },
         "manifest": {
             "anchor": "Manifiesto",
-            "url": "@@config.base_path/manifiesto/"
+            "url": "/manifiesto/"
         },
         "team": {
             "anchor": "Equipo",
-            "url": "@@config.base_path/equipo/"
+            "url": "/equipo/"
         },
         "features": {
             "anchor": "Características",
-            "url": "@@config.base_path/caracteristicas/"
+            "url": "/caracteristicas/"
         },
         "partners": {
             "anchor": "Hazte distribuidor",
-            "url": "@@config.base_path/colaboremos/"
+            "url": "/colaboremos/"
         },
         "jobs": {
             "anchor": "Empleo",
-            "url": "@@config.base_path/trabajo/"
+            "url": "/trabajo/"
         },
         "tos": {
             "anchor": "Condiciones legales",
-            "url": "@@config.base_path/terminos-legales/"
+            "url": "/terminos-legales/"
         },
         "tutorials": {
             "anchor": "Tutoriales",
-            "url": "@@config.base_path/tutorial/"
+            "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "helpcenter": {
             "anchor": "Centro de ayuda",
@@ -320,15 +325,15 @@
         },
         "breakfasts": {
             "anchor": "Desayunos",
-            "url": "@@config.base_path/taller-crear-apps-madrid"
+            "url": "/taller-crear-apps-madrid"
         },
         "apps": {
             "anchor": "Ejemplos de apps",
-            "url": "@@config.base_path/inspirate"
+            "url": "/inspirate"
         },
         "create_apps": {
             "anchor": "Creamos tu app",
-            "url": "@@config.base_path/hacemos-el-trabajo-por-ti/"
+            "url": "/hacemos-el-trabajo-por-ti/"
         },
         "pricing": {
             "anchor": "Precios",
