@@ -10,7 +10,7 @@
         "community": "Community",
         "media": "Media and Networks",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms-of-service/'>cookies policy.</a>."
+        "cookies": "If you close this window, you accept our <a href='/terms-of-service/'>cookies policy.</a>."
     },
     "register": {
         "error": {
@@ -293,31 +293,31 @@
         },
         "manifest": {
             "anchor": "Manifesto",
-            "url": "@@config.base_path/manifesto/"
+            "url": "/manifesto/"
         },
         "team": {
             "anchor": "Team",
-            "url": "@@config.base_path/team/"
+            "url": "/team/"
         },
         "features": {
             "anchor": "Features",
-            "url": "@@config.base_path/features/"
+            "url": "/features/"
         },
         "partners": {
             "anchor": "Become a partner",
-            "url": "@@config.base_path/become-a-partner/"
+            "url": "/become-a-partner/"
         },
         "jobs": {
             "anchor": "Careers",
-            "url": "@@config.base_path/jobs/"
+            "url": "/jobs/"
         },
         "tos": {
             "anchor": "Terms and Conditions",
-            "url": "@@config.base_path/terms-of-service/"
+            "url": "terms-of-service/"
         },
         "tutorials": {
             "anchor": "Tutorials",
-            "url": "@@config.base_path/tutorial/"
+            "url": "/tutorial/"
         },
         "helpcenter": {
             "anchor": "Help Center",
@@ -329,11 +329,11 @@
         },
         "apps": {
             "anchor": "App samples",
-            "url": "@@config.base_path/category/mobile-apps/"
+            "url": "/category/mobile-apps/"
         },
         "create_apps": {
             "anchor": "We create your app",
-            "url": "@@config.base_path/we-can-make-your-app/"
+            "url": "/we-can-make-your-app/"
         },
         "pricing": {
             "anchor": "Pricing",
@@ -369,7 +369,7 @@
         },
         "dashboard": {
             "anchor": "Login",
-            "url": "@@config.dashboard_base_path/web"
+            "url": "/web"
         }
     }
 }
