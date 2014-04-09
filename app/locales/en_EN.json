@@ -369,7 +369,7 @@
         },
         "dashboard": {
             "anchor": "Login",
-            "url": "/web"
+            "url": "@@config.dashboard_base_path/web"
         }
     }
 }
