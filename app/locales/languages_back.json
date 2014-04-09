@@ -3,13 +3,13 @@
     {
       "language_name": "English",
       "language_country" : "en_EN",
-      "language_short_code": "En",
+      "language_short_code": "Eng",
       "home": "/build-your-app"
     },
     {
       "language_name": "Español",
       "language_country" : "es_ES",
-      "language_short_code": "Es",
+      "language_short_code": "Esp",
       "home": "/"
     }
   ]
