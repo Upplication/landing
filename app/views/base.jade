@@ -82,10 +82,9 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 								a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
 					hr.clear
                     #cookies
-                        p !{footer.cookies}
-                            span.close(onclick="closeCookies()") X
-
-                    include footer
+						p !{footer.cookies}
+							span.close(onclick="closeCookies()") X
+					include footer
 
 
         //-script(src='/bower_components/zeptojs/src/touch.js')
