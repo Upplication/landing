@@ -73,18 +73,18 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
 
                 .footer-container
-					section
-						.contact__customer-service.margin-top-cero.margin-bottom-cero.large
-							.customer-service__text.inline-block #{prices.contact.customer_service.text}
-							.customer-service__links.inline-block
-								a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
-								span -
-								a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
-					hr.clear
+                    section
+                        .contact__customer-service.margin-top-cero.margin-bottom-cero.large
+                            .customer-service__text.inline-block #{prices.contact.customer_service.text}
+                            .customer-service__links.inline-block
+                                a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
+                                span -
+                                a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
+                    hr.clear
                     #cookies
-						p !{footer.cookies}
-							span.close(onclick="closeCookies()") X
-					include footer
+                        p !{footer.cookies}
+                            span.close(onclick="closeCookies()") X
+                    include footer
 
 
         //-script(src='/bower_components/zeptojs/src/touch.js')
