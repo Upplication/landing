@@ -173,7 +173,7 @@
         }
     };
 
-    $(".icon-list").on("tap", toogleMenu).on("click", toogleMenu);
+    $(".icon-list").on("click", toogleMenu);
 
     //
     $('#youtube-video').magnificPopup({
