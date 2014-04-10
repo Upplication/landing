@@ -16,8 +16,8 @@
       //Change lang_cookie
       $(".change-lang li[data-lang='" + lang + "'] a").click(function(){
         setCookie("ppl_language",$(this).parent().data("lang"));
-        log("Cambio lang a =" + $(this).parent().data("lang"));
-      });
+        log("Cambio lang a =" + $(this).parent().data("lang"))
+;      });
     }
     //Stilize current language
     $(".change-lang li[data-lang='"+$("body").attr("data-lang")+"']").css("font-weight","600");
@@ -163,13 +163,13 @@
 
     //Display sidebar menu in mobile
     var toogleMenu = function(){
-        $(".slide-pannel.effects").toggleClass("slide-right");
         var $outer = $("div.outer-wrap");
         if($outer.css("height") == "100%"){
             $outer.css("height","auto");
         }
         else{
             $outer.css("height","100%");
+            $(".slide-pannel.effects").toggleClass("slide-right");
         }
     };
 
