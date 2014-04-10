@@ -160,7 +160,9 @@
                 "signature_yes": "Templates with Upplication mark",
                 "signature_no": "Templates WITHOUT Upplication mark",
                 "stats": "Stats",
-                "customer_service": "Customer service"
+                "customer_service": "Customer service",
+                "push_ilimited":"Unlimited push notifications",
+                "push_limited":"3 push notifications/month"
             },
             "basic": {
                 "title": "Basic",
@@ -190,9 +192,9 @@
             "customer_service": {
                 "text": "Customer service:",
                 "phone": {
-                    "link": "tel:+34912346896",
-                    "title": "912 346 896",
-                    "text": "912.346.896"
+                    "link": "tel:+34915190439",
+                    "title": "915.190.439",
+                    "text": "915.190.439"
                 },
                 "email": {
                     "link": "mailto:hola@upplication.com",
@@ -276,14 +278,14 @@
             "phone": {
                 "link": "tel:+34915190439",
                 "title": "915 190 439",
-                "text": "Telf: 915190439"
+                "text": "Telf: 915.190.439"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
                 "title": "soporte@upplication.com",
                 "text": "soporte@upplication.com"
             },
-            "schedule":"(Hours customer support Monday-Friday 10-22h GTM+1)"
+            "schedule":"(Hours customer support Monday-Friday 10h-22h GMT+1)"
         }
     },
     "external": {

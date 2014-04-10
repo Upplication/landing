@@ -160,7 +160,9 @@
                 "signature_yes": "Firma en las plantillas",
                 "signature_no": "SIN Firma en las plantillas",
                 "stats": "Estadísticas",
-                "customer_service": "Atención al cliente personalizada"
+                "customer_service": "Atención al cliente personalizada",
+                "push_ilimited":"Notificaciones push ilimitadas",
+                "push_limited":"3 notificaciones push/mes"
             },
             "basic": {
                 "title": "Básico",
@@ -190,14 +192,14 @@
             "customer_service": {
                 "text": "Servicio de atención al cliente:",
                 "phone": {
-                    "link": "tel:+34912346896",
-                    "title": "912 346 896",
-                    "text": "912.346.896"
+                    "link": "tel:+34915190439",
+                    "title": "915 190 439",
+                    "text": "915.190.439"
                 },
                 "email": {
-                    "link": "mailto:hola@upplication.com",
-                    "title": "hola@upplication.com",
-                    "text": "hola@upplication.com"
+                    "link": "mailto:soporte@upplication.com",
+                    "title": "soporte@upplication.com",
+                    "text": "soporte@upplication.com"
                 }
             }
         }

@@ -36,6 +36,7 @@ block content
                     li #{prices.packages.features.ads_no}
                     li #{prices.packages.features.signature_yes}
                     li #{prices.packages.features.stats}
+                    li #{prices.packages.features.push_limited}
             li.package.package--premium
                 h2.package__title #{prices.packages.premium.title}
                 .package__price.package__price--actual #{prices.packages.premium.price.actual}
@@ -48,6 +49,7 @@ block content
                     li #{prices.packages.features.signature_no}
                     li #{prices.packages.features.stats}
                     li #{prices.packages.features.customer_service}
+                    li #{prices.packages.features.push_ilimited}
     section.prices__register
         form.register__form(name="register", action="/register", method="post")
             label.register__input(for="appName")
