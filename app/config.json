@@ -2,7 +2,7 @@
   "upplication.com":{
     "segmentio_token": "pqbi6xsdfe",
     "tagmanager_token": "GTM-PPJS3G",
-    "base_path": "http://www.upplication.com/new",
+    "base_path": "http://www.upplication.com",
     "dashboard_base_path": "http://dashboard.upplication.com",
     "env": "PRO"
   },
