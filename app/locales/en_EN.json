@@ -160,9 +160,11 @@
                 "signature_yes": "Templates with Upplication mark",
                 "signature_no": "Templates WITHOUT Upplication mark",
                 "stats": "Stats",
+                "without_stats": "Without stats",
                 "customer_service": "Customer service",
                 "push_ilimited":"Unlimited push notifications",
-                "push_limited":"3 push notifications/month"
+                "push_limited":"3 push notifications/month",
+                "without_push":"Without push notifications"
             },
             "basic": {
                 "title": "Basic",

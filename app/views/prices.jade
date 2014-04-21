@@ -11,7 +11,7 @@ block vars
 block content
     script(type='text/javascript').
         $UPP.url = "#{$.home._url}";
-    h1.page-title.prices__title #{prices.title}
+    h1.page-title.prices__title
     section.prices__packages
         ul
             li.package.package--basic
@@ -23,6 +23,8 @@ block content
                     li #{prices.packages.features.app_so}
                     li #{prices.packages.features.web_multi}
                     li #{prices.packages.features.upload_markets}
+                    li #{prices.packages.features.without_push}
+                    li #{prices.packages.features.without_stats}
                     li #{prices.packages.features.ads_yes}
                     li #{prices.packages.features.signature_yes}
             li.package.package--profesional
@@ -33,10 +35,10 @@ block content
                     li #{prices.packages.features.app_so}
                     li #{prices.packages.features.web_multi}
                     li #{prices.packages.features.upload_markets}
+                    li #{prices.packages.features.push_limited}
+                    li #{prices.packages.features.stats}
                     li #{prices.packages.features.ads_no}
                     li #{prices.packages.features.signature_yes}
-                    li #{prices.packages.features.stats}
-                    li #{prices.packages.features.push_limited}
             li.package.package--premium
                 h2.package__title #{prices.packages.premium.title}
                 .package__price.package__price--actual #{prices.packages.premium.price.actual}
@@ -45,11 +47,11 @@ block content
                     li #{prices.packages.features.app_so}
                     li #{prices.packages.features.web_multi}
                     li #{prices.packages.features.upload_markets}
+                    li #{prices.packages.features.push_ilimited}
+                    li #{prices.packages.features.stats}
                     li #{prices.packages.features.ads_no}
                     li #{prices.packages.features.signature_no}
-                    li #{prices.packages.features.stats}
                     li #{prices.packages.features.customer_service}
-                    li #{prices.packages.features.push_ilimited}
     section.prices__register
         form.register__form(name="register", action="/register", method="post")
             label.register__input(for="appName")

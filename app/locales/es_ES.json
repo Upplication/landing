@@ -160,9 +160,11 @@
                 "signature_yes": "Firma en las plantillas",
                 "signature_no": "SIN Firma en las plantillas",
                 "stats": "Estadísticas",
+                "without_stats": "Sin estadísticas",
                 "customer_service": "Atención al cliente personalizada",
                 "push_ilimited":"Notificaciones push ilimitadas",
-                "push_limited":"3 notificaciones push/mes"
+                "push_limited":"3 notificaciones push/mes",
+                "without_push":"Sin notificaciones push"
             },
             "basic": {
                 "title": "Básico",
