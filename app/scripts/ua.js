@@ -22,14 +22,13 @@ var upplication = function($,document,window){
     should_track = ((is_coworker && (_getCookie("coworker_exclude") === "true"))? false: true);
     
     $(document).ready(function(){
-      if (is_coworker && (_getCookie("coworker_exclude") === null)  ){
+      if (is_coworker && (_getCookie("coworker_exclude") === "false")  ){
         $("#page > .wrapper-section-site").css("top","50px");
         $(".grid-container.grid-parent").css("margin-top","50px");
         $("body").prepend("<div id='coworker' style='position:fixed;text-align:center;line-height:50px;background-color:black;color:white;width: 100%;top: 0;z-index: 999999;'>Si eres trabajador en Upplication avisa al pirata Robert de este aviso. <a href='/analytics' style='color:white'>Excluir mi tráfico</a></div>");
         
       }
     });
-
   }
 
   var _getCookie = function(c_name)
