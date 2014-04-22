@@ -38,7 +38,7 @@ $(document).ready(function(){
 END --> ADD UTM_* to LOGIN AND REGISTER LINKS
 */
 
-var page_slug = $UPP.url, 
+var page_slug = $UPP.localConfig.url, 
     registered_user=false,
     track_pages = ["/", "otras..."],
     prop = {
@@ -76,7 +76,7 @@ $(document).ready(function(){
     log("View landing: "+args);
   });
 
-  if ($UPP.env == "PRO" && upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
+  if ($UPP.localConfig.env == "PRO" && upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
     window.location = "/analytics";
   }  
 

@@ -8,7 +8,7 @@ var upplication = function($,document,window){
       _global_properties={};
   
   var _log = function(text){
-      if($UPP.env != "PRO"){
+      if($UPP.localConfig.env != "PRO"){
           console.log(text);
       }
   }

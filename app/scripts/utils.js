@@ -3,30 +3,10 @@
 
 var log = function(text)
 {
-  if($UPP.env != "PRO"){
+  if($UPP.localConfig.env != "PRO"){
     console.log(text);
   }
 };
-
-//Inicialize $UPP global variable with config settings
-(function(document,window){  
-    var host = window.location.hostname,
-        env;
-    
-    if(!$UPP.config.hasOwnProperty(host)){
-      log("No hay configuraciones para el entorno")
-    }
-    else{
-      for(var index in $UPP.config[host]) { 
-         if ($UPP.config[host].hasOwnProperty(index)) {
-             $UPP[index] = $UPP.config[host][index];
-         }
-      }
-    }
-}(document,window));
-
-
-
 
 
 function getQueryParams(name) 
@@ -88,7 +68,7 @@ var setCookie = function(c_name, c_value)
   var CookieDate = new Date;
   CookieDate.setFullYear(CookieDate.getFullYear( ) + 10);
   var domain = "";
-  if($UPP.env != "DES") 
+  if($UPP.localConfig.env != "DES") 
     domain = " ;domain=" + document.domain; 
   var aux = c_name + "=" + c_value + "; expires=" + CookieDate.toGMTString( )+ ";path=/"; //+ domain + ";path=/";
   log("aux=" + aux);
