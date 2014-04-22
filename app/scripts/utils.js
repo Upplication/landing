@@ -75,21 +75,7 @@ var setCookie = function(c_name, c_value)
   document.cookie = aux;
 };
 
-//TODO: USE ACCEPT PREFERRED LANGUAGE (Not browser language)
-/*
-var languageRedirection = function(brow_lang){
-  
-}
 
-$.ajax({ 
-  url: "http://ajaxhttpheaders.appspot.com", 
-  dataType: 'jsonp', 
-  success: function(headers) {
-      var language = headers['Accept-Language'];
-      languageRedirection(language);
-    }
-});
-*/
 var checkLanguage = function()
 {
   var lang_cookie = getCookie("ppl_language"),
@@ -101,10 +87,13 @@ var checkLanguage = function()
       //Redirect to lang cookie version
       location = routing[view][lang_cookie];
 
-      log("Hay cookie -> "+ location)
-      log("Routing -> "+ routing)
+      log("Hay cookie -> "+ location);
+      log("Routing -> "+ routing);
       //debugger
-      window.location = location;
+      if (location){
+         window.location = location;
+      }
+     
     }
   }else{
     browser_lang = window.navigator.userLanguage || window.navigator.language;
@@ -121,8 +110,11 @@ var checkLanguage = function()
         setCookie("ppl_language", "en-EN") ;
       }
       location = routing[view][lang];
-      log("No hay cookie -> "+ location)
-      window.location = location;
+      log("No hay cookie -> "+ location);
+
+      if (location){
+        window.location = location;
+      }
     }
   }
 };
