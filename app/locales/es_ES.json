@@ -55,7 +55,7 @@
         "multidevice": {
             "title": "App y web multidispositivo",
             "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
-            "devices_alt": "Apps para todos los dispositivos",
+            "devices_alt": "Crear app",
             "html5_alt": "Crea tu app con HTML5",
             "android_alt": "Crea tu app con Android",
             "ios_alt": "Crea tu app con iOS"

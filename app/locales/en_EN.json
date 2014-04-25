@@ -54,7 +54,7 @@
         "multidevice": {
             "title": "App and multi-device site",
             "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app. ",
-            "devices_alt": "Apps for all devices",
+            "devices_alt": "Create app",
             "html5_alt": "Create your app with HTML5",
             "android_alt": "Create your app with Android",
             "ios_alt": "Create your app with iOS"
