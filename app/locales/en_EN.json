@@ -194,9 +194,9 @@
             "customer_service": {
                 "text": "Customer service:",
                 "phone": {
-                    "link": "tel:+34915190439",
-                    "title": "915.190.439",
-                    "text": "915.190.439"
+                    "link": "tel:+34915848983",
+                    "title": "915.848.983",
+                    "text": "915.848.983"
                 },
                 "email": {
                     "link": "mailto:soporte@upplication.com",
@@ -278,9 +278,9 @@
         "customer_service": {
             "text": "Customer service",
             "phone": {
-                "link": "tel:+34915190439",
-                "title": "915 190 439",
-                "text": "Telf: 915.190.439"
+                "link": "tel:+34915848983",
+                "title": "915 848 983",
+                "text": "Telf: 915.848.983"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
