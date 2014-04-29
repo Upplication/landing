@@ -349,8 +349,8 @@
             "url": "@@config.base_path/pricing/"
         },
         "media_kit": {
-            "anchor": "",
-            "url": ""
+            "anchor": "Press",
+            "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
         },
         "youtube": {
             "anchor": "Youtube",
