@@ -258,7 +258,7 @@
                         "text": "Download-Get a successful app"
                     },
                     {
-                        "link": "http://upplication.com/ventajas-app-negocio/",
+                        "link": "http://upplication.com/blog/ventajas-app-negocio/",
                         "title": "Advantages of having an app",
                         "text": "Advantages of having an app"
                     }
@@ -273,7 +273,7 @@
                         "text": "We do the work for you"
                     },
                     {
-                        "link": "http://upplication.com/taller-crear-apps-madrid/",
+                        "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
                         "title": "Go to our breakfasts",
                         "text": "Go to our breakfasts"
                     }
@@ -333,8 +333,8 @@
             "url": "@@config.base_path/help-center/"
         },
         "breakfasts": {
-            "anchor": "",
-            "url": ""
+            "anchor": "Go to our breakfasts",
+            "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
         },
         "apps": {
             "anchor": "App samples",

@@ -257,7 +257,7 @@
                         "text": "Descarga-Consigue una app de éxito"
                     },
                     {
-                        "link": "http://upplication.com/ventajas-app-negocio/",
+                        "link": "http://upplication.com/blog/ventajas-app-negocio/",
                         "title": "Ventajas de tener una app",
                         "text": "Ventajas de tener una app"
                     }
@@ -272,7 +272,7 @@
                         "text": "Hacemos el trabajo por tí"
                     },
                     {
-                        "link": "http://upplication.com/taller-crear-apps-madrid/",
+                        "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
                         "title": "Ven a nuestros desayunos",
                         "text": "Ven a nuestros desayunos"
                     }
@@ -333,7 +333,7 @@
         },
         "breakfasts": {
             "anchor": "Desayunos",
-            "url": "/taller-crear-apps-madrid"
+            "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
         },
         "apps": {
             "anchor": "Ejemplos de apps",
