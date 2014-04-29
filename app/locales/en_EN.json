@@ -33,6 +33,7 @@
         "_meta_title": "Create the app for your business",
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app",
         "register": {
             "announce": "You can change it later",
             "claim": "Your app, your business",
@@ -148,6 +149,8 @@
         "_name": "Precios",
         "_meta_title": "Página de precios",
         "_meta_description": "Description tag",
+        "_canonical": "http://www.upplication.com/pricing",
+        "_keywords": "prices, pricing of your app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "title": "App is your business",
         "packages": {
             "monthly": "/month",
@@ -212,6 +215,8 @@
         "_name": "Help center",
         "_meta_title": "help center",
         "_meta_description": "Description tag",
+        "_canonical": "http://www.upplication.com/help-center",
+        "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "title": "Help center",
         "resources": {
             "createupp": {
@@ -357,7 +362,7 @@
         },
         "linkedin": {
             "anchor": "Linkedin",
-            "url": "http://www.linkedin.com/company/upplication?trk=hb_tab_compy_id_2851092"
+            "url": "http://www.linkedin.com/company/upplication"
         },
         "facebook": {
             "anchor": "Facebook",

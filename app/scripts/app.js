@@ -183,9 +183,10 @@
         });
     }
    
-
-    $('#ajax-error-popup').magnificPopup({
-      type:'inline'
-    });
+   if ($('#ajax-error-popup').length > 0){
+      $('#ajax-error-popup').magnificPopup({
+        type:'inline'
+      });
+    }
   });
 })();
