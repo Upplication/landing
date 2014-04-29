@@ -130,7 +130,7 @@ module.exports = function (grunt) {
             lang: lang,
             lang_html: lang_html,
             routing: routing,
-			routingString: JSON.stringify(routing),
+			      routingString: JSON.stringify(routing),
             config: config,
             localConfig: localConfig
           }

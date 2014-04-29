@@ -8,7 +8,7 @@ var upplication = function($,document,window){
       _global_properties={};
   
   var _log = function(text){
-      if($UPP.env != "PRO"){
+      if($UPP.localConfig.env != "PRO"){
           console.log(text);
       }
   }
@@ -19,7 +19,7 @@ var upplication = function($,document,window){
 
     _set_coworker();
 
-    should_track = ((is_coworker && (_getCookie("coworker_exclude") === "true"))? true: false);
+    should_track = ((is_coworker && (_getCookie("coworker_exclude") === "true"))? false: true);
     
     $(document).ready(function(){
       if (is_coworker && (_getCookie("coworker_exclude") === "false")  ){
@@ -29,7 +29,6 @@ var upplication = function($,document,window){
         
       }
     });
-
   }
 
   var _getCookie = function(c_name)

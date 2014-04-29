@@ -7,6 +7,7 @@
 script(type="text/javascript").
   window.$UPP = window.$UPP || {};
   $UPP.config = !{config};
+  $UPP.localConfig = !{JSON.stringify(localConfig)};
 
 // build:js({.tmp,app}) /scripts/utils.min.js
 script(type="text/javascript", src='/scripts/utils.js')

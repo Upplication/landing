@@ -175,11 +175,14 @@
 
     $(".icon-list").on("click", toogleMenu);
 
-    //
-    $('#youtube-video').magnificPopup({
-      type:'inline',
-      midClick: true
-    });
+    // youtube are only present in one page
+    if ($('#youtube-video').length > 0){
+       $('#youtube-video').magnificPopup({
+          type:'inline',
+          midClick: true
+        });
+    }
+   
 
     $('#ajax-error-popup').magnificPopup({
       type:'inline'
