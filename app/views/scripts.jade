@@ -43,3 +43,11 @@ script(type='text/javascript').
   ajax.error[10] = "#{register.error.num10}";
 
 script(type="text/javascript", src="http://cdn.optimizely.com/js/524801012.js")
+
+script(type="text/javascript").
+  // script the google plus, buscamos el div con class g-plusone
+  (function() {
+  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+  po.src = 'https://apis.google.com/js/plusone.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
