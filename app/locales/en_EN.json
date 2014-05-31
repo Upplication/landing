@@ -52,95 +52,72 @@
                 "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
             }
         },
-        "multidevice": {
-            "title": "App and multi-device site",
-            "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app. ",
-            "devices_alt": "Create app",
-            "html5_alt": "Create your app with HTML5",
-            "android_alt": "Create your app with Android",
-            "ios_alt": "Create your app with iOS"
+        "about_us": {
+            "about_us": "About us",
+            "paragraphs": [
+                "Cras mauris lectus, commodo a quam a, venenatis accumsan est. Vestibulum sodales placerat consectetur. Aliquam at porttitor odio, at lacinia nulla. Praesent imperdiet lectus vel libero gravida lacinia. Curabitur in tincidunt arcu, ut facilisis nibh. Duis orci lacus, luctus ut felis at, venenatis congue felis. Ut vel velit lectus. Integer ac est at nisi ultrices pulvinar. Integer vitae quam vel libero condimentum eleifend.",
+                "Cras mauris lectus, commodo a quam a, venenatis accumsan est. Vestibulum sodales placerat consectetur. Aliquam at porttitor odio, at lacinia nulla. Praesent imperdiet lectus vel libero gravida lacinia. Curabitur in tincidunt arcu, ut facilisis nibh. Duis orci lacus, luctus ut felis at, venenatis congue felis. Ut vel velit lectus. Integer ac est at nisi ultrices pulvinar. Integer vitae quam vel libero condimentum eleifend.",
+                "Cras mauris lectus, commodo a quam a, venenatis accumsan est. Vestibulum sodales placerat consectetur. Aliquam at porttitor odio, at lacinia nulla. Praesent imperdiet lectus vel libero gravida lacinia. Curabitur in tincidunt arcu, ut facilisis nibh. Duis orci lacus, luctus ut felis at, venenatis congue felis. Ut vel velit lectus. Integer ac est at nisi ultrices pulvinar. Integer vitae quam vel libero condimentum eleifend.",
+                "Ut et rutrum tortor. Duis bibendum neque sit amet lobortis auctor. Donec ac odio vel urna ultricies hendrerit a eget felis. Sed dignissim nibh enim. Nulla eu fringilla augue, sit amet laoreet ligula. Proin aliquam bibendum neque at mollis. Fusce ut scelerisque urna, et ornare massa. Nullam aliquam, libero quis pellentesque blandit, dui quam lobortis neque, ac bibendum augue orci nec leo. Duis at nisl tincidunt, luctus arcu id, volutpat orci. Mauris mattis, elit ut dapibus placerat, neque diam pharetra eros, eget hendrerit sem metus et tortor. Nulla facilisis orci vel pellentesque pulvinar."
+            ],
+            "image_alt": "Upplication"
+        },
+        "timeline": {
+            "timeline": "Timeline",
+            "2012": [
+                {
+                    "date": "November 2012",
+                    "desc": "Lorem ipsum dolor sit amet."
+                }
+            ],
+            "2013": [
+                {
+                    "date": "March 2013",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "October 2013",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "November 2013",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "December 2013",
+                    "desc": "Lorem ipsum dolor sit amet."
+                }
+            ],
+            "2014": [
+                {
+                    "date": "January 2014",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "February 2014",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "April 2014",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "May 2014",
+                    "desc": "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "date": "May 2014",
+                    "desc": "Lorem ipsum dolor sit amet."
+                }
+            ]
         },
         "apps": {
-            "title": "These are some of our apps",
-            "more": "more",
-            "android": "Android",
-            "ios": "iOS",
-            "multidevice": "Multidevice",
-            "bikers": {
-                "title": "Bikers",
-                "description": "Bikers created an app with a smart design to become the best bikes mobile app. Download it and you can check offers, items and cyclist events easily.",
-                "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
-                "webapp": "http://bikers.upplication.com/"
-            },
-            "welovesushy": {
-                "title": "We Love Sushi",
-                "description": "Why not to create an app for sushi lovers? We Love Sushi is an easy way to buy sushi from your mobile device, choose your menu and pay. A beautiful app, useful to enjoy the best sushi.",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
-                "webapp": "http://welovesushi.upplication.com/"
-            },
-            "educapp": {
-                "title": "Guardepeque",
-                "description": "A kindergarten app is possible. An app for parents, to know how their kids are all the time, to be updated about the school activities and schedule. Everything from a mobile device, with a easy design.",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
-                "webapp": "http://guardepeque.upplication.com/"
-            }
+            "the_data": "The data",
+            "screen_alt": "App built with Upplication",
+            "apps_created": "Apps created"
         },
-        "testimonials": {
-            "title": "What do clients say about us?",
-            "client1": {
-                "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
-                "name": "Ana, C,UP Your choice on top"
-            },
-            "client2": {
-                "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication.",
-                "name": "David, Trapatapa Bar"
-            },
-            "client3": {
-                "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week.",
-                "name": "Gabriel, Moto Urban"
-            }
-        },
-        "register_inline": {
-            "title": "Sign in and start your app for free",
-            "app_name": "Name of the app",
-            "email": "Email",
-            "password": "Password",
-            "call_to_action": "Try it now"
-        },
-        "arguments": {
-            "title": "Create the app for your business",
-            "loyalty": {
-                "title": "Secure",
-                "text": "With your app, your business is in the pocket of your customer with one touch. Take care of your mobile customer, offer them exclusive content."
-            },
-            "sell": {
-                "title": "Sell",
-                "text": "Your costumers can buy when and where they want with their mobile devices. In addition, your app has PayPal payment gateway."
-            },
-            "notify": {
-                "title": "Notify",
-                "clarification": "(Available in April 2014)",
-                "text": "Reach your customers is simple, create offers and value content with push notifications. Your message on your customers' screens immediately."
-            },
-            "promote": {
-                "title": "Promote your app",
-                "text": "Download for free this eBook to learn how to promote your app.",
-                "download": {
-                    "anchor": "Free download",
-                    "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
-                }
-
-            }
-        },
-        "press": {
-            "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
-            "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
-            "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
-            "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
-            "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
-            "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
-            "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
+        "video": {
+            "play_alt": "Play Upplication intro"
         }
     },
     "prices": {

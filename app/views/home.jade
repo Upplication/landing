@@ -12,188 +12,80 @@ block content
     script(type='text/javascript').
         $UPP.url = "#{$.home._url}";
         
-    section#register
-        div
-            .mobile
-                img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
-            .claim.padding-top-2x.margin-bottom-2x.width-90.center 
-                h1.uppercase.cwhite.acenter.bold #{home.register.claim}
-                p.big.acenter #{home.register.arguments}
-            .video-container.acenter.margin-bottom-3x
-                a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
-            article
+    section#about.bottom-space
+        div.container.clearfix
+            h2 #{home.about_us.about_us}
+            div.column
+                p #{home.about_us.paragraphs[0]}
+                p #{home.about_us.paragraphs[1]}
+                p #{home.about_us.paragraphs[2]}
+            div.column
+                img(src='#{localConfig.base_path}/images/about_us.png',alt='#{home.about_us.image_alt}')
+                p #{home.about_us.paragraphs[3]}
 
-                form(name="register", action="/register", method="post")
-                    div.announce.bg-cblack.acenter.btn.arrow-down-black
-                        | #{$.home.register.announce}
-                    label(for="appName")
-                        input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
-                        p.error.display-none
-                            //| El nombre de la app ya está registrado
-                    label(for="email")
-                        input(type="email", name="email", placeholder="#{home.register.email}", required="required")
-                        p.error.display-none
-                            //| El email ya está registrado
-                    label(for="password")
-                        input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
-                        p.error.display-none
-                            //| La contraseña debe contener al menos 6 caracteres
-                    input.bg-pastel-green.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-                    p.tos.acenter.italic !{home.register.accept_terms} 
-                        a(href="#{external.tos.url}") #{home.register.terms}        
-    section#multidevice.bg-alabaster.padding.clearfix
-        .margin-bottom-2x.margin-top-2x
-
-            .width-55.left
-                h1.acenter #{home.multidevice.title}
-                p.acenter.center
-                    | #{home.multidevice.text}
-
-            #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
-                img.screenshot-devices(src='#{localConfig.base_path}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
-
-
-            ul.so-available
-                li
-                    a.icon-html5(title="#{home.multidevice.html5_alt}")
-                li
-                    a.icon-apple(title="#{home.multidevice.ios_alt}")
-                li
-                    a.icon-android(title="#{home.multidevice.android_alt}")
-
-    section.bg-white
-        h1.acenter.margin-top-2x.width-90.center.margin-bottom-2x #{home.apps.title}
-        ul.apps-list
-            li
-                a.image(style="background-image:url('#{localConfig.base_path}/images/app1.png')", href="#{home.apps.bikers.android_app}")
-                .padding-2x
-                    h1 #{home.apps.bikers.title}
-                    p
-                        | #{home.apps.bikers.description} 
-                    ul.acenter
-                        li
-                            a.icon-html5(title="#{home.apps.more}: #{home.apps.multidevice}", href="#{home.apps.bikers.webapp}")
-                        li
-                            a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.bikers.android_app}")
-                        li
-                            a.icon-apple(title="#{home.apps.more}: #{home.apps.ios}", href="#{home.apps.bikers.ios_app}")
-
-            li.clearfix
-                a.image(style="background-image:url('#{localConfig.base_path}/images/app2.png')", href="#{home.apps.welovesushy.android_app}"))
-                .padding-2x
-                    h1 #{home.apps.welovesushy.title}
-                    p
-                        | #{home.apps.welovesushy.description} 
-                    ul.acenter
-                        li
-                            a.icon-html5(title="#{home.apps.more}: #{home.apps.multidevice}", href="#{home.apps.welovesushy.webapp}")
-                        li
-                            a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.welovesushy.android_app}")
-                        
-            li.clearfix
-                a.image(style="background-image:url('#{localConfig.base_path}/images/app3.png')", href="#{home.apps.educapp.android_app}"))
-                .padding-2x
-                    h1 #{home.apps.educapp.title}
-                    p
-                        | #{home.apps.educapp.description} 
-                    ul.acenter
-                        li
-                            a.icon-html5(title="#{home.apps.more}: #{home.apps.multidevice}", href="#{home.apps.educapp.webapp}")
-                        li
-                            a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.educapp.android_app}")
-
-
-    section.bg-alabaster.padding.clearfix
-        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
-        ul.testimonials
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
-                    p #{home.testimonials.client1.cite}
-                    footer 
-                        cite - #{home.testimonials.client1.name}
-
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
-                    p #{home.testimonials.client2.cite}
-                    footer 
-                        cite - #{home.testimonials.client2.name}
-
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
-                    p #{home.testimonials.client3.cite}
-                    footer 
-                        cite - #{home.testimonials.client3.name}
-
-
-    section.bg-pastel-green.padding.clearfix.padding-top-3x.padding-bottom-3x.register
-        h1.center.acenter.mine-shaft.margin-bottom-2x #{home.register_inline.title}
-        form.width-80.center.inline-form(name="register", action="/register", method="post")
-            label(for="appName")
-                input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
-                p.error.display-none
-                    //| El nombre de la app ya está registrado
-            label(for="email")
-                input(type="email", name="email", placeholder="#{home.register.email}", required="required")
-                p.error.display-none
-                    //| El email ya está registrado
-            label(for="password")
-                input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
-                p.error.display-none
-                    //| La contraseña debe contener al menos 6 caracteres
-            input.bg-mine-shaft.big.btn.margin-bottom.white.big.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-            p.small.italic.tos !{home.register.accept_terms} 
-                a(href="#{external.tos.url}") #{home.register.terms}  
-
-        #ajax-error-popup.cwhite.popup.mfp-hide.white-popup-block
-            h1 #{home.register.warning.ajax}
-            p.msg !{home.register.warning.ajax_msg}
-    
-    section.padding.clearfix.padding-top-3x.padding-bottom-3x.arguments
-        h1.acenter #{home.arguments.title}
-        ul
-            li 
-                h2.pastel-green.margin-bottom #{home.arguments.loyalty.title}
-                p #{home.arguments.loyalty.text}
-            li 
-                h2.pastel-green.margin-bottom #{home.arguments.sell.title}
-                p #{home.arguments.sell.text}
-            li 
-                h2.pastel-green.margin-bottom 
-                    | #{home.arguments.notify.title} 
-                    span #{home.arguments.notify.clarification}
-                p #{home.arguments.notify.text}
-    
-    section.acenter.bg-mine-shaft.padding.clearfix.padding-top-3x.padding-bottom-3x           
-        h1.cwhite.margin-bottom #{home.arguments.promote.title}
-        p.padding-bottom-3x.bigger #{home.arguments.promote.text}
-        p 
-            a#download_ebook.wide.btn.bg-pastel-green.bold(href="#{home.arguments.promote.download.href}", rel="nofollow", target="_blank") #{home.arguments.promote.download.anchor}
-
-    section.padding.clearfix.padding-top-3x.padding-bottom-2x.press
-        ul.acenter.margin-top-2x
-            li
-                a(href="#{home.press.abc}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/abc.jpg", alt="ABC")
-            li
-                a(href="#{home.press.el_economista}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/elEconomista.jpg", alt="elEconomista")
-            li
-                a(href="#{home.press.agencia_efe}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/emprende.jpg", alt="EFE Emprende")
-            li
-                a(href="#{home.press.forbes}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/forbes.jpg", alt="Forbes")
-            li
-                a(href="#{home.press.telefonica}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/telefonica.jpg", alt="Think Big Telefonica")
-            li
-                a(href="#{home.press.ticbeat}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/ticbeat.jpg", alt="Ticbeat")
-            li
-                a(href="#{home.press.wwwhatsnew}", rel="nofollow")
-                    img(src="#{localConfig.base_path}/images/press/wwwhatsnew.jpg", alt="wwwhatsnew")
-
-    script(type='text/javascript', src='http://www.youtube.com/player_api')        
+    section#timeline.bottom-space
+        div.container
+            h2 #{home.timeline.timeline}
+            div.timeline
+                div.line
+                    ul
+                        li.year-2012
+                            span 2012
+                            ul
+                                li.event-offset-50.mobile-offset-18
+                                    div.popup
+                                        span #{home.timeline['2012'][0].date}
+                                        p #{home.timeline['2012'][0].desc}
+                        li.year-2013
+                            span 2013
+                            ul
+                                li.event-offset-17.mobile-offset-18
+                                    div.popup
+                                        span #{home.timeline['2013'][0].date}
+                                        p #{home.timeline['2013'][0].desc}
+                                li.event-offset-55.mobile-offset-63
+                                    div.popup
+                                        span #{home.timeline['2013'][1].date}
+                                        p #{home.timeline['2013'][1].desc}
+                                li.event-offset-5.mobile-offset-69
+                                    div.popup
+                                        span #{home.timeline['2013'][2].date}
+                                        p #{home.timeline['2013'][2].desc}
+                                li.event-offset-5.mobile-offset-75
+                                    div.popup
+                                        span #{home.timeline['2013'][3].date}
+                                        p #{home.timeline['2013'][3].desc}
+                        li.year-2014
+                            span 2014
+                            ul
+                                li.event-offset-16.mobile-offset-11
+                                    div.popup
+                                        span #{home.timeline['2014'][0].date}
+                                        p #{home.timeline['2014'][0].desc}
+                                li.event-offset-6.mobile-offset-17
+                                    div.popup
+                                        span #{home.timeline['2014'][1].date}
+                                        p #{home.timeline['2014'][1].desc}
+                                li.event-offset-9.mobile-offset-23
+                                    div.popup
+                                        span #{home.timeline['2014'][2].date}
+                                        p #{home.timeline['2014'][2].desc}
+                                li.event-offset-2.mobile-offset-29
+                                    div.popup
+                                        span #{home.timeline['2014'][3].date}
+                                        p #{home.timeline['2014'][3].desc}
+                                li.event-offset-9.mobile-offset-35
+                                    div.popup
+                                        span #{home.timeline['2014'][4].date}
+                                        p #{home.timeline['2014'][4].desc}
+    section#apps
+        div.container.clearfix
+            div.apps-data
+                h3 #{home.apps.the_data}
+                h4
+                    span.big 79.302.920
+                    span.small #{home.apps.apps_created}
+            img(src='#{localConfig.base_path}/images/intro_iphone.png',alt='#{home.apps.screen_alt}')
+    section#video
+        .video-container.acenter.margin-bottom-3x
+            a#youtube-video.unstyled.mfp-iframe(href = "https://www.youtube.com/watch?v=baU1nnAxRYI"): img(src='#{localConfig.base_path}/images/video_play_button.png',alt='#{home.video.play_alt}')
