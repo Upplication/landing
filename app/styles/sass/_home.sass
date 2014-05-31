@@ -116,8 +116,7 @@
                   height: 15px
                   float: left
                   background-color: $really-dark-gray
-                  // TODO: Add cross browser border-radius
-                  border-radius: 50%
+                  @include border-radius(50%, 50%)
                   
                   @for $i from 1 to 100
                     &.event-offset-#{$i}
@@ -133,7 +132,7 @@
                     height: auto
                     margin-left: -50px
                     background-color: $light-gray
-                    border-radius: 4px
+                    @include border-radius(4px, 4px)
                     padding: 14px 10px
                     font-size: 0.9em
                     
