@@ -37,7 +37,7 @@ Zepto(function ($) {
             }
         });
 
-        var url = DASHBOARD_PATH + "/web/register.action";
+        var url = DASHBOARD_PATH + "/web/register";
         var data = $form.serialize();
 
         log("URL: " + url);
