@@ -5,7 +5,7 @@ div
                 span #{footer.company}
                 ul
                     li
-                        a(href="#{external.manifest.url}") #{external.manifest.anchor}
+                        a(href="#{external.about.url}") #{external.about.anchor}
                     li
                         a(href="#{external.team.url}") #{external.team.anchor}
                     li
@@ -69,4 +69,12 @@ script(type='text/javascript').
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer',$UPP.localConfig.tagmanager_token);
 
-  
+script(type="text/javascript", src="http://cdn.optimizely.com/js/524801012.js")
+
+script(type="text/javascript").
+  // script the google plus, buscamos el div con class g-plusone
+  (function() {
+  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+  po.src = 'https://apis.google.com/js/plusone.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();

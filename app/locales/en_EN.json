@@ -295,14 +295,73 @@
             "schedule":"(Hours customer support Monday-Friday 10h-22h GMT+1)"
         }
     },
+    "about": {
+        "_url": "/about-us/",
+        "_template": "about",
+        "_name": "About Us",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app",
+        "about_us": {
+            "about_us": "About us",
+            "paragraphs": [
+                "Upplication is a startup born in 2012. Headquarters are located in Madrid (Spain). Current team is 10 people.",
+                "The platform was launched in beta phase in October 2013 as an apps builder. Every small and medium business can create a mobile app without coding (getting rid of technology barriers), in few minutes (ending with long processes), with do it yourself management and reducing costs (less than 5 euros/7 dollars month).",
+                "The key of this technology is the dashboard, simple and intuitive, so the creation and management process is quick and easy, resulting in beautiful apps, like any other in the apps stores like Google Play or App Store.",
+                "Upplication allows every business to sell its products on mobile devices: M-Commerce. 4,000 business have chosen Upplication as the tool to adapt their business to mobile marketing."
+            ],
+            "image_alt": "Upplication"
+        },
+        "timeline": {
+            "timeline": "Timeline",
+            "2013": [
+                {
+                    "date": "October 2013",
+                    "desc": "Hello world! Launch Upplication 1.0.0."
+                },
+                {
+                    "date": "December 2013",
+                    "desc": "Release Upplication 1.2.0 called Heracles."
+                }
+            ],
+            "2014": [
+                {
+                    "date": "February 2014",
+                    "desc": "Awarded by Fundetec 2013."
+                },
+                {
+                    "date": "April 2014",
+                    "desc": "Release Upplication 1.4.0 called Popcorn."
+                },
+                {
+                    "date": "May 2014",
+                    "desc": "Incubated by Wayra Spain (Telefonica)."
+                },
+                {
+                    "date": "May 2014",
+                    "desc": "Mayo. Milestone, 5,000 mobile apps."
+                }
+            ]
+        },
+        "apps": {
+            "the_data": "The data",
+            "screen_alt": "App built with Upplication",
+            "apps_created": "Apps created",
+            "num": "5,173"
+        },
+        "video": {
+            "play_alt": "Play Upplication intro"
+        }
+    },
     "external": {
         "blog": {
             "anchor": "Blog",
             "url": "/blog"
         },
-        "manifest": {
-            "anchor": "Manifesto",
-            "url": "/manifesto/"
+        "about": {
+            "anchor": "About us",
+            "url": "/about-us/"
         },
         "team": {
             "anchor": "Team",
@@ -314,7 +373,7 @@
         },
         "partners": {
             "anchor": "Become a partner",
-            "url": "/become-a-partner/"
+            "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
             "anchor": "Careers",

@@ -1,0 +1,72 @@
+extends base
+
+block vars
+    - var template = $.about._template
+    - var title = $.about._meta_title
+    - var description = $.about._meta_description
+    - var keywords = $.about._keywords
+    - var canonical = $.about._canonical
+    - var cssClass = 'about'
+
+block content
+    script(type='text/javascript').
+        $UPP.url = "#{$.about._url}";
+        
+    section#about.bottom-space
+        div.container.clearfix
+            h2 #{about.about_us.about_us}
+            div.column
+                p #{about.about_us.paragraphs[0]}
+                p #{about.about_us.paragraphs[1]}
+                p #{about.about_us.paragraphs[2]}
+            div.column
+                img(src='#{localConfig.base_path}/images/about_us.jpg',alt='#{about.about_us.image_alt}')
+                p #{about.about_us.paragraphs[3]}
+
+    section#timeline.bottom-space
+        div.container
+            h2 #{about.timeline.timeline}
+            div.timeline
+                div.line
+                    ul
+                        li.year-2013
+                            span 2013
+                            ul
+                                li.event-offset-74.mobile-offset-74
+                                    div.popup
+                                        span #{about.timeline['2013'][0].date}
+                                        p #{about.timeline['2013'][0].desc}
+                                li.event-offset-15.mobile-offset-89
+                                    div.popup
+                                        span #{about.timeline['2013'][1].date}
+                                        p #{about.timeline['2013'][1].desc}
+                        li.year-2014
+                            span 2014
+                            ul
+                                li.event-offset-22.mobile-offset-22
+                                    div.popup
+                                        span #{about.timeline['2014'][0].date}
+                                        p #{about.timeline['2014'][0].desc}
+                                li.event-offset-18.mobile-offset-40
+                                    div.popup
+                                        span #{about.timeline['2014'][1].date}
+                                        p #{about.timeline['2014'][1].desc}
+                                li.event-offset-11.mobile-offset-51
+                                    div.popup
+                                        span #{about.timeline['2014'][2].date}
+                                        p #{about.timeline['2014'][2].desc}
+                                li.event-offset-1.mobile-offset-56
+                                    div.popup
+                                        span #{about.timeline['2014'][3].date}
+                                        p #{about.timeline['2014'][3].desc}
+    section#apps
+        div.container.clearfix
+            div.apps-data
+                h3 #{about.apps.the_data}
+                h4
+                    span.big #{about.apps.num}
+                    span.small #{about.apps.apps_created}
+            img(src='#{localConfig.base_path}/images/intro_iphone.png',alt='#{about.apps.screen_alt}')
+    section#video
+        .video-container.acenter.margin-bottom-3x
+            a#youtube-video.unstyled.mfp-iframe(href = "https://www.youtube.com/watch?v=baU1nnAxRYI"): img(src='#{localConfig.base_path}/images/video_play_button.png',alt='#{about.video.play_alt}')

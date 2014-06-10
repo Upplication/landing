@@ -1,84 +1,42 @@
 'use strict';
 
-/*
-ADD UTM_* to LOGIN AND REGISTER LINKS
-*/
-var params = "",prefix;
-var campaign_keywords = 'utm_source utm_medium utm_campaign utm_content'.split(' '), kw = '';
 
-for (var i = 0; i < campaign_keywords.length; i++){
-  kw = getQueryParams(campaign_keywords[i]);
-  if(kw.length){
-    if(i != 0){
-      params += "&";
-    }
-    params += campaign_keywords[i] + "=" + kw;
-  }
-}
-
-$(document).ready(function(){
-  var parse_urls=["http://dashboard.upplication.com/web/login","http://dashboard.upplication.com/web/new-user","/precios/","/pricing/"];
-  for(var i = 0; i < parse_urls.length; i++){
-    $("[href*='" + parse_urls[i] + "']").each(function(i, elem){
-      var $elem = $(elem);
-
-      prefix="";
-      if($elem.attr("href").split("?").length > 1)
-        prefix="&";
-      else
-        prefix="?";
-
-      if(params){
-        $elem.attr("href",$elem.attr("href") + prefix + params);
-      }
-   });
-  }
-});
-/*
-END --> ADD UTM_* to LOGIN AND REGISTER LINKS
-*/
-
-var page_slug = $UPP.localConfig.url, 
-    registered_user=false,
-    track_pages = ["/", "otras..."],
+var page_slug = $UPP.url,
+    registered_user = false,
     prop = {
-      page_slug: page_slug,
-      registered_user: registered_user,
-      visits: parseInt(localStorage.numVisits)
-    },
-    args="page_slug="+prop.page_slug+", registered_user="+prop.registered_user;
+        page_slug: page_slug,
+        registered_user: registered_user,
+        visits: parseInt(localStorage.numVisits)
+    };
 
 //Update if the user is registered
-if(document.cookie.indexOf("user_type")!=-1){
-  registered_user=true;
+if (document.cookie.indexOf("user_type") != -1) {
+    registered_user = true;
 }
 
 //Increment cookie (counting visits)
 updateVisitInfo();
 
-$(document).ready(function(){
+$(document).ready(function () {
+
+    $("#download_ebook").click(function () {
+        upplication.track("Click [landing] download-ebook", prop, function () {
+            log("Click [landing] download-ebook with properties:");
+            log(prop);
+        });
+    });
+
+    $("#youtube-video").one("click", function () {
+        upplication.track("Video played", prop, function () {
+            log("Video played with properties:");
+            log(prop);
+        });
+    });
 
 
-  $("#download_ebook").click(function(){
-    upplication.track("Click [landing] download-ebook",prop,function(){
-      log("Click [landing] download-ebook: "+args);
-    });  
-  });
-    
-  $("#youtube-video").one("click",function(){
-    upplication.track("Video played",prop,function(){
-      log("Video played: "+args);;
-    });  
-  });
-  
-  
-  upplication.track("View landing",prop,function(){
-    log("View landing: "+args);
-  });
+    upplication.track("View landing [" + $UPP.url  + "]", prop, function () {
+        log("View landing [" +$UPP.url + "]  with properties: ");
+        log(prop)
+    });
 
-  if ($UPP.localConfig.env == "PRO" && upplication.is_coworker && (document.cookie.indexOf("coworker_exclude=") == -1) ){
-    window.location = "/analytics";
-  }  
-
-  
 });

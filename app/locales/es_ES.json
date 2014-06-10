@@ -294,14 +294,73 @@
             "schedule":"(Horario de atención al cliente de lunes a viernes de 10 a 22h GTM+1)"
         }
     },
+    "about": {
+        "_url": "/nosotros/",
+        "_template": "about",
+        "_name": "Sobre Nosotros",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/",
+        "about_us": {
+            "about_us": "Sobre nosotros",
+            "paragraphs": [
+                "Upplication es una startup con sede en Madrid (España) que nació en 2012. El equipo es de 10 personas.",
+                "La herramienta se estrenó en fase beta en octubre de 2013: un creador de apps para que cualquier negocio pueda crearse una app móvil (eliminando la barrera tecnológica), en menos de 10 minutos (poniendo fin a procesos largos), bajo su control (do it yourself) y a menor coste (por menos de 5 euros/7 dólares al mes).",
+                "La clave de la tecnología que ha desarrollado Upplication es el panel de administración de la app, sencillo e intuitivo, por eso el proceso de creación y gestión es rápido y fácil. El resultado es una aplicación móvil de la misma calidad que cualquiera que podemos encontrar en un mercado de apps móviles como App Store o Google Play.",
+                "La plataforma pone al alcance de cualquier negocio vender sus productos en dispositivos móviles, M-Commerce. Hasta la fecha, 4.000 negocios han elegido Upplication para acoplar su PYME al móvil."
+            ],
+            "image_alt": "Upplication"
+        },
+        "timeline": {
+            "timeline": "Cronología",
+            "2013": [
+                {
+                    "date": "Octubre 2013",
+                    "desc": "Hola Mundo. Lanzamos la versión 1.0 de Upplication."
+                },
+                {
+                    "date": "Diciembre 2013",
+                    "desc": "Lanzamos la versión 1.2 y la llamamos Hércules."
+                }
+            ],
+            "2014": [
+                {
+                    "date": "Febrero 2014",
+                    "desc": "Ganamos el Premio Fundetec 2013."
+                },
+                {
+                    "date": "Abril 2014",
+                    "desc": "Lanzamos la versión 1.4, esta se llama Pop-Corn."
+                },
+                {
+                    "date": "Mayo 2014",
+                    "desc": "Entramos en Wayra (Telefónica)."
+                },
+                {
+                    "date": "Mayo 2014",
+                    "desc": "Mayo. Llegamos a 5000 apps creadas por nuestros usuarios."
+                }
+            ]
+        },
+        "apps": {
+            "the_data": "Los datos",
+            "screen_alt": "Aplicación hecha con Upplication",
+            "apps_created": "Apps creadas",
+            "num": "5.173"
+        },
+        "video": {
+            "play_alt": "Reproducir la intro de Upplication"
+        }
+    },
     "external": {
         "blog": {
             "anchor": "Blog",
             "url": "/blog"
         },
-        "manifest": {
-            "anchor": "Manifiesto",
-            "url": "/manifiesto/"
+        "about": {
+            "anchor": "Nosotros",
+            "url": "/nosotros/"
         },
         "team": {
             "anchor": "Equipo",
@@ -313,7 +372,7 @@
         },
         "partners": {
             "anchor": "Hazte distribuidor",
-            "url": "/colaboremos/"
+            "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
             "anchor": "Empleo",
