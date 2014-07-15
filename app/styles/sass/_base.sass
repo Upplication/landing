@@ -59,6 +59,9 @@ input[type="submit"]
 .width-90
   width: 90%
 
+.no-margin
+  margin: 0
+
 .center
   margin: 0 auto
 
@@ -70,6 +73,9 @@ input[type="submit"]
 
 .ajustify
   text-align: justify
+
+.aleft
+  text-align: left
 
 .bold
   font-weight: 600
@@ -178,6 +184,9 @@ p
 .padding-top-2x
   padding-top: 1em
 
+.padding-top-4x
+  padding-top: 3em
+
 .margin-bottom-2x
   margin-bottom: 1em
 
@@ -190,6 +199,12 @@ p
 .margin-top-3x
   margin-top: 2em
 
+.margin-left-2x
+  margin-left: 1em
+
+.margin-left-3x
+  margin-left: 2em
+
 .padding-bottom-2x
   padding-bottom: 1em
 
@@ -201,6 +216,9 @@ p
 
 .padding-bottom-3x
   padding-bottom: 2em
+
+.padding-bottom-4x
+  padding-bottom: 3em
 
 .unstyled a,
 a.unstyled
@@ -239,7 +257,7 @@ $default-text-shadow-v-offset: 1px
   span
     display: none
 .outer-wrap
-  background: $white
+  background: #333
   overflow: hidden
   overflow-x: hidden
   position: absolute
@@ -279,10 +297,10 @@ $default-text-shadow-v-offset: 1px
   +transform(translate3d(0,0,0))
   li
     padding: 1em
-    border-bottom: 1px solid $pastel-green
+    border-bottom: 1px solid rgba(white, 0.2)
     p
-      color: $pastel-green
-      font-size: .9em
+      color: white
+      font-size: 1.0em
     
 #main-container
   min-height: 100%
@@ -300,6 +318,17 @@ $default-text-shadow-v-offset: 1px
 
 .nav-basement-options a
   color: $mine-shaft
+
+
+.green-accent-btn
+  @extend .bg-accent-green
+  transition: background 200ms ease-in-out
+  -moz-transition: background 200ms ease-in-out
+  -webkit-transition: background 200ms ease-in-out
+
+  &:hover
+    background-color: darken($accent-green, 10%) !important
+
 
 //*****************
 // END: Sidebar panel

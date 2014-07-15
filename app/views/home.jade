@@ -22,7 +22,6 @@ block content
             .video-container.acenter.margin-bottom-3x
                 a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
             article
-
                 form(name="register", action="/register", method="post")
                     div.announce.bg-cblack.acenter.btn.arrow-down-black
                         | #{$.home.register.announce}
@@ -38,7 +37,7 @@ block content
                         input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                         p.error.display-none
                             //| La contraseña debe contener al menos 6 caracteres
-                    input.bg-pastel-green.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
+                    input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
                     p.tos.acenter.italic !{home.register.accept_terms} 
                         a(href="#{external.tos.url}") #{home.register.terms}        
     section#multidevice.bg-alabaster.padding.clearfix
@@ -126,42 +125,18 @@ block content
                     p #{home.testimonials.client3.cite}
                     footer 
                         cite - #{home.testimonials.client3.name}
-
-
-    section.bg-pastel-green.padding.clearfix.padding-top-3x.padding-bottom-3x.register
-        h1.center.acenter.mine-shaft.margin-bottom-2x #{home.register_inline.title}
-        form.width-80.center.inline-form(name="register", action="/register", method="post")
-            label(for="appName")
-                input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
-                p.error.display-none
-                    //| El nombre de la app ya está registrado
-            label(for="email")
-                input(type="email", name="email", placeholder="#{home.register.email}", required="required")
-                p.error.display-none
-                    //| El email ya está registrado
-            label(for="password")
-                input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
-                p.error.display-none
-                    //| La contraseña debe contener al menos 6 caracteres
-            input.bg-mine-shaft.big.btn.margin-bottom.white.big.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-            p.small.italic.tos !{home.register.accept_terms} 
-                a(href="#{external.tos.url}") #{home.register.terms}  
-
-        #ajax-error-popup.cwhite.popup.mfp-hide.white-popup-block
-            h1 #{home.register.warning.ajax}
-            p.msg !{home.register.warning.ajax_msg}
     
     section.padding.clearfix.padding-top-3x.padding-bottom-3x.arguments
         h1.acenter #{home.arguments.title}
         ul
             li 
-                h2.pastel-green.margin-bottom #{home.arguments.loyalty.title}
+                h2.accent-green.margin-bottom #{home.arguments.loyalty.title}
                 p #{home.arguments.loyalty.text}
             li 
-                h2.pastel-green.margin-bottom #{home.arguments.sell.title}
+                h2.accent-green.margin-bottom #{home.arguments.sell.title}
                 p #{home.arguments.sell.text}
             li 
-                h2.pastel-green.margin-bottom 
+                h2.accent-green.margin-bottom 
                     | #{home.arguments.notify.title} 
                     span #{home.arguments.notify.clarification}
                 p #{home.arguments.notify.text}
@@ -170,7 +145,7 @@ block content
         h1.cwhite.margin-bottom #{home.arguments.promote.title}
         p.padding-bottom-3x.bigger #{home.arguments.promote.text}
         p 
-            a#download_ebook.wide.btn.bg-pastel-green.bold(href="#{home.arguments.promote.download.href}", rel="nofollow", target="_blank") #{home.arguments.promote.download.anchor}
+            a#download_ebook.wide.btn.green-accent-btn.bold(href="#{home.arguments.promote.download.href}", rel="nofollow", target="_blank") #{home.arguments.promote.download.anchor}
 
     section.padding.clearfix.padding-top-3x.padding-bottom-2x.press
         ul.acenter.margin-top-2x
@@ -195,5 +170,10 @@ block content
             li
                 a(href="#{home.press.wwwhatsnew}", rel="nofollow")
                     img(src="#{localConfig.base_path}/images/press/wwwhatsnew.jpg", alt="wwwhatsnew")
+
+
+    section.bg-alabaster.padding.clearfix.padding-top-4x.padding-bottom-4x.acenter
+        h1.inline-block.no-margin #{home.try}
+        a.wide.btn.bold.inline-block.triggers-signup.margin-left-2x.green-accent-btn(href="#", onclick="return false") #{home.create_free}
 
     script(type='text/javascript', src='http://www.youtube.com/player_api')        

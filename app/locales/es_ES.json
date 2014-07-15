@@ -3,7 +3,8 @@
         "menu": "menu",
         "nav": {
             "apps": "Apps"
-        }
+        },
+        "free_trial": "Prueba gratis"
     },
     "footer": {
         "company": "Compañía",
@@ -140,7 +141,9 @@
             "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
-        }
+        },
+        "try": "¡Pruébalo, tienes 30 días!",
+        "create_free": "Crear mi app gratis"
     },
     "prices": {
         "_url": "/precios/",
@@ -438,5 +441,13 @@
             "anchor": "Entrar",
             "url": "@@config.dashboard_base_path/web"
         }
+    },
+    "signup": {
+        "close": "(&times;) cerrar",
+        "signup_free": "Regístrate <span class=\"bold\">gratis</span> y prueba 30 días",
+        "submit": "Crear mi app gratis",
+        "seller_code": "Código seller",
+        "have_a_code": "¿Tienes un código seller?",
+        "warning_seller": "Rellena el código seller"
     }
 }
