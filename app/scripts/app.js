@@ -83,25 +83,27 @@ Zepto(function ($) {
         };
     };
 
-    var registerErrorCallback = function (xhr, type) {
-        console.log(xhr);
-        // end loading
-        $(this).find("input").prop("disabled", false);
-        submit.val(submit.data("text"));
+    var registerErrorCallback = function(submit) {
+        return function (xhr, type) {
+            console.log(xhr);
+            // end loading
+            $(this).find("input").prop("disabled", false);
+            submit.val(submit.data("text"));
 
-        $.magnificPopup.open({
-            items: {
-                src: '#ajax-error-popup',
-                type: 'inline'
+            $.magnificPopup.open({
+                items: {
+                    src: '#ajax-error-popup',
+                    type: 'inline'
 
-            },
-            callbacks: {
-                close: function () {
-                    // Will fire when popup is closed
-                    $.magnificPopup.close();
+                },
+                callbacks: {
+                    close: function () {
+                        // Will fire when popup is closed
+                        $.magnificPopup.close();
+                    }
                 }
-            }
-        });
+            });
+        };
     };
 
     //Register form through AJAX
@@ -160,7 +162,7 @@ Zepto(function ($) {
                     $seller.find('input').addClass("error");
                 }
             }, submit),
-            error: registerErrorCallback
+            error: registerErrorCallback(submit)
         });
     });
 
@@ -226,7 +228,7 @@ Zepto(function ($) {
                     $('[name=seller]').addClass("error");
                 }
             }, submit),
-            error: registerErrorCallback
+            error: registerErrorCallback(submit)
         });
     });
 
@@ -299,11 +301,14 @@ Zepto(function ($) {
      */
     var showSellerForm = function(e) {
         var field = document.getElementById('app-seller'),
-            form = document.getElementById('signup-form');
+            form = document.getElementById('signup-form'),
+            input = document.getElementById('seller-input');
 
         field.className = field.className.replace('closed', '');
         e.target.style.display = 'none';
         form.className += ' force-vertical';
+
+        input.required = 'required';
 
         e.preventDefault();
         e.stopPropagation();

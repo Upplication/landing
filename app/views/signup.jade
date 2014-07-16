@@ -22,7 +22,7 @@ div#signup-screen.closed
                 p.error.display-none(data-for="password")
                     //| La contraseña debe contener al menos 6 caracteres
             div#app-seller.field.clearfix.closed
-                input(type="seller", name="seller", placeholder="#{signup.seller_code}", required="required", title="#{signup.warning_seller}", pattern=".+")
+                input#seller-input(type="seller", name="seller", placeholder="#{signup.seller_code}", title="#{signup.warning_seller}")
                 p.error.display-none(data-for="seller")
                     //| Seller code
             div.field.clearfix
