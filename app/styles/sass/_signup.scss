@@ -51,6 +51,19 @@
 				}
 			}
 
+			p.tos {
+				text-align: center;
+				font-size: 0.6em;
+
+				a {
+					float: none !important;
+					text-align: center !important;
+					display: inline !important;
+				}
+
+				padding-bottom: 20px;
+			}
+
 			input[type="submit"] {
 				font-size: 16px !important;
 				padding: 0.5em !important;
@@ -91,6 +104,11 @@
 				padding-bottom: 8px;
 			}
 		}
+
+		a {
+			text-align: center;
+			float: none;
+		}
 	}
 }
 
@@ -125,6 +143,11 @@
 				padding-top: 8px;
 				padding-bottom: 8px;
 			}
+		}
+
+		a {
+			text-align: center;
+			float: none;
 		}
 	}
 }
@@ -172,6 +195,11 @@
 			}
 		}
 
+		a {
+			float: right;
+			text-align: right;
+		}
+
 		&.force-vertical {
 			padding-top: 5em;
 			width: 50%;
@@ -189,6 +217,11 @@
 					padding-top: 8px;
 					padding-bottom: 8px;
 				}
+			}
+
+			a {
+				float: none;
+				text-align: center;
 			}
 		}
 	}
