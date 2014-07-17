@@ -308,8 +308,10 @@ Zepto(function ($) {
 
         input.removeAttribute('required');
 
-        e.preventDefault();
-        e.stopPropagation();
+        if (e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
     };
 
     /**
