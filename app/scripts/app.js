@@ -274,6 +274,44 @@ Zepto(function ($) {
     var signupScreen;
 
     /**
+     * Display fields to enter a seller code
+     */
+    var showSellerForm = function(e) {
+        var field = document.getElementById('app-seller'),
+            form = document.getElementById('signup-form'),
+            input = document.getElementById('seller-input'),
+            link = document.getElementById('without-seller-code');
+
+        field.className = field.className.replace('closed', '');
+        e.target.className += ' display-none';
+        link.className = link.className.replace('display-none', '');
+        form.className += ' force-vertical';
+
+        input.required = 'required';
+
+        e.preventDefault();
+        e.stopPropagation();
+    };
+
+    var hideSellerForm = function(e) {
+        var field = document.getElementById('app-seller'),
+            form = document.getElementById('signup-form'),
+            input = document.getElementById('seller-input'),
+            link = document.getElementById('seller-code'),
+            targetLink = document.getElementById('without-seller-code');
+
+        field.className += ' closed';
+        targetLink.className += ' display-none';
+        link.className = link.className.replace('display-none', '');
+        form.className = form.className.replace('force-vertical', '');
+
+        input.removeAttribute('required');
+
+        e.preventDefault();
+        e.stopPropagation();
+    };
+
+    /**
      * Shows the signup screen
      */
     var showSignupScreen = function(e) {
@@ -290,25 +328,8 @@ Zepto(function ($) {
         signupScreen.className = 'animated fadeOut';
         window.setTimeout(function() {
             signupScreen.className = 'closed';
+            hideSellerForm();
         }, 301);
-
-        e.preventDefault();
-        e.stopPropagation();
-    };
-
-    /**
-     * Display fields to enter a seller code
-     */
-    var showSellerForm = function(e) {
-        var field = document.getElementById('app-seller'),
-            form = document.getElementById('signup-form'),
-            input = document.getElementById('seller-input');
-
-        field.className = field.className.replace('closed', '');
-        e.target.style.display = 'none';
-        form.className += ' force-vertical';
-
-        input.required = 'required';
 
         e.preventDefault();
         e.stopPropagation();
@@ -331,5 +352,6 @@ Zepto(function ($) {
         }
 
         document.getElementById('seller-code').addEventListener('click', showSellerForm);
+        document.getElementById('without-seller-code').addEventListener('click', hideSellerForm);
     });
 })(this, window, document);

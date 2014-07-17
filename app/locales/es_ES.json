@@ -448,6 +448,7 @@
         "submit": "Crear mi app gratis",
         "seller_code": "Código seller",
         "have_a_code": "¿Tienes un código seller?",
-        "warning_seller": "Rellena el código seller"
+        "warning_seller": "Rellena el código seller",
+        "dont_have_a_code": "No tengo un código seller"
     }
 }

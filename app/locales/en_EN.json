@@ -449,6 +449,7 @@
         "submit": "Create my app for free",
         "seller_code": "Seller code",
         "have_a_code": "Do you have a seller code?",
-        "warning_seller": "Seller code can not be blank"
+        "warning_seller": "Seller code can not be blank",
+        "dont_have_a_code": "I don't have a seller code"
     }
 }
