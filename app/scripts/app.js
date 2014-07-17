@@ -301,6 +301,7 @@ Zepto(function ($) {
             targetLink = document.getElementById('without-seller-code');
 
         field.className += ' closed';
+        field.value = '';
         targetLink.className += ' display-none';
         link.className = link.className.replace('display-none', '');
         form.className = form.className.replace('force-vertical', '');
