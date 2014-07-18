@@ -1,6 +1,18 @@
 header
   @include container
 
+.header-container
+  background-color: #333
+
+a.btn-signup
+  margin-left: 10px
+  border: none
+  padding: 6px 30px
+  display: inline-block
+  font-size: 1.0em !important
+  text-transform: none !important
+  margin-top: -6px !important
+
 //Mobile layout
   ///******************************************************
 @include at-breakpoint($mobile-columns $tablet-bp)
@@ -26,17 +38,17 @@ header
 
 
   .nav-basement-options a
-    color: $mine-shaft
+    color: white
 
   header
     position: fixed
     text-align: center
     width: 100%
-    background-color: white
+    background-color: #333
 
     .login
       position: absolute
-      color: $dove-gray
+      color: white
       top: 1.3em
       right: 1.5em
       font-size: .9em
@@ -51,7 +63,6 @@ header
         max-height: 2em
         margin: .3em
 
-
     .icon-list
       margin: 0
       position: absolute
@@ -61,8 +72,7 @@ header
       font-size: 1.8em
       background: none
       border: 0
-
-      //+border-radius(9999px)
+      color: white
 
     .main-menu
       display: none
@@ -73,10 +83,6 @@ header
 
   //Common layout
   ///******************************************************
-
-
-  
-  
 
 //Desktop layout
 ///******************************************************
@@ -112,13 +118,12 @@ header
     margin-top: 1.1em
     margin-right: 1em
     a 
-      color: $pastel-green
+      color: white
       font-size: .9em
+      font-weight: 400
     
-
     ul,li
       display: inline-block
-
 
     li
       margin-right: 1em
@@ -126,8 +131,6 @@ header
     #sections,
     #change-lang
       margin-right: 1.5em
-    
-
 
     .change-lang
       li
@@ -135,11 +138,9 @@ header
         &:after
           padding-left: .55em
           content: '|'
-          color: $pastel-green
+          color: white
         &:last-child:after
           content: ''
-
-  
 
   .btn
     display: inline-block

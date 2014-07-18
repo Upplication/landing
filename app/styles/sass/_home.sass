@@ -3,13 +3,13 @@
 @import "mixins"
 @import "variables"
 
+*
+  outline: none !important
 
 @include at-breakpoint($tablet-bp $desktop-columns)
   $column-width: 12em
 @include at-breakpoint($desktop-bp $desktop-columns)
   $column-width   : 7em
-
-  
 
 .footer-container > div 
   @include container
@@ -33,11 +33,11 @@
       margin: 0 auto 1em
       +border-radius(999px)
     cite
-      color:  $pastel-green
+      color:  $accent-green
       font-weight: 600
 
   .claim
-    color: #fff
+    color: white
     h1
       margin-bottom: 0
 
@@ -62,8 +62,8 @@
     background-color: $mine-shaft
     color: #FFF
     h1
-      border-bottom: 1px solid $pastel-green
-      color: $pastel-green
+      border-bottom: 1px solid $accent-green
+      color: $accent-green
       margin-bottom: .5em
     a
       color: #FFF
