@@ -27,7 +27,6 @@ Zepto(function ($) {
         return function(data) {
             // end loading
             $(this).find("input").prop("disabled", false);
-            submit.val(submit.data("text"));
 
             if (data.success) {
                 window.location = DASHBOARD_PATH + "/web" + data.url;
