@@ -28,6 +28,8 @@ Zepto(function ($) {
             if (data.success) {
                 window.location = DASHBOARD_PATH + "/web" + data.url;
             } else {
+                $(this).find("input").prop("disabled", false);
+                submit.val(submit.data("text"));
                 var error = {};
 
                 switch (data.case) {
