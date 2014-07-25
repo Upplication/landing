@@ -25,9 +25,6 @@ Zepto(function ($) {
 
     var registerSuccessCallback = function (fn, submit) {
         return function(data) {
-            // end loading
-            $(this).find("input").prop("disabled", false);
-
             if (data.success) {
                 window.location = DASHBOARD_PATH + "/web" + data.url;
             } else {
