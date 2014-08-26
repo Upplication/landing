@@ -356,6 +356,49 @@
             "play_alt": "Reproducir la intro de Upplication"
         }
     },
+    "offer": {
+        "_url": "/oferta-practicas-developer/",
+        "_template": "offer",
+        "_name": "Oferta prácticas",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/",
+        "introduction": [
+            "En Upplication somos un equipo en continuo aprendizaje donde existe un flujo de información entre todo el equipo, donde cualquier idea es revisada y discutida para que nos aseguremos que cada proceso y decisión que hemos tomado sea óptimo.",
+            "Queremos seguir renovando nuestras ideas y por ello buscamos un compañero de trabajo en prácticas que entre a formar parte de nuestro equipo de desarrollo y nos ayude a desarrollar nuestro dashboard y CRM interno.",
+            "Queremos ofrecer una buena experiencia de prácticas donde se aprenda y se disponga de la oportunidad de entrar en el mercado laboral. No creemos en unas prácticas donde, aunque el trabajador demuestre su valía, no se da la oportunidad de entrar a formar parte de la empresa. ¡Es que es de cajón! si una persona es buena, en una empresa que esta creciendo, sería un problema no intentar que se quede con nosotros."
+        ],
+        "technologies": {
+            "intro": "Dentro de nuestras prácticas, buscamos un desarrollador con conocimientos de las siguientes tecnologías.",
+            "list": [
+                "Java",
+                "SQL",
+                "Html y Javascript",
+                "Conocimientos de algún framework MVC. (Spring MVC por ejemplo)",
+                "Conocimientos de Java EE 6"
+            ],
+            "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno."
+        },
+        "lifestyle":"Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
+        "weoffer": {
+            "intro": "Para empezar, te podemos ofrecer:",
+            "list": [
+                "Prácticas de 3 o 4 meses con posibilidad de entrar en plantilla.",
+                "Horario flexible",
+                "No un simple tutor, toda un equipo de trabajo siempre dispuesto a resolver tus dudas :)",
+                "Formar parte del desarrollo de un proyecto vivo, tu código lo utilizarán miles de personas.",
+                "Espacio de trabajo cómodo y amplio con un buen equipo y 2 monitores de 22 pulgadas para que trabajes bien agusto.",
+                "Zona de relax con sus sofas y puffs, máquina de cafés, nevera, microhondas, unas vistas increibles de Madrid, trabajar en la gran via... La verdad es que Wayra (nuestra incubadora) mola bastante",
+                "Unos 100 € para que, por lo menos, no te cueste dinero venir a Upplication."
+            ]
+        },
+        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a javier.arnaiz@upplication.com con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a upplication. Prometemos contestar, si o si.",
+        "cheers": [
+            "¡Un saludo!",
+            "Javier Arnáiz"
+        ]
+    },
     "external": {
         "blog": {
             "anchor": "Blog",
