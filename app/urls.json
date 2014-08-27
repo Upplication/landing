@@ -2,5 +2,6 @@
   "home": "/views/home.jade",
   "prices": "/views/prices.jade",
   "helpcenter": "/views/help-center.jade",
-  "about": "/views/about.jade"
+  "about": "/views/about.jade",
+  "offer": "/views/offer.jade"
 }

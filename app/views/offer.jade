@@ -1,0 +1,38 @@
+extends base
+
+block vars
+    - var template = $.offer._template
+    - var title = $.offer._meta_title
+    - var description = $.offer._meta_description
+    - var keywords = $.offer._keywords
+    - var canonical = $.offer._canonical
+    - var cssClass = 'help-center-wrapper'
+
+block content
+    script(type='text/javascript').
+        $UPP.url = "#{$.offer._url}";
+
+    div.container
+        div.intro
+            each intro, i in offer.introduction
+                p #{intro}
+        div.technologies
+            p #{offer.technologies.intro}
+            ul
+                each tech, i in offer.technologies.list
+                    li #{tech}
+            p #{offer.technologies.note}
+        div.lifestyle
+            p #{offer.lifestyle}
+        div.weoffer
+            p #{offer.weoffer.intro}
+            ul
+                each weoffer, i in offer.weoffer.list
+                    li #{weoffer}
+        div.wewantyou
+            p #{offer.wewanttomeetyou}
+            img(src="#{localConfig.base_path}/images/office-inside.jpg", alt="oficina")
+            img(src="#{localConfig.base_path}/images/office-view.jpg", alt="oficina")
+        div.cheers
+            each cheer, i in offer.cheers
+                p #{cheer}
