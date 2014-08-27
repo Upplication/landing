@@ -358,7 +358,7 @@
         }
     },
     "offer": {
-        "_url": "/oferta-practicas-developer/",
+        "_url": "/offer-trainee-developer/",
         "_template": "offer",
         "_name": "Oferta prácticas",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -422,8 +422,8 @@
             "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
-            "anchor": "Careers",
-            "url": "/jobs/"
+            "anchor": "We are hiring!",
+            "url": "/offer-trainee-developer/"
         },
         "tos": {
             "anchor": "Terms and Conditions",
