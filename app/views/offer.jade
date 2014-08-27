@@ -6,33 +6,38 @@ block vars
     - var description = $.offer._meta_description
     - var keywords = $.offer._keywords
     - var canonical = $.offer._canonical
-    - var cssClass = 'help-center-wrapper'
+    - var cssClass = 'offer'
 
 block content
     script(type='text/javascript').
         $UPP.url = "#{$.offer._url}";
 
-    div.container
-        div.intro
-            each intro, i in offer.introduction
-                p #{intro}
-        div.technologies
-            p #{offer.technologies.intro}
-            ul
-                each tech, i in offer.technologies.list
-                    li #{tech}
-            p #{offer.technologies.note}
-        div.lifestyle
-            p #{offer.lifestyle}
-        div.weoffer
-            p #{offer.weoffer.intro}
-            ul
-                each weoffer, i in offer.weoffer.list
-                    li #{weoffer}
-        div.wewantyou
-            p #{offer.wewanttomeetyou}
-            img(src="#{localConfig.base_path}/images/office-inside.jpg", alt="oficina")
-            img(src="#{localConfig.base_path}/images/office-view.jpg", alt="oficina")
-        div.cheers
-            each cheer, i in offer.cheers
-                p #{cheer}
+    section.bottom-space
+        div.container
+            h2 #{$.offer._name}
+
+            img.full(src="#{localConfig.base_path}/images/office-view.jpg", alt="oficina")
+
+            div.intro
+                each intro, i in offer.introduction
+                    p #{intro}
+            div.technologies
+                p #{offer.technologies.intro}
+                ul
+                    each tech, i in offer.technologies.list
+                        li #{tech}
+                p #{offer.technologies.note}
+            div.lifestyle
+                img.pull-right(src="#{localConfig.base_path}/images/office-inside.jpg", alt="oficina")
+                p #{offer.lifestyle}
+            div.weoffer
+                p #{offer.weoffer.intro}
+                ul
+                    each weoffer, i in offer.weoffer.list
+                        li #{weoffer}
+            div.wewantyou
+                p #{offer.wewanttomeetyou}
+                
+            div.cheers
+                each cheer, i in offer.cheers
+                    p #{cheer}
