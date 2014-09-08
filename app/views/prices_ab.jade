@@ -1,0 +1,121 @@
+extends base
+
+block vars
+	- var template = $.prices_ab._template
+	- var title = $.prices_ab._meta_title
+	- var description = $.prices_ab._meta_description
+	- var keywords = $.prices_ab._keywords
+	- var canonical = $.prices_ab._canonical
+	- var cssClass = 'prices'
+
+block content
+	script(type='text/javascript').
+		$UPP.url = "#{$.prices_ab._url}";
+		$UPP.month = "#{$.prices_ab.month}";
+		$UPP.year = "#{$.prices_ab.year}";
+		$UPP.euro = "#{$.prices_ab.euro}";
+		$UPP.dollar = "#{$.prices_ab.dollar}";
+		$UPP.pricesEuro = [
+			"#{$.prices_ab.plans[0].price}",
+			"#{$.prices_ab.plans[1].price}",
+			"#{$.prices_ab.plans[2].price}",
+			"#{$.prices_ab.special_plans[0].price}",
+			"#{$.prices_ab.special_plans[1].price}"
+		];
+		$UPP.pricesDollars = [
+			"#{$.prices_ab.plans[0].price_dollars}",
+			"#{$.prices_ab.plans[1].price_dollars}",
+			"#{$.prices_ab.plans[2].price_dollars}",
+			"#{$.prices_ab.special_plans[0].price_dollars}",
+			"#{$.prices_ab.special_plans[1].price_dollars}"
+		];
+		$UPP.pricesEuroYear = [
+			"#{$.prices_ab.plans[0].price_yearly}",
+			"#{$.prices_ab.plans[1].price_yearly}",
+			"#{$.prices_ab.plans[2].price_yearly}",
+			"#{$.prices_ab.special_plans[0].price_yearly}",
+			"#{$.prices_ab.special_plans[1].price_yearly}"
+		];
+		$UPP.pricesDollarsYear = [
+			"#{$.prices_ab.plans[0].price_yearly_dollars}",
+			"#{$.prices_ab.plans[1].price_yearly_dollars}",
+			"#{$.prices_ab.plans[2].price_yearly_dollars}",
+			"#{$.prices_ab.special_plans[0].price_yearly_dollars}",
+			"#{$.prices_ab.special_plans[1].price_yearly_dollars}"
+		];
+
+	section#plans.bottom-space.darky
+		div.container
+			h2 #{prices_ab.title}
+
+			div.settings
+				div.billing-period
+					span #{prices_ab.monthly}
+					div#billing-period-toggle.toggle(data-billing-period="monthly"): div.toggle-circle
+					span #{prices_ab.yearly}
+
+				div.currency
+					span.currency-selector.euro(data-selected="true") #{prices_ab.euro}
+					span.currency-selector.dollar(data-selected="false") #{prices_ab.dollar}
+
+			div.plans
+				each plan in prices_ab.plans
+					div.plan(class="#{plan.class_name}")
+						div.plan-header
+							h3 #{plan.name}
+							div.price
+								span(class="price") #{plan.price}
+								span(class="currency") #{prices_ab.euro}
+								span(class="period") #{prices_ab.month}
+							if plan.class_name == 'plan-professional'
+								span.most-popular #{prices_ab.most_popular_plan}
+
+						div.plan-features
+							div.os-list
+								span.icon-ios
+								span.icon-android
+								span.icon-laptop
+							span.os-list #{prices_ab.os_list}
+
+							ul
+								each feature in plan.features
+									li
+										span(class="#{feature.icon_class}")
+										span.feature-title !{feature.title}
+
+							a(class="btn #{plan.btn_class} triggers-signup", href="#") #{prices_ab.free_trial}
+				div.clear
+
+			div.special-plans
+				each plan in prices_ab.special_plans
+					div.plan
+						h3 #{plan.name}
+						div.price
+							span(class="price") #{plan.price}
+							span(class="currency") #{prices_ab.euro}
+							span(class="period") #{prices_ab.month}
+						ul
+							each feature in plan.features
+								li #{feature}
+						a.btn.btn-grey.triggers-signup(href="#") #{plan.btn_text}
+				div.clear
+
+			div.clear
+
+			div.custom-app
+				div
+					div
+						h2 #{prices_ab.custom_app.title}
+						h3 #{prices_ab.custom_app.subtitle}
+					div
+						a.btn.btn-grey(href="mailto:soporte@upplication.com") #{prices_ab.custom_app.btn}
+
+	section#all-plans-include.bottom-space
+		div.container
+			h2 #{$.prices_ab.all_plans_include.title}
+
+			ul.plans-features
+				each feature in prices_ab.all_plans_include.list
+					li
+						span(class="#{feature.icon}")
+						span !{feature.text}

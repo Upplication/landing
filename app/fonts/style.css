@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'upplication';
-	src:url('fonts/upplication.eot?ye4a41');
-	src:url('fonts/upplication.eot?#iefixye4a41') format('embedded-opentype'),
-		url('fonts/upplication.woff?ye4a41') format('woff'),
-		url('fonts/upplication.ttf?ye4a41') format('truetype'),
-		url('fonts/upplication.svg?ye4a41#upplication') format('svg');
+	src:url('fonts/upplication.eot?z2qrad');
+	src:url('fonts/upplication.eot?#iefixz2qrad') format('embedded-opentype'),
+		url('fonts/upplication.woff?z2qrad') format('woff'),
+		url('fonts/upplication.ttf?z2qrad') format('truetype'),
+		url('fonts/upplication.svg?z2qrad#upplication') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -24,17 +24,44 @@
 }
 
 .icon-play:before {
-	content: "\e600";
+	content: "\e608";
 }
 .icon-html5:before {
-	content: "\e602";
+	content: "\e60a";
 }
 .icon-android:before {
-	content: "\e603";
+	content: "\e60b";
 }
-.icon-apple:before {
-	content: "\e604";
+.icon-apple:before, .icon-ios:before {
+	content: "\e60c";
 }
 .icon-list:before {
+	content: "\e609";
+}
+.icon-tutor:before {
+	content: "\f0d7";
+}
+.icon-markets:before {
+	content: "\e600";
+}
+.icon-support:before {
 	content: "\e601";
+}
+.icon-web-responsive:before {
+	content: "\e602";
+}
+.icon-signature:before {
+	content: "\e603";
+}
+.icon-ads:before {
+	content: "\e604";
+}
+.icon-push:before {
+	content: "\e605";
+}
+.icon-laptop:before {
+	content: "\e606";
+}
+.icon-stats:before {
+	content: "\e607";
 }
