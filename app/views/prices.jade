@@ -52,30 +52,10 @@ block content
                     li #{prices.packages.features.ads_no}
                     li #{prices.packages.features.signature_no}
                     li #{prices.packages.features.customer_service}
-    section.prices__register
-        form.register__form(name="register", action="/register", method="post")
-            label.register__input(for="appName")
-                input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
-                p.error.display-none
-                    //| El nombre de la app ya está registrado
-            label.register__input(for="email")
-                input(type="email", name="email", placeholder="#{home.register.email}", required="required")
-                p.error.display-none
-                    //| El email ya está registrado
-            label.register__input(for="password")
-                input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
-                p.error.display-none
-                    //| La contraseña debe contener al menos 6 caracteres
-            input.register__submit.bg-mine-shaft.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-            p.register__tos.small.italic.tos !{home.register.accept_terms}
-                a(href="#{external.tos.url}") #{home.register.terms}
-            #ajax-error-popup.register__row.cwhite.popup.mfp-hide.white-popup-block
-                h1 #{home.register.warning.ajax}
-                p.msg !{home.register.warning.ajax_msg}
     section.prices__contact
         .contact__make-your-app
             .your-app__made-to-measure #{prices.contact.make_your_app.made_to_measure}
-            .your-app__contact-to-explanation #{prices.contact.make_your_app.contact_to_explanation}
+            a.your-app__contact-to-explanation.dark-grey(href="mailto:soporte@upplication") #{prices.contact.make_your_app.contact_to_explanation}
         .contact__customer-service
             .customer-service__text #{prices.contact.customer_service.text}
             .customer-service__links

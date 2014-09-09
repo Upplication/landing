@@ -40,6 +40,7 @@ block content
                     input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
                     p.tos.acenter.italic !{home.register.accept_terms} 
                         a(href="#{external.tos.url}") #{home.register.terms}        
+    
     section#multidevice.bg-alabaster.padding.clearfix
         .margin-bottom-2x.margin-top-2x
 
@@ -170,10 +171,5 @@ block content
             li
                 a(href="#{home.press.wwwhatsnew}", rel="nofollow")
                     img(src="#{localConfig.base_path}/images/press/wwwhatsnew.jpg", alt="wwwhatsnew")
-
-
-    section.bg-alabaster.padding.clearfix.padding-top-4x.padding-bottom-4x.acenter
-        h1.inline-block.no-margin #{home.try}
-        a.wide.btn.bold.inline-block.triggers-signup.margin-left-2x.green-accent-btn(href="#", onclick="return false") #{home.create_free}
 
     script(type='text/javascript', src='http://www.youtube.com/player_api')        
