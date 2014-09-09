@@ -51,7 +51,7 @@ block content
 			div.settings
 				div.billing-period
 					span #{prices_ab.monthly}
-					div#billing-period-toggle.toggle(data-billing-period="monthly"): div.toggle-circle
+					div#billing-period-toggle.toggle(data-billing-period="monthly", onclick="$(this).toggleClass('yearly')"): div.toggle-circle
 					span #{prices_ab.yearly}
 
 				div.currency
