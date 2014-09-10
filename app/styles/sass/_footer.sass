@@ -4,6 +4,7 @@
 
   footer
     font-size: 0
+    position: relative
     > ul
       font-weight: 400
       > li
@@ -14,8 +15,6 @@
         font-weight: 600
         font-size: .8rem
 
-
-  
   color: white
   li li
     font-weight: 300
@@ -40,11 +39,19 @@
     font-size: 14px
     margin-top: 1em
 
+.mixpanel-logo
+  position: absolute
+  left: calc(100% - 134px)
+  bottom: 7px
+
 //Tablet layout
 $column-width: 12em
 @include at-breakpoint($tablet-bp $desktop-columns)//($mobile-bp $tablet-columns $tablet-bp)
+  .footer-container footer > ul
+    padding-left: 8%
+
   .footer-container footer > ul > li
-    width: 32%
+    width: 30%
     float: left
     margin-right: 2%
     text-transform: uppercase
