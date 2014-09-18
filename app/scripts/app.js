@@ -2,6 +2,18 @@
 Zepto(function ($) {
     'use strict';
 
+    /**
+     * Perform a function with mixpanel as a dependency
+     * that function will not be triggered if mixpanel is not defined
+     * Needed because of adblock
+     * @param  {Function} fn Function to be executed, will receive mixpanel as a param
+     */
+    var withMixPanel = function (fn) {
+        if (window['mixpanel'] !== undefined) {
+            fn(window.mixpanel);
+        }
+    };
+
     var setup = function () {
         var lang_elems = $(".change-lang li[data-lang]"),
             lang;
@@ -112,13 +124,15 @@ Zepto(function ($) {
 
             var $form = $(this);
             // mixpanel store automatically the utm_* vars and store in a cookie
-            $.each(["utm_source", "utm_campaign", "utm_medium", "utm_content"], function (i, val) {
-                if (mixpanel.get_property(val)) {
-                    var $utm = $("<input>")
-                        .attr("type", "hidden")
-                        .attr("name", val).val(mixpanel.get_property(val));
-                    $form.append($utm);
-                }
+            withMixPanel(function (mixpanel) {
+                $.each(["utm_source", "utm_campaign", "utm_medium", "utm_content"], function (i, val) {
+                    if (mixpanel.get_property(val)) {
+                        var $utm = $("<input>")
+                            .attr("type", "hidden")
+                            .attr("name", val).val(mixpanel.get_property(val));
+                        $form.append($utm);
+                    }
+                });
             });
 
             var url = DASHBOARD_PATH + "/web/register";
@@ -178,13 +192,15 @@ Zepto(function ($) {
 
             var $form = $(this);
             // mixpanel store automatically the utm_* vars and store in a cookie
-            $.each(["utm_source", "utm_campaign", "utm_medium", "utm_content"], function (i, val) {
-                if (mixpanel.get_property(val)) {
-                    var $utm = $("<input>")
-                        .attr("type", "hidden")
-                        .attr("name", val).val(mixpanel.get_property(val));
-                    $form.append($utm);
-                }
+            withMixPanel(function (mixpanel) {
+                $.each(["utm_source", "utm_campaign", "utm_medium", "utm_content"], function (i, val) {
+                    if (mixpanel.get_property(val)) {
+                        var $utm = $("<input>")
+                            .attr("type", "hidden")
+                            .attr("name", val).val(mixpanel.get_property(val));
+                        $form.append($utm);
+                    }
+                });
             });
 
             var url = DASHBOARD_PATH + "/web/register";
