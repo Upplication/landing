@@ -146,72 +146,6 @@
         "try": "Try it, you have 30 days!",
         "create_free": "Create my app for free"
     },
-    "prices": {
-        "_url": "/pricing/",
-        "_template": "prices",
-        "_name": "Precios",
-        "_meta_title": "Página de precios",
-        "_meta_description": "Description tag",
-        "_canonical": "http://www.upplication.com/pricing",
-        "_keywords": "prices, pricing of your app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "title": "App is your business",
-        "packages": {
-            "monthly": "/month",
-            "features": {
-                "app_so": "App for iOs and Android",
-                "web_multi": "Multi-device website",
-                "upload_markets": "Upload to Markets",
-                "ads_yes": "Upplication Ads",
-                "ads_no": "NO Ads",
-                "signature_yes": "Templates with Upplication mark",
-                "signature_no": "Templates WITHOUT Upplication mark",
-                "stats": "Stats",
-                "without_stats": "Without stats",
-                "customer_service": "Customer service",
-                "push_ilimited":"Unlimited push notifications",
-                "push_limited":"3 push notifications/month",
-                "without_push":"Without push notifications"
-            },
-            "basic": {
-                "title": "Basic",
-                "price": {
-                    "before": "before 9,95€",
-                    "actual": "4,95€"
-                }
-            },
-            "profesional": {
-                "title": "Professional",
-                "price": {
-                    "actual": "19,95€"
-                }
-            },
-            "premium": {
-                "title": "Premium",
-                "price": {
-                    "actual": "49,95€"
-                }
-            }
-        },
-        "contact": {
-            "make_your_app": {
-                "made_to_measure": "We make your 'made-to-measure' app",
-                "contact_to_explanation": "Contact us and we will explain you how we do it"
-            },
-            "customer_service": {
-                "text": "Customer service:",
-                "phone": {
-                    "link": "tel:+34915848983",
-                    "title": "915.848.983",
-                    "text": "915.848.983"
-                },
-                "email": {
-                    "link": "mailto:soporte@upplication.com",
-                    "title": "soporte@upplication.com",
-                    "text": "soporte@upplication.com"
-                }
-            }
-        }
-    },
     "helpcenter": {
         "_url": "/help-center/",
         "_template": "helpcenter",
@@ -495,14 +429,14 @@
         "warning_seller": "Seller code can not be blank",
         "dont_have_a_code": "I don't have a seller code"
     },
-    "prices_ab": {
-        "_url": "/prices-test/",
-        "_template": "prices_ab",
+    "prices": {
+        "_url": "/prices/",
+        "_template": "prices",
         "_name": "Pricing plans",
         "_meta_title": "Pricing plans",
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "_canonical": "http://www.upplication.com/prices-test/",
+        "_canonical": "http://www.upplication.com/prices/",
         "title": "Pricing plans",
         "monthly": "Monthly",
         "yearly": "Yearly",
@@ -548,7 +482,7 @@
                 "features": [
                     {
                         "icon_class": "icon-ads",
-                        "title": "Upplication ads"
+                        "title": "<span class=\"bold\">No</span><span> upplication ads</span>"
                     },
                     {
                         "icon_class": "icon-signature",
@@ -630,6 +564,21 @@
             "title": "We make your 'made-to-measure' app",
             "subtitle": "Contact us and we will explain you how we do it.",
             "btn": "Contact us"
+        },
+        "contact": {
+            "customer_service": {
+                "text": "Customer service:",
+                "phone": {
+                    "link": "tel:+34915848983",
+                    "title": "915.848.983",
+                    "text": "915.848.983"
+                },
+                "email": {
+                    "link": "mailto:soporte@upplication.com",
+                    "title": "soporte@upplication.com",
+                    "text": "soporte@upplication.com"
+                }
+            }
         },
         "all_plans_include": {
             "title": "All plans include",

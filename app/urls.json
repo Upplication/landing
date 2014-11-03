@@ -3,6 +3,5 @@
   "prices": "/views/prices.jade",
   "helpcenter": "/views/help-center.jade",
   "about": "/views/about.jade",
-  "offer": "/views/offer.jade",
-  "prices_ab": "/views/prices_ab.jade"
+  "offer": "/views/offer.jade"
 }

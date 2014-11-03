@@ -1,64 +1,121 @@
 extends base
 
 block vars
-    - var template = $.prices._template
-    - var title = $.prices._meta_title
-    - var description = $.prices._meta_description
-    - var keywords = $.prices._keywords
-    - var canonical = $.prices._canonical
-    - var cssClass = 'prices-wrapper'
+	- var template = $.prices._template
+	- var title = $.prices._meta_title
+	- var description = $.prices._meta_description
+	- var keywords = $.prices._keywords
+	- var canonical = $.prices._canonical
+	- var cssClass = 'prices'
 
 block content
-    script(type='text/javascript').
-        $UPP.url = "#{$.prices._url}";
-    h1.page-title.prices__title
-    section.prices__packages
-        ul
-            li.package.package--basic
-                h2.package__title #{prices.packages.basic.title}
-                    .package__price.package__price--before #{prices.packages.basic.price.before}
-                .package__price.package__price--actual #{prices.packages.basic.price.actual}
-                    .monthly #{prices.packages.monthly}
-                ul.package__features
-                    li #{prices.packages.features.app_so}
-                    li #{prices.packages.features.web_multi}
-                    li #{prices.packages.features.upload_markets}
-                    li #{prices.packages.features.without_push}
-                    li #{prices.packages.features.without_stats}
-                    li #{prices.packages.features.ads_yes}
-                    li #{prices.packages.features.signature_yes}
-            li.package.package--profesional
-                h2.package__title #{prices.packages.profesional.title}
-                .package__price.package__price--actual #{prices.packages.profesional.price.actual}
-                    .monthly #{prices.packages.monthly}
-                ul.package__features
-                    li #{prices.packages.features.app_so}
-                    li #{prices.packages.features.web_multi}
-                    li #{prices.packages.features.upload_markets}
-                    li #{prices.packages.features.push_limited}
-                    li #{prices.packages.features.stats}
-                    li #{prices.packages.features.ads_no}
-                    li #{prices.packages.features.signature_yes}
-            li.package.package--premium
-                h2.package__title #{prices.packages.premium.title}
-                .package__price.package__price--actual #{prices.packages.premium.price.actual}
-                    .monthly #{prices.packages.monthly}
-                ul.package__features
-                    li #{prices.packages.features.app_so}
-                    li #{prices.packages.features.web_multi}
-                    li #{prices.packages.features.upload_markets}
-                    li #{prices.packages.features.push_ilimited}
-                    li #{prices.packages.features.stats}
-                    li #{prices.packages.features.ads_no}
-                    li #{prices.packages.features.signature_no}
-                    li #{prices.packages.features.customer_service}
-    section.prices__contact
-        .contact__make-your-app
-            .your-app__made-to-measure #{prices.contact.make_your_app.made_to_measure}
-            a.your-app__contact-to-explanation.dark-grey(href="mailto:soporte@upplication") #{prices.contact.make_your_app.contact_to_explanation}
-        .contact__customer-service
-            .customer-service__text #{prices.contact.customer_service.text}
-            .customer-service__links
-                a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
-                span -
-                a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
+	script(type='text/javascript').
+		$UPP.url = "#{$.prices._url}";
+		$UPP.month = "#{$.prices.month}";
+		$UPP.year = "#{$.prices.year}";
+		$UPP.euro = "#{$.prices.euro}";
+		$UPP.dollar = "#{$.prices.dollar}";
+		$UPP.pricesEuro = [
+			"#{$.prices.plans[0].price}",
+			"#{$.prices.plans[1].price}",
+			"#{$.prices.plans[2].price}",
+			"#{$.prices.special_plans[0].price}",
+			"#{$.prices.special_plans[1].price}"
+		];
+		$UPP.pricesDollars = [
+			"#{$.prices.plans[0].price_dollars}",
+			"#{$.prices.plans[1].price_dollars}",
+			"#{$.prices.plans[2].price_dollars}",
+			"#{$.prices.special_plans[0].price_dollars}",
+			"#{$.prices.special_plans[1].price_dollars}"
+		];
+		$UPP.pricesEuroYear = [
+			"#{$.prices.plans[0].price_yearly}",
+			"#{$.prices.plans[1].price_yearly}",
+			"#{$.prices.plans[2].price_yearly}",
+			"#{$.prices.special_plans[0].price_yearly}",
+			"#{$.prices.special_plans[1].price_yearly}"
+		];
+		$UPP.pricesDollarsYear = [
+			"#{$.prices.plans[0].price_yearly_dollars}",
+			"#{$.prices.plans[1].price_yearly_dollars}",
+			"#{$.prices.plans[2].price_yearly_dollars}",
+			"#{$.prices.special_plans[0].price_yearly_dollars}",
+			"#{$.prices.special_plans[1].price_yearly_dollars}"
+		];
+
+	section#plans.bottom-space.darky
+		div.container
+			h2 #{prices.title}
+
+			div.settings
+				div.billing-period
+					span #{prices.monthly}
+					div#billing-period-toggle.toggle(data-billing-period="monthly", onclick="$(this).toggleClass('yearly')"): div.toggle-circle
+					span #{prices.yearly}
+
+				div.currency
+					span.currency-selector.euro(data-selected="true") #{prices.euro}
+					span.currency-selector.dollar(data-selected="false") #{prices.dollar}
+
+			div.plans
+				each plan in prices.plans
+					div.plan(class="#{plan.class_name}")
+						div.plan-header
+							h3 #{plan.name}
+							div.price
+								span(class="price") #{plan.price}
+								span(class="currency") #{prices.euro}
+								span(class="period") #{prices.month}
+							if plan.class_name == 'plan-professional'
+								span.most-popular #{prices.most_popular_plan}
+
+						div.plan-features
+							div.os-list
+								span.icon-ios
+								span.icon-android
+								span.icon-laptop
+							span.os-list #{prices.os_list}
+
+							ul
+								each feature in plan.features
+									li
+										span(class="#{feature.icon_class}")
+										span.feature-title !{feature.title}
+
+							a(class="btn #{plan.btn_class} triggers-signup", href="#") #{prices.free_trial}
+				div.clear
+
+			div.special-plans
+				each plan in prices.special_plans
+					div.plan
+						h3 #{plan.name}
+						div.price
+							span(class="price") #{plan.price}
+							span(class="currency") #{prices.euro}
+							span(class="period") #{prices.month}
+						ul
+							each feature in plan.features
+								li #{feature}
+						a.btn.btn-grey.triggers-signup(href="#") #{plan.btn_text}
+				div.clear
+
+			div.clear
+
+			div.custom-app
+				div
+					div
+						h2 #{prices.custom_app.title}
+						h3 #{prices.custom_app.subtitle}
+					div
+						a.btn.btn-grey(href="mailto:soporte@upplication.com") #{prices.custom_app.btn}
+
+	section#all-plans-include.bottom-space
+		div.container
+			h2 #{$.prices.all_plans_include.title}
+
+			ul.plans-features
+				each feature in prices.all_plans_include.list
+					li
+						span(class="#{feature.icon}")
+						span !{feature.text}
