@@ -447,10 +447,10 @@
             {
                 "name": "Básico",
                 "class_name": "plan-basic",
-                "price": "9.95",
-                "price_dollars": "9.90",
-                "price_yearly": "99.50",
-                "price_yearly_dollars": "99.00",
+                "price": "9,95",
+                "price_dollars": "9,90",
+                "price_yearly": "99,50",
+                "price_yearly_dollars": "99,00",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -474,10 +474,10 @@
             {
                 "name": "Profesional",
                 "class_name": "plan-professional",
-                "price": "29.95",
-                "price_dollars": "29.90",
-                "price_yearly": "299.50",
-                "price_yearly_dollars": "299.00",
+                "price": "29,95",
+                "price_dollars": "29,90",
+                "price_yearly": "299,50",
+                "price_yearly_dollars": "299,00",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -501,10 +501,10 @@
             {
                 "name": "Premium",
                 "class_name": "plan-premium",
-                "price": "59.95",
-                "price_dollars": "59.90",
-                "price_yearly": "599.50",
-                "price_yearly_dollars": "599.00",
+                "price": "59,95",
+                "price_dollars": "59,90",
+                "price_yearly": "599,50",
+                "price_yearly_dollars": "599,00",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -544,10 +544,10 @@
         "special_plans": [
             {
                 "name": "Principiante",
-                "price": "4.95",
-                "price_dollars": "4.90",
-                "price_yearly": "49.50",
-                "price_yearly_dollars": "49.00",
+                "price": "4,95",
+                "price_dollars": "4,90",
+                "price_yearly": "49,50",
+                "price_yearly_dollars": "49,00",
                 "features": [
                     "Sin estadísticas",
                     "Sin app para iPhone e iPad",
@@ -559,10 +559,10 @@
             },
             {
                 "name": "Ilimitado",
-                "price": "299.95",
-                "price_dollars": "299.90",
-                "price_yearly": "2999.50",
-                "price_yearly_dollars": "2999.00",
+                "price": "299,95",
+                "price_dollars": "299,90",
+                "price_yearly": "2999,50",
+                "price_yearly_dollars": "2999,00",
                 "features": [
                     "Todas las ventajas del plan premium",
                     "Apoyo en el diseño de tu app",
