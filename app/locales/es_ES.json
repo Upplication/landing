@@ -145,72 +145,6 @@
         "try": "¡Pruébalo, tienes 30 días!",
         "create_free": "Crear mi app gratis"
     },
-    "prices": {
-        "_url": "/precios/",
-        "_template": "prices",
-        "_name": "Precios",
-        "_meta_title": "Página de precios",
-        "_meta_description": "Description tag",
-        "_canonical": "http://www.upplication.com/precios",
-        "_keywords": "precios, precio crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "title": "La app es tu negocio",
-        "packages": {
-            "monthly": "/mes",
-            "features": {
-                "app_so": "App Android y App iOS",
-                "web_multi": "Web multidispositivo",
-                "upload_markets": "Subida a los markets",
-                "ads_yes": "Publicidad Upplication",
-                "ads_no": "SIN publicidad Upplication",
-                "signature_yes": "Firma en las plantillas",
-                "signature_no": "SIN Firma en las plantillas",
-                "stats": "Estadísticas",
-                "without_stats": "Sin estadísticas",
-                "customer_service": "Atención al cliente personalizada",
-                "push_ilimited": "Notificaciones push ilimitadas",
-                "push_limited": "3 notificaciones push/mes",
-                "without_push": "Sin notificaciones push"
-            },
-            "basic": {
-                "title": "Básico",
-                "price": {
-                    "before": "antes 9,95€",
-                    "actual": "4,95€"
-                }
-            },
-            "profesional": {
-                "title": "Profesional",
-                "price": {
-                    "actual": "19,95€"
-                }
-            },
-            "premium": {
-                "title": "Premium",
-                "price": {
-                    "actual": "49,95€"
-                }
-            }
-        },
-        "contact": {
-            "make_your_app": {
-                "made_to_measure": "Te hacemos tu app a medida",
-                "contact_to_explanation": "Contacta con nosotros  y te explicamos cómo lo hacemos"
-            },
-            "customer_service": {
-                "text": "Servicio de atención al cliente:",
-                "phone": {
-                    "link": "tel:+34915848983",
-                    "title": "915 848 983",
-                    "text": "915.848.983"
-                },
-                "email": {
-                    "link": "mailto:soporte@upplication.com",
-                    "title": "soporte@upplication.com",
-                    "text": "soporte@upplication.com"
-                }
-            }
-        }
-    },
     "helpcenter": {
         "_url": "/centro-de-ayuda/",
         "_template": "helpcenter",
@@ -561,14 +495,14 @@
         "warning_seller": "Rellena el código seller",
         "dont_have_a_code": "No tengo un código seller"
     },
-    "prices_ab": {
-        "_url": "/precios-test/",
-        "_template": "prices_ab",
+    "prices": {
+        "_url": "/precios/",
+        "_template": "prices",
         "_name": "Planes de precios",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/prices-test/",
+        "_canonical": "http://www.upplication.com/prices/",
         "monthly": "Mensual",
         "yearly": "Anual",
         "title": "Planes de precios",
@@ -580,10 +514,10 @@
             {
                 "name": "Básico",
                 "class_name": "plan-basic",
-                "price": "9.95",
-                "price_dollars": "9.90",
-                "price_yearly": "99.50",
-                "price_yearly_dollars": "99.00",
+                "price": "9,95",
+                "price_dollars": "9,90",
+                "price_yearly": "99,50",
+                "price_yearly_dollars": "99,00",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -607,14 +541,14 @@
             {
                 "name": "Profesional",
                 "class_name": "plan-professional",
-                "price": "29.95",
-                "price_dollars": "29.90",
-                "price_yearly": "299.50",
-                "price_yearly_dollars": "299.00",
+                "price": "29,95",
+                "price_dollars": "29,90",
+                "price_yearly": "299,50",
+                "price_yearly_dollars": "299,00",
                 "features": [
                     {
                         "icon_class": "icon-ads",
-                        "title": "Publicidad Upplication"
+                        "title": "<span class=\"bold\">Sin</span><span> publicidad Upplication</span>"
                     },
                     {
                         "icon_class": "icon-signature",
@@ -634,10 +568,10 @@
             {
                 "name": "Premium",
                 "class_name": "plan-premium",
-                "price": "59.95",
-                "price_dollars": "59.90",
-                "price_yearly": "599.50",
-                "price_yearly_dollars": "599.00",
+                "price": "59,95",
+                "price_dollars": "59,90",
+                "price_yearly": "599,50",
+                "price_yearly_dollars": "599,00",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -659,13 +593,28 @@
                 "btn_class": "btn-grey"
             }
         ],
+        "contact": {
+            "customer_service": {
+                "text": "Servicio de atención al cliente:",
+                "phone": {
+                    "link": "tel:+34915848983",
+                    "title": "915 848 983",
+                    "text": "915.848.983"
+                },
+                "email": {
+                    "link": "mailto:soporte@upplication.com",
+                    "title": "soporte@upplication.com",
+                    "text": "soporte@upplication.com"
+                }
+            }
+        },
         "special_plans": [
             {
                 "name": "Principiante",
-                "price": "4.95",
-                "price_dollars": "4.90",
-                "price_yearly": "49.50",
-                "price_yearly_dollars": "49.00",
+                "price": "4,95",
+                "price_dollars": "4,90",
+                "price_yearly": "49,50",
+                "price_yearly_dollars": "49,00",
                 "features": [
                     "Sin estadísticas",
                     "Sin app para iPhone e iPad",
@@ -677,10 +626,10 @@
             },
             {
                 "name": "Ilimitado",
-                "price": "299.95",
-                "price_dollars": "299.90",
-                "price_yearly": "2999.50",
-                "price_yearly_dollars": "2999.00",
+                "price": "299,95",
+                "price_dollars": "299,90",
+                "price_yearly": "2999,50",
+                "price_yearly_dollars": "2999,00",
                 "features": [
                     "Todas las ventajas del plan premium",
                     "Apoyo en el diseño de tu app",
