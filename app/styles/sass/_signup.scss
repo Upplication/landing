@@ -18,8 +18,6 @@
 	}
 
 	.signup-screen-container {
-		@include container;
-
 		a.btn-signup-close {
 			display: block;
 			width: auto;
@@ -79,7 +77,7 @@
 
 // Mobile layout
 ///******************************************************
-@include at-breakpoint($mobile-columns $desktop-bp) {
+@media all and (max-width: 480px) {
 	div.signup-header {
 		img {
 			float: none;
@@ -114,7 +112,7 @@
 
 // Tablet layout
 ///******************************************************
-@include at-breakpoint($tablet-bp $desktop-columns) {
+@media all and(max-width: 768px) {
 	div.signup-header {
 		width: 80%;
 		margin: 0 auto !important;
@@ -154,7 +152,7 @@
 
 // Desktop layout
 ///******************************************************
-@include at-breakpoint($desktop-bp $desktop-columns) {
+@media all and (min-width: 768px) {
 	div.signup-header {
 		width: 100%;
 		margin: 0;

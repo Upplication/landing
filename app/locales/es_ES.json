@@ -167,9 +167,9 @@
                 "stats": "Estadísticas",
                 "without_stats": "Sin estadísticas",
                 "customer_service": "Atención al cliente personalizada",
-                "push_ilimited":"Notificaciones push ilimitadas",
-                "push_limited":"3 notificaciones push/mes",
-                "without_push":"Sin notificaciones push"
+                "push_ilimited": "Notificaciones push ilimitadas",
+                "push_limited": "3 notificaciones push/mes",
+                "without_push": "Sin notificaciones push"
             },
             "basic": {
                 "title": "Básico",
@@ -239,7 +239,7 @@
             "videos": {
                 "title": "Videos de ayuda",
                 "links": [
-					{
+                    {
                         "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
                         "title": "Tutoriales",
                         "text": "Tutoriales"
@@ -294,7 +294,7 @@
                 "title": "soporte@upplication.com",
                 "text": "soporte@upplication.com"
             },
-            "schedule":"(Horario de atención al cliente de lunes a viernes de 10 a 22h GTM+1)"
+            "schedule": "(Horario de atención al cliente de lunes a viernes de 10 a 22h GTM+1)"
         }
     },
     "about": {
@@ -380,7 +380,7 @@
             ],
             "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno."
         },
-        "lifestyle":"Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
+        "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
         "weoffer": {
             "intro": "Para empezar, te podemos ofrecer:",
             "list": [
@@ -393,12 +393,71 @@
                 "Unos 100 € para que, por lo menos, no te cueste dinero venir a Upplication."
             ]
         },
-        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a javier.arnaiz@upplication.com con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a upplication. Prometemos contestar, sí o sí.",
+        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a javier.arnaiz@upplication.com con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
         "cheers": [
             "¡Un saludo!",
             "Javier Arnáiz"
         ]
     },
+
+    "offer_marketing": {
+        "_url": "/oferta-practicas-marketing/",
+        "_template": "offer",
+        "_name": "Oferta prácticas",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/",
+        "introduction": [
+            "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
+            "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
+        ],
+        "technologies": {
+            "intro": "Buscamos un becario para el departamento de Marketing de Contenidos que cumpla con los siguientes requisitos:",
+            "requirements": "REQUISITOS",
+            "list": [
+                "Buscamos Titulados universitarios o universitarios en últimos cursos con gran pasión por marketing.",
+                "Buen manejo de herramientas de edición y diseño.",
+                "Gran capacidad de redacción.",
+                "Interesado en los sectores del Marketing Digital y el Ecommerce.",
+                "Preferiblemente persona con conocimientos de periodismo o experiencia en redacción de contenidos.",
+                "Persona proactiva, con iniciativa e implicación con la empresa y los distintos proyectos.",
+                "Persona Organizada (orientada al detalle).",
+                "Gran capacidad de trabajo y ambición, buscamos a un joven profesional que tome el proyecto Upplication como propio."
+            ],
+            "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno."
+        },
+        "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
+        "weoffer": {
+            "intro": "Para empezar, tus funciones serán:",
+            "list": [
+                "Ayuda en la creación de apps para clientes.",
+                "Apoyo en el desarrollo de diferentes proyectos de marketing.",
+                "Apoyo a otros departamentos (Social Media, Ecommerce, Comercial, etc).",
+                "Dada la implicación directa del becario con el departamento comercial, se entregará una remuneración variable en función de resultados."
+            ]
+        },
+        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
+        "cheers": [
+            "¡Un saludo!",
+            "Equipo Upplication"
+        ]
+    },
+
+    "available_offer": {
+        "_url": "/trabajos/",
+        "_template": "available_offer",
+        "_name": "Ofertas trabajo",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/",
+        "title": "Ofertas disponibles",
+        "description": "Echa un vistazo a las ofertas disponibles.",
+        "developer": "Developer en prácticas",
+        "marketing": "Prácticas de marketing"
+    },
+
     "external": {
         "blog": {
             "anchor": "Blog",
@@ -422,7 +481,7 @@
         },
         "jobs": {
             "anchor": "¡Estamos contratando!",
-            "url": "/oferta-practicas-developer/"
+            "url": "/trabajos/"
         },
         "tos": {
             "anchor": "Condiciones legales",
@@ -483,6 +542,14 @@
         "dashboard": {
             "anchor": "Entrar",
             "url": "@@config.dashboard_base_path/web"
+        },
+        "hiring_developer": {
+            "anchor": "Prácticas de desarrollador",
+            "url": "@@config.base_path/oferta-practicas-developer/"
+        },
+        "hiring_marketing": {
+            "anchor": "Prácticas de marketing",
+            "url": "@@config.base_path/oferta-practicas-marketing/"
         }
     },
     "signup": {

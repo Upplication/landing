@@ -1,0 +1,17 @@
+extends base
+
+block vars
+    - var template = $.prices_ab._template
+    - var title = $.prices_ab._meta_title
+    - var description = $.prices_ab._meta_description
+    - var keywords = $.prices_ab._keywords
+    - var canonical = $.prices_ab._canonical
+    - var cssClass = 'prices'
+
+block content
+    section#available-offer.bottom-space.darky
+        div.container
+            h2 #{available_offer.title}
+            p #{available_offer.description}
+            a(href="#{external.hiring_developer.url}") #{external.hiring_developer.anchor}
+            a(href="#{external.hiring_marketing.url}") #{external.hiring_marketing.anchor}

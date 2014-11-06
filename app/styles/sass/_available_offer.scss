@@ -1,0 +1,39 @@
+@import 'colors';
+@import 'variables';
+
+#available-offer {
+  text-align: center !important;
+  padding-bottom: 50px;
+
+  h2 {
+    padding: 2em 0 !important;
+  }
+
+  p {
+  font-size: 1.3em;
+    padding-bottom: 1em;
+  }
+
+  a {
+    display: block;
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    padding: 1em;
+    font-size: 1.1em;
+    font-weight: 300;
+    max-width: 500px;
+    color: #444;
+    background: white;
+    text-decoration: none;
+    transition: all 150ms ease-in;
+
+    &:hover, &:active {
+      background: #00ca77;
+      border-color: #00ca77;
+      color: white;
+    }
+  }
+
+}
