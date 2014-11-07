@@ -98,6 +98,8 @@ block content
 							each feature in plan.features
 								li #{feature}
 						a.btn.btn-grey.triggers-signup(href="#") #{plan.btn_text}
+						if plan.has_permanency
+							span.acenter.font-size-9px.block.margin-top-2x #{prices.permanency}
 				div.clear
 
 			div.clear

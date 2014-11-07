@@ -510,6 +510,7 @@
         "dollar": "$",
         "os_list": "Android / iPhone / iPad / Web",
         "most_popular_plan": "El plan más popular",
+        "permanency": "* Plan sujeto a 3 meses de permanencia",
         "plans": [
             {
                 "name": "Básico",
@@ -622,7 +623,8 @@
                     "Firma en las plantillas",
                     "Sin notificaciones push"
                 ],
-                "btn_text": "Probar gratis"
+                "btn_text": "Probar gratis",
+                "has_permanency": false
             },
             {
                 "name": "Ilimitado",
@@ -635,7 +637,8 @@
                     "Apoyo en el diseño de tu app",
                     "Nosotros promocionamos tu app"
                 ],
-                "btn_text": "Déjanos tus datos"
+                "btn_text": "Déjanos tus datos",
+                "has_permanency": true
             }
         ],
         "month": "mes",
