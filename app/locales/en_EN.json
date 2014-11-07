@@ -2,135 +2,135 @@
     "header": {
         "menu": "menu",
         "nav": {
-            "apps": "Ejemplos"
+            "apps": "Showcase"
         },
-        "free_trial": "Prueba gratis"
+        "free_trial": "Free trial"
     },
     "footer": {
-        "company": "Compañía",
-        "community": "Comunidad",
-        "media": "Medios y redes",
+        "company": "Company",
+        "community": "Community",
+        "media": "Media and Networks",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='/terminos-legales'>política de cookies.</a>"
+        "cookies": "If you close this window, you accept our <a href='/terms-of-service/'>cookies policy.</a>."
     },
     "register": {
         "error": {
-            "num1": "¡Fenomenal! Has terminado el registro",
-            "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-            "num3": "Mmmmm, ya está ese e-mail registrado",
-            "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
-            "num5": "¡No! El código seller no es correcto",
-            "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
-            "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
-            "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
-            "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
-            "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+            "num1": "Cool! Registration finished",
+            "num2": "Ouch! Error creating your app, please contact us",
+            "num3": "Mmmmm, that email account is already signed in Upplication",
+            "num4": "What a pity! Name of the app already chosen",
+            "num5": "No! Seller code is not correct",
+            "num6": "Wow! Name of the app and e-mail account already signed in",
+            "num7": "Wow! Name of the app already chosen and seller code is not correct",
+            "num8": "Wow! Email account already signed in and seller code is not correct",
+            "num9": "Wow! Name of the app, email account and seller code are not correct",
+            "num10": "Brrr! You need to refill name of the app and email account fields"
         }
     },
     "home": {
-        "_url": "/",
+        "_url": "/build-your-app/",
         "_template": "home",
-        "_name": "Inicio",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app",
         "register": {
-            "announce": "Podrás cambiarlo después",
-            "claim": "Tu app, tu negocio.",
-            "arguments": "Crea la app de tu negocio, sin programar, fácil y rápido.",
-            "app_name": "Nombre de la app",
-            "email": "E-mail",
-            "password": "Contraseña",
-            "loading": "Cargando...",
-            "call_to_action": "Probar gratis",
-            "accept_terms": "Al hacer clic en el botón \"Probar\" aceptas nuestros",
-            "terms": "términos y condiciones",
+            "announce": "You can change it later",
+            "claim": "Your app, your business",
+            "arguments": "Create the app for your business, without coding, quick and easy.",
+            "app_name": "Name of the app",
+            "email": "Email",
+            "password": "Password",
+            "call_to_action": "Try it now",
+            "accept_terms": "When you click the \"Try it now button\" you accept our",
+            "loading": "Loading...",
+            "terms": "terms and conditions",
             "warning": {
-                "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
-                "password": "La longitud mínima para la contraseña es de 8 caracteres",
-                "ajax": "Uuups..., hubo un problemilla",
-                "ajax_msg": "El registro no pudo ser completado, por favor vuelva a intentarlo o escríbanos a <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
+                "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
+                "password": "The minimum password length is 8 characters",
+                "ajax": "Uuups..., we had a small problem",
+                "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
             }
         },
         "multidevice": {
-            "title": "App y web multidispositivo",
-            "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
-            "devices_alt": "Crear app",
-            "html5_alt": "Crea tu app con HTML5",
-            "android_alt": "Crea tu app con Android",
-            "ios_alt": "Crea tu app con iOS"
+            "title": "App and multi-device site",
+            "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app. ",
+            "devices_alt": "Create app",
+            "html5_alt": "Create your app with HTML5",
+            "android_alt": "Create your app with Android",
+            "ios_alt": "Create your app with iOS"
         },
         "apps": {
-            "title": "Estas son algunas de nuestras apps",
-            "more": "Ver app",
+            "title": "These are some of our apps",
+            "more": "more",
             "android": "Android",
             "ios": "iOS",
-            "multidevice": "Multidispositivo",
+            "multidevice": "Multidevice",
             "bikers": {
                 "title": "Bikers",
-                "description": "El equipo de Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos de ciclistas de una manera sencilla y divertida.",
+                "description": "Bikers created an app with a smart design to become the best bikes mobile app. Download it and you can check offers, items and cyclist events easily.",
                 "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
                 "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
                 "webapp": "http://bikers.upplication.com/"
             },
             "welovesushy": {
                 "title": "We Love Sushi",
-                "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
+                "description": "Why not to create an app for sushi lovers? We Love Sushi is an easy way to buy sushi from your mobile device, choose your menu and pay. A beautiful app, useful to enjoy the best sushi.",
                 "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
                 "webapp": "http://welovesushi.upplication.com/"
             },
             "educapp": {
                 "title": "Guardepeque",
-                "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
+                "description": "A kindergarten app is possible. An app for parents, to know how their kids are all the time, to be updated about the school activities and schedule. Everything from a mobile device, with a easy design.",
                 "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
                 "webapp": "http://guardepeque.upplication.com/"
             }
         },
         "testimonials": {
-            "title": "¿Qué dicen de nuestras apps?",
+            "title": "What do clients say about us?",
             "client1": {
-                "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes.",
+                "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
                 "name": "Ana, C,UP Your choice on top"
             },
             "client2": {
-                "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos.",
-                "name": "David, Bar Trapatapa"
+                "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication.",
+                "name": "David, Trapatapa Bar"
             },
             "client3": {
-                "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana.",
+                "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week.",
                 "name": "Gabriel, Moto Urban"
             }
         },
         "register_inline": {
-            "title": "Regístrate y empieza a crear tu primera app gratis",
-            "app_name": "Nombre de la app",
-            "email": "E-mail",
-            "password": "Contraseña",
-            "call_to_action": "Probar gratis"
+            "title": "Sign in and start your app for free",
+            "app_name": "Name of the app",
+            "email": "Email",
+            "password": "Password",
+            "call_to_action": "Try it now"
         },
         "arguments": {
-            "title": "Crea la app de tu negocio",
-            "loyalty": {
-                "title": "Fideliza",
-                "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."
-            },
-            "sell": {
-                "title": "Vende",
-                "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."
-            },
-            "notify": {
-                "title": "Notifica",
-                "clarification": "(Desde Abril de 2014)",
-                "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "
-            },
-            "promote": {
-                "title": "Promociona tu app",
-                "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
-                "download": {
-                    "anchor": "Descarga gratis",
-                    "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
-                }
+            "title": "Create the app for your business",
+             "loyalty": {
+                "title": "Secure",
+                "text": "With your app, your business is in the pocket of your customer with one touch. Take care of your mobile customer, offer them exclusive content."
+             },
+             "sell": {
+                "title": "Sell",
+                "text": "Your costumers can buy when and where they want with their mobile devices. In addition, your app has PayPal payment gateway."
+             },
+             "notify": {
+                "title": "Notify",
+                "clarification": "(Available in April 2014)",
+                "text": "Reach your customers is simple, create offers and value content with push notifications. Your message on your customers' screens immediately."
+             },
+             "promote": {
+               "title": "Promote your app",
+                "text": "Download for free this eBook to learn how to promote your app.",
+                 "download": {
+                    "anchor": "Free download",
+                     "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
+                 }
             }
         },
         "press": {
@@ -142,153 +142,153 @@
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
-        "try": "¡Pruébalo, tienes 30 días!",
-        "create_free": "Crear mi app gratis"
+        "try": "Try it, you have 30 days!",
+        "create_free": "Create my app for free"
     },
     "helpcenter": {
-        "_url": "/centro-de-ayuda/",
-        "_template": "helpcenter",
-        "_name": "Centro de ayuda",
-        "_meta_title": "Centro de ayuda",
-        "_meta_description": "Description tag",
-        "_canonical": "http://www.upplication.com/centro-de-ayuda",
-        "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "title": "Centro de ayuda",
-        "resources": {
-            "createupp": {
-                "title": "Tu creas Upplicación",
-                "links": [
-                    {
-                        "link": "https://upplication.uservoice.com/",
-                        "title": "Comunidad de usuarios",
-                        "text": "Comunidad de usuarios"
-                    },
-                    {
-                        "link": "https://upplication.uservoice.com/knowledgebase",
-                        "title": "Base de conocimiento",
-                        "text": "Base de conocimiento"
-                    }
-                ]
-            },
-            "videos": {
-                "title": "Videos de ayuda",
-                "links": [
-                    {
+        "_url": "/help-center/",
+         "_template": "helpcenter",
+        "_name": "Help center",
+        "_meta_title": "help center",
+         "_meta_description": "Description tag",
+        "_canonical": "http://www.upplication.com/help-center",
+        "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "title": "Help center",
+         "resources": {
+             "createupp": {
+                "title": "You create Upplication",
+                 "links": [
+                     {
+                         "link": "https://upplication.uservoice.com/",
+                        "title": "User community",
+                        "text": "User community"
+                     },
+                     {
+                         "link": "https://upplication.uservoice.com/knowledgebase",
+                        "title": "FAQ",
+                        "text": "FAQ"
+                     }
+                 ]
+             },
+             "videos": {
+                "title": "Videos",
+                 "links": [
+                   {
                         "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-                        "title": "Tutoriales",
-                        "text": "Tutoriales"
-                    },
-                    {
-                        "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-                        "title": "Nuestros videos",
-                        "text": "Nuestros videos"
-                    }
-                ]
-            },
-            "ebooks": {
-                "title": "Ebooks e Infografias",
-                "links": [
-                    {
-                        "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
-                        "title": "Descarga-Consigue una app de éxito",
-                        "text": "Descarga-Consigue una app de éxito"
-                    },
-                    {
-                        "link": "http://upplication.com/blog/ventajas-app-negocio/",
-                        "title": "Ventajas de tener una app",
-                        "text": "Ventajas de tener una app"
-                    }
-                ]
-            },
-            "makeyourapp": {
-                "title": "Te ayudamos a crear tu app",
-                "links": [
-                    {
-                        "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
-                        "title": "Hacemos el trabajo por tí",
-                        "text": "Hacemos el trabajo por tí"
-                    },
-                    {
-                        "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
-                        "title": "Ven a nuestros desayunos",
-                        "text": "Ven a nuestros desayunos"
-                    }
-                ]
-            }
-        },
-        "customer_service": {
-            "text": "Atención al cliente",
-            "phone": {
-                "link": "tel:+34915848983",
-                "title": "915 848 983",
-                "text": "Telf: 915848983"
-            },
-            "email": {
-                "link": "mailto:soporte@upplication.com",
-                "title": "soporte@upplication.com",
-                "text": "soporte@upplication.com"
-            },
-            "schedule": "(Horario de atención al cliente de lunes a viernes de 10 a 22h GTM+1)"
-        }
+                        "title": "Tutorials",
+                        "text": "Tutorials"
+                     },
+                     {
+                         "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "title": "Our videos",
+                        "text": "Our videos"
+                     }
+                 ]
+             },
+             "ebooks": {
+                "title": "Ebooks & Infographics",
+                 "links": [
+                     {
+                         "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+                        "title": "Download-Get a successful app",
+                        "text": "Download-Get a successful app"
+                     },
+                     {
+                         "link": "http://upplication.com/blog/ventajas-app-negocio/",
+                        "title": "Advantages of having an app",
+                        "text": "Advantages of having an app"
+                     }
+                 ]
+             },
+             "makeyourapp": {
+                "title": "We help you make your app",
+                 "links": [
+                     {
+                         "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
+                        "title": "We do the work for you",
+                        "text": "We do the work for you"
+                     },
+                     {
+                         "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+                        "title": "Go to our breakfasts",
+                        "text": "Go to our breakfasts"
+                     }
+                 ]
+             }
+         },
+         "customer_service": {
+            "text": "Customer service",
+             "phone": {
+                 "link": "tel:+34915848983",
+                 "title": "915 848 983",
+                "text": "Telf: 915.848.983"
+             },
+             "email": {
+                 "link": "mailto:soporte@upplication.com",
+                 "title": "soporte@upplication.com",
+                 "text": "soporte@upplication.com"
+             },
+            "schedule":"(Hours customer support Monday-Friday 10h-22h GMT+1)"
+         }
     },
     "about": {
-        "_url": "/nosotros/",
-        "_template": "about",
-        "_name": "Sobre Nosotros",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
-        "about_us": {
-            "about_us": "Sobre nosotros",
-            "paragraphs": [
-                "Upplication es una startup con sede en Madrid (España) que nació en 2012. El equipo es de 10 personas.",
-                "La herramienta se estrenó en fase beta en octubre de 2013: un creador de apps para que cualquier negocio pueda crearse una app móvil (eliminando la barrera tecnológica), en menos de 10 minutos (poniendo fin a procesos largos), bajo su control (do it yourself) y a menor coste (por menos de 5 euros/7 dólares al mes).",
-                "La clave de la tecnología que ha desarrollado Upplication es el panel de administración de la app, sencillo e intuitivo, por eso el proceso de creación y gestión es rápido y fácil. El resultado es una aplicación móvil de la misma calidad que cualquiera que podemos encontrar en un mercado de apps móviles como App Store o Google Play.",
-                "La plataforma pone al alcance de cualquier negocio vender sus productos en dispositivos móviles, M-Commerce. Hasta la fecha, 4.000 negocios han elegido Upplication para acoplar su PYME al móvil."
-            ],
-            "image_alt": "Upplication"
-        },
-        "timeline": {
-            "timeline": "Cronología",
-            "2013": [
-                {
-                    "date": "Octubre 2013",
-                    "desc": "Hola Mundo. Lanzamos la versión 1.0 de Upplication."
-                },
-                {
-                    "date": "Diciembre 2013",
-                    "desc": "Lanzamos la versión 1.2 y la llamamos Hércules."
-                }
-            ],
-            "2014": [
-                {
-                    "date": "Febrero 2014",
-                    "desc": "Ganamos el Premio Fundetec 2013."
-                },
-                {
-                    "date": "Abril 2014",
-                    "desc": "Lanzamos la versión 1.4, esta se llama Pop-Corn."
-                },
-                {
-                    "date": "Mayo 2014",
-                    "desc": "Entramos en Wayra (Telefónica)."
-                },
-                {
-                    "date": "Mayo 2014",
-                    "desc": "Mayo. Llegamos a 5000 apps creadas por nuestros usuarios."
-                }
-            ]
-        },
-        "apps": {
-            "the_data": "Los datos",
-            "screen_alt": "Aplicación hecha con Upplication",
-            "apps_created": "Apps creadas",
-            "num": "5.173"
-        },
-        "video": {
-            "play_alt": "Reproducir la intro de Upplication"
-        }
+        "_url": "/about-us/",
+         "_template": "about",
+        "_name": "About Us",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app",
+         "about_us": {
+            "about_us": "About us",
+             "paragraphs": [
+                "Upplication is a startup born in 2012. Headquarters are located in Madrid (Spain). Current team is 10 people.",
+                "The platform was launched in beta phase in October 2013 as an apps builder. Every small and medium business can create a mobile app without coding (getting rid of technology barriers), in few minutes (ending with long processes), with do it yourself management and reducing costs (less than 5 euros/7 dollars month).",
+                "The key of this technology is the dashboard, simple and intuitive, so the creation and management process is quick and easy, resulting in beautiful apps, like any other in the apps stores like Google Play or App Store.",
+                "Upplication allows every business to sell its products on mobile devices: M-Commerce. 4,000 business have chosen Upplication as the tool to adapt their business to mobile marketing."
+             ],
+             "image_alt": "Upplication"
+         },
+         "timeline": {
+            "timeline": "Timeline",
+             "2013": [
+                 {
+                    "date": "October 2013",
+                    "desc": "Hello world! Launch Upplication 1.0.0."
+                 },
+                 {
+                    "date": "December 2013",
+                    "desc": "Release Upplication 1.2.0 called Heracles."
+                 }
+             ],
+             "2014": [
+                 {
+                    "date": "February 2014",
+                    "desc": "Awarded by Fundetec 2013."
+                 },
+                 {
+                    "date": "April 2014",
+                    "desc": "Release Upplication 1.4.0 called Popcorn."
+                 },
+                 {
+                    "date": "May 2014",
+                    "desc": "Incubated by Wayra Spain (Telefonica)."
+                 },
+                 {
+                    "date": "May 2014",
+                    "desc": "Mayo. Milestone, 5,000 mobile apps."
+                 }
+             ]
+         },
+         "apps": {
+            "the_data": "The data",
+            "screen_alt": "App built with Upplication",
+            "apps_created": "Apps created",
+            "num": "5,173"
+         },
+         "video": {
+            "play_alt": "Play Upplication intro"
+         }
     },
     "offer": {
         "_url": "/offer-trainee-developer/",
@@ -441,7 +441,7 @@
         },
         "pricing": {
             "anchor": "Pricing",
-            "url": "@@config.base_path/pricing/"
+            "url": "@@config.base_path/prices/"
         },
         "media_kit": {
             "anchor": "Press",
