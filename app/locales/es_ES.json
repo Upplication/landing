@@ -511,6 +511,7 @@
         "os_list": "Android / iPhone / iPad / Web",
         "most_popular_plan": "El plan más popular",
         "permanency": "* Plan sujeto a 3 meses de permanencia",
+        "iva_included": "IVA inc.",
         "plans": [
             {
                 "name": "Básico",
