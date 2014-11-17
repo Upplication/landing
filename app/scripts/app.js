@@ -2,16 +2,22 @@
 Zepto(function ($) {
     'use strict';
 
+    var UTM_PARAMS = ["utm_source", "utm_campaign", "utm_medium", "utm_content"];
+
     /**
-     * Perform a function with mixpanel as a dependency
-     * that function will not be triggered if mixpanel is not defined
-     * Needed because of adblock
-     * @param  {Function} fn Function to be executed, will receive mixpanel as a param
+     * Adds the UTM parameters to the given form.
+     * @param {jQuery object} $form Form where the params will be appended
      */
-    var withMixPanel = function (fn) {
-        if (window['mixpanel'] !== undefined) {
-            fn(window.mixpanel);
-        }
+    var addUtmParamsToForm = function ($form) {
+        $.each(UTM_PARAMS, function (i, val) {
+            var utmVal = getCookie(val);
+            if (utmVal) {
+                var $utm = $("<input>")
+                    .attr("type", "hidden")
+                    .attr("name", val).val(utmVal);
+                $form.append($utm);
+            }
+        });
     };
 
     var setup = function () {
@@ -123,17 +129,7 @@ Zepto(function ($) {
             e.preventDefault();
 
             var $form = $(this);
-            // mixpanel store automatically the utm_* vars and store in a cookie
-            withMixPanel(function (mixpanel) {
-                $.each(["utm_source", "utm_campaign", "utm_medium", "utm_content"], function (i, val) {
-                    if (mixpanel.get_property(val)) {
-                        var $utm = $("<input>")
-                            .attr("type", "hidden")
-                            .attr("name", val).val(mixpanel.get_property(val));
-                        $form.append($utm);
-                    }
-                });
-            });
+            addUtmParamsToForm($form);
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
@@ -191,17 +187,7 @@ Zepto(function ($) {
             e.preventDefault();
 
             var $form = $(this);
-            // mixpanel store automatically the utm_* vars and store in a cookie
-            withMixPanel(function (mixpanel) {
-                $.each(["utm_source", "utm_campaign", "utm_medium", "utm_content"], function (i, val) {
-                    if (mixpanel.get_property(val)) {
-                        var $utm = $("<input>")
-                            .attr("type", "hidden")
-                            .attr("name", val).val(mixpanel.get_property(val));
-                        $form.append($utm);
-                    }
-                });
-            });
+            addUtmParamsToForm($form);
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
@@ -338,8 +324,24 @@ Zepto(function ($) {
         dollar.on('click', changeCurrency);
     };
 
+    /**
+     * Tracks the UTM tracking with cookies.
+     */
+    var setupUTMTracking = function () {
+        var params = window.location.search.replace('?', '').split('&');
+        for (var i = 0, len = params.length; i < len; i++) {
+            var paramParts = params[i].split('=');
+
+            if (UTM_PARAMS.indexOf(paramParts[0]) !== -1) {
+                setCookie(paramParts[0], paramParts[1]);
+            }
+        }
+    };
+
     setup();
     setupPricingPlan();
+    setupUTMTracking();
+
 });
 
 // Register screen plugin
@@ -432,4 +434,5 @@ Zepto(function ($) {
         document.getElementById('seller-code').addEventListener('click', showSellerForm);
         document.getElementById('without-seller-code').addEventListener('click', hideSellerForm);
     });
+
 })(this, window, document);
