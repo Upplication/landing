@@ -17,7 +17,11 @@ var log = function (text) {
 var updateVisitInfo = function () {
     localStorage.numVisits = (parseInt(localStorage.numVisits) || 0) + 1;
 }
-
+/**
+ * get the cookie value from a concrete key
+ * @param c_name key
+ * @returns {String} val
+ */
 var getCookie = function (c_name) {
     var c_value = document.cookie;
     var c_start = c_value.indexOf(" " + c_name + "=");
@@ -37,7 +41,12 @@ var getCookie = function (c_name) {
     }
     return c_value;
 }
-
+/**
+ * set a cookie with a key and a value.
+ * This cookie is for 10 years for the path / and the domain is not set and should pick up the current domain with subdmomain
+ * @param c_name {String} key
+ * @param c_value {String} value
+ */
 var setCookie = function (c_name, c_value) {
     var CookieDate = new Date;
     CookieDate.setFullYear(CookieDate.getFullYear() + 10);
