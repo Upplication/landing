@@ -20,6 +20,28 @@ Zepto(function ($) {
         });
     };
 
+    /**
+     * Adds the UTM parameters to the given url
+     * @param {String} url with utm params at login
+     */
+    var addUtmParamsToUrl= function (url) {
+        var params = "&";
+        if (url.indexOf("?") == -1){
+            params = "?";
+        }
+
+        $.each(UTM_PARAMS, function (i, val) {
+            var utmVal = getCookie(val);
+            if (utmVal) {
+                params += val + "=" + utmVal + "&";
+            }
+        });
+
+        url += params.substring(0, params.length-1);
+
+        return url;
+    };
+
     var setup = function () {
         var langElems = $(".change-lang a[data-lang]"),
             lang;
@@ -47,7 +69,7 @@ Zepto(function ($) {
         var registerSuccessCallback = function (fn, submit) {
             return function(data) {
                 if (data.success) {
-                    window.location = DASHBOARD_PATH + "/web" + data.url;
+                    window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
                 } else {
                     $(this).find("input").prop("disabled", false);
                     submit.val(submit.data("text"));

@@ -142,7 +142,7 @@
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
-        "try": "Try it, you have 30 days!",
+        "try": "Try it, you have 15 days!",
         "create_free": "Create my app for free"
     },
     "helpcenter": {
@@ -486,7 +486,7 @@
     },
     "signup": {
         "close": "(&times;) close",
-        "signup_free": "Sign up for <span class=\"bold\">free</span> and try it for 30 days",
+        "signup_free": "Sign up for <span class=\"bold\">free</span> and try it for 15 days",
         "submit": "Create my app for free",
         "seller_code": "Seller code",
         "have_a_code": "Do you have a seller code?",
