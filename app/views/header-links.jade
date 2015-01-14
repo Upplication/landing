@@ -6,9 +6,8 @@ li
     a(href='#{$.external.apps.url}') #{$.header.nav.apps}
 li
     a(href='#{$.external.blog.url}') #{$.external.blog.anchor}
+li.change-lang.change-lang-menu
+    each lang in langs.codes
+        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
 li.login_btn
     a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
-
-//- each lang in langs.codes
-//-   li(data-lang="#{lang.language_country}", class="lang")
-//-    a(href="#{lang.home}") #{lang.language_name}

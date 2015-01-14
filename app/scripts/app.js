@@ -21,21 +21,23 @@ Zepto(function ($) {
     };
 
     var setup = function () {
-        var lang_elems = $(".change-lang li[data-lang]"),
+        var langElems = $(".change-lang a[data-lang]"),
             lang;
 
+        console.log(langElems);
+
         //Add dynamic translations
-        for (var i = 0; i < lang_elems.length; i++) {
-            lang = $(lang_elems[i]).data("lang");
+        for (var i = 0; i < langElems.length; i++) {
+            lang = $(langElems[i]).data("lang");
 
             //Change lang_cookie
-            $(".change-lang li[data-lang='" + lang + "'] a").click(function () {
-                setCookie("ppl_language", $(this).parent().data("lang"));
-                log("Cambio lang a =" + $(this).parent().data("lang"));
+            $(".change-lang a[data-lang='" + lang + "']").click(function () {
+                setCookie("ppl_language", $(this).data("lang"));
+                log("Cambio lang a =" + $(this).data("lang"));
             });
         }
         //Stilize current language
-        $(".change-lang li[data-lang='" + $("body").attr("data-lang") + "'] a").css("font-weight", "800 !important");
+        $(".change-lang a[data-lang='" + $("body").attr("data-lang") + "']").css("font-weight", "800 !important");
 
         //Display cookies announce
         if (!getCookie("showed-cookies")) {

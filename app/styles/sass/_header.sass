@@ -80,7 +80,6 @@ a.btn-signup
     a
       text-decoration: none
 
-
   //Common layout
   ///******************************************************
 
@@ -128,21 +127,44 @@ a.btn-signup
     li
       margin-right: 1em
 
-    #sections,
-    #change-lang
-      margin-right: 1.5em
+      &:last-child
+        margin-right: 0
 
     .change-lang
-      li
+      a
         margin-right: .25em
         &:after
           padding-left: .55em
-          content: '|'
+          content: '/'
           color: white
         &:last-child:after
           content: ''
+
+    .login_btn a
+      font-size: .95em
+      border: 2px solid rgba(255, 255, 255, .3)
+      padding: 6px 17px
+      transition: border-color 200ms ease-in-out
+
+      &:hover
+        border-color: rgba(255, 255, 255, .5)
 
   .btn
     display: inline-block
     line-height: 1em
     padding: 1em
+
+.nav-basement .change-lang-menu
+  display: none
+  visibility: hidden
+
+
+@media all and (max-width: 830px) and (min-width: 768px)
+  .btn-signup
+    padding: 6px 15px !important
+
+  .change-lang a
+    margin-right: 0 !important
+
+  .main-menu li.change-lang-menu
+    margin-right: 0 !important
