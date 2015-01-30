@@ -1,9 +1,10 @@
 {
-  "home": "/views/home.jade",
-  "prices": "/views/prices.jade",
-  "helpcenter": "/views/help-center.jade",
-  "about": "/views/about.jade",
-  "offer": "/views/offer.jade",
-  "offer_marketing": "/views/offer-marketing.jade",
-  "available_offer": "/views/available_offer.jade"
+    "home": "/views/home.jade",
+    "prices": "/views/prices.jade",
+    "helpcenter": "/views/help-center.jade",
+    "about": "/views/about.jade",
+    "offer": "/views/offer.jade",
+    "offer_marketing": "/views/offer-marketing.jade",
+    "available_offer": "/views/available_offer.jade",
+    "showcase": "/views/showcase.jade"
 }

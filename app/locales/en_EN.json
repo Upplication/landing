@@ -35,6 +35,9 @@
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_canonical": "http://www.upplication.com/build-your-app",
+        "showcase": {
+            "title": "These are some of our apps"
+        },
         "register": {
             "announce": "You can change it later",
             "claim": "Your app, your business",
@@ -61,32 +64,6 @@
             "android_alt": "Create your app with Android",
             "ios_alt": "Create your app with iOS"
         },
-        "apps": {
-            "title": "These are some of our apps",
-            "more": "more",
-            "android": "Android",
-            "ios": "iOS",
-            "multidevice": "Multidevice",
-            "bikers": {
-                "title": "Bikers",
-                "description": "Bikers created an app with a smart design to become the best bikes mobile app. Download it and you can check offers, items and cyclist events easily.",
-                "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
-                "webapp": "http://bikers.upplication.com/"
-            },
-            "welovesushy": {
-                "title": "We Love Sushi",
-                "description": "Why not to create an app for sushi lovers? We Love Sushi is an easy way to buy sushi from your mobile device, choose your menu and pay. A beautiful app, useful to enjoy the best sushi.",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
-                "webapp": "http://welovesushi.upplication.com/"
-            },
-            "educapp": {
-                "title": "Guardepeque",
-                "description": "A kindergarten app is possible. An app for parents, to know how their kids are all the time, to be updated about the school activities and schedule. Everything from a mobile device, with a easy design.",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
-                "webapp": "http://guardepeque.upplication.com/"
-            }
-        },
         "testimonials": {
             "title": "What do clients say about us?",
             "client1": {
@@ -109,30 +86,6 @@
             "password": "Password",
             "call_to_action": "Try it now"
         },
-        "arguments": {
-            "title": "Create the app for your business",
-             "loyalty": {
-                "title": "Secure",
-                "text": "With your app, your business is in the pocket of your customer with one touch. Take care of your mobile customer, offer them exclusive content."
-             },
-             "sell": {
-                "title": "Sell",
-                "text": "Your costumers can buy when and where they want with their mobile devices. In addition, your app has PayPal payment gateway."
-             },
-             "notify": {
-                "title": "Notify",
-                "clarification": "(Available in April 2014)",
-                "text": "Reach your customers is simple, create offers and value content with push notifications. Your message on your customers' screens immediately."
-             },
-             "promote": {
-               "title": "Promote your app",
-                "text": "Download for free this eBook to learn how to promote your app.",
-                 "download": {
-                    "anchor": "Free download",
-                     "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
-                 }
-            }
-        },
         "press": {
             "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
             "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
@@ -147,148 +100,148 @@
     },
     "helpcenter": {
         "_url": "/help-center/",
-         "_template": "helpcenter",
+        "_template": "helpcenter",
         "_name": "Help center",
         "_meta_title": "help center",
-         "_meta_description": "Description tag",
+        "_meta_description": "Description tag",
         "_canonical": "http://www.upplication.com/help-center",
         "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "title": "Help center",
-         "resources": {
-             "createupp": {
+        "resources": {
+            "createupp": {
                 "title": "You create Upplication",
-                 "links": [
-                     {
-                         "link": "https://upplication.uservoice.com/",
+                "links": [
+                    {
+                        "link": "https://upplication.uservoice.com/",
                         "title": "User community",
                         "text": "User community"
-                     },
-                     {
-                         "link": "https://upplication.uservoice.com/knowledgebase",
+                    },
+                    {
+                        "link": "https://upplication.uservoice.com/knowledgebase",
                         "title": "FAQ",
                         "text": "FAQ"
-                     }
-                 ]
-             },
-             "videos": {
+                    }
+                ]
+            },
+            "videos": {
                 "title": "Videos",
-                 "links": [
-                   {
+                "links": [
+                    {
                         "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
                         "title": "Tutorials",
                         "text": "Tutorials"
-                     },
-                     {
-                         "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
                         "title": "Our videos",
                         "text": "Our videos"
-                     }
-                 ]
-             },
-             "ebooks": {
+                    }
+                ]
+            },
+            "ebooks": {
                 "title": "Ebooks & Infographics",
-                 "links": [
-                     {
-                         "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+                "links": [
+                    {
+                        "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
                         "title": "Download-Get a successful app",
                         "text": "Download-Get a successful app"
-                     },
-                     {
-                         "link": "http://upplication.com/blog/ventajas-app-negocio/",
+                    },
+                    {
+                        "link": "http://upplication.com/blog/ventajas-app-negocio/",
                         "title": "Advantages of having an app",
                         "text": "Advantages of having an app"
-                     }
-                 ]
-             },
-             "makeyourapp": {
+                    }
+                ]
+            },
+            "makeyourapp": {
                 "title": "We help you make your app",
-                 "links": [
-                     {
-                         "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
+                "links": [
+                    {
+                        "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
                         "title": "We do the work for you",
                         "text": "We do the work for you"
-                     },
-                     {
-                         "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+                    },
+                    {
+                        "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
                         "title": "Go to our breakfasts",
                         "text": "Go to our breakfasts"
-                     }
-                 ]
-             }
-         },
-         "customer_service": {
+                    }
+                ]
+            }
+        },
+        "customer_service": {
             "text": "Customer service",
-             "phone": {
-                 "link": "tel:+34915848983",
-                 "title": "915 848 983",
+            "phone": {
+                "link": "tel:+34915848983",
+                "title": "915 848 983",
                 "text": "Telf: 915.848.983"
-             },
-             "email": {
-                 "link": "mailto:soporte@upplication.com",
-                 "title": "soporte@upplication.com",
-                 "text": "soporte@upplication.com"
-             },
-            "schedule":"(Hours customer support Monday-Friday 10h-22h GMT+1)"
-         }
+            },
+            "email": {
+                "link": "mailto:soporte@upplication.com",
+                "title": "soporte@upplication.com",
+                "text": "soporte@upplication.com"
+            },
+            "schedule": "(Hours customer support Monday-Friday 10h-22h GMT+1)"
+        }
     },
     "about": {
         "_url": "/about-us/",
-         "_template": "about",
+        "_template": "about",
         "_name": "About Us",
         "_meta_title": "Create the app for your business",
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_canonical": "http://www.upplication.com/build-your-app",
-         "about_us": {
+        "about_us": {
             "about_us": "About us",
-             "paragraphs": [
+            "paragraphs": [
                 "Upplication is a startup born in 2012. Headquarters are located in Madrid (Spain). Current team is 10 people.",
                 "The platform was launched in beta phase in October 2013 as an apps builder. Every small and medium business can create a mobile app without coding (getting rid of technology barriers), in few minutes (ending with long processes), with do it yourself management and reducing costs (less than 5 euros/7 dollars month).",
                 "The key of this technology is the dashboard, simple and intuitive, so the creation and management process is quick and easy, resulting in beautiful apps, like any other in the apps stores like Google Play or App Store.",
                 "Upplication allows every business to sell its products on mobile devices: M-Commerce. 4,000 business have chosen Upplication as the tool to adapt their business to mobile marketing."
-             ],
-             "image_alt": "Upplication"
-         },
-         "timeline": {
+            ],
+            "image_alt": "Upplication"
+        },
+        "timeline": {
             "timeline": "Timeline",
-             "2013": [
-                 {
+            "2013": [
+                {
                     "date": "October 2013",
                     "desc": "Hello world! Launch Upplication 1.0.0."
-                 },
-                 {
+                },
+                {
                     "date": "December 2013",
                     "desc": "Release Upplication 1.2.0 called Heracles."
-                 }
-             ],
-             "2014": [
-                 {
+                }
+            ],
+            "2014": [
+                {
                     "date": "February 2014",
                     "desc": "Awarded by Fundetec 2013."
-                 },
-                 {
+                },
+                {
                     "date": "April 2014",
                     "desc": "Release Upplication 1.4.0 called Popcorn."
-                 },
-                 {
+                },
+                {
                     "date": "May 2014",
                     "desc": "Incubated by Wayra Spain (Telefonica)."
-                 },
-                 {
+                },
+                {
                     "date": "May 2014",
                     "desc": "Mayo. Milestone, 5,000 mobile apps."
-                 }
-             ]
-         },
-         "apps": {
+                }
+            ]
+        },
+        "apps": {
             "the_data": "The data",
             "screen_alt": "App built with Upplication",
             "apps_created": "Apps created",
             "num": "5,173"
-         },
-         "video": {
+        },
+        "video": {
             "play_alt": "Play Upplication intro"
-         }
+        }
     },
     "offer": {
         "_url": "/offer-trainee-developer/",
@@ -376,7 +329,7 @@
             "Equipo Upplication"
         ]
     },
-    "available_offer":{
+    "available_offer": {
         "_url": "/jobs/",
         "_template": "available_offer",
         "_name": "Ofertas trabajo",
@@ -669,5 +622,189 @@
                 }
             ]
         }
+    },
+    "showcase": {
+        "_url": "/showcase/",
+        "_template": "showcase",
+        "_name": "Showcase",
+        "_meta_title": "Showcase - Upplication",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/showcase/",
+        "title": "Showcase",
+        "categories": [
+            {
+                "name": "online-store",
+                "icon_class": "icon-online-store",
+                "title": "Your online store",
+                "description": "Create your mobile app so your clients can buy your products from their phone.",
+                "features": [
+                    "Integrate the payment gateway in a matter of minutes and start selling.",
+                    "Offer exclusive products and offer more value to your client.",
+                    "Send push notifications with the best offers.",
+                    "Your clients will carry your business in their pocket."
+                ],
+                "url": "http://shopexample.upplication.com/"
+            },
+            {
+                "name": "restaurants",
+                "icon_class": "icon-restaurants",
+                "title": "Restaurants",
+                "description": "Create the mobile app for your restaurant and offer value to your mobile client.",
+                "features": [
+                    "Your clients will be able to book tables from their phone.",
+                    "Make home delivery of your products.",
+                    "Show discount coupons on the app.",
+                    "Send push alerts with exclusive offers."
+                ],
+                "url": "http://restaurantexample.upplication.com/"
+            },
+            {
+                "name": "bar-and-coffee",
+                "icon_class": "icon-bar-and-coffee",
+                "title": "Bar & coffee",
+                "description": "Create the mobile app of your bar or coffee shop and discover a new way of doing marketing.",
+                "features": [
+                    "Display the events you organise on your local.",
+                    "Offer discount coupons to create engagement with your customers.",
+                    "Make your menu accessible from any phone.",
+                    "Send push notifications to keep your customers informed."
+                ],
+                "url": "http://barcafeexample.upplication.com/"
+            },
+            {
+                "name": "gym",
+                "icon_class": "icon-gym",
+                "title": "Gyms and sports hall",
+                "description": "Create the app of your gym and position your business at the forefront of technology.   ",
+                "features": [
+                    "Show schedules of your classes in the cell phone of your clients.",
+                    "Sell sport goods in your app.",
+                    "Send push notifications with news about your gym.",
+                    "Ensure clients loyalty with exclusive offers in your app."
+                ],
+                "url": "http://gymexample.upplication.com/"
+            },
+            {
+                "name": "professional-services",
+                "icon_class": "icon-professional-services",
+                "title": "Professional services",
+                "description": "Create an app offering your services and connect with your clients via mobile phone.",
+                "features": [
+                    "Enable your clients to hire your services anywhere.",
+                    "Send exclusive offers with push notifications."
+                ],
+                "url": "http://professionalservicesexample.upplication.com/"
+            },
+            {
+                "name": "events",
+                "icon_class": "icon-events",
+                "title": "Events",
+                "description": "Create an app of your event to ensure attendees loyalty.",
+                "features": [
+                    "Place your event´s agenda into your mobile phone.",
+                    "Use push notifications before and after the event.",
+                    "Embed videos and inset photos to help your attendees."
+                ],
+                "url": "http://eventsexample.upplication.com/"
+            },
+            {
+                "name": "music",
+                "icon_class": "icon-music",
+                "title": "Music",
+                "description": "Create an app of your band and make your fans happy.",
+                "features": [
+                    "Import music and videos and your fans will always have you in their phone.",
+                    "Import the dates of your concerts and communicate them with push notifications.",
+                    "Sell merchandising goods through your app."
+                ],
+                "url": "http://musicexample.upplication.com/"
+            },
+            {
+                "name": "personal-app",
+                "icon_class": "icon-personal-app",
+                "title": "Personal app",
+                "description": "Create your own app and tell all your virtues.",
+                "features": [
+                    "Show your C.V in an innovative way.",
+                    "Upload your best works and presentations.",
+                    "Make you personal contact available in a simple way."
+                ],
+                "url": "http://personalappexample.upplication.com/"
+            },
+            {
+                "name": "tourism",
+                "icon_class": "icon-tourism",
+                "title": "Tourism",
+                "description": "Create the app of your city to help tourists.",
+                "features": [
+                    "Insert maps which will help tourists to know the city.",
+                    "Tell the story of your city with videos and photos.",
+                    "Recommend the best places to visit."
+                ],
+                "url": "http://tourismexample.upplication.com/"
+            },
+            {
+                "name": "health",
+                "icon_class": "icon-health",
+                "title": "Health and beauty",
+                "description": "Create the app of your beauty center and make the life of your customers healthier.",
+                "features": [
+                    "Sell beauty products through the app.",
+                    "Create easy booking methods for your customers.",
+                    "Ensure loyalty trough sending push notifications to your clients.",
+                    "Offer exclusive discounts though your app."
+                ],
+                "url": "http://healthbeautyexample.upplication.com/"
+            },
+            {
+                "name": "art",
+                "icon_class": "icon-art",
+                "title": "Art and Design",
+                "description": "Create an app with your own designs, do art.",
+                "features": [
+                    "Upload all your creations to the app.",
+                    "Tell the world when is going to be will be your next art exhibition.",
+                    "Offer exclusive content and communicate it with push notifications."
+                ],
+                "url": "http://musicexample.upplication.com/"
+            },
+            {
+                "name": "media",
+                "icon_class": "icon-media",
+                "title": "Media & blogs",
+                "description": "Create the app of your media channel and be present for your readers anywhere.",
+                "features": [
+                    "Show your news in an easy way.",
+                    "Use the app to improve your data and make your business profitable.",
+                    "Send push notifications with the most outstanding news."
+                ],
+                "url": "http://mediablogexample.upplication.com/"
+            },
+            {
+                "name": "delivery",
+                "icon_class": "icon-delivery",
+                "title": "Home Delivery",
+                "description": "Create the app of your business and get the clients to ask for your home delivery products.",
+                "features": [
+                    "Make your clients want your home delivery products and get them to pay from the app.",
+                    "Offer to your clients exclusive discounts if they pay from the app.",
+                    "Improve the communication with your clients through push notifications."
+                ],
+                "url": "http://musicexample.upplication.com/"
+            },
+            {
+                "name": "lifestyle",
+                "icon_class": "icon-lifestyle",
+                "title": "Lifestyle",
+                "description": "Create the app with your hobbies and passions.",
+                "features": [
+                    "Insert videos and content which show the love and passion for you hobby.",
+                    "Use the app to connect with other enthusiasts.",
+                    "Send push notifications to inform other users."
+                ],
+                "url": "http://waysoflifeexample.upplication.com/"
+            }
+        ]
     }
 }

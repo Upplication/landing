@@ -61,92 +61,40 @@ block content
                 li
                     a.icon-android(title="#{home.multidevice.android_alt}")
 
-    section.bg-white
-        h1.acenter.margin-top-2x.width-90.center.margin-bottom-2x #{home.apps.title}
-        ul.apps-list
-            li
-                a.image(style="background-image:url('#{localConfig.base_path}/images/app1.png')", href="#{home.apps.bikers.android_app}")
-                .padding-2x
-                    h1 #{home.apps.bikers.title}
-                    p
-                        | #{home.apps.bikers.description} 
-                    ul.acenter
-                        li
-                            a.icon-html5(title="#{home.apps.more}: #{home.apps.multidevice}", href="#{home.apps.bikers.webapp}")
-                        li
-                            a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.bikers.android_app}")
-                        li
-                            a.icon-apple(title="#{home.apps.more}: #{home.apps.ios}", href="#{home.apps.bikers.ios_app}")
+    section#showcase.min-bottom-space.min-top-space.padding.clearfix
+        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.showcase.title}
+        div.container
+            button.slider-btn.prev-btn.home-slider
+                span(class="icon-arrow-left")
+            button.slider-btn.next-btn.home-slider
+                span(class="icon-arrow-right")
 
-            li.clearfix
-                a.image(style="background-image:url('#{localConfig.base_path}/images/app2.png')", href="#{home.apps.welovesushy.android_app}"))
-                .padding-2x
-                    h1 #{home.apps.welovesushy.title}
-                    p
-                        | #{home.apps.welovesushy.description} 
-                    ul.acenter
-                        li
-                            a.icon-html5(title="#{home.apps.more}: #{home.apps.multidevice}", href="#{home.apps.welovesushy.webapp}")
-                        li
-                            a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.welovesushy.android_app}")
-                        
-            li.clearfix
-                a.image(style="background-image:url('#{localConfig.base_path}/images/app3.png')", href="#{home.apps.educapp.android_app}"))
-                .padding-2x
-                    h1 #{home.apps.educapp.title}
-                    p
-                        | #{home.apps.educapp.description} 
-                    ul.acenter
-                        li
-                            a.icon-html5(title="#{home.apps.more}: #{home.apps.multidevice}", href="#{home.apps.educapp.webapp}")
-                        li
-                            a.icon-android(title="#{home.apps.more}: #{home.apps.android}", href="#{home.apps.educapp.android_app}")
+            div#showcase-items.clearfix
+                each category, i in showcase.categories
+                    div(class=i === 0 ? "showcase-item clearfix" : "showcase-item clearfix hidden", data-category="#{category.name}")
+                        div.info-container
+                            h2 #{category.title}
+                            p #{category.description}
 
+                            ul.features
+                                each feature in category.features
+                                    li
+                                        span.plus-icon +
+                                        span #{feature}
 
-    section.bg-alabaster.padding.clearfix
-        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
-        ul.testimonials
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
-                    p #{home.testimonials.client1.cite}
-                    footer 
-                        cite - #{home.testimonials.client1.name}
+                            ul.operating-systems
+                                li
+                                    a(href="#{category.url}", target="_blank")
+                                        span.icon-html5
+                                li
+                                    a(href="#{category.url}", target="_blank", class="no-pointer-events")
+                                        span.icon-ios
+                                li
+                                    a(href="#{category.url}", target="_blank", class="no-pointer-events")
+                                        span.icon-android
 
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
-                    p #{home.testimonials.client2.cite}
-                    footer 
-                        cite - #{home.testimonials.client2.name}
-
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
-                    p #{home.testimonials.client3.cite}
-                    footer 
-                        cite - #{home.testimonials.client3.name}
-    
-    section.padding.clearfix.padding-top-3x.padding-bottom-3x.arguments
-        h1.acenter #{home.arguments.title}
-        ul
-            li 
-                h2.accent-green.margin-bottom #{home.arguments.loyalty.title}
-                p #{home.arguments.loyalty.text}
-            li 
-                h2.accent-green.margin-bottom #{home.arguments.sell.title}
-                p #{home.arguments.sell.text}
-            li 
-                h2.accent-green.margin-bottom 
-                    | #{home.arguments.notify.title} 
-                    span #{home.arguments.notify.clarification}
-                p #{home.arguments.notify.text}
-    
-    section.acenter.bg-mine-shaft.padding.clearfix.padding-top-3x.padding-bottom-3x           
-        h1.cwhite.margin-bottom #{home.arguments.promote.title}
-        p.padding-bottom-3x.bigger #{home.arguments.promote.text}
-        p 
-            a#download_ebook.wide.btn.green-accent-btn.bold(href="#{home.arguments.promote.download.href}", rel="nofollow", target="_blank") #{home.arguments.promote.download.anchor}
+                        div.phone-container.small
+                            img(src="images/sample_apps/#{category.name}.png", alt="#{category.title}")
 
     section.padding.clearfix.padding-top-3x.padding-bottom-2x.press
         ul.acenter.margin-top-2x
@@ -171,5 +119,29 @@ block content
             li
                 a(href="#{home.press.wwwhatsnew}", rel="nofollow")
                     img(src="#{localConfig.base_path}/images/press/wwwhatsnew.jpg", alt="wwwhatsnew")
+
+    section.padding.clearfix
+        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
+        ul.testimonials
+            li
+                blockquote.clearfix
+                    img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
+                    p #{home.testimonials.client1.cite}
+                    footer 
+                        cite - #{home.testimonials.client1.name}
+
+            li
+                blockquote.clearfix
+                    img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
+                    p #{home.testimonials.client2.cite}
+                    footer 
+                        cite - #{home.testimonials.client2.name}
+
+            li
+                blockquote.clearfix
+                    img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
+                    p #{home.testimonials.client3.cite}
+                    footer 
+                        cite - #{home.testimonials.client3.name}
 
     script(type='text/javascript', src='http://www.youtube.com/player_api')        

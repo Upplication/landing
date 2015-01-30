@@ -1,0 +1,300 @@
+$section-bg-color: #D9DADB;
+
+#content.showcase {
+
+  section#selector {
+    .container {
+      position: relative;
+    }
+
+    .app-categories {
+      width: 310px;
+      overflow: hidden;
+      height: 80px;
+      padding: 1em 0;
+      position: relative;
+      margin-left: 180px;
+    }
+
+    ul {
+      width: 1000px;
+      overflow: none;
+      position: absolute;
+      left: 130px;
+      transition: left 200ms ease-in-out;
+
+      li {
+        display: inline;
+        display: inline-block;
+        background-color: #CCC;
+        border-radius: 50%;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        margin-left: .5em;
+        cursor: pointer;
+
+        &.active {
+          background-color: #BBB;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        span {
+          vertical-align: middle;
+          display: block;
+          font-size: 28px;
+          padding-top: 11px;
+          color: white;
+        }
+      }
+    }
+
+    .position-arrow {
+      bottom: 0;
+      left: 360px;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(217, 218, 219, 0);
+      border-bottom-color: #D9DADB;
+      border-width: 10px;
+      margin-left: -10px;
+    }
+
+    .fade-left {
+      height: 80px;
+      width: 30px;
+      position: absolute;
+      z-index: 500;
+      top: 0;
+      left: 196px;
+      background: rgba(255, 255, 255, 1);
+      background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(250, 250, 250, 0)));
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0) 100%);
+      background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0) 100%);
+      background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0) 100%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fafafa', GradientType=1);
+    }
+
+    .fade-right {
+      height: 80px;
+      width: 30px;
+      position: absolute;
+      top: 0;
+      left: 476px;
+      background: rgba(250, 250, 250, 0);
+      background: -moz-linear-gradient(left, rgba(250, 250, 250, 0) 0%, rgba(255, 255, 255, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250, 250, 250, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+      background: -webkit-linear-gradient(left, rgba(250, 250, 250, 0) 0%, rgba(255, 255, 255, 1) 100%);
+      background: -o-linear-gradient(left, rgba(250, 250, 250, 0) 0%, rgba(255, 255, 255, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(250, 250, 250, 0) 0%, rgba(255, 255, 255, 1) 100%);
+      background: linear-gradient(to right, rgba(250, 250, 250, 0) 0%, rgba(255, 255, 255, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ffffff', GradientType=1);
+    }
+  }
+}
+
+section#showcase {
+
+  &.dark-bg {
+    background-color: $section-bg-color;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .slider-btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    border: none;
+    padding: .5em;
+    color: #CCC;
+    transition: all 200ms ease-in-out;
+    position: absolute;
+    top: calc(50% - 20px);
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+
+    &:active {
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+
+    span {
+      font-size: 2em;
+    }
+
+    &.prev-btn {
+      left: 0;
+    }
+
+    &.next-btn {
+      right: 0;
+    }
+  }
+
+  #showcase-items {
+    width: calc(100% - 150px);
+    margin: 0 auto;
+
+    .showcase-item {
+      position: relative;
+
+      .info-container {
+        vertical-align: middle;
+        margin: 10px 0 10px 10px;
+        color: #FFF;
+        //float: left;
+        position: absolute;
+        top: calc(50% - 210px);
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.55);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        width: 55%;
+        padding: 2em 1em;
+
+        h2 {
+          padding: 0 0 .5em 0;
+          margin: 0;
+          font-size: 1.8em;
+          font-weight: 400;
+          text-align: left;
+          color: white;
+        }
+
+        p {
+          padding-bottom: .3em;
+          font-size: 1.1em;
+        }
+
+        ul.features li {
+          padding-bottom: .3em;
+          padding-left: .5em;
+
+          span {
+            vertical-align: middle;
+
+            &.plus-icon {
+              font-weight: 800;
+              font-size: 0.9em;
+              padding-right: .3em;
+            }
+          }
+        }
+
+        ul.operating-systems {
+          text-align: center;
+          padding-top: 1.5em;
+
+          li {
+            display: inline;
+            padding-right: 1em;
+
+            &:last-child {
+              padding-right: 0;
+            }
+
+            a {
+              color: white;
+              text-decoration: none;
+              font-size: 3.0em;
+            }
+          }
+        }
+      }
+
+      .phone-container {
+        vertical-align: middle;
+        float: right;
+        height: 608px;
+        width: 330px;
+        background: transparent url(/images/iphone6.png) center center;
+        background-size: cover;
+
+        &.small {
+          height: 478px;
+          width: 268px;
+          background-size: contain;
+          margin-right: 50px;
+        }
+
+        img {
+          margin-top: 74px;
+          margin-left: 36px;
+        }
+
+        iframe {
+          height: 482px;
+          width: 270px;
+          margin-top: 61px;
+          margin-left: 28px;
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  section#showcase #showcase-items .showcase-item .phone-container {
+    margin: 1em auto 0 auto !important;
+    float: none !important;
+  }
+
+  section#showcase #showcase-items .showcase-item .info-container {
+    position: static;
+    margin: 1em auto;
+    width: 80%;
+  }
+
+  #content.showcase section#selector .fade-left {
+    left: calc(50% - 155px);
+  }
+
+  #content.showcase section#selector .fade-right {
+    left: calc(50% + 125px);
+  }
+
+  #content.showcase section#selector .position-arrow {
+    left: calc(50% + 6px);
+  }
+
+  #content.showcase section#selector .app-categories {
+    margin-left: calc(50% - 155px);
+  }
+}
+
+@media all and (max-width: 680px) {
+  section#showcase #showcase-items {
+    width: 100%;
+
+    .showcase-item .info-container {
+      width: 100%;
+    }
+  }
+
+  section#showcase .slider-btn:not(.home-slider) {
+    &.prev-btn {
+      left: -15px;
+    }
+
+    &.next-btn {
+      right: -15px;
+    }
+  }
+
+  section#showcase .slider-btn.home-slider {
+    top: calc(50% + 80px);
+  }
+}

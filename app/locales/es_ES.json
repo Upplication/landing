@@ -35,6 +35,9 @@
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/",
+        "showcase": {
+            "title": "Estas son algunas de nuestras apps"
+        },
         "register": {
             "announce": "Podrás cambiarlo después",
             "claim": "Tu app, tu negocio.",
@@ -61,32 +64,6 @@
             "android_alt": "Crea tu app con Android",
             "ios_alt": "Crea tu app con iOS"
         },
-        "apps": {
-            "title": "Estas son algunas de nuestras apps",
-            "more": "Ver app",
-            "android": "Android",
-            "ios": "iOS",
-            "multidevice": "Multidispositivo",
-            "bikers": {
-                "title": "Bikers",
-                "description": "El equipo de Bikers ha elegido crear una app con un diseño elegante para hacer la mejor app de bicicletas que hayas visto. Descárgatela y podrás revisar ofertas, productos y eventos de ciclistas de una manera sencilla y divertida.",
-                "ios_app": "https://itunes.apple.com/us/app/bikers/id770954897?l=es&mt=8",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android822",
-                "webapp": "http://bikers.upplication.com/"
-            },
-            "welovesushy": {
-                "title": "We Love Sushi",
-                "description": "¿Crear una app para los amantes del Sushi? We Love Sushi App es la manera más sencilla de comprar sushi desde tu móvil, elige tu menú y paga desde el móvil. Una app bonita y útil para que disfrutes del mejor sushi.",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android1597",
-                "webapp": "http://welovesushi.upplication.com/"
-            },
-            "educapp": {
-                "title": "Guardepeque",
-                "description": "La app de una guardería es posible. Crear una app para que los padres sepan como están sus hijos en todo momento, estar al día de las actividades del centro y los horarios. Todo desde el móvil, con un diseño muy sencillo.",
-                "android_app": "https://play.google.com/store/apps/details?id=es.upplication.android2852",
-                "webapp": "http://guardepeque.upplication.com/"
-            }
-        },
         "testimonials": {
             "title": "¿Qué dicen de nuestras apps?",
             "client1": {
@@ -108,30 +85,6 @@
             "email": "E-mail",
             "password": "Contraseña",
             "call_to_action": "Probar gratis"
-        },
-        "arguments": {
-            "title": "Crea la app de tu negocio",
-            "loyalty": {
-                "title": "Fideliza",
-                "text": "Con tu app estás en el bolsillo de tu cliente a un solo toque de pantalla. Crea una app, mima a tus clientes móviles y ofréceles contenido exclusivo."
-            },
-            "sell": {
-                "title": "Vende",
-                "text": "Desde el móvil tu cliente puede comprar cuando quiera y donde quiera. Tu app tiene pasarela de pago PayPal integrada automáticamente."
-            },
-            "notify": {
-                "title": "Notifica",
-                "clarification": "(Desde Abril de 2014)",
-                "text": "Llegar a tu cliente es muy sencillo, ofréceles ofertas y contenido de valor con las notificaciones push. Haz llegar tu mensaje en la pantalla de sus móviles en un instante. "
-            },
-            "promote": {
-                "title": "Promociona tu app",
-                "text": "Descarga gratis este eBook y aprende a que se conozca tu app.",
-                "download": {
-                    "anchor": "Descarga gratis",
-                    "href": "https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+%28Upplication%29.pdf"
-                }
-            }
         },
         "press": {
             "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
@@ -671,5 +624,190 @@
                 }
             ]
         }
+    },
+    "showcase": {
+        "_url": "/inspirate/",
+        "_template": "showcase",
+        "_name": "Inspírate",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/inspirate/",
+        "title": "Inspírate",
+        "categories": [
+            {
+                "name": "online-store",
+                "icon_class": "icon-online-store",
+                "title": "Tu tienda online",
+                "description": "Crea tu app móvil y haz que tus clientes pueden comprar tus productos desde el móvil.",
+                "features": [
+                    "Integra la pasarela de pago en cuestión de minutos y empieza a vender.",
+                    "Ofrece productos exclusivos y aporta más valor a tu cliente.",
+                    "Envía alertas push con las mejores ofertas.",
+                    "Haz que tus clientes lleven tu negocio en el bolsillo."
+                ],
+                "url": "http://shopexample.upplication.com/"
+            },
+            {
+                "name": "restaurants",
+                "icon_class": "icon-restaurants",
+                "title": "Restauración",
+                "description": "Crea la app móvil de tu restaurante y aporta valor a tu cliente móvil",
+                "features": [
+                    "Tus clientes podrán reservar mesa desde su móvil.",
+                    "Realiza envío a domicilio de tus productos.",
+                    "Muestra cupones descuento en la app.",
+                    "Envía alertas push con ofertas exclusivas."
+                ],
+                "url": "http://restaurantexample.upplication.com/"
+            },
+            {
+                "name": "bar-and-coffee",
+                "icon_class": "icon-bar-and-coffee",
+                "title": "Bar & café",
+                "description": "Crea la app móvil de tu bar&cafetería y descubre una forma nueva de hacer marketing.",
+                "features": [
+                    "Muestra los eventos que celebras en tu local.",
+                    "Ofrece cupones descuentos para fidelizar a tus clientes.",
+                    "Haz que toda tu carta sea accesible desde cualquier móvil.",
+                    "Envía alertas push para mantener informado a tus clientes."
+                ],
+                "url": "http://barcafeexample.upplication.com/"
+            },
+            {
+                "name": "gym",
+                "icon_class": "icon-gym",
+                "title": "Gimnasios & polideportivos",
+                "description": "Crea la app móvil de tu gimnasio y posiciona tu negocio en la vanguardia tecnológica.",
+                "features": [
+                    "Muestra los horarios de las clases en el móvil de tus clientes.",
+                    "Vende productos deportivos en la app móvil.",
+                    "Envía alertas push con novedades sobre tu gimnasio.",
+                    "Fideliza a tu cliente con ofertas exclusiva dentro de la app móvil."
+                ],
+                "url": "http://gymexample.upplication.com/"
+            },
+            {
+                "name": "professional-services",
+                "icon_class": "icon-professional-services",
+                "title": "Servicios profesionales",
+                "description": "Crea la app móvil de tus servicios y conecta con tu cliente en el móvil.",
+                "features": [
+                    "Haz que tus clientes puedan contratar tus servicios en cualquier lugar.",
+                    "Envía ofertas exclusivas con las alertas push.",
+                    "Envía ofertas exclusivas con las alertas push."
+                ],
+                "url": "http://professionalservicesexample.upplication.com/"
+            },
+            {
+                "name": "events",
+                "icon_class": "icon-events",
+                "title": "Eventos",
+                "description": "Crea la app móvil de tu evento para fidelizar a los asistentes.",
+                "features": [
+                    "Mete la agenda del evento en el móvil.",
+                    "Utiliza alertas push antes y después del evento.",
+                    "Introduce vídeos y fotos para ayudar a los asistentes."
+                ],
+                "url": "http://eventsexample.upplication.com/"
+            },
+            {
+                "name": "music",
+                "icon_class": "icon-music",
+                "title": "Música",
+                "description": "Crea la app móvil de tu grupo de música y haz feliz a tus fans.",
+                "features": [
+                    "Introduce música y vídeos para que tus fans te lleven en el móvil.",
+                    "Pon las fechas de tus conciertos y notifícalas con alertas push.",
+                    "Vende merchandising de tu banda dentro de la app móvil."
+                ],
+                "url": "http://musicexample.upplication.com/"
+            },
+            {
+                "name": "personal-app",
+                "icon_class": "icon-personal-app",
+                "title": "App personal",
+                "description": "Crea tu propia app móvil y cuenta todas tus virtudes.",
+                "features": [
+                    "Escribe tu currículum de una manera divertida.",
+                    "Sube tus mejores presentaciones y trabajos.",
+                    "Haz que tenga tu contacto de una manera sencilla."
+                ],
+                "url": "http://personalappexample.upplication.com/"
+            },
+            {
+                "name": "tourism",
+                "icon_class": "icon-tourism",
+                "title": "Turismo",
+                "description": "Crea la app móvil de tu ciudad para ayudar a los turistas.",
+                "features": [
+                    "Introduce mapas que ayuden a conocer la ciudad.",
+                    "Cuenta la historia de tu ciudad con vídeos y fotos.",
+                    "Recomienda los mejores sitios a visitar."
+                ],
+                "url": "http://tourismexample.upplication.com/"
+            },
+            {
+                "name": "health",
+                "icon_class": "icon-health",
+                "title": "Salud y belleza",
+                "description": "Crea la app de tu centro de estética y haz la vida de tus clientes más saludable.",
+                "features": [
+                    "Vende productos de belleza a través de la app.",
+                    "Haz que tu cliente reserve plaza en tu centro de manera sencilla.",
+                    "Fideliza a través de alertas push a tus clientes.",
+                    "Ofrece descuentos exclusivos en la app móvil."
+                ],
+                "url": "http://healthbeautyexample.upplication.com/"
+            },
+            {
+                "name": "art",
+                "icon_class": "icon-art",
+                "title": "Diseño y arte",
+                "description": "Crea la app móvil con tus diseños, haz arte.",
+                "features": [
+                    "Sube todas tus creaciones a la app móvil.",
+                    "Cuenta al mundo cuando serán las siguientes exposiciones.",
+                    "Ofrece contenido exclusivo y notifícalos con alertas push."
+                ],
+                "url": "http://musicexample.upplication.com/"
+            },
+            {
+                "name": "media",
+                "icon_class": "icon-media",
+                "title": "Media & blogs",
+                "description": "Crea la app móvil de tu medio de comunicación para que tu lector se informe donde quiera.",
+                "features": [
+                    "Muestra tus noticias de manera sencilla.",
+                    "Utiliza la app para mejorar tus datos y rentabilizar tu negocio.",
+                    "Envía alertas push con las noticias más relevantes."
+                ],
+                "url": "http://mediablogexample.upplication.com/"
+            },
+            {
+                "name": "delivery",
+                "icon_class": "icon-delivery",
+                "title": "Envío a domicilio",
+                "description": "Crea la app de tu negocio y haz que tus clientes pidan tus servicios a domicilio.",
+                "features": [
+                    "Haz que tu cliente pida tus productos a domicilio y pague desde la app.",
+                    "Ofrece descuentos y cupones por pedir desde la app móvil.",
+                    "Mejora la comunicación con tus clientes a través de las notificaciones push."
+                ],
+                "url": "http://musicexample.upplication.com/"
+            },
+            {
+                "name": "lifestyle",
+                "icon_class": "icon-lifestyle",
+                "title": "Estilo de vida",
+                "description": "Crea la app móvil con tus hobbies y aficiones.",
+                "features": [
+                    "Sube vídeos y contenido que muestren la pasión por tu afición.",
+                    "Usa la app para conectar con otros aficionados.",
+                    "Envía alertas push para informar a tus usuarios."
+                ],
+                "url": "http://waysoflifeexample.upplication.com/"
+            }
+        ]
     }
 }

@@ -1,4 +1,3 @@
-
 Zepto(function ($) {
     'use strict';
 
@@ -6,7 +5,7 @@ Zepto(function ($) {
 
     /**
      * Adds the UTM parameters to the given form.
-     * @param {jQuery object} $form Form where the params will be appended
+     * @param {jQuery} $form Form where the params will be appended
      */
     var addUtmParamsToForm = function ($form) {
         $.each(UTM_PARAMS, function (i, val) {
@@ -24,9 +23,9 @@ Zepto(function ($) {
      * Adds the UTM parameters to the given url
      * @param {String} url with utm params at login
      */
-    var addUtmParamsToUrl= function (url) {
+    var addUtmParamsToUrl = function (url) {
         var params = "&";
-        if (url.indexOf("?") == -1){
+        if (url.indexOf("?") == -1) {
             params = "?";
         }
 
@@ -37,7 +36,7 @@ Zepto(function ($) {
             }
         });
 
-        url += params.substring(0, params.length-1);
+        url += params.substring(0, params.length - 1);
 
         return url;
     };
@@ -67,7 +66,7 @@ Zepto(function ($) {
         }
 
         var registerSuccessCallback = function (fn, submit) {
-            return function(data) {
+            return function (data) {
                 if (data.success) {
                     window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
                 } else {
@@ -124,8 +123,8 @@ Zepto(function ($) {
             };
         };
 
-        var registerErrorCallback = function(submit) {
-            return function (xhr, type) {
+        var registerErrorCallback = function (submit) {
+            return function (xhr) {
                 console.log(xhr);
                 // end loading
                 $(this).find("input").prop("disabled", false);
@@ -172,10 +171,10 @@ Zepto(function ($) {
                 data: data,
                 context: this,
                 dataType: "jsonp",
-                success: registerSuccessCallback(function(form, error) {
+                success: registerSuccessCallback(function (form, error) {
                     var $email = $(form).find("[for=email]"),
-                    $appName = $(form).find("[for=appName]"),
-                    $seller = $(form).find("[for=seller]");
+                        $appName = $(form).find("[for=appName]"),
+                        $seller = $(form).find("[for=seller]");
 
                     if (error.email) {
                         $email.find('p.error').text(error.email);
@@ -230,7 +229,7 @@ Zepto(function ($) {
                 data: data,
                 context: this,
                 dataType: "jsonp",
-                success: registerSuccessCallback(function(form, error) {
+                success: registerSuccessCallback(function (form, error) {
                     var $email = $(form).find('[data-for="email"]'),
                         $appName = $(form).find('[data-for="appName"]'),
                         $seller = $(form).find('[data-for="seller"]');
@@ -278,15 +277,17 @@ Zepto(function ($) {
         $(".icon-list").on("click", toogleMenu);
 
         // youtube are only present in one page
-        if ($('#youtube-video').length > 0) {
-            $('#youtube-video').magnificPopup({
+        var youtubeVideo = $('#youtube-video');
+        if (youtubeVideo.length > 0) {
+            youtubeVideo.magnificPopup({
                 type: 'inline',
                 midClick: true
             });
         }
 
-        if ($('#ajax-error-popup').length > 0) {
-            $('#ajax-error-popup').magnificPopup({
+        var ajaxErrorPopup = $('#ajax-error-popup');
+        if (ajaxErrorPopup.length > 0) {
+            ajaxErrorPopup.magnificPopup({
                 type: 'inline'
             });
         }
@@ -316,7 +317,7 @@ Zepto(function ($) {
                 $('span.currency').html(currency);
                 $('span.period').html(monthly ? $UPP.month : $UPP.year);
 
-                $.each($('div.plan').find('span.price'), function (i, el) {
+                $.each($('div.plan').find('span.price'), function (i) {
                     $(this).html(prices[i]);
                 });
             };
@@ -366,10 +367,11 @@ Zepto(function ($) {
     setupPricingPlan();
     setupUTMTracking();
 
+    ShowCase.setup($);
 });
 
 // Register screen plugin
-(function(global, window, document) {
+(function (window, document) {
     'use strict';
 
     var signupScreen;
@@ -377,7 +379,7 @@ Zepto(function ($) {
     /**
      * Display fields to enter a seller code
      */
-    var showSellerForm = function(e) {
+    var showSellerForm = function (e) {
         var field = document.getElementById('app-seller'),
             form = document.getElementById('signup-form'),
             input = document.getElementById('seller-input'),
@@ -394,7 +396,7 @@ Zepto(function ($) {
         e.stopPropagation();
     };
 
-    var hideSellerForm = function(e) {
+    var hideSellerForm = function (e) {
         var field = document.getElementById('app-seller'),
             form = document.getElementById('signup-form'),
             input = document.getElementById('seller-input'),
@@ -418,7 +420,7 @@ Zepto(function ($) {
     /**
      * Shows the signup screen
      */
-    var showSignupScreen = function(e) {
+    var showSignupScreen = function (e) {
         e.preventDefault();
         e.stopPropagation();
 
@@ -428,9 +430,9 @@ Zepto(function ($) {
     /**
      * Closes the signup screen
      */
-    var closeSignupScreen = function(e) {
+    var closeSignupScreen = function (e) {
         signupScreen.className = 'animated fadeOut';
-        window.setTimeout(function() {
+        window.setTimeout(function () {
             signupScreen.className = 'closed';
             hideSellerForm();
         }, 301);
@@ -441,17 +443,18 @@ Zepto(function ($) {
 
     // Setup click listeners for the signup screen triggers when the
     // dom content has been loaded
-    window.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('DOMContentLoaded', function () {
         var triggers = document.getElementsByClassName('triggers-signup'),
-            closers = document.getElementsByClassName('btn-signup-close');
+            closers = document.getElementsByClassName('btn-signup-close'),
+            i;
 
         signupScreen = document.getElementById('signup-screen');
 
-        for (var i = 0; i < triggers.length; i++) {
+        for (i = 0; i < triggers.length; i++) {
             triggers[i].addEventListener('click', showSignupScreen);
         }
 
-        for (var i = 0; i < closers.length; i++) {
+        for (i = 0; i < closers.length; i++) {
             closers[i].addEventListener('click', closeSignupScreen);
         }
 
@@ -459,4 +462,122 @@ Zepto(function ($) {
         document.getElementById('without-seller-code').addEventListener('click', hideSellerForm);
     });
 
-})(this, window, document);
+})(window, document);
+
+/**
+ * ShowCase component
+ */
+var ShowCase = {
+    arrowLeft: null,
+    arrowRight: null,
+    selectorBtns: null,
+    selector: null,
+    categories: null,
+    isHome: false,
+    lastPosition: 0,
+    currentPosition: 0,
+    numCategories: 0,
+    /**
+     * Returns the offset of the selector list for the current position
+     * @method offsetForPosition
+     * @returns {number}
+     */
+    offsetForPosition: function () {
+        return 130 - (this.currentPosition * 62);
+    },
+    /**
+     * Moves to the next page
+     * @method nextPage
+     */
+    nextPage: function () {
+        this.movePage(1);
+    },
+    /**
+     * Moves to the previous page
+     * @method prevPage
+     */
+    prevPage: function () {
+        this.movePage(-1);
+    },
+    /**
+     * Moves the page to the given direction the number of positions given by dir
+     * @method movePage
+     * @param {Number} dir Direction (dir < 0 means prev, otherwise next)
+     */
+    movePage: function (dir) {
+        this.lastPosition = this.currentPosition;
+        this.currentPosition += dir;
+
+        console.log(dir, this.lastPosition, this.currentPosition);
+
+        if (this.currentPosition < 0) {
+            this.currentPosition = this.numCategories - 1;
+        } else if (this.currentPosition >= this.numCategories) {
+            this.currentPosition = 0;
+        }
+
+        var offset = this.offsetForPosition();
+        this.selector.css({
+            left: offset + 'px'
+        });
+
+        this.showCategory(dir > 0);
+
+        var category = $(this.categories[this.lastPosition]);
+        category.addClass('hidden');
+    },
+    /**
+     * Show the current category
+     * @method showCategory
+     * @param {Boolean} next Is next page?
+     */
+    showCategory: function (next) {
+        var category = $(this.categories[this.currentPosition]);
+        console.log(this.currentPosition, category);
+        category.removeClass('hidden animated fadeInLeft fadeInRight fadeOutLeft fadeOutRight');
+        category.addClass('animated ' + (next ? 'fadeInRight' : 'fadeInLeft'));
+
+        if (!this.isHome) {
+            this.setActiveSelector();
+        }
+    },
+    /**
+     * Set the active selector button
+     */
+    setActiveSelector: function () {
+        this.selectorBtns.removeClass('active');
+        $(this.selectorBtns[this.currentPosition]).addClass('active');
+    },
+    /**
+     * 
+     * @method setup
+     * @param {jQuery} $
+     */
+    setup: function ($) {
+        if ($('section#showcase').length === 0) return;
+
+        this.isHome = $('#content').hasClass('home');
+
+        this.arrowLeft = $('.prev-btn');
+        this.arrowRight = $('.next-btn');
+        this.selector = $('.app-categories').find('ul');
+        this.categories = $('.showcase-item');
+        var selectorBtns = this.selector.find('li');
+        this.selectorBtns = selectorBtns;
+        this.numCategories = this.categories.length;
+
+        if (!this.isHome) {
+            var self = this;
+            selectorBtns.click(function () {
+                var elem = $(this);
+                var index = selectorBtns.index(elem);
+                self.movePage(index - self.currentPosition);
+            });
+
+            this.setActiveSelector();
+        }
+
+        this.arrowLeft.click(this.prevPage.bind(this));
+        this.arrowRight.click(this.nextPage.bind(this));
+    }
+};
