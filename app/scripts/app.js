@@ -45,8 +45,6 @@ Zepto(function ($) {
         var langElems = $(".change-lang a[data-lang]"),
             lang;
 
-        console.log(langElems);
-
         //Add dynamic translations
         for (var i = 0; i < langElems.length; i++) {
             lang = $(langElems[i]).data("lang");
@@ -125,7 +123,6 @@ Zepto(function ($) {
 
         var registerErrorCallback = function (submit) {
             return function (xhr) {
-                console.log(xhr);
                 // end loading
                 $(this).find("input").prop("disabled", false);
                 submit.val(submit.data("text"));
@@ -508,8 +505,6 @@ var ShowCase = {
         this.lastPosition = this.currentPosition;
         this.currentPosition += dir;
 
-        console.log(dir, this.lastPosition, this.currentPosition);
-
         if (this.currentPosition < 0) {
             this.currentPosition = this.numCategories - 1;
         } else if (this.currentPosition >= this.numCategories) {
@@ -533,7 +528,6 @@ var ShowCase = {
      */
     showCategory: function (next) {
         var category = $(this.categories[this.currentPosition]);
-        console.log(this.currentPosition, category);
         category.removeClass('hidden animated fadeInLeft fadeInRight fadeOutLeft fadeOutRight');
         category.addClass('animated ' + (next ? 'fadeInRight' : 'fadeInLeft'));
 
