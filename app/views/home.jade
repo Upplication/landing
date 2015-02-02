@@ -11,7 +11,7 @@ block vars
 block content
     script(type='text/javascript').
         $UPP.url = "#{$.home._url}";
-        
+
     section#register
         div
             .mobile
@@ -40,7 +40,7 @@ block content
                     input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
                     p.tos.acenter.italic !{home.register.accept_terms} 
                         a(href="#{external.tos.url}") #{home.register.terms}        
-    
+
     section#multidevice.bg-alabaster.padding.clearfix
         .margin-bottom-2x.margin-top-2x
 
@@ -51,7 +51,6 @@ block content
 
             #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
                 img.screenshot-devices(src='#{localConfig.base_path}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
-
 
             ul.so-available
                 li
