@@ -543,7 +543,7 @@ var ShowCase = {
         $(this.selectorBtns[this.currentPosition]).addClass('active');
     },
     /**
-     * 
+     *
      * @method setup
      * @param {jQuery} $
      */
@@ -562,7 +562,10 @@ var ShowCase = {
 
         if (!this.isHome) {
             var self = this;
-            selectorBtns.click(function () {
+            selectorBtns.unbind().click(function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+
                 var elem = $(this);
                 var index = selectorBtns.index(elem);
                 self.movePage(index - self.currentPosition);
@@ -571,7 +574,7 @@ var ShowCase = {
             this.setActiveSelector();
         }
 
-        this.arrowLeft.click(this.prevPage.bind(this));
-        this.arrowRight.click(this.nextPage.bind(this));
+        this.arrowLeft.unbind().click(this.prevPage.bind(this));
+        this.arrowRight.unbind().click(this.nextPage.bind(this));
     }
 };
