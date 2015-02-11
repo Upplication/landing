@@ -541,12 +541,13 @@ var ShowCase = {
     /**
      * Show the current category
      * @method showCategory
-     * @param {Boolean} next Is next page?
      */
-    showCategory: function (next) {
+    showCategory: function () {
         var category = $(this.categories[this.currentPosition]);
         this._resetClasses(category);
         category.addClass('animated fadeIn');
+        var iframe = category.find('iframe');
+        iframe.attr('src', iframe.attr('data-url'));
 
         if (!this.isHome) {
             this.setActiveSelector();
@@ -590,6 +591,9 @@ var ShowCase = {
 
             this.setActiveSelector();
         }
+
+        var iframe = $(this.categories[this.currentPosition]).find('iframe');
+        iframe.attr('src', iframe.attr('data-url'));
 
         this.arrowLeft.unbind().click(this.prevPage.bind(this));
         this.arrowRight.unbind().click(this.nextPage.bind(this));
