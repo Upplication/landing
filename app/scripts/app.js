@@ -497,7 +497,7 @@ var ShowCase = {
         this.movePage(-1);
     },
     _resetClasses: function (elem) {
-        elem.removeClass('hidden animated fadeInLeft fadeInRight fadeOutLeft fadeOutRight');
+        elem.removeClass('hidden animated fadeIn fadeOut');
     },
     /**
      * Moves the page to the given direction the number of positions given by dir
@@ -527,7 +527,7 @@ var ShowCase = {
         });
         
         this._resetClasses(lastCategory);
-        lastCategory.addClass('animated ' + (dir > 0 ? 'fadeOutLeft' : 'fadeOutRight'));
+        lastCategory.addClass('animated fadeOut');
         lastCategory.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             lastCategory.css({
                 width: initialWidth,
@@ -546,7 +546,7 @@ var ShowCase = {
     showCategory: function (next) {
         var category = $(this.categories[this.currentPosition]);
         this._resetClasses(category);
-        category.addClass('animated ' + (next ? 'fadeInRight' : 'fadeInLeft'));
+        category.addClass('animated fadeIn');
 
         if (!this.isHome) {
             this.setActiveSelector();
