@@ -153,6 +153,7 @@ Zepto(function ($) {
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
+            if (!data) return;
 
             log("URL: " + url);
             log("Data to send:" + data);
@@ -161,8 +162,6 @@ Zepto(function ($) {
             var submit = $(this).find("input[type='submit']");
 
             submit.val(submit.data("loading"));
-            
-            console.log(data);
 
             $.ajax({
                 type: "GET", // jsonp only work with get
@@ -213,6 +212,7 @@ Zepto(function ($) {
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
+            if (!data) return;
 
             log("URL: " + url);
             log("Data to send:" + data);
