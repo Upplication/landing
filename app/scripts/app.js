@@ -161,6 +161,8 @@ Zepto(function ($) {
             var submit = $(this).find("input[type='submit']");
 
             submit.val(submit.data("loading"));
+            
+            console.log(data);
 
             $.ajax({
                 type: "GET", // jsonp only work with get
