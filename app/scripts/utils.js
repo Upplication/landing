@@ -16,7 +16,7 @@ var log = function (text) {
 
 var updateVisitInfo = function () {
     localStorage.numVisits = (parseInt(localStorage.numVisits) || 0) + 1;
-}
+};
 /**
  * get the cookie value from a concrete key
  * @param c_name key
@@ -40,7 +40,7 @@ var getCookie = function (c_name) {
         c_value = unescape(c_value.substring(c_start, c_end));
     }
     return c_value;
-}
+};
 /**
  * set a cookie with a key and a value.
  * This cookie is for 10 years for the path / and the domain is not set and should pick up the current domain with subdmomain
@@ -59,7 +59,6 @@ var setCookie = function (c_name, c_value) {
     log("aux=" + aux);
     document.cookie = aux;
 };
-
 
 var checkLanguage = function () {
     var lang_cookie = getCookie("ppl_language"),

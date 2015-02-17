@@ -6,7 +6,7 @@ var upplication = function ($, document, window) {
      * @see https://segment.io/docs/libraries/analytics.js/
      * @type {*}
      */
-    var tracker = analytics;
+    var tracker = window.analytics || {};
 
     var _global_properties = {};
 
