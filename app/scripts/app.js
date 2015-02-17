@@ -153,6 +153,7 @@ Zepto(function ($) {
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
+            if (!data) return;
 
             log("URL: " + url);
             log("Data to send:" + data);
@@ -211,6 +212,7 @@ Zepto(function ($) {
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
+            if (!data) return;
 
             log("URL: " + url);
             log("Data to send:" + data);
@@ -496,6 +498,9 @@ var ShowCase = {
     prevPage: function () {
         this.movePage(-1);
     },
+    _resetClasses: function (elem) {
+        elem.removeClass('hidden animated fadeIn fadeOut');
+    },
     /**
      * Moves the page to the given direction the number of positions given by dir
      * @method movePage
@@ -516,20 +521,35 @@ var ShowCase = {
             left: offset + 'px'
         });
 
-        this.showCategory(dir > 0);
+        var lastCategory = $(this.categories[this.lastPosition]),
+            initialWidth = lastCategory.css('width');
+        lastCategory.css({
+            float: 'left',
+            width: '100%'
+        });
+        
+        this._resetClasses(lastCategory);
+        lastCategory.addClass('animated fadeOut');
+        lastCategory.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            lastCategory.css({
+                width: initialWidth,
+                float: 'none'
+            });
+            lastCategory.addClass('hidden');
 
-        var category = $(this.categories[this.lastPosition]);
-        category.addClass('hidden');
+            this.showCategory(dir > 0);
+        }.bind(this));
     },
     /**
      * Show the current category
      * @method showCategory
-     * @param {Boolean} next Is next page?
      */
-    showCategory: function (next) {
+    showCategory: function () {
         var category = $(this.categories[this.currentPosition]);
-        category.removeClass('hidden animated fadeInLeft fadeInRight fadeOutLeft fadeOutRight');
-        category.addClass('animated ' + (next ? 'fadeInRight' : 'fadeInLeft'));
+        this._resetClasses(category);
+        category.addClass('animated fadeIn');
+        var iframe = category.find('iframe');
+        iframe.attr('src', iframe.attr('data-url'));
 
         if (!this.isHome) {
             this.setActiveSelector();
@@ -543,7 +563,7 @@ var ShowCase = {
         $(this.selectorBtns[this.currentPosition]).addClass('active');
     },
     /**
-     *
+     * Configures the showcase component
      * @method setup
      * @param {jQuery} $
      */
@@ -573,6 +593,9 @@ var ShowCase = {
 
             this.setActiveSelector();
         }
+
+        var iframe = $(this.categories[this.currentPosition]).find('iframe');
+        iframe.attr('src', iframe.attr('data-url'));
 
         this.arrowLeft.unbind().click(this.prevPage.bind(this));
         this.arrowRight.unbind().click(this.nextPage.bind(this));
