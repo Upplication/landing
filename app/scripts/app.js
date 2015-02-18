@@ -153,6 +153,7 @@ Zepto(function ($) {
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
+            if (!data) return;
 
             log("URL: " + url);
             log("Data to send:" + data);
@@ -211,6 +212,7 @@ Zepto(function ($) {
 
             var url = DASHBOARD_PATH + "/web/register";
             var data = $form.serialize();
+            if (!data) return;
 
             log("URL: " + url);
             log("Data to send:" + data);
@@ -275,7 +277,7 @@ Zepto(function ($) {
 
         // youtube are only present in one page
         var youtubeVideo = $('#youtube-video');
-        if (youtubeVideo.length > 0) {
+        if (youtubeVideo.length > 0 && typeof youtubeVideo.magnificPopup !== undefined) {
             youtubeVideo.magnificPopup({
                 type: 'inline',
                 midClick: true
@@ -283,7 +285,7 @@ Zepto(function ($) {
         }
 
         var ajaxErrorPopup = $('#ajax-error-popup');
-        if (ajaxErrorPopup.length > 0) {
+        if (ajaxErrorPopup.length > 0 && typeof ajaxErrorPopup.magnificPopup !== undefined) {
             ajaxErrorPopup.magnificPopup({
                 type: 'inline'
             });

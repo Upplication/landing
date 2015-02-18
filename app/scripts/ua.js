@@ -6,7 +6,7 @@ var upplication = function ($, document, window) {
      * @see https://segment.io/docs/libraries/analytics.js/
      * @type {*}
      */
-    var tracker = analytics;
+    var tracker = window.analytics || {};
 
     var _global_properties = {};
 
@@ -14,7 +14,7 @@ var upplication = function ($, document, window) {
         if ($UPP.localConfig.env != "PRO") {
             console.log(text);
         }
-    }
+    };
 
     var _add_global = function (props) {
         for (var prop in _global_properties) {
@@ -25,17 +25,17 @@ var upplication = function ($, document, window) {
             }
         }
         return props;
-    }
+    };
 
     var track = function (event, props, cb) {
         props = _add_global(props);
         tracker.track(event, props, cb);
-    }
+    };
 
     var identify = function (userId, traits) {
         _log("Identificating the user:" + userId + " with traits: " + traits);
         tracker.identify(userId, traits);
-    }
+    };
 
     var track_links = function (element_id, event, properties) {
         $(document).ready(function () {
@@ -48,11 +48,11 @@ var upplication = function ($, document, window) {
                 });
             }
         });
-    }
+    };
 
     var track_forms = function (element_id, event, properties) {
         $(document).ready(function () {
-            var $element = $(element_id)
+            var $element = $(element_id);
             if (should_track && $element) {
                 properties = _add_global(properties);
                 $element.each(function (i, elem) {
@@ -61,7 +61,7 @@ var upplication = function ($, document, window) {
                 });
             }
         });
-    }
+    };
 
     return {
         /**
