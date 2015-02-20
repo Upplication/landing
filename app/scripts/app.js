@@ -498,6 +498,9 @@ var ShowCase = {
     prevPage: function () {
         this.movePage(-1);
     },
+    isSmallSize: function () {
+        return window.innerWidth < 1024;
+    },
     _resetClasses: function (elem) {
         elem.removeClass('hidden animated fadeIn fadeOut');
     },
@@ -517,9 +520,15 @@ var ShowCase = {
         }
 
         var offset = this.offsetForPosition();
-        this.selector.css({
-            left: offset + 'px'
-        });
+        if (this.isSmallSize()) {
+            this.selector.css({
+                left: offset + 'px'
+            });
+        } else {
+            if (!this.isHome) {
+                this.positionArrow.css({'left': ($(this.selectorBtns[this.currentPosition]).offset().left + 40 - $('.app-categories').offset().left) + 'px'});
+            }
+        }
 
         var lastCategory = $(this.categories[this.lastPosition]),
             initialWidth = lastCategory.css('width');
@@ -527,7 +536,7 @@ var ShowCase = {
             float: 'left',
             width: '100%'
         });
-        
+
         this._resetClasses(lastCategory);
         lastCategory.addClass('animated fadeOut');
         lastCategory.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
@@ -579,6 +588,8 @@ var ShowCase = {
         var selectorBtns = this.selector.find('li');
         this.selectorBtns = selectorBtns;
         this.numCategories = this.categories.length;
+        this.positionArrow = $('.position-arrow');
+        this.initialArrowLeft = 169;
 
         if (!this.isHome) {
             var self = this;
@@ -594,8 +605,23 @@ var ShowCase = {
             this.setActiveSelector();
         }
 
-        var iframe = $(this.categories[this.currentPosition]).find('iframe');
-        iframe.attr('src', iframe.attr('data-url'));
+        var lastSize = window.innerWidth;
+
+        if (!this.isHome) {
+            $(window).on('resize', function () {
+                if ((window.innerWidth > 1024 && lastSize <= 1024) || (window.innerWidth <= 1024 && lastSize > 1024)) {
+                    this.positionArrow.css('left', '');
+                    this.selector.css('left', '');
+                    this.movePage(0 - this.currentPosition);
+                }
+
+                lastSize = window.innerWidth;
+
+                if (lastSize > 1024) {
+                    this.positionArrow.css({'left': ($(this.selectorBtns[this.currentPosition]).offset().left + 40 - $('.app-categories').offset().left) + 'px'});
+                }
+            }.bind(this));
+        }
 
         this.arrowLeft.unbind().click(this.prevPage.bind(this));
         this.arrowRight.unbind().click(this.nextPage.bind(this));

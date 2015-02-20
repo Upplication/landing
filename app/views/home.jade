@@ -16,7 +16,7 @@ block content
         div
             .mobile
                 img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
-            .claim.padding-top-2x.margin-bottom-2x.width-90.center 
+            .claim.padding-top-2x.margin-bottom-2x.width-90.center
                 h1.uppercase.cwhite.acenter.bold #{home.register.claim}
                 p.big.acenter #{home.register.arguments}
             .video-container.acenter.margin-bottom-3x
@@ -38,8 +38,8 @@ block content
                         p.error.display-none
                             //| La contraseña debe contener al menos 6 caracteres
                     input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-                    p.tos.acenter.italic !{home.register.accept_terms} 
-                        a(href="#{external.tos.url}") #{home.register.terms}        
+                    p.tos.acenter.italic !{home.register.accept_terms}
+                        a(href="#{external.tos.url}") #{home.register.terms}
 
     section#multidevice.bg-alabaster.padding.clearfix
         .margin-bottom-2x.margin-top-2x
@@ -93,7 +93,7 @@ block content
                                         span.icon-android
 
                         div.phone-container.small
-                            img(src="images/sample_apps/#{category.name}.png", alt="#{category.title}")
+                            img(src="/images/sample_apps/#{category.name}.png", alt="#{category.title}")
 
     section.bg-alabaster.padding.clearfix.padding-top-3x.padding-bottom-2x.press
         ul.acenter.margin-top-2x
@@ -126,21 +126,21 @@ block content
                 blockquote.clearfix
                     img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
                     p #{home.testimonials.client1.cite}
-                    footer 
+                    footer
                         cite - #{home.testimonials.client1.name}
 
             li
                 blockquote.clearfix
                     img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
                     p #{home.testimonials.client2.cite}
-                    footer 
+                    footer
                         cite - #{home.testimonials.client2.name}
 
             li
                 blockquote.clearfix
                     img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
                     p #{home.testimonials.client3.cite}
-                    footer 
+                    footer
                         cite - #{home.testimonials.client3.name}
 
-    script(type='text/javascript', src='http://www.youtube.com/player_api')        
+    script(type='text/javascript', src='http://www.youtube.com/player_api')
