@@ -525,7 +525,10 @@ var ShowCase = {
                 left: offset + 'px'
             });
         } else {
-            this.positionArrow.css({'left': ($(this.selectorBtns[this.currentPosition]).offset().left + 40 - $('.app-categories').offset().left) + 'px'});        }
+            if (!this.isHome) {
+                this.positionArrow.css({'left': ($(this.selectorBtns[this.currentPosition]).offset().left + 40 - $('.app-categories').offset().left) + 'px'});
+            }
+        }
 
         var lastCategory = $(this.categories[this.lastPosition]),
             initialWidth = lastCategory.css('width');
@@ -604,19 +607,21 @@ var ShowCase = {
 
         var lastSize = window.innerWidth;
 
-        $(window).on('resize', function () {
-            if ((window.innerWidth > 1024 && lastSize <= 1024) || (window.innerWidth <= 1024 && lastSize > 1024)) {
-                this.positionArrow.css('left', '');
-                this.selector.css('left', '');
-                this.movePage(0 - this.currentPosition);
-            }
+        if (!this.isHome) {
+            $(window).on('resize', function () {
+                if ((window.innerWidth > 1024 && lastSize <= 1024) || (window.innerWidth <= 1024 && lastSize > 1024)) {
+                    this.positionArrow.css('left', '');
+                    this.selector.css('left', '');
+                    this.movePage(0 - this.currentPosition);
+                }
 
-            lastSize = window.innerWidth;
+                lastSize = window.innerWidth;
 
-            if (lastSize > 1024) {
-                this.positionArrow.css({'left': ($(this.selectorBtns[this.currentPosition]).offset().left + 40 - $('.app-categories').offset().left) + 'px'});
-            }
-        }.bind(this));
+                if (lastSize > 1024) {
+                    this.positionArrow.css({'left': ($(this.selectorBtns[this.currentPosition]).offset().left + 40 - $('.app-categories').offset().left) + 'px'});
+                }
+            }.bind(this));
+        }
 
         this.arrowLeft.unbind().click(this.prevPage.bind(this));
         this.arrowRight.unbind().click(this.nextPage.bind(this));

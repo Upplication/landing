@@ -71,7 +71,7 @@ $section-bg-color: #D9DADB;
       height: 80px;
       width: 30px;
       position: absolute;
-      z-index: 500;
+      z-index: 1;
       top: 0;
       left: 196px;
       background: rgba(255, 255, 255, 1);
@@ -292,7 +292,7 @@ section#showcase {
     width: 310px;
     text-align: left;
   }
-  
+
 }
 
 @media all and (max-width: 680px) {
