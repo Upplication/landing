@@ -66,6 +66,7 @@ Zepto(function ($) {
         var registerSuccessCallback = function (fn, submit) {
             return function (data) {
                 if (data.success) {
+                    Topic.fire("register-success");
                     window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
                 } else {
                     $(this).find("input").prop("disabled", false);
