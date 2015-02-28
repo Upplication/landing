@@ -7,5 +7,6 @@
     "offer_marketing": "/views/offer-marketing.jade",
     "available_offer": "/views/available_offer.jade",
     "showcase": "/views/showcase.jade",
-    "ono": "/views/ono.jade"
+    "ono": "/views/ono.jade",
+    "open_future": "/views/open_future.jade"
 }
