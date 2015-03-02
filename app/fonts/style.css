@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'upplication';
-	src:url('fonts/upplication.eot?-vglbo');
-	src:url('fonts/upplication.eot?#iefix-vglbo') format('embedded-opentype'),
-		url('fonts/upplication.woff?-vglbo') format('woff'),
-		url('fonts/upplication.ttf?-vglbo') format('truetype'),
-		url('fonts/upplication.svg?-vglbo#upplication') format('svg');
+	src:url('fonts/upplication.eot?-ikboa6');
+	src:url('fonts/upplication.eot?#iefix-ikboa6') format('embedded-opentype'),
+		url('fonts/upplication.woff?-ikboa6') format('woff'),
+		url('fonts/upplication.ttf?-ikboa6') format('truetype'),
+		url('fonts/upplication.svg?-ikboa6#upplication') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,12 +23,36 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-right:before {
-	content: "\e60d";
+.icon-google_play .path1:before {
+	content: "\e613";
+}
+.icon-google_play .path2:before {
+	content: "\e614";
+	margin-left: -0.9150390625em;
+}
+.icon-google_play .path3:before {
+	content: "\e615";
+	margin-left: -0.9150390625em;
+}
+.icon-google_play .path4:before {
+	content: "\e616";
+	margin-left: -0.9150390625em;
 }
 
-.icon-arrow-left:before {
-	content: "\e60e";
+.icon-user:before {
+	content: "\e60f";
+}
+
+.icon-diamond:before {
+	content: "\e610";
+}
+
+.icon-check:before {
+	content: "\e611";
+}
+
+.icon-appstore:before {
+	content: "\e612";
 }
 
 .icon-lifestyle:before {
@@ -151,11 +175,19 @@
 	content: "\e60b";
 }
 
-.icon-apple:before, .icon-ios:before {
+.icon-apple:before {
 	content: "\e60c";
 }
 
 .icon-tutor:before {
 	content: "\f0d7";
+}
+
+.icon-arrow-right:before {
+	content: "\e60d";
+}
+
+.icon-arrow-left:before {
+	content: "\e60e";
 }
 
