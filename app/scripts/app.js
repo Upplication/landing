@@ -67,7 +67,9 @@ Zepto(function ($) {
             return function (data) {
                 if (data.success) {
                     Topic.fire("register-success");
-                    window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
+					window.setTimeout(function(){
+						window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
+					}, 400);
                 } else {
                     $(this).find("input").prop("disabled", false);
                     submit.val(submit.data("text"));
