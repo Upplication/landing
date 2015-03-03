@@ -71,23 +71,23 @@
                 {
                     "title": "Customization",
                     "icon": "customize",
-                    "desc": "Una app te permitirá estar siempre en el bolsillo de tu cliente. Fideliza, crea una relación larga y consigue mejorar tus ingresos."
+                    "desc": "An app allows you to be always in the pocket of your customer. Create a long relationship and improve your incomes."
                 },
                 {
                     "title": "Personal tutor",
                     "icon": "personal-tutor",
-                    "desc": "Te acompañamos en cada paso para la creación de tu app, para ello tendrás a una persona encargada de ayudarte en cada momento."
+                    "desc": "We help you at each step to create your app, you will have a person in charge of helpinh you at any moment."
                 },
                 {
                     "title": "Multidevice",
                     "icon": "multidevice",
-                    "desc": "Con Upplication podrás crear tu app para iOS, Android y la web responsive que deseas. Además nosotros las publicaremos en App Store y Google Play por ti."
+                    "desc": "With Upplication you will be able to create an iOS or Android app and a responsive web. We also publish your apps on Google Play and App Store for you."
                 }
             ]
         },
         "support": {
             "title": "We are here to help you!",
-            "desc": "Todos y cada uno de los compañeros que formamos Upplication vamos a poner todo nuestro empeño en conseguir que obtengas la mejor experiencia de soporte técnico que esté en nuestras manos. Si tienes cualquier problema cuenta con nosotros."
+            "desc": "Each and every one of the partners who make Upplication will make every effort to get you get the best support experience in our hands. If you have any problems you can count on us."
         },
         "multidevice": {
             "title": "App and multi-device site",
