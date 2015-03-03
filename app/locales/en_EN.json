@@ -49,12 +49,45 @@
             "accept_terms": "When you click the \"Try it now button\" you accept our",
             "loading": "Loading...",
             "terms": "terms and conditions",
+            "try_it": "Try it free, you have 15 days",
             "warning": {
                 "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
                 "password": "The minimum password length is 8 characters",
                 "ajax": "Uuups..., we had a small problem",
                 "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
             }
+        },
+        "improve_sales": {
+            "title": "Improve your sales",
+            "points": [
+                "Rise the incomes of your business",
+                "Sell from mobile devices",
+                "Improve the communication with your clients"
+            ]
+        },
+        "optimize": {
+            "title": "Optimize your business",
+            "points": [
+                {
+                    "title": "Customization",
+                    "icon": "customize",
+                    "desc": "An app allows you to be always in the pocket of your customer. Create a long relationship and improve your incomes."
+                },
+                {
+                    "title": "Personal tutor",
+                    "icon": "personal-tutor",
+                    "desc": "We help you at each step to create your app, you will have a person in charge of helpinh you at any moment."
+                },
+                {
+                    "title": "Multidevice",
+                    "icon": "multidevice",
+                    "desc": "With Upplication you will be able to create an iOS or Android app and a responsive web. We also publish your apps on Google Play and App Store for you."
+                }
+            ]
+        },
+        "support": {
+            "title": "We are here to help you!",
+            "desc": "Each and every one of the partners who make Upplication will make every effort to get you get the best support experience in our hands. If you have any problems you can count on us."
         },
         "multidevice": {
             "title": "App and multi-device site",
@@ -820,5 +853,32 @@
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/",
         "title": "Ono examples"
+    },
+    "open_future": {
+        "_url": "/mwc-open-future/",
+        "_template": "open_future",
+        "_name": "Open Future",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/"
+    },
+    "landing_test_1": {
+        "_url": "/landing-test/",
+        "_template": "landing_test_1",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "landing_test_2": {
+        "_url": "/landing-test2/",
+        "_template": "landing_test_2",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
     }
 }

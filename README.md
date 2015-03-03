@@ -7,7 +7,7 @@ Clone this repo and install the dependencies:
 * [ruby](https://www.ruby-lang.org/)
 * [sass](http://sass-lang.com/) `gem install sass -v "=3.2.19"`
 * [susy](http://susy.oddbird.net/) `gem install susy -v "=1.0.9"`
-* [Compass Core](http://compass-style.org/install/) `gem install susy -v "=0.12.16"`
+* [Compass Core](http://compass-style.org/install/) `gem install compass`
 * [grunt-cli](http://gruntjs.com/getting-started)
 * [Bower](http://bower.io/)
 * Install node dependencies -- `npm install`

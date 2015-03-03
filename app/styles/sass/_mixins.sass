@@ -14,3 +14,10 @@
       bottom: -$size * 3/4
       left: 50%
       margin-left: -$size/2
+    @if ($direction == up)
+      border-left: $size solid transparent
+      border-right: $size solid transparent
+      border-bottom: $size solid $color
+      top: -$size * 3/4
+      left: 50%
+      margin-left: -$size/2

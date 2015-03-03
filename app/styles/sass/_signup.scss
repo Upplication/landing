@@ -2,7 +2,7 @@
 #signup-screen {
 	width: 100%;
 	height: 100%;
-	padding: 0;
+	padding: 3em;
 	margin: 0;
 	background-color: #1A1A1A;
 	position: fixed;
@@ -18,6 +18,10 @@
 	}
 
 	.signup-screen-container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto !important;
+      
 		a.btn-signup-close {
 			display: block;
 			width: auto;
@@ -112,7 +116,7 @@
 
 // Tablet layout
 ///******************************************************
-@media all and(max-width: 768px) {
+@media all and (max-width: 768px) {
 	div.signup-header {
 		width: 80%;
 		margin: 0 auto !important;
@@ -190,7 +194,7 @@
 			p.error {
 				position: absolute;
 				width: 100%;
-				top: 4.8em;
+				top: 48px;
 			}
 		}
 

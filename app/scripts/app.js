@@ -338,10 +338,14 @@ Zepto(function ($) {
         };
 
         // Switch between monthly and yearly billing
-        $('#billing-period-toggle').on('click', function () {
-            var self = $(this);
-            self.toggleClass('yearly');
-            self.attr('data-billing-period', self.hasClass('yearly')
+        var toggle = $('#billing-period-toggle');
+        toggle.unbind().on('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            toggle.toggleClass('yearly');
+
+            toggle.attr('data-billing-period', toggle.hasClass('yearly')
                 ? 'yearly' : 'monthly');
             monthly = !monthly;
             changePrices();
