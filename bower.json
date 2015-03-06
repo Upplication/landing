@@ -1,6 +1,6 @@
 {
-    "name": "herramientas-front",
-    "version": "1.0.0",
+    "name": "landing",
+    "version": "1.0.5",
     "dependencies": {
         "zepto": "~1.1.2",
         "zeptojs": "~1.1.3",
