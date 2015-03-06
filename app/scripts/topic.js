@@ -14,17 +14,18 @@ var Topic = function($){
         _observers: {},
 
         fire: function (event) {
-            var arrayFN = this._observers[event];
-
-            $.each(arrayFN, function (index, fn) {
-                fn();
-            });
+            var observers = this._observers[event];
+			if (observers){
+				$.each(observers, function (index, observer) {
+					observer();
+				});
+			}
         },
 
         on: function (event, fn) {
-            var arrayFN = this._observers[event];
-            if (arrayFN) {
-                arrayFN.push(fn);
+            var observers = this._observers[event];
+            if (observers) {
+                observers.push(fn);
             }
             else {
                 this._observers[event] = [fn];
