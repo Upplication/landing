@@ -21,9 +21,9 @@ block content
                 a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
             article
                 form(name="register", action="/register", method="post")
+                    input(type="hidden", name="customerType", value="UPPLICATION")
                     div.announce.bg-cblack.acenter.btn.arrow-down-black
                         | #{$.home.register.announce}
-                    
                     label(for="appName")
                         input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
                         p.error.display-none
