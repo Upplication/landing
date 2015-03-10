@@ -9,6 +9,7 @@ div#signup-screen.closed
             p.big.right.inline-block.padding-top-2x !{signup.signup_free}
 
         form#signup-form.acenter(name="signup")
+            input(type="hidden", name="customerType", value="UPPLICATION")
             div.field.clearfix
                 input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
                 p.error.display-none(data-for="appName")

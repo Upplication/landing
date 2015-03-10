@@ -23,6 +23,7 @@ block content
                 a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
             article
                 form(name="register", action="/register", method="post")
+                    input(type="hidden", name="customerType", value="UPPLICATION")
                     div.announce.bg-cblack.acenter.btn.arrow-down-black
                         | #{$.home.register.announce}
                     label(for="appName")

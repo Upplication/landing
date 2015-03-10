@@ -194,15 +194,15 @@ section#help {
 }
 
 @media all and (max-width: 1023px) {
-  #content.home #register .announce {
+  #content.home section#register.register-section .announce {
     margin: -60px 0 0 0 !important;
 
     &.arrow-up-black {
       margin-top: 15px !important;
     }
   }
-  
-  #content.home #register input {
+
+  #content.home section#register.register-section input {
     width: 100%;
     margin: 0;
   }
