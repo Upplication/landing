@@ -55,12 +55,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
             ul.nav-basement-options.unstyled.margin-top.change-lang
                 li.menu_txt
                     p.uppercase.white #{header.menu}
-                li
-                    a(href='#{$.external.pricing.url}') #{$.external.pricing.anchor}
-                li
-                    a(href='#{$.external.apps.url}') #{$.header.nav.apps}
-                li
-                    a(href='#{$.external.blog.url}') #{$.external.blog.anchor}
                 li.change-lang.change-lang-menu
                     each lang in langs.codes
                         a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
@@ -78,12 +72,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             ul#sections
                                 li.menu_txt
                                     p.uppercase.white #{header.menu}
-                                li
-                                    a(href='#{$.external.pricing.url}') #{$.external.pricing.anchor}
-                                li
-                                    a(href='#{$.external.apps.url}') #{$.header.nav.apps}
-                                li
-                                    a(href='#{$.external.blog.url}') #{$.external.blog.anchor}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
                                         a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
@@ -241,7 +229,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             .g-plusone.vertical-align-middle
                             .customer-service__text.inline-block.vertical-align-top.padding-4px #{prices.contact.customer_service.text}
                             .customer-service__links.inline-block.vertical-align-top.padding-4px
-                                a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
                                 span -
                                 a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
                     hr.clear
@@ -259,6 +246,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // build:js({.tmp,app}) /scripts/app.min.js
         script(type='text/javascript')
             $("#seller-code").hide()
+            $("[name=customerType]").val("TELEFONICA")
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
         script(type="text/javascript", src='/scripts/app.js')
