@@ -880,5 +880,14 @@
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "home_tlf": {
+        "_url": "/home-en-tlf/",
+        "_template": "home_tlf",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
     }
 }
