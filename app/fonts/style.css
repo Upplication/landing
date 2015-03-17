@@ -179,6 +179,10 @@
 	content: "\e60c";
 }
 
+.icon-ios:before {
+	content: "\e60c";
+}
+
 .icon-tutor:before {
 	content: "\f0d7";
 }
