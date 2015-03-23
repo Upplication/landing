@@ -96,7 +96,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                 form(name="register", action="/register", method="post")
                                     div.announce.bg-cblack.acenter.btn.arrow-down-black
                                         | #{$.home.register.announce}
-                                    input(type="hidden", name="customerType", value="TELEFONICA")
+                                    input(type="hidden", name="customerType", value="MPAY")
                                     label(for="appName")
                                         input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
                                         p.error.display-none
@@ -246,7 +246,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // build:js({.tmp,app}) /scripts/app.min.js
         script(type='text/javascript')
             $("#seller-code").hide()
-            $("[name=customerType]").val("TELEFONICA")
+            $("[name=customerType]").val("MPAY")
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
         script(type="text/javascript", src='/scripts/app.js')
