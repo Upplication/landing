@@ -1,10 +1,10 @@
 header
   @include container
 
-.header-container
-  background-color: #333
+.header-container-tlf
+  background-color: #002D3E
 
-a.btn-signup
+a.btn-signup-tlf
   margin-left: 10px
   border: none
   padding: 6px 30px
@@ -13,6 +13,21 @@ a.btn-signup
   text-transform: none !important
   margin-top: -6px !important
 
+.footer-container-tlf
+  background-color: #002D3E !important
+  margin-bottom: -17px
+.logo-tlf
+  background: url("/images/logo_tlf.png") left top no-repeat
+  width: 120px
+  background-size: contain
+  padding-top: 56px
+  background-position-y: 4px
+
+
+
+
+
+
 //Mobile layout
 ///******************************************************
 @include at-breakpoint($mobile-columns $tablet-bp)
@@ -20,7 +35,7 @@ a.btn-signup
   #content
     margin-top: 63px
 
-  .header-container
+  .header-container-tlf
     position: fixed
     z-index: 6
       
@@ -40,11 +55,20 @@ a.btn-signup
   .nav-basement-options a
     color: white
 
+  .nav-basement
+    background-color: #002D3E !important
+
+  .outer-wrap
+    background-color: #002D3E !important
+
+
+
+
   header
     position: fixed
     text-align: center
     width: 100%
-    background-color: #333
+    background-color: #002D3E
 
     .login
       position: absolute
@@ -54,14 +78,12 @@ a.btn-signup
       font-size: .9em
       font-weight: 400
 
-    a.logo
-      text-align: center
-      display: inline-block
-      background: none
-
-      img
-        max-height: 2em
-        margin: .3em
+    .logo-tlf
+      background: url("/images/logo_tlf.png") left top no-repeat
+      width: 94px
+      background-size: contain
+      padding-top: 41px
+      background-position-y: 4px
 
     .icon-list
       margin: 0
@@ -86,7 +108,7 @@ a.btn-signup
 //Desktop layout
 ///******************************************************
 @include at-breakpoint($tablet-bp + 1px $desktop-columns)
-  .header-container    
+  .header-container-tlf
     min-height: 4.5em
     position: relative
     .login

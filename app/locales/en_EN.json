@@ -49,12 +49,45 @@
             "accept_terms": "When you click the \"Try it now button\" you accept our",
             "loading": "Loading...",
             "terms": "terms and conditions",
+            "try_it": "Try it free, you have 15 days",
             "warning": {
                 "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
                 "password": "The minimum password length is 8 characters",
                 "ajax": "Uuups..., we had a small problem",
                 "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
             }
+        },
+        "improve_sales": {
+            "title": "Improve your sales",
+            "points": [
+                "Rise the incomes of your business",
+                "Sell from mobile devices",
+                "Improve the communication with your clients"
+            ]
+        },
+        "optimize": {
+            "title": "Optimize your business",
+            "points": [
+                {
+                    "title": "Customization",
+                    "icon": "customize",
+                    "desc": "An app allows you to be always in the pocket of your customer. Create a long relationship and improve your incomes."
+                },
+                {
+                    "title": "Personal tutor",
+                    "icon": "personal-tutor",
+                    "desc": "We help you at each step to create your app, you will have a person in charge of helpinh you at any moment."
+                },
+                {
+                    "title": "Multidevice",
+                    "icon": "multidevice",
+                    "desc": "With Upplication you will be able to create an iOS or Android app and a responsive web. We also publish your apps on Google Play and App Store for you."
+                }
+            ]
+        },
+        "support": {
+            "title": "We are here to help you!",
+            "desc": "Each and every one of the partners who make Upplication will make every effort to get you get the best support experience in our hands. If you have any problems you can count on us."
         },
         "multidevice": {
             "title": "App and multi-device site",
@@ -195,11 +228,10 @@
         "about_us": {
             "about_us": "About us",
             "paragraphs": [
-                "Upplication is a startup born in 2012. Headquarters are located in Madrid (Spain). Current team is 10 people.",
-                "The platform was launched in beta phase in October 2013 as an apps builder. Every small and medium business can create a mobile app without coding (getting rid of technology barriers), in few minutes (ending with long processes), with do it yourself management and reducing costs (less than 5 euros/7 dollars month).",
-                "The key of this technology is the dashboard, simple and intuitive, so the creation and management process is quick and easy, resulting in beautiful apps, like any other in the apps stores like Google Play or App Store.",
-                "Upplication allows every business to sell its products on mobile devices: M-Commerce. 4,000 business have chosen Upplication as the tool to adapt their business to mobile marketing."
-            ],
+                "Upplication is a start up company based in the heart of Madrid with 15 employees, specializing in the simplification of app creation.",
+                "Upplication’s platform was launched in beta phase in October 2013 as an app builder. Emphasizing on simplicity, businesses have the luxury of creating mobile apps in minutes without the complications of coding. With pricing plans starting as low as 5 euros or 7 dollars a month, Upplication eliminates the long processes associated with app creation while adding the benefit of do-it-yourself app management.",
+                "The key to this technology is the dashboard, simple yet sophisticated, creation and management is made easy through innovative technology. Upplication lets businesses of all types sell their valuable products on mobile devices in the App Store and Google Play.",
+                "Upplication lets businesses of all types sell their valuable products on mobile devices, and over 10,000 businesses have trusted Upplication as the tool to their mobile marketing success."            ],
             "image_alt": "Upplication"
         },
         "timeline": {
@@ -362,7 +394,7 @@
         },
         "partners": {
             "anchor": "Become a partner",
-            "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
+            "url": "http://www.upplication.com/distributors/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
             "anchor": "We are hiring!",
@@ -820,5 +852,41 @@
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/",
         "title": "Ono examples"
+    },
+    "open_future": {
+        "_url": "/mwc-open-future/",
+        "_template": "open_future",
+        "_name": "Open Future",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/"
+    },
+    "landing_test_1": {
+        "_url": "/landing-test/",
+        "_template": "landing_test_1",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "landing_test_2": {
+        "_url": "/landing-test2/",
+        "_template": "landing_test_2",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "home_tlf": {
+        "_url": "/home-en-tlf/",
+        "_template": "home_tlf",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
     }
 }
