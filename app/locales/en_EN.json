@@ -378,7 +378,7 @@
     "external": {
         "blog": {
             "anchor": "Blog",
-            "url": "/blog"
+            "url": "http://blog.en.upplication.com"
         },
         "about": {
             "anchor": "About us",
