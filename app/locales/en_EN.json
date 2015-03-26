@@ -228,11 +228,10 @@
         "about_us": {
             "about_us": "About us",
             "paragraphs": [
-                "Upplication is a startup born in 2012. Headquarters are located in Madrid (Spain). Current team is 10 people.",
-                "The platform was launched in beta phase in October 2013 as an apps builder. Every small and medium business can create a mobile app without coding (getting rid of technology barriers), in few minutes (ending with long processes), with do it yourself management and reducing costs (less than 5 euros/7 dollars month).",
-                "The key of this technology is the dashboard, simple and intuitive, so the creation and management process is quick and easy, resulting in beautiful apps, like any other in the apps stores like Google Play or App Store.",
-                "Upplication allows every business to sell its products on mobile devices: M-Commerce. 4,000 business have chosen Upplication as the tool to adapt their business to mobile marketing."
-            ],
+                "Upplication is a start up company based in the heart of Madrid with 15 employees, specializing in the simplification of app creation.",
+                "Upplication’s platform was launched in beta phase in October 2013 as an app builder. Emphasizing on simplicity, businesses have the luxury of creating mobile apps in minutes without the complications of coding. With pricing plans starting as low as 5 euros or 7 dollars a month, Upplication eliminates the long processes associated with app creation while adding the benefit of do-it-yourself app management.",
+                "The key to this technology is the dashboard, simple yet sophisticated, creation and management is made easy through innovative technology. Upplication lets businesses of all types sell their valuable products on mobile devices in the App Store and Google Play.",
+                "Upplication lets businesses of all types sell their valuable products on mobile devices, and over 10,000 businesses have trusted Upplication as the tool to their mobile marketing success."            ],
             "image_alt": "Upplication"
         },
         "timeline": {
@@ -395,7 +394,7 @@
         },
         "partners": {
             "anchor": "Become a partner",
-            "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
+            "url": "http://www.upplication.com/distributors/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
             "anchor": "We are hiring!",
