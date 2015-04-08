@@ -10,5 +10,6 @@
     "ono": "/views/ono.jade",
     "open_future": "/views/open_future.jade",
     "landing_test_1": "/views/landing_test_1.jade",
-    "landing_test_2": "/views/landing_test_2.jade"
+    "landing_test_2": "/views/landing_test_2.jade",
+    "home_tlf": "/views/home_tlf.jade"
 }
