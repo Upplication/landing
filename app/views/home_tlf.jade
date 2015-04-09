@@ -51,7 +51,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
     body(id="#{template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
-        nav.nav-basement
+        nav.nav-basement.color-tlf
             ul.nav-basement-options.unstyled.margin-top.change-lang
                 li.menu_txt
                     p.uppercase.white #{header.menu}
@@ -60,10 +60,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                         a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                 li.login_btn
                     a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
-        .outer-wrap
+        .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
                 .header-container-tlf
-                    header.padding-top
+                    header.padding-top.tlf
                         a.logo.margin-bottom(href='#{localConfig.base_path}')
                             .logo-tlf
                         a.icon-list

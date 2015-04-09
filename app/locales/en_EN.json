@@ -98,7 +98,7 @@
             "ios_alt": "Create your app with iOS"
         },
         "testimonials": {
-            "title": "What do clients say about us?",
+            "title": "What Clients Say about us?",
             "client1": {
                 "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
                 "name": "Ana, C,UP Your choice on top"
@@ -128,7 +128,7 @@
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
-        "try": "Try it, you have 15 days!",
+        "try": "Try it free for 15 days!",
         "create_free": "Create my app for free"
     },
     "helpcenter": {
@@ -214,7 +214,7 @@
                 "title": "soporte@upplication.com",
                 "text": "soporte@upplication.com"
             },
-            "schedule": "(Hours customer support Monday-Friday 10h-22h GMT+1)"
+            "schedule": "(Customer service hours Monday-Friday 10h-22h GMT+1)"
         }
     },
     "about": {
@@ -269,7 +269,7 @@
             "the_data": "The data",
             "screen_alt": "App built with Upplication",
             "apps_created": "Apps created",
-            "num": "5,173"
+            "num": "14,573"
         },
         "video": {
             "play_alt": "Play Upplication intro"
@@ -673,10 +673,10 @@
                 "name": "online-store",
                 "icon_class": "icon-online-store",
                 "title": "Your online store",
-                "description": "Create your mobile app so your clients can buy your products from their phone.",
+                "description": "Create a mobile app so your clients can buy products right from their phone.",
                 "features": [
                     "Integrate the payment gateway in a matter of minutes and start selling.",
-                    "Offer exclusive products and offer more value to your client.",
+                    "Offer exclusive products and more value to your clients.",
                     "Send push notifications with the best offers.",
                     "Your clients will carry your business in their pocket."
                 ],
@@ -689,8 +689,8 @@
                 "description": "Create the mobile app for your restaurant and offer value to your mobile client.",
                 "features": [
                     "Your clients will be able to book tables from their phone.",
-                    "Make home delivery of your products.",
-                    "Show discount coupons on the app.",
+                    "Offer deliver services at the touch of a button.",
+                    "Provide discounts on your App.",
                     "Send push alerts with exclusive offers."
                 ],
                 "url": "http://restaurantexample.upplication.com/"
@@ -699,9 +699,9 @@
                 "name": "bar-and-coffee",
                 "icon_class": "icon-bar-and-coffee",
                 "title": "Bar & coffee",
-                "description": "Create the mobile app of your bar or coffee shop and discover a new way of doing marketing.",
+                "description": "Create the mobile app for your bar or coffee shop and discover an innovative way to market your business.",
                 "features": [
-                    "Display the events you organise on your local.",
+                    "Display your local events.",
                     "Offer discount coupons to create engagement with your customers.",
                     "Make your menu accessible from any phone.",
                     "Send push notifications to keep your customers informed."
@@ -712,10 +712,10 @@
                 "name": "gym",
                 "icon_class": "icon-gym",
                 "title": "Gyms and sports hall",
-                "description": "Create the app of your gym and position your business at the forefront of technology.   ",
+                "description": "Create an app for your gym and put your business at the forefront of today’s technology.",
                 "features": [
-                    "Show schedules of your classes in the cell phone of your clients.",
-                    "Sell sport goods in your app.",
+                    "Provide class schedules right in the pocket of your clients",
+                    "Sell sporting goods directly from your app.",
                     "Send push notifications with news about your gym.",
                     "Ensure clients loyalty with exclusive offers in your app."
                 ],
@@ -748,11 +748,11 @@
                 "name": "music",
                 "icon_class": "icon-music",
                 "title": "Music",
-                "description": "Create an app of your band and make your fans happy.",
+                "description": "Create an app for your band and stay connected with your fans.",
                 "features": [
                     "Import music and videos and your fans will always have you in their phone.",
                     "Import the dates of your concerts and communicate them with push notifications.",
-                    "Sell merchandising goods through your app."
+                    "Sell Merchandise directly through your app."
                 ],
                 "url": "http://musicexample.upplication.com/"
             },
@@ -760,11 +760,11 @@
                 "name": "personal-app",
                 "icon_class": "icon-personal-app",
                 "title": "Personal app",
-                "description": "Create your own app and tell all your virtues.",
+                "description": "Create an app to depict all of your skills",
                 "features": [
                     "Show your C.V in an innovative way.",
-                    "Upload your best works and presentations.",
-                    "Make you personal contact available in a simple way."
+                    "Upload your best work and presentations.",
+                    "Make your contact information readily available.”"
                 ],
                 "url": "http://personalappexample.upplication.com/"
             },
@@ -772,11 +772,11 @@
                 "name": "tourism",
                 "icon_class": "icon-tourism",
                 "title": "Tourism",
-                "description": "Create the app of your city to help tourists.",
+                "description": "Create an app of your city to help tourists.",
                 "features": [
-                    "Insert maps which will help tourists to know the city.",
+                    "Insert maps to help tourists get to know the city”",
                     "Tell the story of your city with videos and photos.",
-                    "Recommend the best places to visit."
+                    "Offer recommendations for the best places to visit."
                 ],
                 "url": "http://tourismexample.upplication.com/"
             },
@@ -784,11 +784,11 @@
                 "name": "health",
                 "icon_class": "icon-health",
                 "title": "Health and beauty",
-                "description": "Create the app of your beauty center and make the life of your customers healthier.",
+                "description": "Create an app for all things beauty, and make the life of your clients healthier.",
                 "features": [
                     "Sell beauty products through the app.",
-                    "Create easy booking methods for your customers.",
-                    "Ensure loyalty trough sending push notifications to your clients.",
+                    "Make booking appointments much easier",
+                    "Ensure the loyalty of your clients by sending push notifications. ",
                     "Offer exclusive discounts though your app."
                 ],
                 "url": "http://healthbeautyexample.upplication.com/"
@@ -797,11 +797,11 @@
                 "name": "art",
                 "icon_class": "icon-art",
                 "title": "Art and Design",
-                "description": "Create an app with your own designs, do art.",
+                "description": "Create an app with your own designs",
                 "features": [
                     "Upload all your creations to the app.",
-                    "Tell the world when is going to be will be your next art exhibition.",
-                    "Offer exclusive content and communicate it with push notifications."
+                    "Tell the world when and where your next exhibition will be.",
+                    "Offer exclusive content through push notifications"
                 ],
                 "url": "http://musicexample.upplication.com/"
             },
@@ -809,11 +809,11 @@
                 "name": "media",
                 "icon_class": "icon-media",
                 "title": "Media & blogs",
-                "description": "Create the app of your media channel and be present for your readers anywhere.",
+                "description": "“Create an app for your media channel making you easily accessible from any smartphone",
                 "features": [
-                    "Show your news in an easy way.",
+                    "Easily Show your news and updates.",
                     "Use the app to improve your data and make your business profitable.",
-                    "Send push notifications with the most outstanding news."
+                    "Send push notifications with new videos and announcements"
                 ],
                 "url": "http://mediablogexample.upplication.com/"
             },
@@ -821,11 +821,11 @@
                 "name": "delivery",
                 "icon_class": "icon-delivery",
                 "title": "Home Delivery",
-                "description": "Create the app of your business and get the clients to ask for your home delivery products.",
+                "description": "Create an app for your business creating an easy method of home delivery.",
                 "features": [
-                    "Make your clients want your home delivery products and get them to pay from the app.",
-                    "Offer to your clients exclusive discounts if they pay from the app.",
-                    "Improve the communication with your clients through push notifications."
+                    "Provide a simple way for clients to order from your business",
+                    "Offer exclusive discounts to your clients with the option of paying right from their phone.",
+                    "-Easily communicate with your clients through push notifications."
                 ],
                 "url": "http://musicexample.upplication.com/"
             },
@@ -833,11 +833,11 @@
                 "name": "lifestyle",
                 "icon_class": "icon-lifestyle",
                 "title": "Lifestyle",
-                "description": "Create the app with your hobbies and passions.",
+                "description": "Create an app for your hobbies and passions.",
                 "features": [
-                    "Insert videos and content which show the love and passion for you hobby.",
-                    "Use the app to connect with other enthusiasts.",
-                    "Send push notifications to inform other users."
+                    "Insert pictures and videos on your favorite past times.",
+                    "Use the app to stay connected with other enthusiasts.",
+                    "Send push notifications to keep other users updated."
                 ],
                 "url": "http://waysoflifeexample.upplication.com/"
             }
