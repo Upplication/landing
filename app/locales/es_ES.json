@@ -205,9 +205,9 @@
         "customer_service": {
             "text": "Atención al cliente",
             "phone": {
-                "link": "tel:+34915848983",
-                "title": "915 848 983",
-                "text": "Telf: 915848983"
+                "link": "tel:+34917958203",
+                "title": "917 958 203",
+                "text": "Telf: 917958203"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
@@ -589,9 +589,9 @@
             "customer_service": {
                 "text": "Servicio de atención al cliente:",
                 "phone": {
-                    "link": "tel:+34915848983",
-                    "title": "915 848 983",
-                    "text": "915.848.983"
+                    "link": "tel:+34917958203",
+                    "title": "917 958 203",
+                    "text": "917.958.203"
                 },
                 "email": {
                     "link": "mailto:soporte@upplication.com",
