@@ -203,12 +203,12 @@
             }
         },
         "customer_service": {
-            "text": "Customer service number",
+            "text": "Customer service",
             "phone": {
 
                 "link": "tel:+34917958203",
                 "title": "+34 91 795 82 03",
-                "text": "+34 91 795 82 03"
+                "text": "tel: +34 91 795 82 03"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
