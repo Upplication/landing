@@ -205,17 +205,16 @@
         "customer_service": {
             "text": "Atención al cliente",
             "phone": {
-
                 "link": "tel:+34917958203",
                 "title": "917 958 203",
-                "text": "Telf: 917958203"
+                "text": "Telf: +34 91 795 82 03"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
                 "title": "soporte@upplication.com",
                 "text": "soporte@upplication.com"
             },
-            "schedule": "(Horario de atención al cliente de lunes a viernes de 10 a 22h GTM+1)"
+            "schedule": "(Horario de atención al cliente de lunes a viernes de 10 a 18h GTM+1)"
         }
     },
     "about": {
@@ -590,11 +589,9 @@
             "customer_service": {
                 "text": "Servicio de atención al cliente:",
                 "phone": {
-
                     "link": "tel:+34917958203",
                     "title": "917 958 203",
-                    "text": "917.958.203"
-
+                    "text": " +34 91 795 82 03"
                 },
                 "email": {
                     "link": "mailto:soporte@upplication.com",
