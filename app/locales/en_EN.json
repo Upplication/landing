@@ -208,14 +208,14 @@
 
                 "link": "tel:+34917958203",
                 "title": "917 958 203",
-                "text": "Telf: 917.958.203"
+                "text": "Telf: +34 91 795 82 03"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
                 "title": "soporte@upplication.com",
                 "text": "soporte@upplication.com"
             },
-            "schedule": "(Customer service hours Monday-Friday 10h-22h GMT+1)"
+            "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)"
         }
     },
     "about": {
@@ -631,7 +631,7 @@
 
                     "link": "tel:+34917958203",
                     "title": "917.958.203",
-                    "text": "917.958.203"
+                    "text": "+34 91 795 82 03"
 
                 },
                 "email": {
