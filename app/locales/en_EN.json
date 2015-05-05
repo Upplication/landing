@@ -207,8 +207,8 @@
             "phone": {
 
                 "link": "tel:+34917958203",
-                "title": "917 958 203",
-                "text": "Telf: +34 91 795 82 03"
+                "title": "+34 91 795 82 03",
+                "text": "tel: +34 91 795 82 03"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
@@ -630,7 +630,7 @@
                 "phone": {
 
                     "link": "tel:+34917958203",
-                    "title": "917.958.203",
+                    "title":"+34 91 795 82 03",
                     "text": "+34 91 795 82 03"
 
                 },
