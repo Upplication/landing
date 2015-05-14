@@ -49,12 +49,45 @@
             "accept_terms": "When you click the \"Try it now button\" you accept our",
             "loading": "Loading...",
             "terms": "terms and conditions",
+            "try_it": "Try it free, you have 15 days",
             "warning": {
                 "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
                 "password": "The minimum password length is 8 characters",
                 "ajax": "Uuups..., we had a small problem",
                 "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
             }
+        },
+        "improve_sales": {
+            "title": "Improve your sales",
+            "points": [
+                "Rise the incomes of your business",
+                "Sell from mobile devices",
+                "Improve the communication with your clients"
+            ]
+        },
+        "optimize": {
+            "title": "Optimize your business",
+            "points": [
+                {
+                    "title": "Customization",
+                    "icon": "customize",
+                    "desc": "An app allows you to be always in the pocket of your customer. Create a long relationship and improve your incomes."
+                },
+                {
+                    "title": "Personal tutor",
+                    "icon": "personal-tutor",
+                    "desc": "We help you at each step to create your app, you will have a person in charge of helpinh you at any moment."
+                },
+                {
+                    "title": "Multidevice",
+                    "icon": "multidevice",
+                    "desc": "With Upplication you will be able to create an iOS or Android app and a responsive web. We also publish your apps on Google Play and App Store for you."
+                }
+            ]
+        },
+        "support": {
+            "title": "We are here to help you!",
+            "desc": "Each and every one of the partners who make Upplication will make every effort to get you get the best support experience in our hands. If you have any problems you can count on us."
         },
         "multidevice": {
             "title": "App and multi-device site",
@@ -65,7 +98,7 @@
             "ios_alt": "Create your app with iOS"
         },
         "testimonials": {
-            "title": "What do clients say about us?",
+            "title": "What Clients Say about us?",
             "client1": {
                 "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
                 "name": "Ana, C,UP Your choice on top"
@@ -95,8 +128,8 @@
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
-        "try": "Try it, you have 15 days!",
-        "create_free": "Create my app for free"
+        "try": "Try it free for 15 days!",
+        "create_free": "Create my app"
     },
     "helpcenter": {
         "_url": "/help-center/",
@@ -172,16 +205,17 @@
         "customer_service": {
             "text": "Customer service",
             "phone": {
-                "link": "tel:+34915848983",
-                "title": "915 848 983",
-                "text": "Telf: 915.848.983"
+
+                "link": "tel:+34917958203",
+                "title": "+34 91 795 82 03",
+                "text": "tel: +34 91 795 82 03"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
                 "title": "soporte@upplication.com",
                 "text": "soporte@upplication.com"
             },
-            "schedule": "(Hours customer support Monday-Friday 10h-22h GMT+1)"
+            "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)"
         }
     },
     "about": {
@@ -195,10 +229,10 @@
         "about_us": {
             "about_us": "About us",
             "paragraphs": [
-                "Upplication is a startup born in 2012. Headquarters are located in Madrid (Spain). Current team is 10 people.",
-                "The platform was launched in beta phase in October 2013 as an apps builder. Every small and medium business can create a mobile app without coding (getting rid of technology barriers), in few minutes (ending with long processes), with do it yourself management and reducing costs (less than 5 euros/7 dollars month).",
-                "The key of this technology is the dashboard, simple and intuitive, so the creation and management process is quick and easy, resulting in beautiful apps, like any other in the apps stores like Google Play or App Store.",
-                "Upplication allows every business to sell its products on mobile devices: M-Commerce. 4,000 business have chosen Upplication as the tool to adapt their business to mobile marketing."
+                "Upplication is a Madrid based tech company specializing in the simplification of app creation.",
+                "Our platform was launched in beta phase in October 2013 as an app builder. The key to this technology is the dashboard, simple yet sophisticated, creation and management is made easy through innovative technology. Businesses have the luxury of creating mobile apps in minutes without the complications of coding. Upplication eliminates the long processes and high costs associated with app creation, and adds the benefit of do-it-yourself app management.",
+                "The key to this technology is the dashboard, simple yet sophisticated, creation and management is made easy through innovative technology. Upplication lets businesses of all types sell their valuable products on mobile devices in the App Store and Google Play.",
+                "Emphasizing on simplicity, Upplication is redefining app creation. Join our revolution with over 10,000 other successful businesses in mobile marketing success."
             ],
             "image_alt": "Upplication"
         },
@@ -237,7 +271,7 @@
             "the_data": "The data",
             "screen_alt": "App built with Upplication",
             "apps_created": "Apps created",
-            "num": "5,173"
+            "num": "14,573"
         },
         "video": {
             "play_alt": "Play Upplication intro"
@@ -346,7 +380,7 @@
     "external": {
         "blog": {
             "anchor": "Blog",
-            "url": "/blog"
+            "url": "http://blog.en.upplication.com"
         },
         "about": {
             "anchor": "About us",
@@ -362,7 +396,7 @@
         },
         "partners": {
             "anchor": "Become a partner",
-            "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
+            "url": "http://www.upplication.com/distributors/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
             "anchor": "We are hiring!",
@@ -370,7 +404,7 @@
         },
         "tos": {
             "anchor": "Terms and Conditions",
-            "url": "terms-of-service/"
+            "url": "@@config.base_path/terms/"
         },
         "tutorials": {
             "anchor": "Tutorials",
@@ -594,9 +628,11 @@
             "customer_service": {
                 "text": "Customer service:",
                 "phone": {
-                    "link": "tel:+34915848983",
-                    "title": "915.848.983",
-                    "text": "915.848.983"
+
+                    "link": "tel:+34917958203",
+                    "title":"+34 91 795 82 03",
+                    "text": "+34 91 795 82 03"
+
                 },
                 "email": {
                     "link": "mailto:soporte@upplication.com",
@@ -641,10 +677,10 @@
                 "name": "online-store",
                 "icon_class": "icon-online-store",
                 "title": "Your online store",
-                "description": "Create your mobile app so your clients can buy your products from their phone.",
+                "description": "Create a mobile app so your clients can buy products right from their phone.",
                 "features": [
                     "Integrate the payment gateway in a matter of minutes and start selling.",
-                    "Offer exclusive products and offer more value to your client.",
+                    "Offer exclusive products and more value to your clients.",
                     "Send push notifications with the best offers.",
                     "Your clients will carry your business in their pocket."
                 ],
@@ -657,8 +693,8 @@
                 "description": "Create the mobile app for your restaurant and offer value to your mobile client.",
                 "features": [
                     "Your clients will be able to book tables from their phone.",
-                    "Make home delivery of your products.",
-                    "Show discount coupons on the app.",
+                    "Offer deliver services at the touch of a button.",
+                    "Provide discounts on your App.",
                     "Send push alerts with exclusive offers."
                 ],
                 "url": "http://restaurantexample.upplication.com/"
@@ -667,9 +703,9 @@
                 "name": "bar-and-coffee",
                 "icon_class": "icon-bar-and-coffee",
                 "title": "Bar & coffee",
-                "description": "Create the mobile app of your bar or coffee shop and discover a new way of doing marketing.",
+                "description": "Create the mobile app for your bar or coffee shop and discover an innovative way to market your business.",
                 "features": [
-                    "Display the events you organise on your local.",
+                    "Display your local events.",
                     "Offer discount coupons to create engagement with your customers.",
                     "Make your menu accessible from any phone.",
                     "Send push notifications to keep your customers informed."
@@ -680,10 +716,10 @@
                 "name": "gym",
                 "icon_class": "icon-gym",
                 "title": "Gyms and sports hall",
-                "description": "Create the app of your gym and position your business at the forefront of technology.   ",
+                "description": "Create an app for your gym and put your business at the forefront of today’s technology.",
                 "features": [
-                    "Show schedules of your classes in the cell phone of your clients.",
-                    "Sell sport goods in your app.",
+                    "Provide class schedules right in the pocket of your clients",
+                    "Sell sporting goods directly from your app.",
                     "Send push notifications with news about your gym.",
                     "Ensure clients loyalty with exclusive offers in your app."
                 ],
@@ -716,11 +752,11 @@
                 "name": "music",
                 "icon_class": "icon-music",
                 "title": "Music",
-                "description": "Create an app of your band and make your fans happy.",
+                "description": "Create an app for your band and stay connected with your fans.",
                 "features": [
                     "Import music and videos and your fans will always have you in their phone.",
                     "Import the dates of your concerts and communicate them with push notifications.",
-                    "Sell merchandising goods through your app."
+                    "Sell Merchandise directly through your app."
                 ],
                 "url": "http://musicexample.upplication.com/"
             },
@@ -728,11 +764,11 @@
                 "name": "personal-app",
                 "icon_class": "icon-personal-app",
                 "title": "Personal app",
-                "description": "Create your own app and tell all your virtues.",
+                "description": "Create an app to depict all of your skills",
                 "features": [
                     "Show your C.V in an innovative way.",
-                    "Upload your best works and presentations.",
-                    "Make you personal contact available in a simple way."
+                    "Upload your best work and presentations.",
+                    "Make your contact information readily available.”"
                 ],
                 "url": "http://personalappexample.upplication.com/"
             },
@@ -740,11 +776,11 @@
                 "name": "tourism",
                 "icon_class": "icon-tourism",
                 "title": "Tourism",
-                "description": "Create the app of your city to help tourists.",
+                "description": "Create an app of your city to help tourists.",
                 "features": [
-                    "Insert maps which will help tourists to know the city.",
+                    "Insert maps to help tourists get to know the city”",
                     "Tell the story of your city with videos and photos.",
-                    "Recommend the best places to visit."
+                    "Offer recommendations for the best places to visit."
                 ],
                 "url": "http://tourismexample.upplication.com/"
             },
@@ -752,11 +788,11 @@
                 "name": "health",
                 "icon_class": "icon-health",
                 "title": "Health and beauty",
-                "description": "Create the app of your beauty center and make the life of your customers healthier.",
+                "description": "Create an app for all things beauty, and make the life of your clients healthier.",
                 "features": [
                     "Sell beauty products through the app.",
-                    "Create easy booking methods for your customers.",
-                    "Ensure loyalty trough sending push notifications to your clients.",
+                    "Make booking appointments much easier",
+                    "Ensure the loyalty of your clients by sending push notifications. ",
                     "Offer exclusive discounts though your app."
                 ],
                 "url": "http://healthbeautyexample.upplication.com/"
@@ -765,11 +801,11 @@
                 "name": "art",
                 "icon_class": "icon-art",
                 "title": "Art and Design",
-                "description": "Create an app with your own designs, do art.",
+                "description": "Create an app with your own designs",
                 "features": [
                     "Upload all your creations to the app.",
-                    "Tell the world when is going to be will be your next art exhibition.",
-                    "Offer exclusive content and communicate it with push notifications."
+                    "Tell the world when and where your next exhibition will be.",
+                    "Offer exclusive content through push notifications"
                 ],
                 "url": "http://musicexample.upplication.com/"
             },
@@ -777,11 +813,11 @@
                 "name": "media",
                 "icon_class": "icon-media",
                 "title": "Media & blogs",
-                "description": "Create the app of your media channel and be present for your readers anywhere.",
+                "description": "“Create an app for your media channel making you easily accessible from any smartphone",
                 "features": [
-                    "Show your news in an easy way.",
+                    "Easily Show your news and updates.",
                     "Use the app to improve your data and make your business profitable.",
-                    "Send push notifications with the most outstanding news."
+                    "Send push notifications with new videos and announcements"
                 ],
                 "url": "http://mediablogexample.upplication.com/"
             },
@@ -789,11 +825,11 @@
                 "name": "delivery",
                 "icon_class": "icon-delivery",
                 "title": "Home Delivery",
-                "description": "Create the app of your business and get the clients to ask for your home delivery products.",
+                "description": "Create an app for your business creating an easy method of home delivery.",
                 "features": [
-                    "Make your clients want your home delivery products and get them to pay from the app.",
-                    "Offer to your clients exclusive discounts if they pay from the app.",
-                    "Improve the communication with your clients through push notifications."
+                    "Provide a simple way for clients to order from your business",
+                    "Offer exclusive discounts to your clients with the option of paying right from their phone.",
+                    "-Easily communicate with your clients through push notifications."
                 ],
                 "url": "http://musicexample.upplication.com/"
             },
@@ -801,25 +837,25 @@
                 "name": "lifestyle",
                 "icon_class": "icon-lifestyle",
                 "title": "Lifestyle",
-                "description": "Create the app with your hobbies and passions.",
+                "description": "Create an app for your hobbies and passions.",
                 "features": [
-                    "Insert videos and content which show the love and passion for you hobby.",
-                    "Use the app to connect with other enthusiasts.",
-                    "Send push notifications to inform other users."
+                    "Insert pictures and videos on your favorite past times.",
+                    "Use the app to stay connected with other enthusiasts.",
+                    "Send push notifications to keep other users updated."
                 ],
                 "url": "http://waysoflifeexample.upplication.com/"
             }
         ]
     },
     "ono": {
-        "_url": "/ono-examples/",
+        "_url": "/vodafone-examples/",
         "_template": "ono",
         "_name": "Ono examples",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/",
-        "title": "Ono examples"
+        "title": "Vodafone examples"
     },
     "open_future": {
         "_url": "/mwc-open-future/",
@@ -838,5 +874,121 @@
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/"
+      },
+    "landing_test_1": {
+        "_url": "/landing-test/",
+        "_template": "landing_test_1",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "landing_test_2": {
+        "_url": "/landing-test2/",
+        "_template": "landing_test_2",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "home_tlf": {
+        "_url": "/home-en-tlf/",
+        "_template": "home_tlf",
+        "_name": "Home",
+        "_meta_title": "Create the app for your business",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app"
+    },
+    "terms": {
+        "_url": "/terms/",
+        "_template": "terms",
+        "_name": "Terms",
+        "_meta_title": "Terms of Service",
+        "_meta_description": "Terms of Service.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/build-your-app",
+        "title": "Terms of Service",
+        "legal": {
+            "title": "Legal Warning",
+            "paragraphs":[
+                "In compliance with the duty of disclosure contained in Article 10 of Law 34/2002 of July 11, of the Servicios de la Sociedad de la Información y de Comercio Electrónico (Information and E-commerce Society Services), we inform you that the URL www.upplication.com (hereinafter the PORTAL/WEBSITE) is a domain owned by UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (hereinafter the COMPANY) established in Glorieta Quevedo 7, 4º Izquieda, 28015 (Madrid).",
+                "All trademarks, trade names or distinctive signs of any kind that appear on the site are owned by the company or third parties, and it is understood that the use or access to the Site and/or services give the user no rights on the trademarks, trade names and/or distinctive signs.",
+                "Furthermore, all content published on the web, its graphic design, images, database, and source code are property of the company or third parties, not transferring to the user, under the provisions of this Legal Notice, any rights that exist or may exist in such content beyond what is considered to be necessary for the proper use of the site and the services provided through it.",
+                "The access to this website is the sole responsibility of the user. Simple access to the portal does not imply any commercial relationship between the company and the user.",
+                "By accessing to the website, the user accepts the terms and conditions described on the web portal/site."
+            ]
+        },
+
+        "privacy": {
+            "title": "Privacy Policy",
+            "paragraphs": [
+                "This policy applies to the www.upplication.com website (hereinafter, the PORTAL/SITE) and all services and products offered online/on the internet by UPPLICATION SOFTWARE TECHNOLOGIES, SL (hereinafter the COMPANY/ENTITY). This document outlines the type of personal information that the company/entity receives and collects when using the services of our web page.",
+                "The use of cookies, logs, links and other technologies are expected to be used to store the preferences of the user, in order to improve the quality of our services, ensure the technical functioning of the network, and develop new and better features. If cookies are disabled or rejected, some of the functions and/or services of the portal may not function properly.",
+                "In compliance with Article 5 of the 15/1999 Organic law, December 13th, regarding the Protection of Personal Data, which regulates the right of information in data gathering, we inform you that your personal data will be incorporated into a Personal Data File, owned by UPPLICATION SOFTWARE TECHNOLOGIES, S.L. as Responsible for the file, in order to maintain our contractual, commercial and professional relationship that link us to you, and also to send postal communications, telematics, or through other means, for specific events and occasions, or at certain times of the year, which may be of interest for the individual concerned.",
+                "In addition, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. guarantees the data owner the exercises of the rights of access, rectification, cancellation and opposition regarding their data, by written notice addressed to the following address:  Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid).",
+                "In any case, the data owner is informed and consents to the storage of such data under the rightful safety conditions and professional confidentiality, for the period that is necessary for the purpose for which they are collected.",
+                "The SITE/PORTAL has no control over the websites displayed as a result of your search, links or accesses made from our directory. These other websites may place their own cookies or ask for your personal information.",
+                "The COMPANY informs its registered users of the possibility to exercise their rights of access, cancellation, rectification and opposition regarding their personal data contained in the files of the COMPANY by written notice, along with a photocopy of the ID, and addressing it to UPPLICATION SOFTWARE TECHNOLOGIES, S.L. , to the following address : Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid).",
+                "These files are duly registered in the Registro de la Agencia Española de Protección de Datos (Spanish Agency for Data Protection)  and meet the Safety Measures required by the Real Decreto (Royal Legislative Decree) 1720/2007.",
+                "The concerned users are only allowed to use the PORTAL upon acceptance and compliance with the conditions set here, having to leave the site otherwise."
+            ]
+        },
+        "general":{
+            "title":"General Conditions of Use",
+            "subsections": [
+                {
+                    "title": "1. IDENTIFICATION OF THE PARTIES.",
+                    "paragraphs": [
+                        "The General Conditions of Use of the services offered in the URL www.upplication.com (hereinafter, the PORTAL/WEBSITE) are signed by the holder of the domain, UPPLICATION SOFTWARE TECHNOLOGIES, S.L., whose contact email is : hello@upplication.com",
+                        "We understand by USER : any individual that has the ability of effectively signing/suscribing a contract according to the applicable law.",
+                        "You may not use the website and may not accept the Terms if :",
+                        "You are not of legal age and cannot form a binding contract according to the law, or",
+                        " You cannot be considered a USER as described above."
+                    ]
+                },
+                {
+                    "title": "2. IMPROVEMENT OF AGREEMENT.",
+                    "paragraphs":[
+                        "In order to use the PORTAL, you must accept these terms and conditions (hereinafter Terms and Conditions), as well as those specific stipulations collected for the use and/or contracting of specific services.",
+                        "Otherwise, you must abandon the PORTAL.",
+                        "You can accept the Terms by :",
+                        "clicking on the “Accept” button of the Terms, when you are offered this option on the user interface, or",
+                        "using the website effectively. You acknowledge and accept that the use of the PORTAL is considered as the acceptance of the Terms.",
+                        "The USER is advised to read carefully these terms. You can save or print them if you wish."
+                    ]
+                },
+                {
+                    "title": "3. SCOPE OF APPLICATION.",
+                    "paragraphs":[
+                        "These general conditions shall apply to all services/products listed on the website : ",
+                        "www.upplication.com"
+                    ]
+                }
+            ]
+        },
+        "cookies":{
+            "title": "Cookies Policy",
+            "subsections": [
+                {
+                    "title": "HOW AND WHY DO WE USE COOKIES?:",
+                    "paragraphs": [
+                        "UPPLICATION SOFTWARE TECHNOLOGIES S.L.  (UPPLICATION) uses cookies on its websites (upplication.com, and any other sub-domain owned) to provide the most effective website to our customers. Among other things, Cookies allow us to remember the preferences and the use of specific tools and sections of our website. This Cookies Policy Section explains what Cookies are, how we use them, and how you will benefit from them. As you may know, a recent legislation requires that websites obtain consent from visitors in order to use certain cookies.",
+                        "UPPLICATION uses cookies in order to measure the behavior of the user both on our website (www.upplication.com) and any other sub-domain, as mentioned above. Through analytics, we are able to optimize our users experience within the tool.",
+                        "The Date is obtained through Google Analytics software. This software treats the obtained data and only UPPLICATION can access it. This data is confidential and will never be sold to another company. It will only be treated internally and will be monitored under the safety standards established by the law."
+                    ]
+                },
+                {
+                    "title": "MANAGING YOUR BROWSER’S COOKIES",
+                    "paragraphs":[
+                        "Most browsers on computers, smartphones, and other devices are enabled to accept cookies. If you wish to change your Cookie Preferences on this website, or any other website, you may access this in your browser settings. The “Help” feature of your browser will tell you how. We remind you that if you choose to block the use of certain cookies on our website, it may interfere with with its functionality.",
+                        "Whenever you visit one of our websites, the local jurisdictions require us to ask for your consent to set cookies on your device. We will always ask you before setting up a cookie with a banner on the bottom of the screen, which will disappear within 7 seconds after its appearance. After that time has elapsed, you will automatically be accepting cookies on your device."
+                    ]
+
+                }
+            ]
+        }
     }
 }

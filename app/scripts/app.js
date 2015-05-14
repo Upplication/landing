@@ -67,7 +67,9 @@ Zepto(function ($) {
             return function (data) {
                 if (data.success) {
                     Topic.fire("register-success");
-                    window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
+					window.setTimeout(function(){
+						window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
+					}, 400);
                 } else {
                     $(this).find("input").prop("disabled", false);
                     submit.val(submit.data("text"));
@@ -336,10 +338,14 @@ Zepto(function ($) {
         };
 
         // Switch between monthly and yearly billing
-        $('#billing-period-toggle').on('click', function () {
-            var self = $(this);
-            self.toggleClass('yearly');
-            self.attr('data-billing-period', self.hasClass('yearly')
+        var toggle = $('#billing-period-toggle');
+        toggle.unbind().on('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            toggle.toggleClass('yearly');
+
+            toggle.attr('data-billing-period', toggle.hasClass('yearly')
                 ? 'yearly' : 'monthly');
             monthly = !monthly;
             changePrices();

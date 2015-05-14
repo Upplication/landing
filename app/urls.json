@@ -9,5 +9,9 @@
     "showcase": "/views/showcase.jade",
     "ono": "/views/ono.jade",
     "open_future": "/views/open_future.jade",
-    "gd4f": "/views/gd4f.jade"
+    "gd4f": "/views/gd4f.jade",
+    "landing_test_1": "/views/landing_test_1.jade",
+    "landing_test_2": "/views/landing_test_2.jade",
+    "home_tlf": "/views/home_tlf.jade",
+    "terms": "/views/terms.jade"
 }
