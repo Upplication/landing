@@ -11,13 +11,11 @@ block vars
 block content
     script(type='text/javascript').
         $UPP.url = "#{$.home._url}";
-
-    section#register
+    
+    section#register.register-section
         div
-            .mobile
-                img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
             .claim.padding-top-2x.margin-bottom-2x.width-90.center
-                h1.uppercase.cwhite.acenter.bold #{home.register.claim}
+                h1.uppercase.cwhite.acenter #{home.register.claim}
                 p.big.acenter #{home.register.arguments}
             .video-container.acenter.margin-bottom-3x
                 a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
@@ -30,37 +28,56 @@ block content
                         input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
                         p.error.display-none
                             //| El nombre de la app ya está registrado
+                    
                     label(for="email")
                         input(type="email", name="email", placeholder="#{home.register.email}", required="required")
                         p.error.display-none
                             //| El email ya está registrado
+                    
                     label(for="password")
                         input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
                         p.error.display-none
                             //| La contraseña debe contener al menos 6 caracteres
+                    
                     input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-                    p.tos.acenter.italic !{home.register.accept_terms}
+                    
+                    div.announce.bg-cblack.acenter.btn.arrow-up-black
+                        | #{$.home.register.try_it}
+                    
+                    p.tos.acenter.italic !{home.register.accept_terms}&nbsp;
                         a(href="#{external.tos.url}") #{home.register.terms}
-
-    section#multidevice.bg-alabaster.padding.clearfix
+    
+    section#improve-sales.bg-alabaster.padding.clearfix
         .margin-bottom-2x.margin-top-2x
+            h1.acenter #{home.improve_sales.title}
 
-            .width-55.left
-                h1.acenter #{home.multidevice.title}
-                p.acenter.center
-                    | #{home.multidevice.text}
+        .margin-bottom-2x.margin-top-2x
+            ul
+                each point in home.improve_sales.points
+                    li
+                        span.tick.icon-check
+                        span #{point}
 
-            #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
-                img.screenshot-devices(src='#{localConfig.base_path}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
-
-            ul.so-available
-                li
-                    a.icon-html5(title="#{home.multidevice.html5_alt}")
-                li
-                    a.icon-apple(title="#{home.multidevice.ios_alt}")
-                li
-                    a.icon-android(title="#{home.multidevice.android_alt}")
-
+    section#optimize.bg-alabaster.padding.clearfix.padding-top-3x.padding-bottom-3x
+        .margin-bottom-2x.margin-top-2x
+            h1.acenter #{home.optimize.title}
+        
+        .margin-bottom-2x.margin-top-2x
+            ul
+                each point in home.optimize.points
+                    li(class="#{point.icon}")
+                        if (point.icon != 'multidevice')
+                            span(class="#{point.icon}")
+                        else
+                            span(class="#{point.icon}")
+                                span.icon-google_play
+                                    .path1
+                                    .path2
+                                    .path3
+                                    .path4
+                        h4 #{point.title}
+                        p #{point.desc}
+    
     section#showcase.min-bottom-space.min-top-space.padding.clearfix
         h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.showcase.title}
         div.container
@@ -68,20 +85,17 @@ block content
                 span(class="icon-arrow-left")
             button.slider-btn.next-btn.home-slider
                 span(class="icon-arrow-right")
-
             div#showcase-items.clearfix
                 each category, i in showcase.categories
                     div(class=i === 0 ? "showcase-item clearfix" : "showcase-item clearfix hidden", data-category="#{category.name}")
                         div.info-container
                             h2 #{category.title}
                             p #{category.description}
-
                             ul.features
                                 each feature in category.features
                                     li
                                         span.plus-icon +
                                         span #{feature}
-
                             ul.operating-systems
                                 li
                                     a(href="#{category.url}", target="_blank")
@@ -92,9 +106,33 @@ block content
                                 li
                                     a(href="#{category.url}", target="_blank", class="no-pointer-events")
                                         span.icon-android
-
                         div.phone-container.small
                             img(src="/images/sample_apps/#{category.name}.png", alt="#{category.title}")
+
+    section#plans.bottom-space.darky.bg-alabaster.clearfix.padding-top-3x.padding-bottom-3x
+        include pricing-plans-content
+    
+    section.padding.clearfix
+        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
+        ul.testimonials
+            li
+                blockquote.clearfix
+                    img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
+                    p #{home.testimonials.client1.cite}
+                    footer
+                        cite - #{home.testimonials.client1.name}
+            li
+                blockquote.clearfix
+                    img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
+                    p #{home.testimonials.client2.cite}
+                    footer
+                        cite - #{home.testimonials.client2.name}
+            li
+                blockquote.clearfix
+                    img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
+                    p #{home.testimonials.client3.cite}
+                    footer
+                        cite - #{home.testimonials.client3.name}
 
     section.bg-alabaster.padding.clearfix.padding-top-3x.padding-bottom-2x.press
         ul.acenter.margin-top-2x
@@ -120,28 +158,11 @@ block content
                 a(href="#{home.press.wwwhatsnew}", rel="nofollow")
                     img(src="#{localConfig.base_path}/images/press/wwwhatsnew.png", alt="wwwhatsnew")
 
-    section.padding.clearfix
-        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
-        ul.testimonials
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/ana.jpeg", alt="Ana, C'UP Your choice on top")
-                    p #{home.testimonials.client1.cite}
-                    footer
-                        cite - #{home.testimonials.client1.name}
-
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/david.jpeg", alt="David, Bar Trapatapa")
-                    p #{home.testimonials.client2.cite}
-                    footer
-                        cite - #{home.testimonials.client2.name}
-
-            li
-                blockquote.clearfix
-                    img(src="#{localConfig.base_path}/images/gabriel.jpeg", alt="Gabriel, Moto Urban")
-                    p #{home.testimonials.client3.cite}
-                    footer
-                        cite - #{home.testimonials.client3.name}
-
+    section#help.padding.clearfix.padding-top-3x.padding-bottom-2x
+        .container
+            img.width-49.left(src="#{localConfig.base_path}/images/support_team.png", alt="Support team")
+            div.width-49.right.info
+                h1 #{home.support.title}
+                p #{home.support.desc}
+    
     script(type='text/javascript', src='http://www.youtube.com/player_api')

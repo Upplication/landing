@@ -1,0 +1,28 @@
+extends base
+block vars
+    - var template = $.terms._template
+    - var title = $.terms._meta_title
+    - var description = $.terms._meta_description
+    - var keywords = $.terms._keywords
+    - var canonical = $.terms._canonical
+    - var cssClass = 'terms'
+block content
+    section
+        h2 #{terms.title}
+        div.container.margin
+            h1 #{terms.legal.title}
+            each paragraph in terms.legal.paragraphs
+                p #{paragraph}
+            h1 #{terms.privacy.title}
+            each paragraph in terms.privacy.paragraphs
+                p #{paragraph}
+            h1 #{terms.general.title}
+            each subsection in terms.general.subsections
+              h3 #{subsection.title}
+              each paragraph in subsection.paragraphs
+                    p #{paragraph}
+            h1 #{terms.cookies.title}
+            each subsections in terms.cookies.subsections
+              h3 #{subsections.title}
+              each paragraph in subsections.paragraphs
+                  p #{paragraph}
