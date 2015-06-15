@@ -17,58 +17,62 @@ var log = function (text) {
 var updateVisitInfo = function () {
     localStorage.numVisits = (parseInt(localStorage.numVisits) || 0) + 1;
 };
+
 /**
- * get the cookie value from a concrete key
- * @param c_name key
+ * Get the cookie value from a concrete key
+ * @param name Cookie name
  * @returns {String} val
  */
-var getCookie = function (c_name) {
-    var c_value = document.cookie;
-    var c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) {
-        c_start = c_value.indexOf(c_name + "=");
+var getCookie = function (name) {
+    var cookieValue = document.cookie,
+        start = cookieValue.indexOf(" " + name + "=");
+    if (start == -1) {
+        start = cookieValue.indexOf(name + "=");
     }
 
-    if (c_start == -1) {
-        c_value = null;
+    if (start == -1) {
+        cookieValue = null;
     } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
+        start = cookieValue.indexOf("=", start) + 1;
+        var end = cookieValue.indexOf(";", start);
+        if (end == -1) {
+            end = cookieValue.length;
         }
-        c_value = unescape(c_value.substring(c_start, c_end));
+        cookieValue = unescape(cookieValue.substring(start, end));
     }
-    return c_value;
+
+    return cookieValue;
 };
+
 /**
- * set a cookie with a key and a value.
+ * Set a cookie with a key and a value.
  * This cookie is for 10 years for the path / and the domain is not set and should pick up the current domain with subdmomain
- * @param c_name {String} key
- * @param c_value {String} value
+ * @param name {String} key
+ * @param value {String} value
  */
-var setCookie = function (c_name, c_value) {
-    var CookieDate = new Date;
+var setCookie = function (name, value) {
+    var CookieDate = new Date,
+        domain = '';
     CookieDate.setFullYear(CookieDate.getFullYear() + 10);
-    var domain = "";
 
     if ($UPP.localConfig.env != "DES") {
         domain = " ;domain=" + document.domain;
     }
-    var aux = c_name + "=" + c_value + "; expires=" + CookieDate.toGMTString() + ";path=/"; //+ domain + ";path=/";
-    log("aux=" + aux);
-    document.cookie = aux;
+
+    var cookie = name + "=" + value + "; expires=" + CookieDate.toGMTString() + ";path=/"; //+ domain + ";path=/";
+    log("cookie=" + cookie);
+    document.cookie = cookie;
 };
 
 var checkLanguage = function () {
-    var lang_cookie = getCookie("ppl_language"),
-        location, browser_lang, lang;
+    var langCookie = getCookie("ppl_language"),
+        location, browserLang, lang;
 
-    if (lang_cookie) {
+    if (langCookie) {
         //CHECK IF CURRENT LANG != LANG COOKIE
-        if (lang_cookie.substring(0, 2) !== current_lang.substring(0, 2)) {
+        if (langCookie.substring(0, 2) !== current_lang.substring(0, 2)) {
             //Redirect to lang cookie version
-            location = routing[view][lang_cookie];
+            location = routing[view][langCookie];
 
             log("Hay cookie -> " + location);
             log("Routing -> " + routing);
@@ -78,13 +82,13 @@ var checkLanguage = function () {
             }
         }
     } else {
-        browser_lang = window.navigator.userLanguage || window.navigator.language;
+        browserLang = window.navigator.userLanguage || window.navigator.language;
         //CHECK BROWSER PREFERENCES
-        if (browser_lang !== current_lang.substring(0, 2)) {
+        if (browserLang !== current_lang.substring(0, 2)) {
             //TODO: improve this , not manually
             //Redirect to browser lang
             lang = "";
-            if (browser_lang == "es") {
+            if (browserLang == "es") {
                 lang = "es_ES";
                 setCookie("ppl_language", "es-ES");
             } else {
