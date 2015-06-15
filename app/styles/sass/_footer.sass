@@ -29,6 +29,8 @@
     text-decoration: none
   p
     color: $jungle-green
+    margin-top: 1.5em
+    padding-bottom: 1.5em
 
   hr
     width: 100%
@@ -43,6 +45,12 @@
   position: absolute
   left: calc(100% - 134px)
   bottom: 7px
+  
+img.fedr-logo
+  max-width: 200px
+  position: absolute
+  left: 0
+  bottom: 9px
 
 //Tablet layout
 $column-width: 12em
@@ -61,3 +69,13 @@ $column-width: 12em
 
     ul li
       font-size: 0.7rem
+      
+@media all and (max-width: 700px)
+  img.fedr-logo, .mixpanel-logo
+    position: static
+    margin: 0 auto
+    text-align: center
+    display: block
+    
+  img.fedr-logo
+    padding: 15px
