@@ -1,6 +1,6 @@
 {
     "name": "landing",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "dependencies": {
         "zepto": "~1.1.2",
         "zeptojs": "~1.1.3",
