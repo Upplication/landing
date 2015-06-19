@@ -244,7 +244,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // bower:js
         // endbower
         // build:js({.tmp,app}) /scripts/app.min.js
-        script(type='text/javascript')
+        script(type='text/javascript').
             $("#seller-code").hide()
             $("[name=customerType]").val("MPAY")
         script(type="text/javascript", src='/scripts/ua.js')
