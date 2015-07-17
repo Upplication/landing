@@ -471,6 +471,14 @@
             "anchor": "Prácticas de marketing",
             "url": "@@config.base_path/oferta-practicas-marketing/"
         },
+        "hiring_frontend":{
+            "anchor":"Frontend Developer",
+            "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+        },
+        "hiring_backend":{
+            "anchor":"Backend Developer",
+            "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+        },
         "nubo": {
             "anchor": "NUBO",
             "url": "http://www.ono.es/microsite-nubo/nubo-upplication/"
