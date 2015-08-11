@@ -1,0 +1,121 @@
+@import "fonts"
+@import "colors"
+@import "mixins"
+@import "variables"
+
+@include at-breakpoint($tablet-bp $desktop-columns)
+  $column-width: 12em
+@include at-breakpoint($desktop-bp $desktop-columns)
+  $column-width   : 7em
+
+#content.team
+  & > section
+    & > *
+      @include container
+      max-width: 71em !important
+
+section
+  h2
+    font-size: 2.4em
+    text-align: center
+    line-height: 1.3em
+    font-weight: 300
+    padding: 1em 0 1.5em
+
+h1
+  font-size: 1.8em
+
+a.join
+  width: 100%
+  display: block
+  margin: 3rem 0 4rem
+  padding: 10px
+
+.team
+  margin-bottom: 2em
+  li
+    width: 100%
+    margin-bottom: 40px
+    float: left
+    img,
+    p,
+    footer
+      float: none
+
+    p
+      text-align: center
+      font-size: .8em
+
+    p.name
+      font-size: 21px
+      font-weight: 300
+      color: $jade
+      line-height: 120%
+
+    p.job
+      font-size: 17px
+      font-weight: 400
+      color: $dusty-gray
+      line-height: 120%
+      margin-top: 2px
+
+    div.info
+      background-color: $jade
+      width: 243px
+      height: 243px
+      border-radius: 243px
+      margin-bottom: -243px
+      margin-left: auto
+      margin-right: auto
+      opacity: 0
+      padding: 45px
+      text-align: center
+      color: $white
+      &:hover
+        opacity: 1   
+        -webkit-transition: opacity .5s ease-in-out
+        -moz-transition: opacity .5s ease-in-out
+        -ms-transition: opacity .5s ease-in-out
+        -o-transition: opacity .5s ease-in-out
+        transition: opacity .5s ease-in-out
+      img
+        background: $white
+        padding: 2px
+        margin: 5px
+        border-radius: 5px
+      p
+        margin-bottom: 10px 
+        height: 110px 
+    
+    &:nth-child(even) img
+      float: none
+
+    &:last-child
+      margin-right: 0
+
+    img.photo
+      margin: 0 auto 1.5em
+      display: block
+      position: relative
+      z-index: -1
+
+  ////Mobile layout
+  ///******************************************************
+  @include at-breakpoint($mobile-columns $desktop-bp)
+    .team
+      li
+        width: 100%
+
+  ////Tablet layout
+  ///******************************************************
+  @include at-breakpoint($tablet-bp $desktop-columns)
+    .team
+      li
+        width: 50%
+
+  //Desktop layout
+  ///******************************************************
+  @include at-breakpoint($desktop-bp $desktop-columns)
+    .team
+      li
+        width: 33%

@@ -131,6 +131,18 @@
         "try": "Try it free for 15 days!",
         "create_free": "Create my app"
     },
+    "team": {
+        "_url": "/team/",
+        "_template": "team",
+        "_name": "Team",
+        "_meta_title": "See our team",
+        "_meta_description": "Meet the people that is behind Upplication.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/team",
+        "title": "The team behind Upplication",
+        "description": "Personal or professional description bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+        "join": "Join to the team!"
+    },
     "helpcenter": {
         "_url": "/help-center/",
         "_template": "helpcenter",
