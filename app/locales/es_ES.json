@@ -131,6 +131,18 @@
         "try": "¡Pruébalo, tienes 15 días!",
         "create_free": "Crear mi app gratis"
     },
+    "team": {
+        "_url": "/equpo/",
+        "_template": "team",
+        "_name": "Equipo",
+        "_meta_title": "Conoce a nuestro equipo",
+        "_meta_description": "Conoce a la gente que está detras de Upplication.",
+        "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/equipo",
+        "title": "El equipo detrás de Upplication",
+        "description": "Descripción personal o profesional bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+        "join": "¡Unete al equipo!"
+    },
     "helpcenter": {
         "_url": "/centro-de-ayuda/",
         "_template": "helpcenter",

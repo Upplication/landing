@@ -1,0 +1,79 @@
+extends base
+
+block vars
+    - var template = $.team._template
+    - var title = $.team._meta_title
+    - var description = $.team._meta_description
+    - var keywords = $.team._keywords
+    - var canonical = $.team._canonical
+    - var cssClass = 'team'
+
+block content
+    script(type='text/javascript').
+        $UPP.url = "#{$.team._url}";
+
+    section.padding.clearfix
+        h2 #{team.title}
+        ul.team
+            li
+                div.info 
+                    p #{$.team.description}
+                    a(href='http://www.linkedin.com/in/joseluisvds',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/linkedin_blue.png')
+                    a(href='https://twitter.com/joseluisVdS',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/twitter_blue.png')
+                img.photo(src='#{localConfig.base_path}/images/team/jose1.png',alt='José Luis Vega de Seoane Barona')
+                p.name José Luis Vega de Seoane Barona
+                p.job Cofundador & CEO
+            li
+                div.info 
+                    p #{$.team.description}
+                    a(href='http://www.linkedin.com/in/juansiciliamartinez',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/linkedin_blue.png')
+                    a(href='https://twitter.com/Juan_Sicilia',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/twitter_blue.png')
+                img.photo(src='#{localConfig.base_path}/images/team/juan1.png',alt='Juan Sicilia Martínez')
+                p.name Juan Sicilia Martínez
+                p.job Cofundador & Product Manager
+            li
+                div.info 
+                    p #{$.team.description}
+                    a(href='http://www.linkedin.com/in/victorrodadofrutos',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/linkedin_blue.png')
+                    a(href='https://twitter.com/rodadofrutos',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/twitter_blue.png')
+                img.photo(src='#{localConfig.base_path}/images/team/victor1.png',alt='Victor Rodado Frutos')
+                p.name Victor Rodado Frutos
+                p.job Cofundador & CMO
+            li
+                div.info 
+                    p #{$.team.description}
+                    a(href='http://www.linkedin.com/in/javierarnaizgonzalez',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/linkedin_blue.png')
+                    a(href='https://twitter.com/arnaix',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/twitter_blue.png')
+                img.photo(src='#{localConfig.base_path}/images/team/javier1.png',alt='Javier Arnáiz González')
+                p.name Javier Arnáiz González
+                p.job CTO
+            li
+                div.info 
+                    p #{$.team.description}
+                    a(href='http://www.linkedin.com/pub/bel%C3%A9n-fern%C3%A1ndez-p%C3%A9rez/85/48a/649',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/linkedin_blue.png')
+                    a(href='https://twitter.com/BeeleenFP',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/twitter_blue.png')
+                img.photo(src='#{localConfig.base_path}/images/team/foto-equipo-belen.png',alt='Belén Fernández Pérez')
+                p.name Belén Fernández Pérez
+                p.job Soporte y Ventas
+            li
+                div.info 
+                    p #{$.team.description}
+                    a(href='http://www.linkedin.com/pub/manuel-albarr%C3%A1n-codesido/34/281/591',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/linkedin_blue.png')
+                    a(href='https://twitter.com/manualbarran',target='_blank')
+                        img(src='#{localConfig.base_path}/images/icons/twitter_blue.png')
+                img.photo(src='#{localConfig.base_path}/images/team/foto-chico.png',alt='Manuel Albarrán')
+                p.name Manuel Albarrán
+                p.job Marketing y Comunicación
+
+        a.wide.btn.bold.inline-block.join.green-accent-btn(href="#{localConfig.base_path}/jobs/") #{$.team.join}
