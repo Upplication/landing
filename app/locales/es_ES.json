@@ -1258,5 +1258,70 @@
             }
           ]
         }
+    },
+    "team": {
+        "_url": "/equipo/",
+        "_template": "team",
+        "_name": "Equipo",
+        "_meta_title": "El equipo de Upplication",
+        "_meta_description": "Conoce al equipo de Upplication",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/equipo",
+        "members" : [
+            {
+               "name": "José Luis Vega de Seoane Barona",
+               "charge": "Cofundador & CEO",
+               "photo": "/images/team/jose1.png",
+               "header": "/images/header_desktop.jpeg",
+               "motto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies nunc sit amet nibh imperdiet lobortis.",
+               "linkedin": "http://www.linkedin.com/in/joseluisvds",
+               "twitter": "https://twitter.com/joseluisVdS"
+            },
+            {
+               "name": "Juan Sicilia Martínez",
+               "charge": "Cofundador & Product Manager",
+               "photo": "/images/team/juan1.png",
+               "header": "/images/header_desktop.jpeg",
+               "motto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies nunc sit amet nibh imperdiet lobortis.",
+               "linkedin": "http://www.linkedin.com/in/juansiciliamartinez",
+               "twitter": "https://twitter.com/Juan_Sicilia"
+            },
+            {
+               "name": "Victor Rodado Frutos",
+               "charge": "Cofundador & CMO",
+               "photo": "/images/team/victor1.png",
+               "header": "/images/header_desktop.jpeg",
+               "motto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies nunc sit amet nibh imperdiet lobortis.",
+               "linkedin": "http://www.linkedin.com/in/victorrodadofrutos",
+               "twitter": "https://twitter.com/rodadofrutos"
+            },
+            {
+               "name": "Javier Arnáiz González",
+               "charge": "CTO",
+               "photo": "/images/team/javier1.png",
+               "header": "/images/header_desktop.jpeg",
+               "motto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies nunc sit amet nibh imperdiet lobortis.",
+               "linkedin": "http://www.linkedin.com/in/javierarnaizgonzalez",
+               "twitter": "https://twitter.com/arnaix"
+            },
+            {
+               "name": "Belén Fernández Pérez",
+               "charge": "Soporte y Ventas",
+               "photo": "/images/team/belen1.png",
+               "header": "/images/header_desktop.jpeg",
+               "motto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies nunc sit amet nibh imperdiet lobortis.",
+               "linkedin": "http://www.linkedin.com/pub/bel%C3%A9n-fern%C3%A1ndez-p%C3%A9rez/85/48a/649",
+               "twitter": "https://twitter.com/BeeleenFP"
+            },
+            {
+               "name": "Manuel Albarrán",
+               "charge": "Marketing y Comunicación",
+               "photo": "/images/team/manuel1.png",
+               "header": "/images/header_desktop.jpeg",
+               "motto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies nunc sit amet nibh imperdiet lobortis.",
+               "linkedin": "http://www.linkedin.com/pub/manuel-albarr%C3%A1n-codesido/34/281/591",
+               "twitter": "https://twitter.com/manualbarran"
+            }
+        ]
     }
 }

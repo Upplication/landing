@@ -1,0 +1,94 @@
+$photo-width: 30%;
+$photo-top: 0.5;
+$header-height: 100px;
+$header-margin: 10px;
+
+.team-member {
+	width: 31%;
+	margin: 1%;
+	float: left;
+	position: relative;
+	background-color: #ddd;
+	box-shadow: 0px 0px 5px #ccc;
+
+	> * {
+		border: 1px solid #ccc;
+	}
+
+	.header {
+		height: 100px;
+		background-size: cover;
+		width: 100%;
+		margin-bottom: $header-margin;
+	}
+
+	.photo {
+		width: $photo-width;
+		position: absolute;
+		top: calc(#{$photo-top} * #{$header-height});
+		left: calc((100% - #{$photo-width}) / 2);
+		border-radius: 100%;
+		border: 5px solid #FFF;
+	}
+
+	.profile {
+		padding: 0 2%;
+		padding-top: calc(#{$photo-width} / 2 + 1%);
+		padding-bottom: 1%;
+		background-color: #fff;
+		text-align: center;
+
+		.name {
+			font-weight: 600;
+		}
+
+		.charge {
+			font-size: 80%;
+		}
+
+		.motto {
+			font-size: 70%;
+			font-weight: 300;
+			font-style: italic;
+			margin: 5px 0;
+		}
+
+		.social {
+			margin-top: 10px;
+
+			a {
+				display: inline-block;
+				width: 20px;
+				line-height: 20px;
+				margin: 0 5px;
+				color: #fff;
+				border-radius: 100%;
+				overflow: hidden;
+				background-color: #aaa;
+				text-decoration: none;
+			}
+
+			.twitter {
+				background-color: #299BD2;
+			}
+
+			.linkedin {
+				background-color: #006783;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 1190px) {
+	.team-member {
+		width: 48% !important;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.team-member {
+		width: 100% !important;
+		float: none !important;
+		margin: 5% 0;
+	}
+}
