@@ -206,9 +206,9 @@
             "text": "Customer service",
             "phone": {
 
-                "link": "tel:+34917958203",
-                "title": "+34 91 795 82 03",
-                "text": "tel: +34 91 795 82 03"
+                "link": "tel:810512370",
+                "title": "810 512 370",
+                "text": "tel: 810 512 370 (free)"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
@@ -637,9 +637,9 @@
                 "text": "Customer service:",
                 "phone": {
 
-                    "link": "tel:+34917958203",
-                    "title":"+34 91 795 82 03",
-                    "text": "+34 91 795 82 03"
+                    "link": "tel:810512370",
+                    "title":"810 512 370",
+                    "text": "810 512 370 (free)"
 
                 },
                 "email": {
