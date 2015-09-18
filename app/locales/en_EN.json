@@ -462,6 +462,10 @@
             "anchor": "Login",
             "url": "@@config.dashboard_base_path/web"
         },
+        "aplicateca": {
+            "anchor": "Login",
+            "url": "http://www.aplicateca.es"
+        },
         "hiring_developer": {
             "anchor": "Prácticas de desarrollador",
             "url": "@@config.base_path/offer-trainee-developer/"
@@ -509,6 +513,185 @@
         "most_popular_plan": "Most popular plan",
         "permanency": "* This plan has a 3 months permanency",
         "iva_included": "IVA inc.",
+        "plans": [
+            {
+                "name": "Basic",
+                "class_name": "plan-basic",
+                "price": "9.95",
+                "price_dollars": "9.90",
+                "price_yearly": "99.50",
+                "price_yearly_dollars": "99.00",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "Upplication ads"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "Signature on templates"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "<span class=\"bold\">No</span><span>alerts</span>"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Statistics of your app"
+                    }
+                ],
+                "btn_class": "btn-grey"
+            },
+            {
+                "name": "Professional",
+                "class_name": "plan-professional",
+                "price": "29.95",
+                "price_dollars": "29.90",
+                "price_yearly": "299.50",
+                "price_yearly_dollars": "299.00",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "<span class=\"bold\">No</span><span> upplication ads</span>"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "4 alerts / month"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Statistics of your app"
+                    }
+                ],
+                "btn_class": "btn-green"
+            },
+            {
+                "name": "Premium",
+                "class_name": "plan-premium",
+                "price": "59.95",
+                "price_dollars": "59.90",
+                "price_yearly": "599.50",
+                "price_yearly_dollars": "599.00",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "<span class=\"bold\">No</span><span>publicidad Upplication</span>"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "Unlimited alerts"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Statistics of your app"
+                    }
+                ],
+                "btn_class": "btn-grey"
+            }
+        ],
+        "special_plans": [
+            {
+                "name": "Starter",
+                "price": "4.95",
+                "price_dollars": "4.90",
+                "price_yearly": "49.50",
+                "price_yearly_dollars": "49.00",
+                "features": [
+                    "No statistics",
+                    "No app for iPhone and iPad",
+                    "Upplication ads",
+                    "Signature on templates",
+                    "No alerts"
+                ],
+                "btn_text": "Free trial",
+                "has_permanency": false
+            },
+            {
+                "name": "Unlimited *",
+                "price": "299.95",
+                "price_dollars": "299.90",
+                "price_yearly": "2999.50",
+                "price_yearly_dollars": "2999.00",
+                "features": [
+                    "All advantages from premium plan",
+                    "We help you with the design of your app",
+                    "We promote your app"
+                ],
+                "btn_text": "Leave us your data",
+                "has_permanency": true
+            }
+        ],
+        "month": "month",
+        "year": "year",
+        "free_trial": "Free trial",
+        "custom_app": {
+            "title": "We make your 'made-to-measure' app",
+            "subtitle": "Contact us and we will explain you how we do it.",
+            "btn": "Contact us"
+        },
+        "contact": {
+            "customer_service": {
+                "text": "Customer service:",
+                "phone": {
+
+                    "link": "tel:810512370",
+                    "title":"810 512 370",
+                    "text": "810 512 370 (free)"
+
+                },
+                "email": {
+                    "link": "mailto:soporte@upplication.com",
+                    "title": "soporte@upplication.com",
+                    "text": "soporte@upplication.com"
+                }
+            }
+        },
+        "all_plans_include": {
+            "title": "All plans include",
+            "list": [
+                {
+                    "icon": "icon-support",
+                    "text": "Customer support by phone and chat"
+                },
+                {
+                    "icon": "icon-markets",
+                    "text": "<span>Automatic upload to markets, </span><span class=\"bold\">we upload your app</span>"
+                },
+                {
+                    "icon": "icon-web-responsive",
+                    "text": "Multidevice responsive web"
+                },
+                {
+                    "icon": "icon-tutor",
+                    "text": "Customized tutor"
+                }
+            ]
+        }
+    },
+    "prices_aplicateca": {
+        "_url": "/prices-aplicateca/",
+        "_template": "prices_aplicateca",
+        "_name": "Pricing plans",
+        "_meta_title": "Pricing plans",
+        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/prices-aplicateca/",
+        "title": "Pricing plans",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "euro": "€",
+        "dollar": "$",
+        "os_list": "Android / iPhone / iPad / Web",
+        "most_popular_plan": "Most popular plan",
+        "permanency": "* This plan has a 3 months permanency",
+        "iva_included": "VAT not inc.",
         "plans": [
             {
                 "name": "Basic",

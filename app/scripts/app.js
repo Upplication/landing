@@ -464,8 +464,10 @@ Zepto(function ($) {
             closers[i].addEventListener('click', closeSignupScreen);
         }
 
-        document.getElementById('seller-code').addEventListener('click', showSellerForm);
-        document.getElementById('without-seller-code').addEventListener('click', hideSellerForm);
+        var sellerCode = document.getElementById('seller-code');
+        sellerCode && sellerCode.addEventListener('click', showSellerForm);
+        var withoutSellerCode = document.getElementById('without-seller-code');
+        withoutSellerCode && withoutSellerCode.addEventListener('click', hideSellerForm);
     });
 
 })(window, document);

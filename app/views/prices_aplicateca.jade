@@ -1,0 +1,117 @@
+extends base/aplicateca/base
+
+block vars
+    - var template = $.prices_aplicateca._template
+    - var title = $.prices_aplicateca._meta_title
+    - var description = $.prices_aplicateca._meta_description
+    - var keywords = $.prices_aplicateca._keywords
+    - var canonical = $.prices_aplicateca._canonical
+    - var cssClass = 'prices'
+
+block content
+    section#plans.bottom-space.darky
+        script(type='text/javascript').
+            $UPP.url = "#{$.prices_aplicateca._url}";
+            $UPP.month = "#{$.prices_aplicateca.month}";
+            $UPP.year = "#{$.prices_aplicateca.year}";
+            $UPP.euro = "#{$.prices_aplicateca.euro}";
+            $UPP.dollar = "#{$.prices_aplicateca.dollar}";
+            $UPP.pricesEuro = [
+                "#{$.prices_aplicateca.plans[0].price}",
+            "#{$.prices_aplicateca.plans[1].price}",
+            "#{$.prices_aplicateca.plans[2].price}",
+            "#{$.prices_aplicateca.special_plans[0].price}",
+            "#{$.prices_aplicateca.special_plans[1].price}"
+            ];
+            $UPP.pricesDollars = [
+            "#{$.prices_aplicateca.plans[0].price_dollars}",
+            "#{$.prices_aplicateca.plans[1].price_dollars}",
+            "#{$.prices_aplicateca.plans[2].price_dollars}",
+            "#{$.prices_aplicateca.special_plans[0].price_dollars}",
+            "#{$.prices_aplicateca.special_plans[1].price_dollars}"
+            ];
+            $UPP.pricesEuroYear = [
+            "#{$.prices_aplicateca.plans[0].price_yearly}",
+            "#{$.prices_aplicateca.plans[1].price_yearly}",
+            "#{$.prices_aplicateca.plans[2].price_yearly}",
+            "#{$.prices_aplicateca.special_plans[0].price_yearly}",
+            "#{$.prices_aplicateca.special_plans[1].price_yearly}"
+            ];
+            $UPP.pricesDollarsYear = [
+            "#{$.prices_aplicateca.plans[0].price_yearly_dollars}",
+            "#{$.prices_aplicateca.plans[1].price_yearly_dollars}",
+            "#{$.prices_aplicateca.plans[2].price_yearly_dollars}",
+            "#{$.prices_aplicateca.special_plans[0].price_yearly_dollars}",
+            "#{$.prices_aplicateca.special_plans[1].price_yearly_dollars}"
+            ];
+
+        div.container
+            h2 #{prices_aplicateca.title}
+
+            div.plans
+                each plan in prices_aplicateca.plans
+                    div.plan(class="#{plan.class_name}")
+                        div.plan-header
+                            h3 #{plan.name}
+                            div.price
+                                span(class="price") #{plan.price}
+                                span(class="price-details")
+                                    span(class="currency") #{prices_aplicateca.euro}
+                                    span(class="period") #{prices_aplicateca.month}
+                                    span(class="notice") #{prices_aplicateca.iva_included}
+                            if plan.class_name == 'plan-professional'
+                                span.most-popular #{prices_aplicateca.most_popular_plan}
+
+                        div.plan-features
+                            div.os-list
+                                span.icon-ios
+                                span.icon-android
+                                span.icon-laptop
+                            span.os-list #{prices_aplicateca.os_list}
+
+                            ul
+                                each feature in plan.features
+                                    li
+                                        span(class="#{feature.icon_class}")
+                                        span.feature-title !{feature.title}
+
+                            a(class="btn #{plan.btn_class}", href="https://www.aplicateca.es/") #{prices_aplicateca.free_trial}
+                div.clear
+
+            div.special-plans
+                each plan in prices_aplicateca.special_plans
+                    div.plan
+                        h3 #{plan.name}
+                        div.price
+                            span(class="price") #{plan.price}
+                            span(class="price-details")
+                                span(class="currency") #{prices_aplicateca.euro}
+                                span(class="period") #{prices_aplicateca.month}
+                                span(class="notice") #{prices_aplicateca.iva_included}
+                        ul
+                            each feature in plan.features
+                                li #{feature}
+                        a.btn.btn-grey(href="https://www.aplicateca.es/") #{plan.btn_text}
+                        if plan.has_permanency
+                            span.acenter.font-size-9px.block.margin-top-2x #{prices.permanency}
+                div.clear
+
+            div.clear
+
+            div.custom-app
+                div
+                    div
+                        h2 #{prices_aplicateca.custom_app.title}
+                        h3 #{prices_aplicateca.custom_app.subtitle}
+                    div
+                        a.btn.btn-grey(href="mailto:aplicateca@upplication.com") #{prices_aplicateca.custom_app.btn}
+
+    section#all-plans-include.bottom-space
+        div.container
+            h2 #{$.prices_aplicateca.all_plans_include.title}
+
+            ul.plans-features
+                each feature in prices.all_plans_include.list
+                    li
+                        span(class="#{feature.icon}")
+                        span !{feature.text}

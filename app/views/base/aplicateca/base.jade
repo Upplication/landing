@@ -66,29 +66,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                 #content(class="#{cssClass}")
                     block content
 
-                #dark-layout
-
-                section.bg-alabaster.padding.clearfix.padding-top-4x.padding-bottom-4x.acenter
-                    h1.inline-block.no-margin #{home.try}
-                    a.wide.btn.bold.inline-block.triggers-signup.margin-left-2x.green-accent-btn(href="#", onclick="return false") #{home.create_free}
-
-                .footer-container
-                    section
-                        .contact__customer-service.margin-top-cero.margin-bottom-cero.large.acenter
-                            .g-plusone.vertical-align-middle
-                            .customer-service__text.inline-block.vertical-align-top.padding-4px #{prices.contact.customer_service.text}
-                            .customer-service__links.inline-block.vertical-align-top.padding-4px
-                                a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
-                                span &nbsp;-
-                                a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
-                    hr.clear
-                    #cookies
-                        p !{footer.cookies}
-                            span.close(onclick="closeCookies()") X
-                    include footer
-
-        include signup
-
         //-script(src='/bower_components/zeptojs/src/touch.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')

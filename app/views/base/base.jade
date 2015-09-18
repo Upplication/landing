@@ -1,0 +1,104 @@
+doctype
+//if lt IE 7
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="#{lang_html}" prefix="og: http://ogp.me/ns#">
+//if IE 7
+  <html class="no-js lt-ie9 lt-ie8" lang="#{lang_html}" prefix="og: http://ogp.me/ns#">
+//if IE 8
+  <html class="no-js lt-ie9" lang="#{lang_html}" prefix="og: http://ogp.me/ns#">
+//[if gt IE 8]><!
+html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
+    //<![endif]
+    block vars
+    head
+        include scripts
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        
+        title #{title}
+
+        meta(name='description', content='#{description}')
+        meta(name='keywords', content='#{keywords}')
+
+        meta(name='viewport', content='width=device-width')
+        meta(name="google-site-verification", content="juFFMSMoqmlI8iFOJJs3EE2tObAcgyeywGbfKBrTXrU")
+
+        meta(property='og:locale', content='es_ES')
+        meta(property='og:type', content='article')
+        meta(property='og:title', content='#{title}')
+        meta(property='og:description', content='#{description}')
+        meta(property='og:url', content='http://upplication.com/')
+        meta(property='og:site_name', content='Upplication')
+        meta(property='og:image', content='/images/upplication_rrss.png')
+
+        meta(name="twitter:card", content="summary")
+        meta(name="twitter:site", content="@upplication")
+        meta(name="twitter:domain", content="Upplication")
+        meta(name="twitter:creator", content="@upplication")
+        meta(name="twitter:image:src", content="/images/upplication_rrss.png")
+
+        link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
+        link(rel="canonical", href="#{canonical}")
+        link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
+
+        // build:css({.tmp, app}) /styles/main.min.css
+        link(rel='stylesheet', href='/styles/main.css')
+        // endbuild   
+
+        link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
+        link(rel="profile", href="http://gmpg.org/xfn/11")
+        
+        link(rel='stylesheet', href='#{localConfig.base_path}/fonts/style.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
+    
+    body(id="#{template}", data-lang="#{lang}")
+        //data = langs = #{data}! = #{langs}!
+        nav.nav-basement
+            ul.nav-basement-options.unstyled.margin-top.change-lang
+                include header-links
+
+        .outer-wrap
+
+            #main-container.slide-pannel.effects
+                .header-container
+                    include header
+
+                #content(class="#{cssClass}")
+                    block content
+
+                #dark-layout
+
+                section.bg-alabaster.padding.clearfix.padding-top-4x.padding-bottom-4x.acenter
+                    h1.inline-block.no-margin #{home.try}
+                    a.wide.btn.bold.inline-block.triggers-signup.margin-left-2x.green-accent-btn(href="#", onclick="return false") #{home.create_free}
+
+                .footer-container
+                    section
+                        .contact__customer-service.margin-top-cero.margin-bottom-cero.large.acenter
+                            .g-plusone.vertical-align-middle
+                            .customer-service__text.inline-block.vertical-align-top.padding-4px #{prices.contact.customer_service.text}
+                            .customer-service__links.inline-block.vertical-align-top.padding-4px
+                                a.customer-service__phone(href="#{prices.contact.customer_service.phone.link}", title="#{prices.contact.customer_service.phone.title}") #{prices.contact.customer_service.phone.text}
+                                span &nbsp;-
+                                a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
+                    hr.clear
+                    #cookies
+                        p !{footer.cookies}
+                            span.close(onclick="closeCookies()") X
+                    include footer
+
+        include ../signup
+
+        //-script(src='/bower_components/zeptojs/src/touch.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
+        // bower:js
+        // endbower
+
+        // build:js({.tmp,app}) /scripts/app.min.js
+        script(type="text/javascript", src='/scripts/ua.js')
+        script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/app.js')
+        script(type="text/javascript", src='/scripts/tracking.js')
+        // endbuild
