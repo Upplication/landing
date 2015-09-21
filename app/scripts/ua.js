@@ -29,7 +29,7 @@ var upplication = function ($, document, window) {
 
     var track = function (event, props, cb) {
         props = _add_global(props);
-        tracker.track(event, props, cb);
+        tracker && tracker.track && tracker.track(event, props, cb);
     };
 
     var identify = function (userId, traits) {
