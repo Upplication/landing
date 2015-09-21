@@ -470,7 +470,7 @@
         },
         "aplicateca": {
             "anchor": "Entrar",
-            "url": "http://www.aplicateca.es"
+            "url": "http://www.aplicateca.es/upplication"
         },
         "hiring_developer": {
             "anchor": "Prácticas de desarrollador",
@@ -700,10 +700,10 @@
             {
                 "name": "Básico",
                 "class_name": "plan-basic",
-                "price": "8,23",
-                "price_dollars": "8,23",
-                "price_yearly": "82,30",
-                "price_yearly_dollars": "82,30",
+                "price": "8,25",
+                "price_dollars": "8,25",
+                "price_yearly": "82,50",
+                "price_yearly_dollars": "82,50",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -727,10 +727,10 @@
             {
                 "name": "Profesional",
                 "class_name": "plan-professional",
-                "price": "24,76",
-                "price_dollars": "24,76",
-                "price_yearly": "247,60",
-                "price_yearly_dollars": "247,60",
+                "price": "24,75",
+                "price_dollars": "24,75",
+                "price_yearly": "247,50",
+                "price_yearly_dollars": "247,50",
                 "features": [
                     {
                         "icon_class": "icon-ads",
