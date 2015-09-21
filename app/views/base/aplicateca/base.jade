@@ -65,6 +65,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
                 #content(class="#{cssClass}")
                     block content
+                .footer-container
+                    #cookies
+                        p !{footer.cookies_aplicateca}
+                            span.close(onclick="closeCookies()") X
 
         //-script(src='/bower_components/zeptojs/src/touch.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')

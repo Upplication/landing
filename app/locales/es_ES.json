@@ -11,7 +11,8 @@
         "community": "Comunidad",
         "media": "Medios y redes",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='/terminos-legales'>política de cookies.</a>"
+        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/'>política de cookies.</a>",
+        "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/condicioneslegalesmovistar-upplication/'>política de cookies.</a>"
     },
     "register": {
         "error": {
@@ -431,6 +432,10 @@
             "anchor": "Precios",
             "url": "@@config.base_path/precios/"
         },
+        "pricing_aplicateca": {
+          "anchor": "Precios",
+          "url": "@@config.base_path/precios-aplicateca/"
+        },
         "media_kit": {
             "anchor": "Prensa",
             "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
@@ -695,10 +700,10 @@
             {
                 "name": "Básico",
                 "class_name": "plan-basic",
-                "price": "9,95",
-                "price_dollars": "9,90",
-                "price_yearly": "99,50",
-                "price_yearly_dollars": "99,00",
+                "price": "8,23",
+                "price_dollars": "8,23",
+                "price_yearly": "82,30",
+                "price_yearly_dollars": "82,30",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -722,10 +727,10 @@
             {
                 "name": "Profesional",
                 "class_name": "plan-professional",
-                "price": "29,95",
-                "price_dollars": "29,90",
-                "price_yearly": "299,50",
-                "price_yearly_dollars": "299,00",
+                "price": "24,76",
+                "price_dollars": "24,76",
+                "price_yearly": "247,60",
+                "price_yearly_dollars": "247,60",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -749,10 +754,10 @@
             {
                 "name": "Premium",
                 "class_name": "plan-premium",
-                "price": "59,95",
-                "price_dollars": "59,90",
-                "price_yearly": "599,50",
-                "price_yearly_dollars": "599,00",
+                "price": "49,55",
+                "price_dollars": "49,55",
+                "price_yearly": "495,50",
+                "price_yearly_dollars": "495,50",
                 "features": [
                     {
                         "icon_class": "icon-ads",
@@ -791,27 +796,11 @@
         },
         "special_plans": [
             {
-                "name": "Principiante",
-                "price": "4,95",
-                "price_dollars": "4,90",
-                "price_yearly": "49,50",
-                "price_yearly_dollars": "49,00",
-                "features": [
-                    "Sin estadísticas",
-                    "Sin app para iPhone e iPad",
-                    "Publicidad Upplication",
-                    "Firma en las plantillas",
-                    "Sin notificaciones push"
-                ],
-                "btn_text": "Probar gratis",
-                "has_permanency": false
-            },
-            {
-                "name": "Ilimitado",
-                "price": "299,95",
-                "price_dollars": "299,90",
-                "price_yearly": "2999,50",
-                "price_yearly_dollars": "2999,00",
+                "name": "Ejecutivo *",
+                "price": "247,90",
+                "price_dollars": "247,90",
+                "price_yearly": "247,90",
+                "price_yearly_dollars": "2479,00",
                 "features": [
                     "Todas las ventajas del plan premium",
                     "Apoyo en el diseño de tu app",
