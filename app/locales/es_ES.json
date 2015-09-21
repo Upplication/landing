@@ -11,7 +11,8 @@
         "community": "Comunidad",
         "media": "Medios y redes",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='/terminos-legales'>política de cookies.</a>"
+        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/'>política de cookies.</a>",
+        "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/condicioneslegalesmovistar-upplication/'>política de cookies.</a>"
     },
     "register": {
         "error": {
@@ -431,6 +432,10 @@
             "anchor": "Precios",
             "url": "@@config.base_path/precios/"
         },
+        "pricing_aplicateca": {
+          "anchor": "Precios",
+          "url": "@@config.base_path/precios-aplicateca/"
+        },
         "media_kit": {
             "anchor": "Prensa",
             "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
@@ -462,6 +467,10 @@
         "dashboard": {
             "anchor": "Entrar",
             "url": "@@config.dashboard_base_path/web"
+        },
+        "aplicateca": {
+            "anchor": "Entrar",
+            "url": "http://www.aplicateca.es"
         },
         "hiring_developer": {
             "anchor": "Prácticas de desarrollador",
@@ -631,6 +640,167 @@
                 "price_dollars": "299,90",
                 "price_yearly": "2999,50",
                 "price_yearly_dollars": "2999,00",
+                "features": [
+                    "Todas las ventajas del plan premium",
+                    "Apoyo en el diseño de tu app",
+                    "Nosotros promocionamos tu app"
+                ],
+                "btn_text": "Déjanos tus datos",
+                "has_permanency": true
+            }
+        ],
+        "month": "mes",
+        "year": "año",
+        "free_trial": "Probar gratis",
+        "custom_app": {
+            "title": "Te hacemos tu app a medida",
+            "subtitle": "Contacta con nosotros y te explicamos cómo lo hacemos.",
+            "btn": "Contacta con nosotros"
+        },
+        "all_plans_include": {
+            "title": "Todos los planes incluyen",
+            "list": [
+                {
+                    "icon": "icon-support",
+                    "text": "Atención al cliente por teléfono y chat"
+                },
+                {
+                    "icon": "icon-markets",
+                    "text": "<span>Subida automática a los markets, </span><span class=\"bold\">nosotros subimos tu app</span>"
+                },
+                {
+                    "icon": "icon-web-responsive",
+                    "text": "Web responsive multidispositivo"
+                },
+                {
+                    "icon": "icon-tutor",
+                    "text": "Tutor personalizado"
+                }
+            ]
+        }
+    },
+    "prices_aplicateca": {
+        "_url": "/precios-aplicateca/",
+        "_template": "prices_aplicateca",
+        "_name": "Planes de precios",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/prices-aplicateca/",
+        "monthly": "Mensual",
+        "yearly": "Anual",
+        "title": "Planes de precios",
+        "euro": "€",
+        "dollar": "$",
+        "os_list": "Android / iPhone / iPad / Web",
+        "most_popular_plan": "El plan más popular",
+        "permanency": "* Plan sujeto a 3 meses de permanencia",
+        "iva_included": "IVA no inc.",
+        "plans": [
+            {
+                "name": "Básico",
+                "class_name": "plan-basic",
+                "price": "8,23",
+                "price_dollars": "8,23",
+                "price_yearly": "82,30",
+                "price_yearly_dollars": "82,30",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "Publicidad Upplication"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "Firma en las plantillas"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "<span class=\"bold\">Sin</span><span>alertas</span>"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Estadísticas de tu app"
+                    }
+                ],
+                "btn_class": "btn-grey"
+            },
+            {
+                "name": "Profesional",
+                "class_name": "plan-professional",
+                "price": "24,76",
+                "price_dollars": "24,76",
+                "price_yearly": "247,60",
+                "price_yearly_dollars": "247,60",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "<span class=\"bold\">Sin</span><span> publicidad Upplication</span>"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "<span class=\"bold\">Sin</span><span>firma en las plantillas</span>"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "4 alertas / mes"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Estadísticas de tu app"
+                    }
+                ],
+                "btn_class": "btn-green"
+            },
+            {
+                "name": "Premium",
+                "class_name": "plan-premium",
+                "price": "49,55",
+                "price_dollars": "49,55",
+                "price_yearly": "495,50",
+                "price_yearly_dollars": "495,50",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "<span class=\"bold\">Sin</span><span>publicidad Upplication</span>"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "<span class=\"bold\">Sin</span><span>firma en las plantillas</span>"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "Alertas ilimitadas"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Estadísticas de tu app"
+                    }
+                ],
+                "btn_class": "btn-grey"
+            }
+        ],
+        "contact": {
+            "customer_service": {
+                "text": "Servicio de atención al cliente:",
+                "phone": {
+                    "link": "tel:810512370",
+                    "title": "810 512 370",
+                    "text": "810 512 370 (gratuito)"
+                },
+                "email": {
+                    "link": "mailto:soporte@upplication.com",
+                    "title": "soporte@upplication.com",
+                    "text": "soporte@upplication.com"
+                }
+            }
+        },
+        "special_plans": [
+            {
+                "name": "Ejecutivo *",
+                "price": "247,90",
+                "price_dollars": "247,90",
+                "price_yearly": "247,90",
+                "price_yearly_dollars": "2479,00",
                 "features": [
                     "Todas las ventajas del plan premium",
                     "Apoyo en el diseño de tu app",
@@ -1103,14 +1273,6 @@
                 "Una vez completados todos los pasos no se admitirá el retroceso de ningún pago con la sola excepción de lo señalado en el párrafo anterior.",
                 "En caso de que el producto o servicio contratado incluya importes a pagar por su parte de forma periódica, Vd. deberá atender los pagos a los vencimientos señalados.",
                 "En caso de incumplimiento por su parte de cualquier obligación de pago, total o parcialmente, UPPLICATION podrá resolver el contrato de forma inmediata."
-              ]
-            },
-            {
-              "title": "IMPUESTO SOBRE EL VALOR AÑADIDO",
-              "children": [
-                "Los precios de esta página web incluyen IVA.",
-                "El tipo de IVA aplicable será el legalmente vigente en cada momento en función del producto o servicio concreto de que se trate.",
-                "En caso de que existiera un error o una modificación legal del tipo o régimen impositivo de modo que la operación esté sujeta a un régimen o gravamen fiscal distinto del previsto en el momento de la contratación, la operación se ajustará al régimen que legalmente esté vigente en cada momento de modo que el comprador pagará el importe que faltare o el vendedor le restituirá el importe sobrante, según el caso."
               ]
             },
             {

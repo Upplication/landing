@@ -1,0 +1,12 @@
+header.padding-top
+    a.logo.margin-bottom
+        img(src="#{localConfig.base_path}/images/upplication.png", alt="Upplication logo")
+
+    a.icon-list
+        span Menu
+    nav.main-menu.uppercase.unstyled
+
+        ul#sections
+            include header-links
+
+    a.login.unstyled(href="#{$.external.aplicateca.url}") #{$.external.aplicateca.anchor}

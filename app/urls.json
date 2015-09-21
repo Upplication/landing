@@ -1,6 +1,7 @@
 {
     "home": "/views/home.jade",
     "prices": "/views/prices.jade",
+    "prices_aplicateca": "/views/prices_aplicateca.jade",
     "helpcenter": "/views/help-center.jade",
     "about": "/views/about.jade",
     "offer": "/views/offer.jade",
