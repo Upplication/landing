@@ -3,13 +3,12 @@ INSTALLATION
 Clone this repo and install the dependencies:
 
 * [nodejs](http://nodejs.org/)
-* [bower](http://bower.io/)
+* [bower](http://bower.io/) `npm install -g bower`
+* [grunt-cli](http://gruntjs.com/getting-started) `npm install -g grunt-cli`
 * [ruby](https://www.ruby-lang.org/)
 * [sass](http://sass-lang.com/) `gem install sass -v "=3.2.19"`
 * [susy](http://susy.oddbird.net/) `gem install susy -v "=1.0.9"`
 * [Compass Core](http://compass-style.org/install/) `gem install compass`
-* [grunt-cli](http://gruntjs.com/getting-started)
-* [Bower](http://bower.io/)
 * Install node dependencies -- `npm install`
 * Install project dependencies -- `bower install`
 
