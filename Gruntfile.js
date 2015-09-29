@@ -430,7 +430,7 @@ module.exports = function (grunt) {
                         src: [
                             'dist/{,*/}*.html',
                             'dist/{,*/}*.css'
-                        ],
+                        ]
                         //dest: 'dist/'
                     }
                 ]

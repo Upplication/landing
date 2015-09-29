@@ -1,0 +1,185 @@
+/*
+MODALS - ALERTS - SLIDER CSS: Custom Stylesheet --- CSS GENERALES: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2015
+*/
+
+/* ... Headers (H) ................................................... */
+
+
+
+/* ... MODALS ................................................... */
+
+#materialize-lean-overlay-2 {
+  opacity: 0.85;
+}
+
+a.modal-action.modal-close {
+  float: right;
+  padding-top: 10px;
+  color: #aaa;
+  padding-right: 23px;
+}
+
+a.modal-action.modal-close:hover {
+  color: #333;
+}
+
+#pruebaGratis .modal-content h2 {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  padding-left: 10px;
+}
+
+#pruebaGratis .modal-content h2 span {
+  font-weight: 500;
+  color: #00ca6b;
+  /* Verde Pistacho */
+}
+
+#pruebaGratis .input-field:last-child a {
+  text-align: right;
+}
+
+#pruebaGratis .modal-footer {
+  padding: 0;
+  background-color: #eee;
+}
+
+#pruebaGratis .modal-footer ul {
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+#pruebaGratis .modal-footer ul li {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#pruebaGratis .modal-footer ul li a {
+  font-weight: 600;
+}
+
+#pruebaGratis .modal-footer ul li a:hover {
+  color: #009550;
+  /* Verde Medio */
+}
+
+#pruebaGratis .input-field,
+#pruebaGratis form {
+  padding: 0;
+}
+
+.input-field .prefix ~ label {
+  margin-left: 3rem;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 850px) {
+  #pruebaGratis .modal-footer ul {
+    padding-top: 7px;
+  }
+}
+
+/* ... ALERTS ................................................... */
+
+.alert {
+  padding: 0;
+  margin: 20px 0;
+  border: 0 solid transparent;
+  border-radius: 0;
+}
+
+.alert-info {
+  color: #31708f;
+  font-weight: 500;
+  background-color: #d9edf7;
+}
+
+.alert span {
+  font-weight: 600;
+}
+
+.alert i {
+  padding: 15px 20px;
+  background-color: #cbe6f4;
+  margin-right: 10px;
+}
+
+/* ... SLIDER ................................................... */
+
+.slider,
+.slides {
+  height: 600px !important;
+}
+
+.mainHead {
+  color: #fff;
+  position: absolute;
+  z-index: 200;
+  top: 10%;
+  left: 10%;
+  width: 70%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.mainHead h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+}
+
+.mainHead h1 span {
+  color: #00c86b;
+  /* verde claro */
+  font-weight: 600;
+}
+
+.mainHead h2 {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+/* ... Typed slider PlugIn ................................................... */
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
