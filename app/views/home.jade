@@ -20,6 +20,7 @@ doctype html
 html.no-js(lang='es')
     // <![endif]
     head
+        include base/scripts
         title Upplication : Build your App
         meta(name='description', content='Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS')
         meta(name='keywords', content='crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil')
@@ -84,9 +85,11 @@ html.no-js(lang='es')
                     nav.top-nav
                         ul.top-nav
                             li
-                                a(href='#', title='')
-                                    i.fa.fa-globe
-                                    |  EN
+                                each language in langs.codes
+                                    if lang != language.language_country
+                                        a(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
+                                            i.fa.fa-globe
+                                            | #{language.language_short_code}
                             li
                                 a(href='#about', title='') Como creo mi App
                             li
@@ -1063,3 +1066,5 @@ html.no-js(lang='es')
                     }
                 });
             });
+
+        include base/scripts-thirdparties
