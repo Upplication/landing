@@ -127,14 +127,14 @@ a.s-btn {
   font-family: 'Lato', serif;
   color: #111B0A;
   font-size: 1.6em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 35px;
   margin-top: 0;
 }
 
 .features-grid h3 strong {
   /*color:#79B643;*/
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .features-grid p {

@@ -33,6 +33,15 @@ body a {
   transform: translateX(-50%);
 }
 
+h4.headTitles {
+  color: #555;
+  font-family: "Lato";
+  font-size: 2em;
+  font-weight: 400;
+  margin: 2em 0;
+  padding: 0 0 0.5em 0;
+}
+
 /* ... REGISTRO ................................................... */
 
 .formPhone img {
@@ -85,6 +94,9 @@ body a {
   font-weight: 600;
   font-size: 1.2em;
   margin: 0;
+}
+.registerTop .headReg h2 span {
+  color: #009550;
 }
 
 .registerTop .input-field {
@@ -841,12 +853,11 @@ a.order-btn:hover {
   border-top: 1px solid #f1f1f1;
 }
 
-.c-testmonials h2 {
-  color: #111b0a;
+.c-testmonials h4 {
+  color: #555;
   font-family: "Lato";
-  text-transform: uppercase;
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 400;
   margin: 2em 0;
   padding: 0 0 0.5em 0;
 }
@@ -1031,6 +1042,7 @@ a.price-btn:hover {
   font-size: 20px;
   position: relative;
   bottom: 4px;
+  margin-right: 10px;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -1292,6 +1304,7 @@ a.price-btn:hover {
 
 #tabs ul li a i.fa-check {
   color: #00ca6b;
+    padding-right: 8px;
 }
 
 #tabs ul.operating-systems {

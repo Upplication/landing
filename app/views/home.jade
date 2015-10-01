@@ -26,22 +26,22 @@ html.no-js(lang='es')
         meta(name='keywords', content='crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil')
         meta(name='author', content='Upplication')
         // Favicon
-        link(rel='apple-touch-icon', sizes='57x57', href='favicon/apple-touch-icon-57x57.png')
-        link(rel='apple-touch-icon', sizes='60x60', href='favicon/apple-touch-icon-60x60.png')
-        link(rel='apple-touch-icon', sizes='72x72', href='favicon/apple-touch-icon-72x72.png')
-        link(rel='apple-touch-icon', sizes='76x76', href='favicon/apple-touch-icon-76x76.png')
-        link(rel='apple-touch-icon', sizes='114x114', href='favicon/apple-touch-icon-114x114.png')
-        link(rel='apple-touch-icon', sizes='120x120', href='favicon/apple-touch-icon-120x120.png')
-        link(rel='apple-touch-icon', sizes='144x144', href='favicon/apple-touch-icon-144x144.png')
-        link(rel='apple-touch-icon', sizes='152x152', href='favicon/apple-touch-icon-152x152.png')
-        link(rel='apple-touch-icon', sizes='180x180', href='favicon/apple-touch-icon-180x180.png')
-        link(rel='icon', type='image/png', href='favicon/favicon-32x32.png', sizes='32x32')
-        link(rel='icon', type='image/png', href='favicon/android-chrome-192x192.png', sizes='192x192')
-        link(rel='icon', type='image/png', href='favicon/favicon-96x96.png', sizes='96x96')
-        link(rel='icon', type='image/png', href='favicon/favicon-16x16.png', sizes='16x16')
-        link(rel='manifest', href='favicon/manifest.json')
+        link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
+        link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
+        link(rel='apple-touch-icon', sizes='72x72', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-72x72.png')
+        link(rel='apple-touch-icon', sizes='76x76', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-76x76.png')
+        link(rel='apple-touch-icon', sizes='114x114', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-114x114.png')
+        link(rel='apple-touch-icon', sizes='120x120', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-120x120.png')
+        link(rel='apple-touch-icon', sizes='144x144', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-144x144.png')
+        link(rel='apple-touch-icon', sizes='152x152', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-152x152.png')
+        link(rel='apple-touch-icon', sizes='180x180', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-180x180.png')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-32x32.png', sizes='32x32')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/android-chrome-192x192.png', sizes='192x192')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-96x96.png', sizes='96x96')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
+        link(rel='manifest', href='#{localConfig.base_path}/images/favicon/manifest.json')
         meta(name='msapplication-TileColor', content='#00a300')
-        meta(name='msapplication-TileImage', content='favicon/mstile-144x144.png')
+        meta(name='msapplication-TileImage', content='#{localConfig.base_path}/images/favicon/mstile-144x144.png')
         meta(name='theme-color', content='#ffffff')
 
         link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
@@ -89,30 +89,30 @@ html.no-js(lang='es')
                                     if lang != language.language_country
                                         a.lang-link(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
                                             i.fa.fa-globe
-                                            | #{language.language_short_code}
+                                            | !{language.language_short_code}
                             li
-                                a(href='#about', title='') Como creo mi App
+                                a(href='#about', title='') #{header.nav.how}
                             li
-                                a(href='#tabs', title='') Ejemplos
+                                a(href='#tabs', title='') #{header.nav.apps}
                             li
-                                a(href='#pricing', title='') Precios
+                                a(href='#pricing', title='') #{header.nav.prices}
                             li
                                 a(href='http://www.upplication.com/blog/', target='_blank', title='') Blog
                             li
                                 a(href='#', title='')
                                     i.fa.fa-lock
-                                    |  Entrar
+                                    | #{header.enter}
                         a#pull(href='#')
                             img(src='#{localConfig.base_path}/images/home/icons/nav-icon.png', title='menu')
                     .contact-info
                         .contact-info-grids
                             .contact-info-left
-                                a.chat.modal-trigger(href='#pruebaGratis') Prueba Gratis
+                                a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
                             .contact-info-right
                                 a
                                     i.fa.fa-phone
                                     |  810 512 370
-                                p ¡Llámanos gratis!
+                                p #{header.free_call}
                             .clearfix
                     .clearfix
         // MODAL
@@ -120,11 +120,7 @@ html.no-js(lang='es')
             a.modal-action.modal-close.waves-effect.waves-green.btn-flat(href='#!')
                 i.fa.fa-close
             .modal-content
-                h2
-                    | Regístrate 
-                    span gratis
-                    |  y prueba 
-                    span 15 días
+                h2 !{modal.head.register_modal}
                 .row
                     form(name="register", action="/register", method="post").col.s12.center
                         input(type="hidden", name="customerType", value="UPPLICATION")
@@ -133,53 +129,52 @@ html.no-js(lang='es')
                         .input-field.col.s12
                             i.material-icons.prefix settings_cell
                             input#modal_app_name.validate(type='text', name='appName')
-                            label(for='modal_app_name') Nombre de la app
+                            label(for='modal_app_name') #{modal.input.name}
                                 p.error.display-none
                         .input-field.col.s12
                             i.material-icons.prefix email
                             input#modal_email.validate(type='tel', name='email')
-                            label(for='modal_email') E-mail
+                            label(for='modal_email') #{modal.input.email}
                                 p.error.display-none
                         .input-field.col.s12
                             i.material-icons.prefix vpn_key
                             input#modal_pass.validate(type='password', name='password')
-                            label(for='modal_pass') Contraseña
+                            label(for='modal_pass') #{modal.input.pass}
                                 p.error.display-none
                         .input-field.col.s12
                             button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                                 i.material-icons.left play_circle_outline
-                                span Prueba Gratis
+                                | #{header.free_trial}
             .modal-footer
                 ul.hover-anim
                     li
-                        a(href='') ¿Tienes un código seller?
+                        a(href='') #{modal.footer.seller}
                     li
-                        | Al hacer clic en "Prueba Gratis" aceptas nuestros
-                        a(href='', title='') términos y condiciones
+                        | #{modal.footer.accept}
+                        a(href='', title='#{modal.footer.terms}') #{modal.footer.terms}
                         | .
         // SLIDER
         .slider
             .mainHead
-                h1
-                    | El creador de apps para 
+                h1 #{slider.intro1}
                     span.element
-                h2 Crea la app de tu negocio, sin programar, fácil y rápido.
+                h2 #{slider.intro2}
             ul.slides
                 li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgPymes.jpg', alt='')
+                    img(src='#{localConfig.base_path}/images/home/bg/bgPymes.jpg', alt='#{slider.bg}')
                 li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgRestaurant.jpg', alt='')
+                    img(src='#{localConfig.base_path}/images/home/bg/bgRestaurant.jpg', alt='#{slider.bg}')
                 li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgServices.jpg', alt='')
+                    img(src='#{localConfig.base_path}/images/home/bg/bgServices.jpg', alt='#{slider.bg}')
                 li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgStores.jpg', alt='')
+                    img(src='#{localConfig.base_path}/images/home/bg/bgStores.jpg', alt='#{slider.bg}')
                 li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgLandscape.jpg', alt='')
+                    img(src='#{localConfig.base_path}/images/home/bg/bgLandscape.jpg', alt='#{slider.bg}')
         // FORM "TRY FREE 15 DAYS"
         .col-xs-12.col-md-4.right.formPhone.animated.fadeIn
             .row.registerTop
                 .headReg
-                    h2 Prueba gratis 15 días
+                    h2 !{form.free_form}
                 form(name="register", action="/register", method="post").col.s12
                     input(type="hidden", name="customerType", value="UPPLICATION")
                     p.error.general-error.display-none
@@ -187,24 +182,23 @@ html.no-js(lang='es')
                     .row
                         .input-field.col.s12
                             input#app_name.validate(type='text', name='appName')
-                            label(for='app_name') Nombre de la app
+                            label(for='app_name') #{modal.input.name}
                                 p.error.display-none
                         .input-field.col.s12
                             input#email.validate(type='email', name='email')
-                            label(for='email') Email
+                            label(for='email') #{modal.input.email}
                                 p.error.display-none
                         .input-field.col.s12
                             input#password.validate(type='password', name='password')
-                            label(for='password') Password
+                            label(for='password') #{modal.input.pass}
                                 p.error.display-none
                     .btnReg
                         button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                             i.material-icons.left play_circle_outline
-                            span Empezar ya
-                        p Podrás cambiar todos los datos introducidos después.
-                        p
-                            | Al hacer clic en el botón "Probar gratis" aceptas nuestros
-                            a(href='', title='') términos y condiciones
+                            | #{form.start_form}
+                        p #{form.change_form}
+                        p #{modal.footer.accept}
+                            a(href='', title='#{modal.footer.terms}') #{modal.footer.terms}
                             | .
         // WHY
         .features
@@ -215,32 +209,25 @@ html.no-js(lang='es')
                             img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.png', alt='')
                             span.f-icon
                             label
-                            h3
-                                strong Aumenta
-                                |  tus ventas
+                            h3 !{why.grow}
                     .col-md-4
                         .features-grid.centerImg
                             img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.png', alt='')
                             span.f-icon1
                             label
-                            h3
-                                strong Fideliza
-                                |  a tus clientes
+                            h3 !{why.loyal}
                     .col-md-4
                         .features-grid.centerImg
                             img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.png', alt='')
                             span.f-icon2
                             label
-                            h3
-                                strong Diferénciate
-                                |  de la competencia
+                            h3 !{why.others}
                     .clearfix
         // SAMPLES
         #tabs.container.scrollspy
             .row
                 .plans-head.text-center
-                    h4 Apps para todo tipo de negocios
-                    // <h3 class="">Lorem ipsum dolor sit amet consectetur.</h3>
+                    h4.headTitles #{samples.business}
             .section
                 .row
                     .col.s12
@@ -248,171 +235,130 @@ html.no-js(lang='es')
                             li.tab.col.s6.l3
                                 a.active(href='#host')
                                     i.fa.fa-cutlery
-                                    span Hostelería
+                                    span #{samples.restaurants}
                             li.tab.col.s6.l3
                                 a(href='#tiendas')
                                     i.fa.fa-shopping-cart
-                                    span Tiendas
+                                    span #{samples.shops}
                             li.tab.col.s6.l3
                                 a(href='#servprof')
                                     i.fa.fa-wrench
-                                    span
-                                        | Servicios
-                                        em Profesionales
+                                    span !{samples.serv}
                             li.tab.col.s6.l3
                                 a(href='#personal')
                                     i.fa.fa-cog
-                                    span Personalizadas
+                                    span #{samples.personal}
                     #host.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
                                 img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='iPhone image of Upplication App')
                             .col.s12.l7.margTop50.mobileText
-                                h5
-                                    | Crea la app Android y iPhone de tu
-                                    span restaurante
-                                    |  y aporta valor a tu cliente:
+                                h5 !{samples.rest.rest_intro}
                                 ul.uppOnFoot(type='circle')
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Tus clientes podrán
-                                            span reservar mesa
-                                            |  desde su móvil.
+                                            !{samples.rest.details1}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Realiza
-                                            span envío a domicilio
-                                            |  de tus productos.
+                                            !{samples.rest.details2}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Muestra
-                                            span cupones descuento
-                                            |  en la app.
+                                            !{samples.rest.details3}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Envía
-                                            span alertas push
-                                            |  con ofertas exclusivas.
+                                            !{samples.rest.details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp
                                     i.material-icons.left play_circle_outline
-                                    | Crear mi app Gratis
+                                    | #{samples.free_app}
                     #tiendas.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
                                 img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='Galaxy image of Upplication App')
                             .col.s12.l7.margTop50.mobileText
-                                h5
-                                    | Crea tu app y haz que tus clientes pueden
-                                    span comprar tus productos desde el móvil
+                                h5 !{samples.shop.shop_intro}
                                     | .
                                 ul.uppOnFoot(type='circle')
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Integra la pasarela de pago en cuestión de minutos y
-                                            span empieza a vender
-                                            | .
+                                            !{samples.shop.shop_details1}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Ofrece
-                                            span productos exclusivos
-                                            |  y aporta más valor a tu cliente.
+                                            !{samples.shop.shop_details2}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            span Envía alertas
-                                            |  push con las mejores ofertas.
+                                            !{samples.shop.shop_details3}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Haz que tus clientes lleven
-                                            span tu negocio en el bolsillo
-                                            | .
+                                            !{samples.shop.shop_details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp
                                     i.material-icons.left play_circle_outline
-                                    | Crear mi app Gratis
+                                    | #{samples.free_app}
                     #servprof.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
                                 img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='Galaxy image of Upplication App')
                             .col.s12.l7.margTop50.mobileText
-                                h5
-                                    | Crea la
-                                    span app de tus servicios
-                                    |  y conecta con tu cliente en el móvil:
+                                h5 !{samples.services.serv_intro}
                                 ul.uppOnFoot(type='circle')
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Haz que tus clientes puedan
-                                            span contratar tus servicios
-                                            |  en cualquier lugar.
+                                            !{samples.services.serv_details1}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Muestra los
-                                            span horarios de tus servicios
-                                            |  en el móvil de tus clientes.
+                                            !{samples.services.serv_details2}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Sube
-                                            span vídeos y fotografías
-                                            |  que promocionen tus servicios.
+                                            !{samples.services.serv_details3}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            |   Envía ofertas exclusivas con las
-                                            span alertas push
-                                            | .
+                                            !{samples.services.serv_details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp
                                     i.material-icons.left play_circle_outline
-                                    | Crear mi app Gratis
+                                    | #{samples.free_app}
                     #personal.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
                                 img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyXperiaZ3.png', alt='Sony Xperia Z3 image of Upplication App')
                             .col.s12.l7.margTop50.mobileText
-                                h5
-                                    | Crea tu app móvil
-                                    span personalizada
-                                    | , hecha a la medida de los que necesites:
+                                h5 !{samples.custom.cust_intro}
                                 ul.uppOnFoot(type='circle')
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            span App personal
-                                            | : sube tu currículum, presentaciones, trabajos...
+                                            !{samples.custom.cust_details1}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            span App música
-                                            | : sube música y vídeos, fechas de conciertos, merchandising...
+                                            !{samples.custom.cust_details2}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            span App eventos
-                                            | : sube la agenda del evento, envía alertas push, introduce galerías...
+                                            !{samples.custom.cust_details3}
                                     li
                                         a(href='#!')
                                             i.fa.fa-check
-                                            span App turismo
-                                            | : Introduce mapas, recomienda lugares, sube ofertas gastronómicas...
+                                            !{samples.custom.cust_details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp
                                     i.material-icons.left play_circle_outline
-                                    | Crear mi app Gratis
-        // CREAR MI APP in 4 Steps ............................................................
+                                    | #{samples.free_app}
+        // HOW I MADE MY OWN APP in 4 Steps
         section#about.scrollspy
             .container
                 .row
                     .plans-head.text-center
-                        h4 Crea tu app fácilmente
-                        // <h3 class="">Lorem ipsum dolor sit amet consectetur.</h3>
+                        h4.headTitles #{how.how_main}
                 .row
                     .col-lg-12
                         ul.timeline
@@ -423,11 +369,11 @@ html.no-js(lang='es')
                                     .timeline-heading
                                         h4.subheading
                                             span 1
-                                            |  Regístrate
+                                            !{how.how_one.reg_step1}
                                     .timeline-body
                                         p.text-muted
-                                            span Regístrate en tres sencillos pasos:
-                                        p.text-muted nombre de tu app, email y contraseña.
+                                            span #{how.how_one.reg_step2}
+                                        p.text-muted #{how.how_one.reg_step3}
                             li.timeline-inverted.step2
                                 .timeline-image
                                     img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/register.png', alt='')
@@ -435,22 +381,11 @@ html.no-js(lang='es')
                                     .timeline-heading
                                         h4.subheading
                                             span 2
-                                            |  Crea tu App
+                                            !{how.how_two.app_step1}
                                     .timeline-body
-                                        p.text-muted
-                                            | Panel de control
-                                            span sencillo de usar
-                                            | , intuitivo.
-                                        p.text-muted
-                                            | Usa
-                                            span módulos y plantillas
-                                            |  para personalizar tu app.
-                                        p.text-muted
-                                            | Controla el
-                                            span número de descargas
-                                            |  y envía
-                                            span alertas push
-                                            |  a tus clientes.
+                                        p.text-muted !{how.how_two.app_step2}
+                                        p.text-muted !{how.how_two.app_step3}
+                                        p.text-muted !{how.how_two.app_step4}
                             li.step3
                                 .timeline-image
                                     img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/light.png', alt='')
@@ -458,19 +393,10 @@ html.no-js(lang='es')
                                     .timeline-heading
                                         h4.subheading
                                             span 3
-                                            |  Tutor personal
+                                            !{how.how_three.tutor_step1}
                                     .timeline-body
-                                        p.text-muted
-                                            span Soporte técnico profesional
-                                            |  para ayudarte en la idea y creación de tu App.
-                                        p.text-muted
-                                            | Disponible por
-                                            span chat
-                                            | ,
-                                            span email
-                                            |  y
-                                            span teléfono
-                                            | .
+                                        p.text-muted !{how.how_three.tutor_step2}
+                                        p.text-muted !{how.how_three.tutor_step3}
                             li.timeline-inverted.step4
                                 .timeline-image
                                     img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/bullhorn.png', alt='')
@@ -478,394 +404,49 @@ html.no-js(lang='es')
                                     .timeline-heading
                                         h4.subheading
                                             span 4
-                                            |  Publicamos tu App
+                                            !{how.how_four.publish_step1}
                                     .timeline-body
-                                        p.text-muted
-                                            span Nosotros nos encargamos de subirte la app
-                                            |  a los diferentes markets (Apple, Android).
-                                        p.text-muted
-                                            | Todas nuestras apps son
-                                            span multidispositivo
-                                            |  (móvil, tablet, Pc, Mac...).
+                                        p.text-muted !{how.how_four.publish_step2}
+                                        p.text-muted !{how.how_four.publish_step3}
                             li.timeline-inverted.step5
                                 .timeline-image
                                     img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/app.png', alt='')
-                                    // <h4>Tu App lista</h4>
                             .col.s12.m4.offset-m4.appReady
                                 h4
                                     i.fa.fa-exclamation
-                                    |  Tu App lista
+                                    | #{how.app_ready}
                                     i.fa.fa-exclamation
-        .bgPic
         // CLIENTS
         .clients
             .container
-                // PRICING PLANS ............................................................
-                #pricing.pricing-tables.scrollspy
-                    // <div class="container">
-                    div
-                        .plans-head.text-center
-                            h4 Planes de precios
-                            p Todos los planes incluyen:
-                            .col-xs-12.col-sm-offset-3.col-sm-8.incluye
-                                ul
-                                    li
-                                        i.fa.fa-commenting-o
-                                        |  Atención al cliente por teléfono y chat.
-                                    li
-                                        i.fa.fa-shopping-cart
-                                        |  Subida automática a los markets, nosotros subimos tu app.
-                                    li
-                                        i.fa.fa-tablet
-                                        |  Web responsive multidispositivo.
-                                    li
-                                        i.fa.fa-graduation-cap
-                                        | Tutor personalizado.
-                            .clearfix
-                        .row
-                            .col.s12.offset-m2.m8
-                                ul.tabs
-                                    li.tab.col.s12.m6
-                                        a.active(href='#mensual') Plan Mensual
-                                    li.tab.col.s12.m6
-                                        a(href='#anual') Plan Anual
-                            // Plan Mensual
-                            #mensual.col.s12
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 BÁSICO
-                                        ul
-                                            li
-                                                span
-                                                    | 9,95
-                                                    em € / mes
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Publicidad
-                                                    |  Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Firma
-                                                    |  en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell-slash
-                                                    strong Sin
-                                                    |  notificaciones push
-                                            // <li class="price-btn"><a href="#"></a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .col-xs-12.col-md-3.priceAdvise.mobilePrices
-                                    img.responsive-img(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
-                                    .pricing-table-grid.principal
-                                        h3 PROFESIONAL
-                                        ul
-                                            li
-                                                span
-                                                    | 29,95
-                                                    em € / mes
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Sin
-                                                    |  publicidad Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Sin
-                                                    |  firma en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    strong 4
-                                                    |  notificaciones push / mes
-                                            // <li class="price-btn"><a href="#"></a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 PREMIUM
-                                        ul
-                                            li
-                                                span
-                                                    | 59,95
-                                                    em € / mes
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Sin
-                                                    |  publicidad Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Sin
-                                                    |  firma en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    |  Notificaciones
-                                                    strong Ilimitadas
-                                            // <li class="price-btn"><a href="#"></a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 ILIMITADO
-                                        ul
-                                            li
-                                                span
-                                                    | 299,95
-                                                    em € / mes
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Sin
-                                                    |  publicidad Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Sin
-                                                    |  firma en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    |  Notificaciones
-                                                    strong Ilimitadas
-                                            // <li class="price-btn"><a href="#">10 GB HDD</a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .clearfix
-                            // Plan Anual
-                            #anual.col.s12
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 BÁSICO
-                                        ul
-                                            li
-                                                span
-                                                    | 99,50
-                                                    em € / año
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Publicidad
-                                                    |  Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Firma
-                                                    |  en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell-slash
-                                                    strong Sin
-                                                    |  notificaciones push
-                                            // <li class="price-btn"><a href="#"></a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .col-xs-12.col-md-3.priceAdvise.mobilePrices
-                                    img.responsive-img(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
-                                    .pricing-table-grid.principal
-                                        h3 PROFESIONAL
-                                        ul
-                                            li
-                                                span
-                                                    | 299,50
-                                                    em € / año
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Sin
-                                                    |  publicidad Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Sin
-                                                    |  firma en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    strong 4
-                                                    |  notificaciones push / mes
-                                        a.order-btn(href='#') Probar Gratis
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 PREMIUM
-                                        ul
-                                            li
-                                                span
-                                                    | 599,50
-                                                    em € / año
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Sin
-                                                    |  publicidad Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Sin
-                                                    |  firma en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    |  Notificaciones
-                                                    strong Ilimitadas
-                                            // <li class="price-btn"><a href="#"></a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 ILIMITADO
-                                        ul
-                                            li
-                                                span
-                                                    | 2999,50
-                                                    em € / año
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    |  App y WebApp
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    strong Estadísticas
-                                                    |  de tu app
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    strong Sin
-                                                    |  publicidad Upplication
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    strong Sin
-                                                    |  firma en las plantillas
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    |  Notificaciones
-                                                    strong Ilimitadas
-                                            // <li class="price-btn"><a href="#"></a></li>
-                                        a.order-btn(href='#') Probar Gratis
-                                .clearfix
-                                .col-xs-12
-                                    .alert.alert-info(role='alert')
-                                        i.fa.fa-info
-                                        |  Con el Plan Anual te
-                                        span ahorrarás 2 meses
-                                        | . Paga 10 meses en vez de 12.
-                        .col-xs-12.tax
-                            p
-                                i.fa.fa-asterisk
-                                |  Todos los precios incluyen IVA.
-                // CLIENTS TESTIMONIALS ............................................................
+                // PRICING PLANS
+
+                // CLIENTS TESTIMONIALS
                 .c-testmonials
                     .text-center.marBot100
-                        h4 ¿Qué dicen de nuestras apps?
+                        h4.headTitles #{home.testimonials.title}
                     .c-testmonial-grid
                         .c-testmonial-grid-info
                             p
-                                span "
-                                |  Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes.
-                                span "
-                            a(href='#') - Ana, C,UP Your choice on top
+                                span #{home.testimonials.client1.cite}
+                            a(href='#') - #{home.testimonials.client1.name}
                         .c-testmonial-grid-pic
                             img(src='#{localConfig.base_path}/images/home/clients/ana.png', title='name')
                     .c-testmonial-grid
                         .c-testmonial-grid-info
                             p
-                                span "
-                                |  Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos.
-                                span "
-                            a(href='#') - David, Bar Trapatapa
+                                span #{home.testimonials.client2.cite}
+                            a(href='#') - #{home.testimonials.client2.name}
                         .c-testmonial-grid-pic
                             img(src='#{localConfig.base_path}/images/home/clients/david.png', title='name')
                     .c-testmonial-grid
                         .c-testmonial-grid-info
                             p
-                                span "
-                                |  La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar.
-                                span "
-                            a(href='#') - Gabriel, Moto Urban
+                                span #{home.testimonials.client3.cite}
+                            a(href='#') - #{home.testimonials.client3.name}
                         .c-testmonial-grid-pic
                             img(src='#{localConfig.base_path}/images/home/clients/gabriel.png', title='name')
-        // CLIENTS CAROUSEL ............................................................
+        // CLIENTS CAROUSEL
         .clientSection
             .container
                 #clientsCarousel
@@ -890,87 +471,83 @@ html.no-js(lang='es')
                     .item
                         a(href='http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar', target='_blank', title='')
                             img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='wwwhatsnew logo')
-        // 15 days trial button ............................................................
+        // 15 DAYS TRIAL BUTTOM
         .pricing-plan
             .container
                 .pricing-plan-grids
                     .pricing-plan-left
-                        h2
-                            | ¡ Pruébalo, tienes
-                            em 15 días gratis
-                            |  !
-                        span Período de prueba sin compromiso de permanencia.
+                        h2 !{home.try}
+                        span #{home.permanence}
                     .pricing-plan-right
-                        a.price-btn(href='pricing.html') Crear mi App Gratis
+                        a.price-btn(href='pricing.html') #{home.create_free}
                     .clearfix
-        // SERVICIO ATENCIÓN AL CLIENTE ............................................................
+        // COSTUMERS SERVICES CONTACT AREA
         .servCliente
             .container
                 .col.s12
                     ul
                         li
-                            a Servicio de atención al cliente
+                            a #{helpcenter.customer_service.text2}
                         li.tel.hover-anim
-                            a(href='tel:810512370', title='Llamar a soporte técnico de Upplication')
+                            a(href='#{helpcenter.customer_service.phone.link}', title='#{helpcenter.customer_service.phone.alt_tag}')
                                 i.icon-phone
-                                span 810 512 370
-                                |  (Gratuito)
+                                | !{helpcenter.customer_service.phone.text_tel}
                         li.mail.hover-anim
-                            a(href='mailto:soporte@upplication.com', title='Enviar email a soporte técnico de Upplication')
+                            a(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}')
                                 i.icon-envelope
-                                |   soporte@upplication.com
-        // FOOTER ............................................................
+                                | #{helpcenter.customer_service.email.title}
+        // FOOTER
         footer.page-footer
             .container.padTop50.padBot50
                 .row.hover-anim
                     .col.l3.s12.footCol
-                        h6 Ayuda:
+                        h6 #{external.titles.help}
                         ul.footLinks
                             li
-                                a(href='#!', title='') Centro de Ayuda
+                                a(href='#!', title='') #{external.helpcenter.anchor}
                             li
-                                a(href='#!', title='') Tutoriales
+                                a(href='#!', title='') #{external.tutorials.anchor}
                             li
-                                a(href='http://www.upplication.com/blog/', title='Blog Upplication') Blog
+                                a(href='http://www.upplication.com/blog/', title='Blog Upplication') #{external.blog.anchor}
                         ul
                             li
                                 a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', title='UE fonde de desarrollo regional')
                                     img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='UE fonde de desarrollo regional')
                     .col.l3.s12.footCol
-                        h6 Upplication:
+                        h6 #{external.titles.uppl}
                         ul.uppOnFoot.footLinks(type='circle')
                             li
-                                a(href='#tabs', title='') Características
+                                a(href='#tabs', title='#{external.features.anchor}') #{external.features.anchor}
                             li
-                                a(href='#about', title='') Creamos tu App
+                                a(href='#about', title='#{external.create_apps.anchor}') #{external.create_apps.anchor}
                             li
-                                a(href='#tabs', title='') Ejemplos de Apps
+                                a(href='#tabs', title='#{external.apps.anchor}') #{external.apps.anchor}
                             li
-                                a(href='#pricing', title='') Precios
+                                a(href='#pricing', title='#{external.pricing.anchor}') #{external.pricing.anchor}
                     .col.l3.s12.footCol
-                        h6 Miscelánea:
+                        h6 #{external.titles.misc}
                         ul.footLinks
                             li
-                                a(href='#!', title='Upplication Team') Equipo
+                                a(href='#!', title='Upplication Team') #{external.team.anchor}
                             li
-                                a(href='http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html', title='Distribuidor de Upplication') Hazte distribuidor
+                                a(href='http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html', title='Distribuidor de Upplication') #{external.partners.anchor}
                             li
-                                a(href='#!', title='') Estamos contratando
+                                a(href='#!', title='') #{external.jobs.anchor}
                             li
-                                a(href='http://www.upplication.com/blog/taller-crear-apps-madrid/', title='Desayunos Upplication') Desayunos
+                                a(href='#{external.breakfasts.url}', title='Desayunos Upplication') #{external.breakfasts.anchor}
                             li
-                                a(href='https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip', title='Prensa Upplication') Prensa
+                                a(href='https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip', title='Prensa Upplication') #{external.media_kit.anchor}
                     .col.l3.s12.footCol
-                        h6 Aviso Legal:
+                        h6 #{external.titles.legal}
                         ul.footLinks
                             li
-                                a(href='terminos#legal', title='Aviso Legal Upplication') Aviso Legal
+                                a(href='terminos#legal', title='Aviso Legal Upplication') #{terms.legal.title}
                             li
-                                a(href='terminos#privacidad', title='Política de Privacidad Upplication') Política de Privacidad
+                                a(href='terminos#privacidad', title='Política de Privacidad Upplication') #{terms.privacy.title}
                             li
-                                a(href='terminos#uso', title='Condiciones de uso Upplication') Condiciones de uso
+                                a(href='terminos#uso', title='Condiciones de uso Upplication') #{footer.terms_of_use}
                             li
-                                a(href='terminos#cookies', title='Uso de Cookies Upplication') Uso de Cookies
+                                a(href='terminos#cookies', title='Uso de Cookies Upplication') #{footer.cookies_use}
                         ul
                             li
                                 a(href='https://mixpanel.com/', title='Mixpanel mobile analytics')
@@ -979,7 +556,7 @@ html.no-js(lang='es')
             .footer-copyright
                 .container
                     span © Upplication 2015
-                    |  . 
+                    i.fa.fa-circle
                     em Designed and assembled in Madrid
                     ul.rrss.right.hover-anim
                         li.facebook
