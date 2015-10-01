@@ -8,16 +8,11 @@
         },
         "free_trial": "Prueba gratis",
         "free_call": "¡Llámanos gratis!",
-        "enter": " Entrar"
+        "enter": "Entrar"
     },
     "modal": {
         "head": {
             "register_modal": "Regístrate <span>gratis</span> y prueba <span>15 días</span>"
-        },
-        "input": {
-            "name": "Nombre de la app",
-            "email": "E-mail",
-            "pass": "Contraseña"
         },
         "footer": {
             "seller": "¿Tienes un código seller?",
@@ -25,117 +20,26 @@
             "terms": " términos y condiciones"
         }
     },
-    "slider": {
-        "intro1": "El creador de apps para ",
-        "intro2": "Crea la app de tu negocio, sin programar, fácil y rápido.",
-        "bg": "Upplication image"
-    },
     "form": {
         "free_form": "Prueba <span>gratis</span> 15 días",
-        "change_form": "Podrás cambiar todos los datos introducidos después."
-    },
-    "why": {
-        "grow": "<strong>Aumenta</strong> tus ventas",
-        "loyal": "<strong>Fideliza</strong> a tus clientes",
-        "others": "<strong>Diferénciate</strong> de la competencia"
-    },
-    "samples": {
-        "business": "Apps para todo tipo de negocios",
-        "restaurants": "Hostelería",
-        "shops": "Tiendas",
-        "serv": "<em>Servicios</em> Profesionales",
-        "personal": "Personalizadas",
-        "rest": {
-            "rest_intro": "Crea la app Android y iPhone de tu <span>restaurante</span> y aporta valor a tu cliente",
-            "details1": "Tus clientes podrán <span>reservar mesa</span> desde su móvil.",
-            "details2": "Realiza <span>envío a domicilio</span> de tus productos.",
-            "details3": "Muestra <span>cupones descuento</span> en la app.",
-            "details4": "Envía <span>alertas push</span> con ofertas exclusivas."
-        },
-        "shop": {
-            "shop_intro": "Crea tu app y haz que tus clientes puedan <span>comprar tus productos desde el móvil</span>",
-            "shop_details1": "Integra la pasarela de pago en cuestión de minutos y <span>empieza a vender</span>",
-            "shop_details2": "Ofrece <span>productos exclusivos</span> y aporta más valor a tu cliente.",
-            "shop_details3": "<span>Envía alertas</span> push con las mejores ofertas.",
-            "shop_details4": "Haz que tus clientes lleven <span>tu negocio en el bolsillo</span>."
-        },
-        "services": {
-            "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en el móvil",
-            "serv_details1": "Haz que tus clientes puedan <span>contratar tus servicios</span> en cualquier lugar.",
-            "serv_details2": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes",
-            "serv_details3": "Sube <span>vídeos y fotografías</span> que promocionen tus servicios.",
-            "serv_details4": "Envía ofertas exclusivas con las <span>alertas push</span>"
-        },
-        "custom": {
-            "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de los que necesites",
-            "cust_details1": "<span>App personal</span>: sube tu currículum, presentaciones, trabajos...",
-            "cust_details2": "<span>App música</span>: sube música y vídeos, fechas de conciertos, merchandising...",
-            "cust_details3": "<span>App eventos</span>: sube la agenda del evento, envía alertas push, introduce galerías...",
-            "cust_details4": "<span>App turismo</span>: Introduce mapas, recomienda lugares, sube ofertas gastronómicas..."
-        },
-        "free_app": "Crear mi app Gratis"
-    },
-    "how": {
-        "how_main": "Crea tu app fácilmente",
-        "how_one": {
-            "reg_step1": "Regístrate",
-            "reg_step2": "Regístrate en tres sencillos pasos:",
-            "reg_step3": "nombre de tu app, email y contraseña."
-        },
-        "how_two": {
-            "app_step1": "Crea tu App",
-            "app_step2": "Panel de control <span>sencillo de usar</span>, intuitivo.",
-            "app_step3": "Usa <span>módulos y plantillas</span> para personalizar tu app.",
-            "app_step4": "Controla el <span>número de descargas</span> y envía <span>alertas push</span> a tus clientes."
-        },
-        "how_three": {
-            "tutor_step1": "Tutor personal",
-            "tutor_step2": "<span>Soporte técnico profesional</span> para ayudarte en la idea y creación de tu App.",
-            "tutor_step3": "Disponible por <span>chat</span>, <span>email</span>, y <span>teléfono</span>."
-        },
-        "how_four": {
-            "publish_step1": "Publicamos tu App",
-            "publish_step2": "<span>Nosotros nos encargamos de subirte la app</span> a los diferentes markets (Apple, Android).",
-            "publish_step3": "Todas nuestras apps son <span>multidispositivo</span> (móvil, tablet, Pc, Mac...)."
-        },
-        "app_ready": " Tu App lista "
-    },
-    "rates": {
-        "rate_intro": "Planes de precios",
-        "rate_sub": "Todos los planes incluyen:",
-        "sub1": "Atención al cliente por teléfono y chat.",
-        "sub2": "Subida automática a los markets, nosotros subimos tu app.",
-        "sub3": "Web responsive multidispositivo.",
-        "sub4": "Tutor personalizado.",
-        "monthly": "Plan Mensual",
-        "yearly": "Plan Anual",
-        "euro_month": "€ / mes",
-        "euro_year": "€ / año",
-        "basic": "BÁSICO",
-        "proff": "PROFESIONAL",
-        "premiun": "PREMIUM",
-        "unlimited": "ILIMITADO",
-        "app_web": "App y WebApp",
-        "statistics": "<strong>Estadísticas</strong> de tu app",
-        "bullhorn": "<strong>Publicidad</strong> Upplication",
-        "no_bullhorn": "<strong>Sin</strong> publicidad Upplication",
-        "sign": "<strong>Firma</strong> en las plantillas",
-        "no_sign": "<strong>Sin</strong> firma en las plantillas",
-        "no_push": "<strong>Sin</strong> notificaciones push",
-        "4_push": "<strong>Cuatro</strong> notificaciones push / mes",
-        "all_push": "notificaciones <strong>ilimitadas</strong>",
-        "monthless": "Con el Plan Anual te <span>ahorrarás dos meses</span>. Paga diez meses en vez de doce.",
-        "with_tax": "Todos los precios incluyen IVA."
+        "change_form": "Podrás cambiar todos los datos introducidos después.",
+        "start": "Podrás cambiar todos los datos introducidos después.",
+        "input": {
+            "name": "Nombre de la app",
+            "email": "E-mail",
+            "pass": "Contraseña"
+        }
     },
     "footer": {
         "company": "Compañía",
         "community": "Comunidad",
         "media": "Medios y redes",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/'>política de cookies.</a>",
+        "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/'>política de cookies</a>.",
         "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/condicioneslegalesmovistar-upplication/'>política de cookies.</a>",
         "terms_of_use": "Condiciones de uso",
-        "cookies_use": "Uso de Cookies"
+        "cookies_use": "Uso de Cookies",
+        "try_it": "¡Pruébalo, tienes <strong>15 días gratis</strong>!"
     },
     "register": {
         "error": {
@@ -148,10 +52,121 @@
             "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
             "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
             "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
-            "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+            "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar",
+            "general": "Error general"
         }
     },
     "home": {
+        "slider": {
+            "intro1": "El creador de apps para ",
+            "intro2": "Crea la app de tu negocio, sin programar, fácil y rápido.",
+            "bg": "Upplication image"
+        },
+        "why": {
+            "grow": "<strong>Aumenta</strong> tus ventas",
+            "loyal": "<strong>Fideliza</strong> a tus clientes",
+            "others": "<strong>Diferénciate</strong> de la competencia"
+        },
+        "samples": {
+            "business": "Apps para todo tipo de negocios",
+            "restaurants": "Hostelería",
+            "shops": "Tiendas",
+            "serv": "<em>Servicios</em> Profesionales",
+            "personal": "Personalizadas",
+            "rest": {
+                "rest_intro": "Crea la app Android y iPhone de tu <span>restaurante</span> y aporta valor a tu cliente",
+                "details1": "Tus clientes podrán <span>reservar mesa</span> desde su móvil.",
+                "details2": "Realiza <span>envío a domicilio</span> de tus productos.",
+                "details3": "Muestra <span>cupones descuento</span> en la app.",
+                "details4": "Envía <span>alertas push</span> con ofertas exclusivas."
+            },
+            "shop": {
+                "shop_intro": "Crea tu app y haz que tus clientes puedan <span>comprar tus productos desde el móvil</span>",
+                "shop_details1": "Integra la pasarela de pago en cuestión de minutos y <span>empieza a vender</span>",
+                "shop_details2": "Ofrece <span>productos exclusivos</span> y aporta más valor a tu cliente.",
+                "shop_details3": "<span>Envía alertas</span> push con las mejores ofertas.",
+                "shop_details4": "Haz que tus clientes lleven <span>tu negocio en el bolsillo</span>."
+            },
+            "services": {
+                "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en el móvil",
+                "serv_details1": "Haz que tus clientes puedan <span>contratar tus servicios</span> en cualquier lugar.",
+                "serv_details2": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes",
+                "serv_details3": "Sube <span>vídeos y fotografías</span> que promocionen tus servicios.",
+                "serv_details4": "Envía ofertas exclusivas con las <span>alertas push</span>"
+            },
+            "custom": {
+                "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de los que necesites",
+                "cust_details1": "<span>App personal</span>: sube tu currículum, presentaciones, trabajos...",
+                "cust_details2": "<span>App música</span>: sube música y vídeos, fechas de conciertos, merchandising...",
+                "cust_details3": "<span>App eventos</span>: sube la agenda del evento, envía alertas push, introduce galerías...",
+                "cust_details4": "<span>App turismo</span>: Introduce mapas, recomienda lugares, sube ofertas gastronómicas..."
+            },
+            "alt_tag": {
+                "img_iphone": "App de Upplication funcionando en un iPhone",
+                "img_nexus": "App de Upplication funcionando en un Nexus",
+                "img_galaxy": "App de Upplication funcionando en un Samsung Galaxy",
+                "img_xperia": "App de Upplication funcionando en un Sony Xperia"
+            },
+            "free_app": "Crear mi app Gratis"
+        },
+        "how": {
+            "how_main": "Crea tu app fácilmente",
+            "how_one": {
+                "reg_step1": "Regístrate",
+                "reg_step2": "Regístrate en tres sencillos pasos:",
+                "reg_step3": "nombre de tu app, email y contraseña."
+            },
+            "how_two": {
+                "app_step1": "Crea tu App",
+                "app_step2": "Panel de control <span>sencillo de usar</span>, intuitivo.",
+                "app_step3": "Usa <span>módulos y plantillas</span> para personalizar tu app.",
+                "app_step4": "Controla el <span>número de descargas</span> y envía <span>alertas push</span> a tus clientes."
+            },
+            "how_three": {
+                "tutor_step1": "Tutor personal",
+                "tutor_step2": "<span>Soporte técnico profesional</span> para ayudarte en la idea y creación de tu App.",
+                "tutor_step3": "Disponible por <span>chat</span>, <span>email</span>, y <span>teléfono</span>."
+            },
+            "how_four": {
+                "publish_step1": "Publicamos tu App",
+                "publish_step2": "<span>Nosotros nos encargamos de subirte la app</span> a los diferentes markets (Apple, Android).",
+                "publish_step3": "Todas nuestras apps son <span>multidispositivo</span> (móvil, tablet, Pc, Mac...)."
+            },
+            "app_ready": " Tu App lista "
+        },
+        "rates": {
+            "rate_intro": "Planes de precios",
+            "rate_sub": "Todos los planes incluyen:",
+            "sub1": "Atención al cliente por teléfono y chat.",
+            "sub2": "Subida automática a los markets, nosotros subimos tu app.",
+            "sub3": "Web responsive multidispositivo.",
+            "sub4": "Tutor personalizado.",
+            "monthly": "Plan Mensual",
+            "yearly": "Plan Anual",
+            "euro_month": "€ / mes",
+            "euro_year": "€ / año",
+            "basic": "BÁSICO",
+            "proff": "PROFESIONAL",
+            "premiun": "PREMIUM",
+            "unlimited": "ILIMITADO",
+            "app_web": "App y WebApp",
+            "statistics": "<strong>Estadísticas</strong> de tu app",
+            "bullhorn": "<strong>Publicidad</strong> Upplication",
+            "no_bullhorn": "<strong>Sin</strong> publicidad Upplication",
+            "sign": "<strong>Firma</strong> en las plantillas",
+            "no_sign": "<strong>Sin</strong> firma en las plantillas",
+            "no_push": "<strong>Sin</strong> notificaciones push",
+            "four_push": "<strong>4</strong> notificaciones push / mes",
+            "all_push": "notificaciones <strong>ilimitadas</strong>",
+            "monthless": "Con el Plan Anual te <span>ahorrarás dos meses</span>. Paga diez meses en vez de doce.",
+            "with_tax": "Todos los precios incluyen IVA.",
+            "prices": {
+                "basic_month": "99,50",
+                "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
+                "num3": "Mmmmm, ya está ese e-mail registrado",
+                "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
+            }
+        },
         "_url": "/",
         "_template": "home",
         "_name": "Inicio",
@@ -252,7 +267,7 @@
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
-        "try": "¡Pruébalo, tienes <strong>15 días gratis</strong>!",
+        "try": "¡Pruébalo, tienes 15 días gratis!",
         "create_free": "Crear mi app gratis",
         "permanence": "Período de prueba sin compromiso de permanencia."
     },

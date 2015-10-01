@@ -41,6 +41,9 @@ h4.headTitles {
   margin: 2em 0;
   padding: 0 0 0.5em 0;
 }
+h4.headTitles.noMargBot {
+  margin-bottom: 0;
+}
 
 /* ... REGISTRO ................................................... */
 
@@ -54,7 +57,7 @@ h4.headTitles {
   position: absolute;
   z-index: 200;
   top: 90px;
-  right: 20px;
+  right: 7%;
   padding: 0;
   max-width: 400px;
   min-width: 300px;
@@ -136,6 +139,23 @@ h4.headTitles {
 
 .registerTop .btnReg a {
   margin-bottom: 20px;
+}
+
+.error.general-error {
+    background-color: #fceaea;
+    padding: 6px 10px;
+    color: #7f1313;
+    font-weight: 500; 
+}
+
+.display-none {
+    display: none;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: rgb(255, 255, 255);
 }
 
 /* ... MARGIN & PADDING ................................................... */
@@ -221,6 +241,10 @@ h4.headTitles {
   color: #00c86b;
 }
 
+.top-nav ul li a i {
+    padding-right: 5px;
+}
+
 .logo a {
   display: block;
 }
@@ -276,6 +300,20 @@ nav a:hover {
 nav a#pull {
   display: none;
 }
+
+/*Top Nav Bar Sociaol Media subNav 
+.social-nav {
+    display: block;
+    width: 100%;
+    background color: black;
+    height: 50px;
+    position: fixed;
+    top: 100px;
+}
+.social-nav.social-show {
+    display: hide;
+}
+*/
 
 /*Styles for screen 600px and lower*/
 
@@ -517,6 +555,7 @@ a.chat:hover {
   font-size: 10px;
   position: relative;
   bottom: 7px;
+  padding-right: 5px;
 }
 
 /*---- pricing -----*/
@@ -614,10 +653,11 @@ a.chat:hover {
 .pricing-table-grid ul li span em {
   font-style: normal;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .pricing-table-grid ul li i {
-  padding-right: 5px;
+  padding-right: 10px;
   color: #aaa;
 }
 
@@ -1070,8 +1110,8 @@ a.price-btn:hover {
   padding: 20px 0;
   margin: 0;
   position: relative;
-  bottom: 137px;
-  background-color: #e0e0e0;
+  bottom: 130px;
+  background-color: #fff;
   color: #00c86b;
   font-weight: 500;
   font-size: 30px;
@@ -1337,12 +1377,15 @@ a.price-btn:hover {
 
 /* --- BUTTONS ----------------------------------------------------------- */
 
-a.btn-upp {
+a.btn-upp,
+button.btn-upp {
   background-color: #00c86b;
   color: #fff;
+  border-radius: 0;
 }
 
-a.btn-upp:hover {
+a.btn-upp:hover,
+button.btn-upp:hover {
   background-color: #009550;
   color: #fff;
 }

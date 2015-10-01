@@ -93,6 +93,20 @@ nav ul li.active {
   left: 45%;
 }
 
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+    margin: 0 0 25px 0;
+}
+
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
 input[type=email]:focus:not([readonly]),
@@ -131,4 +145,5 @@ half,
 .btn-large:hover,
 .btn-floating:hover {
   box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0);
+  border-radius: 0;
 }

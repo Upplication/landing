@@ -82,11 +82,21 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 768px) {
-
-}
-
 /* ... HEADERS of Slider ...................................................... */
+@media only screen and (min-width: 2000px) {.formPhone {right: 20% !important;}}
+@media only screen and (max-width: 1950px) {.formPhone {right: 19% !important;}}
+@media only screen and (max-width: 1950px) {.formPhone {right: 18% !important;}}
+@media only screen and (max-width: 1900px) {.formPhone {right: 17% !important;}}
+@media only screen and (max-width: 1850px) {.formPhone {right: 16% !important;}}
+@media only screen and (max-width: 1800px) {.formPhone {right: 15% !important;}}
+@media only screen and (max-width: 1750px) {.formPhone {right: 14% !important;}}
+@media only screen and (max-width: 1700px) {.formPhone {right: 13% !important;}}
+@media only screen and (max-width: 1650px) {.formPhone {right: 12% !important;}}
+@media only screen and (max-width: 1600px) {.formPhone {right: 11% !important;}}
+@media only screen and (max-width: 1500px) {.formPhone {right: 10% !important;}}
+@media only screen and (max-width: 1400px) {.formPhone {right: 10% !important;}}
+@media only screen and (max-width: 1300px) {.formPhone {right: 9% !important;}}
+@media only screen and (max-width: 1280px) {.formPhone {right: 30px !important;}}
 
 @media only screen and (max-width: 1180px) {
   .slider .slides li .caption h1 {
@@ -105,6 +115,10 @@ Copyright 2015
 
   .slider .slides li .caption h2 {
     font-size: 1.1em;
+  }
+    
+  .formPhone {
+    right: 30px;
   }
 }
 

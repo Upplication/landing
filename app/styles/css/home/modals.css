@@ -26,6 +26,18 @@ a.modal-action.modal-close:hover {
   color: #333;
 }
 
+#pruebaGratis.modal {
+    max-height: 495px;
+    overflow-y: auto;
+}
+
+#pruebaGratis .modal-content {
+    border: 0 solid transparent;
+    border-radius: 0 !important;
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+}
+
 #pruebaGratis .modal-content h2 {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -44,28 +56,33 @@ a.modal-action.modal-close:hover {
   text-align: right;
 }
 
-#pruebaGratis .modal-footer {
+#pruebaGratis .modal-terms {
   padding: 0;
   background-color: #eee;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-#pruebaGratis .modal-footer ul {
-  margin-bottom: 0;
-  padding-left: 20px;
-  padding-top: 15px;
+#pruebaGratis .modal-terms ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
-#pruebaGratis .modal-footer ul li {
+#pruebaGratis .modal-terms ul li {
   display: inline;
   font-size: 14px;
   font-weight: 500;
 }
 
-#pruebaGratis .modal-footer ul li a {
+#pruebaGratis .modal-terms ul li a {
   font-weight: 600;
 }
 
-#pruebaGratis .modal-footer ul li a:hover {
+#pruebaGratis .modal-terms ul li a:hover {
   color: #009550;
   /* Verde Medio */
 }
@@ -135,8 +152,8 @@ a.modal-action.modal-close:hover {
 
 .mainHead h1 span {
   color: #00c86b;
-  /* verde claro */
   font-weight: 600;
+  padding-right: 5px;
 }
 
 .mainHead h2 {

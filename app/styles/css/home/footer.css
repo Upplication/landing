@@ -175,7 +175,7 @@ footer.page-footer .footer-copyright ul.rrss.right li a i {
   text-align: center;
 }
 
-footer.page-footer .footer-copyright ul.rrss.right li:last-child {
+footer.page-footer .footer-copyright ul.rrss.right li.google {
   padding-right: 18px !important;
 }
 
