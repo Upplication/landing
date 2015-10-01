@@ -124,7 +124,7 @@ html.no-js(lang='es')
                 .row
                     form(name="register", action="/register", method="post").col.s12.center
                         input(type="hidden", name="customerType", value="UPPLICATION")
-                        p.error.general-error.display-none
+                        p.error.display-none.general-error
                             | General error
                         .input-field.col.s12
                             i.material-icons.prefix settings_cell
@@ -177,7 +177,7 @@ html.no-js(lang='es')
                     h2 !{form.free_form}
                 form(name="register", action="/register", method="post").col.s12
                     input(type="hidden", name="customerType", value="UPPLICATION")
-                    p.error.general-error.display-none
+                    p.error.display-none.general-error
                         | General error
                     .row
                         .input-field.col.s12
