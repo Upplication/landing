@@ -68,6 +68,7 @@ footer.page-footer h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: #373737;
+  font-size: 15px;
 }
 
 footer.page-footer ul li {
@@ -75,6 +76,7 @@ footer.page-footer ul li {
   font-weight: 500;
   color: #00753e;
   padding: 5px 0;
+  font-size: 14px;
 }
 
 footer.page-footer ul.footLinks li a {
@@ -112,18 +114,31 @@ footer.page-footer .footer-copyright {
 footer.page-footer .footer-copyright span {
   color: #00ca6b !important;
 }
+footer.page-footer .footer-copyright em {
+    font-style: normal;
+    font-size: 14px;
+}
+footer.page-footer .footer-copyright i.fa-circle {
+    font-size: 3px;
+    padding: 0 10px;
+    position: relative;
+    bottom: 3px;
+}
 
 footer.page-footer .footer-copyright ul.rrss.right {
   float: right;
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li {
-  padding: 18px;
-  display: inline;
+    padding: 23px 18px;
+    display: inline;
+    font-size: 10px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li:first-child {
-  padding: 18px 21px;
+  padding: 23px 21px;
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li.facebook:hover {
