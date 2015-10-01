@@ -14,10 +14,6 @@ var log = function (text) {
     }
 };
 
-var updateVisitInfo = function () {
-    localStorage.numVisits = (parseInt(localStorage.numVisits) || 0) + 1;
-};
-
 /**
  * Get the cookie value from a concrete key
  * @param name Cookie name

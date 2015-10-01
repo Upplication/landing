@@ -87,7 +87,7 @@ html.no-js(lang='es')
                             li
                                 each language in langs.codes
                                     if lang != language.language_country
-                                        a(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
+                                        a.lang-link(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
                                             i.fa.fa-globe
                                             | #{language.language_short_code}
                             li
@@ -126,23 +126,29 @@ html.no-js(lang='es')
                     |  y prueba 
                     span 15 días
                 .row
-                    form.col.s12.center
+                    form(name="register", action="/register", method="post").col.s12.center
+                        input(type="hidden", name="customerType", value="UPPLICATION")
+                        p.error.general-error.display-none
+                            | General error
                         .input-field.col.s12
                             i.material-icons.prefix settings_cell
-                            input#icon_prefix.validate(type='text')
-                            label(for='icon_prefix') Nombre de la app
+                            input#modal_app_name.validate(type='text', name='appName')
+                            label(for='modal_app_name') Nombre de la app
+                                p.error.display-none
                         .input-field.col.s12
                             i.material-icons.prefix email
-                            input#icon_telephone.validate(type='tel')
-                            label(for='icon_telephone') E-mail
+                            input#modal_email.validate(type='tel', name='email')
+                            label(for='modal_email') E-mail
+                                p.error.display-none
                         .input-field.col.s12
                             i.material-icons.prefix vpn_key
-                            input#icon_telephone.validate(type='password')
-                            label(for='icon_telephone') Contraseña
+                            input#modal_pass.validate(type='password', name='password')
+                            label(for='modal_pass') Contraseña
+                                p.error.display-none
                         .input-field.col.s12
-                            a.waves-effect.waves-light.btn-large.btn-upp
+                            button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                                 i.material-icons.left play_circle_outline
-                                | Prueba Gratis
+                                span Prueba Gratis
             .modal-footer
                 ul.hover-anim
                     li
@@ -169,26 +175,32 @@ html.no-js(lang='es')
                     img(src='#{localConfig.base_path}/images/home/bg/bgStores.jpg', alt='')
                 li
                     img(src='#{localConfig.base_path}/images/home/bg/bgLandscape.jpg', alt='')
-        // FORM "PRUEBA GRATIS 15 DÍAS"
+        // FORM "TRY FREE 15 DAYS"
         .col-xs-12.col-md-4.right.formPhone.animated.fadeIn
             .row.registerTop
                 .headReg
                     h2 Prueba gratis 15 días
-                form.col.s12
+                form(name="register", action="/register", method="post").col.s12
+                    input(type="hidden", name="customerType", value="UPPLICATION")
+                    p.error.general-error.display-none
+                        | General error
                     .row
                         .input-field.col.s12
-                            input#first_name.validate(type='text')
-                            label(for='first_name') Nombre de la app
+                            input#app_name.validate(type='text', name='appName')
+                            label(for='app_name') Nombre de la app
+                                p.error.display-none
                         .input-field.col.s12
-                            input#email.validate(type='email')
+                            input#email.validate(type='email', name='email')
                             label(for='email') Email
+                                p.error.display-none
                         .input-field.col.s12
-                            input#password.validate(type='password')
+                            input#password.validate(type='password', name='password')
                             label(for='password') Password
+                                p.error.display-none
                     .btnReg
-                        a.waves-effect.waves-light.btn-large.btn-upp
+                        button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                             i.material-icons.left play_circle_outline
-                            | Empezar ya
+                            span Empezar ya
                         p Podrás cambiar todos los datos introducidos después.
                         p
                             | Al hacer clic en el botón "Probar gratis" aceptas nuestros
@@ -995,6 +1007,12 @@ html.no-js(lang='es')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
         // bower:js
+        // build:js /scripts/app.min.js
+        script(type="text/javascript", src='/scripts/ua.js')
+        script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/v2/register.js')
+        script(type="text/javascript", src='/scripts/v2/lang.js')
+        // endbuild
         // endbower
         script.
             $(function () {

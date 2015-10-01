@@ -1,4 +1,7 @@
-Zepto(function ($) {
+/**
+ * deprecated
+ */
+$(function () {
     'use strict';
 
     var UTM_PARAMS = ["utm_source", "utm_campaign", "utm_medium", "utm_content"];
@@ -73,6 +76,7 @@ Zepto(function ($) {
                 } else {
                     $(this).find("input").prop("disabled", false);
                     submit.val(submit.data("text"));
+                    submit.prop("disabled", false);
                     var error = {};
 
                     switch (data.case) {
@@ -129,6 +133,7 @@ Zepto(function ($) {
                 // end loading
                 $(this).find("input").prop("disabled", false);
                 submit.val(submit.data("text"));
+                submit.prop("disabled", false);
 
                 $.magnificPopup.open({
                     items: {
@@ -150,6 +155,7 @@ Zepto(function ($) {
         //Validation done in HTML5 (patterns, minlength, etc)
         $("form[name='register']").submit(function (e) {
             e.preventDefault();
+            e.stopPropagation();
 
             var $form = $(this);
             addUtmParamsToForm($form);
@@ -165,7 +171,7 @@ Zepto(function ($) {
             var submit = $(this).find("input[type='submit']");
 
             submit.val(submit.data("loading"));
-
+            submit.prop("disabled", true);
             $.ajax({
                 type: "GET", // jsonp only work with get
                 url: url,
@@ -224,7 +230,7 @@ Zepto(function ($) {
             var submit = $(this).find("input[type='submit']");
 
             submit.val(submit.data("loading"));
-
+            submit.prop("disabled", true);
             $.ajax({
                 type: "GET", // jsonp only work with get
                 url: url,
