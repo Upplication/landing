@@ -68,7 +68,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                 .footer-container
                     #cookies
                         p !{footer.cookies_aplicateca}
-                            span.close(onclick="closeCookies()") X
+                            span#cookies-accept.close X
 
         //-script(src='/bower_components/zeptojs/src/touch.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
@@ -80,4 +80,5 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // build:js({.tmp,app}) /scripts/app.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/v2/cookies.js')
         // endbuild

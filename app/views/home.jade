@@ -866,7 +866,7 @@ html.no-js(lang='es')
                                 i.fa.fa-google-plus
             .footer-bottom
         #cookies
-            i#toFix.fa.fa-times.close(onclick="closeCookies()")
+            i#cookies-accept.fa.fa-times.close
             p !{footer.cookies}
         // vendor js
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
@@ -878,6 +878,7 @@ html.no-js(lang='es')
         // build:js /scripts/app.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/v2/cookies.js')
         script(type="text/javascript", src='/scripts/v2/register.js')
         script(type="text/javascript", src='/scripts/v2/lang.js')
         // endbuild
@@ -945,7 +946,7 @@ html.no-js(lang='es')
                 $('.social-share').click(function () {
                     $(".social-nav").toggleClass("social-show");
                 });
-                $('#toFix').click(function () {
+                $('#cookies-accept').click(function () {
                     $("#habla_window_div").addClass("bottomFix");
                 });
             });

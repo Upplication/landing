@@ -100,8 +100,3 @@ var checkLanguage = function () {
         }
     }
 };
-
-var closeCookies = function () {
-    setCookie("showed-cookies", "true");
-    $("#cookies").removeClass('show');
-};
