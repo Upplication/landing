@@ -41,6 +41,7 @@ h4.headTitles {
   margin: 2em 0;
   padding: 0 0 0.5em 0;
 }
+
 h4.headTitles.noMargBot {
   margin-bottom: 0;
 }
@@ -98,6 +99,7 @@ h4.headTitles.noMargBot {
   font-size: 1.2em;
   margin: 0;
 }
+
 .registerTop .headReg h2 span {
   color: #009550;
 }
@@ -142,20 +144,20 @@ h4.headTitles.noMargBot {
 }
 
 .error.general-error {
-    background-color: #fceaea;
-    padding: 6px 10px;
-    color: #7f1313;
-    font-weight: 500; 
+  background-color: #fceaea;
+  padding: 6px 10px;
+  color: #7f1313;
+  font-weight: 500;
 }
 
 .display-none {
-    display: none;
+  display: none;
 }
 
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 /* ... MARGIN & PADDING ................................................... */
@@ -179,8 +181,6 @@ select:-webkit-autofill {
 /* ... MAIN TOP NAV BAR ................................................... */
 
 /*----- start-header ----*/
-
-
 
 .logo {
   float: left;
@@ -242,7 +242,7 @@ select:-webkit-autofill {
 }
 
 .top-nav ul li a i {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 .logo a {
@@ -300,20 +300,6 @@ nav a:hover {
 nav a#pull {
   display: none;
 }
-
-/*Top Nav Bar Sociaol Media subNav 
-.social-nav {
-    display: block;
-    width: 100%;
-    background color: black;
-    height: 50px;
-    position: fixed;
-    top: 100px;
-}
-.social-nav.social-show {
-    display: hide;
-}
-*/
 
 /*Styles for screen 600px and lower*/
 
@@ -443,8 +429,6 @@ nav a#pull {
   text-align: center;
 }
 
-
-
 .contact-info-left {
   float: left;
   width: 50%;
@@ -561,11 +545,11 @@ a.chat:hover {
 /*---- pricing -----*/
 
 .badgeTopSales {
-    position: absolute;
-    top: 5px;
-    right: 20px;
-    z-index: 200;
-    width: 50px;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  z-index: 200;
+  width: 50px;
 }
 
 .pricing-tables {
@@ -593,8 +577,8 @@ a.chat:hover {
 }
 
 .pricing-table-grid ul li span {
-    text-align: center;
-    font-weight: 700;
+  text-align: center;
+  font-weight: 700;
 }
 
 .pricing-table-grid ul li a:hover {
@@ -1127,24 +1111,25 @@ a.price-btn:hover {
 }
 
 .appReady h4 span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .appReady h4 i {
-    color: #fff;
+  color: #fff;
 }
 
 .appReady h4 i:first-child {
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    text-shadow: -4px -4px 0 #00c86b,
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  text-shadow: -4px -4px 0 #00c86b,
                   1px -1px 0 #00c86b,
                   -1px 1px 0 #00c86b,
                    1px 1px 0 #00c86b;
 }
+
 .appReady h4 i:last-child {
-    text-shadow: 4px 4px 0 #00c86b,
+  text-shadow: 4px 4px 0 #00c86b,
                   1px -1px 0 #00c86b,
                   -1px 1px 0 #00c86b,
                    1px 1px 0 #00c86b;
@@ -1371,7 +1356,7 @@ a.price-btn:hover {
 
 #tabs ul li a i.fa-check {
   color: #00ca6b;
-    padding-right: 8px;
+  padding-right: 8px;
 }
 
 #tabs ul.operating-systems {
@@ -1418,14 +1403,15 @@ button.btn-upp:hover {
 }
 
 /* --- LIVE CHAT PANEL ----------------------------------------------------------- */
+
 #habla_beta_container_do_not_rely_on_div_classes_or_names .habla_window_div_base {
-    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
-    box-shadow: 0 0 0 rgba(0,0,0,0);
-}
-#habla_window_div {
-    bottom: 53px;
-}
-#habla_window_div.bottomFix {
-    bottom: 0;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
+#habla_window_div {
+  bottom: 53px;
+}
+
+#habla_window_div.bottomFix {
+  bottom: 0;
+}
