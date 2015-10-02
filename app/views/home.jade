@@ -412,7 +412,7 @@ html.no-js(lang='es')
                             .col.s12.m4.offset-m4.appReady
                                 h4
                                     i.fa.fa-exclamation
-                                    | #{home.how.app_ready}
+                                    | !{home.how.app_ready}
                                     i.fa.fa-exclamation
         // CLIENTS
         .clients
@@ -432,7 +432,7 @@ html.no-js(lang='es')
                                         | #{home.rates.sub2}
                                     li
                                         i.fa.fa-tablet
-                                        | #home.{rates.sub3}
+                                        | #{home.rates.sub3}
                                     li
                                         i.fa.fa-graduation-cap
                                         | #{home.rates.sub4}
@@ -478,6 +478,7 @@ html.no-js(lang='es')
                                                     | !{home.rates.no_push}
                                         a.order-btn(href='#') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
+                                    img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
                                     .pricing-table-grid
                                         h3 #{home.rates.proff}
                                         ul
@@ -563,8 +564,8 @@ html.no-js(lang='es')
                                                     | !{home.rates.no_bullhorn}
                                             li
                                                 a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.no_sign}
+                                                    i.fa.fa-object-ungroup
+                                                    | !{home.rates.no_templates}
                                             li
                                                 a(href='#')
                                                     i.fa.fa-bell
@@ -605,6 +606,7 @@ html.no-js(lang='es')
                                                     | !{home.rates.no_push}
                                         a.order-btn(href='#') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
+                                    img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
                                     .pricing-table-grid
                                         h3 #{home.rates.proff}
                                         ul
@@ -690,8 +692,8 @@ html.no-js(lang='es')
                                                     | !{home.rates.no_bullhorn}
                                             li
                                                 a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.no_sign}
+                                                    i.fa.fa-object-ungroup
+                                                    | !{home.rates.no_templates}
                                             li
                                                 a(href='#')
                                                     i.fa.fa-bell
@@ -826,13 +828,13 @@ html.no-js(lang='es')
                         h6 #{external.titles.legal}
                         ul.footLinks
                             li
-                                a(href='terminos#legal', title='Aviso Legal Upplication') #{terms.legal.title}
+                                a(href='#{external.tos.url}', title='#{external.tos.anchor}') #{terms.legal.title}
                             li
-                                a(href='terminos#privacidad', title='Política de Privacidad Upplication') #{terms.privacy.title}
+                                a(href='#{external.tos.url}', title='#{terms.privacy.title}') #{terms.privacy.title}
                             li
-                                a(href='terminos#uso', title='Condiciones de uso Upplication') #{footer.terms_of_use}
+                                a(href='#{external.tos.url}', title='#{footer.terms_of_use}') #{footer.terms_of_use}
                             li
-                                a(href='terminos#cookies', title='Uso de Cookies Upplication') #{footer.cookies_use}
+                                a(href='#{external.tos.url}', title='#{footer.cookies_use}') #{footer.cookies_use}
                         ul
                             li
                                 a(href='https://mixpanel.com/', title='Mixpanel mobile analytics')
@@ -862,8 +864,9 @@ html.no-js(lang='es')
                         li.google
                             a(href='https://plus.google.com/+Upplication/videos', title='Google+ Upplication')
                                 i.fa.fa-google-plus
+            .footer-bottom
         #cookies
-            i.fa.fa-times.close(onclick="closeCookies()")
+            i#toFix.fa.fa-times.close(onclick="closeCookies()")
             p !{footer.cookies}
         // vendor js
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
@@ -880,8 +883,18 @@ html.no-js(lang='es')
         // endbuild
         script.
             $(function () {
+                $('.lang-link').click(function () {
+                    $(".element").toggleClass("element-eng");
+                });
                 $(".element").typed({
                     strings: ["emprendedores", "hosteleria", "servicios", "tiendas", "ti"],
+                    typeSpeed: 100,
+                    startDelay: 200,
+                    backDelay: 2500,
+                    loop: true
+                });
+                $(".element-eng").typed({
+                    strings: ["agencies", "hostelry", "services", "shops", "you"],
                     typeSpeed: 100,
                     startDelay: 200,
                     backDelay: 2500,
@@ -931,6 +944,9 @@ html.no-js(lang='es')
                 });
                 $('.social-share').click(function () {
                     $(".social-nav").toggleClass("social-show");
+                });
+                $('#toFix').click(function () {
+                    $("#habla_window_div").addClass("bottomFix");
                 });
             });
         // START MOBILE TOP NAVIGATION MENU

@@ -34,8 +34,8 @@
         "community": "Comunidad",
         "media": "Medios y redes",
         "signature": "Designed and assembled in Madrid",
-        "terms_of_use": "Condiciones de uso",
-        "cookies_use": "Uso de Cookies",
+        "terms_of_use": "Terms of Use",
+        "cookies_use": "Cookies warning",
         "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy</a>.",
         "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
         "try_it": "Try it <strong>free for 15 days</strong>!"
@@ -131,7 +131,7 @@
                 "publish_step2": "<span>We publish your app</span> in all differents markets (Apple, Android).",
                 "publish_step3": "Our app are all <span>multi-device</span> (mobile, tablet, Pc, Mac...)."
             },
-            "app_ready": " Your App is ready "
+            "app_ready": " <span>Your App</span> is ready "
         },
         "rates": {
             "rate_intro": "Pricing plans",
@@ -155,8 +155,9 @@
             "sign": "<strong>Signature</strong> on templates",
             "no_sign": "<strong>No</strong> signature on templates",
             "no_push": "<strong>No</strong> push alerts",
-            "four_push": "<strong>4</strong> alerts / month",
-            "all_push": "<strong>Unlimited</strong> alerts",
+            "four_push": "<strong>4</strong> push alerts / month",
+            "all_push": "<strong>Unlimited</strong> push alerts",
+            "no_templates": "<strong>Custom App</strong>, personalized",
             "monthless": "<span>Two month discount</span> in all yearly plans. Pay ten months and take twelve.",
             "with_tax": "IVA tax included in all prices."
         },
@@ -525,7 +526,7 @@
         },
         "about": {
             "anchor": "About us",
-            "url": "/about-us/"
+            "url": "@@config.base_path/about-us/"
         },
         "team": {
             "anchor": "Team",
@@ -541,7 +542,7 @@
         },
         "jobs": {
             "anchor": "We are hiring!",
-            "url": "/jobs/"
+            "url": "@@config.base_path/jobs/"
         },
         "tos": {
             "anchor": "Terms and Conditions",
@@ -561,7 +562,7 @@
         },
         "apps": {
             "anchor": "App samples",
-            "url": "/showcase/"
+            "url": "@@config.base_path/showcase/"
         },
         "create_apps": {
             "anchor": "We create your app",

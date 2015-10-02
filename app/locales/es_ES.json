@@ -132,7 +132,7 @@
                 "publish_step2": "<span>Nosotros nos encargamos de subirte la app</span> a los diferentes markets (Apple, Android).",
                 "publish_step3": "Todas nuestras apps son <span>multidispositivo</span> (móvil, tablet, Pc, Mac...)."
             },
-            "app_ready": " Tu App lista "
+            "app_ready": " <span>Tu App</span> lista "
         },
         "rates": {
             "rate_intro": "Planes de precios",
@@ -158,6 +158,7 @@
             "no_push": "<strong>Sin</strong> notificaciones push",
             "four_push": "<strong>4</strong> notificaciones push / mes",
             "all_push": "notificaciones <strong>ilimitadas</strong>",
+            "no_templates": "<strong>A medida</strong>, personalizada",
             "monthless": "Con el Plan Anual te <span>ahorrarás dos meses</span>. Paga diez meses en vez de doce.",
             "with_tax": "Todos los precios incluyen IVA.",
             "prices": {
@@ -532,7 +533,7 @@
         },
         "about": {
             "anchor": "Nosotros",
-            "url": "/nosotros/"
+            "url": "@@config.base_path/nosotros/"
         },
         "team": {
             "anchor": "Equipo",
@@ -548,7 +549,7 @@
         },
         "jobs": {
             "anchor": "¡Estamos contratando!",
-            "url": "/trabajos/"
+            "url": "@@config.base_path/trabajos/"
         },
         "tos": {
             "anchor": "Condiciones legales",
@@ -568,7 +569,7 @@
         },
         "apps": {
             "anchor": "Ejemplos de apps",
-            "url": "/inspirate"
+            "url": "@@config.base_path/inspirate"
         },
         "create_apps": {
             "anchor": "Creamos tu app",

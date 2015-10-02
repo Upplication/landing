@@ -182,3 +182,9 @@ footer.page-footer .footer-copyright ul.rrss.right li.google {
 @media only screen and (min-width: 993px) {
 
 }
+
+.footer-bottom {
+    width: 100%;
+    height: 33px;
+    background-color: #2f2f2f;
+}

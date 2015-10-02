@@ -560,6 +560,14 @@ a.chat:hover {
 
 /*---- pricing -----*/
 
+.badgeTopSales {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    z-index: 200;
+    width: 50px;
+}
+
 .pricing-tables {
   padding: 5em 0;
 }
@@ -585,7 +593,8 @@ a.chat:hover {
 }
 
 .pricing-table-grid ul li span {
-  text-align: center;
+    text-align: center;
+    font-weight: 700;
 }
 
 .pricing-table-grid ul li a:hover {
@@ -1113,14 +1122,32 @@ a.price-btn:hover {
   bottom: 130px;
   background-color: #fff;
   color: #00c86b;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.appReady h4 span {
+    font-weight: 700;
+}
+
+.appReady h4 i {
+    color: #fff;
 }
 
 .appReady h4 i:first-child {
-  -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    text-shadow: -4px -4px 0 #00c86b,
+                  1px -1px 0 #00c86b,
+                  -1px 1px 0 #00c86b,
+                   1px 1px 0 #00c86b;
+}
+.appReady h4 i:last-child {
+    text-shadow: 4px 4px 0 #00c86b,
+                  1px -1px 0 #00c86b,
+                  -1px 1px 0 #00c86b,
+                   1px 1px 0 #00c86b;
 }
 
 @media (min-width:768px) {
@@ -1389,3 +1416,16 @@ button.btn-upp:hover {
   background-color: #009550;
   color: #fff;
 }
+
+/* --- LIVE CHAT PANEL ----------------------------------------------------------- */
+#habla_beta_container_do_not_rely_on_div_classes_or_names .habla_window_div_base {
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+#habla_window_div {
+    bottom: 53px;
+}
+#habla_window_div.bottomFix {
+    bottom: 0;
+}
+
