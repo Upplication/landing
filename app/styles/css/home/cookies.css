@@ -9,7 +9,7 @@ Copyright 2015
     position: fixed;
     bottom: 0;
     z-index: 8999;
-    display: block;
+    display: none;
     background-color: rgba(0,200,107,.7);
     width: 100%;
     border-top: 1px solid #00c86b;
@@ -17,6 +17,10 @@ Copyright 2015
     font-weight: 500;
     font-size: 1.2em;
     padding: 12px 18px 0;
+}
+
+#cookies.show {
+    display: block;
 }
 
 #cookies i {
