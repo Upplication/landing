@@ -1,5 +1,7 @@
 /**
  * Save the lang when it is clicked to store as default lang for the user.
+ *
+ * depends on scripts/utils.js
  */
 $(function () {
     var setupLang = function(){
