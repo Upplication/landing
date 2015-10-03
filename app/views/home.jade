@@ -59,6 +59,7 @@ html.no-js(lang='es')
         link(rel='stylesheet', href='/styles/css/home/modals.css')
         link(rel='stylesheet', href='/styles/css/home/footer.css')
         link(rel='stylesheet', href='/styles/css/home/cookies.css')
+        link(rel='stylesheet', href='/styles/css/home/floating-chat.css')
         link(rel='stylesheet', href='/styles/css/home/mediaqueries.css')
         // endbuild
 
@@ -97,12 +98,12 @@ html.no-js(lang='es')
                             li
                                 a(href='#pricing', title='') #{header.nav.prices}
                             li
-                                a(href='http://www.upplication.com/blog/', target='_blank', title='') Blog
+                                a(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
                             li
-                                a(href='#', title='')
+                                a(href="#{$.external.dashboard.url}")
                                     i.fa.fa-lock
                                     | #{header.enter}
-                        a#pull(href='#')
+                        a#pull(href='')
                             img(src='#{localConfig.base_path}/images/home/icons/nav-icon.png', title='menu')
                     .contact-info
                         .contact-info-grids
@@ -766,7 +767,7 @@ html.no-js(lang='es')
                         h2 !{footer.try_it}
                         span #{home.permanence}
                     .pricing-plan-right
-                        a.price-btn.modal-trigger(href='#pruebaGratis') #{home.create_free}
+                        a.price-btn.modal-trigger(href='#pruebaGratis') #{header.free_trial}
                     .clearfix
         // COSTUMERS SERVICES CONTACT AREA
         .servCliente
@@ -791,11 +792,11 @@ html.no-js(lang='es')
                         h6 #{external.titles.help}
                         ul.footLinks
                             li
-                                a(href='#!', title='') #{external.helpcenter.anchor}
+                                a(href='#{external.helpcenter.anchor}', title='') #{external.helpcenter.anchor}
                             li
-                                a(href='#!', title='') #{external.tutorials.anchor}
+                                a(href='#{external.tutorials.url}', title='') #{external.tutorials.anchor}
                             li
-                                a(href='http://www.upplication.com/blog/', title='Blog Upplication') #{external.blog.anchor}
+                                a(href='http://www.upplication.com/blog/', title='') #{external.blog.anchor}
                         ul
                             li
                                 a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', title='UE fonde de desarrollo regional')
@@ -815,13 +816,13 @@ html.no-js(lang='es')
                         h6 #{external.titles.misc}
                         ul.footLinks
                             li
-                                a(href='#!', title='Upplication Team') #{external.team.anchor}
+                                a(href='#{external.team.url}', title='Upplication Team') #{external.team.anchor}
                             li
                                 a(href='http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html', title='Distribuidor de Upplication') #{external.partners.anchor}
                             li
-                                a(href='#!', title='') #{external.jobs.anchor}
+                                a(href='#{external.jobs.url}', title='') #{external.jobs.anchor}
                             li
-                                a(href='#{external.breakfasts.url}', title='Desayunos Upplication') #{external.breakfasts.anchor}
+                                a(href='#{external.breakfasts.url}', target='_blank', title='Desayunos Upplication') #{external.breakfasts.anchor}
                             li
                                 a(href='https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip', title='Prensa Upplication') #{external.media_kit.anchor}
                     .col.l3.s12.footCol
@@ -847,22 +848,22 @@ html.no-js(lang='es')
                     em Designed and assembled in Madrid
                     ul.rrss.right.hover-anim
                         li.facebook
-                            a(href='https://www.facebook.com/Upplication', title='Facebook Upplication')
+                            a(href='https://www.facebook.com/Upplication', target='_blank', title='Facebook Upplication')
                                 i.fa.fa-facebook
                         li.twitter
-                            a(href='https://twitter.com/upplication', title='Twitter Upplication')
+                            a(href='https://twitter.com/upplication', target='_blank', title='Twitter Upplication')
                                 i.fa.fa-twitter
                         li.instagram
-                            a(href='https://instagram.com/upplication', title='Instagram Upplication')
+                            a(href='https://instagram.com/upplication', target='_blank', title='Instagram Upplication')
                                 i.fa.fa-instagram
                         li.youtube
-                            a(href='https://www.youtube.com/user/Upplication', title='Youtube Upplication')
+                            a(href='https://www.youtube.com/user/Upplication', target='_blank', title='Youtube Upplication')
                                 i.fa.fa-youtube-play
                         li.linkedin
-                            a(href='https://www.linkedin.com/company/upplication', title='LinkedIn Upplication')
+                            a(href='https://www.linkedin.com/company/upplication', target='_blank', title='LinkedIn Upplication')
                                 i.fa.fa-linkedin
                         li.google
-                            a(href='https://plus.google.com/+Upplication/videos', title='Google+ Upplication')
+                            a(href='https://plus.google.com/+Upplication/videos', target='_blank', title='Google+ Upplication')
                                 i.fa.fa-google-plus
             .footer-bottom
         #cookies
@@ -884,18 +885,8 @@ html.no-js(lang='es')
         // endbuild
         script.
             $(function () {
-                $('.lang-link').click(function () {
-                    $(".element").toggleClass("element-eng");
-                });
                 $(".element").typed({
-                    strings: ["emprendedores", "hosteleria", "servicios", "tiendas", "ti"],
-                    typeSpeed: 100,
-                    startDelay: 200,
-                    backDelay: 2500,
-                    loop: true
-                });
-                $(".element-eng").typed({
-                    strings: ["agencies", "hostelry", "services", "shops", "you"],
+                    strings: !{JSON.stringify(home.slider.text)},
                     typeSpeed: 100,
                     startDelay: 200,
                     backDelay: 2500,
@@ -913,7 +904,9 @@ html.no-js(lang='es')
                 });
                 $('.scrollspy').scrollSpy();
                 $('ul.tabs').tabs();
-                $('.modal-trigger').leanModal();
+                $('.modal-trigger').leanModal({
+                    opacity: .7
+                });
                 $('.parallax').parallax();
                 $(".button-collapse").sideNav();
                 $('.slider').slider({

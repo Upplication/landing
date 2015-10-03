@@ -65,27 +65,49 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1280px) {
   nav {
-    margin-left: 5%;
+    margin-left: 8%;
   }
 }
 
-@media only screen and (max-width: 1095px) {
+@media only screen and (max-width: 1240px) {
+  nav {
+    margin-left: 6%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  nav {
+    margin-left: 4%;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
   nav {
     margin-left: 3%;
   }
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1170px) {
   nav {
-    margin-left: 1%;
+    margin-left: 2%;
   }
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1180px) {
+  nav {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
   nav {
     margin-left: 10%;
+  }
+
+  nav ul.top-nav {
+    float: right;
   }
 
   .contact-info p {
@@ -98,7 +120,7 @@ Copyright 2015
 
   .contact-info-left {
     float: right;
-    padding-top: 1.1em;
+    padding-top: .6em;
   }
 
   .contact-info-right {
@@ -106,21 +128,44 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1050px) {
   nav {
-    margin-left: 5%;
+    margin-left: 4%;
   }
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 999px) {
   nav {
-    margin-left: 3%;
+    margin-left: 4%;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  nav {
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  nav {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  nav {
+    margin-left: 4%;
+  }
+
+  .top-nav ul li a {
+    padding: 0.2em .8em;
+    font-size: .85em;
   }
 }
 
 @media only screen and (max-width: 895px) {
   nav {
-    margin-left: 1%;
+    margin-left: 0;
   }
 }
 
@@ -208,14 +253,28 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 1500px) {
+  .mainHead h1 {
+    font-size: 2.3em;
+  }
+
   .formPhone {
     right: 10% !important;
   }
 }
 
 @media only screen and (max-width: 1400px) {
+  .mainHead h1 {
+    font-size: 2.15em;
+  }
+
   .formPhone {
     right: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .mainHead h1 {
+    font-size: 2em;
   }
 }
 
@@ -229,44 +288,62 @@ Copyright 2015
   .formPhone {
     right: 30px !important;
   }
-}
 
-@media only screen and (max-width: 1180px) {
-  .slider .slides li .caption h1 {
+  .mainHead h1 {
     font-size: 2.2em;
   }
 
-  .slider .slides li .caption h2 {
+  .mainHead {
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .mainHead h1 {
+    font-size: 2em;
+  }
+
+  .mainHead h2 {
     font-size: 1.2em;
+    padding-top: 10px;
   }
 }
 
 @media only screen and (max-width: 1080px) {
-  .slider .slides li .caption h1 {
+  .mainHead h1 {
     font-size: 2em;
   }
 
-  .slider .slides li .caption h2 {
+  .mainHead h2 {
     font-size: 1.1em;
   }
 
   .formPhone {
     right: 30px;
   }
-}
 
-@media only screen and (max-width: 991px) {
-  .slider .slides li .caption {
+  .mainHead {
     width: 100%;
     top: 8%;
   }
 
-  .slider .slides li .caption h1 {
+  .formPhone {
+    top: 150px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mainHead {
+    width: 100%;
+    top: 8%;
+  }
+
+  .mainHead h1 {
     font-size: 1.8em;
     margin: 2.1rem 0 -1.32rem 0;
   }
 
-  .slider .slides li .caption h2 {
+  .mainHead h2 {
     font-size: 1em;
   }
 
@@ -275,27 +352,121 @@ Copyright 2015
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .formPhone {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .mainHead {
+    top: 8%;
+    width: 82%;
+    left: 60px;
+  }
+}
+
 @media only screen and (max-width: 595px) {
-  .slider .slides li .caption h1 {
+  .mainHead h1 {
     font-size: 1.5em;
   }
 }
 
 @media only screen and (max-width: 495px) {
-  .slider .slides li .caption h1 {
+  .mainHead h1 {
     font-size: 1.4em;
   }
 
-  .slider .slides li .caption h2 {
+  .mainHead h2 {
     font-size: .8em;
   }
 }
 
 @media only screen and (max-width: 456px) {
-  .formPhone {
-    top: 90px;
-    right: 0;
+  .mainHead {
+    top: 35px;
+    left: 10px;
     width: 100%;
+  }
+
+  .mainHead h1 {
+    font-size: 1.5em;
+    display: block;
+  }
+
+  .mainHead h1 span.typed-cursor {
+    display: inline-block;
+  }
+
+  .mainHead h1 span.element {
+    display: inline-block;
+  }
+
+  .mainHead h2 {
+    font-size: .8em;
+    padding-top: 10px;
+  }
+
+  .formPhone {
+    top: 160px;
+    right: 0 !important;
+    width: 100%;
+  }
+
+  .registerTop .headReg {
+    margin-bottom: 10px;
+  }
+
+  input[type=text],
+  input[type=password],
+  input[type=email],
+  input[type=url],
+  input[type=time],
+  input[type=date],
+  input[type=datetime-local],
+  input[type=tel],
+  input[type=number],
+  input[type=search],
+  textarea.materialize-textarea {
+    margin: 0 0 15px 0;
+  }
+
+  #password {
+    margin: 0;
+  }
+
+  .registerTop .btnReg p {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .registerTop .headReg {
+    margin-bottom: 10px;
+  }
+
+  input[type=text],
+  input[type=password],
+  input[type=email],
+  input[type=url],
+  input[type=time],
+  input[type=date],
+  input[type=datetime-local],
+  input[type=tel],
+  input[type=number],
+  input[type=search],
+  textarea.materialize-textarea {
+    margin: 0 0 15px 0;
+  }
+
+  #password {
+    margin: 0;
+  }
+
+  .registerTop .btnReg p {
+    font-size: 0.6em;
   }
 }
 

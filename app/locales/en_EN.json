@@ -17,7 +17,7 @@
         "footer": {
             "seller": "Do you have a seller code?",
             "accept": "When you click on 'Free Trial' button you accept our",
-            "terms": " terms and conditions of use"
+            "terms": " terms of use"
         }
     },
     "form": {
@@ -59,7 +59,8 @@
         "slider": {
             "intro1": "App generator to ",
             "intro2": "Create the app for your business, without coding, quick and easy.",
-            "bg": "Upplication image"
+            "bg": "Upplication image",
+            "text": ["business", "hostelry", "services", "shops", "you"]
         },
         "why": {
             "grow": "<strong>Increase</strong> your sales",

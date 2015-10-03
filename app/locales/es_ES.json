@@ -60,7 +60,8 @@
         "slider": {
             "intro1": "El creador de apps para ",
             "intro2": "Crea la app de tu negocio, sin programar, fácil y rápido.",
-            "bg": "Upplication image"
+            "bg": "Upplication image",
+            "text": ["emprendedores", "emprendedores", "emprendedores", "emprendedores", "emprendedores"]
         },
         "why": {
             "grow": "<strong>Aumenta</strong> tus ventas",

@@ -143,7 +143,8 @@ h4.headTitles.noMargBot {
   margin-bottom: 20px;
 }
 
-.error.general-error {
+.error.general-error,
+p.error {
   background-color: #fceaea;
   padding: 6px 10px;
   color: #7f1313;
@@ -510,7 +511,7 @@ a.chat:hover {
 
 #about {
   border-top: 1px solid #f1f1f1;
-  padding-top: 3em;
+  padding-top: 2em;
 }
 
 /* ... PRICING TABLES ................................................... */
@@ -526,13 +527,14 @@ a.chat:hover {
   color: #00c86b;
 }
 
-#pricing .incluye i.fa-graduation-cap {
-  font-size: 20px;
-}
-
 #pricing .incluye i.fa-tablet {
   padding-left: 15px;
-  padding-right: 12px;
+  padding-right: 13px;
+}
+
+#pricing .incluye i.fa-graduation-cap {
+  font-size: 22px;
+  padding-right: 5px;
 }
 
 #pricing .tax p {
@@ -558,7 +560,7 @@ a.chat:hover {
 }
 
 .pricing-tables {
-  padding: 3em 0;
+  padding: 2em 0;
 }
 
 .pricing-table-grid ul {
@@ -692,10 +694,11 @@ a.order-btn:hover {
 
 .plans-head p {
   color: #adadad;
-  line-height: 1.5em;
+  line-height: .5em;
   width: 55%;
   margin: 0 auto;
   padding-bottom: 30px;
+  font-size: 1.2em;
 }
 
 .plans-head > div {
@@ -765,7 +768,7 @@ a.order-btn:hover {
     -webkit-linear-gradient(to right, #80d2ad, #43a4cd);
     background: repeat-x;*/
   background: #faf9f9;
-  padding: 4em 0;
+  padding: 3em 0;
   margin-top: 5em;
 }
 
@@ -1312,7 +1315,7 @@ a.price-btn:hover {
 /* --- TABS ----------------------------------------------------------- */
 
 #tabs {
-  padding-top: 3em;
+  padding-top: 2em;
   padding-bottom: 2em;
 }
 
@@ -1352,7 +1355,7 @@ a.price-btn:hover {
 }
 
 #tabs ul li a span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #tabs ul li.tab a span em {
