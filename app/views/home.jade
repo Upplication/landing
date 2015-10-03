@@ -128,23 +128,23 @@ html.no-js(lang='es')
                         p.error.general-error.display-none #{register.error.general}
                         .input-field.col.s12
                             i.material-icons.prefix settings_cell
-                            input#modal_app_name.validate(type='text', name='appName')
+                            input#modal_app_name.validate(type='text', name='appName', required)
                             label(for='modal_app_name') #{form.input.name}
-                                p.error.display-none
+                                p.error.display-none.register-appName-error
                         .input-field.col.s12
                             i.material-icons.prefix email
-                            input#modal_email.validate(type='tel', name='email')
+                            input#modal_email.validate(type='email', name='email', required)
                             label(for='modal_email') #{form.input.email}
-                                p.error.display-none
+                                p.error.display-none.register-email-error
                         .input-field.col.s12
                             i.material-icons.prefix vpn_key
-                            input#modal_pass.validate(type='password', name='password')
+                            input#modal_pass.validate(type='password', name='password', required)
                             label(for='modal_pass') #{form.input.pass}
-                                p.error.display-none
+                                p.error.display-none.register-password-error
                         .input-field.col.s12
                             button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                                 i.material-icons.left play_circle_outline
-                                | #{header.free_trial}
+                                span #{header.free_trial}
             .modal-terms
                 ul.hover-anim
                     li
@@ -180,21 +180,21 @@ html.no-js(lang='es')
                     p.error.general-error.display-none #{register.error.general}
                     .row
                         .input-field.col.s12
-                            input#app_name.validate(type='text', name='appName')
+                            input#app_name.validate(type='text', name='appName', required)
                             label(for='app_name') #{form.input.name}
-                                p.error.display-none
+                                p.error.display-none.register-appName-error
                         .input-field.col.s12
-                            input#email.validate(type='email', name='email')
+                            input#email.validate(type='email', name='email', required)
                             label(for='email') #{form.input.email}
-                                p.error.display-none
+                                p.error.display-none.register-email-error
                         .input-field.col.s12
-                            input#password.validate(type='password', name='password')
+                            input#password.validate(type='password', name='password', required)
                             label(for='password') #{form.input.pass}
-                                p.error.display-none
+                                p.error.display-none.register-password-error
                     .btnReg
                         button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                             i.material-icons.left play_circle_outline
-                            | #{header.free_trial}
+                            span #{header.free_trial}
                         p #{form.change_form}
                         p #{modal.footer.accept}
                             a(href='', title='#{modal.footer.terms}') #{modal.footer.terms}
