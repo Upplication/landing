@@ -84,23 +84,23 @@ html.no-js(lang='es')
                         a(href='index.html')
                             img(src='#{localConfig.base_path}/images/home/icons/upplication.png', title='Upplication logo')
                     nav.top-nav
-                        ul.top-nav
+                        ul.top-nav.hide-ul
                             li
                                 each language in langs.codes
                                     if lang != language.language_country
-                                        a.lang-link(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
+                                        a.hide-tab.lang-link(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
                                             i.fa.fa-globe
                                             | !{language.language_short_code}
                             li
-                                a(href='#about', title='') #{header.nav.how}
+                                a.hide-tab(href='#about', title='') #{header.nav.how}
                             li
-                                a(href='#tabs', title='') #{header.nav.apps}
+                                a.hide-tab(href='#tabs', title='') #{header.nav.apps}
                             li
-                                a(href='#pricing', title='') #{header.nav.prices}
+                                a.hide-tab(href='#pricing', title='') #{header.nav.prices}
                             li
-                                a(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
+                                a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
                             li
-                                a(href="#{$.external.dashboard.url}")
+                                a.hide-tab(href="#{$.external.dashboard.url}")
                                     i.fa.fa-lock
                                     | #{header.enter}
                         a#pull(href='')
@@ -147,6 +147,7 @@ html.no-js(lang='es')
                                 | #{header.free_trial}
             .modal-terms
                 ul.hover-anim
+                    //
                     li
                         a(href='') #{modal.footer.seller}
                     li
@@ -158,7 +159,7 @@ html.no-js(lang='es')
             .mainHead
                 h1 #{home.slider.intro1}
                     span.element
-                h2 #{home.slider.intro2}
+                h2 !{home.slider.intro2}
             ul.slides
                 li
                     img(src='#{localConfig.base_path}/images/home/bg/bgPymes.jpg', alt='#{home.slider.bg}')
@@ -171,7 +172,7 @@ html.no-js(lang='es')
                 li
                     img(src='#{localConfig.base_path}/images/home/bg/bgLandscape.jpg', alt='#{home.slider.bg}')
         // FORM "TRY FREE 15 DAYS"
-        .col-xs-12.col-md-4.right.formPhone.animated.fadeIn
+        .col-xs-12.col-md-5.right.formPhone.animated.fadeIn
             .row.registerTop
                 .headReg
                     h2 !{form.free_form}
@@ -792,11 +793,11 @@ html.no-js(lang='es')
                         h6 #{external.titles.help}
                         ul.footLinks
                             li
-                                a(href='#{external.helpcenter.anchor}', title='') #{external.helpcenter.anchor}
+                                a(href='#{external.helpcenter.url}', title='#{external.helpcenter.anchor}') #{external.helpcenter.anchor}
                             li
-                                a(href='#{external.tutorials.url}', title='') #{external.tutorials.anchor}
+                                a(href='#{external.tutorials.url}', title='#{external.tutorials.anchor}') #{external.tutorials.anchor}
                             li
-                                a(href='http://www.upplication.com/blog/', title='') #{external.blog.anchor}
+                                a(href='http://www.upplication.com/blog/', title='#{external.helpcenter.anchor}') #{external.blog.anchor}
                         ul
                             li
                                 a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', title='UE fonde de desarrollo regional')
@@ -816,15 +817,15 @@ html.no-js(lang='es')
                         h6 #{external.titles.misc}
                         ul.footLinks
                             li
-                                a(href='#{external.team.url}', title='Upplication Team') #{external.team.anchor}
+                                a(href='#{external.team.url}', title='#{external.team.anchor}') #{external.team.anchor}
                             li
-                                a(href='http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html', title='Distribuidor de Upplication') #{external.partners.anchor}
+                                a(href='#{external.partners.url}', title='#{external.partners.anchor}') #{external.partners.anchor}
                             li
-                                a(href='#{external.jobs.url}', title='') #{external.jobs.anchor}
+                                a(href='#{external.jobs.url}', title='#{external.jobs.anchor}') #{external.jobs.anchor}
                             li
-                                a(href='#{external.breakfasts.url}', target='_blank', title='Desayunos Upplication') #{external.breakfasts.anchor}
+                                a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
                             li
-                                a(href='https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip', title='Prensa Upplication') #{external.media_kit.anchor}
+                                a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
                     .col.l3.s12.footCol
                         h6 #{external.titles.legal}
                         ul.footLinks
@@ -848,22 +849,22 @@ html.no-js(lang='es')
                     em Designed and assembled in Madrid
                     ul.rrss.right.hover-anim
                         li.facebook
-                            a(href='https://www.facebook.com/Upplication', target='_blank', title='Facebook Upplication')
+                            a(href='#{external.facebook.url}', target='_blank', title='#{external.facebook.anchor}')
                                 i.fa.fa-facebook
                         li.twitter
-                            a(href='https://twitter.com/upplication', target='_blank', title='Twitter Upplication')
+                            a(href='#{external.twitter.url}', target='_blank', title='#{external.twitter.anchor}')
                                 i.fa.fa-twitter
                         li.instagram
-                            a(href='https://instagram.com/upplication', target='_blank', title='Instagram Upplication')
+                            a(href='#{external.instagram.url}', target='_blank', title='#{external.instagram.anchor}')
                                 i.fa.fa-instagram
                         li.youtube
-                            a(href='https://www.youtube.com/user/Upplication', target='_blank', title='Youtube Upplication')
+                            a(href='#{external.youtube.url}', target='_blank', title='#{external.youtube.anchor}')
                                 i.fa.fa-youtube-play
                         li.linkedin
-                            a(href='https://www.linkedin.com/company/upplication', target='_blank', title='LinkedIn Upplication')
+                            a(href='#{external.linkedin.url}', target='_blank', title='#{external.linkedin.anchor}')
                                 i.fa.fa-linkedin
                         li.google
-                            a(href='https://plus.google.com/+Upplication/videos', target='_blank', title='Google+ Upplication')
+                            a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
                                 i.fa.fa-google-plus
             .footer-bottom
         #cookies
@@ -879,6 +880,7 @@ html.no-js(lang='es')
         // build:js /scripts/app.v2.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/scroll.js')
         script(type="text/javascript", src='/scripts/v2/cookies.js')
         script(type="text/javascript", src='/scripts/v2/register.js')
         script(type="text/javascript", src='/scripts/v2/lang.js')
@@ -959,6 +961,15 @@ html.no-js(lang='es')
                         menu.removeAttr('style');
                     }
                 });
+                $('#pull').click(function () {
+                    $(".hide-ul").removeClass("hide-tabs");
+                });
+                var windowWidth = $(window).width();
+                if(windowWidth < 769){
+                    $('.hide-tab').click(function () {
+                        $(".hide-ul").addClass("hide-tabs");
+                    });
+                }
             });
 
         include base/scripts-thirdparties

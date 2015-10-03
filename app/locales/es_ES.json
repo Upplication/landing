@@ -45,23 +45,23 @@
         "error": {
             "num1": "¡Fenomenal! Has terminado el registro",
             "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-            "num3": "Mmmmm, ya está ese e-mail registrado",
-            "num4": "¡Lástima! Ese nombre de app ya lo han elegido",
-            "num5": "¡No! El código seller no es correcto",
-            "num6": "¡Vaya! Nombre de app y e-mail ya registrados",
-            "num7": "¡Vaya! El nombre de la app ya está elegido y el código seller no es correcto",
-            "num8": "¡Vaya! El e-mail ya está registrado y el código seller no es correcto",
-            "num9": "¡Vaya! El nombre de app, el e-mail y código seller no son correctos",
-            "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar",
+            "num3": "Este e-mail ya está registrado",
+            "num4": "Ese nombre de app ya lo han elegido",
+            "num5": "El código seller no es correcto",
+            "num6": "Nombre de app y e-mail ya registrados",
+            "num7": "El nombre de la app ya está elegido y el código seller no es correcto",
+            "num8": "El e-mail ya está registrado y el código seller no es correcto",
+            "num9": "El nombre de app, el e-mail y código seller no son correctos",
+            "num10": "El e-mail o el nombre de app están por rellenar",
             "general": "Error general"
         }
     },
     "home": {
         "slider": {
             "intro1": "El creador de apps para ",
-            "intro2": "Crea la app de tu negocio, sin programar, fácil y rápido.",
+            "intro2": "<span>Crea la app de tu negocio,</span> <span>sin programar, fácil y rápido.</span>",
             "bg": "Upplication image",
-            "text": ["emprendedores", "emprendedores", "emprendedores", "emprendedores", "emprendedores"]
+            "text": ["emprendedores", "hosteleria", "servicios", "tiendas", "ti"]
         },
         "why": {
             "grow": "<strong>Aumenta</strong> tus ventas",
@@ -538,7 +538,7 @@
         },
         "team": {
             "anchor": "Equipo",
-            "url": "/equipo/"
+            "url": "@@config.base_path/equipo/"
         },
         "features": {
             "anchor": "Características",
@@ -565,7 +565,7 @@
             "url": "@@config.base_path/centro-de-ayuda/"
         },
         "breakfasts": {
-            "anchor": "Desayunos",
+            "anchor": "Desayunos Upplication",
             "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
         },
         "apps": {

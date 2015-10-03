@@ -137,6 +137,10 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #009550;
 }
 
+.input-field label.active {
+  width: 94.5%;
+}
+
 .input-field i.prefix.active {
   color: #009550 !important;
 }

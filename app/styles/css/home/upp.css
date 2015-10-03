@@ -35,10 +35,10 @@ body a {
 
 h4.headTitles {
   color: #555;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 2em;
   font-weight: 400;
-  margin: 2em 0;
+  margin: 1em 0;
   padding: 0 0 0.5em 0;
 }
 
@@ -149,6 +149,13 @@ p.error {
   padding: 6px 10px;
   color: #7f1313;
   font-weight: 500;
+  width: 100%;
+}
+
+p.error {
+  position: absolute;
+  z-index: 200;
+  bottom: 5px;
 }
 
 .display-none {
@@ -220,6 +227,10 @@ select:-webkit-autofill {
   width: 100%;
   height: 60px;
   border-bottom: 1px solid #ddd;
+}
+
+.top-nav ul.hide-tabs {
+  display: none !important;
 }
 
 .top-nav ul li a {
@@ -694,8 +705,8 @@ a.order-btn:hover {
 
 .plans-head p {
   color: #adadad;
-  line-height: .5em;
-  width: 55%;
+  line-height: 1em;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 30px;
   font-size: 1.2em;

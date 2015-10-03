@@ -44,21 +44,21 @@
         "error": {
             "num1": "Cool! Registration finished",
             "num2": "Ouch! Error creating your app, please contact us",
-            "num3": "Mmmmm, that email account is already signed in Upplication",
-            "num4": "What a pity! Name of the app already chosen",
-            "num5": "No! Seller code is not correct",
-            "num6": "Wow! Name of the app and e-mail account already signed in",
-            "num7": "Wow! Name of the app already chosen and seller code is not correct",
-            "num8": "Wow! Email account already signed in and seller code is not correct",
-            "num9": "Wow! Name of the app, email account and seller code are not correct",
-            "num10": "Brrr! You need to refill name of the app and email account fields",
+            "num3": "This email account is already signed in Upplication",
+            "num4": "Name of the app already chosen",
+            "num5": "Seller code is not correct",
+            "num6": "Name of the app and e-mail account already signed in",
+            "num7": "Name of the app already chosen and seller code is not correct",
+            "num8": "Email account already signed in and seller code is not correct",
+            "num9": "Name of the app, email account and seller code are not correct",
+            "num10": "You need to refill name of the app and email account fields",
             "general": "General error"
         }
     },
     "home": {
         "slider": {
             "intro1": "App generator to ",
-            "intro2": "Create the app for your business, without coding, quick and easy.",
+            "intro2": "<span>Create the app for your business,</span> <span>without coding, quick and easy.</span>",
             "bg": "Upplication image",
             "text": ["business", "hostelry", "services", "shops", "you"]
         },
@@ -531,7 +531,7 @@
         },
         "team": {
             "anchor": "Team",
-            "url": "/team/"
+            "url": "@@config.base_path/team/"
         },
         "features": {
             "anchor": "Features",
@@ -551,7 +551,7 @@
         },
         "tutorials": {
             "anchor": "Tutorials",
-            "url": "/tutorial/"
+            "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "helpcenter": {
             "anchor": "Help Center",

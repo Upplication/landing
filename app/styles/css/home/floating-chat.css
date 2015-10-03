@@ -8,3 +8,79 @@ Copyright 2015
 .meshim_widget_components_chatButton_Button .button_bar {
   background: #00c86b;
 }
+
+.meshim_widget_Widget {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+}
+
+.meshim_widget_components_chatButton_ButtonBar .button_text {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.meshim_widget_widgets_TitleBar {
+  color: #fff;
+  background: #00c86b;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.meshim_widget_widgets_TitleBar .title {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.meshim_widget_widgets_toast_Disconnected,
+.meshim_widget_components_chatWindow_MainStack.ms_br,
+.meshim_widget_widgets_TitleBar.br {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.meshim_widget_widgets_TextField,
+.meshim_widget_widgets_EmailField,
+.meshim_widget_widgets_PhoneField,
+.meshim_widget_widgets_TextArea,
+.meshim_widget_widgets_ConnAwareSubmit {
+  border-radius: 0 !important;
+}
+
+.meshim_widget_widgets_ErrorMessage {
+  margin-top: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #7f1313;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #fceaea;
+  line-height: 18px;
+}
+
+.meshim_widget_widgets_IconFont {
+  display: none;
+}
+
+.meshim_widget_components_chatWindow_PreChatOfflineForm.cwp_medium {
+  width: 300px;
+}
+
+.meshim_widget_widgets_form_Profile .label,
+label.jx_ui_Label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.meshim_widget_components_chatWindow_preChatOfflineForm_Form .greetings_message {
+  margin-bottom: 15px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.meshim_widget_widgets_ConnAwareSubmit {
+  border-color: #00c86b;
+  background: #00c86b;
+  border-width: 0;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0), inset 0px 0px 0px rgba(255,255,255,0);
+}
