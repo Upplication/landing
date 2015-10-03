@@ -510,7 +510,7 @@ a.chat:hover {
 
 #about {
   border-top: 1px solid #f1f1f1;
-  padding-top: 5em;
+  padding-top: 3em;
 }
 
 /* ... PRICING TABLES ................................................... */
@@ -526,8 +526,13 @@ a.chat:hover {
   color: #00c86b;
 }
 
+#pricing .incluye i.fa-graduation-cap {
+  font-size: 20px;
+}
+
 #pricing .incluye i.fa-tablet {
-  padding-left: 20px;
+  padding-left: 15px;
+  padding-right: 12px;
 }
 
 #pricing .tax p {
@@ -553,7 +558,7 @@ a.chat:hover {
 }
 
 .pricing-tables {
-  padding: 5em 0;
+  padding: 3em 0;
 }
 
 .pricing-table-grid ul {
@@ -882,7 +887,7 @@ a.order-btn:hover {
 }
 
 .c-testmonials {
-  padding-top: 6em;
+  padding-top: 4em;
   border-top: 1px solid #f1f1f1;
 }
 
@@ -1307,7 +1312,7 @@ a.price-btn:hover {
 /* --- TABS ----------------------------------------------------------- */
 
 #tabs {
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 2em;
 }
 
