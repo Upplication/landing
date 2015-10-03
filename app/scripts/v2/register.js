@@ -3,11 +3,10 @@
  * - utm parameters
  * - ajax register with error codes
  * - the form must have a concrete structure:
- *      form
- *          p with general error code
+ *      form(name='register')
+ *          p(class='general-error') with general error code
  *          input(name=appName|email|password)
- *          label
- *              p with concrete error for the input
+ *          p(class='register-appName-error|register-email-error|register-password-error') with concrete error for the input
  *
  *          submit(data-text="default text", data-loading="loading text", value=optional***)
  *              span text (optional)***
@@ -119,7 +118,7 @@ $(function () {
                             break;
                         case 10:
                             //SOME_PARAMETER_NULL_ERROR
-                            console.log(ajax.error[10]);
+                            error.general = ajax.error[10];
                             break;
                     }
 
@@ -180,27 +179,32 @@ $(function () {
                 context: this,
                 dataType: "jsonp",
                 success: registerSuccessCallback(function (form, error) {
-                    var $email = $(form).find("[for=email]"),
-                        $appName = $(form).find("[for=appName]"),
-                        $seller = $(form).find("[for=seller]");
+                    var $emailError = $(form).find(".register-email-error"),
+                        $appNameError = $(form).find(".register-appName-error"),
+                        $sellerError = $(form).find(".register-seller-error");
 
                     if (error.email) {
-                        $email.find('p.error').text(error.email);
-                        $email.find('p.error').show();
-                        $email.find('input').addClass("error");
+                        $emailError.text(error.email);
+                        $emailError.show();
+                        $(form).find('input[name=email]').addClass("error");
                     }
 
                     if (error.appName) {
-                        $appName.find('p.error').text(error.appName);
-                        $appName.find('p.error').show();
-                        $appName.find('input').addClass("error");
+                        $appNameError.text(error.appName);
+                        $appNameError.show();
+                        $(form).find('input[name=appName]').addClass("error");
                     }
 
                     if (error.seller) {
-                        $seller.find('p.error').text(error.seller);
-                        $seller.find('p.error').show();
-                        $seller.find('input').addClass("error");
+                        $sellerError.text(error.seller);
+                        $sellerError.show();
+                        $(form).find('input[name=seller]').addClass("error");
                     }
+
+                    if (error.general) {
+                        $(form).find(".general-error").show();
+                    }
+
                 }, submit),
                 error: registerErrorCallback(submit)
             });
@@ -208,8 +212,8 @@ $(function () {
 
         //Hide errors on input fields when it is modified
         $("[name='register'] input").on('keypress', function () {
-            $(this).siblings("p.error").hide();
-            $(this).siblings("label").find("p.error").hide();
+            $(this).siblings(".error").hide();
+            $(this).siblings().find(".error").hide();
             $(this).removeClass("error");
         });
     };
