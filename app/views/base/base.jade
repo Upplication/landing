@@ -84,7 +84,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     hr.clear
                     #cookies
                         p !{footer.cookies}
-                            span.close(onclick="closeCookies()") X
+                            span#cookies-accept.close X
                     include footer
 
         include ../signup
@@ -99,6 +99,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // build:js({.tmp,app}) /scripts/app.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/v2/cookies.js')
         script(type="text/javascript", src='/scripts/app.js')
-        script(type="text/javascript", src='/scripts/tracking.js')
         // endbuild

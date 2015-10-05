@@ -20,12 +20,7 @@ script(type='text/javascript').
     window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
   }
   
-  var base = window.location.origin.split("//")[1],
-      routing = !{routingString},
-      view = "#{template}",
-      current_lang = "#{lang}";
-  
-  checkLanguage();
+  var base = window.location.origin.split("//")[1];
   
   var BASE_PATH = "#{localConfig.base_path}";
   var DASHBOARD_PATH = "#{localConfig.dashboard_base_path}";
@@ -41,3 +36,6 @@ script(type='text/javascript').
   ajax.error[5] = "#{register.error.num5}";
   ajax.error[6] = "#{register.error.num6}";
   ajax.error[10] = "#{register.error.num10}";
+
+script(type='text/javascript').
+  checkLanguage("#{lang}", !{routingString}, "#{template}");

@@ -1,0 +1,192 @@
+/*
+FOOTER CSS: Custom Stylesheet --- CSS GENERALES: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2015
+*/
+
+.servCliente {
+  background-color: #eee !important;
+  /*border-top: 1px solid #009750;*/
+}
+
+.servCliente ul {
+  margin: 0;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.servCliente ul li {
+  padding: 20px 20px 15px 20px;
+  display: inline-block;
+}
+
+.servCliente ul li a {
+  font-size: 18px;
+  color: #666;
+  font-weight: 500;
+}
+
+.servCliente ul li a span {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.servCliente ul li:first-child {
+  padding-left: 0;
+}
+
+.servCliente ul li.tel {
+  background-color: rgba(0,0,0,.1);
+}
+
+.servCliente ul li.mail {
+  background-color: rgba(0,0,0,.05);
+}
+
+.servCliente ul li.tel:hover {
+  background-color: rgba(0,0,0,.2);
+}
+
+.servCliente ul li.mail:hover {
+  background-color: rgba(0,0,0,.15);
+}
+
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  margin: 0;
+  background-color: #999 !important;
+}
+
+footer.page-footer.container {
+  padding-top: 20px;
+}
+
+footer.page-footer h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 15px;
+}
+
+footer.page-footer ul li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #00753e;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+footer.page-footer ul.footLinks li a {
+  color: #333;
+  font-size: 15px;
+  letter-spacing: .03em;
+}
+
+footer.page-footer ul.footLinks li a:hover {
+  color: #111;
+  -ms-transform: translate(10px);
+  -webkit-transform: translate(10px);
+  transform: translate(10px);
+}
+
+footer.page-footer ul li.schedule-foot {
+  background-color: #00a859;
+  border-radius: 10px;
+  text-align: center !important;
+  margin-right: 20px;
+}
+
+footer.page-footer ul li.schedule-foot a {
+  color: #002011;
+  font-size: 13px;
+  letter-spacing: .03em;
+  padding: 5px;
+}
+
+footer.page-footer .footer-copyright {
+  font-weight: 300;
+  background-color: #373737  !important;
+}
+
+footer.page-footer .footer-copyright span {
+  color: #00ca6b !important;
+}
+
+footer.page-footer .footer-copyright em {
+  font-style: normal;
+  font-size: 14px;
+}
+
+footer.page-footer .footer-copyright i.fa-circle {
+  font-size: 3px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 3px;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right {
+  float: right;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li {
+  padding: 23px 18px;
+  display: inline;
+  font-size: 10px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li:first-child {
+  padding: 23px 21px;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.facebook:hover {
+  background-color: #3b5998;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.twitter:hover {
+  background-color: #55acee;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.instagram:hover {
+  background-color: #3f729b;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.youtube:hover {
+  background-color: #cd201f;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.linkedin:hover {
+  background-color: #0077b5;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.google:hover {
+  background-color: #dc4e41;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li a {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li a i {
+  text-align: center;
+}
+
+footer.page-footer .footer-copyright ul.rrss.right li.google {
+  padding-right: 18px !important;
+}
+
+@media only screen and (min-width: 993px) {
+
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 33px;
+  background-color: #2f2f2f;
+}

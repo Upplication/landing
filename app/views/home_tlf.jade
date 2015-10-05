@@ -17,7 +17,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
     //<![endif]
 
     head
-        include scripts
+        include base/scripts
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         title #{title}
@@ -234,7 +234,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     hr.clear
                     #cookies
                         p !{footer.cookies}
-                            span.close(onclick="closeCookies()") X
+                            span#cookies-accept.close X
 
         include signup
         //-script(src='/bower_components/zeptojs/src/touch.js')
@@ -245,10 +245,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // endbower
         // build:js({.tmp,app}) /scripts/app.min.js
         script(type='text/javascript').
-            $("#seller-code").hide()
-            $("[name=customerType]").val("MPAY")
+            $("#seller-code").hide();
+            $("[name=customerType]").val("MPAY");
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/v2/cookies.js')
         script(type="text/javascript", src='/scripts/app.js')
-        script(type="text/javascript", src='/scripts/tracking.js')
         // endbuild

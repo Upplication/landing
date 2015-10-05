@@ -27,7 +27,7 @@
     "segmentio_token": "j44nuye4y6",
     "tagmanager_token": "GTM-M8KJZG",
     "base_path": "http://localhost:9000",
-    "dashboard_base_path": "http://localhost:8080",
+    "dashboard_base_path": "http://dashboard.upplication.priv",
     "env": "LOC"
   }
 }

@@ -14,10 +14,6 @@ var log = function (text) {
     }
 };
 
-var updateVisitInfo = function () {
-    localStorage.numVisits = (parseInt(localStorage.numVisits) || 0) + 1;
-};
-
 /**
  * Get the cookie value from a concrete key
  * @param name Cookie name
@@ -64,7 +60,19 @@ var setCookie = function (name, value) {
     document.cookie = cookie;
 };
 
-var checkLanguage = function () {
+/**
+ * Check if the current lang page is the user
+ * preference lang and change it if is not the
+ * same.
+ *
+ * If the user dont have a preference lang, then
+ * the browser lang is used.
+ *
+ * @param current_lang the current page lang
+ * @param routing a map with the views and langs available
+ * @param view the current page view
+ */
+var checkLanguage = function (current_lang, routing, view) {
     var langCookie = getCookie("ppl_language"),
         location, browserLang, lang;
 
@@ -103,9 +111,4 @@ var checkLanguage = function () {
             }
         }
     }
-};
-
-var closeCookies = function () {
-    setCookie("showed-cookies", "true");
-    $("#cookies").removeClass('show');
 };

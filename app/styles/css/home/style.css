@@ -1,0 +1,1629 @@
+/* ... HEADER MAIN NAV BAR ................................................... */
+
+/*------ services ------*/
+
+.services-left {
+  float: left;
+  width: 50%;
+  background: #202242;
+  padding: 6em 0;
+}
+
+.services-left h2 {
+  color: #FFF;
+  font-size: 2.2em;
+  margin: 0;
+  padding: 1.8em 0 0.5em 0;
+}
+
+.services-left p {
+  color: #FFF;
+  width: 78%;
+  margin: 0 auto;
+  line-height: 1.8em;
+}
+
+a.s-btn {
+  border: 2px solid #FFF;
+  color: #FFF;
+  padding: 0.4em 2em;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-top: 1.8em;
+  text-decoration: none;
+}
+
+a.s-btn:hover {
+  border: 2px solid #ffe13e;
+  color: #ffe13e;
+}
+
+/*----- */
+
+.services-right {
+  float: left;
+  width: 50%;
+  background: #ffe13e;
+  padding: 5.7em 0;
+}
+
+.services-right h2 {
+  color: #FFF;
+  font-size: 2.2em;
+  margin: 0;
+  padding: 2.1em 0 0.5em 0;
+}
+
+.services-right p {
+  color: #FFF;
+  width: 78%;
+  margin: 0 auto;
+  line-height: 1.8em;
+}
+
+a.s-btn {
+  border: 2px solid #FFF;
+  color: #FFF;
+  padding: 0.4em 2em;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-top: 1.8em;
+  text-decoration: none;
+}
+
+.services-right a.s-btn:hover {
+  border: 2px solid #202242;
+  color: #202242;
+}
+
+.services-right h3 {
+  color: #202242;
+  font-size: 9em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.04em;
+}
+
+/*---Features---*/
+
+.features {
+  /*background:url(../img/phone-bg.jpg) no-repeat 0px 0px;*/
+  background-size: cover;
+  padding: 4em 0 5em 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.features-head {
+  padding-bottom: 4em;
+}
+
+.features-head h3 {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0.2em 0;
+}
+
+.features-head span {
+  color: #2d2d2d;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.features-grid span.f-icon1 {
+  background-position: -298px 0px;
+}
+
+.features-grid span.f-icon2 {
+  background-position: -597px 0px;
+}
+
+.features-grid span.f-icon3 {
+  background-position: -898px 0px;
+}
+
+.features-grid h3 {
+  font-family: 'Lato', serif;
+  color: #111B0A;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 0;
+}
+
+.features-grid h3 strong {
+  /*color:#79B643;*/
+  font-weight: 600;
+}
+
+.features-grid p {
+  color: #2d2d2d;
+  line-height: 1.5em;
+  margin-top: 1.3em;
+}
+
+.pricing-plan-right {
+  margin-top: 1.5em;
+}
+
+/*----- Responsive-Design -----*/
+
+@media (max-width:1024px) {
+  nav {
+    margin: 1.4% 0 0 23%;
+  }
+
+  .contact-info {
+    float: none;
+    width: 100%;
+    padding: 2% 0 2% 0%;
+    border-left: none;
+  }
+
+  .logo {
+    margin-top: 1em;
+  }
+
+  .domain-Serach-bar-grids {
+    width: 60.8%;
+  }
+
+  .banner-info {
+    margin-top: 4em;
+  }
+
+  .banner h1 {
+    font-size: 2.5em;
+  }
+
+  .banner {
+    min-height: 550px;
+  }
+
+  .banner-info img {
+    margin: 2em 0;
+  }
+
+  .services-left,
+  .services-right {
+    padding: 4em 0;
+  }
+
+  .features-grid h3 {
+    font-size: 1.5em;
+  }
+
+  .features {
+    padding: 2em 0 2em 0;
+  }
+
+  .features-head {
+    padding-bottom: 1em;
+  }
+
+  .services-left p,
+  .services-right p {
+    width: 83%;
+    line-height: 1.5em;
+  }
+
+  .features-grid p {
+    margin-top: 0.5em;
+  }
+
+  .clients-right ul li {
+    width: 20%;
+  }
+
+  .clients-right ul li a img {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  nav {
+    margin: 1.4% 0 0 23%;
+  }
+
+  .contact-info {
+    float: none;
+    width: 100%;
+    padding: 2% 0 2% 0%;
+    border-left: none;
+  }
+
+  .logo {
+    margin-top: 1em;
+    z-index: 999;
+    position: relative;
+  }
+
+  .domain-Serach-bar-grids {
+    width: 79.2%;
+  }
+
+  .banner-info {
+    margin-top: 4em;
+  }
+
+  .banner h1 {
+    font-size: 2em;
+  }
+
+  .banner {
+    min-height: 500px;
+  }
+
+  .banner-info img {
+    margin: 2em 0;
+  }
+
+  .services-left,
+  .services-right {
+    padding: 2em 0;
+  }
+
+  .features-grid h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0.3em 0;
+  }
+
+  .features {
+    padding: 2em 0 2em 0;
+  }
+
+  .features-head {
+    padding-bottom: 1em;
+  }
+
+  .services-left p,
+  .services-right p {
+    width: 83%;
+    line-height: 1.5em;
+  }
+
+  .features-grid p {
+    margin-top: 0.5em;
+  }
+
+  .clients-right ul li {
+    width: 20%;
+  }
+
+  .clients-right ul li a img {
+    width: 100%;
+  }
+
+  nav {
+    margin: 1.4% 0 0 0;
+  }
+
+  .services-left img {
+    width: 30%;
+  }
+
+  .services-left h2 {
+    font-size: 1.8em;
+    padding: 1em 0 0.5em 0;
+  }
+
+  .services-right h3 {
+    font-size: 5.5em;
+    padding: 0;
+    line-height: 0.79em;
+  }
+
+  .features-grid {
+    margin-bottom: 1.5em;
+  }
+
+  .features-grid label {
+    width: 16%;
+  }
+
+  .clients-left {
+    float: none;
+    width: 100%;
+  }
+
+  .clients-right {
+    margin-top: 2em;
+    float: none;
+    width: 100%;
+  }
+
+  .c-testmonial-grid {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+  }
+
+  .clients {
+    padding: 2em 0 5em;
+  }
+
+  .pricing-plan-left {
+    float: none;
+    width: 100%;
+  }
+
+  .pricing-plan-right {
+    margin-top: 1em;
+    float: none;
+    width: 100%;
+  }
+
+  a.price-btn {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+  }
+
+  .pricing-plan {
+    padding: 1em 0 1.5em;
+  }
+
+  .pricing-plan-left h2 {
+    font-size: 1.8em;
+  }
+
+  .about-left-grids {
+    width: 100%;
+    float: none;
+  }
+
+  .about-right-grids {
+    float: none;
+    width: 100%;
+    padding: 0em 0 0;
+  }
+
+  .header-section h1 {
+    font-size: 2.2em;
+    margin: 0.8em 0 0em;
+  }
+
+  .header-section {
+    min-height: 100px;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .footer {
+    padding: 1em 0;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .about-left-grids h2 {
+    font-size: 1.7em;
+  }
+
+  .about-left-grids h3 {
+    font-size: 1.5em;
+  }
+
+  .about-left-grids h4 {
+    font-size: 1.2em;
+  }
+
+  .latest-news h2 {
+    font-size: 1.7em;
+  }
+
+  .pricing-table-grid {
+    margin: 0 0 2em 0;
+  }
+
+  .pricing-table-grid:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  .plans-head p {
+    width: 80%;
+  }
+
+  .pricing-tables {
+    padding: 1em 0 0em;
+  }
+
+  .domain-grid-right h2 a {
+    font-size: 1em;
+  }
+
+  .domain-grid-right p {
+    width: 90%;
+  }
+
+  .domain-grid {
+    padding: 1em 0;
+  }
+
+  .domain-grids {
+    padding: 0 0 3em 0;
+  }
+
+  .contact-bottom-grid-left {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .contact-bottom-grid-right {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+}
+
+@media (max-width:640px) {
+  nav {
+    margin: 1.4% 0 0 23%;
+  }
+
+  .contact-info {
+    float: none;
+    width: 100%;
+    padding: 2% 0 2% 0%;
+    border-left: none;
+  }
+
+  .logo {
+    margin-top: 1em;
+    z-index: 999;
+    position: relative;
+  }
+
+  .domain-Serach-bar-grids {
+    width: 96.2%;
+  }
+
+  .banner-info {
+    margin-top: 2em;
+  }
+
+  .banner h1 {
+    font-size: 2em;
+  }
+
+  .banner {
+    min-height: 450px;
+  }
+
+  .banner-info img {
+    margin: 2em 0 1em;
+  }
+
+  .services-left,
+  .services-right {
+    padding: 2em 0;
+  }
+
+  .features-grid h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0.3em 0;
+  }
+
+  .features {
+    padding: 2em 0 2em 0;
+  }
+
+  .features-head {
+    padding-bottom: 1em;
+  }
+
+  .services-left p,
+  .services-right p {
+    width: 83%;
+    line-height: 1.5em;
+  }
+
+  .features-grid p {
+    margin-top: 0.5em;
+  }
+
+  .clients-right ul li {
+    width: 20%;
+  }
+
+  .clients-right ul li a img {
+    width: 100%;
+  }
+
+  nav {
+    margin: 1.4% 0 0 0;
+  }
+
+  .services-left img {
+    width: 30%;
+  }
+
+  .services-left h2 {
+    font-size: 1.5em;
+    padding: 1em 0 0.5em 0;
+  }
+
+  .services-right h3 {
+    font-size: 5.5em;
+    padding: 0;
+    line-height: 0.79em;
+  }
+
+  .features-grid {
+    margin-bottom: 1.5em;
+  }
+
+  .features-grid label {
+    width: 16%;
+  }
+
+  .clients-left {
+    float: none;
+    width: 100%;
+  }
+
+  .clients-right {
+    margin-top: 2em;
+    float: none;
+    width: 100%;
+  }
+
+  .c-testmonial-grid {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+  }
+
+  .clients {
+    padding: 2em 0 5em;
+  }
+
+  .pricing-plan-left {
+    float: none;
+    width: 100%;
+  }
+
+  .pricing-plan-right {
+    margin-top: 1em;
+    float: none;
+    width: 100%;
+  }
+
+  a.price-btn {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+  }
+
+  .pricing-plan {
+    padding: 1em 0 1.5em;
+  }
+
+  .pricing-plan-left h2 {
+    font-size: 1.8em;
+  }
+
+  .about-left-grids {
+    width: 100%;
+    float: none;
+  }
+
+  .about-right-grids {
+    float: none;
+    width: 100%;
+    padding: 0em 0 0;
+  }
+
+  .header-section h1 {
+    font-size: 2.2em;
+    margin: 0.8em 0 0em;
+  }
+
+  .header-section {
+    min-height: 100px;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .footer {
+    padding: 1em 0;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .about-left-grids h2 {
+    font-size: 1.7em;
+  }
+
+  .about-left-grids h3 {
+    font-size: 1.5em;
+  }
+
+  .about-left-grids h4 {
+    font-size: 1.2em;
+  }
+
+  .latest-news h2 {
+    font-size: 1.7em;
+  }
+
+  .pricing-table-grid {
+    margin: 0 0 2em 0;
+  }
+
+  .pricing-table-grid:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  .plans-head p {
+    width: 80%;
+  }
+
+  .pricing-tables {
+    padding: 1em 0 0em;
+  }
+
+  .domain-grid-right h2 a {
+    font-size: 1em;
+  }
+
+  .domain-grid-right p {
+    width: 90%;
+  }
+
+  .domain-grid {
+    padding: 1em 0;
+  }
+
+  .domain-grids {
+    padding: 0 0 3em 0;
+  }
+
+  .contact-bottom-grid-left {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .contact-bottom-grid-right {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .services-right h2 {
+    font-size: 1.5em;
+  }
+
+  .features-head h3 {
+    font-size: 2em;
+  }
+
+  a.s-btn {
+    font-size: 1.2em;
+    margin-top: 1.2em;
+  }
+
+  .contact-grids {
+    padding: 1.5em 0 4em 0;
+  }
+}
+
+@media (max-width:480px) {
+  nav {
+    margin: 1.4% 0 0 23%;
+  }
+
+  .contact-info {
+    float: none;
+    width: 100%;
+    padding: 2% 0 2% 0%;
+    border-left: none;
+  }
+
+  .logo {
+    margin-top: 0.2em;
+    z-index: 999;
+    position: relative;
+  }
+
+  .domain-Serach-bar-grids {
+    width: 96.2%;
+    border: 8px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .banner-info {
+    margin-top: 2em;
+  }
+
+  .banner h1 {
+    font-size: 1.4em;
+  }
+
+  .banner {
+    min-height: 380px;
+  }
+
+  .banner-info img {
+    margin: 2em 0 1em;
+  }
+
+  .services-left,
+  .services-right {
+    padding: 2em 0;
+  }
+
+  .services-left p,
+  .services-right p {
+    display: none;
+  }
+
+  .features-grid h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0.3em 0;
+  }
+
+  .features {
+    padding: 1em 0 1em 0;
+  }
+
+  .features-head {
+    padding-bottom: 1em;
+  }
+
+  .services-left p,
+  .services-right p {
+    width: 83%;
+    line-height: 1.5em;
+  }
+
+  .features-grid p {
+    margin-top: 0.5em;
+  }
+
+  .clients-right ul li {
+    width: 20%;
+  }
+
+  .clients-right ul li a img {
+    width: 100%;
+  }
+
+  nav {
+    margin: 1.4% 0 0 0;
+  }
+
+  .services-left img {
+    width: 24%;
+  }
+
+  .services-left h2 {
+    font-size: 1.3em;
+    padding: 1em 0 0.5em 0;
+  }
+
+  .services-right h3 {
+    font-size: 4em;
+    padding: 0;
+    line-height: 0.79em;
+  }
+
+  .features-grid {
+    margin-bottom: 1em;
+  }
+
+  .features-grid label {
+    width: 16%;
+    margin-top: 1em;
+  }
+
+  .clients-left {
+    float: none;
+    width: 100%;
+  }
+
+  .clients-right {
+    margin-top: 2em;
+    float: none;
+    width: 100%;
+  }
+
+  .c-testmonial-grid {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+  }
+
+  .clients {
+    padding: 2em 0 5em;
+  }
+
+  .pricing-plan-left {
+    float: none;
+    width: 100%;
+  }
+
+  .pricing-plan-right {
+    margin-top: 1em;
+    float: none;
+    width: 100%;
+  }
+
+  a.price-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 1em;
+  }
+
+  .pricing-plan {
+    padding: 1em 0 1.5em;
+  }
+
+  .pricing-plan-left h2 {
+    font-size: 1.4em;
+  }
+
+  .about-left-grids {
+    width: 100%;
+    float: none;
+  }
+
+  .about-right-grids {
+    float: none;
+    width: 100%;
+    padding: 0em 0 0;
+  }
+
+  .header-section h1 {
+    font-size: 1.8em;
+    margin: 0.6em 0 0em;
+  }
+
+  .header-section {
+    min-height: 65px;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .footer {
+    padding: 1em 0;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .about-left-grids h2 {
+    font-size: 1.6em;
+    margin: 0.5em 0 0.3em;
+  }
+
+  .about-left-grids h3 {
+    font-size: 1.3em;
+  }
+
+  .about-left-grids h4 {
+    font-size: 1.2em;
+  }
+
+  .latest-news h2 {
+    font-size: 1.1em;
+  }
+
+  .pricing-table-grid {
+    margin: 0 0 2em 0;
+  }
+
+  .pricing-table-grid:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  .plans-head p {
+    width: 90%;
+  }
+
+  .pricing-tables {
+    padding: 1em 0 0em;
+  }
+
+  .domain-grid-right h2 a {
+    font-size: 0.8em;
+  }
+
+  .domain-grid-right p {
+    width: 100%;
+    height: 84px;
+    overflow: hidden;
+  }
+
+  .domain-grid {
+    padding: 1em 0;
+  }
+
+  .domain-grids {
+    padding: 0 0 2em 0;
+  }
+
+  .contact-bottom-grid-left {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .contact-bottom-grid-right {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .services-right h2 {
+    font-size: 1.4em;
+    padding: 1em 0 0.62em 0;
+  }
+
+  .features-head h3 {
+    font-size: 1.8em;
+  }
+
+  a.s-btn {
+    font-size: 1em;
+    margin-top: 0.4em;
+    padding: 0.5em 1.4em;
+  }
+
+  .contact-grids {
+    padding: 1.5em 0 4em 0;
+  }
+
+  .domain-Serach-bar-left {
+    width: 42.11%;
+  }
+
+  .features-head span {
+    font-size: 0.875em;
+  }
+
+  .banner h2 {
+    font-size: 1.2em;
+  }
+
+  .latest-news-grid h3 a {
+    font-size: 0.62em;
+  }
+
+  .plans-head h2 {
+    font-size: 1.6em;
+  }
+
+  .plans-head {
+    padding: 0 0 1.2em 0;
+  }
+
+  .features-grid-right {
+    width: 64%;
+  }
+
+  .our-features {
+    padding: 0 0 2em 0;
+  }
+
+  .features-grid-right h4 {
+    font-size: 1.3em;
+  }
+
+  .our-features-head h2 {
+    font-size: 1.6em;
+  }
+
+  .our-features-head p {
+    width: 90%;
+  }
+
+  .our-features-head {
+    padding: 0 0 1em 0;
+  }
+
+  .hosting-grid h2 {
+    font-size: 8em;
+  }
+
+  .hosting-grid p {
+    font-size: 1.5em;
+  }
+
+  .hosting-grid {
+    padding: 1em 0;
+    min-height: 309px;
+  }
+
+  .text-fild {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+    margin-bottom: 1em;
+  }
+
+  .copy-right {
+    margin-top: 3em;
+  }
+
+  .contact-map iframe {
+    min-height: 150px;
+  }
+
+  .text-fild input[type="text"],
+  .msg-fild input[type="text"],
+  .message-fild textarea {
+    padding: 0.6em;
+  }
+
+  .message-fild textarea {
+    min-height: 180px;
+  }
+}
+
+@media (max-width:320px) {
+  nav {
+    margin: 1.4% 0 0 23%;
+  }
+
+  .contact-info {
+    float: none;
+    width: 100%;
+    padding: 5% 0 2% 0%;
+    border-left: none;
+  }
+
+  .logo {
+    margin-top: 0.2em;
+    z-index: 999;
+    position: relative;
+  }
+
+  .domain-Serach-bar-grids {
+    width: 96.2%;
+    border: 8px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .banner-info {
+    margin-top: 1em;
+  }
+
+  .banner h1 {
+    font-size: 1.4em;
+  }
+
+  .banner {
+    min-height: 308px;
+  }
+
+  .banner-info img {
+    margin: 1em 0 0em;
+    width: 15%;
+  }
+
+  .services-left,
+  .services-right {
+    padding: 2em 0;
+  }
+
+  .services-left p,
+  .services-right p {
+    display: none;
+  }
+
+  .features-grid h3 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0.3em 0;
+  }
+
+  .features {
+    padding: 1em 0 1em 0;
+  }
+
+  .features-head {
+    padding-bottom: 1em;
+  }
+
+  .services-left p,
+  .services-right p {
+    width: 83%;
+    line-height: 1.5em;
+  }
+
+  .features-grid p {
+    margin-top: 0.5em;
+    font-size: 0.875em;
+  }
+
+  .clients-right ul li {
+    width: 49%;
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .clients-right ul li a img {
+    width: 100%;
+  }
+
+  nav {
+    margin: 1.4% 0 0 0;
+  }
+
+  .services-left img {
+    width: 24%;
+  }
+
+  .services-left h2 {
+    font-size: 1.2em;
+    padding: 1em 0 0.5em 0;
+  }
+
+  .services-right h3 {
+    font-size: 2.5em;
+    padding: 0;
+    line-height: 0.89em;
+  }
+
+  .features-grid {
+    margin-bottom: 1em;
+  }
+
+  .features-grid label {
+    width: 16%;
+    margin-top: 1em;
+  }
+
+  .clients-left {
+    float: none;
+    width: 100%;
+  }
+
+  .clients-right {
+    margin-top: 1em;
+    float: none;
+    width: 100%;
+  }
+
+  .c-testmonial-grid {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+  }
+
+  .clients {
+    padding: 1em 0 4em;
+  }
+
+  .pricing-plan-left {
+    float: none;
+    width: 100%;
+  }
+
+  .pricing-plan-right {
+    margin-top: 0.5em;
+    float: none;
+    width: 100%;
+  }
+
+  a.price-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 0.875em;
+  }
+
+  .pricing-plan {
+    padding: 1em 0 1.5em;
+  }
+
+  .pricing-plan-left h2 {
+    font-size: 1.2em;
+  }
+
+  .about-left-grids {
+    width: 100%;
+    float: none;
+  }
+
+  .about-right-grids {
+    float: none;
+    width: 100%;
+    padding: 0em 0 0;
+  }
+
+  .header-section h1 {
+    font-size: 1.3em;
+    margin: 0.6em 0 0em;
+  }
+
+  .header-section {
+    min-height: 47px;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .footer {
+    padding: 1em 0;
+    min-height: 535px;
+  }
+
+  .about-grids {
+    padding: 0.5em 0 2em 0;
+  }
+
+  .about-left-grids h2 {
+    font-size: 1.2em;
+    margin: 0.3em 0 0.2em;
+  }
+
+  .about-left-grids h3 {
+    font-size: 1em;
+  }
+
+  .about-left-grids h4 {
+    font-size: 0.9em;
+  }
+
+  .latest-news h2 {
+    font-size: 1.1em;
+  }
+
+  .pricing-table-grid {
+    margin: 0 0 2em 0;
+  }
+
+  .pricing-table-grid:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+
+  .plans-head p {
+    width: 100%;
+    font-size: 0.875em;
+    height: 44px;
+    overflow: hidden;
+  }
+
+  .pricing-tables {
+    padding: 1em 0 0em;
+  }
+
+  .domain-grid-right h2 a {
+    font-size: 0.6em;
+  }
+
+  .domain-grid-right p {
+    width: 100%;
+    height: 84px;
+    overflow: hidden;
+  }
+
+  .domain-grid {
+    padding: 1em 0;
+  }
+
+  .domain-grids {
+    padding: 0 0 2em 0;
+  }
+
+  .contact-bottom-grid-left {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .contact-bottom-grid-right {
+    float: none;
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+
+  .services-right h2 {
+    font-size: 1.2em;
+    padding: 1em 0 0.62em 0;
+  }
+
+  .features-head h3 {
+    font-size: 1.5em;
+  }
+
+  a.s-btn {
+    font-size: 1em;
+    margin-top: 0.4em;
+    padding: 0.5em 1.4em;
+  }
+
+  .contact-grids {
+    padding: 1em 0 3em 0;
+  }
+
+  .domain-Serach-bar-left {
+    width: 100%;
+  }
+
+  .features-head span {
+    font-size: 0.875em;
+  }
+
+  .banner h2 {
+    font-size: 1.2em;
+  }
+
+  .latest-news-grid h3 a {
+    font-size: 0.62em;
+  }
+
+  .plans-head h2 {
+    font-size: 1.2em;
+  }
+
+  .plans-head {
+    padding: 0 0 1.2em 0;
+  }
+
+  .features-grid-right {
+    width: 64%;
+  }
+
+  .our-features {
+    padding: 0 0 2em 0;
+  }
+
+  .features-grid-right h4 {
+    font-size: 1em;
+  }
+
+  .our-features-head h2 {
+    font-size: 0.9em;
+  }
+
+  .our-features-head p {
+    width: 100%;
+    font-size: 0.875em;
+    height: 41px;
+    overflow: hidden;
+  }
+
+  .our-features-head {
+    padding: 0 0 1em 0;
+  }
+
+  .hosting-grid h2 {
+    font-size: 7em;
+  }
+
+  .hosting-grid p {
+    font-size: 1.2em;
+  }
+
+  .hosting-grid {
+    padding: 0em 0;
+    min-height: 218px;
+  }
+
+  .text-fild {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+    margin-bottom: 1em;
+  }
+
+  .copy-right {
+    margin-top: 3em;
+  }
+
+  .contact-map iframe {
+    min-height: 150px;
+  }
+
+  .text-fild input[type="text"],
+  .msg-fild input[type="text"],
+  .message-fild textarea {
+    padding: 0.6em;
+    -webkit-appearance: none;
+  }
+
+  .message-fild textarea {
+    min-height: 180px;
+  }
+
+  nav a#pull {
+    top: 9px;
+    right: -10px;
+  }
+
+  .contact-info p {
+    font-size: 0.68em;
+  }
+
+  a.chat {
+    padding: 0.5em 0em;
+    display: block;
+    text-align: center;
+  }
+
+  .contact-info-right h3 {
+    padding: 0.4em 0;
+    display: block;
+    font-size: 1.3em;
+  }
+
+  .contact-info-left {
+    margin: 0;
+    padding: 0;
+  }
+
+  .domain-Serach-bar-center {
+    padding: 0.5em 1em;
+    width: 38.4%;
+  }
+
+  .clients-left h3 {
+    font-size: 1.5em;
+  }
+
+  .clients-left p {
+    font-size: 0.875em;
+  }
+
+  .c-testmonials {
+    padding-top: 1.2em;
+  }
+
+  .pricing-plan-left span {
+    font-size: 0.875em;
+  }
+
+  .c-testmonial-grid-info a {
+    font-size: 1em;
+  }
+
+  .map-point {
+    position: absolute;
+    bottom: 60%;
+    right: 30%;
+  }
+
+  .map-point a {
+    font-size: 0.6em;
+  }
+
+  a.to-top {
+    font-size: 0.875em;
+    margin-top: 2em;
+  }
+
+  .footer-right ul.footer-nav li a {
+    font-size: 0.9em;
+  }
+
+  .footer-right h3 {
+    font-size: 1.2em;
+  }
+
+  .about-left-grids p {
+    color: #adadad;
+    line-height: 1.5em;
+    font-size: 0.875em;
+    margin: 1em 0;
+  }
+
+  .about-left-grids ul li,
+  .about-left-grids ol li {
+    font-size: 0.875em;
+  }
+
+  .latest-news-grid span {
+    font-size: 0.875em;
+    line-height: 1.7em;
+  }
+
+  .latest-news-grid p {
+    line-height: 1.5em;
+    font-size: 0.875em;
+  }
+
+  .pricing-table-grid h3 {
+    padding: 0.7em 0;
+    font-size: 1.3em;
+  }
+
+  .pricing-table-grid ul li a,
+  .pricing-table-grid ul li span {
+    font-size: 0.875em;
+  }
+
+  a.order-btn {
+    color: #202242;
+    padding: 1em 0;
+    font-size: 1em;
+  }
+
+  .h-features-grid {
+    padding: 0.8em 0;
+  }
+
+  .features-grid-right span {
+    font-size: 0.8em;
+  }
+
+  .features-grid-left {
+    float: none;
+    width: 100%;
+  }
+
+  .features-grid-right {
+    margin-top: 0.8em;
+    width: 100%;
+  }
+
+  .features-grid-right p {
+    font-size: 0.875em;
+    margin: 0.5em 0;
+  }
+
+  .domain-grid-right span {
+    margin: 0 auto 0em auto;
+    display: block;
+    height: 22px;
+    overflow: hidden;
+  }
+
+  .domain-grid-left img {
+    width: 40%;
+  }
+
+  .contact-bottom-grid-left p:nth-child(2) {
+    display: none;
+  }
+
+  .contact-bottom-grid-right input[type="submit"] {
+    padding: 0.6em 1.8em;
+  }
+
+  .top-nav ul li a {
+    padding: 0.2em 0em;
+    font-size: 0.875em;
+  }
+
+  .domain-Serach-bar-left input[type="text"] {
+    padding: 0.8em 1em 0.8em 1em;
+    -webkit-appearance: none;
+  }
+
+  .domain-Serach-bar-center {
+    height: 46px;
+  }
+
+  .domain-Serach-bar-right input[type="submit"] {
+    -webkit-appearance: none;
+    padding: 0.75em 0.712em;
+  }
+
+  .fleft {
+    height: 35px;
+  }
+}
