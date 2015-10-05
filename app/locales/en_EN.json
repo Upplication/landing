@@ -2,33 +2,166 @@
     "header": {
         "menu": "menu",
         "nav": {
-            "apps": "Showcase"
+            "apps": "Showcase",
+            "prices": "Prices",
+            "how": "How I made it"
         },
-        "free_trial": "Free trial"
+        "free_trial": "Free Trial",
+        "free_call": "Call us for free!",
+        "enter": "enter"
+    },
+    "modal": {
+        "head": {
+            "register_modal": "Sign Up for <span>15 days free trial</span>"
+        },
+        "footer": {
+            "seller": "Do you have a seller code?",
+            "accept": "When you click on 'Free Trial' button you accept our",
+            "terms": " terms of use"
+        }
+    },
+    "form": {
+        "free_form": "15 days <span>free</span> trial",
+        "change_form": "You can change your data later.",
+        "input": {
+            "name": "App name",
+            "email": "E-mail",
+            "pass": "Password"
+        }
     },
     "footer": {
-        "company": "Company",
-        "community": "Community",
-        "media": "Media and Networks",
+        "company": "Compañía",
+        "community": "Comunidad",
+        "media": "Medios y redes",
         "signature": "Designed and assembled in Madrid",
-        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy.</a>.",
-        "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>."
+        "terms_of_use": "Terms of Use",
+        "cookies_use": "Cookies warning",
+        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy</a>.",
+        "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
+        "try_it": "Try it <strong>free for 15 days</strong>!"
     },
     "register": {
         "error": {
             "num1": "Cool! Registration finished",
             "num2": "Ouch! Error creating your app, please contact us",
-            "num3": "Mmmmm, that email account is already signed in Upplication",
-            "num4": "What a pity! Name of the app already chosen",
-            "num5": "No! Seller code is not correct",
-            "num6": "Wow! Name of the app and e-mail account already signed in",
-            "num7": "Wow! Name of the app already chosen and seller code is not correct",
-            "num8": "Wow! Email account already signed in and seller code is not correct",
-            "num9": "Wow! Name of the app, email account and seller code are not correct",
-            "num10": "Brrr! You need to refill name of the app and email account fields"
+            "num3": "This email account is already signed in Upplication",
+            "num4": "Name of the app already chosen",
+            "num5": "Seller code is not correct",
+            "num6": "Name of the app and e-mail account already signed in",
+            "num7": "Name of the app already chosen and seller code is not correct",
+            "num8": "Email account already signed in and seller code is not correct",
+            "num9": "Name of the app, email account and seller code are not correct",
+            "num10": "You need to refill name of the app and email account fields",
+            "general": "General error"
         }
     },
     "home": {
+        "slider": {
+            "intro1": "App generator to ",
+            "intro2": "<span>Create the app for your business,</span> <span>without coding, quick and easy.</span>",
+            "bg": "Upplication image",
+            "text": ["business", "hostelry", "services", "shops", "you"]
+        },
+        "why": {
+            "grow": "<strong>Increase</strong> your sales",
+            "loyal": "<strong>Loyalty</strong> customers",
+            "others": "<strong>Be different</strong> of your competitors"
+        },
+        "samples": {
+            "business": "Apps fort all kind of business",
+            "restaurants": "Hostelry",
+            "shops": "Shops",
+            "serv": "Proffesionals <em>Services</em>",
+            "personal": "Custom",
+            "rest": {
+                "rest_intro": "Create the Android and iPhone app of your <span>restaurant</span> and add value to your clients",
+                "details1": "Your clients will can <span>book table</span> from their phone.",
+                "details2": "Offer <span>deliver services</span> at the touch of a button.",
+                "details3": "Provide <span>discounts</span> on you app.",
+                "details4": "Envía <span>push alerts</span> with exclusive offers."
+            },
+            "shop": {
+                "shop_intro": "Create a mobile app so your clients can <span>buy products right from their phone</span>",
+                "shop_details1": "Integrate the payment gateway in a matter of minutes and <span>start selling</span>",
+                "shop_details2": "Offer <span>exclusive products</span> and more value to your clients.",
+                "shop_details3": "<span>Send push notifications</span> with the best offers.",
+                "shop_details4": "Your clients will carry <span>your business in their pocket.</span>"
+            },
+            "services": {
+                "serv_intro": "Create an <span>app offering your services</span> and connect with your clients via mobile phone",
+                "serv_details1": "Enable your clients <span>to hire your services</span> anywhere.",
+                "serv_details2": "Show your <span>services schedule</span> in your clients devices.",
+                "serv_details3": "Upload <span>videos and pictures</span> to promote your services.",
+                "serv_details4": "Send exclusive offers with <span>push notifications</span>"
+            },
+            "custom": {
+                "cust_intro": "Create an mobile app all <span>custom</span>, in the way as you like for",
+                "cust_details1": "<span>Personal</span>: upload your resume, presentations, works...",
+                "cust_details2": "<span>Music</span>: upload music and videos, concert events, merchandising...",
+                "cust_details3": "<span>Events</span>: upload events calendar, send push alerts, make galleries...",
+                "cust_details4": "<span>Tourism</span>: Insert maps, offer recommendations, upload gastromonic recommendations..."
+            },
+            "alt_tag": {
+                "img_iphone": "Upplication App working on iPhone",
+                "img_nexus": "Upplication App working on Nexus",
+                "img_galaxy": "Upplication App working on Samsung Galaxy",
+                "img_xperia": "Upplication App working on Sony Xperia"
+            },
+            "free_app": "Crearte my free app"
+        },
+        "how": {
+            "how_main": "Create your app easily",
+            "how_one": {
+                "reg_step1": "Sign Up",
+                "reg_step2": "Sign Up in three easy steps:",
+                "reg_step3": "app name, email and password."
+            },
+            "how_two": {
+                "app_step1": "Create your App",
+                "app_step2": "Dashboard <span>easy to use</span>, intuitive.",
+                "app_step3": "Can use <span>modules and templates</span> to custom your app.",
+                "app_step4": "Have control of the <span>dowloads rates</span> and send <span>push alerts</span> to your clients."
+            },
+            "how_three": {
+                "tutor_step1": "Customized tutor",
+                "tutor_step2": "<span>Proffesional customer service</span> to help you in all steps of your app develop.",
+                "tutor_step3": "Available in <span>chat</span>, <span>email</span>, and <span>phone</span> channels."
+            },
+            "how_four": {
+                "publish_step1": "We publish your App",
+                "publish_step2": "<span>We publish your app</span> in all differents markets (Apple, Android).",
+                "publish_step3": "Our app are all <span>multi-device</span> (mobile, tablet, Pc, Mac...)."
+            },
+            "app_ready": " <span>Your App</span> is ready "
+        },
+        "rates": {
+            "rate_intro": "Pricing plans",
+            "rate_sub": "All pricing plans included:",
+            "sub1": "Costumer support by email, chat and phone.",
+            "sub2": "Automatic upload to all markets, we publish your app.",
+            "sub3": "Multi-device responsive web.",
+            "sub4": "Customized tutor.",
+            "monthly": "Monthly plan",
+            "yearly": "Yearly plan",
+            "euro_month": "€ / month",
+            "euro_year": "€ / year",
+            "basic": "BASIC",
+            "proff": "PROFFESIONAL",
+            "premiun": "PREMIUM",
+            "unlimited": "UNLIMITED",
+            "app_web": "App and WebApp",
+            "statistics": "<strong>Statistics</strong> of your app",
+            "bullhorn": "Upplication <strong>Ads</strong>",
+            "no_bullhorn": "<strong>No</strong> Upplication Ads",
+            "sign": "<strong>Signature</strong> on templates",
+            "no_sign": "<strong>No</strong> signature on templates",
+            "no_push": "<strong>No</strong> push alerts",
+            "four_push": "<strong>4</strong> push alerts / month",
+            "all_push": "<strong>Unlimited</strong> push alerts",
+            "no_templates": "<strong>Custom App</strong>, personalized",
+            "monthless": "<span>Two month discount</span> in all yearly plans. Pay ten months and take twelve.",
+            "with_tax": "IVA tax included in all prices."
+        },
         "_url": "/build-your-app/",
         "_template": "home",
         "_name": "Home",
@@ -102,15 +235,18 @@
             "title": "What Clients Say about us?",
             "client1": {
                 "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
-                "name": "Ana, C,UP Your choice on top"
+                "name": "Ana, C,UP Your choice on top",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
             },
             "client2": {
                 "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication.",
-                "name": "David, Trapatapa Bar"
+                "name": "David, Trapatapa Bar",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
             },
             "client3": {
                 "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week.",
-                "name": "Gabriel, Moto Urban"
+                "name": "Gabriel, Moto Urban",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
             }
         },
         "register_inline": {
@@ -130,7 +266,8 @@
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
         "try": "Try it free for 15 days!",
-        "create_free": "Create my app"
+        "create_free": "Create my app",
+        "permanence": "Trial period with no fixed term."
     },
     "helpcenter": {
         "_url": "/help-center/",
@@ -205,16 +342,19 @@
         },
         "customer_service": {
             "text": "Customer service",
+            "text2": "Customer service",
             "phone": {
-
                 "link": "tel:810512370",
                 "title": "810 512 370",
-                "text": "tel: 810 512 370 (free)"
+                "text": "tel: 810 512 370 (free)",
+                "text_tel": "<span>810 512 370</span> (free)",
+                "alt_tag": "Call to Upplication customer service"
             },
             "email": {
                 "link": "mailto:soporte@upplication.com",
                 "title": "soporte@upplication.com",
-                "text": "soporte@upplication.com"
+                "text": "soporte@upplication.com",
+                "alt_tag": "Send email to Upplication customer service"
             },
             "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)"
         }
@@ -377,15 +517,20 @@
         "developer": "Developer en prácticas",
         "marketing": "Prácticas de marketing"
     },
-
     "external": {
+        "titles": {
+            "help": "Help:",
+            "uppl": "Upplication:",
+            "misc": "Miscellaneous:",
+            "legal": "Legal Warning:"
+        },
         "blog": {
             "anchor": "Blog",
             "url": "http://blog.en.upplication.com"
         },
         "about": {
             "anchor": "About us",
-            "url": "/about-us/"
+            "url": "@@config.base_path/about-us/"
         },
         "team": {
             "anchor": "Team",
@@ -401,7 +546,7 @@
         },
         "jobs": {
             "anchor": "We are hiring!",
-            "url": "/jobs/"
+            "url": "@@config.base_path/jobs/"
         },
         "tos": {
             "anchor": "Terms and Conditions",
@@ -409,7 +554,7 @@
         },
         "tutorials": {
             "anchor": "Tutorials",
-            "url": "/tutorial/"
+            "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "helpcenter": {
             "anchor": "Help Center",
@@ -421,7 +566,7 @@
         },
         "apps": {
             "anchor": "App samples",
-            "url": "/showcase/"
+            "url": "@@config.base_path/showcase/"
         },
         "create_apps": {
             "anchor": "We create your app",
@@ -432,8 +577,8 @@
             "url": "@@config.base_path/prices/"
         },
         "pricing_aplicateca": {
-          "anchor": "Pricing",
-          "url": "@@config.base_path/prices-aplicateca/"
+            "anchor": "Pricing",
+            "url": "@@config.base_path/prices-aplicateca/"
         },
         "media_kit": {
             "anchor": "Press",
@@ -1054,7 +1199,7 @@
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/"
-      },
+    },
     "landing_test_1": {
         "_url": "/landing-test/",
         "_template": "landing_test_1",
@@ -1101,7 +1246,6 @@
                 "By accessing to the website, the user accepts the terms and conditions described on the web portal/site."
             ]
         },
-
         "privacy": {
             "title": "Privacy Policy",
             "paragraphs": [
