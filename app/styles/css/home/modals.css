@@ -33,6 +33,7 @@ a.modal-action.modal-close:hover {
   border: 0 solid transparent;
   border-radius: 0 !important;
   box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+  overflow-x: hidden;
 }
 
 #pruebaGratis .modal-content h2 {
@@ -94,6 +95,19 @@ a.modal-action.modal-close:hover {
   margin-top: -5px;
 }
 
+.input-field .prefix ~ label.active {
+  text-align: left;
+}
+
+#pruebaGratis .error.general-error,
+#pruebaGratis p.error {
+  width: 98%;
+}
+
+#pruebaGratis p.error {
+  right: 25px;
+}
+
 @media only screen and (max-width: 850px) {
   #pruebaGratis .modal-footer ul {
     padding-top: 7px;
@@ -130,6 +144,11 @@ a.modal-action.modal-close:hover {
 .slider,
 .slides {
   height: 600px !important;
+}
+
+.slider.middle-page-slider,
+.slider.middle-page-slider .slides {
+  height: 400px !important;
 }
 
 .mainHead {

@@ -97,10 +97,10 @@
             },
             "custom": {
                 "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de los que necesites",
-                "cust_details1": "<span>App personal</span>: sube tu currículum, presentaciones, trabajos...",
-                "cust_details2": "<span>App música</span>: sube música y vídeos, fechas de conciertos, merchandising...",
-                "cust_details3": "<span>App eventos</span>: sube la agenda del evento, envía alertas push, introduce galerías...",
-                "cust_details4": "<span>App turismo</span>: Introduce mapas, recomienda lugares, sube ofertas gastronómicas..."
+                "cust_details1": "<span>Personal</span>: sube tu currículum, presentaciones, trabajos...",
+                "cust_details2": "<span>Música</span>: sube música y vídeos, fechas de conciertos, merchandising...",
+                "cust_details3": "<span>Eventos</span>: sube la agenda del evento, envía alertas push, introduce galerías...",
+                "cust_details4": "<span>Turismo</span>: Introduce mapas, recomienda lugares, sube ofertas gastronómicas..."
             },
             "alt_tag": {
                 "img_iphone": "App de Upplication funcionando en un iPhone",
@@ -538,7 +538,7 @@
         },
         "team": {
             "anchor": "Equipo",
-            "url": "@@config.base_path/equipo/"
+            "url": "/equipo/"
         },
         "features": {
             "anchor": "Características",

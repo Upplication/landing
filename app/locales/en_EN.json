@@ -96,10 +96,10 @@
             },
             "custom": {
                 "cust_intro": "Create an mobile app all <span>custom</span>, in the way as you like for",
-                "cust_details1": "<span>Personal app</span>: upload your resume, presentations, works...",
-                "cust_details2": "<span>Music app</span>: upload music and videos, concert events, merchandising...",
-                "cust_details3": "<span>Events app</span>: upload events calendar, send push alerts, make galleries...",
-                "cust_details4": "<span>Tourism app</span>: Insert maps, offer recommendations, upload gastromonic recommendations..."
+                "cust_details1": "<span>Personal</span>: upload your resume, presentations, works...",
+                "cust_details2": "<span>Music</span>: upload music and videos, concert events, merchandising...",
+                "cust_details3": "<span>Events</span>: upload events calendar, send push alerts, make galleries...",
+                "cust_details4": "<span>Tourism</span>: Insert maps, offer recommendations, upload gastromonic recommendations..."
             },
             "alt_tag": {
                 "img_iphone": "Upplication App working on iPhone",
@@ -531,7 +531,7 @@
         },
         "team": {
             "anchor": "Team",
-            "url": "@@config.base_path/team/"
+            "url": "/team/"
         },
         "features": {
             "anchor": "Features",

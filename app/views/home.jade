@@ -147,8 +147,7 @@ html.no-js(lang='es')
                                 span #{header.free_trial}
             .modal-terms
                 ul.hover-anim
-                    //
-                    li
+                    // li
                         a(href='') #{modal.footer.seller}
                     li
                         | #{modal.footer.accept}
@@ -416,6 +415,14 @@ html.no-js(lang='es')
                                     i.fa.fa-exclamation
                                     | !{home.how.app_ready}
                                     i.fa.fa-exclamation
+                                    
+        // SLIDER 2
+        .slider.middle-page-slider
+            ul.slides
+                li
+                    img(src='#{localConfig.base_path}/images/home/bg/bgStairs.jpg', alt='#{home.slider.bg}')
+                li
+                    img(src='#{localConfig.base_path}/images/home/bg/bgBridge.jpg', alt='#{home.slider.bg}')
         // CLIENTS
         .clients
             .container
@@ -478,7 +485,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell-slash
                                                     | !{home.rates.no_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
                                     .pricing-table-grid
@@ -510,7 +517,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell
                                                     | !{home.rates.four_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     .pricing-table-grid
                                         h3 #{home.rates.premiun}
@@ -541,7 +548,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell
                                                     | !{home.rates.all_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     .pricing-table-grid
                                         h3 #{home.rates.unlimited}
@@ -572,7 +579,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell
                                                     | !{home.rates.all_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .clearfix
                             // Plan Anual
                             #anual.col.s12
@@ -606,7 +613,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell-slash
                                                     | !{home.rates.no_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
                                     .pricing-table-grid
@@ -638,7 +645,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell
                                                     | !{home.rates.four_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     .pricing-table-grid
                                         h3 #{home.rates.premiun}
@@ -669,7 +676,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell
                                                     | !{home.rates.all_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     .pricing-table-grid
                                         h3 #{home.rates.unlimited}
@@ -700,7 +707,7 @@ html.no-js(lang='es')
                                                 a(href='#')
                                                     i.fa.fa-bell
                                                     | !{home.rates.all_push}
-                                        a.order-btn(href='#') #{home.register.call_to_action}
+                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .clearfix
                                 .col-xs-12
                                     .alert.alert-info(role='alert')

@@ -9,6 +9,8 @@
  * @license https://raw.github.com/thesmart/jquery-scrollspy/master/LICENSE
  * @see https://github.com/thesmart
  * @version 0.1.2
+ *
+ * JS ADDED TO EXTENDS THE SCROLLSPY PLUGIN WITH A NEW OFFSET TO FIX THE CALLING SECTION (ANCHOR) TO TOP OF THE WINDOW, NOT IN THE MIDDLE ONE.
  */
 (function($) {
 
