@@ -43,7 +43,7 @@
     "register": {
         "error": {
             "num1": "Cool! Registration finished",
-            "num2": "Ouch! Error creating your app, please contact us",
+            "num2": "Error creating your app, please contact us",
             "num3": "This email account is already signed in Upplication",
             "num4": "Name of the app already chosen",
             "num5": "Seller code is not correct",

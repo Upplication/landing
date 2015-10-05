@@ -44,7 +44,7 @@
     "register": {
         "error": {
             "num1": "¡Fenomenal! Has terminado el registro",
-            "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
+            "num2": "Error al crear la app, por favor ponte en contacto con nosotros",
             "num3": "Este e-mail ya está registrado",
             "num4": "Ese nombre de app ya lo han elegido",
             "num5": "El código seller no es correcto",
