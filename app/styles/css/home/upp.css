@@ -592,6 +592,7 @@ a.chat:hover {
   font-family: 'Lato', serif;
   text-decoration: none;
   text-align: left;
+  pointer-events: none;
 }
 
 .pricing-table-grid ul li span {
@@ -1363,6 +1364,14 @@ a.price-btn:hover {
   color: #4b4b4b;
   font-size: 18px;
   line-height: 42px;
+}
+
+#host ul li a,
+#tiendas ul li a,
+#servprof ul li a,
+#personal ul li a {
+  cursor: text;
+  pointer-events: none;
 }
 
 #tabs ul li a span {

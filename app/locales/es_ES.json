@@ -242,15 +242,18 @@
             "title": "¿Qué dicen de nuestras apps?",
             "client1": {
                 "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes.",
-                "name": "Ana, C,UP Your choice on top"
+                "name": "Ana, C,UP Your choice on top",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
             },
             "client2": {
                 "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos.",
-                "name": "David, Bar Trapatapa"
+                "name": "David, Bar Trapatapa",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
             },
             "client3": {
                 "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana.",
-                "name": "Gabriel, Moto Urban"
+                "name": "Gabriel, Moto Urban",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
             }
         },
         "register_inline": {

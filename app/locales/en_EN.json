@@ -235,15 +235,18 @@
             "title": "What Clients Say about us?",
             "client1": {
                 "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
-                "name": "Ana, C,UP Your choice on top"
+                "name": "Ana, C,UP Your choice on top",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
             },
             "client2": {
                 "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication.",
-                "name": "David, Trapatapa Bar"
+                "name": "David, Trapatapa Bar",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
             },
             "client3": {
                 "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week.",
-                "name": "Gabriel, Moto Urban"
+                "name": "Gabriel, Moto Urban",
+                "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
             }
         },
         "register_inline": {
