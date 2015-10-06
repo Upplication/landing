@@ -1,0 +1,30 @@
+extends base
+
+block vars
+    - var template = $.team._template
+    - var title = $.team._meta_title
+    - var description = $.team._meta_description
+    - var keywords = $.team._keywords
+    - var canonical = $.team._canonical
+    - var cssClass = 'team'
+    - var team = $.team.members
+
+block content
+    section.bottom-space
+        div.container
+            h2 #{title}
+            each member in team
+                div.team-member
+                    div.header(style="background-image:url(#{localConfig.base_path}#{member.header})")
+                    img.photo(src="#{localConfig.base_path}#{member.photo}")
+                    div.profile
+                        div.name.uppercase #{member.name}
+                        div.charge #{member.charge}
+                        div.motto #{member.motto}
+                        div.social
+                            a.twitter(href="#{member.twitter}")
+                                i.nyi-icon-twitter t
+                            a.linkedin(href="#{member.linkedin}")
+                                i.nyi-icon-linkedin ln
+
+            div.clear
