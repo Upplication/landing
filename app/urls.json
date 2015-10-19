@@ -15,5 +15,6 @@
     "landing_test_2": "/views/landing_test_2.jade",
     "home_tlf": "/views/home_tlf.jade",
     "terms": "/views/terms.jade",
-    "terms_movistar": "/views/terms_movistar.jade"
+    "terms_movistar": "/views/terms_movistar.jade",
+    "team": "/views/team.jade"
 }

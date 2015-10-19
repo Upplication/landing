@@ -1,0 +1,16 @@
+extends base
+
+block vars
+    - var template = $.team._template
+    - var title = $.team._meta_title
+    - var cssClass = 'team'
+
+block content
+    section
+        h2 #{team.section.title}
+        ul.team-list
+            each person in team.list
+                    li
+                        img(src="#{person.img}", alt="#{person.name}")
+                        span.name #{person.name}
+                        span #{person.rolle}

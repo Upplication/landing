@@ -1570,5 +1570,49 @@
             }
           ]
         }
+    },
+    "team": {
+        "_url": "/equipo/",
+        "_template": "team",
+        "_name": "Equipo",
+        "_meta_title": "Equipo",
+        "_meta_description": "El equipo",
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_canonical": "http://www.upplication.com/",
+        "section": {
+            "title": "Equipo"
+        },
+        "list": [
+            {
+                "name": "José Luis Vega de Seoane Barona",
+                "rolle": "Cofundador & CEO",
+                "img": "http://heintendsvictory.org/wp-content/uploads/default-avatar.png"
+            },
+            {
+                "name": "Juan Sicilia Martínez",
+                "rolle": "Cofundador & Product Manager",
+                "img": "http://heintendsvictory.org/wp-content/uploads/default-avatar.png"
+            },
+            {
+                "name": "Victor Rodado Frutos",
+                "rolle": "Cofundador & CMO",
+                "img": "http://heintendsvictory.org/wp-content/uploads/default-avatar.png"
+            },
+            {
+                "name": "Javier Arnáiz González",
+                "rolle": "CTO",
+                "img": "http://heintendsvictory.org/wp-content/uploads/default-avatar.png"
+            },
+            {
+                "name": "Belén Fernández Pérez",
+                "rolle": "Soporte y Ventas",
+                "img": "http://heintendsvictory.org/wp-content/uploads/default-avatar.png"
+            },
+            {
+                "name": "Manuel Albarrán",
+                "rolle": "Marketing y Comunicación",
+                "img": "http://heintendsvictory.org/wp-content/uploads/default-avatar.png"
+            }
+        ]
     }
 }
