@@ -81,10 +81,9 @@ var checkLanguage = function (current_lang, routing, view) {
         if (langCookie.substring(0, 2) !== current_lang.substring(0, 2)) {
             //Redirect to lang cookie version
             location = routing[view][langCookie];
-
-            log("Hay cookie -> " + location);
+            log("Location in cookie -> " + location);
             log("Routing -> " + routing);
-            //debugger
+
             if (location) {
                 window.location = location;
             }
@@ -104,11 +103,12 @@ var checkLanguage = function (current_lang, routing, view) {
                 setCookie("ppl_language", "en-EN");
             }
             location = routing[view][lang];
-            log("No hay cookie -> " + location);
-
-            if (location) {
-                window.location = location;
-            }
+            log("Location in cookie -> " + location);
         }
+    }
+
+    if (location) {
+        log("Redirecting to -> " + location);
+        window.location = location + window.location.hash;
     }
 };
