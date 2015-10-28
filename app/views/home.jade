@@ -61,14 +61,7 @@ html.no-js(lang='es')
         link(rel='stylesheet', href='/styles/css/home/cookies.css')
         link(rel='stylesheet', href='/styles/css/home/mediaqueries.css')
         // endbuild
-
         meta(name='viewport', content='width=device-width, initial-scale=1')
-        script(type='application/x-javascript').
-            addEventListener("load", function () {
-                setTimeout(hideURLbar, 0);
-            }, false); function hideURLbar() {
-                window.scrollTo(0, 1);
-            }
         // webfonts
         link(href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
         link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
@@ -928,19 +921,21 @@ html.no-js(lang='es')
                 ];
                 Materialize.scrollFire(options);
                 // Animate.css for web elements:
-                $('.imgMove').mouseenter(function () {
+                var $imgMove = $('.imgMove'),
+                        $imgFlash = $('.imgFlash');
+                $imgMove.mouseenter(function () {
                     $(this).addClass("animated");
                     $(this).addClass("pulse");
                 });
-                $('.imgMove').mouseleave(function () {
+                $imgMove.mouseleave(function () {
                     $(this).removeClass("animated");
                     $(this).removeClass("pulse");
                 });
-                $('.imgFlash').mouseenter(function () {
+                $imgFlash.mouseenter(function () {
                     $(this).addClass("animated");
                     $(this).addClass("rubberBand");
                 });
-                $('.imgFlash').mouseleave(function () {
+                $imgFlash.mouseleave(function () {
                     $(this).removeClass("animated");
                     $(this).removeClass("rubberBand");
                 });
@@ -954,10 +949,10 @@ html.no-js(lang='es')
         // START MOBILE TOP NAVIGATION MENU
         script.
             $(function () {
-                var pull = $('#pull');
+                var $pull = $('#pull');
                 menu = $('nav ul');
                 menuHeight = menu.height();
-                $(pull).on('click', function (e) {
+                $pull.on('click', function (e) {
                     e.preventDefault();
                     menu.slideToggle();
                 });
@@ -967,7 +962,7 @@ html.no-js(lang='es')
                         menu.removeAttr('style');
                     }
                 });
-                $('#pull').click(function () {
+                $pull.click(function () {
                     $(".hide-ul").removeClass("hide-tabs");
                 });
                 var windowWidth = $(window).width();

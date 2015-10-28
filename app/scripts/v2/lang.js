@@ -11,7 +11,7 @@ $(function () {
         //Change lang_cookie
         $langElem.click(function () {
             setCookie("ppl_language", $(this).data("lang"));
-            log("Cambio lang a =" + $(this).data("lang"));
+            log("change lang to =" + $(this).data("lang"));
         });
         //Display cookies announce
         if (!getCookie("showed-cookies")) {
