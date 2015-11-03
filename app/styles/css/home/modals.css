@@ -237,4 +237,9 @@ ul#dropdown-lang a {
     margin-left: 0;
     border: none;
   }
+
+  ul#dropdown-lang a {
+    text-align: center;
+    padding-left: 18px;
+  }
 }

@@ -80,12 +80,12 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li
                                 each language in langs.codes
                                     if lang == language.language_country
-                                        a.hide-tab.lang-link(href="#", data-activates='dropdown-lang')
+                                        a.lang-link(href="#", data-activates='dropdown-lang')
                                             i.fa.fa-globe
                                             | !{language.language_short_code}
                                 ul#dropdown-lang.dropdown-content
                                     each lang in langs.codes
-                                        a.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                                        a.hide-tab.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li
                                 a.hide-tab(href='#about', title='') #{header.nav.how}
                             li
