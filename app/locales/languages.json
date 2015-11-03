@@ -13,6 +13,13 @@
       "language_country_html" : "es-ES",
       "language_short_code": "Esp",
       "home": "/"
+    },
+    {
+      "language_name": "Bahasa",
+      "language_country" : "bh_BH",
+      "language_country_html" : "bh-BH",
+      "language_short_code": "Bah",
+      "home": "/generator-aplikasi"
     }
   ]
 }

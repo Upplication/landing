@@ -216,3 +216,25 @@ a.modal-action.modal-close:hover {
     opacity: 1;
   }
 }
+
+/* ... HEADER Languages DROPDOWN ................................................... */
+
+ul#dropdown-lang {
+  margin-top: 47px;
+  margin-left: -4px;
+  background-color: #faf9f9;
+  border: 1px solid #cccccc;
+  border-top: none;
+}
+
+ul#dropdown-lang a {
+  text-align: left;
+  padding-left: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  ul#dropdown-lang {
+    margin-left: 0;
+    border: none;
+  }
+}

@@ -2,104 +2,104 @@
     "header": {
         "menu": "menu",
         "nav": {
-            "apps": "Showcase",
-            "prices": "Prices",
-            "how": "How I made it"
+            "apps": "Contoh aplikasi",
+            "prices": "Harga",
+            "how": "Bagaimana saya membuat aplikasi sendiri"
         },
-        "free_trial": "Free Trial",
-        "free_call": "Call us for free!",
-        "enter": "enter"
+        "free_trial": "Coba gratis",
+        "free_call": "Hubungi kami gratis!",
+        "enter": "login"
     },
     "modal": {
         "head": {
-            "register_modal": "Sign Up for <span>15 days free trial</span>"
+            "register_modal": "Daftar untuk <span>15 hari coba gratis</span>"
         },
         "footer": {
             "seller": "Do you have a seller code?",
-            "accept": "When you click on 'Free Trial' button you accept our",
-            "terms": " terms of use"
+            "accept": "Dengan mengklik tombol 'Coba Gratis' Anda setuju dengan",
+            "terms": " syarat dan ketentuan kami"
         }
     },
     "form": {
-        "free_form": "15 days <span>free</span> trial",
-        "change_form": "You can change your data later.",
+        "free_form": "coba <span>gratis</span> 15 hari",
+        "change_form": "Anda bisa mengubah informasi ini nanti.",
         "input": {
-            "name": "App name",
+            "name": "Nama aplikasi",
             "email": "E-mail",
-            "pass": "Password"
+            "pass": "Coba Gratis"
         }
     },
     "footer": {
-        "company": "Compañía",
-        "community": "Comunidad",
-        "media": "Medios y redes",
-        "signature": "Designed and assembled in Madrid",
-        "terms_of_use": "Terms of Use",
-        "cookies_use": "Cookies warning",
-        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy</a>.",
-        "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
-        "try_it": "Try it <strong>free for 15 days</strong>!"
+        "company": "Perusahaan",
+        "community": "Komunitas",
+        "media": "Media",
+        "signature": "Dirancang dan dibangun di Madrid",
+        "terms_of_use": "Aturan penggunaan",
+        "cookies_use": "Penggunaan Cookies",
+        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>Penggunaan Cookies</a>.",
+        "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>Penggunaan Cookies.</a>.",
+        "try_it": "Coba <strong>gratis 15 hari</strong>!"
     },
     "register": {
         "error": {
-            "num1": "Cool! Registration finished",
-            "num2": "Error creating your app, please contact us",
-            "num3": "This email account is already signed in Upplication",
-            "num4": "Name of the app already chosen",
-            "num5": "Seller code is not correct",
-            "num6": "Name of the app and e-mail account already signed in",
-            "num7": "Name of the app already chosen and seller code is not correct",
-            "num8": "Email account already signed in and seller code is not correct",
-            "num9": "Name of the app, email account and seller code are not correct",
-            "num10": "You need to refill name of the app and email account fields",
-            "general": "General error"
+            "num1": "Keren! Registrasi selesai",
+            "num2": "Terjadi kesalahan saat membuat aplikasi Anda, silakan hubungi kami",
+            "num3": "Akun email ini telah terdaftar di Upplication",
+            "num4": "Nama aplikasi sudah digunakan",
+            "num5": "Kode penjual salah",
+            "num6": "Nama aplikasi dan akun sudah digunakan",
+            "num7": "Nama aplikasi sudah digunakan dan kode penjual salah",
+            "num8": "Akun E-mail sudah digunakan dank ode penjual salah",
+            "num9": "Nama aplikasi, akun e-mail dan kode penjual salah",
+            "num10": "Tolong lengkapi bagian nama aplikasi dan akun e-mail lagi",
+            "general": "Kesalahan umum"
         }
     },
     "home": {
         "slider": {
-            "intro1": "App generator to ",
-            "intro2": "<span>Create the app for your business,</span> <span>without coding, quick and easy.</span>",
+            "intro1": "Generator Aplikasi untuk ",
+            "intro2": "<span>Buat aplikasi untuk bisnis Anda,</span> <span>tidak perlu memprogram, cepat, dan mudah.</span>",
             "bg": "Upplication image",
-            "text": ["business", "hostelry", "services", "shops", "you"]
+            "text": ["toko", "perhotelan", "jasa", "pengusaha", "you"]
         },
         "why": {
-            "grow": "<strong>Increase</strong> your sales",
-            "loyal": "<strong>Loyalty</strong> customers",
-            "others": "<strong>Be different</strong> of your competitors"
+            "grow": "<strong>Tingkatkan</strong> penjualan",
+            "loyal": "<strong>Menjamin</strong> kesetiaan pelanggan",
+            "others": "<strong>Membedakan</strong> Anda dari pesaing Anda"
         },
         "samples": {
-            "business": "Apps fort all kind of business",
-            "restaurants": "Hostelry",
-            "shops": "Shops",
-            "serv": "Proffesionals <em>Services</em>",
-            "personal": "Custom",
+            "business": "Aplikasi untuk segala jenis bisnis",
+            "restaurants": "perhotelan",
+            "shops": "toko",
+            "serv": "<em>Jasa</em> Profesional",
+            "personal": "Cukai",
             "rest": {
-                "rest_intro": "Create the Android and iPhone app of your <span>restaurant</span> and add value to your clients",
-                "details1": "Your clients will can <span>book table</span> from their phone.",
-                "details2": "Offer <span>deliver services</span> at the touch of a button.",
-                "details3": "Provide <span>discounts</span> on you app.",
-                "details4": "Envía <span>push alerts</span> with exclusive offers."
+                "rest_intro": "Ciptakan aplikasi Android dan iPhone <span>restoran</span> Anda dan tambahkan nilai untuk pelanggan Anda",
+                "details1": "Pelanggan Anda akan dapat <span>melakukan reservasi</span> dari ponsel mereka.",
+                "details2": "Menawarkan <span>layanan antar pintu-ke-pintu</span> dalam sentuhan satu tombol.",
+                "details3": "Menampilkan <span>kupon diskon</span> pada aplikasi Anda.",
+                "details4": "Mengirim <span>pemberitahuan push</span> dengan penawaran eksklusif."
             },
             "shop": {
-                "shop_intro": "Create a mobile app so your clients can <span>buy products right from their phone</span>",
-                "shop_details1": "Integrate the payment gateway in a matter of minutes and <span>start selling</span>",
-                "shop_details2": "Offer <span>exclusive products</span> and more value to your clients.",
-                "shop_details3": "<span>Send push notifications</span> with the best offers.",
-                "shop_details4": "Your clients will carry <span>your business in their pocket.</span>"
+                "shop_intro": "Buat sebuah aplikasi mobile sehingga pelanggan Anda dapat <span>membeli produk Anda langsung dari ponsel mereka</span>",
+                "shop_details1": "Integrasikan gerbang pembayaran dalam hitungan menit dan <span>mulai menjual</span>.",
+                "shop_details2": "Tawarkan <span>produk eksklusif</span> dan tambah nilai lebih untuk pelanggan Anda.",
+                "shop_details3": "<span>Kirim pemberitahuan pesan push</span> dengan penawaran terbaik.",
+                "shop_details4": "Buat pelanggan Anda membawa <span>bisnis Anda dalam kantong mereka</span>."
             },
             "services": {
-                "serv_intro": "Create an <span>app offering your services</span> and connect with your clients via mobile phone",
-                "serv_details1": "Enable your clients <span>to hire your services</span> anywhere.",
-                "serv_details2": "Show your <span>services schedule</span> in your clients devices.",
-                "serv_details3": "Upload <span>videos and pictures</span> to promote your services.",
-                "serv_details4": "Send exclusive offers with <span>push notifications</span>"
+                "serv_intro": "Ciptakan suatu <span>aplikasi untuk jasa Anda</span> dan hubungkan dengan pelanggan Anda di ponsel mereka",
+                "serv_details1": "Memungkinkan klien Anda <span>menyewa jasa Anda</span> dimana saja.",
+                "serv_details2": "Tunjukkan <span>jadwal layana</span>n Anda di ponsel pelanggan Anda.",
+                "serv_details3": "Unggah <span>video dan gambar</span> untuk mempromosikan jasa Anda.",
+                "serv_details4": "Kirim penawaran eksklusif dengan <span>pemberitahuan pesan push</span>."
             },
             "custom": {
-                "cust_intro": "Create an mobile app all <span>custom</span>, in the way as you like for",
-                "cust_details1": "<span>Personal</span>: upload your resume, presentations, works...",
-                "cust_details2": "<span>Music</span>: upload music and videos, concert events, merchandising...",
-                "cust_details3": "<span>Events</span>: upload events calendar, send push alerts, make galleries...",
-                "cust_details4": "<span>Tourism</span>: Insert maps, offer recommendations, upload gastromonic recommendations..."
+                "cust_intro": "Buat <span>aplikasi mobile milik Anda sendiri</span>, sesuai dengan kebutuhan Anda",
+                "cust_details1": "<span>Pribadi</span>: Unggah resume, presentasi, portofolio Anda…",
+                "cust_details2": "<span>Music</span>: Unggah music dan video, jadwal konser, penjualan barang...",
+                "cust_details3": "<span>Acara</span>: Unggah jadwal Acara Anda, kirim pemberitahuan push, buat galeri…",
+                "cust_details4": "<span>Pariwisata</span>: Tambahkan peta, rekomendasikan lokasi, unggah penawaran restoran…"
             },
             "alt_tag": {
                 "img_iphone": "Upplication App working on iPhone",
@@ -107,62 +107,62 @@
                 "img_galaxy": "Upplication App working on Samsung Galaxy",
                 "img_xperia": "Upplication App working on Sony Xperia"
             },
-            "free_app": "Crearte my free app"
+            "free_app": "Buat aplikasi gratis Saya"
         },
         "how": {
-            "how_main": "Create your app easily",
+            "how_main": "Buat aplikasi Anda dengan mudah",
             "how_one": {
-                "reg_step1": "Sign Up",
-                "reg_step2": "Sign Up in three easy steps:",
-                "reg_step3": "app name, email and password."
+                "reg_step1": "Daftar",
+                "reg_step2": "Daftar dalam tiga langkah mudah:",
+                "reg_step3": "nama aplikasi, e-mail dan password."
             },
             "how_two": {
-                "app_step1": "Create your App",
-                "app_step2": "Dashboard <span>easy to use</span>, intuitive.",
-                "app_step3": "Can use <span>modules and templates</span> to custom your app.",
-                "app_step4": "Have control of the <span>dowloads rates</span> and send <span>push alerts</span> to your clients."
+                "app_step1": "Buat Aplikasi Anda",
+                "app_step2": "Akrab pengguna dan <span>dasbor</span> mudah digunakan.",
+                "app_step3": "Anda dapat menggunakan <span>modul dan pola</span> untuk menyesuaikan aplikasi Anda.",
+                "app_step4": "Control <span>jumlah unduhan</span> dan <span>pemberitahuan push</span> pada pelanggan Anda."
             },
             "how_three": {
-                "tutor_step1": "Customized tutor",
-                "tutor_step2": "<span>Proffesional customer service</span> to help you in all steps of your app develop.",
-                "tutor_step3": "Available in <span>chat</span>, <span>email</span>, and <span>phone</span> channels."
+                "tutor_step1": "Tutor pribadi",
+                "tutor_step2": "<span>Dukungan professional pelanggan</span> akan membantu Anda dengan seluruh tahapan perkembangan aplikasi Anda.",
+                "tutor_step3": "Tersedia melalui <span>obrolan</span>, <span>e-mail</span>, dan saluran <span>telepon</span>."
             },
             "how_four": {
-                "publish_step1": "We publish your App",
-                "publish_step2": "<span>We publish your app</span> in all differents markets (Apple, Android).",
-                "publish_step3": "Our app are all <span>multi-device</span> (mobile, tablet, Pc, Mac...)."
+                "publish_step1": "Kami menerbitkan Aplikasi Anda",
+                "publish_step2": "<span>Kami akan menerbitkan aplikasi Anda</span> di semua App Store berbeda (Apple, Android).",
+                "publish_step3": "Aplikasi kami mendukung <span>banyak perangkat</span> (mobile, tablet, PC, Mac...)."
             },
-            "app_ready": " <span>Your App</span> is ready "
+            "app_ready": " <span>Aplikasi</span> Anda siap "
         },
         "rates": {
-            "rate_intro": "Pricing plans",
-            "rate_sub": "All pricing plans included:",
-            "sub1": "Costumer support by email, chat and phone.",
-            "sub2": "Automatic upload to all markets, we publish your app.",
-            "sub3": "Multi-device responsive web.",
-            "sub4": "Customized tutor.",
-            "monthly": "Monthly plan",
-            "yearly": "Yearly plan",
-            "euro_month": "€ / month",
-            "euro_year": "€ / year",
-            "basic": "BASIC",
-            "proff": "PROFFESIONAL",
+            "rate_intro": "Paket harga",
+            "rate_sub": "Semua paket harga termasuk:",
+            "sub1": "Dukungan pelanggan melalui e-mail, obrolan, dan telepon.",
+            "sub2": "Unggah otomatis ke semua App Stores, kami menerbitkan aplikasi Anda.",
+            "sub3": "Web responsif, mendukung banyak perangkat.",
+            "sub4": "Tutor pribadi.",
+            "monthly": "Paket bulanan",
+            "yearly": "Paket tahunan",
+            "euro_month": "€ / bulan",
+            "euro_year": "€ / tahun",
+            "basic": "DASAR",
+            "proff": "PROFESIONAL",
             "premiun": "PREMIUM",
-            "unlimited": "UNLIMITED",
-            "app_web": "App and WebApp",
-            "statistics": "<strong>Statistics</strong> of your app",
-            "bullhorn": "Upplication <strong>Ads</strong>",
-            "no_bullhorn": "<strong>No</strong> Upplication Ads",
-            "sign": "<strong>Signature</strong> on templates",
-            "no_sign": "<strong>No</strong> signature on templates",
-            "no_push": "<strong>No</strong> push alerts",
-            "four_push": "<strong>4</strong> push alerts / month",
-            "all_push": "<strong>Unlimited</strong> push alerts",
-            "no_templates": "<strong>Custom App</strong>, personalized",
-            "monthless": "<span>Two month discount</span> in all yearly plans. Pay ten months and take twelve.",
-            "with_tax": "IVA tax included in all prices."
+            "unlimited": "TAK TERBATAS",
+            "app_web": "Aplikasi and Aplikasi Web",
+            "statistics": "<strong>Statistik</strong> di aplikasi Anda",
+            "bullhorn": "<strong>Iklan</strong> Upplication",
+            "no_bullhorn": "<strong>Tidak ada</strong> Iklan Upplication",
+            "sign": "<strong>Cap air</strong> pada pola",
+            "no_sign": "<strong>Tidak ada</strong> cap air pada pola",
+            "no_push": "<strong>Tidak ada</strong> pemberitahuan push",
+            "four_push": "<strong>4</strong> pemberitahuan push / bulan",
+            "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
+            "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
+            "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
+            "with_tax": "Sudah termasuk PPN."
         },
-        "_url": "/build-your-app/",
+        "_url": "/generator-aplikasi/",
         "_template": "home",
         "_name": "Home",
         "_meta_title": "Create the app for your business",
@@ -173,22 +173,22 @@
             "title": "These are some of our apps"
         },
         "register": {
-            "announce": "You can change it later",
-            "claim": "Your app, your business",
-            "arguments": "Create the app for your business, without coding, quick and easy.",
-            "app_name": "Name of the app",
+            "announce": "Anda dapat mengubahnya nanti",
+            "claim": "Aplikasi Anda, bisnis Anda",
+            "arguments": "Buat Aplikasi Anda sendiri, untuk bisnis Anda. Mudah, tanpa coding, dan cepat, dalam beberapa menit.",
+            "app_name": "Nama Aplikasi",
             "email": "Email",
             "password": "Password",
             "call_to_action": "Try it now",
-            "accept_terms": "When you click the \"Try it now button\" you accept our",
-            "loading": "Loading...",
-            "terms": "terms and conditions",
-            "try_it": "Try it free, you have 15 days",
+            "accept_terms": "Dengan mengklik tombol \"Coba Gratis\" Anda setuju dengan syarat dan ketentuan kami",
+            "loading": "Memuat...",
+            "terms": "aturan penggunaan",
+            "try_it": "Daftar untuk 15 hari coba gratis",
             "warning": {
-                "name": "The name of your app must be between 3 and 32 characters and cannot start with a number",
-                "password": "The minimum password length is 8 characters",
-                "ajax": "Uuups..., we had a small problem",
-                "ajax_msg": "Registration could not be completed, please try again or email us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
+                "name": "Nama aplikasi Anda harus antara 3 sampai 32 karakter panjangnya dan tidak boleh diawali dengan angka",
+                "password": "Panjang minimal password 8 karakter",
+                "ajax": "Ups... kami mengalami masalah kecil",
+                "ajax_msg": "Pendaftaran tidak dapat diselesaikan, silakan coba lagi atau e-mail kami ke  <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
             }
         },
         "improve_sales": {
@@ -232,29 +232,29 @@
             "ios_alt": "Create your app with iOS"
         },
         "testimonials": {
-            "title": "What Clients Say about us?",
+            "title": "Apa yang Klien kami katakan tentang kami?",
             "client1": {
-                "cite": "Excellent online and telephone customer service. I have secured a lot of customers thanks to my app.",
-                "name": "Ana, C,UP Your choice on top",
+                "cite": "Layanan pelanggan melalui telepon dan daring sangat baik. Saya telah mendapat banyak pelanggan karena aplikasi saya.",
+                "name": "Ana, C,UP Pilihan Anda diutamakan",
                 "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
             },
             "client2": {
-                "cite": "Customers book tables and see the menu in my app. I manage my daily business tasks with Upplication.",
+                "cite": "Pelanggan melakukan reservasi dan melihat menu dalam aplikasi saya. Saya mengelola pekerjaan bisnis harian saya dengan Upplication.",
                 "name": "David, Trapatapa Bar",
                 "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
             },
             "client3": {
-                "cite": "It is the most intuitive tool I have ever tried. I can manage my app easily. In addition, Upplication improves week after week.",
+                "cite": "Ini alat yang paling akrab pengguna yang pernah saya coba. Mengelola aplikasi saya sangat mudah. Tambahan, Upplication terus berkembang tiap minggunya.",
                 "name": "Gabriel, Moto Urban",
                 "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
             }
         },
         "register_inline": {
             "title": "Sign in and start your app for free",
-            "app_name": "Name of the app",
+            "app_name": "Nama Aplikasi",
             "email": "Email",
             "password": "Password",
-            "call_to_action": "Try it now"
+            "call_to_action": "Coba gratis"
         },
         "press": {
             "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
@@ -267,10 +267,10 @@
         },
         "try": "Try it free for 15 days!",
         "create_free": "Create my app",
-        "permanence": "Trial period with no fixed term."
+        "permanence": "Masa percobaan dengan tanpa harus tinggal."
     },
     "helpcenter": {
-        "_url": "/help-center/",
+        "_url": "/help-center-indonesian/",
         "_template": "helpcenter",
         "_name": "Help center",
         "_meta_title": "help center",
@@ -341,13 +341,13 @@
             }
         },
         "customer_service": {
-            "text": "Customer service",
-            "text2": "Customer service",
+            "text": "Layanan pelanggan",
+            "text2": "Layanan pelanggan",
             "phone": {
                 "link": "tel:810512370",
                 "title": "810 512 370",
-                "text": "tel: 810 512 370 (free)",
-                "text_tel": "<span>810 512 370</span> (free)",
+                "text": "tel: 810 512 370 (gratis)",
+                "text_tel": "<span>810 512 370</span> (gratis)",
                 "alt_tag": "Call to Upplication customer service"
             },
             "email": {
@@ -360,7 +360,7 @@
         }
     },
     "about": {
-        "_url": "/about-us/",
+        "_url": "/about-us-indonesian/",
         "_template": "about",
         "_name": "About Us",
         "_meta_title": "Create the app for your business",
@@ -419,7 +419,7 @@
         }
     },
     "offer": {
-        "_url": "/offer-trainee-developer/",
+        "_url": "/offer-trainee-developer-indonesian/",
         "_template": "offer",
         "_name": "Oferta prácticas",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -462,7 +462,7 @@
         ]
     },
     "offer_marketing": {
-        "_url": "/offer-trainee-marketing/",
+        "_url": "/offer-trainee-marketing-indonesian/",
         "_template": "offer_marketing",
         "_name": "Oferta prácticas",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -505,7 +505,7 @@
         ]
     },
     "available_offer": {
-        "_url": "/jobs/",
+        "_url": "/jobs-indonesian/",
         "_template": "available_offer",
         "_name": "Ofertas trabajo",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -519,10 +519,10 @@
     },
     "external": {
         "titles": {
-            "help": "Help:",
+            "help": "bantuan:",
             "uppl": "Upplication:",
-            "misc": "Miscellaneous:",
-            "legal": "Legal Warning:"
+            "misc": "Lain-lain:",
+            "legal": "Pengecualian:"
         },
         "blog": {
             "anchor": "Blog",
@@ -533,7 +533,7 @@
             "url": "@@config.base_path/about-us/"
         },
         "team": {
-            "anchor": "Team",
+            "anchor": "Tim",
             "url": "/team/"
         },
         "features": {
@@ -541,47 +541,47 @@
             "url": "/features/"
         },
         "partners": {
-            "anchor": "Become a partner",
+            "anchor": "Menjadi mitra",
             "url": "http://www.upplication.com/distributors/conviertete-en-distribuidor-de-apps.html"
         },
         "jobs": {
-            "anchor": "We are hiring!",
+            "anchor": "Kami merekrut!",
             "url": "@@config.base_path/jobs/"
         },
         "tos": {
-            "anchor": "Terms and Conditions",
+            "anchor": "Aturan penggunaan",
             "url": "@@config.base_path/terms/"
         },
         "tutorials": {
-            "anchor": "Tutorials",
+            "anchor": "Tutorial",
             "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "helpcenter": {
-            "anchor": "Help Center",
+            "anchor": "Pusat bantuan",
             "url": "@@config.base_path/help-center/"
         },
         "breakfasts": {
-            "anchor": "Go to our breakfasts",
+            "anchor": "Gabung dengan kami untuk sarapan",
             "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
         },
         "apps": {
-            "anchor": "App samples",
+            "anchor": "Contoh Aplikasi",
             "url": "@@config.base_path/showcase/"
         },
         "create_apps": {
-            "anchor": "We create your app",
+            "anchor": "Kami membuat Aplikasi Anda",
             "url": "/we-can-make-your-app/"
         },
         "pricing": {
-            "anchor": "Pricing",
+            "anchor": "Harga",
             "url": "@@config.base_path/prices/"
         },
         "pricing_aplicateca": {
-            "anchor": "Pricing",
+            "anchor": "Harga",
             "url": "@@config.base_path/prices-aplicateca/"
         },
         "media_kit": {
-            "anchor": "Press",
+            "anchor": "Pers",
             "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
         },
         "youtube": {
@@ -647,7 +647,7 @@
         "dont_have_a_code": "I don't have a seller code"
     },
     "prices": {
-        "_url": "/prices/",
+        "_url": "/prices-indonesian/",
         "_template": "prices",
         "_name": "Pricing plans",
         "_meta_title": "Pricing plans",
@@ -788,7 +788,7 @@
         },
         "contact": {
             "customer_service": {
-                "text": "Customer service:",
+                "text": "Layanan pelanggan:",
                 "phone": {
 
                     "link": "tel:810512370",
@@ -826,7 +826,7 @@
         }
     },
     "prices_aplicateca": {
-        "_url": "/prices-aplicateca/",
+        "_url": "/prices-aplicateca-indonesian/",
         "_template": "prices_aplicateca",
         "_name": "Pricing plans",
         "_meta_title": "Pricing plans",
@@ -951,12 +951,12 @@
         },
         "contact": {
             "customer_service": {
-                "text": "Customer service:",
+                "text": "Layanan pelanggan:",
                 "phone": {
 
                     "link": "tel:810512370",
                     "title":"810 512 370",
-                    "text": "810 512 370 (free)"
+                    "text": "810 512 370 (gratis)"
 
                 },
                 "email": {
@@ -989,7 +989,7 @@
         }
     },
     "showcase": {
-        "_url": "/showcase/",
+        "_url": "/showcase-indonesian/",
         "_template": "showcase",
         "_name": "Showcase",
         "_meta_title": "Showcase - Upplication",
@@ -1173,7 +1173,7 @@
         ]
     },
     "ono": {
-        "_url": "/vodafone-examples/",
+        "_url": "/vodafone-examples-indonesian/",
         "_template": "ono",
         "_name": "Ono examples",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -1183,7 +1183,7 @@
         "title": "Vodafone examples"
     },
     "open_future": {
-        "_url": "/mwc-open-future/",
+        "_url": "/mwc-open-future-indonesian/",
         "_template": "open_future",
         "_name": "Open Future",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -1192,7 +1192,7 @@
         "_canonical": "http://www.upplication.com/"
     },
     "gd4f": {
-        "_url": "/go-digital-4-finance/",
+        "_url": "/go-digital-4-finance-indonesian/",
         "_template": "gd4f",
         "_name": "Go Digital 4 Finance",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
@@ -1210,7 +1210,7 @@
         "_canonical": "http://www.upplication.com/build-your-app"
     },
     "landing_test_2": {
-        "_url": "/landing-test2/",
+        "_url": "/landing-test2-indonesian/",
         "_template": "landing_test_2",
         "_name": "Home",
         "_meta_title": "Create the app for your business",
@@ -1219,7 +1219,7 @@
         "_canonical": "http://www.upplication.com/build-your-app"
     },
     "home_tlf": {
-        "_url": "/home-en-tlf/",
+        "_url": "/home-en-tlf-indonesian/",
         "_template": "home_tlf",
         "_name": "Home",
         "_meta_title": "Create the app for your business",
@@ -1228,7 +1228,7 @@
         "_canonical": "http://www.upplication.com/build-your-app"
     },
     "terms": {
-        "_url": "/terms/",
+        "_url": "/terms-indonesian/",
         "_template": "terms",
         "_name": "Terms",
         "_meta_title": "Terms of Service",
@@ -1237,7 +1237,7 @@
         "_canonical": "http://www.upplication.com/build-your-app",
         "title": "Terms of Service",
         "legal": {
-            "title": "Legal Warning",
+            "title": "Pengecualian",
             "paragraphs":[
                 "In compliance with the duty of disclosure contained in Article 10 of Law 34/2002 of July 11, of the Servicios de la Sociedad de la Información y de Comercio Electrónico (Information and E-commerce Society Services), we inform you that the URL www.upplication.com (hereinafter the PORTAL/WEBSITE) is a domain owned by UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (hereinafter the COMPANY) established in Glorieta Quevedo 7, 4º Izquieda, 28015 (Madrid).",
                 "All trademarks, trade names or distinctive signs of any kind that appear on the site are owned by the company or third parties, and it is understood that the use or access to the Site and/or services give the user no rights on the trademarks, trade names and/or distinctive signs.",
@@ -1247,7 +1247,7 @@
             ]
         },
         "privacy": {
-            "title": "Privacy Policy",
+            "title": "Ketentuan privasi",
             "paragraphs": [
                 "This policy applies to the www.upplication.com website (hereinafter, the PORTAL/SITE) and all services and products offered online/on the internet by UPPLICATION SOFTWARE TECHNOLOGIES, SL (hereinafter the COMPANY/ENTITY). This document outlines the type of personal information that the company/entity receives and collects when using the services of our web page.",
                 "The use of cookies, logs, links and other technologies are expected to be used to store the preferences of the user, in order to improve the quality of our services, ensure the technical functioning of the network, and develop new and better features. If cookies are disabled or rejected, some of the functions and/or services of the portal may not function properly.",
@@ -1316,7 +1316,7 @@
         }
     },
     "terms_movistar": {
-        "_url": "/termsandconditionsmovistar-upplication/",
+        "_url": "/termsandconditionsmovistar-upplication-indonesian/",
         "_template": "terms_movistar",
         "_name": "Terms and conditions",
         "_meta_title": "Terms and conditions",
@@ -1324,251 +1324,251 @@
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_canonical": "http://www.upplication.com/build-your-app/",
         "sections": {
-          "title": "Términos y condiciones",
-          "sections": [
-            {
-              "title": "Aviso legal",
-              "children": [
-                "En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informamos que la URL www.upplication.com (en adelante el PORTAL) es un dominio propiedad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante la ENTIDAD), con domicilio en la Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid), con C.I.F. nº B86569654.",
-                "Todas las marcas, nombres comerciales o signos distintivos de cualquier clase que aparecen en el PORTAL son propiedad de la ENTIDAD o de terceros, sin que pueda entenderse que el uso o acceso al sitio y/o a los servicios, atribuya al usuario derecho alguno sobre las citadas marcas, nombres comerciales y/o signos distintivos.",
-                "Asimismo, los contenidos publicados en la web, su diseño gráfico, imágenes, bases de datos y código fuente son propiedad intelectual de la ENTIDAD o de terceros, sin que puedan entenderse cedidos al usuario, en virtud de lo establecido en este Aviso Legal, ninguno de los derechos de explotación que existen o puedan existir sobre dichos contenidos más allá de lo estrictamente necesario para el correcto uso del PORTAL y de los servicios que se prestan a través de él.",
-                "El acceso a este website es responsabilidad exclusiva de los usuarios. El simple acceso al PORTAL no supone entablar ningún tipo de relación de carácter comercial entre la ENTIDAD y el usuario. Accediendo a él acepta los términos y condiciones descritos en el PORTAL."
-              ]
-            },
-            {
-              "title": "Política de privacidad",
-              "children": [
-                "Esta política se aplica al sitio web www.upplication.com (en adelante el PORTAL) y a todos los servicios y productos ofrecidos en Internet por UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante, la ENTIDAD). El presente documento resume el tipo de información personal que recibe y recopila la Entidad cuando se utilizan los servicios de la página web.",
-                "Se prevé la utilización de cookies, log, enlaces y otras tecnologías para almacenar las preferencias del usuario con el fin de mejorar la calidad de nuestros servicios, asegurar el funcionamiento técnico de la red, y desarrollar nuevas y mejores prestaciones. Si se desactivan o rechazan las cookies, puede ocurrir que algunas de las funciones y/o servicios del PORTAL no funcionen adecuadamente.",
-                "En cumplimiento del artículo 5 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos, le informamos de que sus datos personales serán incorporados a un Fichero de Datos de Carácter Personal, titularidad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. como Responsable del Fichero, con la finalidad de mantener nuestras relaciones contractuales, comerciales y profesionales que nos unen a Ud., así como para el envío de comunicaciones postales, telemáticas, o por otros medios, con ocasión de acontecimientos puntuales, o en ciertos periodos del año, que puedan ser de interés para el afectado.",
-                "Asimismo, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. garantiza al titular de los datos el ejercicio de los derechos de acceso, rectificación, cancelación y oposición de los datos que le conciernen, debiendo, para ello, dirigirse mediante comunicación escrita a la siguiente dirección Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid). En cualquier caso, el titular de los datos resulta informado y consiente en la conservación de dichos datos bajo las debidas condiciones de seguridad y secreto profesional, por el período que resulte necesario para la finalidad para la que son recabados.",
-                "El PORTAL no ejerce control sobre los sitios web mostrados como resultado de su búsqueda, enlaces o accesos desde nuestro directorio. Estos otros sitios web pueden colocar sus propias cookies o solicitarle información personal.",
-                "La ENTIDAD informa a los Usuarios Registrados en su caso de la posibilidad de ejercitar los derechos de acceso, cancelación, rectificación y oposición respecto de sus datos de carácter personal que constan en los ficheros de la ENTIDAD, mediante comunicación escrita acompañada de una fotocopia del D.N.I. dirigida a UPPLICATION SOFTWARE TECHNOLOGIES, S.L., a la siguiente dirección: Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid)",
-                "Estos ficheros se encuentran debidamente inscritos en el Registro de la Agencia Española de Protección de Datos y cumplen las Medidas de Seguridad requeridas por el Real Decreto1720/2007.",
-                "Los citados usuarios sólo están autorizados al uso del PORTAL previa aceptación y cumplimiento de las condiciones aquí recogidas, debiendo abandonar el sitio en caso contrario."
-              ]
-            },
-            {
-              "title": "Condiciones de uso de la página web, compra de productos y contratación",
-              "children": [
+            "title": "Términos y condiciones",
+            "sections": [
                 {
-                  "title": "1.- Introducción",
-                  "children": [
-                    "El presente documento establece las condiciones por las que se rige el uso de esta página web y la adquisición de productos en la misma (en adelante, las \"Condiciones\").",
-                    "Al utilizar esta página web y al contratar cualquier producto a través de la misma, usted consiente en quedar vinculado por estas Condiciones, por lo que si no está usted de acuerdo con las mismas, no debe usar esta página web ni contratar a través de la misma.",
-                    "Estas Condiciones podrían ser modificadas, por lo que rogamos su lectura aunque ya lo haya hecho antes.",
-                    "En todo caso, las Condiciones que estén vigentes en el momento de celebración de un contrato sobre cualquier producto o servicio serán las que le resulten aplicables.",
-                    "En las presentes condiciones aludiremos a nosotros como \"UPPLICATION\" y a Vd. como el \"Cliente\"."
-                  ]
+                    "title": "Aviso legal",
+                    "children": [
+                        "En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informamos que la URL www.upplication.com (en adelante el PORTAL) es un dominio propiedad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante la ENTIDAD), con domicilio en la Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid), con C.I.F. nº B86569654.",
+                        "Todas las marcas, nombres comerciales o signos distintivos de cualquier clase que aparecen en el PORTAL son propiedad de la ENTIDAD o de terceros, sin que pueda entenderse que el uso o acceso al sitio y/o a los servicios, atribuya al usuario derecho alguno sobre las citadas marcas, nombres comerciales y/o signos distintivos.",
+                        "Asimismo, los contenidos publicados en la web, su diseño gráfico, imágenes, bases de datos y código fuente son propiedad intelectual de la ENTIDAD o de terceros, sin que puedan entenderse cedidos al usuario, en virtud de lo establecido en este Aviso Legal, ninguno de los derechos de explotación que existen o puedan existir sobre dichos contenidos más allá de lo estrictamente necesario para el correcto uso del PORTAL y de los servicios que se prestan a través de él.",
+                        "El acceso a este website es responsabilidad exclusiva de los usuarios. El simple acceso al PORTAL no supone entablar ningún tipo de relación de carácter comercial entre la ENTIDAD y el usuario. Accediendo a él acepta los términos y condiciones descritos en el PORTAL."
+                    ]
                 },
                 {
-                  "title": "2.- Nuestros datos",
-                  "children": [
-                    "Esta página web está operada bajo la denominación UPPLICATION por UPPLICATION SOFTWARE TECHNOLOGIES S.L., sociedad española con domicilio en Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid), inscrita en el Registro Mercantil de Madrid, Tomo 30419, Folio 1, Sección 8, Hoja 547507, inscripción 1ª y CIF nº B86569654.",
-                    "Dicha entidad es la parte contratante en caso de que adquiera algún producto."
-                  ]
+                    "title": "Política de privacidad",
+                    "children": [
+                        "Esta política se aplica al sitio web www.upplication.com (en adelante el PORTAL) y a todos los servicios y productos ofrecidos en Internet por UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante, la ENTIDAD). El presente documento resume el tipo de información personal que recibe y recopila la Entidad cuando se utilizan los servicios de la página web.",
+                        "Se prevé la utilización de cookies, log, enlaces y otras tecnologías para almacenar las preferencias del usuario con el fin de mejorar la calidad de nuestros servicios, asegurar el funcionamiento técnico de la red, y desarrollar nuevas y mejores prestaciones. Si se desactivan o rechazan las cookies, puede ocurrir que algunas de las funciones y/o servicios del PORTAL no funcionen adecuadamente.",
+                        "En cumplimiento del artículo 5 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos, le informamos de que sus datos personales serán incorporados a un Fichero de Datos de Carácter Personal, titularidad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. como Responsable del Fichero, con la finalidad de mantener nuestras relaciones contractuales, comerciales y profesionales que nos unen a Ud., así como para el envío de comunicaciones postales, telemáticas, o por otros medios, con ocasión de acontecimientos puntuales, o en ciertos periodos del año, que puedan ser de interés para el afectado.",
+                        "Asimismo, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. garantiza al titular de los datos el ejercicio de los derechos de acceso, rectificación, cancelación y oposición de los datos que le conciernen, debiendo, para ello, dirigirse mediante comunicación escrita a la siguiente dirección Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid). En cualquier caso, el titular de los datos resulta informado y consiente en la conservación de dichos datos bajo las debidas condiciones de seguridad y secreto profesional, por el período que resulte necesario para la finalidad para la que son recabados.",
+                        "El PORTAL no ejerce control sobre los sitios web mostrados como resultado de su búsqueda, enlaces o accesos desde nuestro directorio. Estos otros sitios web pueden colocar sus propias cookies o solicitarle información personal.",
+                        "La ENTIDAD informa a los Usuarios Registrados en su caso de la posibilidad de ejercitar los derechos de acceso, cancelación, rectificación y oposición respecto de sus datos de carácter personal que constan en los ficheros de la ENTIDAD, mediante comunicación escrita acompañada de una fotocopia del D.N.I. dirigida a UPPLICATION SOFTWARE TECHNOLOGIES, S.L., a la siguiente dirección: Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid)",
+                        "Estos ficheros se encuentran debidamente inscritos en el Registro de la Agencia Española de Protección de Datos y cumplen las Medidas de Seguridad requeridas por el Real Decreto1720/2007.",
+                        "Los citados usuarios sólo están autorizados al uso del PORTAL previa aceptación y cumplimiento de las condiciones aquí recogidas, debiendo abandonar el sitio en caso contrario."
+                    ]
                 },
                 {
-                  "title": "3.- Advertencias sobre datos de carácter personal",
-                  "children": [
-                    "La información o datos personales que nos facilite serán tratados con arreglo a lo establecido en las presentes Condiciones.",
-                    "Le rogamos lea atentamente los siguientes apartados:",
-                    "a) Cesión de sus propios datos:",
-                    "Al hacer uso de esta página web y al contratar cualquier producto, usted consiente en la incorporación de sus datos de carácter personal en un fichero que será objeto de tratamiento con el fin de poder comunicarnos con Vd. así como de gestionar el cumplimiento y desarrollo de los contratos que suscriba con nosotros, y también con fines de comunicación comercial entre Vd. y nosotros.",
-                    "Los datos que se le solicitan durante el proceso de contratación son obligatorios. Si no nos facilita usted toda la información y datos de carácter personal que le solicitamos, no podremos contratar con Vd., por lo que cualquier pedido se tendrá por no efectuado.",
-                    "No obstante, en cualquier momento podrá ejercitar los derechos de acceso, rectificación, cancelación y oposición comunicándolo en la dirección administracion@upplication.com. También podrá comunicar en ese correo si desea que la cesión de datos de carácter personal tenga solamente por finalidad el establecimiento del contrato y las necesidades propias del contrato, excluyendo otros fines.",
-                    "El responsable del fichero y del tratamiento de los datos es UPPLICATION SOFTWARE TECHNOLOGIES S.L., con domicilio Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid) y CIF nº B86569654.",
-                    "El usuario de esta página web y de los productos y servicios que haya contratado o pueda contratar declara que toda la información o datos que facilite son veraces y se corresponden con la realidad.",
-                    "b) Cesión de datos de terceros como consecuencia de la contratación de los productos y servicios de UPPLICATION.",
-                    "La contratación de los productos de UPPLICATION podrá implicar que Vd. podrá ponerse en contacto con terceros, ya sean sus clientes, ya sean simplemente contactos personales, y que éstos le suministren datos de carácter personal para su incorporación a un fichero de Vd. y su tratamiento.",
-                    "Debido a ello se le informa de que Vd. se compromete, y es responsabilidad suya, el cumplimiento de las obligaciones y limitaciones que le impone la Ley Orgánica 15/1999 de Protección de Datos para obtener datos de carácter personal de terceras personas, almacenarlos en un fichero y su tratamiento. A tal efecto, Vd. será el responsable del tratamiento de dichos datos.",
-                    "Se le informa de que UPPLICATION, tal como está previsto en el art. 12 de la Ley 15/1999 de Protección de Datos, almacenará y tratará dichos datos de sus contactos como encargado del tratamiento y exclusivamente para la gestión y desarrollo del producto que Vd. ha contratado con nosotros, y que Vd. nos encarga al contratar un producto. En todo caso, el tratamiento y utilización de los datos por parte de UPPLICATION se limitará a las especificaciones que se describen para el producto que Vd. haya contratado.",
-                    "Asimismo, y a los efectos previstos en el art. 21 del Real Decreto 1720/2007 que aprueba el Reglamento de desarrollo de la Ley de Protección de Datos de Carácter Personal, Vd. autoriza a UPPLICATION a subcontratar los servicios de almacenamiento y tratamiento de los datos de carácter personal que Vd. obtuviere como consecuencia del uso de los productos contratados. La empresa subcontratada es Acens Technologies, S.L. con domicilio en la calle San Rafael, 14, 28.108 – Alcobendas (Madrid) y el objeto de la subcontratación consiste en el almacenamiento y tratamiento de datos especificado en el producto que Vd. haya contratado. También se le informa de que el tratamiento de datos de carácter personal, tanto por UPPLICATION como por la empresa subcontratada, se ajustará a las instrucciones de Vd. como responsable del tratamiento.",
-                    "Una vez finalizado el contrato entre Vd. y nosotros por cualquier causa los datos se destruirán."
-                  ]
+                    "title": "Condiciones de uso de la página web, compra de productos y contratación",
+                    "children": [
+                        {
+                            "title": "1.- Introducción",
+                            "children": [
+                                "El presente documento establece las condiciones por las que se rige el uso de esta página web y la adquisición de productos en la misma (en adelante, las \"Condiciones\").",
+                                "Al utilizar esta página web y al contratar cualquier producto a través de la misma, usted consiente en quedar vinculado por estas Condiciones, por lo que si no está usted de acuerdo con las mismas, no debe usar esta página web ni contratar a través de la misma.",
+                                "Estas Condiciones podrían ser modificadas, por lo que rogamos su lectura aunque ya lo haya hecho antes.",
+                                "En todo caso, las Condiciones que estén vigentes en el momento de celebración de un contrato sobre cualquier producto o servicio serán las que le resulten aplicables.",
+                                "En las presentes condiciones aludiremos a nosotros como \"UPPLICATION\" y a Vd. como el \"Cliente\"."
+                            ]
+                        },
+                        {
+                            "title": "2.- Nuestros datos",
+                            "children": [
+                                "Esta página web está operada bajo la denominación UPPLICATION por UPPLICATION SOFTWARE TECHNOLOGIES S.L., sociedad española con domicilio en Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid), inscrita en el Registro Mercantil de Madrid, Tomo 30419, Folio 1, Sección 8, Hoja 547507, inscripción 1ª y CIF nº B86569654.",
+                                "Dicha entidad es la parte contratante en caso de que adquiera algún producto."
+                            ]
+                        },
+                        {
+                            "title": "3.- Advertencias sobre datos de carácter personal",
+                            "children": [
+                                "La información o datos personales que nos facilite serán tratados con arreglo a lo establecido en las presentes Condiciones.",
+                                "Le rogamos lea atentamente los siguientes apartados:",
+                                "a) Cesión de sus propios datos:",
+                                "Al hacer uso de esta página web y al contratar cualquier producto, usted consiente en la incorporación de sus datos de carácter personal en un fichero que será objeto de tratamiento con el fin de poder comunicarnos con Vd. así como de gestionar el cumplimiento y desarrollo de los contratos que suscriba con nosotros, y también con fines de comunicación comercial entre Vd. y nosotros.",
+                                "Los datos que se le solicitan durante el proceso de contratación son obligatorios. Si no nos facilita usted toda la información y datos de carácter personal que le solicitamos, no podremos contratar con Vd., por lo que cualquier pedido se tendrá por no efectuado.",
+                                "No obstante, en cualquier momento podrá ejercitar los derechos de acceso, rectificación, cancelación y oposición comunicándolo en la dirección administracion@upplication.com. También podrá comunicar en ese correo si desea que la cesión de datos de carácter personal tenga solamente por finalidad el establecimiento del contrato y las necesidades propias del contrato, excluyendo otros fines.",
+                                "El responsable del fichero y del tratamiento de los datos es UPPLICATION SOFTWARE TECHNOLOGIES S.L., con domicilio Glorieta de Quevedo 7, 4º izda., 28015 Madrid (Madrid) y CIF nº B86569654.",
+                                "El usuario de esta página web y de los productos y servicios que haya contratado o pueda contratar declara que toda la información o datos que facilite son veraces y se corresponden con la realidad.",
+                                "b) Cesión de datos de terceros como consecuencia de la contratación de los productos y servicios de UPPLICATION.",
+                                "La contratación de los productos de UPPLICATION podrá implicar que Vd. podrá ponerse en contacto con terceros, ya sean sus clientes, ya sean simplemente contactos personales, y que éstos le suministren datos de carácter personal para su incorporación a un fichero de Vd. y su tratamiento.",
+                                "Debido a ello se le informa de que Vd. se compromete, y es responsabilidad suya, el cumplimiento de las obligaciones y limitaciones que le impone la Ley Orgánica 15/1999 de Protección de Datos para obtener datos de carácter personal de terceras personas, almacenarlos en un fichero y su tratamiento. A tal efecto, Vd. será el responsable del tratamiento de dichos datos.",
+                                "Se le informa de que UPPLICATION, tal como está previsto en el art. 12 de la Ley 15/1999 de Protección de Datos, almacenará y tratará dichos datos de sus contactos como encargado del tratamiento y exclusivamente para la gestión y desarrollo del producto que Vd. ha contratado con nosotros, y que Vd. nos encarga al contratar un producto. En todo caso, el tratamiento y utilización de los datos por parte de UPPLICATION se limitará a las especificaciones que se describen para el producto que Vd. haya contratado.",
+                                "Asimismo, y a los efectos previstos en el art. 21 del Real Decreto 1720/2007 que aprueba el Reglamento de desarrollo de la Ley de Protección de Datos de Carácter Personal, Vd. autoriza a UPPLICATION a subcontratar los servicios de almacenamiento y tratamiento de los datos de carácter personal que Vd. obtuviere como consecuencia del uso de los productos contratados. La empresa subcontratada es Acens Technologies, S.L. con domicilio en la calle San Rafael, 14, 28.108 – Alcobendas (Madrid) y el objeto de la subcontratación consiste en el almacenamiento y tratamiento de datos especificado en el producto que Vd. haya contratado. También se le informa de que el tratamiento de datos de carácter personal, tanto por UPPLICATION como por la empresa subcontratada, se ajustará a las instrucciones de Vd. como responsable del tratamiento.",
+                                "Una vez finalizado el contrato entre Vd. y nosotros por cualquier causa los datos se destruirán."
+                            ]
+                        },
+                        {
+                            "title": "4.- Uso de nuestra página web y contratación de productos de UPPLICATION",
+                            "children": [
+                                "Al realizar un contrato a través de esta página web, usted declara ser mayor de 18 años y tener capacidad legal para celebrar contratos.",
+                                "Al hacer uso de esta página web y al contratar los productos de UPPLICATION a través de la misma Vd. se compromete a:",
+                                "a) Hacer uso de esta página web únicamente para realizar consultas o pedidos legalmente válidos.",
+                                "b) No realizar ningún pedido falso o fraudulento. Si razonablemente se pudiera considerar que se ha hecho un pedido de esta índole estaremos autorizados a anularlo e informar, en su caso, a las autoridades pertinentes.",
+                                "c) Facilitarnos su nombre y apellidos o denominación social, el NIF o CIF, dirección de correo electrónico, dirección postal y teléfono de contacto de forma veraz y exacta. Asimismo, consiente que podremos hacer uso de dicha información para ponernos en contacto con usted si es necesario. En caso de que los datos que nos suministre no se ajustaran a la realidad, UPPLICATION podrá cancelar o no iniciar relaciones contractuales con Vd.",
+                                "d) A utilizar los productos con fines ajustados a la Ley y cumpliendo con los requisitos que, en su caso, la Ley exija, así como con lealtad y buena fe frente a terceros."
+                            ]
+                        },
+                        {
+                            "title": "5.- Celebración del contrato de adquisición de productos de UPPLICATION",
+                            "children": [
+                                "La información contenida en las presentes Condiciones y los detalles contenidos en esta página web no constituye una oferta de venta, sino una invitación para contratar. No existirá ningún contrato entre usted y nosotros en relación con ningún producto o servicio hasta que haya sido satisfecho el precio correcto que en cada caso y para cada modalidad se indica, y haya sido expresamente aceptado por nosotros.",
+                                "Si su pedido no es aceptado y ya se hubiese realizado algún cargo en su cuenta, el importe del mismo le será reintegrado en su totalidad.",
+                                "Para realizar un pedido, deberá seguir el procedimiento de compra on-line siguiendo estrictamente las instrucciones que se le formulan."
+                            ]
+                        }
+                    ]
                 },
                 {
-                  "title": "4.- Uso de nuestra página web y contratación de productos de UPPLICATION",
-                  "children": [
-                    "Al realizar un contrato a través de esta página web, usted declara ser mayor de 18 años y tener capacidad legal para celebrar contratos.",
-                    "Al hacer uso de esta página web y al contratar los productos de UPPLICATION a través de la misma Vd. se compromete a:",
-                    "a) Hacer uso de esta página web únicamente para realizar consultas o pedidos legalmente válidos.",
-                    "b) No realizar ningún pedido falso o fraudulento. Si razonablemente se pudiera considerar que se ha hecho un pedido de esta índole estaremos autorizados a anularlo e informar, en su caso, a las autoridades pertinentes.",
-                    "c) Facilitarnos su nombre y apellidos o denominación social, el NIF o CIF, dirección de correo electrónico, dirección postal y teléfono de contacto de forma veraz y exacta. Asimismo, consiente que podremos hacer uso de dicha información para ponernos en contacto con usted si es necesario. En caso de que los datos que nos suministre no se ajustaran a la realidad, UPPLICATION podrá cancelar o no iniciar relaciones contractuales con Vd.",
-                    "d) A utilizar los productos con fines ajustados a la Ley y cumpliendo con los requisitos que, en su caso, la Ley exija, así como con lealtad y buena fe frente a terceros."
-                  ]
+                    "title": "MODIFICACIONES EN LA OFERTA DE PRODUCTOS",
+                    "children": [
+                        "Nos reservamos el derecho de retirar cualquier producto o servicio de esta página web en cualquier momento."
+                    ]
                 },
                 {
-                  "title": "5.- Celebración del contrato de adquisición de productos de UPPLICATION",
-                  "children": [
-                    "La información contenida en las presentes Condiciones y los detalles contenidos en esta página web no constituye una oferta de venta, sino una invitación para contratar. No existirá ningún contrato entre usted y nosotros en relación con ningún producto o servicio hasta que haya sido satisfecho el precio correcto que en cada caso y para cada modalidad se indica, y haya sido expresamente aceptado por nosotros.",
-                    "Si su pedido no es aceptado y ya se hubiese realizado algún cargo en su cuenta, el importe del mismo le será reintegrado en su totalidad.",
-                    "Para realizar un pedido, deberá seguir el procedimiento de compra on-line siguiendo estrictamente las instrucciones que se le formulan."
-                  ]
+                    "title": "PRECIO Y PAGO",
+                    "children": [
+                        "El precio de cada producto será el que se establezca en cada momento en nuestra página web, salvo en caso de error.",
+                        "Si descubriésemos un error en el precio de alguno de los productos que usted ha encargado, le informaremos lo antes posible y le daremos la opción de reconfirmar su pedido al precio correcto o bien anularlo. Si no logramos ponernos en contacto con usted, el pedido se considerará cancelado y se le reembolsarán íntegramente las cantidades que hubiesen sido abonadas. No estaremos obligados a suministrarle ningún producto a un precio incorrecto (incluso aunque le hayamos enviado alguna confirmación).",
+                        "El procedimiento para el pago es el que se describe en la página web y deberá seguir todos los pasos que se le indicarán. La transacción es segura, será verificada por el sistema CV2 y la responsabilidad de la misma es de UPPLICATION.",
+                        "Una vez completados todos los pasos no se admitirá el retroceso de ningún pago con la sola excepción de lo señalado en el párrafo anterior.",
+                        "En caso de que el producto o servicio contratado incluya importes a pagar por su parte de forma periódica, Vd. deberá atender los pagos a los vencimientos señalados.",
+                        "En caso de incumplimiento por su parte de cualquier obligación de pago, total o parcialmente, UPPLICATION podrá resolver el contrato de forma inmediata."
+                    ]
+                },
+                {
+                    "title": "SOBRE EL CONTENIDO DEL CONTRATO",
+                    "children": [
+                        "Las condiciones particulares del contrato estarán constituidas por la definición que se proporciona en la página web de UPPLICATION del Plan que contrate el Cliente."
+                    ]
+                },
+                {
+                    "title": "COMPROMISOS GENERALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION",
+                    "children": [
+                        "Dado que los productos que ofrece UPPLICATION incluyen que el Cliente podrá utilizarlos en sus relaciones, personales o comerciales, con terceros, en la utilización que pueda realizar de los productos contratados con UPPLICATION, el Cliente se compromete a respetar los siguientes principios:",
+                        "a) La salvaguarda del orden público, la investigación penal, la seguridad pública y la defensa nacional.",
+                        "b) La protección de la salud pública o de las personas físicas o jurídicas que tengan la condición de consumidores o usuarios incluso cuando actúen como inversores.",
+                        "c) El respeto a la dignidad de la persona y al principio de no discriminación por motivos de raza, sexo, religión, opinión, nacionalidad, discapacidad o cualquier otra circunstancia personal o social.",
+                        "d) La protección de la juventud y de la infancia.",
+                        "e) La salvaguarda de los derechos de propiedad intelectual.",
+                        "e) Se respetarán en todo caso las garantías, normas y procedimientos previstos en el ordenamiento jurídico para proteger los derechos a la intimidad personal y familiar, a la protección de los datos personales, a la libertad de expresión o a la libertad de información.",
+                        "Debido a que los productos que se pueden contratar prevén la creación y gestión por parte del Cliente de una web, el Cliente es consciente de que, además de cumplir con las anteriores condiciones, deberá cumplir con las prevenciones y requisitos establecidos en la Ley 34/2002 de 11 de julio de Servicios de la Sociedad de la Información.",
+                        "UPPLICATION no es responsable de las infracciones o incumplimientos en los que el Cliente pudiera incurrir en relación con lo contemplado en la presente cláusula."
+                    ]
+                },
+                {
+                    "title": "COMPROMISOS CONTRACTUALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION",
+                    "children": [
+                        "El uso que el Cliente haga de los productos contratados con UPPLICATION puede dar lugar a que el cliente acuerde compromisos de carácter civil, mercantil o administrativo frente a terceros y/o Administraciones públicas. El Cliente es consciente de que UPPLICATION no es parte de esos posibles compromisos ni puede verse afectada directa o indirectamente por los mismos. El Cliente adoptará, en su caso, las medidas necesarias para mantener a UPPLICATION al margen e indemne de cualquier responsabilidad derivada de aquéllos."
+                    ]
+                },
+                {
+                    "title": "EXONERACIÓN DE RESPONSABILIDAD",
+                    "children": [
+                        "Debido a la naturaleza abierta de esta página web y debido a que los productos que se ofrecen consisten en aplicaciones electrónicas que se distribuyen a través de las redes generales de comunicación, existe la posibilidad de que se produzcan errores en el almacenaje y transmisión de información digital, así como riesgos de ataques o alteraciones fraudulentas por parte de terceros. En consecuencia, no podemos garantizar la precisión y seguridad de la información transmitida u obtenida tanto por medio de esta página web como la que se suministre para dar cumplimiento a los Contratos que Vd. pueda celebrar.",
+                        "Con el alcance que permita la ley, excluimos todas las garantías, salvo aquéllas que no puedan ser legítimamente excluidas frente a los consumidores y usuarios.",
+                        "Lo dispuesto en la presente cláusula no afectará a sus derechos legales en caso de que Vd. actúe como consumidor y usuario.",
+                        "Por otra parte, se hace constar a los efectos de los artículos 15 y 16 de la Ley 34/2002 de Servicios de la Sociedad de la Información que en el desarrollo del Contrato UPPLICATION:",
+                        "a) No modificará la información que reciba.",
+                        "b) Permitirá el acceso a ella solamente al Cliente.",
+                        "c) Su sistema respeta las normas generalmente aceptadas y aplicadas para la actualización de la información.",
+                        "d) UPPLICATION no interfiere en la utilización lícita de tecnología generalmente aceptada y empleada por el sector para obtener datos sobre la utilización de la información.",
+                        "e) UPPLICATION retirará la información que haya almacenado, o hará imposible el acceso a ella, cuando tenga conocimiento efectivo de que ha sido retirada del lugar en que se encontraba, o bien que se ha imposibilitado el acceso a ella, o bien que una autoridad competente ha ordenado su retirada o impedido el acceso a ella.",
+                        "f) UPPLICATION no tendrá conocimiento efectivo de la información que reciba de Vd. hasta tal punto que le permita analizar o discernir sobre la licitud o ilicitud de actividad que Vd. desarrolle mediante el producto contratado, o que la misma pueda producir lesión en los derechos o bienes de un tercero. No obstante, si por cualquier medio comprobara o llegara a su conocimiento que en su actuación el Cliente ha podido incurrir en una actividad ilícita o lesiva de los derechos o bienes de un tercero, UPPLICATION actuará con diligencia retirando los datos o haciendo imposible el acceso a ellos y se reserva al derecho a resolver el Contrato sin tener que restituir ningún importe, y con reserva de acciones legales."
+                    ]
+                },
+                {
+                    "title": "PROPIEDAD INTELECTUAL E INDUSTRIAL",
+                    "children": [
+                        "Los productos y servicios ofrecidos por UPPLICATION contienen software original cuyo autor es UPPLICATION SOFTWARE TECHNOLIGIES, S.L., a los efectos del art. 96 del Real Decreto Legislativo 1/1996 que aprueba la Ley de Propiedad Intelectual. También gozan de dicha protección las versiones sucesivas y los programas derivados, así como la documentación técnica y los manuales e instrucciones de uso de los distintos productos.",
+                        "Usted podrá hacer uso de dicho material únicamente en la forma en que se lo autoricemos expresamente nosotros y en ningún caso está autorizado a considerarse licenciatario ni a divulgarlo ni a transmitirlo a terceros. Tampoco está autorizado a reproducirlo, ni total ni parcialmente, ni aún de forma transitoria, ni a introducir ninguna modificación distinta a las que estén previstas en el propio producto de forma ordinaria.",
+                        "También se le informa que todos los signos distintivos, iconos y logotipos que Vd. puede ver en la página web, o que se le suministren si Vd. suscribe un contrato, están protegidos por la legislación española sobre patentes y marcas y Vd. no tiene autorización para hacer uso de ellos bajo ningún concepto."
+                    ]
+                },
+                {
+                    "title": "LINKS DESDE NUESTRA PÁGINA WEB",
+                    "children": [
+                        "En el caso de que nuestra página web contenga links o enlaces a otras páginas web y materiales de terceros, dichos links se facilitan únicamente a efectos informativos, sin que nosotros tengamos control alguno sobre el contenido de dichas páginas web o materiales. Por lo tanto, no aceptamos responsabilidad alguna por cualquier daño, perjuicio o pérdida derivados de su uso."
+                    ]
+                },
+                {
+                    "title": "COMUNICACIONES POR ESCRITO",
+                    "children": [
+                        "A efectos contractuales, Vd. consiente en usar el correo electrónico que facilita en el proceso de contratación como medio de comunicación a efectos contractuales y reconoce que tanto el contrato como la notificación, información y demás comunicaciones que le enviemos de forma electrónica cumplen con los requisitos legales de ser por escrito. Esta condición no afectará a sus derechos irrenunciables reconocidos por ley.",
+                        "Para probar que la notificación ha sido hecha, será suficiente con probar que el correo electrónico fue enviado a la dirección de correo especificada por Vd. en el proceso de contratación aunque no conste la recepción.",
+                        "De forma recíproca, las notificaciones que usted nos envíe deberán remitirse siempre al correo administracion@upplication.com y, del mismo modo, cumplirán con todos los requisitos para ser válidas y suficientes a efectos contractuales."
+                    ]
+                },
+                {
+                    "title": "CESIÓN DE DERECHOS Y OBLIGACIONES",
+                    "children": [
+                        "El Contrato es vinculante tanto para usted como para nosotros.",
+                        "Usted no podrá transmitir, ceder, gravar o de cualquier otro modo transferir el Contrato o alguno de los derechos u obligaciones derivados del mismo a ningún tercero sin haber obtenido nuestro consentimiento previo por escrito.",
+                        "UPPLICATION podrá transmitir, ceder, gravar, subcontratar o de cualquier otro modo transferir un Contrato o alguno de los derechos u obligaciones derivados del mismo a cualquier tercero y en cualquier momento durante la vigencia del Contrato. Para evitar cualquier duda, dichas transmisiones, cesiones, gravámenes u otras transferencias no afectarán los derechos que, en su caso, usted tiene en virtud del contrato o como consumidor / usuario reconocidos por ley."
+                    ]
+                },
+                {
+                    "title": "VIRUS, PIRATERÍA Y OTROS ATAQUES INFORMÁTICOS",
+                    "children": [
+                        "Aunque contamos con importantes medidas de seguridad, debemos advertirle de que no seremos responsables de cualquier daño o pérdida resultante de un ataque de denegación de servicio, virus o cualquier otro programa o material tecnológicamente perjudicial o dañino que pueda afectar a su ordenador, equipo informático, datos o materiales como consecuencia del uso de esta página web, del uso de los productos que Vd. adquiera o de la descarga de contenidos de la misma o a los que la misma redireccione.",
+                        "Usted no debe realizar un uso indebido de esta página web mediante la introducción intencionada en la misma de virus, troyanos, gusanos, bombas lógicas o cualquier otro programa o material tecnológicamente perjudicial, dañino o que altere el contenido, bien modificándolo, bien redireccionándolo. Usted no tratará de tener acceso no autorizado a esta página web, al servidor en que dicha página se encuentra alojada o a cualquier servidor, ordenador o base de datos relacionada con nuestra página web o con las empresas que subcontratemos. Vd. se compromete a no atacar esta página web a través de un ataque de denegación de servicio o de un ataque de denegación de servicio distribuido.",
+                        "El incumplimiento de esta cláusula podría llevar aparejada la comisión de infracciones tipificadas por la normativa aplicable. Informaremos de cualquier incumplimiento de dicha normativa a las autoridades competentes y cooperaremos con ellas para descubrir la identidad del atacante. Asimismo, en caso de incumpla o intente incumplir la presente cláusula, dejará inmediatamente de estar autorizado a usar esta página web. Asimismo, en estos casos será responsable de todos los daños y perjuicios de naturaleza económica o de cualquier otra naturaleza que pudiera causar."
+                    ]
+                },
+                {
+                    "title": "OTROS ACONTECIMIENTOS FUERA DE NUESTRO CONTROL",
+                    "children": [
+                        "No seremos responsables por ningún incumplimiento o retraso en el cumplimiento de alguna de las obligaciones que asumamos al amparo de un Contrato, cuya causa se deba a acontecimientos que están fuera de nuestro control razonable (\"Causa de Fuerza Mayor\").",
+                        "Las Causas de Fuerza Mayor incluirán cualquier acto, acontecimiento, falta de ejercicio, omisión o accidente que, entre otros y sin carácter limitativo, se enumeran a continuación:",
+                        "a) Huelgas, cierres patronales u otras medidas reivindicativas.",
+                        "b) Rebelión, invasión, ataque terrorista o amenaza terrorista, guerra (declarada o no) o amenaza o preparativos de guerra.",
+                        "c) Incendio, explosión, tormenta, inundación, terremoto, hundimiento, epidemia o cualquier otro desastre natural o causado por el hombre, con culpa o accidentalmente.",
+                        "d) Imposibilidad o dificultad grave de utilizar sistemas públicos o privados de telecomunicaciones y de almacenamiento y tratamiento de datos.",
+                        "e) Actos, decretos, legislación, normativa o restricciones de cualquier gobierno o autoridad pública.",
+                        "Se entenderá que nuestras obligaciones derivadas de los Contratos quedarán suspendidas durante el período en que la Causa de Fuerza Mayor continúe, y dispondremos de una ampliación en el plazo para cumplir dichas obligaciones por un periodo de tiempo igual al que dure la Causa de Fuerza Mayor. Pondremos todos los medios razonables para que finalice la Causa de Fuerza Mayor o para encontrar una solución que nos permita cumplir nuestras obligaciones en virtud del Contrato a pesar de la Causa de Fuerza Mayor."
+                    ]
+                },
+                {
+                    "title": "DURACIÓN, RESOLUCIÓN Y EXTINCIÓN DEL CONTRATO",
+                    "children": [
+                        "El Cliente podrá contratar los productos con las duraciones temporales y condiciones particulares aplicables a cada uno de los planes que se ofrecen.",
+                        "Durante el tiempo en que esté en vigor el Plan que haya contratado, UPPLICATION estará obligada a dar soporte a los servicios que incluye el producto durante el periodo que en cada caso se indica según la modalidad escogida.",
+                        "El periodo contractual abarcará desde la fecha de formalización electrónica del Contrato hasta su cancelación a instancias del Cliente o de UPPLICATION.",
+                        "El Cliente podrá desistir del Contrato en cualquier momento pero su efectividad se producirá en el último día de la mensualidad en curso, cuyo pago, por lo tanto, deberá efectuarse. UPPLICATION no tendrá que devolver ninguna cantidad recibida a cuenta.",
+                        "La comunicación de aviso de cancelación o no renovación por parte del cliente deberá realizarse a la siguiente dirección de correo electrónico: administracion@upplication.com.",
+                        "En caso de falta de pago de cualquiera de las obligaciones de pago, así como en caso de incumplimiento por parte del Cliente de cualquiera de sus obligaciones derivadas de las presentes Condiciones o de las condiciones particulares del Plan contratado, UPPLICATION estará facultada, pero no obligada, para resolver el contrato y cancelar inmediata y definitivamente el uso del producto o servicio, a todos los efectos. También tendrá derecho a reclamar todos aquellos vencimientos anteriores a la resolución del contrato que estuvieren pendientes de pago.",
+                        "En caso de que UPPLICATION cancelara el contrato, por cualquier causa, incluso por Fuerza Mayor, lo comunicará en la dirección electrónica proporcionada por el Cliente.",
+                        "Efectos de la extinción del Contrato:",
+                        "a) Cuando se extinga el contrato por cualquier causa, incluyendo el vencimiento, el incumplimiento del Cliente, Fuerza Mayor o cualquier otro motivo, UPPLICATION interrumpirá la conexión del Cliente con su sistema.",
+                        "b) Todos los datos e informaciones, tanto del Cliente como de sus contactos (clientes propios o particulares), que hayan quedado almacenados en los sistemas de UPPLICATION o de las empresas con las que haya subcontratado a consecuencia de los servicios prestados, serán destruidos salvo en los casos previstos por la Ley.",
+                        "c) Ninguna de las partes tendrá acción de reclamación frente a la otra como consecuencia de la resolución del contrato, excepto las acciones de reclamación de UPPLICATION frente al cliente por motivo de falta de pago y/o incumplimiento de sus obligaciones, que permanecerán vigentes."
+                    ]
+                },
+                {
+                    "title": "RENUNCIA",
+                    "children": [
+                        "La falta de requerimiento por nuestra parte del cumplimiento estricto por su parte de alguna de las obligaciones asumidas por Vd. en virtud de un Contrato o de las presentes Condiciones, o la falta de ejercicio por nuestra parte de los derechos o acciones que nos pudiesen corresponder en virtud de dicho Contrato o de las Condiciones, no supondrá renuncia ni limitación alguna en relación con dichos derechos o acciones ni le exonerará a Vd. de cumplir con tales obligaciones.",
+                        "En caso de que expresamente renunciemos por nuestra parte a un derecho o acción concreto, ello no supondrá una renuncia a otros derechos o acciones derivados del contrato o de las presentes Condiciones.",
+                        "Ninguna renuncia por nuestra parte a alguna de las presentes Condiciones o a los derechos o acciones derivados del contrato surtirá efecto, a no ser que se establezca expresamente que es una renuncia y se le comunique a usted por escrito."
+                    ]
+                },
+                {
+                    "title": "NULIDAD PARCIAL",
+                    "children": [
+                        "Si alguna de las presentes Condiciones o alguna disposición de un Contrato fuesen declaradas nulas y / o sin efecto por resolución firme o de carácter cautelar por parte de una autoridad competente, los restantes términos y condiciones permanecerán en vigor, sin que queden afectados por dicha declaración de nulidad."
+                    ]
+                },
+                {
+                    "title": "ACUERDO COMPLETO",
+                    "children": [
+                        "Las presentes Condiciones, conjuntamente con las derivadas del Contrato en los términos que se le exponen a lo largo del procedimiento de contratación, constituyen el acuerdo íntegro existente entre usted y nosotros en relación con el Contrato y sustituyen a cualquier otro pacto, acuerdo o promesa anterior convenida entre usted y nosotros verbalmente o por escrito.",
+                        "Vd. y nosotros reconocemos haber consentido la celebración del Contrato sin haber confiado en ninguna declaración o promesa hecha por la otra parte o que pudiera inferirse de cualquier declaración o escrito en las negociaciones entabladas por los dos antes de dicho Contrato, salvo aquello que figura expresamente mencionado en las presentes Condiciones y en las condiciones particulares del Plan o Planes contratados."
+                    ]
+                },
+                {
+                    "title": "NUESTRO DERECHO A MODIFICAR ESTAS CONDICIONES",
+                    "children": [
+                        "Tenemos derecho a revisar y modificar las presentes Condiciones en cualquier momento.",
+                        "En cualquier caso, las Condiciones del Contrato que Vd. suscriba serán las que estén vigentes en el momento de su suscripción, salvo que por ley o decisión de autoridades públicas debamos hacer cambios con carácter retroactivo. En este caso los posibles cambios afectarán también a los pedidos que usted hubiera hecho previamente."
+                    ]
+                },
+                {
+                    "title": "LEGISLACIÓN APLICABLE Y JURISDICCIÓN",
+                    "children": [
+                        "El uso de nuestra página web y los contratos de adquisición de productos a través de la misma se regirán por la legislación española.",
+                        "Cualquier controversia que surja o guarde relación con el uso de la página web o con dichos contratos será sometida a la jurisdicción de los juzgados y tribunales de Madrid capital, España."
+                    ]
                 }
-              ]
-            },
-            {
-              "title": "MODIFICACIONES EN LA OFERTA DE PRODUCTOS",
-              "children": [
-                "Nos reservamos el derecho de retirar cualquier producto o servicio de esta página web en cualquier momento."
-              ]
-            },
-            {
-              "title": "PRECIO Y PAGO",
-              "children": [
-                "El precio de cada producto será el que se establezca en cada momento en nuestra página web, salvo en caso de error.",
-                "Si descubriésemos un error en el precio de alguno de los productos que usted ha encargado, le informaremos lo antes posible y le daremos la opción de reconfirmar su pedido al precio correcto o bien anularlo. Si no logramos ponernos en contacto con usted, el pedido se considerará cancelado y se le reembolsarán íntegramente las cantidades que hubiesen sido abonadas. No estaremos obligados a suministrarle ningún producto a un precio incorrecto (incluso aunque le hayamos enviado alguna confirmación).",
-                "El procedimiento para el pago es el que se describe en la página web y deberá seguir todos los pasos que se le indicarán. La transacción es segura, será verificada por el sistema CV2 y la responsabilidad de la misma es de UPPLICATION.",
-                "Una vez completados todos los pasos no se admitirá el retroceso de ningún pago con la sola excepción de lo señalado en el párrafo anterior.",
-                "En caso de que el producto o servicio contratado incluya importes a pagar por su parte de forma periódica, Vd. deberá atender los pagos a los vencimientos señalados.",
-                "En caso de incumplimiento por su parte de cualquier obligación de pago, total o parcialmente, UPPLICATION podrá resolver el contrato de forma inmediata."
-              ]
-            },
-            {
-              "title": "SOBRE EL CONTENIDO DEL CONTRATO",
-              "children": [
-                "Las condiciones particulares del contrato estarán constituidas por la definición que se proporciona en la página web de UPPLICATION del Plan que contrate el Cliente."
-              ]
-            },
-            {
-              "title": "COMPROMISOS GENERALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION",
-              "children": [
-                "Dado que los productos que ofrece UPPLICATION incluyen que el Cliente podrá utilizarlos en sus relaciones, personales o comerciales, con terceros, en la utilización que pueda realizar de los productos contratados con UPPLICATION, el Cliente se compromete a respetar los siguientes principios:",
-                "a) La salvaguarda del orden público, la investigación penal, la seguridad pública y la defensa nacional.",
-                "b) La protección de la salud pública o de las personas físicas o jurídicas que tengan la condición de consumidores o usuarios incluso cuando actúen como inversores.",
-                "c) El respeto a la dignidad de la persona y al principio de no discriminación por motivos de raza, sexo, religión, opinión, nacionalidad, discapacidad o cualquier otra circunstancia personal o social.",
-                "d) La protección de la juventud y de la infancia.",
-                "e) La salvaguarda de los derechos de propiedad intelectual.",
-                "e) Se respetarán en todo caso las garantías, normas y procedimientos previstos en el ordenamiento jurídico para proteger los derechos a la intimidad personal y familiar, a la protección de los datos personales, a la libertad de expresión o a la libertad de información.",
-                "Debido a que los productos que se pueden contratar prevén la creación y gestión por parte del Cliente de una web, el Cliente es consciente de que, además de cumplir con las anteriores condiciones, deberá cumplir con las prevenciones y requisitos establecidos en la Ley 34/2002 de 11 de julio de Servicios de la Sociedad de la Información.",
-                "UPPLICATION no es responsable de las infracciones o incumplimientos en los que el Cliente pudiera incurrir en relación con lo contemplado en la presente cláusula."
-              ]
-            },
-            {
-              "title": "COMPROMISOS CONTRACTUALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION",
-              "children": [
-                "El uso que el Cliente haga de los productos contratados con UPPLICATION puede dar lugar a que el cliente acuerde compromisos de carácter civil, mercantil o administrativo frente a terceros y/o Administraciones públicas. El Cliente es consciente de que UPPLICATION no es parte de esos posibles compromisos ni puede verse afectada directa o indirectamente por los mismos. El Cliente adoptará, en su caso, las medidas necesarias para mantener a UPPLICATION al margen e indemne de cualquier responsabilidad derivada de aquéllos."
-              ]
-            },
-            {
-              "title": "EXONERACIÓN DE RESPONSABILIDAD",
-              "children": [
-                "Debido a la naturaleza abierta de esta página web y debido a que los productos que se ofrecen consisten en aplicaciones electrónicas que se distribuyen a través de las redes generales de comunicación, existe la posibilidad de que se produzcan errores en el almacenaje y transmisión de información digital, así como riesgos de ataques o alteraciones fraudulentas por parte de terceros. En consecuencia, no podemos garantizar la precisión y seguridad de la información transmitida u obtenida tanto por medio de esta página web como la que se suministre para dar cumplimiento a los Contratos que Vd. pueda celebrar.",
-                "Con el alcance que permita la ley, excluimos todas las garantías, salvo aquéllas que no puedan ser legítimamente excluidas frente a los consumidores y usuarios.",
-                "Lo dispuesto en la presente cláusula no afectará a sus derechos legales en caso de que Vd. actúe como consumidor y usuario.",
-                "Por otra parte, se hace constar a los efectos de los artículos 15 y 16 de la Ley 34/2002 de Servicios de la Sociedad de la Información que en el desarrollo del Contrato UPPLICATION:",
-                "a) No modificará la información que reciba.",
-                "b) Permitirá el acceso a ella solamente al Cliente.",
-                "c) Su sistema respeta las normas generalmente aceptadas y aplicadas para la actualización de la información.",
-                "d) UPPLICATION no interfiere en la utilización lícita de tecnología generalmente aceptada y empleada por el sector para obtener datos sobre la utilización de la información.",
-                "e) UPPLICATION retirará la información que haya almacenado, o hará imposible el acceso a ella, cuando tenga conocimiento efectivo de que ha sido retirada del lugar en que se encontraba, o bien que se ha imposibilitado el acceso a ella, o bien que una autoridad competente ha ordenado su retirada o impedido el acceso a ella.",
-                "f) UPPLICATION no tendrá conocimiento efectivo de la información que reciba de Vd. hasta tal punto que le permita analizar o discernir sobre la licitud o ilicitud de actividad que Vd. desarrolle mediante el producto contratado, o que la misma pueda producir lesión en los derechos o bienes de un tercero. No obstante, si por cualquier medio comprobara o llegara a su conocimiento que en su actuación el Cliente ha podido incurrir en una actividad ilícita o lesiva de los derechos o bienes de un tercero, UPPLICATION actuará con diligencia retirando los datos o haciendo imposible el acceso a ellos y se reserva al derecho a resolver el Contrato sin tener que restituir ningún importe, y con reserva de acciones legales."
-              ]
-            },
-            {
-              "title": "PROPIEDAD INTELECTUAL E INDUSTRIAL",
-              "children": [
-                "Los productos y servicios ofrecidos por UPPLICATION contienen software original cuyo autor es UPPLICATION SOFTWARE TECHNOLIGIES, S.L., a los efectos del art. 96 del Real Decreto Legislativo 1/1996 que aprueba la Ley de Propiedad Intelectual. También gozan de dicha protección las versiones sucesivas y los programas derivados, así como la documentación técnica y los manuales e instrucciones de uso de los distintos productos.",
-                "Usted podrá hacer uso de dicho material únicamente en la forma en que se lo autoricemos expresamente nosotros y en ningún caso está autorizado a considerarse licenciatario ni a divulgarlo ni a transmitirlo a terceros. Tampoco está autorizado a reproducirlo, ni total ni parcialmente, ni aún de forma transitoria, ni a introducir ninguna modificación distinta a las que estén previstas en el propio producto de forma ordinaria.",
-                "También se le informa que todos los signos distintivos, iconos y logotipos que Vd. puede ver en la página web, o que se le suministren si Vd. suscribe un contrato, están protegidos por la legislación española sobre patentes y marcas y Vd. no tiene autorización para hacer uso de ellos bajo ningún concepto."
-              ]
-            },
-            {
-              "title": "LINKS DESDE NUESTRA PÁGINA WEB",
-              "children": [
-                "En el caso de que nuestra página web contenga links o enlaces a otras páginas web y materiales de terceros, dichos links se facilitan únicamente a efectos informativos, sin que nosotros tengamos control alguno sobre el contenido de dichas páginas web o materiales. Por lo tanto, no aceptamos responsabilidad alguna por cualquier daño, perjuicio o pérdida derivados de su uso."
-              ]
-            },
-            {
-              "title": "COMUNICACIONES POR ESCRITO",
-              "children": [
-                "A efectos contractuales, Vd. consiente en usar el correo electrónico que facilita en el proceso de contratación como medio de comunicación a efectos contractuales y reconoce que tanto el contrato como la notificación, información y demás comunicaciones que le enviemos de forma electrónica cumplen con los requisitos legales de ser por escrito. Esta condición no afectará a sus derechos irrenunciables reconocidos por ley.",
-                "Para probar que la notificación ha sido hecha, será suficiente con probar que el correo electrónico fue enviado a la dirección de correo especificada por Vd. en el proceso de contratación aunque no conste la recepción.",
-                "De forma recíproca, las notificaciones que usted nos envíe deberán remitirse siempre al correo administracion@upplication.com y, del mismo modo, cumplirán con todos los requisitos para ser válidas y suficientes a efectos contractuales."
-              ]
-            },
-            {
-              "title": "CESIÓN DE DERECHOS Y OBLIGACIONES",
-              "children": [
-                "El Contrato es vinculante tanto para usted como para nosotros.",
-                "Usted no podrá transmitir, ceder, gravar o de cualquier otro modo transferir el Contrato o alguno de los derechos u obligaciones derivados del mismo a ningún tercero sin haber obtenido nuestro consentimiento previo por escrito.",
-                "UPPLICATION podrá transmitir, ceder, gravar, subcontratar o de cualquier otro modo transferir un Contrato o alguno de los derechos u obligaciones derivados del mismo a cualquier tercero y en cualquier momento durante la vigencia del Contrato. Para evitar cualquier duda, dichas transmisiones, cesiones, gravámenes u otras transferencias no afectarán los derechos que, en su caso, usted tiene en virtud del contrato o como consumidor / usuario reconocidos por ley."
-              ]
-            },
-            {
-              "title": "VIRUS, PIRATERÍA Y OTROS ATAQUES INFORMÁTICOS",
-              "children": [
-                "Aunque contamos con importantes medidas de seguridad, debemos advertirle de que no seremos responsables de cualquier daño o pérdida resultante de un ataque de denegación de servicio, virus o cualquier otro programa o material tecnológicamente perjudicial o dañino que pueda afectar a su ordenador, equipo informático, datos o materiales como consecuencia del uso de esta página web, del uso de los productos que Vd. adquiera o de la descarga de contenidos de la misma o a los que la misma redireccione.",
-                "Usted no debe realizar un uso indebido de esta página web mediante la introducción intencionada en la misma de virus, troyanos, gusanos, bombas lógicas o cualquier otro programa o material tecnológicamente perjudicial, dañino o que altere el contenido, bien modificándolo, bien redireccionándolo. Usted no tratará de tener acceso no autorizado a esta página web, al servidor en que dicha página se encuentra alojada o a cualquier servidor, ordenador o base de datos relacionada con nuestra página web o con las empresas que subcontratemos. Vd. se compromete a no atacar esta página web a través de un ataque de denegación de servicio o de un ataque de denegación de servicio distribuido.",
-                "El incumplimiento de esta cláusula podría llevar aparejada la comisión de infracciones tipificadas por la normativa aplicable. Informaremos de cualquier incumplimiento de dicha normativa a las autoridades competentes y cooperaremos con ellas para descubrir la identidad del atacante. Asimismo, en caso de incumpla o intente incumplir la presente cláusula, dejará inmediatamente de estar autorizado a usar esta página web. Asimismo, en estos casos será responsable de todos los daños y perjuicios de naturaleza económica o de cualquier otra naturaleza que pudiera causar."
-              ]
-            },
-            {
-              "title": "OTROS ACONTECIMIENTOS FUERA DE NUESTRO CONTROL",
-              "children": [
-                "No seremos responsables por ningún incumplimiento o retraso en el cumplimiento de alguna de las obligaciones que asumamos al amparo de un Contrato, cuya causa se deba a acontecimientos que están fuera de nuestro control razonable (\"Causa de Fuerza Mayor\").",
-                "Las Causas de Fuerza Mayor incluirán cualquier acto, acontecimiento, falta de ejercicio, omisión o accidente que, entre otros y sin carácter limitativo, se enumeran a continuación:",
-                "a) Huelgas, cierres patronales u otras medidas reivindicativas.",
-                "b) Rebelión, invasión, ataque terrorista o amenaza terrorista, guerra (declarada o no) o amenaza o preparativos de guerra.",
-                "c) Incendio, explosión, tormenta, inundación, terremoto, hundimiento, epidemia o cualquier otro desastre natural o causado por el hombre, con culpa o accidentalmente.",
-                "d) Imposibilidad o dificultad grave de utilizar sistemas públicos o privados de telecomunicaciones y de almacenamiento y tratamiento de datos.",
-                "e) Actos, decretos, legislación, normativa o restricciones de cualquier gobierno o autoridad pública.",
-                "Se entenderá que nuestras obligaciones derivadas de los Contratos quedarán suspendidas durante el período en que la Causa de Fuerza Mayor continúe, y dispondremos de una ampliación en el plazo para cumplir dichas obligaciones por un periodo de tiempo igual al que dure la Causa de Fuerza Mayor. Pondremos todos los medios razonables para que finalice la Causa de Fuerza Mayor o para encontrar una solución que nos permita cumplir nuestras obligaciones en virtud del Contrato a pesar de la Causa de Fuerza Mayor."
-              ]
-            },
-            {
-              "title": "DURACIÓN, RESOLUCIÓN Y EXTINCIÓN DEL CONTRATO",
-              "children": [
-                "El Cliente podrá contratar los productos con las duraciones temporales y condiciones particulares aplicables a cada uno de los planes que se ofrecen.",
-                "Durante el tiempo en que esté en vigor el Plan que haya contratado, UPPLICATION estará obligada a dar soporte a los servicios que incluye el producto durante el periodo que en cada caso se indica según la modalidad escogida.",
-                "El periodo contractual abarcará desde la fecha de formalización electrónica del Contrato hasta su cancelación a instancias del Cliente o de UPPLICATION.",
-                "El Cliente podrá desistir del Contrato en cualquier momento pero su efectividad se producirá en el último día de la mensualidad en curso, cuyo pago, por lo tanto, deberá efectuarse. UPPLICATION no tendrá que devolver ninguna cantidad recibida a cuenta.",
-                "La comunicación de aviso de cancelación o no renovación por parte del cliente deberá realizarse a la siguiente dirección de correo electrónico: administracion@upplication.com.",
-                "En caso de falta de pago de cualquiera de las obligaciones de pago, así como en caso de incumplimiento por parte del Cliente de cualquiera de sus obligaciones derivadas de las presentes Condiciones o de las condiciones particulares del Plan contratado, UPPLICATION estará facultada, pero no obligada, para resolver el contrato y cancelar inmediata y definitivamente el uso del producto o servicio, a todos los efectos. También tendrá derecho a reclamar todos aquellos vencimientos anteriores a la resolución del contrato que estuvieren pendientes de pago.",
-                "En caso de que UPPLICATION cancelara el contrato, por cualquier causa, incluso por Fuerza Mayor, lo comunicará en la dirección electrónica proporcionada por el Cliente.",
-                "Efectos de la extinción del Contrato:",
-                "a) Cuando se extinga el contrato por cualquier causa, incluyendo el vencimiento, el incumplimiento del Cliente, Fuerza Mayor o cualquier otro motivo, UPPLICATION interrumpirá la conexión del Cliente con su sistema.",
-                "b) Todos los datos e informaciones, tanto del Cliente como de sus contactos (clientes propios o particulares), que hayan quedado almacenados en los sistemas de UPPLICATION o de las empresas con las que haya subcontratado a consecuencia de los servicios prestados, serán destruidos salvo en los casos previstos por la Ley.",
-                "c) Ninguna de las partes tendrá acción de reclamación frente a la otra como consecuencia de la resolución del contrato, excepto las acciones de reclamación de UPPLICATION frente al cliente por motivo de falta de pago y/o incumplimiento de sus obligaciones, que permanecerán vigentes."
-              ]
-            },
-            {
-              "title": "RENUNCIA",
-              "children": [
-                "La falta de requerimiento por nuestra parte del cumplimiento estricto por su parte de alguna de las obligaciones asumidas por Vd. en virtud de un Contrato o de las presentes Condiciones, o la falta de ejercicio por nuestra parte de los derechos o acciones que nos pudiesen corresponder en virtud de dicho Contrato o de las Condiciones, no supondrá renuncia ni limitación alguna en relación con dichos derechos o acciones ni le exonerará a Vd. de cumplir con tales obligaciones.",
-                "En caso de que expresamente renunciemos por nuestra parte a un derecho o acción concreto, ello no supondrá una renuncia a otros derechos o acciones derivados del contrato o de las presentes Condiciones.",
-                "Ninguna renuncia por nuestra parte a alguna de las presentes Condiciones o a los derechos o acciones derivados del contrato surtirá efecto, a no ser que se establezca expresamente que es una renuncia y se le comunique a usted por escrito."
-              ]
-            },
-            {
-              "title": "NULIDAD PARCIAL",
-              "children": [
-                "Si alguna de las presentes Condiciones o alguna disposición de un Contrato fuesen declaradas nulas y / o sin efecto por resolución firme o de carácter cautelar por parte de una autoridad competente, los restantes términos y condiciones permanecerán en vigor, sin que queden afectados por dicha declaración de nulidad."
-              ]
-            },
-            {
-              "title": "ACUERDO COMPLETO",
-              "children": [
-                "Las presentes Condiciones, conjuntamente con las derivadas del Contrato en los términos que se le exponen a lo largo del procedimiento de contratación, constituyen el acuerdo íntegro existente entre usted y nosotros en relación con el Contrato y sustituyen a cualquier otro pacto, acuerdo o promesa anterior convenida entre usted y nosotros verbalmente o por escrito.",
-                "Vd. y nosotros reconocemos haber consentido la celebración del Contrato sin haber confiado en ninguna declaración o promesa hecha por la otra parte o que pudiera inferirse de cualquier declaración o escrito en las negociaciones entabladas por los dos antes de dicho Contrato, salvo aquello que figura expresamente mencionado en las presentes Condiciones y en las condiciones particulares del Plan o Planes contratados."
-              ]
-            },
-            {
-              "title": "NUESTRO DERECHO A MODIFICAR ESTAS CONDICIONES",
-              "children": [
-                "Tenemos derecho a revisar y modificar las presentes Condiciones en cualquier momento.",
-                "En cualquier caso, las Condiciones del Contrato que Vd. suscriba serán las que estén vigentes en el momento de su suscripción, salvo que por ley o decisión de autoridades públicas debamos hacer cambios con carácter retroactivo. En este caso los posibles cambios afectarán también a los pedidos que usted hubiera hecho previamente."
-              ]
-            },
-            {
-              "title": "LEGISLACIÓN APLICABLE Y JURISDICCIÓN",
-              "children": [
-                "El uso de nuestra página web y los contratos de adquisición de productos a través de la misma se regirán por la legislación española.",
-                "Cualquier controversia que surja o guarde relación con el uso de la página web o con dichos contratos será sometida a la jurisdicción de los juzgados y tribunales de Madrid capital, España."
-              ]
-            }
-          ]
+            ]
         }
     }
 }

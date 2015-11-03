@@ -82,7 +82,8 @@ var checkLanguage = function (current_lang, routing, view) {
             //Redirect to lang cookie version
             location = routing[view][langCookie];
             log("Location in cookie -> " + location);
-            log("Routing -> " + routing);
+            log("Routing -> ");
+            log(routing);
 
             if (location) {
                 window.location = location;

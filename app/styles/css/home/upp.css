@@ -233,15 +233,22 @@ select:-webkit-autofill {
   display: none !important;
 }
 
+.top-nav ul li {
+  max-width: 180px;
+}
+
 .top-nav ul li a {
   color: #111b0a;
   padding: 0.2em 1em;
-  font-size: .9em;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   position: relative;
   font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .top-nav ul li:last-child a {
@@ -583,6 +590,14 @@ a.chat:hover {
   list-style: none;
   text-align: center;
   border-bottom: 1px solid #E7E7E7;
+  font-size: 16px;
+}
+
+.pricing-table-grid ul li a {
+  max-width: 280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .pricing-table-grid ul li a,
@@ -1082,7 +1097,7 @@ a.price-btn:hover {
   margin-top: 0;
   color: #00c86b;
   font-family: "Lato";
-  font-size: 2em;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -1127,7 +1142,7 @@ a.price-btn:hover {
   background-color: #fff;
   color: #00c86b;
   font-weight: 600;
-  font-size: 2.5em;
+  font-size: 36px;
 }
 
 .appReady h4 span {
