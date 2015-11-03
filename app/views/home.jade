@@ -9,15 +9,15 @@ block vars
 doctype html
 
 //if lt IE 7
-  <html class="ie ie6 no-js" lang="es">
+  <html class="ie ie6 no-js" lang="#{lang}" data-lang="#{lang}">
 //if IE 7
-  <html class="ie ie7 no-js" lang="es">
+  <html class="ie ie7 no-js" lang="#{lang}" data-lang="#{lang}">
 //if IE 8
-  <html class="ie ie8 no-js" lang="es">
+  <html class="ie ie8 no-js" lang="#{lang}" data-lang="#{lang}">
 //if IE 9
-  <html class="ie ie9 no-js" lang="es">
+  <html class="ie ie9 no-js" lang="#{lang}" data-lang="#{lang}">
 // [if gt IE 9] <!
-html.no-js(lang='es')
+html.no-js(lang='#{lang}', data-lang="#{lang}")
     // <![endif]
     head
         include base/scripts
@@ -79,10 +79,13 @@ html.no-js(lang='es')
                         ul.top-nav.hide-ul
                             li
                                 each language in langs.codes
-                                    if lang != language.language_country
-                                        a.hide-tab.lang-link(href="#{routing[template][language.language_country]}", data-lang="#{language.language_country}")
+                                    if lang == language.language_country
+                                        a.hide-tab.lang-link(href="#", data-activates='dropdown-lang')
                                             i.fa.fa-globe
                                             | !{language.language_short_code}
+                                ul#dropdown-lang.dropdown-content
+                                    each lang in langs.codes
+                                        a.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li
                                 a.hide-tab(href='#about', title='') #{header.nav.how}
                             li
@@ -845,7 +848,7 @@ html.no-js(lang='es')
                 .container
                     span © Upplication 2015
                     i.fa.fa-circle
-                    em Designed and assembled in Madrid
+                    em #{footer.signature}
                     ul.rrss.right.hover-anim
                         li.facebook
                             a(href='#{external.facebook.url}', target='_blank', title='#{external.facebook.anchor}')
@@ -945,6 +948,15 @@ html.no-js(lang='es')
                 $('#cookies-accept').click(function () {
                     $("#habla_window_div").addClass("bottomFix");
                 });
+                $('.lang-link').dropdown({
+                      inDuration: 300,
+                      outDuration: 225,
+                      constrain_width: false,
+                      gutter: 0,
+                      belowOrigin: false,
+                      alignment: 'left'
+                    }
+                  );
             });
         // START MOBILE TOP NAVIGATION MENU
         script.
