@@ -234,12 +234,12 @@ select:-webkit-autofill {
 }
 
 .top-nav ul li {
-  max-width: 180px;
+  max-width: 210px;
 }
 
 .top-nav ul li a {
   color: #111b0a;
-  padding: 0.2em 1em;
+  padding: 0.2em 0.8em;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
