@@ -105,10 +105,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             .contact-info-left
                                 a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
                             .contact-info-right
-                                a
-                                    i.fa.fa-phone
-                                    |  810 512 370
-                                p #{header.free_call}
+                                a #{header.telephone}
+                                a.support(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}') #{helpcenter.customer_service.email.title}
                             .clearfix
                     .clearfix
         // MODAL
@@ -846,7 +844,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             .clearfix
             .footer-copyright
                 .container
-                    span © Upplication 2015
+                    span © #{footer.brand_copy}
                     i.fa.fa-circle
                     em #{footer.signature}
                     ul.rrss.right.hover-anim

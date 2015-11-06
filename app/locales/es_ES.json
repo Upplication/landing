@@ -7,7 +7,8 @@
             "how": "Como creo mi App"
         },
         "free_trial": "Prueba gratis",
-        "free_call": "¡Llámanos gratis!",
+        "telephone": "+34 810 512 370",
+        "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
         "enter": "Entrar"
     },
     "modal": {
@@ -34,6 +35,7 @@
         "company": "Compañía",
         "community": "Comunidad",
         "media": "Medios y redes",
+        "brand_copy": "Upplication 2015",
         "signature": "Diseñado y desarrollado en Madrid",
         "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/'>política de cookies</a>.",
         "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/condicioneslegalesmovistar-upplication/'>política de cookies.</a>",
@@ -353,8 +355,8 @@
             "phone": {
                 "link": "tel:810512370",
                 "title":"810 512 370",
-                "text": "telf: 810 512 370 (gratuito)",
-                "text_tel": "<span>810 512 370</span> (gratuito)",
+                "text": "telf: +34 810 512 370",
+                "text_tel": "<span>+34 810 512 370</span>",
                 "alt_tag": "Llamar a soporte técnico de Upplication"
             },
             "email": {

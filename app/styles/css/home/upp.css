@@ -439,15 +439,6 @@ nav a#pull {
   padding-left: 15px;
 }
 
-.contact-info p {
-  color: #111b0a;
-  font-weight: 600;
-  font-size: 12px;
-  margin-bottom: 0;
-  margin-top: 6px;
-  text-align: center;
-}
-
 .contact-info-left {
   float: left;
   width: 50%;
@@ -462,9 +453,20 @@ nav a#pull {
 }
 
 .contact-info-right a {
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Lato', sans-serif;
   cursor: pointer;
+  display: block;
+}
+
+.contact-info a.support {
+  color: #111b0a;
+  font-weight: 600;
+  font-size: 11px;
+  margin-bottom: 0;
+  margin-top: 3px;
+  text-align: center;
+  letter-spacing: 0.01em;
 }
 
 .contact-info-right a:hover {

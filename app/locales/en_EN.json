@@ -7,7 +7,8 @@
       "how": "HOW DO I CREATE MY APP"
     },
     "free_trial": "Free Trial",
-    "free_call": "Call us for free!",
+    "telephone": "+34 810 512 370",
+    "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
     "enter": "LOGIN"
   },
   "modal": {
@@ -33,6 +34,7 @@
     "company": "Compañía",
     "community": "Comunidad",
     "media": "Medios y redes",
+    "brand_copy": "Upplication 2015",
     "signature": "Designed and assembled in Madrid",
     "terms_of_use": "Terms of Use",
     "cookies_use": "Use of Cookies",
@@ -352,8 +354,8 @@
       "phone": {
         "link": "tel:810512370",
         "title": "810 512 370",
-        "text": "tel: 810 512 370 (free)",
-        "text_tel": "<span>810 512 370</span> (free)",
+        "text": "tel: +34 810 512 370",
+        "text_tel": "<span>+34 810 512 370</span>",
         "alt_tag": "Call to Upplication customer service"
       },
       "email": {

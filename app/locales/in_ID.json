@@ -7,7 +7,8 @@
             "how": "Bagaimana saya membuat aplikasi sendiri"
         },
         "free_trial": "Coba gratis",
-        "free_call": "Hubungi kami gratis!",
+        "telephone": "+34 810 512 370",
+        "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
         "enter": "login"
     },
     "modal": {
@@ -33,6 +34,7 @@
         "company": "Perusahaan",
         "community": "Komunitas",
         "media": "Media",
+        "brand_copy": "Upplication 2015",
         "signature": "Dirancang dan dibangun di Madrid",
         "terms_of_use": "Aturan penggunaan",
         "cookies_use": "Penggunaan Cookies",
@@ -346,8 +348,8 @@
             "phone": {
                 "link": "tel:810512370",
                 "title": "810 512 370",
-                "text": "tel: 810 512 370 (gratis)",
-                "text_tel": "<span>810 512 370</span> (gratis)",
+                "text": "tel: +34 810 512 370",
+                "text_tel": "<span>+34 810 512 370</span>",
                 "alt_tag": "Call to Upplication customer service"
             },
             "email": {
