@@ -64,7 +64,7 @@
       "bg": "Upplication image",
       "text": [
         "stores",
-        "hospitality",
+        "restaurants",
         "services",
         "entrepreneurs",
         "you"
@@ -77,7 +77,7 @@
     },
     "samples": {
       "business": "Apps for all types of business",
-      "restaurants": "Hostelry",
+      "restaurants": "Restaurants",
       "shops": "Shops",
       "serv": "Professional <em>Services</em>",
       "personal": "Custom",

@@ -1,6 +1,6 @@
 {
   "name": "Landing-Upplication",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -24,7 +24,7 @@
     "grunt-rev": "~0.1.0",
     "grunt-open": "~0.2.0",
     "grunt-concurrent": "~0.3.0",
-    "load-grunt-tasks": "~0.1.0"2
+    "load-grunt-tasks": "~0.1.0",
     "connect-livereload": "~0.2.0",
     "time-grunt": "~0.1.0",
     "grunt-contrib-jade": "~0.8.0",
