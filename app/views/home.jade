@@ -24,7 +24,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         title Upplication : Build your App
         meta(name='description', content='Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS')
         meta(name='keywords', content='crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil')
-        meta(name='author', content='Upplication')
+        meta(name='author', content='Upplication Software Technologies, S.L.')
         // Favicon
         link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
         link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
@@ -94,7 +94,11 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a.hide-tab(href='#pricing', title='') #{header.nav.prices}
                             li
                                 a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
-                            li
+                            li.only-show-small-devises.phone-kerning
+                                a #{header.telephone}
+                            li.only-show-small-devises
+                                a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
+                            li.enter-bold
                                 a.hide-tab(href="#{$.external.dashboard.url}")
                                     i.fa.fa-lock
                                     | #{header.enter}
@@ -109,7 +113,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a.support(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}') #{helpcenter.customer_service.email.title}
                             .clearfix
                     .clearfix
-        // MODAL
+        // MODAL PRUEBA GRATIS
         #pruebaGratis.modal
             a.modal-action.modal-close.waves-effect.waves-green.btn-flat
                 i.fa.fa-close
@@ -136,7 +140,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 p.error.display-none.register-password-error
                         .input-field.col.s12
                             button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                                i.material-icons.left play_circle_outline
+                                i.material-icons.left.check #{icons.check}
                                 span #{header.free_trial}
             .modal-terms
                 ul.hover-anim
@@ -145,7 +149,41 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     li
                         | #{modal.footer.accept}
                         a(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
-                        | .
+                        | .de
+        // MODAL CONTACT
+                #allContact.modal
+                    a.modal-action.modal-close.waves-effect.waves-green.btn-flat
+                        i.fa.fa-close
+                    .modal-content
+                        h2 #{modal.head.contact_modal}
+                        .row
+                            ul.rrss.right.hover-anim
+                               li.facebook
+                                   a(href='#{external.facebook.url}', target='_blank', title='#{external.facebook.anchor}')
+                                      i.fa.fa-facebook
+                               li.twitter
+                                   a(href='#{external.twitter.url}', target='_blank', title='#{external.twitter.anchor}')
+                                      i.fa.fa-twitter
+                               li.instagram
+                                   a(href='#{external.instagram.url}', target='_blank', title='#{external.instagram.anchor}')
+                                      i.fa.fa-instagram
+                               li.youtube
+                                   a(href='#{external.youtube.url}', target='_blank', title='#{external.youtube.anchor}')
+                                      i.fa.fa-youtube-play
+                               li.linkedin
+                                   a(href='#{external.linkedin.url}', target='_blank', title='#{external.linkedin.anchor}')
+                                     i.fa.fa-linkedin
+                               li.google
+                                  a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
+                                     i.fa.fa-google-plus
+                    .modal-terms
+                        ul.hover-anim
+                            li
+                                a(href='#{external.tos.url}') #{modal.footer.seller}
+                            li
+                                | #{modal.footer.accept}
+                                a(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
+                                | .
         // SLIDER
         .slider
             .mainHead
@@ -186,7 +224,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 p.error.display-none.register-password-error
                     .btnReg
                         button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                            i.material-icons.left play_circle_outline
+                            i.material-icons.left.check #{icons.check}
                             span #{header.free_trial}
                         p #{form.change_form}
                         p #{modal.footer.accept}
@@ -264,8 +302,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                             i.fa.fa-check
                                             !{home.samples.rest.details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.material-icons.left play_circle_outline
-                                    | #{home.samples.free_app}
+                                    i.left.fa.fa-cog.fa-spin
+                                    span #{home.samples.free_app}
                     #tiendas.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
@@ -291,8 +329,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                             i.fa.fa-check
                                             !{home.samples.shop.shop_details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.material-icons.left play_circle_outline
-                                    | #{home.samples.free_app}
+                                    i.left.fa.fa-cog.fa-spin
+                                    span #{home.samples.free_app}
                     #servprof.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
@@ -317,8 +355,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                             i.fa.fa-check
                                             !{home.samples.services.serv_details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.material-icons.left play_circle_outline
-                                    | #{home.samples.free_app}
+                                    i.left.fa.fa-cog.fa-spin
+                                    span #{home.samples.free_app}
                     #personal.col.s12
                         .row.padTop50
                             .col.s12.l4.mobileImg
@@ -343,8 +381,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                             i.fa.fa-check
                                             !{home.samples.custom.cust_details4}
                                 a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.material-icons.left play_circle_outline
-                                    | #{home.samples.free_app}
+                                    i.left.fa.fa-cog.fa-spin
+                                    span #{home.samples.free_app}
         // HOW I MADE MY OWN APP in 4 Steps
         section#about.scrollspy
             .container
@@ -400,10 +438,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     .timeline-body
                                         p.text-muted !{home.how.how_four.publish_step2}
                                         p.text-muted !{home.how.how_four.publish_step3}
-                            li.timeline-inverted.step5
+                            // li.timeline-inverted.step5
                                 .timeline-image
                                     img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/app.png', alt='')
-                            .col.s12.m4.offset-m4.appReady
+                            // .col.s12.m4.offset-m4.appReady
                                 h4
                                     i.fa.fa-exclamation
                                     | !{home.how.app_ready}
@@ -411,6 +449,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     
         // SLIDER 2
         .slider.middle-page-slider
+            .app-ready.center
+                h4 #{home.slider.appready}
             ul.slides
                 li
                     img(src='#{localConfig.base_path}/images/home/bg/bgstairs.jpg', alt='#{home.slider.bg}')
@@ -481,7 +521,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
-                                    .pricing-table-grid
+                                    .pricing-table-grid.with-hover
                                         h3 #{home.rates.proff}
                                         ul
                                             li
@@ -609,7 +649,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                                 .col-xs-12.col-md-3.mobilePrices
                                     img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
-                                    .pricing-table-grid
+                                    .pricing-table-grid.with-hover
                                         h3 #{home.rates.proff}
                                         ul
                                             li
@@ -704,12 +744,14 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 .clearfix
                                 .col-xs-12
                                     .alert.alert-info(role='alert')
-                                        i.fa.fa-info
-                                        | !{home.rates.monthless}
-                        .col-xs-12.tax
+                                        span.fa-stack.fa-lg
+                                            i.fa.fa-money.fa-stack-1x
+                                            i.fa.fa-ban.fa-stack-2x
+                                        span.monthless !{home.rates.monthless}
+                        .col-xs-12.tax.center
                             p
                                 i.fa.fa-asterisk
-                                | #{home.rates.with_tax}
+                                | !{home.rates.with_tax}
                 // CLIENTS TESTIMONIALS
                 .c-testmonials
                     .text-center.marBot100
@@ -798,10 +840,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a(href='#{external.tutorials.url}', title='#{external.tutorials.anchor}') #{external.tutorials.anchor}
                             li
                                 a(href='http://www.upplication.com/blog/', title='#{external.helpcenter.anchor}') #{external.blog.anchor}
-                        ul
-                            li
-                                a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', title='UE fonde de desarrollo regional')
-                                    img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='UE fonde de desarrollo regional')
                     .col.l3.s12.footCol
                         h6 #{external.titles.uppl}
                         ul.uppOnFoot.footLinks(type='circle')
@@ -824,7 +862,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a(href='#{external.jobs.url}', title='#{external.jobs.anchor}') #{external.jobs.anchor}
                             li
                                 a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
-                            li
+                            // li
                                 a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
                     .col.l3.s12.footCol
                         h6 #{external.titles.legal}
@@ -837,10 +875,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a(href='#{external.tos.url}', title='#{footer.terms_of_use}') #{footer.terms_of_use}
                             li
                                 a(href='#{external.tos.url}', title='#{footer.cookies_use}') #{footer.cookies_use}
-                        ul
-                            li
-                                a(href='https://mixpanel.com/', title='Mixpanel mobile analytics')
-                                    img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='Mixpanel mobile analytics')
             .clearfix
             .footer-copyright
                 .container
@@ -867,6 +901,17 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
                                 i.fa.fa-google-plus
             .footer-bottom
+                .container
+                     ul
+                        li
+                            a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', target='_blank', title='UE fonde de desarrollo regional')
+                               img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='UE fonde de desarrollo regional')
+                        li
+                            a(href='https://mixpanel.com/', target='_blank', title='Mixpanel mobile analytics')
+                               img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='Mixpanel mobile analytics')
+                        li
+                            a(href='http://info.telefonica.es/portada/index.html', target='_blank', title='Telefónica')
+                                img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='Telefónica')
         #cookies
             i#cookies-accept.fa.fa-times.close
             p !{footer.cookies}

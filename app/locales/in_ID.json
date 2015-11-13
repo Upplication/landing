@@ -4,16 +4,21 @@
         "nav": {
             "apps": "Contoh aplikasi",
             "prices": "Harga",
-            "how": "Bagaimana saya membuat aplikasi sendiri"
+            "how": "Bagaimana saya membuat aplikasi sendiri",
+            "contact": "Contact"
         },
         "free_trial": "Coba gratis",
         "telephone": "+34 810 512 370",
         "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
         "enter": "login"
     },
+    "icons": {
+        "check": "done"
+    },
     "modal": {
         "head": {
-            "register_modal": "Daftar untuk <span>15 hari coba gratis</span>"
+            "register_modal": "Daftar untuk <span>15 hari coba gratis</span>",
+            "contact_modal": "Contact Us"
         },
         "footer": {
             "seller": "Do you have a seller code?",
@@ -62,6 +67,7 @@
             "intro1": "Generator Aplikasi untuk ",
             "intro2": "<span>Buat aplikasi untuk bisnis Anda,</span> <span>tidak perlu memprogram, cepat, dan mudah.</span>",
             "bg": "Upplication image",
+            "appready": "Your App Ready !",
             "text": ["toko", "perhotelan", "jasa", "pengusaha", "you"]
         },
         "why": {
@@ -162,14 +168,14 @@
             "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
             "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
             "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
-            "with_tax": "Sudah termasuk PPN."
+            "with_tax": "Sudah termasuk <strong>PPN</strong>."
         },
         "_url": "/generator-aplikasi/",
         "_template": "home",
         "_name": "Home",
         "_meta_title": "Create the app for your business",
-        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+        "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
         "_canonical": "http://www.upplication.com/build-your-app",
         "showcase": {
             "title": "These are some of our apps"

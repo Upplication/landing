@@ -145,10 +145,19 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #009550 !important;
 }
 
+.input-field label {
+  font-weight: 500;
+}
+
 half,
 .btn:hover,
 .btn-large:hover,
 .btn-floating:hover {
   box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0);
   border-radius: 0;
+}
+
+.material-icons.check {
+  position: relative;
+  bottom: 3px;
 }

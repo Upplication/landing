@@ -4,16 +4,21 @@
     "nav": {
       "apps": "SAMPLE APPS",
       "prices": "PRICING",
-      "how": "HOW DO I CREATE MY APP"
+      "how": "HOW DO I CREATE MY APP",
+      "contact": "Contact"
     },
     "free_trial": "Free Trial",
     "telephone": "+34 810 512 370",
     "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
     "enter": "LOGIN"
   },
+  "icons": {
+    "check": "done"
+  },
   "modal": {
     "head": {
-      "register_modal": "Sign Up for <span>15 days free trial</span>"
+      "register_modal": "Sign Up for <span>15 days free trial</span>",
+      "contact_modal": "Contact Us"
     },
     "footer": {
       "seller": "Do you have a seller code?",
@@ -62,13 +67,8 @@
       "intro1": "App generator for ",
       "intro2": "<span>Create the app for your business,</span> <span>no coding required, fast and simple.</span>",
       "bg": "Upplication image",
-      "text": [
-        "stores",
-        "restaurants",
-        "services",
-        "entrepreneurs",
-        "you"
-      ]
+      "appready": "Your App Ready !",
+      "text": ["stores", "restaurants", "services", "entrepreneurs", "you"]
     },
     "why": {
       "grow": "<strong>Increase</strong> your sales",
@@ -167,15 +167,15 @@
       "four_push": "<strong>4</strong> push alerts / month",
       "all_push": "<strong>Unlimited</strong> push alerts",
       "no_templates": "<strong>Custom App</strong>, personalized",
-      "monthless": "All annual plans include a <span> two-month discount</span>. Pay for ten months and receive twelve.",
-      "with_tax": "VAT included in all prices."
+      "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
+      "with_tax": "<strong>VAT included</strong> in all prices."
     },
     "_url": "/build-your-app/",
     "_template": "home",
     "_name": "Home",
     "_meta_title": "Create the app for your business",
-    "_meta_description": "Create your own Apps, for your business. It is easy, without coding, and quick, in a few minutes",
-    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+    "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
     "_canonical": "http://www.upplication.com/build-your-app",
     "showcase": {
       "title": "These are some of our apps"

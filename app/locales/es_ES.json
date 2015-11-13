@@ -4,16 +4,21 @@
         "nav": {
             "apps": "Ejemplos",
             "prices": "Precios",
-            "how": "Como creo mi App"
+            "how": "Cómo creo mi App",
+            "contact": "Contacto"
         },
         "free_trial": "Prueba gratis",
         "telephone": "+34 810 512 370",
         "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
         "enter": "Entrar"
     },
+    "icons": {
+        "check": "done"
+    },
     "modal": {
         "head": {
-            "register_modal": "Regístrate <span>gratis</span> y prueba <span>15 días</span>"
+            "register_modal": "Regístrate <span>gratis</span> y prueba <span>15 días</span>",
+            "contact_modal": "Contacta con nosotros"
         },
         "footer": {
             "seller": "¿Tienes un código seller?",
@@ -63,7 +68,8 @@
             "intro1": "El creador de apps para ",
             "intro2": "<span>Crea la app de tu negocio,</span> <span>sin programar, fácil y rápido.</span>",
             "bg": "Upplication image",
-            "text": ["emprendedores", "hosteleria", "servicios", "tiendas", "ti"]
+            "appready": "¡ Tu App lista !",
+            "text": ["emprendedores", "hostelería", "servicios", "tiendas", "ti"]
         },
         "why": {
             "grow": "<strong>Aumenta</strong> tus ventas",
@@ -162,8 +168,8 @@
             "four_push": "<strong>4</strong> notificaciones push / mes",
             "all_push": "Notificaciones <strong>ilimitadas</strong>",
             "no_templates": "<strong>A medida</strong>, personalizada",
-            "monthless": "Con el Plan Anual te <span>ahorrarás dos meses</span>. Paga diez meses en vez de doce.",
-            "with_tax": "Todos los precios incluyen IVA.",
+            "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
+            "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
             "prices": {
                 "basic_month": "99,50",
                 "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
@@ -174,7 +180,7 @@
         "_url": "/",
         "_template": "home",
         "_name": "Inicio",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_title": "Upplication: Crea la app de tu pyme",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "_canonical": "http://www.upplication.com/",
