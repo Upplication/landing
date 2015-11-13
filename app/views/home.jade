@@ -148,8 +148,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         a(href='#{external.tos.url}') #{modal.footer.seller}
                     li
                         | #{modal.footer.accept}
-                        a(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
-                        | .de
+                        a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
+                        | .
         // MODAL CONTACT
                 #allContact.modal
                     a.modal-action.modal-close.waves-effect.waves-green.btn-flat
@@ -228,7 +228,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             span #{header.free_trial}
                         p #{form.change_form}
                         p #{modal.footer.accept}
-                            a(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
+                            a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
                             | .
         // WHY
         .features
