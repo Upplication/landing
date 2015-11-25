@@ -126,6 +126,10 @@ footer.page-footer .footer-copyright span {
   color: #00ca6b !important;
 }
 
+footer.page-footer .footer-copyright span i {
+  padding-right: 5px;
+}
+
 footer.page-footer .footer-copyright em {
   font-style: normal;
   font-size: 14px;

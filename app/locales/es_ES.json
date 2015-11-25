@@ -5,7 +5,13 @@
             "apps": "Ejemplos",
             "prices": "Precios",
             "how": "Cómo creo mi App",
-            "contact": "Contacto"
+            "contact": "Contacto",
+            "legal": {
+                "advise": "Aviso Legal",
+                "privacy": "Privacidad",
+                "conditions": "Condiciones",
+                "cookies": "Cookies"
+            }
         },
         "free_trial": "Prueba gratis",
         "telephone": "+34 810 512 370",
@@ -18,12 +24,20 @@
     "modal": {
         "head": {
             "register_modal": "Regístrate <span>gratis</span> y prueba <span>15 días</span>",
-            "contact_modal": "Contacta con nosotros"
+            "contact_modal": "<span>Contacta</span> con nosotros"
         },
         "footer": {
             "seller": "¿Tienes un código seller?",
             "accept": "Al hacer clic en 'Prueba Gratis' aceptas nuestros",
             "terms": " términos y condiciones"
+        },
+        "button": {
+            "icon_telf": "phone",
+            "telephone": "+34 810 512 370",
+            "telf": "tel:0034810512370",
+            "icon_email": "email",
+            "support_mail": "soporte@upplication.com",
+            "email": "mailto:soporte@upplication.com"
         }
     },
     "form": {
@@ -284,6 +298,142 @@
         "create_free": "Crear mi app gratis",
         "permanence": "Período de prueba sin compromiso de permanencia."
     },
+    "about_us": {
+        "team": {
+            "subtitle": "Conoce",
+            "title": "a nuestro equipo",
+            "ceo": {
+                "name": "José Luis",
+                "surname": "Vega de Seoane Barona",
+                "position": "Cofundador y CEO",
+                "sentence": "¡Yo mando!",
+                "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
+                "twitter": "https://twitter.com/rodadofrutos"
+            },
+            "cmo": {
+                "name": "Víctor",
+                "surname": "Rodado Frutos",
+                "position": "Cofundador y CMO",
+                "sentence": "Yo también mando, ¿eh?",
+                "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
+                "twitter": "https://twitter.com/rodadofrutos"
+            },
+            "cto": {
+                "name": "Javier",
+                "surname": "Arnáiz González",
+                "position": "CTO",
+                "sentence": "Gurú de la tecnología",
+                "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
+                "twitter": "https://twitter.com/arnaix"
+            },
+            "support_1": {
+                "name": "Belén",
+                "surname": "Fernández Pérez",
+                "position": "Atención al cliente",
+                "sentence": "Mi prioridad eres tú",
+                "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+                "twitter": "https://twitter.com/BeeleenFP"
+            },
+            "support_2": {
+                "name": "Ángel",
+                "surname": "Barroso Sanz",
+                "position": "Soporte técnico",
+                "sentence": "Construyendo apps todos los días",
+                "linkedin": "https://www.linkedin.com/in/aBarroso19",
+                "twitter": "https://twitter.com/Aw3sam3"
+            },
+            "sales_1": {
+                "name": "Javier",
+                "surname": "Coomonte Suárez",
+                "position": "Gerente de Ventas",
+                "sentence": "¡Todo por la pasta!",
+                "linkedin": "https://www.linkedin.com/in/jcoomonte",
+                "twitter": "https://twitter.com/jcoomonte"
+            },
+            "sales_2": {
+                "name": "Álvaro",
+                "surname": "Alcañiz Rubio",
+                "position": "Gerente de Ventas",
+                "sentence": "El dinero nunca duerme",
+                "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
+                "twitter": "https://twitter.com/alcanizalv"
+            },
+            "dev": {
+                "backend_1": {
+                    "name": "Gorka",
+                    "surname": "Jimeno Garrachón",
+                    "position": "Desarrollador",
+                    "sentence": "Ctrl + F",
+                    "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
+                    "twitter": "https://twitter.com/gorkajg"
+                },
+                "backend_2": {
+                    "name": "Marcos",
+                    "surname": "Rojas Martín",
+                    "position": "Desarrollador",
+                    "sentence": "Git Push",
+                    "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
+                    "twitter": "https://twitter.com/Mrk992"
+                },
+                "frontend_1": {
+                    "name": "Juan José",
+                    "surname": "Herrero Barbosa",
+                    "position": "Desarrollador",
+                    "sentence": "Java no sólo es un personaje de Star Wars",
+                    "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+                    "twitter": "https://twitter.com/dark_xuan"
+                }
+            },
+            "account": {
+                "name": "Noemí",
+                "surname": "Díaz Sanz",
+                "position": "Gerente de Cuentas",
+                "sentence": "Guardiana de las divisas",
+                "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
+                "twitter": ""
+            },
+            "design": {
+                "name": "Javier",
+                "surname": "Lorenzo Fernández",
+                "position": "Arte y Diseño",
+                "sentence": "Rojo es un color...",
+                "linkedin": "https://www.linkedin.com/in/javierlorenzofernandez",
+                "twitter": "https://twitter.com/jalofernandez"
+            },
+            "community": {
+                "name": "Cristina",
+                "surname": "Díaz Gallego",
+                "position": "Gerente de comunicación",
+                "sentence": "La mejor captadora de followers",
+                "linkedin": "https://www.linkedin.com/in/",
+                "twitter": "https://twitter.com/MissRe_"
+            },
+            "nextone": {
+                "surname": "¿Eres el siguiente?",
+                "position": "Sé parte de nuestro equipo",
+                "sentence": "Tipo nuevo en el vecindario"
+            }
+        },
+        "departments": {
+            "subtitle": "Conoce",
+            "title": "nuestros departmentos",
+            "support": {
+                "title": "Dpto. Soporte",
+                "img": "Belén llamando a nuestros clientes con su mejor sonrisa",
+                "text": "Objetivo prioritario, que el cliente sea feliz. Hablamos todos los días con cientos de usuarios de más de 65 países del mundo. Somos muy cercanos y siempre tenemos una sonrisa en la boca. Nos encanta ayudarte para que tu experiencia con nosotros sea rentable."
+            },
+            "marketing": {
+                "title": "Dpto. Marketing",
+                "img": "El trabajo duro de nuestros vendedores",
+                "text": "Lideramos el crecimiento del proyecto en cualquier rincón del mundo. Nuestro día a día está orientado a los datos y la analítica. Siempre pensando en cómo vender más y más rápido. Cada vez que tenemos un nuevo cliente hacemos sonar un bocina en nuestras oficinas."
+            },
+            "develop": {
+                "title": "Dpto. Desarrollo",
+                "img": "¡Todos los frikis reunidos!",
+                "text": "Cordova, AngularJS, Java, CSS, UX… Nos encanta la tecnología y somos un poco freaks. Trabajamos con metodologías ágiles y estamos cambiando la forma en que las pymes del mundo crean sus apps móviles. Todos los días aprendemos algo nuevo."
+            }
+        }
+    },
     "helpcenter": {
         "_url": "/centro-de-ayuda/",
         "_template": "helpcenter",
@@ -293,19 +443,65 @@
         "_canonical": "http://www.upplication.com/centro-de-ayuda",
         "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "title": "Centro de ayuda",
+        "section": {
+            "upp": "Tu creas Upplicación",
+            "video": "Videos de ayuda",
+            "ebooks": "Ebooks e Infografias",
+            "help": "Te ayudamos a crear tu app"
+        },
+        "uservoice": {
+            "link": "https://upplication.uservoice.com/",
+            "title": "Comunidad de ususarios",
+            "text": "Comunidad de ususarios"
+        },
+        "knowledgebase": {
+            "link": "https://upplication.uservoice.com/knowledgebase",
+            "title": "Preguntas frecuentes",
+            "text": "Preguntas frecuentes"
+        },
+        "video_1": {
+            "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+            "title": "Tutoriales",
+            "text": "Tutoriales"
+        },
+        "video_2": {
+            "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+            "title": "Nuestros videos",
+            "text": "Nuestros videos"
+        },
+        "sucess": {
+            "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+            "title": "Consigue una app de éxito",
+            "text": "Consigue una app de éxito"
+        },
+        "advantages": {
+            "link": "http://upplication.com/blog/ventajas-app-negocio/",
+            "title": "Ventajas de tener una app",
+            "text": "Ventajas de tener una app"
+        },
+        "wedoit": {
+            "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
+            "title": "Hacemos el trabajo por tí",
+            "text": "Hacemos el trabajo por tí"
+        },
+        "workshop": {
+            "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+            "title": "Ven a nuestros desayunos",
+            "text": "Ven a nuestros desayunos"
+        },
         "resources": {
             "createupp": {
-                "title": "Tu creas Upplicación",
+                "title": "Tú creas Upplication",
                 "links": [
                     {
                         "link": "https://upplication.uservoice.com/",
-                        "title": "Comunidad de usuarios",
-                        "text": "Comunidad de usuarios"
+                        "title": "Comunidad de ususarios",
+                        "text": "Comunidad de ususarios"
                     },
                     {
                         "link": "https://upplication.uservoice.com/knowledgebase",
-                        "title": "Base de conocimiento",
-                        "text": "Base de conocimiento"
+                        "title": "Preguntas frecuentes",
+                        "text": "Preguntas frecuentes"
                     }
                 ]
             },
@@ -544,12 +740,12 @@
             "url": "/blog"
         },
         "about": {
-            "anchor": "Nosotros",
+            "anchor": "¿Quienes somos?",
             "url": "@@config.base_path/nosotros/"
         },
         "team": {
             "anchor": "Equipo",
-            "url": "/equipo/"
+            "url": "@@config.base_path/equipo/"
         },
         "features": {
             "anchor": "Características",
@@ -640,8 +836,14 @@
             "url": "@@config.base_path/oferta-practicas-marketing/"
         },
         "hiring_frontend":{
-            "anchor":"Frontend Developer",
+            "anchor":"Desarrollador Frontend",
+            "title":"¡Contratamos desarrolladores!",
             "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+        },
+        "hiring_marketing":{
+            "anchor":"Ventas & Marketing",
+            "title":"¡Contratamos vendedores!",
+            "url":"http://www.upplication.com/oferta-practicas-marketing/"
         },
         "hiring_backend":{
             "anchor":"Backend Developer",
@@ -1272,7 +1474,7 @@
             "title": "Condiciones generales de uso de la página web",
             "subsections": [
                 {
-                    "title": "1. IDENTIFICACIÓN DE LAS PARTES.",
+                    "title": "1. Identificación de las partes:",
                     "paragraphs": [
                         "Las presentes Condiciones Generales de uso de los servicios ofrecidos en la URL www.upplication.com (en adelante el PORTAL) son suscritas, por el titular del dominio, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. cuyo correo electrónico de contacto es: hello@upplication.com.",
                         "Se considera USUARIO, a las personas físicas con capacidad para suscribir válidamente un contrato de acuerdo con la ley aplicable.",
@@ -1282,18 +1484,18 @@
                     ]
                 },
                 {
-                    "title": "2. PERFECCIONAMIENTO DEL ACUERDO.",
+                    "title": "2. Perfeccionamiento del acuerdo:",
                     "paragraphs": [
                         "Para utilizar el PORTAL, deben aceptarse las presentes condiciones generales (en adelante, las Condiciones), así como aquellas estipulaciones particulares recogidas para la utilización y/o contratación de servicios concretos. En caso contrario, deberá abandonarse el PORTAL.",
                         "Ud. podrá aceptar las Condiciones:",
-                        " haciendo clic en el botón de aceptación de las Condiciones, cuando se le ofrezca esta opción en la interfaz de usuario; o",
-                        "utilizando de forma efectiva el sitio web. Ud. reconoce y acepta que, la utilización del PORTAL se considerará como una aceptación de las Condiciones.",
+                        "- Haciendo clic en el botón de aceptación de las Condiciones, cuando se le ofrezca esta opción en la interfaz de usuario;",
+                        "- Utilizando de forma efectiva el sitio web. Ud. reconoce y acepta que, la utilización del PORTAL se considerará como una aceptación de las Condiciones.",
                         "Se aconseja al USUARIO leer con detenimiento las presentes condiciones. Podrá guardarlas o imprimirlas si así lo desea."
 
                     ]
                 },
                 {
-                    "title": "3. ÁMBITO DE APLICACIÓN.",
+                    "title": "3. Ámbito de aplicación:",
                     "paragraphs": [
                         "Las presentes condiciones generales serán de aplicación a todos los servicios/productos ",
                         "recogidos en la web www.upplication.com."
@@ -1305,7 +1507,7 @@
             "title": "Política de Cookies",
             "subsections": [
                 {
-                    "title": "CÓMO Y POR QUÉ USAMOS COOKIES:",
+                    "title": "1. ¿Cómo y por qué usamos cookies?",
                     "paragraphs": [
                         "UPPLICATION SOFTWARE TECHNOLOGIES S.L (En adelante UPPLICATION) utiliza cookies dentro sus sitios web (upplication.com,y cualquier subdominio perteneciente al mismo) para ofrecer el sitio web más eficaz posible a nuestros clientes. Entre otras cosas, las cookies permiten recordar las preferencias y el uso de determinadas herramientas y secciones de nuestra web. Esta Política de Cookies explica qué son las cookies, cómo las usamos y cómo te beneficiarán. Como posiblemente sepas, la reciente legislación exige que los sitios web obtengan el consentimiento de los visitantes para utilizar ciertas cookies.",
                         "UPPLICATION hace uso de las cookies con el objetivo de poder medir el comportamiento de los usuarios tanto en nuestra web (upplication.com) como en cualquier subdominio, como bien se ha mencionado anteriormente. Gracias a la analítica somos capaces de optimizar la experiencia de nuestro usuario dentro de la herramienta.",
@@ -1313,7 +1515,7 @@
                     ]
                 },
                 {
-                    "title": "CÓMO SE PUEDEN GESTIONAR LAS COOKIES",
+                    "title": "2. ¿Cómo se pueden gestionar las Cookies?",
                     "paragraphs": [
                         "Los navegadores de la mayoría de ordenadores, teléfonos inteligentes y otros dispositivos habilitados para visualizar un sitio Web suelen estar configurados para aceptar cookies. Si deseas modificar tus preferencias de cookies en este sitio web o en cualquier otro, puedes hacerlo a través de la configuración del navegador. La función \"ayuda\" de tu navegador te dirá cómo hacerlo. Te recordamos que si decides bloquear el uso de determinadas cookies en tu navegador de nuestro sitio web puede afectar al funcionamiento del mismo.",
                         "Siempre que visites uno de nuestros sitios web las jurisdicciones locales nos obligan a pedir tu consentimiento para establecer cookies en el dispositivo, siempre te preguntaremos antes de establecer una cookie mediante un banner en la parte inferior de la pantalla, que desaparecerá a los 7 segundos después de su aparición. Trascurrido ese tiempo automáticamente estarás aceptando las cookies establecidas con tu dispositivo."

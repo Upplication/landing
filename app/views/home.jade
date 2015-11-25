@@ -109,81 +109,16 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             .contact-info-left
                                 a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
                             .contact-info-right
-                                a #{header.telephone}
+                                a.modal-trigger(href='#allContact') #{header.telephone}
                                 a.support(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}') #{helpcenter.customer_service.email.title}
                             .clearfix
                     .clearfix
         // MODAL PRUEBA GRATIS
         #pruebaGratis.modal
-            a.modal-action.modal-close.waves-effect.waves-green.btn-flat
-                i.fa.fa-close
-            .modal-content
-                h2 !{modal.head.register_modal}
-                .row
-                    form(name="register", action="/register", method="post").col.s12.center
-                        input(type="hidden", name="customerType", value="UPPLICATION")
-                        p.error.general-error.display-none #{register.error.general}
-                        .input-field.col.s12
-                            i.material-icons.prefix settings_cell
-                            input#modal_app_name.validate(type='text', name='appName', required)
-                            label(for='modal_app_name') #{form.input.name}
-                                p.error.display-none.register-appName-error
-                        .input-field.col.s12
-                            i.material-icons.prefix email
-                            input#modal_email.validate(type='email', name='email', required)
-                            label(for='modal_email') #{form.input.email}
-                                p.error.display-none.register-email-error
-                        .input-field.col.s12
-                            i.material-icons.prefix vpn_key
-                            input#modal_pass.validate(type='password', name='password', required)
-                            label(for='modal_pass') #{form.input.pass}
-                                p.error.display-none.register-password-error
-                        .input-field.col.s12
-                            button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                                i.material-icons.left.check #{icons.check}
-                                span #{header.free_trial}
-            .modal-terms
-                ul.hover-anim
-                    // li
-                        a(href='#{external.tos.url}') #{modal.footer.seller}
-                    li
-                        | #{modal.footer.accept}
-                        a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
-                        | .
+            include ./includes/modal-free.jade
         // MODAL CONTACT
-                #allContact.modal
-                    a.modal-action.modal-close.waves-effect.waves-green.btn-flat
-                        i.fa.fa-close
-                    .modal-content
-                        h2 #{modal.head.contact_modal}
-                        .row
-                            ul.rrss.right.hover-anim
-                               li.facebook
-                                   a(href='#{external.facebook.url}', target='_blank', title='#{external.facebook.anchor}')
-                                      i.fa.fa-facebook
-                               li.twitter
-                                   a(href='#{external.twitter.url}', target='_blank', title='#{external.twitter.anchor}')
-                                      i.fa.fa-twitter
-                               li.instagram
-                                   a(href='#{external.instagram.url}', target='_blank', title='#{external.instagram.anchor}')
-                                      i.fa.fa-instagram
-                               li.youtube
-                                   a(href='#{external.youtube.url}', target='_blank', title='#{external.youtube.anchor}')
-                                      i.fa.fa-youtube-play
-                               li.linkedin
-                                   a(href='#{external.linkedin.url}', target='_blank', title='#{external.linkedin.anchor}')
-                                     i.fa.fa-linkedin
-                               li.google
-                                  a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
-                                     i.fa.fa-google-plus
-                    .modal-terms
-                        ul.hover-anim
-                            li
-                                a(href='#{external.tos.url}') #{modal.footer.seller}
-                            li
-                                | #{modal.footer.accept}
-                                a(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
-                                | .
+        #allContact.modal
+            include ./includes/modal-contact.jade
         // SLIDER
         .slider
             .mainHead
@@ -777,141 +712,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             a(href='#{home.testimonials.client3.url}', target='_blank', alt='#{home.testimonials.client3.name}') - #{home.testimonials.client3.name}
                         .c-testmonial-grid-pic
                             img(src='#{localConfig.base_path}/images/home/clients/gabriel.png', title='name')
-        // CLIENTS CAROUSEL
-        .clientSection
-            .container
-                #clientsCarousel
-                    .item
-                        a(href='http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='ABC logo')
-                    .item
-                        a(href='http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='El Economista logo')
-                    .item
-                        a(href='http://www.forbes.es/actualizaciones/', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='Forbes logo')
-                    .item
-                        a(href='http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='Emprende logo')
-                    .item
-                        a(href='http://blogthinkbig.com/upplication-post-pc/', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='Telefónica logo')
-                    .item
-                        a(href='http://www.ticbeat.com/pymes/servicios-crear-app-de-tu-negocio-sin-programar/', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='TicBeat logo')
-                    .item
-                        a(href='http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar', target='_blank', title='')
-                            img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='wwwhatsnew logo')
-        // 15 DAYS TRIAL BUTTOM
-        .pricing-plan
-            .container
-                .pricing-plan-grids
-                    .pricing-plan-left
-                        h2 !{footer.try_it}
-                        span #{home.permanence}
-                    .pricing-plan-right
-                        a.price-btn.modal-trigger(href='#pruebaGratis') #{header.free_trial}
-                    .clearfix
-        // COSTUMERS SERVICES CONTACT AREA
-        .servCliente
-            .container
-                .col.s12
-                    ul
-                        li
-                            a #{helpcenter.customer_service.text2}
-                        li.tel.hover-anim
-                            a(href='#{helpcenter.customer_service.phone.link}', title='#{helpcenter.customer_service.phone.alt_tag}')
-                                i.icon-phone
-                                | !{helpcenter.customer_service.phone.text_tel}
-                        li.mail.hover-anim
-                            a(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}')
-                                i.icon-envelope
-                                | #{helpcenter.customer_service.email.title}
-        // FOOTER
-        footer.page-footer
-            .container.padTop50.padBot50
-                .row.hover-anim
-                    .col.l3.s12.footCol
-                        h6 #{external.titles.help}
-                        ul.footLinks
-                            li
-                                a(href='#{external.helpcenter.url}', title='#{external.helpcenter.anchor}') #{external.helpcenter.anchor}
-                            li
-                                a(href='#{external.tutorials.url}', title='#{external.tutorials.anchor}') #{external.tutorials.anchor}
-                            li
-                                a(href='http://www.upplication.com/blog/', title='#{external.helpcenter.anchor}') #{external.blog.anchor}
-                    .col.l3.s12.footCol
-                        h6 #{external.titles.uppl}
-                        ul.uppOnFoot.footLinks(type='circle')
-                            li
-                                a(href='#tabs', title='#{external.features.anchor}') #{external.features.anchor}
-                            li
-                                a(href='#about', title='#{external.create_apps.anchor}') #{external.create_apps.anchor}
-                            li
-                                a(href='#tabs', title='#{external.apps.anchor}') #{external.apps.anchor}
-                            li
-                                a(href='#pricing', title='#{external.pricing.anchor}') #{external.pricing.anchor}
-                    .col.l3.s12.footCol
-                        h6 #{external.titles.misc}
-                        ul.footLinks
-                            li
-                                a(href='#{external.team.url}', title='#{external.team.anchor}') #{external.team.anchor}
-                            li
-                                a(href='#{external.partners.url}', title='#{external.partners.anchor}') #{external.partners.anchor}
-                            li
-                                a(href='#{external.jobs.url}', title='#{external.jobs.anchor}') #{external.jobs.anchor}
-                            li
-                                a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
-                            // li
-                                a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
-                    .col.l3.s12.footCol
-                        h6 #{external.titles.legal}
-                        ul.footLinks
-                            li
-                                a(href='#{external.tos.url}', title='#{external.tos.anchor}') #{terms.legal.title}
-                            li
-                                a(href='#{external.tos.url}', title='#{terms.privacy.title}') #{terms.privacy.title}
-                            li
-                                a(href='#{external.tos.url}', title='#{footer.terms_of_use}') #{footer.terms_of_use}
-                            li
-                                a(href='#{external.tos.url}', title='#{footer.cookies_use}') #{footer.cookies_use}
-            .clearfix
-            .footer-copyright
-                .container
-                    span © #{footer.brand_copy}
-                    i.fa.fa-circle
-                    em #{footer.signature}
-                    ul.rrss.right.hover-anim
-                        li.facebook
-                            a(href='#{external.facebook.url}', target='_blank', title='#{external.facebook.anchor}')
-                                i.fa.fa-facebook
-                        li.twitter
-                            a(href='#{external.twitter.url}', target='_blank', title='#{external.twitter.anchor}')
-                                i.fa.fa-twitter
-                        li.instagram
-                            a(href='#{external.instagram.url}', target='_blank', title='#{external.instagram.anchor}')
-                                i.fa.fa-instagram
-                        li.youtube
-                            a(href='#{external.youtube.url}', target='_blank', title='#{external.youtube.anchor}')
-                                i.fa.fa-youtube-play
-                        li.linkedin
-                            a(href='#{external.linkedin.url}', target='_blank', title='#{external.linkedin.anchor}')
-                                i.fa.fa-linkedin
-                        li.google
-                            a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
-                                i.fa.fa-google-plus
-            .footer-bottom
-                .container
-                     ul
-                        li
-                            a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', target='_blank', title='UE fonde de desarrollo regional')
-                               img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='UE fonde de desarrollo regional')
-                        li
-                            a(href='https://mixpanel.com/', target='_blank', title='Mixpanel mobile analytics')
-                               img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='Mixpanel mobile analytics')
-                        li
-                            a(href='http://info.telefonica.es/portada/index.html', target='_blank', title='Telefónica')
-                                img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='Telefónica')
+        // CLIENTS, TRIAL, CONTACT and FOOTER
+        include ./includes/footer.jade
         #cookies
             i#cookies-accept.fa.fa-times.close
             p !{footer.cookies}

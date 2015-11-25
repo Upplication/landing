@@ -1,0 +1,59 @@
+/*
+HELP CENTER CSS: Custom Stylesheet --- CSS GENERALES: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2015
+*/
+
+#help-center h4 {
+  font-family: "Lato", sans-serif;
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 3em 0 1.5em 0;
+  padding: 0 0 .5em;
+  text-align: center;
+}
+
+#help-center .help-center-grid {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#help-center ul.collection li {
+  line-height: 30px;
+}
+
+#help-center ul.collection li a,
+#help-center ul.collection li span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 500px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#help-center ul.collection li span {
+  color: #111b0a;
+}
+
+#help-center ul.collection li a {
+  color: #00c86b;
+}
+
+#help-center ul.collection li a:hover {
+  color: #009550;
+}
+
+#help-center ul.collection li a i.fa {
+  font-size: 6px;
+  color: #00c86b;
+  padding-right: 10px;
+  position: relative;
+  bottom: 4px;
+}

@@ -1100,6 +1100,10 @@ Copyright 2015
   .modal {
     width: 90%;
   }
+
+  #help-center .help-center-grid {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 668px) {
