@@ -9,7 +9,9 @@ block vars
     - var cssClass = 'helpcenter'
 
 block css
+    // build:css({.tmp, app}) /styles/helpcenter.min.css
     link(rel='stylesheet', href='/styles/css/home/helpcenter.css')
+    //endbuild
 
 block content
     // HELP CENTER
