@@ -1,3 +1,5 @@
+extends base/v2/base
+
 block vars
     - var template = $.home._template
     - var title = $.home._meta_title
@@ -6,828 +8,647 @@ block vars
     - var canonical = $.home._canonical
     - var cssClass = 'home'
 
-doctype html
-
-//if lt IE 7
-  <html class="ie ie6 no-js" lang="#{lang}" data-lang="#{lang}">
-//if IE 7
-  <html class="ie ie7 no-js" lang="#{lang}" data-lang="#{lang}">
-//if IE 8
-  <html class="ie ie8 no-js" lang="#{lang}" data-lang="#{lang}">
-//if IE 9
-  <html class="ie ie9 no-js" lang="#{lang}" data-lang="#{lang}">
-// [if gt IE 9] <!
-html.no-js(lang='#{lang}', data-lang="#{lang}")
-    // <![endif]
-    head
-        include base/scripts
-        title Upplication : Build your App
-        meta(name='description', content='Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS')
-        meta(name='keywords', content='crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil')
-        meta(name='author', content='Upplication Software Technologies, S.L.')
-        // Favicon
-        link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
-        link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
-        link(rel='apple-touch-icon', sizes='72x72', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-72x72.png')
-        link(rel='apple-touch-icon', sizes='76x76', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-76x76.png')
-        link(rel='apple-touch-icon', sizes='114x114', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-114x114.png')
-        link(rel='apple-touch-icon', sizes='120x120', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-120x120.png')
-        link(rel='apple-touch-icon', sizes='144x144', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-144x144.png')
-        link(rel='apple-touch-icon', sizes='152x152', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-152x152.png')
-        link(rel='apple-touch-icon', sizes='180x180', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-180x180.png')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-32x32.png', sizes='32x32')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/android-chrome-192x192.png', sizes='192x192')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-96x96.png', sizes='96x96')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
-        link(rel='manifest', href='#{localConfig.base_path}/images/favicon/manifest.json')
-        meta(name='msapplication-TileColor', content='#00a300')
-        meta(name='msapplication-TileImage', content='#{localConfig.base_path}/images/favicon/mstile-144x144.png')
-        meta(name='theme-color', content='#ffffff')
-
-        link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
-
-        // build:css({.tmp, app}) /styles/home.min.css
-        link(rel='stylesheet', href='/styles/css/home/materialize-reserts.css')
-        link(rel='stylesheet', href='/styles/css/home/style.css')
-        link(rel='stylesheet', href='/styles/css/home/upp.css')
-        link(rel='stylesheet', href='/styles/css/home/modals.css')
-        link(rel='stylesheet', href='/styles/css/home/footer.css')
-        link(rel='stylesheet', href='/styles/css/home/cookies.css')
-        link(rel='stylesheet', href='/styles/css/home/mediaqueries.css')
-        // endbuild
-        meta(name='viewport', content='width=device-width, initial-scale=1')
-        // webfonts
-        link(href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
-        link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
-        link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
-
-    body
-        // MAIN HEADER
-        #home.header
-            #move-top.top-header
-                .container
-                    .logo
-                        a(href='index.html')
-                            img(src='#{localConfig.base_path}/images/home/icons/upplication.png', title='Upplication logo')
-                    nav.top-nav
-                        ul.top-nav.hide-ul
-                            li
-                                each language in langs.codes
-                                    if lang == language.language_country
-                                        a.lang-link(href="#", data-activates='dropdown-lang')
-                                            i.fa.fa-globe
-                                            | !{language.language_short_code}
-                                ul#dropdown-lang.dropdown-content
-                                    each lang in langs.codes
-                                        a.hide-tab.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
-                            li
-                                a.hide-tab(href='#about', title='') #{header.nav.how}
-                            li
-                                a.hide-tab(href='#tabs', title='') #{header.nav.apps}
-                            li
-                                a.hide-tab(href='#pricing', title='') #{header.nav.prices}
-                            li
-                                a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
-                            li.only-show-small-devises.phone-kerning
-                                a #{header.telephone}
-                            li.only-show-small-devises
-                                a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
-                            li.enter-bold
-                                a.hide-tab(href="#{$.external.dashboard.url}")
-                                    i.fa.fa-lock
-                                    | #{header.enter}
-                        a#pull(href='')
-                            img(src='#{localConfig.base_path}/images/home/icons/nav-icon.png', title='menu')
-                    .contact-info
-                        .contact-info-grids
-                            .contact-info-left
-                                a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
-                            .contact-info-right
-                                a.modal-trigger(href='#allContact') #{header.telephone}
-                                a.support(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}') #{helpcenter.customer_service.email.title}
-                            .clearfix
-                    .clearfix
-        // MODAL PRUEBA GRATIS
-        #pruebaGratis.modal
-            include ./includes/modal-free.jade
-        // MODAL CONTACT
-        #allContact.modal
-            include ./includes/modal-contact.jade
-        // SLIDER
-        .slider
-            .mainHead
-                h1 #{home.slider.intro1}
-                    span.element
-                h2 !{home.slider.intro2}
-            ul.slides
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgpymes.jpg', alt='#{home.slider.bg}')
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgrestaurant.jpg', alt='#{home.slider.bg}')
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}')
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgstores.jpg', alt='#{home.slider.bg}')
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bglandscape.jpg', alt='#{home.slider.bg}')
-        // FORM "TRY FREE 15 DAYS"
-        .col-xs-12.col-md-5.right.formPhone.animated.fadeIn
-            .row.registerTop
-                .headReg
-                    h2 !{form.free_form}
-                form(name="register", action="/register", method="post").col.s12
-                    input(type="hidden", name="customerType", value="UPPLICATION")
-                    p.error.general-error.display-none #{register.error.general}
-                    .row
-                        .input-field.col.s12
-                            input#app_name.validate(type='text', name='appName', required)
-                            label(for='app_name') #{form.input.name}
-                                p.error.display-none.register-appName-error
-                        .input-field.col.s12
-                            input#email.validate(type='email', name='email', required)
-                            label(for='email') #{form.input.email}
-                                p.error.display-none.register-email-error
-                        .input-field.col.s12
-                            input#password.validate(type='password', name='password', required)
-                            label(for='password') #{form.input.pass}
-                                p.error.display-none.register-password-error
-                    .btnReg
-                        button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                            i.material-icons.left.check #{icons.check}
-                            span #{header.free_trial}
-                        p #{form.change_form}
-                        p #{modal.footer.accept}
-                            a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
-                            | .
-        // WHY
-        .features
-            .container
-                .features-grids.text-center.animated.zoomIn
-                    .col-md-4
-                        .features-grid.centerImg
-                            img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.png', alt='')
-                            span.f-icon
-                            label
-                            h3 !{home.why.grow}
-                    .col-md-4
-                        .features-grid.centerImg
-                            img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.png', alt='')
-                            span.f-icon1
-                            label
-                            h3 !{home.why.loyal}
-                    .col-md-4
-                        .features-grid.centerImg
-                            img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.png', alt='')
-                            span.f-icon2
-                            label
-                            h3 !{home.why.others}
-                    .clearfix
-        // SAMPLES
-        #tabs.container.scrollspy
+block content
+    // SLIDER
+    .slider
+        .mainHead
+            h1 #{home.slider.intro1}
+                span.element
+            h2 !{home.slider.intro2}
+        ul.slides
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bgpymes.jpg', alt='#{home.slider.bg}')
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bgrestaurant.jpg', alt='#{home.slider.bg}')
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}')
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bgstores.jpg', alt='#{home.slider.bg}')
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bglandscape.jpg', alt='#{home.slider.bg}')
+    // FORM "TRY FREE 15 DAYS"
+    .col-xs-12.col-md-5.right.formPhone.animated.fadeIn
+        .row.registerTop
+            .headReg
+                h2 !{form.free_form}
+            form(name="register", action="/register", method="post").col.s12
+                input(type="hidden", name="customerType", value="UPPLICATION")
+                p.error.general-error.display-none #{register.error.general}
+                .row
+                    .input-field.col.s12
+                        input#app_name.validate(type='text', name='appName', required)
+                        label(for='app_name') #{form.input.name}
+                            p.error.display-none.register-appName-error
+                    .input-field.col.s12
+                        input#email.validate(type='email', name='email', required)
+                        label(for='email') #{form.input.email}
+                            p.error.display-none.register-email-error
+                    .input-field.col.s12
+                        input#password.validate(type='password', name='password', required)
+                        label(for='password') #{form.input.pass}
+                            p.error.display-none.register-password-error
+                .btnReg
+                    button(type="submit", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
+                        i.material-icons.left.check #{icons.check}
+                        span #{header.free_trial}
+                    p #{form.change_form}
+                    p #{modal.footer.accept}
+                        a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
+                        | .
+    // WHY
+    .features
+        .container
+            .features-grids.text-center.animated.zoomIn
+                .col-md-4
+                    .features-grid.centerImg
+                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.png', alt='')
+                        span.f-icon
+                        label
+                        h3 !{home.why.grow}
+                .col-md-4
+                    .features-grid.centerImg
+                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.png', alt='')
+                        span.f-icon1
+                        label
+                        h3 !{home.why.loyal}
+                .col-md-4
+                    .features-grid.centerImg
+                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.png', alt='')
+                        span.f-icon2
+                        label
+                        h3 !{home.why.others}
+                .clearfix
+    // SAMPLES
+    #tabs.container.scrollspy
+        .row
+            .plans-head.text-center
+                h4.headTitles #{home.samples.business}
+        .section
+            .row
+                .col.s12
+                    ul.tabs
+                        li.tab.col.s6.l3
+                            a.active(href='#host')
+                                i.fa.fa-cutlery
+                                span #{home.samples.restaurants}
+                        li.tab.col.s6.l3
+                            a(href='#tiendas')
+                                i.fa.fa-shopping-cart
+                                span #{home.samples.shops}
+                        li.tab.col.s6.l3
+                            a(href='#servprof')
+                                i.fa.fa-wrench
+                                span !{home.samples.serv}
+                        li.tab.col.s6.l3
+                            a(href='#personal')
+                                i.fa.fa-cog
+                                span #{home.samples.personal}
+                #host.col.s12
+                    .row.padTop50
+                        .col.s12.l4.mobileImg
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
+                        .col.s12.l7.margTop50.mobileText
+                            h5 !{home.samples.rest.rest_intro}
+                            ul.uppOnFoot(type='circle')
+                                li
+                                    a(href='')
+                                        i.fa.fa-check
+                                        !{home.samples.rest.details1}
+                                li
+                                    a(href='')
+                                        i.fa.fa-check
+                                        !{home.samples.rest.details2}
+                                li
+                                    a(href='')
+                                        i.fa.fa-check
+                                        !{home.samples.rest.details3}
+                                li
+                                    a(href='')
+                                        i.fa.fa-check
+                                        !{home.samples.rest.details4}
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
+                                i.left.fa.fa-cog.fa-spin
+                                span #{home.samples.free_app}
+                #tiendas.col.s12
+                    .row.padTop50
+                        .col.s12.l4.mobileImg
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='#{home.samples.alt_tag.img_nexus}')
+                        .col.s12.l7.margTop50.mobileText
+                            h5 !{home.samples.shop.shop_intro}
+                                | .
+                            ul.uppOnFoot(type='circle')
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.shop.shop_details1}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.shop.shop_details2}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.shop.shop_details3}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.shop.shop_details4}
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
+                                i.left.fa.fa-cog.fa-spin
+                                span #{home.samples.free_app}
+                #servprof.col.s12
+                    .row.padTop50
+                        .col.s12.l4.mobileImg
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='#{home.samples.alt_tag.img_galaxy}')
+                        .col.s12.l7.margTop50.mobileText
+                            h5 !{home.samples.services.serv_intro}
+                            ul.uppOnFoot(type='circle')
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.services.serv_details1}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.services.serv_details2}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.services.serv_details3}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.services.serv_details4}
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
+                                i.left.fa.fa-cog.fa-spin
+                                span #{home.samples.free_app}
+                #personal.col.s12
+                    .row.padTop50
+                        .col.s12.l4.mobileImg
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', alt='#{home.samples.alt_tag.img_xperia}')
+                        .col.s12.l7.margTop50.mobileText
+                            h5 !{home.samples.custom.cust_intro}
+                            ul.uppOnFoot(type='circle')
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.custom.cust_details1}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.custom.cust_details2}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.custom.cust_details3}
+                                li
+                                    a(href='#!')
+                                        i.fa.fa-check
+                                        !{home.samples.custom.cust_details4}
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
+                                i.left.fa.fa-cog.fa-spin
+                                span #{home.samples.free_app}
+    // HOW I MADE MY OWN APP in 4 Steps
+    section#about.scrollspy
+        .container
             .row
                 .plans-head.text-center
-                    h4.headTitles #{home.samples.business}
-            .section
+                    h4.headTitles #{home.how.how_main}
+            .row
+                .col-lg-12
+                    ul.timeline
+                        li.step1
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/keyboard.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading
+                                        span 1
+                                        !{home.how.how_one.reg_step1}
+                                .timeline-body
+                                    p.text-muted
+                                        span #{home.how.how_one.reg_step2}
+                                    p.text-muted #{home.how.how_one.reg_step3}
+                        li.timeline-inverted.step2
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/register.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading
+                                        span 2
+                                        !{home.how.how_two.app_step1}
+                                .timeline-body
+                                    p.text-muted !{home.how.how_two.app_step2}
+                                    p.text-muted !{home.how.how_two.app_step3}
+                                    p.text-muted !{home.how.how_two.app_step4}
+                        li.step3
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/light.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading
+                                        span 3
+                                        !{home.how.how_three.tutor_step1}
+                                .timeline-body
+                                    p.text-muted !{home.how.how_three.tutor_step2}
+                                    p.text-muted !{home.how.how_three.tutor_step3}
+                        li.timeline-inverted.step4
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/bullhorn.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading
+                                        span 4
+                                        !{home.how.how_four.publish_step1}
+                                .timeline-body
+                                    p.text-muted !{home.how.how_four.publish_step2}
+                                    p.text-muted !{home.how.how_four.publish_step3}
+                        // li.timeline-inverted.step5
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/app.png', alt='')
+                        // .col.s12.m4.offset-m4.appReady
+                            h4
+                                i.fa.fa-exclamation
+                                | !{home.how.app_ready}
+                                i.fa.fa-exclamation
+
+    // SLIDER 2
+    .slider.middle-page-slider
+        .app-ready.center
+            h4 #{home.slider.appready}
+        ul.slides
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bgstairs.jpg', alt='#{home.slider.bg}')
+            li
+                img(src='#{localConfig.base_path}/images/home/bg/bgbridge.jpg', alt='#{home.slider.bg}')
+    // CLIENTS
+    .clients
+        .container
+            // PRICING PLANS
+            #pricing.pricing-tables.scrollspy
+                .plans-head.text-center
+                    h4.headTitles.noMargBot #{home.rates.rate_intro}
+                    p #{home.rates.rate_sub}
+                    .col-xs-12.col-sm-offset-3.col-sm-8.incluye
+                        ul
+                            li
+                                i.fa.fa-commenting-o
+                                | #{home.rates.sub1}
+                            li
+                                i.fa.fa-shopping-cart
+                                | #{home.rates.sub2}
+                            li
+                                i.fa.fa-tablet
+                                | #{home.rates.sub3}
+                            li
+                                i.fa.fa-graduation-cap
+                                | #{home.rates.sub4}
+                    .clearfix
                 .row
-                    .col.s12
+                    .col.s12.offset-m2.m8
                         ul.tabs
-                            li.tab.col.s6.l3
-                                a.active(href='#host')
-                                    i.fa.fa-cutlery
-                                    span #{home.samples.restaurants}
-                            li.tab.col.s6.l3
-                                a(href='#tiendas')
-                                    i.fa.fa-shopping-cart
-                                    span #{home.samples.shops}
-                            li.tab.col.s6.l3
-                                a(href='#servprof')
-                                    i.fa.fa-wrench
-                                    span !{home.samples.serv}
-                            li.tab.col.s6.l3
-                                a(href='#personal')
-                                    i.fa.fa-cog
-                                    span #{home.samples.personal}
-                    #host.col.s12
-                        .row.padTop50
-                            .col.s12.l4.mobileImg
-                                img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
-                            .col.s12.l7.margTop50.mobileText
-                                h5 !{home.samples.rest.rest_intro}
-                                ul.uppOnFoot(type='circle')
-                                    li
-                                        a(href='')
-                                            i.fa.fa-check
-                                            !{home.samples.rest.details1}
-                                    li
-                                        a(href='')
-                                            i.fa.fa-check
-                                            !{home.samples.rest.details2}
-                                    li
-                                        a(href='')
-                                            i.fa.fa-check
-                                            !{home.samples.rest.details3}
-                                    li
-                                        a(href='')
-                                            i.fa.fa-check
-                                            !{home.samples.rest.details4}
-                                a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.left.fa.fa-cog.fa-spin
-                                    span #{home.samples.free_app}
-                    #tiendas.col.s12
-                        .row.padTop50
-                            .col.s12.l4.mobileImg
-                                img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='#{home.samples.alt_tag.img_nexus}')
-                            .col.s12.l7.margTop50.mobileText
-                                h5 !{home.samples.shop.shop_intro}
-                                    | .
-                                ul.uppOnFoot(type='circle')
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.shop.shop_details1}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.shop.shop_details2}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.shop.shop_details3}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.shop.shop_details4}
-                                a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.left.fa.fa-cog.fa-spin
-                                    span #{home.samples.free_app}
-                    #servprof.col.s12
-                        .row.padTop50
-                            .col.s12.l4.mobileImg
-                                img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='#{home.samples.alt_tag.img_galaxy}')
-                            .col.s12.l7.margTop50.mobileText
-                                h5 !{home.samples.services.serv_intro}
-                                ul.uppOnFoot(type='circle')
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.services.serv_details1}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.services.serv_details2}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.services.serv_details3}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.services.serv_details4}
-                                a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.left.fa.fa-cog.fa-spin
-                                    span #{home.samples.free_app}
-                    #personal.col.s12
-                        .row.padTop50
-                            .col.s12.l4.mobileImg
-                                img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', alt='#{home.samples.alt_tag.img_xperia}')
-                            .col.s12.l7.margTop50.mobileText
-                                h5 !{home.samples.custom.cust_intro}
-                                ul.uppOnFoot(type='circle')
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.custom.cust_details1}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.custom.cust_details2}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.custom.cust_details3}
-                                    li
-                                        a(href='#!')
-                                            i.fa.fa-check
-                                            !{home.samples.custom.cust_details4}
-                                a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
-                                    i.left.fa.fa-cog.fa-spin
-                                    span #{home.samples.free_app}
-        // HOW I MADE MY OWN APP in 4 Steps
-        section#about.scrollspy
-            .container
-                .row
-                    .plans-head.text-center
-                        h4.headTitles #{home.how.how_main}
-                .row
-                    .col-lg-12
-                        ul.timeline
-                            li.step1
-                                .timeline-image
-                                    img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/keyboard.png', alt='')
-                                .timeline-panel
-                                    .timeline-heading
-                                        h4.subheading
-                                            span 1
-                                            !{home.how.how_one.reg_step1}
-                                    .timeline-body
-                                        p.text-muted
-                                            span #{home.how.how_one.reg_step2}
-                                        p.text-muted #{home.how.how_one.reg_step3}
-                            li.timeline-inverted.step2
-                                .timeline-image
-                                    img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/register.png', alt='')
-                                .timeline-panel
-                                    .timeline-heading
-                                        h4.subheading
-                                            span 2
-                                            !{home.how.how_two.app_step1}
-                                    .timeline-body
-                                        p.text-muted !{home.how.how_two.app_step2}
-                                        p.text-muted !{home.how.how_two.app_step3}
-                                        p.text-muted !{home.how.how_two.app_step4}
-                            li.step3
-                                .timeline-image
-                                    img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/light.png', alt='')
-                                .timeline-panel
-                                    .timeline-heading
-                                        h4.subheading
-                                            span 3
-                                            !{home.how.how_three.tutor_step1}
-                                    .timeline-body
-                                        p.text-muted !{home.how.how_three.tutor_step2}
-                                        p.text-muted !{home.how.how_three.tutor_step3}
-                            li.timeline-inverted.step4
-                                .timeline-image
-                                    img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/bullhorn.png', alt='')
-                                .timeline-panel
-                                    .timeline-heading
-                                        h4.subheading
-                                            span 4
-                                            !{home.how.how_four.publish_step1}
-                                    .timeline-body
-                                        p.text-muted !{home.how.how_four.publish_step2}
-                                        p.text-muted !{home.how.how_four.publish_step3}
-                            // li.timeline-inverted.step5
-                                .timeline-image
-                                    img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/app.png', alt='')
-                            // .col.s12.m4.offset-m4.appReady
-                                h4
-                                    i.fa.fa-exclamation
-                                    | !{home.how.app_ready}
-                                    i.fa.fa-exclamation
-                                    
-        // SLIDER 2
-        .slider.middle-page-slider
-            .app-ready.center
-                h4 #{home.slider.appready}
-            ul.slides
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgstairs.jpg', alt='#{home.slider.bg}')
-                li
-                    img(src='#{localConfig.base_path}/images/home/bg/bgbridge.jpg', alt='#{home.slider.bg}')
-        // CLIENTS
-        .clients
-            .container
-                // PRICING PLANS
-                #pricing.pricing-tables.scrollspy
-                        .plans-head.text-center
-                            h4.headTitles.noMargBot #{home.rates.rate_intro}
-                            p #{home.rates.rate_sub}
-                            .col-xs-12.col-sm-offset-3.col-sm-8.incluye
+                            li.tab.col.s12.m6
+                                a.active(href='#mensual') !{home.rates.monthly}
+                            li.tab.col.s12.m6
+                                a(href='#anual') !{home.rates.yearly}
+                    // Plan Mensual
+                    #mensual.col.s12
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{home.rates.basic}
                                 ul
                                     li
-                                        i.fa.fa-commenting-o
-                                        | #{home.rates.sub1}
+                                        span
+                                            | 9,95
+                                            em #{home.rates.euro_month}
                                     li
-                                        i.fa.fa-shopping-cart
-                                        | #{home.rates.sub2}
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
                                     li
-                                        i.fa.fa-tablet
-                                        | #{home.rates.sub3}
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
                                     li
-                                        i.fa.fa-graduation-cap
-                                        | #{home.rates.sub4}
-                            .clearfix
-                        .row
-                            .col.s12.offset-m2.m8
-                                ul.tabs
-                                    li.tab.col.s12.m6
-                                        a.active(href='#mensual') !{home.rates.monthly}
-                                    li.tab.col.s12.m6
-                                        a(href='#anual') !{home.rates.yearly}
-                            // Plan Mensual
-                            #mensual.col.s12
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 #{home.rates.basic}
-                                        ul
-                                            li
-                                                span
-                                                    | 9,95
-                                                    em #{home.rates.euro_month}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.sign}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell-slash
-                                                    | !{home.rates.no_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .col-xs-12.col-md-3.mobilePrices
-                                    img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
-                                    .pricing-table-grid.with-hover
-                                        h3 #{home.rates.proff}
-                                        ul
-                                            li
-                                                span
-                                                    | 29,95
-                                                    em #{home.rates.euro_month}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.no_bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.no_sign}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    | !{home.rates.four_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 #{home.rates.premiun}
-                                        ul
-                                            li
-                                                span
-                                                    | 59,95
-                                                    em #{home.rates.euro_month}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.no_bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.no_sign}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    | !{home.rates.all_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 #{home.rates.unlimited}
-                                        ul
-                                            li
-                                                span
-                                                    | 299,95
-                                                    em #{home.rates.euro_month}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.no_bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-object-ungroup
-                                                    | !{home.rates.no_templates}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    | !{home.rates.all_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .clearfix
-                            // Plan Anual
-                            #anual.col.s12
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 #{home.rates.basic}
-                                        ul
-                                            li
-                                                span
-                                                    | 99,50
-                                                    em #{home.rates.euro_year}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.sign}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell-slash
-                                                    | !{home.rates.no_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .col-xs-12.col-md-3.mobilePrices
-                                    img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
-                                    .pricing-table-grid.with-hover
-                                        h3 #{home.rates.proff}
-                                        ul
-                                            li
-                                                span
-                                                    | 299,50
-                                                    em #{home.rates.euro_year}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.no_bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.no_sign}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    | !{home.rates.four_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 #{home.rates.premiun}
-                                        ul
-                                            li
-                                                span
-                                                    | 599,50
-                                                    em #{home.rates.euro_year}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.no_bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-pencil
-                                                    | !{home.rates.no_sign}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    | !{home.rates.all_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .col-xs-12.col-md-3.mobilePrices
-                                    .pricing-table-grid
-                                        h3 #{home.rates.unlimited}
-                                        ul
-                                            li
-                                                span
-                                                    |2999,50
-                                                    em #{home.rates.euro_year}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-desktop
-                                                    i.fa.fa-android
-                                                    i.fa.fa-apple
-                                                    | #{home.rates.app_web}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bar-chart
-                                                    | !{home.rates.statistics}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bullhorn
-                                                    | !{home.rates.no_bullhorn}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-object-ungroup
-                                                    | !{home.rates.no_templates}
-                                            li
-                                                a(href='#')
-                                                    i.fa.fa-bell
-                                                    | !{home.rates.all_push}
-                                        a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
-                                .clearfix
-                                .col-xs-12
-                                    .alert.alert-info(role='alert')
-                                        span.fa-stack.fa-lg
-                                            i.fa.fa-money.fa-stack-1x
-                                            i.fa.fa-ban.fa-stack-2x
-                                        span.monthless !{home.rates.monthless}
-                        .col-xs-12.tax.center
-                            p
-                                i.fa.fa-asterisk
-                                | !{home.rates.with_tax}
-                // CLIENTS TESTIMONIALS
-                .c-testmonials
-                    .text-center.marBot100
-                        h4.headTitles #{home.testimonials.title}
-                    .c-testmonial-grid
-                        .c-testmonial-grid-info
-                            p
-                                span #{home.testimonials.client1.cite}
-                            a(href='#{home.testimonials.client1.url}', target='_blank', title='#{home.testimonials.client1.name}') - #{home.testimonials.client1.name}
-                        .c-testmonial-grid-pic
-                            img(src='#{localConfig.base_path}/images/home/clients/ana.png', title='name')
-                    .c-testmonial-grid
-                        .c-testmonial-grid-info
-                            p
-                                span #{home.testimonials.client2.cite}
-                            a(href='#{home.testimonials.client2.url}', target='_blank', title='#{home.testimonials.client2.name}') - #{home.testimonials.client2.name}
-                        .c-testmonial-grid-pic
-                            img(src='#{localConfig.base_path}/images/home/clients/david.png', title='name')
-                    .c-testmonial-grid
-                        .c-testmonial-grid-info
-                            p
-                                span #{home.testimonials.client3.cite}
-                            a(href='#{home.testimonials.client3.url}', target='_blank', alt='#{home.testimonials.client3.name}') - #{home.testimonials.client3.name}
-                        .c-testmonial-grid-pic
-                            img(src='#{localConfig.base_path}/images/home/clients/gabriel.png', title='name')
-        // CLIENTS, TRIAL, CONTACT and FOOTER
-        include ./includes/footer.jade
-        #cookies
-            i#cookies-accept.fa.fa-times.close
-            p !{footer.cookies}
-        // vendor js
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
-        // endvendor
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{home.rates.sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell-slash
+                                            | !{home.rates.no_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
+                            .pricing-table-grid.with-hover
+                                h3 #{home.rates.proff}
+                                ul
+                                    li
+                                        span
+                                            | 29,95
+                                            em #{home.rates.euro_month}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{home.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{home.rates.four_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{home.rates.premiun}
+                                ul
+                                    li
+                                        span
+                                            | 59,95
+                                            em #{home.rates.euro_month}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{home.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{home.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{home.rates.unlimited}
+                                ul
+                                    li
+                                        span
+                                            | 299,95
+                                            em #{home.rates.euro_month}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-object-ungroup
+                                            | !{home.rates.no_templates}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{home.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .clearfix
+                    // Plan Anual
+                    #anual.col.s12
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{home.rates.basic}
+                                ul
+                                    li
+                                        span
+                                            | 99,50
+                                            em #{home.rates.euro_year}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{home.rates.sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell-slash
+                                            | !{home.rates.no_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
+                            .pricing-table-grid.with-hover
+                                h3 #{home.rates.proff}
+                                ul
+                                    li
+                                        span
+                                            | 299,50
+                                            em #{home.rates.euro_year}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{home.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{home.rates.four_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{home.rates.premiun}
+                                ul
+                                    li
+                                        span
+                                            | 599,50
+                                            em #{home.rates.euro_year}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{home.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{home.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{home.rates.unlimited}
+                                ul
+                                    li
+                                        span
+                                            | 2999,50
+                                            em #{home.rates.euro_year}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-desktop
+                                            i.fa.fa-android
+                                            i.fa.fa-apple
+                                            | #{home.rates.app_web}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{home.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{home.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-object-ungroup
+                                            | !{home.rates.no_templates}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{home.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
+                        .clearfix
+                        .col-xs-12
+                            .alert.alert-info(role='alert')
+                                span.fa-stack.fa-lg
+                                    i.fa.fa-money.fa-stack-1x
+                                    i.fa.fa-ban.fa-stack-2x
+                                span.monthless !{home.rates.monthless}
+                .col-xs-12.tax.center
+                    p
+                        i.fa.fa-asterisk
+                        | !{home.rates.with_tax}
+            // CLIENTS TESTIMONIALS
+            .c-testmonials
+                .text-center.marBot100
+                    h4.headTitles #{home.testimonials.title}
+                .c-testmonial-grid
+                    .c-testmonial-grid-info
+                        p
+                            span #{home.testimonials.client1.cite}
+                        a(href='#{home.testimonials.client1.url}', target='_blank', title='#{home.testimonials.client1.name}') - #{home.testimonials.client1.name}
+                    .c-testmonial-grid-pic
+                        img(src='#{localConfig.base_path}/images/home/clients/ana.png', title='name')
+                .c-testmonial-grid
+                    .c-testmonial-grid-info
+                        p
+                            span #{home.testimonials.client2.cite}
+                        a(href='#{home.testimonials.client2.url}', target='_blank', title='#{home.testimonials.client2.name}') - #{home.testimonials.client2.name}
+                    .c-testmonial-grid-pic
+                        img(src='#{localConfig.base_path}/images/home/clients/david.png', title='name')
+                .c-testmonial-grid
+                    .c-testmonial-grid-info
+                        p
+                            span #{home.testimonials.client3.cite}
+                        a(href='#{home.testimonials.client3.url}', target='_blank', alt='#{home.testimonials.client3.name}') - #{home.testimonials.client3.name}
+                    .c-testmonial-grid-pic
+                        img(src='#{localConfig.base_path}/images/home/clients/gabriel.png', title='name')
 
-        // build:js /scripts/app.v2.min.js
-        script(type="text/javascript", src='/scripts/ua.js')
-        script(type="text/javascript", src='/scripts/topic.js')
-        script(type="text/javascript", src='/scripts/scroll.js')
-        script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/v2/register.js')
-        script(type="text/javascript", src='/scripts/v2/lang.js')
-        // endbuild
-        script.
-            $(function () {
-                $(".element").typed({
-                    strings: !{JSON.stringify(home.slider.text)},
-                    typeSpeed: 100,
-                    startDelay: 200,
-                    backDelay: 2500,
-                    loop: true
-                });
-            });
-        // smooth scrolling
-        script(type='text/javascript').
-            $(document).ready(function () {
-                $("#clientsCarousel").owlCarousel({
-                    autoPlay: 3000, // Set AutoPlay to 3 seconds
-                    items: 4,
-                    itemsDesktop: [1199, 3],
-                    itemsDesktopSmall: [979, 3]
-                });
-                $('.scrollspy').scrollSpy();
-                $('ul.tabs').tabs();
-                $('.modal-trigger').leanModal({
-                    opacity: .7
-                });
-                $('.parallax').parallax();
-                $(".button-collapse").sideNav();
-                $('.slider').slider({
-                    indicators: false,
-                    interval: 4000
-                });
-                var options = [
-                    {selector: '#tabs', offset: 300, callback: 'Materialize.showStaggeredList("#tabs")'},
-                    {selector: '#about', offset: 300, callback: 'Materialize.showStaggeredList(".timeline")'},
-                    {selector: '#pricing', offset: 300, callback: 'Materialize.showStaggeredList(".incluye")'},
-                ];
-                Materialize.scrollFire(options);
-                // Animate.css for web elements:
-                var $imgMove = $('.imgMove'),
-                        $imgFlash = $('.imgFlash');
-                $imgMove.mouseenter(function () {
-                    $(this).addClass("animated");
-                    $(this).addClass("pulse");
-                });
-                $imgMove.mouseleave(function () {
-                    $(this).removeClass("animated");
-                    $(this).removeClass("pulse");
-                });
-                $imgFlash.mouseenter(function () {
-                    $(this).addClass("animated");
-                    $(this).addClass("rubberBand");
-                });
-                $imgFlash.mouseleave(function () {
-                    $(this).removeClass("animated");
-                    $(this).removeClass("rubberBand");
-                });
-                $('.social-share').click(function () {
-                    $(".social-nav").toggleClass("social-show");
-                });
-                $('#cookies-accept').click(function () {
-                    $("#habla_window_div").addClass("bottomFix");
-                });
-                $('.lang-link').dropdown({
-                      inDuration: 300,
-                      outDuration: 225,
-                      constrain_width: false,
-                      gutter: 0,
-                      belowOrigin: false,
-                      alignment: 'left'
-                    }
-                  );
-            });
-        // START MOBILE TOP NAVIGATION MENU
-        script.
-            $(function () {
-                var $pull = $('#pull');
-                menu = $('nav ul');
-                menuHeight = menu.height();
-                $pull.on('click', function (e) {
-                    e.preventDefault();
-                    menu.slideToggle();
-                });
-                $(window).resize(function () {
-                    var w = $(window).width();
-                    if (w > 320 && menu.is(':hidden')) {
-                        menu.removeAttr('style');
-                    }
-                });
-                $pull.click(function () {
-                    $(".hide-ul").removeClass("hide-tabs");
-                });
-                var windowWidth = $(window).width();
-                if(windowWidth < 769){
-                    $('.hide-tab').click(function () {
-                        $(".hide-ul").addClass("hide-tabs");
-                    });
-                }
-            });
+block scripts
 
-        include base/scripts-thirdparties
+    script(type='text/javascript').
+        $(function () {
+            $(".element").typed({
+                strings: !{JSON.stringify(home.slider.text)},
+                typeSpeed: 100,
+                startDelay: 200,
+                backDelay: 2500,
+                loop: true
+            });
+        });
+
+    // custom js
+    script(type='text/javascript').
+        $(document).ready(function () {
+            $('ul.tabs').tabs();
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators: false,
+                interval: 4000
+            });
+            var options = [
+                {selector: '#tabs', offset: 300, callback: 'Materialize.showStaggeredList("#tabs")'},
+                {selector: '#about', offset: 300, callback: 'Materialize.showStaggeredList(".timeline")'},
+                {selector: '#pricing', offset: 300, callback: 'Materialize.showStaggeredList(".incluye")'},
+            ];
+            Materialize.scrollFire(options);
+            // Animate.css for web elements:
+            var $imgMove = $('.imgMove'),
+                    $imgFlash = $('.imgFlash');
+            $imgMove.mouseenter(function () {
+                $(this).addClass("animated");
+                $(this).addClass("pulse");
+            });
+            $imgMove.mouseleave(function () {
+                $(this).removeClass("animated");
+                $(this).removeClass("pulse");
+            });
+            $imgFlash.mouseenter(function () {
+                $(this).addClass("animated");
+                $(this).addClass("rubberBand");
+            });
+            $imgFlash.mouseleave(function () {
+                $(this).removeClass("animated");
+                $(this).removeClass("rubberBand");
+            });
+            // end home
+        });

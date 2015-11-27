@@ -1,0 +1,212 @@
+block vars
+
+doctype html
+
+//if lt IE 7
+  <html class="ie ie6 no-js" lang="#{lang}" data-lang="#{lang}">
+//if IE 7
+  <html class="ie ie7 no-js" lang="#{lang}" data-lang="#{lang}">
+//if IE 8
+  <html class="ie ie8 no-js" lang="#{lang}" data-lang="#{lang}">
+//if IE 9
+  <html class="ie ie9 no-js" lang="#{lang}" data-lang="#{lang}">
+// [if gt IE 9] <!
+html.no-js(lang='#{lang}', data-lang="#{lang}")
+    // <![endif]
+    head
+
+        include ../scripts
+
+        title #{title}
+        meta(name='description', content='#{description}')
+        meta(name='keywords', content='#{keywords}')
+        meta(name='author', content='Upplication Software Technologies, S.L.')
+        // Favicon
+        link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
+        link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
+        link(rel='apple-touch-icon', sizes='72x72', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-72x72.png')
+        link(rel='apple-touch-icon', sizes='76x76', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-76x76.png')
+        link(rel='apple-touch-icon', sizes='114x114', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-114x114.png')
+        link(rel='apple-touch-icon', sizes='120x120', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-120x120.png')
+        link(rel='apple-touch-icon', sizes='144x144', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-144x144.png')
+        link(rel='apple-touch-icon', sizes='152x152', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-152x152.png')
+        link(rel='apple-touch-icon', sizes='180x180', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-180x180.png')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-32x32.png', sizes='32x32')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/android-chrome-192x192.png', sizes='192x192')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-96x96.png', sizes='96x96')
+        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
+        link(rel='manifest', href='#{localConfig.base_path}/images/favicon/manifest.json')
+        meta(name='msapplication-TileColor', content='#00a300')
+        meta(name='msapplication-TileImage', content='#{localConfig.base_path}/images/favicon/mstile-144x144.png')
+        meta(name='theme-color', content='#ffffff')
+
+        link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
+
+        // build:css({.tmp, app}) /styles/base.min.css
+        link(rel='stylesheet', href='/styles/css/home/materialize-reserts.css')
+        link(rel='stylesheet', href='/styles/css/home/style.css')
+        link(rel='stylesheet', href='/styles/css/home/upp.css')
+        link(rel='stylesheet', href='/styles/css/home/modals.css')
+        link(rel='stylesheet', href='/styles/css/home/footer.css')
+        link(rel='stylesheet', href='/styles/css/home/cookies.css')
+        link(rel='stylesheet', href='/styles/css/home/mediaqueries.css')
+        // endbuild
+
+        // custom css
+        block css
+
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        // webfonts
+        link(href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
+        link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
+
+    body
+        // MAIN HEADER
+        #home.header
+            #move-top.top-header
+                .container
+                    .logo
+                        a(href='index.html')
+                            img(src='#{localConfig.base_path}/images/home/icons/upplication.png', title='Upplication logo')
+                    nav.top-nav
+                        ul.top-nav.hide-ul
+                            li
+                                each language in langs.codes
+                                    if lang == language.language_country
+                                        a.lang-link(href="#", data-activates='dropdown-lang')
+                                            i.fa.fa-globe
+                                            | !{language.language_short_code}
+                                ul#dropdown-lang.dropdown-content
+                                    each lang in langs.codes
+                                        a.hide-tab.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                            li
+                                a.hide-tab(href='#about', title='') #{header.nav.how}
+                            li
+                                a.hide-tab(href='#tabs', title='') #{header.nav.apps}
+                            li
+                                a.hide-tab(href='#pricing', title='') #{header.nav.prices}
+                            li
+                                a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
+                            li.only-show-small-devises.phone-kerning
+                                a #{header.telephone}
+                            li.only-show-small-devises
+                                a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
+                            li.enter-bold
+                                a.hide-tab(href="#{$.external.dashboard.url}")
+                                    i.fa.fa-lock
+                                    | #{header.enter}
+                        a#pull(href='')
+                            img(src='#{localConfig.base_path}/images/home/icons/nav-icon.png', title='menu')
+                    .contact-info
+                        .contact-info-grids
+                            .contact-info-left
+                                a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
+                            .contact-info-right
+                                a.modal-trigger(href='#allContact') #{header.telephone}
+                                a.support(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}') #{helpcenter.customer_service.email.title}
+                            .clearfix
+                    .clearfix
+        // MODAL PRUEBA GRATIS
+        #pruebaGratis.modal
+            include ../../includes/modal-free.jade
+        // MODAL CONTACT
+        #allContact.modal
+            include ../../includes/modal-contact.jade
+
+        // CONTENT
+        block content
+
+        // CLIENTS, TRIAL, CONTACT and FOOTER
+        include ../../includes/footer.jade
+        #cookies
+            i#cookies-accept.fa.fa-times.close
+            p !{footer.cookies}
+        // vendor js
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
+        // endvendor
+
+        // build:js /scripts/app.v2.min.js
+        script(type="text/javascript", src='/scripts/ua.js')
+        script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/scroll.js')
+        script(type="text/javascript", src='/scripts/v2/cookies.js')
+        script(type="text/javascript", src='/scripts/v2/register.js')
+        script(type="text/javascript", src='/scripts/v2/lang.js')
+        // endbuild
+        // smooth scrolling
+        script(type='text/javascript').
+            $(document).ready(function () {
+                $("#clientsCarousel").owlCarousel({
+                    autoPlay: 3000, // Set AutoPlay to 3 seconds
+                    items: 4,
+                    itemsDesktop: [1199, 3],
+                    itemsDesktopSmall: [979, 3]
+                });
+
+                $('.scrollspy').scrollSpy();
+                //
+
+                $('.modal-trigger').leanModal({
+                    opacity: .7
+                });
+
+                $(".button-collapse").sideNav();
+
+
+                $('.social-share').click(function () {
+                    $(".social-nav").toggleClass("social-show");
+                });
+                $('#cookies-accept').click(function () {
+                    $("#habla_window_div").addClass("bottomFix");
+                });
+                $('.lang-link').dropdown({
+                      inDuration: 300,
+                      outDuration: 225,
+                      constrain_width: false,
+                      gutter: 0,
+                      belowOrigin: false,
+                      alignment: 'left'
+                    }
+                  );
+            });
+        // START MOBILE TOP NAVIGATION MENU
+        script.
+            $(function () {
+                var $pull = $('#pull');
+                menu = $('nav ul');
+                menuHeight = menu.height();
+                $pull.on('click', function (e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+                $(window).resize(function () {
+                    var w = $(window).width();
+                    if (w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    }
+                });
+                $pull.click(function () {
+                    $(".hide-ul").removeClass("hide-tabs");
+                });
+                var windowWidth = $(window).width();
+                if(windowWidth < 769){
+                    $('.hide-tab').click(function () {
+                        $(".hide-ul").addClass("hide-tabs");
+                    });
+                }
+            });
+
+        // end scripts
+        block scripts
+
+        include ../scripts-thirdparties
