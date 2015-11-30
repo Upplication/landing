@@ -1,10 +1,16 @@
 {
   "header": {
+    "logo": {
+      "url": "@@config.base_path/images/home/icons/upplication.png",
+      "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png",
+      "title": "Upplication Logo",
+      "title_xmas": "Upplication Xmas Logo"
+    },
     "menu": "menu",
     "nav": {
       "apps": "SAMPLE APPS",
       "prices": "PRICING",
-      "how": "HOW DO I CREATE MY APP",
+      "how": "<span>HOW DO I</span> CREATE MY APP",
       "contact": "Contact",
       "legal": {
         "advise": "Disclaimer",
@@ -24,7 +30,8 @@
   "modal": {
     "head": {
       "register_modal": "Sign Up for <span>15 days free trial</span>",
-      "contact_modal": "<span>Contact</span> Us"
+      "contact_modal": "<span>Contact</span> Us",
+      "hiring_modal": "We are <span>hiring</span>"
     },
     "footer": {
       "seller": "Do you have a seller code?",
@@ -59,7 +66,25 @@
     "cookies_use": "Use of Cookies",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
-    "try_it": "Try it <strong>free for 15 days</strong>!"
+    "try_it": "Try it <strong>free for 15 days</strong>!",
+    "partners": {
+      "eu": {
+        "url": "http://ec.europa.eu/regional_policy/es/funding/erdf/",
+        "title": "EU regional development fund"
+      },
+      "mixpanel": {
+        "url": "https://mixpanel.com/",
+        "title": "Mixpanel mobile analytics"
+      },
+      "telefonica": {
+        "url": "http://info.telefonica.es/portada/index.html",
+        "title": "Telefónica, telecommunications company"
+      },
+      "wayra": {
+        "url": "http://wayra.co/en",
+        "title": "Wayra, Telefónica's startup accelerator"
+      }
+    }
   },
   "register": {
     "error": {
@@ -828,26 +853,21 @@
       "anchor": "Login",
       "url": "http://www.aplicateca.es/upplication"
     },
+    "hiring": "We are hiring!",
     "hiring_developer": {
-      "anchor": "Prácticas de desarrollador",
-      "url": "@@config.base_path/offer-trainee-developer/"
+      "anchor": "Developer intern",
+      "url": "http://www.upplication.com/offer-trainee-developer/"
     },
     "hiring_marketing": {
-      "anchor": "Prácticas de marketing",
-      "url": "@@config.base_path/offer-trainee-marketing/"
+      "anchor": "Marketing intern",
+      "url": "http://upplication.com/offer-trainee-marketing/"
     },
     "hiring_frontend":{
-      "anchor":"Frontend Developer",
-      "title":"We are hiring developers!",
+      "anchor":"Frontend developer",
       "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
     },
-    "hiring_marketing":{
-      "anchor":"Salesman & Marketing",
-      "title":"We are hiring salesmen!",
-      "url":"http://www.upplication.com/oferta-practicas-marketing/"
-    },
     "hiring_backend":{
-      "anchor":"Backend Developer",
+      "anchor":"Backend developer",
       "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
     },
     "nubo": {

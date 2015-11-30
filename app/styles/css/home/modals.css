@@ -24,8 +24,7 @@ a.modal-action.modal-close:hover {
   color: #333;
 }
 
-#pruebaGratis.modal,
-#allContact.modal {
+.modal.modal-upp {
   overflow-y: auto;
   background-color: #ffffff;
   top: 0 !important;
@@ -42,8 +41,12 @@ a.modal-action.modal-close:hover {
   max-width: 700px;
 }
 
-#pruebaGratis.modal a.modal-action.modal-close,
-#allContact.modal a.modal-action.modal-close {
+#hiring.modal {
+  max-height: 460px;
+  max-width: 700px;
+}
+
+.modal.modal-upp a.modal-action.modal-close {
   float: inherit;
   padding: 5px;
   color: #aaa;
@@ -52,14 +55,12 @@ a.modal-action.modal-close:hover {
   right: 5px;
 }
 
-#pruebaGratis.modal a.modal-action.modal-close i.fa.fa-close,
-#allContact.modal a.modal-action.modal-close i.fa.fa-close {
+.modal.modal-upp a.modal-action.modal-close i.fa.fa-close {
   position: relative;
   bottom: 10px;
 }
 
-#pruebaGratis .modal-content,
-#allContact .modal-content {
+.modal.modal-upp .modal-content {
   border: 0 solid transparent;
   border-radius: 0 !important;
   box-shadow: 0 0 0 rgba(0,0,0,0) !important;
@@ -67,8 +68,7 @@ a.modal-action.modal-close:hover {
   padding: 0;
 }
 
-#pruebaGratis .modal-content h2,
-#allContact .modal-content h2 {
+.modal.modal-upp .modal-content h2 {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-size: 25px;
@@ -78,31 +78,27 @@ a.modal-action.modal-close:hover {
   padding: 15px 0;
 }
 
-#pruebaGratis .modal-content h2:after,
-#allContact .modal-content h2:after {
+.modal.modal-upp .modal-content h2:after {
   content: " ";
   width: 0;
   height: 0;
-  position: relative;
+  position: absolute;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-top: 15px solid #f1f1f1;
   top: 63px;
 }
 
-#pruebaGratis .modal-content h2:after {
-  right: 30%;
+.modal.modal-upp .modal-content h2:after {
+  right: 48%;
 }
 
-#allContact .modal-content h2:after {
-  right: 170px;
-}
-
-#pruebaGratis .modal-content h2 span,
-#allContact .modal-content h2 span {
+.modal.modal-upp .modal-content h2 span {
   font-weight: 500;
   color: #00ca6b;
 }
+
+/* Prueba Gratis :: modal */
 
 #pruebaGratis .modal-content div {
   padding: 5px 15px 0 15px;
@@ -176,9 +172,10 @@ a.modal-action.modal-close:hover {
   }
 }
 
-/* Contact Modal */
+/* Contact :: Modal */
 
-#allContact .modal-content .rrss-modal {
+#allContact .modal-content .rrss-modal,
+#hiring .modal-content .rrss-modal {
   text-align: center;
 }
 
@@ -190,6 +187,10 @@ a.modal-action.modal-close:hover {
 #allContact .modal-content .row:not(.contact-btns) {
   padding: 0 15px 0 15px;
   margin-bottom: 0;
+}
+
+#allContact .modal-content .row.contact-btns > div {
+  margin-bottom: 10px;
 }
 
 #allContact .modal-content .rrss-modal li {
@@ -245,6 +246,71 @@ a.modal-action.modal-close:hover {
 
 #allContact .modal-content .contact-btns a:last-child span {
   text-transform: lowercase;
+}
+
+/* Hiring :: Modal */
+
+#hiring .modal-content .row.hiring-icons {
+  text-align: center;
+}
+
+#hiring .modal-content .row.hiring-icons img {
+  width: 30%;
+  height: auto;
+  padding: 10px 0 20px 0;
+}
+
+#hiring .modal-content .row.contact-btns {
+  padding: 0 15px;
+  margin-top: 0;
+}
+
+#hiring .modal-content .row:not(.contact-btns) {
+  padding: 0 15px 0 15px;
+  margin-bottom: 0;
+}
+
+#hiring .modal-content .row.contact-btns > div {
+  margin-bottom: 10px;
+}
+
+#hiring .modal-content .row.contact-btns > div:nth-child(even) {
+  padding-left: 0;
+}
+
+#hiring .modal-content .contact-btns a {
+  width: 100%;
+  font-size: 18px;
+  font-family: "lato";
+  letter-spacing: 0.04em;
+  text-transform: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  #allContact.modal,
+  #hiring.modal {
+    width: 100%;
+    max-height: 550px;
+  }
+
+  #hiring .modal-content .row.contact-btns > div:nth-child(even) {
+    padding-left: 12px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  #allContact.modal,
+  #hiring.modal {
+    max-height: 360px;
+  }
+
+  #hiring.modal .hiring-icons {
+    display: none;
+  }
+
+  #hiring .modal-content .row.contact-btns {
+    margin-top: 18px;
+  }
 }
 
 /* ... ALERTS ................................................... */

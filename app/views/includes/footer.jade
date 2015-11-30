@@ -80,9 +80,7 @@ footer.page-footer
                                     // li
                                         a(href='#{external.partners.url}', title='#{external.partners.anchor}') #{external.partners.anchor}
                                     li
-                                        a(href='#{external.hiring_frontend.url}', title='#{external.hiring_frontend.title}', target='_blank') #{external.hiring_frontend.title}
-                                    li
-                                        a(href='#{external.hiring_marketing.url}', title='#{external.hiring_marketing.title}', target='_blank') #{external.hiring_marketing.title}
+                                        a.modal-trigger(href='#hiring', title='#{external.hiring}', target='_blank') #{external.hiring}
                                     li
                                         a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
                                     // li
@@ -129,11 +127,14 @@ footer.page-footer
                         .container
                              ul
                                 li
-                                    a(href='http://ec.europa.eu/regional_policy/es/funding/erdf/', target='_blank', title='UE fonde de desarrollo regional')
-                                       img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='UE fonde de desarrollo regional')
+                                    a(href='#{footer.partners.eu.url}', target='_blank', title='#{footer.partners.eu.title}')
+                                       img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='#{footer.partners.eu.title}')
                                 li
-                                    a(href='https://mixpanel.com/', target='_blank', title='Mixpanel mobile analytics')
-                                       img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='Mixpanel mobile analytics')
+                                    a(href='#{footer.partners.mixpanel.url}', target='_blank', title='#{footer.partners.mixpanel.title}')
+                                       img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='#{footer.partners.mixpanel.title}')
                                 li
-                                    a(href='http://info.telefonica.es/portada/index.html', target='_blank', title='Telefónica')
-                                        img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='Telefónica')
+                                    a(href='#{footer.partners.telefonica.url}', target='_blank', title='#{footer.partners.telefonica.title}')
+                                        img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='#{footer.partners.telefonica.title}')
+                                li
+                                    a(href='#{footer.partners.wayra.url}', target='_blank', title='#{footer.partners.wayra.title}')
+                                        img(src='#{localConfig.base_path}/images/home/icons/wayra.png', alt='#{footer.partners.wayra.title}')

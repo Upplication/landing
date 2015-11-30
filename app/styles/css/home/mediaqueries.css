@@ -128,6 +128,12 @@ Copyright 2015
   }
 }
 
+@media only screen and (max-width: 1090px) {
+  .top-nav ul li a span.bahasa-header {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1050px) {
   nav {
     margin-left: 4%;
@@ -154,12 +160,26 @@ Copyright 2015
 
 @media only screen and (max-width: 940px) {
   nav {
-    margin-left: 4%;
+    margin-left: 3%;
   }
 
   .top-nav ul li a {
     padding: 0.2em .8em;
     font-size: .85em;
+  }
+
+  .top-nav ul li a span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  nav {
+    margin-left: 2%;
+  }
+
+  .top-nav ul li a {
+    padding: 0.2em .7em;
   }
 }
 
