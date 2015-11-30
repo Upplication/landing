@@ -10,8 +10,8 @@ $(function () {
         var lang = $langElem.data("lang");
         //Change lang_cookie
         $langElem.click(function () {
-            setCookie("ppl_language", $(this).data("lang"));
-            log("change lang to =" + $(this).data("lang"));
+            setCookie("upp_language", $(this).data("lang"));
+            log("change lang to => " + $(this).data("lang"));
         });
         //Display cookies announce
         if (!getCookie("showed-cookies")) {

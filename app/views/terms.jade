@@ -1,4 +1,5 @@
-extends base/base
+extends base/v2/base
+
 block vars
     - var template = $.terms._template
     - var title = $.terms._meta_title
@@ -6,23 +7,32 @@ block vars
     - var keywords = $.terms._keywords
     - var canonical = $.terms._canonical
     - var cssClass = 'terms'
+
+block css
+    // build:css({.tmp, app}) /styles/terms.min.css
+    link(rel='stylesheet', href='/styles/css/home/legal.css')
+    // endbuild
+
 block content
-    section
-        h2 #{terms.title}
-        div.container.margin
-            h1 #{terms.legal.title}
-            each paragraph in terms.legal.paragraphs
-                p #{paragraph}
-            h1 #{terms.privacy.title}
-            each paragraph in terms.privacy.paragraphs
-                p #{paragraph}
-            h1 #{terms.general.title}
-            each subsection in terms.general.subsections
-              h3 #{subsection.title}
-              each paragraph in subsection.paragraphs
-                    p #{paragraph}
-            h1 #{terms.cookies.title}
-            each subsections in terms.cookies.subsections
-              h3 #{subsections.title}
-              each paragraph in subsections.paragraphs
-                  p #{paragraph}
+    // TERMS & CONDITIONS
+    .col.s12.text-center.legal
+        #legal.about.scrollspy
+            .about-grids
+                .container.animated.fadeIn
+                    .about-left-grids
+                        h4 #{terms.legal.title}
+                        each paragraph in terms.legal.paragraphs
+                            p #{paragraph}
+                        h4#privacidad.scrollspy #{terms.privacy.title}
+                        each paragraph in terms.privacy.paragraphs
+                            p #{paragraph}
+                        h4#uso.scrollspy #{terms.general.title}
+                        each subsection in terms.general.subsections
+                            h5 #{subsection.title}
+                            each paragraph in subsection.paragraphs
+                                p #{paragraph}
+                        h4#cookies-policy.scrollspy #{terms.cookies.title}
+                        each subsections in terms.cookies.subsections
+                            h5 #{subsections.title}
+                            each paragraph in subsections.paragraphs
+                                p #{paragraph}

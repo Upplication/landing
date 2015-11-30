@@ -1,11 +1,23 @@
 {
     "header": {
+        "logo": {
+            "url": "@@config.base_path/images/home/icons/upplication.png",
+            "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png",
+            "title": "Upplication Logo",
+            "title_xmas": "Upplication Xmas Logo"
+        },
         "menu": "menu",
         "nav": {
             "apps": "Contoh aplikasi",
             "prices": "Harga",
-            "how": "Bagaimana saya membuat aplikasi sendiri",
-            "contact": "Contact"
+            "how": "<span class='bahasa-header'>Bagaimana saya membuat</span> aplikasi sendiri",
+            "contact": "Contact",
+            "legal": {
+                "advise": "Pengecualian",
+                "privacy": "Privasi",
+                "conditions": "Aturam Peng.",
+                "cookies": "Cookies"
+            }
         },
         "free_trial": "Coba gratis",
         "telephone": "+34 810 512 370",
@@ -18,12 +30,21 @@
     "modal": {
         "head": {
             "register_modal": "Daftar untuk <span>15 hari coba gratis</span>",
-            "contact_modal": "Contact Us"
+            "contact_modal": "<span>Contact</span> Us",
+            "hiring_modal": "We are <span>hiring</span>"
         },
         "footer": {
             "seller": "Do you have a seller code?",
             "accept": "Dengan mengklik tombol 'Coba Gratis' Anda setuju dengan",
             "terms": " syarat dan ketentuan kami"
+        },
+        "button": {
+            "icon_telf": "phone",
+            "telephone": "+34 810 512 370",
+            "telf": "tel:0034810512370",
+            "icon_email": "email",
+            "support_mail": "soporte@upplication.com",
+            "email": "mailto:soporte@upplication.com"
         }
     },
     "form": {
@@ -45,7 +66,25 @@
         "cookies_use": "Penggunaan Cookies",
         "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>Penggunaan Cookies</a>.",
         "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>Penggunaan Cookies.</a>.",
-        "try_it": "Coba <strong>gratis 15 hari</strong>!"
+        "try_it": "Coba <strong>gratis 15 hari</strong>!",
+        "partners": {
+            "eu": {
+                "url": "http://ec.europa.eu/regional_policy/es/funding/erdf/",
+                "title": "EU regional development fund"
+            },
+            "mixpanel": {
+                "url": "https://mixpanel.com/",
+                "title": "Mixpanel mobile analytics"
+            },
+            "telefonica": {
+                "url": "http://info.telefonica.es/portada/index.html",
+                "title": "Telefónica, telecommunications company"
+            },
+            "wayra": {
+                "url": "http://wayra.co/en",
+                "title": "Wayra, Telefónica's startup accelerator"
+            }
+        }
     },
     "register": {
         "error": {
@@ -277,6 +316,142 @@
         "create_free": "Create my app",
         "permanence": "Masa percobaan dengan tanpa harus tinggal."
     },
+    "about_us": {
+        "team": {
+            "subtitle": "Meet",
+            "title": "Out Team",
+            "ceo": {
+                "name": "José Luis",
+                "surname": "Vega de Seoane Barona",
+                "position": "Co-founder & CEO",
+                "sentence": "I command!",
+                "linkedin": "https://www.linkedin.com/in/joseluisvds",
+                "twitter": "https://twitter.com/joseluisVdS"
+            },
+            "cmo": {
+                "name": "Víctor",
+                "surname": "Rodado Frutos",
+                "position": "Co-founder & CMO",
+                "sentence": "I command too, uh!",
+                "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
+                "twitter": "https://twitter.com/rodadofrutos"
+            },
+            "cto": {
+                "name": "Javier",
+                "surname": "Arnáiz González",
+                "position": "CTO",
+                "sentence": "Technology Master",
+                "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
+                "twitter": "https://twitter.com/arnaix"
+            },
+            "support_1": {
+                "name": "Belén",
+                "surname": "Fernández Pérez",
+                "position": "Customer & Support",
+                "sentence": "Customers Priority",
+                "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+                "twitter": "https://twitter.com/BeeleenFP"
+            },
+            "support_2": {
+                "name": "Ángel",
+                "surname": "Barroso Sanz",
+                "position": "Support",
+                "sentence": "Making apps every day",
+                "linkedin": "https://www.linkedin.com/in/aBarroso19",
+                "twitter": "https://twitter.com/Aw3sam3"
+            },
+            "sales_1": {
+                "name": "Javier",
+                "surname": "Coomonte Suárez",
+                "position": "Sales Manager",
+                "sentence": "all for a buck!",
+                "linkedin": "https://www.linkedin.com/in/jcoomonte",
+                "twitter": "https://twitter.com/jcoomonte"
+            },
+            "sales_2": {
+                "name": "Álvaro",
+                "surname": "Alcañiz Rubio",
+                "position": "Sales Manager",
+                "sentence": "Money never sleeps",
+                "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
+                "twitter": "https://twitter.com/alcanizalv"
+            },
+            "dev": {
+                "backend_1": {
+                    "name": "Gorka",
+                    "surname": "Jimeno Garrachón",
+                    "position": "Developer",
+                    "sentence": "Ctrl + F",
+                    "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
+                    "twitter": "https://twitter.com/gorkajg"
+                },
+                "backend_2": {
+                    "name": "Marcos",
+                    "surname": "Rojas Martín",
+                    "position": "Developer",
+                    "sentence": "Git Push!",
+                    "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
+                    "twitter": "https://twitter.com/Mrk992"
+                },
+                "frontend_1": {
+                    "name": "Juan José",
+                    "surname": "Herrero Barbosa",
+                    "position": "Developer",
+                    "sentence": "Java is not only a Star Wars character",
+                    "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+                    "twitter": "https://twitter.com/dark_xuan"
+                }
+            },
+            "account": {
+                "name": "Noemí",
+                "surname": "Díaz Sanz",
+                "position": "Account Manager",
+                "sentence": "Accounts Keeper",
+                "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
+                "twitter": ""
+            },
+            "design": {
+                "name": "Javier",
+                "surname": "Lorenzo Fernández",
+                "position": "Arts & Design Manager",
+                "sentence": "Red is a color...",
+                "linkedin": "https://www.linkedin.com/in/javierlorenzofernandez",
+                "twitter": "https://twitter.com/jalofernandez"
+            },
+            "community": {
+                "name": "Cristina",
+                "surname": "Díaz Gallego",
+                "position": "Communication Manager",
+                "sentence": "Best followers catcher",
+                "linkedin": "https://www.linkedin.com/in/",
+                "twitter": "https://twitter.com/MissRe_"
+            },
+            "nextone": {
+                "surname": "Are you the next one?",
+                "position": "Be part of our team",
+                "sentence": "New fella in da hood"
+            }
+        },
+        "departments": {
+            "subtitle": "Meet",
+            "title": "Our Departments",
+            "support": {
+                "title": "Dept. of Support",
+                "img": "Belén is calling with his best smile",
+                "text": "Our main objective is to make our costumers happy. Every day, we talk to hundreds of clients from more than 65 countries. We are very approachable and we always have a smile on our faces. We love to help, so that you have a pleasant and beneficial experience."
+            },
+            "marketing": {
+                "title": "Dept. of Marketing",
+                "img": "Salesman working hard",
+                "text": "Our goal is to bring this project to every corner in the world. Our every day life is dedicated to data and analysis. Always thinking of how to sell more in less time. Every time we get a new client, we blow a horn in the office to celebrate."
+            },
+            "develop": {
+                "title": "Dept. of Develop",
+                "img": "All the freak ones!",
+                "text": "Cordova, AngularJS, Java, CSS, UX…. We love technology and we’re a little obsessed with it. We work in a flexible and easy way and we are always changing the way in which SMEs in the world create their mobile application. We learn something new every day."
+            }
+        }
+    },
     "helpcenter": {
         "_url": "/help-center-indonesian/",
         "_template": "helpcenter",
@@ -286,21 +461,65 @@
         "_canonical": "http://www.upplication.com/help-center",
         "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "title": "Help center",
+        "section": {
+            "upp": "You create Upplication",
+            "video": "Videos",
+            "ebooks": "Ebooks & Infographics",
+            "help": "We help you make your app"
+        },
+        "uservoice": {
+            "link": "https://upplication.uservoice.com/",
+            "title": "User community",
+            "text": "User community"
+        },
+        "knowledgebase": {
+            "link": "https://upplication.uservoice.com/knowledgebase",
+            "title": "FAQ",
+            "text": "FAQ"
+        },
+        "video_1": {
+            "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+            "title": "Tutorials",
+            "text": "Tutorials"
+        },
+        "video_2": {
+            "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+            "title": "Our videos",
+            "text": "Our videos"
+        },
+        "sucess": {
+            "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+            "title": "Download-Get a successful app",
+            "text": "Download-Get a successful app"
+        },
+        "advantages": {
+            "link": "http://upplication.com/blog/ventajas-app-negocio/",
+            "title": "Advantages of having an app",
+            "text": "Advantages of having an app"
+        },
+        "wedoit": {
+            "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
+            "title": "We do the work for you",
+            "text": "We do the work for you"
+        },
+        "workshop": {
+            "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+            "title": "Go to our breakfasts",
+            "text": "Go to our breakfasts"
+        },
         "resources": {
             "createupp": {
                 "title": "You create Upplication",
-                "links": [
-                    {
-                        "link": "https://upplication.uservoice.com/",
-                        "title": "User community",
-                        "text": "User community"
-                    },
-                    {
-                        "link": "https://upplication.uservoice.com/knowledgebase",
-                        "title": "FAQ",
-                        "text": "FAQ"
-                    }
-                ]
+                "uservoice": {
+                    "link": "https://upplication.uservoice.com/",
+                    "title": "User community",
+                    "text": "User community"
+                },
+                "knowledgebase": {
+                    "link": "https://upplication.uservoice.com/knowledgebase",
+                    "title": "FAQ",
+                    "text": "FAQ"
+                }
             },
             "videos": {
                 "title": "Videos",
@@ -624,21 +843,22 @@
             "anchor": "Login",
             "url": "http://www.aplicateca.es/upplication"
         },
+        "hiring": "We are hiring!",
         "hiring_developer": {
-            "anchor": "Prácticas de desarrollador",
-            "url": "@@config.base_path/offer-trainee-developer/"
+            "anchor": "Developer intern",
+            "url": "http://www.upplication.com/offer-trainee-developer/"
         },
         "hiring_marketing": {
-            "anchor": "Prácticas de marketing",
-            "url": "@@config.base_path/offer-trainee-marketing/"
+            "anchor": "Marketing intern",
+            "url": "http://upplication.com/offer-trainee-marketing/"
         },
         "hiring_frontend":{
-            "anchor":"Frontend Developer",
+            "anchor":"Frontend developer",
             "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
         },
-        "hiring_backend": {
-            "anchor": "Backend Developer",
-            "url": "http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+        "hiring_backend":{
+            "anchor":"Backend developer",
+            "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
         },
         "nubo": {
             "anchor": "NUBO",
@@ -1272,7 +1492,7 @@
             "title":"General Conditions of Use",
             "subsections": [
                 {
-                    "title": "1. IDENTIFICATION OF THE PARTIES.",
+                    "title": "1. Identification of the parties:",
                     "paragraphs": [
                         "The General Conditions of Use of the services offered in the URL www.upplication.com (hereinafter, the PORTAL/WEBSITE) are signed by the holder of the domain, UPPLICATION SOFTWARE TECHNOLOGIES, S.L., whose contact email is : hello@upplication.com",
                         "We understand by USER : any individual that has the ability of effectively signing/suscribing a contract according to the applicable law.",
@@ -1282,7 +1502,7 @@
                     ]
                 },
                 {
-                    "title": "2. IMPROVEMENT OF AGREEMENT.",
+                    "title": "2. Improvement of agreement:",
                     "paragraphs":[
                         "In order to use the PORTAL, you must accept these terms and conditions (hereinafter Terms and Conditions), as well as those specific stipulations collected for the use and/or contracting of specific services.",
                         "Otherwise, you must abandon the PORTAL.",
@@ -1293,7 +1513,7 @@
                     ]
                 },
                 {
-                    "title": "3. SCOPE OF APPLICATION.",
+                    "title": "3. Scope of application:",
                     "paragraphs":[
                         "These general conditions shall apply to all services/products listed on the website : ",
                         "www.upplication.com"
@@ -1305,7 +1525,7 @@
             "title": "Cookies Policy",
             "subsections": [
                 {
-                    "title": "HOW AND WHY DO WE USE COOKIES?:",
+                    "title": "1. How and Why do we use Cookies?",
                     "paragraphs": [
                         "UPPLICATION SOFTWARE TECHNOLOGIES S.L.  (UPPLICATION) uses cookies on its websites (upplication.com, and any other sub-domain owned) to provide the most effective website to our customers. Among other things, Cookies allow us to remember the preferences and the use of specific tools and sections of our website. This Cookies Policy Section explains what Cookies are, how we use them, and how you will benefit from them. As you may know, a recent legislation requires that websites obtain consent from visitors in order to use certain cookies.",
                         "UPPLICATION uses cookies in order to measure the behavior of the user both on our website (www.upplication.com) and any other sub-domain, as mentioned above. Through analytics, we are able to optimize our users experience within the tool.",
@@ -1313,7 +1533,7 @@
                     ]
                 },
                 {
-                    "title": "MANAGING YOUR BROWSER’S COOKIES",
+                    "title": "2. Managing your browser´s Cookies",
                     "paragraphs":[
                         "Most browsers on computers, smartphones, and other devices are enabled to accept cookies. If you wish to change your Cookie Preferences on this website, or any other website, you may access this in your browser settings. The “Help” feature of your browser will tell you how. We remind you that if you choose to block the use of certain cookies on our website, it may interfere with with its functionality.",
                         "Whenever you visit one of our websites, the local jurisdictions require us to ask for your consent to set cookies on your device. We will always ask you before setting up a cookie with a banner on the bottom of the screen, which will disappear within 7 seconds after its appearance. After that time has elapsed, you will automatically be accepting cookies on your device."

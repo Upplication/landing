@@ -2,22 +2,19 @@
   "codes": [
     {
       "language_name": "English",
-      "language_country" : "en_EN",
-      "language_country_html" : "en-EN",
+      "language_country" : "en",
       "language_short_code": "Eng",
       "home": "/build-your-app"
     },
     {
       "language_name": "Español",
-      "language_country" : "es_ES",
-      "language_country_html" : "es-ES",
+      "language_country" : "es",
       "language_short_code": "Esp",
       "home": "/"
     },
     {
       "language_name": "Bahasa",
-      "language_country" : "in_ID",
-      "language_country_html" : "in-ID",
+      "language_country" : "id",
       "language_short_code": "Bah",
       "home": "/generator-aplikasi"
     }

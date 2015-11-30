@@ -103,15 +103,12 @@ module.exports = function (grunt) {
         jade[env] = [];
 
         langs.codes.forEach(function (lang) {
-            lang_html = lang.language_country_html;
             lang = lang.language_country;
             //console.log("lang=",lang);
             var routing = getRoutes();
             var config = JSON.stringify(grunt.file.readJSON('./app/config.json'));
             var localConfig = getConfig();
             //console.log("Routing a JADE=",routing);
-
-            //console.log("lang_html=",lang_html)
             jade[env].push('jade:' + env + "-" + lang);
 
             task = env + '-' + lang;
@@ -126,7 +123,6 @@ module.exports = function (grunt) {
                     data: {
                         langs: grunt.file.readJSON("app/locales/languages.json"),
                         lang: lang,
-                        lang_html: lang_html,
                         routing: routing,
                         routingString: JSON.stringify(routing),
                         config: config,
