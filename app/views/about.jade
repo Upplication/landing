@@ -1,4 +1,4 @@
-extends base/base
+extends base/v2/base
 
 block vars
     - var template = $.about._template
@@ -8,65 +8,212 @@ block vars
     - var canonical = $.about._canonical
     - var cssClass = 'about'
 
-block content
-    script(type='text/javascript').
-        $UPP.url = "#{$.about._url}";
-        
-    section#about.bottom-space
-        div.container.clearfix
-            h2 #{about.about_us.about_us}
-            div.column
-                p #{about.about_us.paragraphs[0]}
-                p #{about.about_us.paragraphs[1]}
-                p #{about.about_us.paragraphs[2]}
-            div.column
-                img(src='#{localConfig.base_path}/images/about_us.jpg',alt='#{about.about_us.image_alt}')
-                p #{about.about_us.paragraphs[3]}
+block css
+    // build:css({.tmp, app}) /styles/about.min.css
+    link(rel='stylesheet', href='/styles/css/home/team.css')
+    // endbuild
 
-    section#timeline.bottom-space
-        div.container
-            h2 #{about.timeline.timeline}
-            div.timeline
-                div.line
-                    ul
-                        li.year-2013
-                            span 2013
-                            ul
-                                li.event-offset-74.mobile-offset-74
-                                    div.popup
-                                        span #{about.timeline['2013'][0].date}
-                                        p #{about.timeline['2013'][0].desc}
-                                li.event-offset-15.mobile-offset-89
-                                    div.popup
-                                        span #{about.timeline['2013'][1].date}
-                                        p #{about.timeline['2013'][1].desc}
-                        li.year-2014
-                            span 2014
-                            ul
-                                li.event-offset-22.mobile-offset-22
-                                    div.popup
-                                        span #{about.timeline['2014'][0].date}
-                                        p #{about.timeline['2014'][0].desc}
-                                li.event-offset-18.mobile-offset-40
-                                    div.popup
-                                        span #{about.timeline['2014'][1].date}
-                                        p #{about.timeline['2014'][1].desc}
-                                li.event-offset-11.mobile-offset-51
-                                    div.popup
-                                        span #{about.timeline['2014'][2].date}
-                                        p #{about.timeline['2014'][2].desc}
-                                li.event-offset-1.mobile-offset-56
-                                    div.popup
-                                        span #{about.timeline['2014'][3].date}
-                                        p #{about.timeline['2014'][3].desc}
-    section#apps
-        div.container.clearfix
-            div.apps-data
-                h3 #{about.apps.the_data}
-                h4
-                    span.big #{about.apps.num}
-                    span.small #{about.apps.apps_created}
-            img(src='#{localConfig.base_path}/images/intro_iphone.png',alt='#{about.apps.screen_alt}')
-    section#video
-        .video-container.acenter.margin-bottom-3x
-            a#youtube-video.unstyled.mfp-iframe(href = "https://www.youtube.com/watch?v=baU1nnAxRYI"): img(src='#{localConfig.base_path}/images/video_play_button.png',alt='#{about.video.play_alt}')
+block content
+    // MEET OUR TEAM
+    .col.s12.center-align.team-header
+        h4
+            span #{about_us.team.subtitle}
+            | #{about_us.team.title}
+        #team.about
+            .container
+                .row.bosses-area.animated.fadeInDown
+                    .col.s12.m6.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.ceo.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.ceo.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-boss.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.ceo.sentence}')
+                            i.fa.fa-star
+                        .upp-boss-img.team-jose.circle.animate-hover
+                        h5
+                            strong #{about_us.team.ceo.name}
+                            | #{about_us.team.ceo.surname}
+                        p.team-work #{about_us.team.ceo.position}
+                    .col.s12.m6.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.cmo.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cmo.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-boss.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.cmo.sentence}')
+                            i.fa.fa-star
+                        .upp-boss-img.team-victor.circle.animate-hover
+                        h5
+                            strong #{about_us.team.cmo.name}
+                            | #{about_us.team.cmo.surname}
+                        p.team-work #{about_us.team.cmo.position}
+                .row.crew-area.animated.fadeIn
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.cto.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cto.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-dev.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.cto.sentence}')
+                            i.fa.fa-code
+                        .upp-team-img.team-arnaiz.circle.animate-hover
+                        h5
+                            strong #{about_us.team.cto.name}
+                            | #{about_us.team.cto.surname}
+                        p.team-work #{about_us.team.cto.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.support_1.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.support_1.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-support.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.support_1.sentence}')
+                            i.fa.fa-tty
+                        .upp-team-img.team-belen.circle.animate-hover
+                        h5
+                            strong #{about_us.team.support_1.name}
+                            | #{about_us.team.support_1.surname}
+                        p.team-work #{about_us.team.support_1.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.sales_1.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.sales_1.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-sales.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.sales_1.sentence}')
+                            i.fa.fa-line-chart
+                        .upp-team-img.team-coomonte.circle.animate-hover
+                        h5
+                            strong #{about_us.team.sales_1.name}
+                            | #{about_us.team.sales_1.surname}
+                        p.team-work #{about_us.team.sales_1.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.backend_1.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.backend_1.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-dev.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.dev.backend_1.sentence}')
+                            i.fa.fa-code
+                        .upp-team-img.team-gorka.circle.animate-hover
+                        h5
+                            strong #{about_us.team.dev.backend_1.name}
+                            | #{about_us.team.dev.backend_1.surname}
+                        p.team-work #{about_us.team.dev.backend_1.position}
+                    .clearfix
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.account.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.account.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-dev.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.account.sentence}')
+                            i.fa.fa-money
+                        .upp-team-img.team-noemi.circle.animate-hover
+                        h5
+                            strong #{about_us.team.account.name}
+                            | #{about_us.team.account.surname}
+                        p.team-work #{about_us.team.account.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.design.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.design.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-design.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.design.sentence}')
+                            i.fa.fa-paint-brush
+                        .upp-team-img.team-jotaele.circle.animate-hover
+                        h5
+                            strong #{about_us.team.design.name}
+                            | #{about_us.team.design.surname}
+                        p.team-work #{about_us.team.design.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.backend_2.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.backend_2.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-dev.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.dev.backend_2.sentence}')
+                            i.fa.fa-code
+                        .upp-team-img.team-marcos.circle.animate-hover
+                        h5
+                            strong #{about_us.team.dev.backend_2.name}
+                            |  #{about_us.team.dev.backend_2.surname}
+                        p.team-work #{about_us.team.dev.backend_2.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.sales_2.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.sales_2.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-sales.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.sales_2.sentence}')
+                            i.fa.fa-line-chart
+                        .upp-team-img.team-alvaro.circle.animate-hover
+                        h5
+                            strong #{about_us.team.sales_2.name}
+                            | #{about_us.team.sales_2.surname}
+                        p.team-work #{about_us.team.sales_2.position}
+                    .clearfix
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.community.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.community.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-support.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.community.sentence}')
+                            i.fa.fa-sort-amount-asc.fa-rotate-180
+                        .upp-team-img.team-cris.circle.animate-hover
+                        h5
+                            strong #{about_us.team.community.name}
+                            | #{about_us.team.community.surname}
+                        p.team-work #{about_us.team.community.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.frontend_1.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.frontend_1.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-dev.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.dev.frontend_1.sentence}')
+                            i.fa.fa-code
+                        .upp-team-img.team-juanjo.circle.animate-hover
+                        h5
+                            strong #{about_us.team.dev.frontend_1.name}
+                            | #{about_us.team.dev.frontend_1.surname}
+                        p.team-work #{about_us.team.dev.frontend_1.position}
+                    .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.support_2.linkedin}', title='', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.support_2.twitter}', title='', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-support.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.support_2.sentence}')
+                            i.fa.fa-cogs
+                        .upp-team-img.team-angel.circle.animate-hover
+                        h5
+                            strong #{about_us.team.support_2.name}
+                            | #{about_us.team.support_2.surname}
+                        p.team-work #{about_us.team.support_2.position}
+                    .col.s12.m3.center-align
+                        a.team-new.team-support.animate-hover.tooltipped(href='', data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
+                            i.fa.fa-plus
+                        .upp-team-img.team-newfella.circle.animate-hover
+                        h5 #{about_us.team.nextone.surname}
+                        p.team-work #{about_us.team.nextone.position}
+                    .clearfix
+    // DPTOS. INFO & PICS
+    #about.about
+        .col.s12.center-align.team-header
+            h4
+                span #{about_us.departments.subtitle}
+                | #{about_us.departments.title}
+        .about-grids.row
+            .col.m4.about-grid.about-grid1.animated.fadeInLeft
+                .about-grid-info
+                    h4 #{about_us.departments.support.title}
+                    p
+                        | #{about_us.departments.support.text}
+                .about-grid-pic
+                    img(src='#{localConfig.base_path}/images/about/upp_team_support.jpg', title='#{about_us.departments.support.img}')
+            .col.m4.about-grid.about-grid2.animated.fadeInUp
+                .about-grid-pic
+                    img(src='#{localConfig.base_path}/images/about/upp_team_sales.jpg', title='#{about_us.departments.marketing.img}')
+                .about-grid-info
+                    h4 #{about_us.departments.marketing.title}
+                    p
+                        | #{about_us.departments.marketing.text}
+            .col.m4.about-grid.about-grid1.animated.fadeInRight
+                .about-grid-info
+                    h4 #{about_us.departments.develop.title}
+                    p
+                        | #{about_us.departments.develop.text}
+                .about-grid-pic
+                    img(src='#{localConfig.base_path}/images/about/upp_team_dev.jpg', title='#{about_us.departments.develop.img}')
+            .clearfix

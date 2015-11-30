@@ -54,8 +54,8 @@ $(function () {
 
             //Change lang_cookie
             $(".change-lang a[data-lang='" + lang + "']").click(function () {
-                setCookie("ppl_language", $(this).data("lang"));
-                log("Cambio lang a =" + $(this).data("lang"));
+                setCookie("upp_language", $(this).data("lang"));
+                log("Cambio lang a = " + $(this).data("lang"));
             });
         }
         //Stilize current language

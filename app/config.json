@@ -2,32 +2,32 @@
   "upplication.com":{
     "segmentio_token": "pqbi6xsdfe",
     "tagmanager_token": "GTM-PPJS3G",
-    "base_path": "http://www.upplication.com",
-    "dashboard_base_path": "http://dashboard.upplication.com",
+    "base_path": "//www.upplication.com",
+    "dashboard_base_path": "//dashboard.upplication.com",
     "env": "PRO"
   },
 
   "upptesting.com":{
     "segmentio_token": "j44nuye4y6",
     "tagmanager_token": "GTM-M8KJZG",
-    "base_path": "http://www.upptesting.com",
-    "dashboard_base_path": "http://prepro.upplication.com",
+    "base_path": "//www.upptesting.com",
+    "dashboard_base_path": "//prepro.upplication.com",
     "env": "PRE"
   },
 
   "landing.upplication.priv":{
     "segmentio_token": "j44nuye4y6",
     "tagmanager_token": "GTM-M8KJZG",
-    "base_path": "http://landing.upplication.priv",
-    "dashboard_base_path": "http://dashboard.upplication.priv",
+    "base_path": "//landing.upplication.priv",
+    "dashboard_base_path": "//dashboard.upplication.priv",
     "env": "DES"
   },
   
   "localhost":{
     "segmentio_token": "j44nuye4y6",
     "tagmanager_token": "GTM-M8KJZG",
-    "base_path": "http://localhost:9000",
-    "dashboard_base_path": "http://dashboard.upplication.priv",
+    "base_path": "//localhost:9000",
+    "dashboard_base_path": "//dashboard.upplication.priv",
     "env": "LOC"
   }
 }

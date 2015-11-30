@@ -1,0 +1,152 @@
+/*
+LEGAL CSS: Custom Stylesheet --- CSS GENERALES: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2015
+*/
+
+.about-grids {
+  padding: 0.5em 0 4em 0;
+}
+
+.about-left-grids {
+  /*width: 68%;*/
+  width: 100%;
+  float: left;
+  padding: 0em 0 2em 0;
+  margin-top: 30px;
+}
+
+.about-left-grids p {
+  color: #adadad;
+  line-height: 1.7em;
+}
+
+.about-left-grids p a {
+  color: #ffe13e;
+  text-decoration: none;
+}
+
+.about-right-grids {
+  float: right;
+  width: 30%;
+  margin-top: 100px;
+}
+
+.about-right-grids .bg-cream,
+.about-right-grids .bg-white {
+  padding: 1em;
+}
+
+.about-right-grids .bg-cream {
+  background-color: #f1f1f1;
+}
+
+.about-right-grids .bg-white {
+  background-color: #ffffff;
+}
+
+.about-right-grids .bg-white img.app-sample {
+  /*width: 70%;*/
+  width: 100%;
+  position: relative;
+  bottom: 61px;
+}
+
+.about-right-grids img {
+  width: 100%;
+}
+
+.latest-news h2 {
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 2em;
+  font-family: 'Roboto Slab', serif;
+}
+
+.latest-news-grid h3 {
+  margin: 0;
+  padding: 0 0 0.5em 0;
+}
+
+.latest-news-grid h3 a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size: 0.75em;
+  font-family: 'Roboto Slab', serif;
+}
+
+.latest-news-grid p {
+  color: #adadad;
+  line-height: 1.7em;
+}
+
+.latest-news-grid p:last-child {
+  margin-bottom: 50px;
+}
+
+.latest-news-grid span {
+  color: #adadad;
+  line-height: 1.7em;
+}
+
+.about-grids {
+  padding: 0.5em 0 4em 0;
+}
+
+/* ... AVISO LEGAL ................................................... */
+
+.legal h4 {
+  margin-top: 3em;
+}
+
+#legal {
+  font-family: 'Lato', sans-serif;
+}
+
+#legal h4 {
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 2em 0;
+  padding: 0 0 .5em;
+}
+
+#legal h5 {
+  font-size: 1.4rem;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.about-left-grids p,
+.latest-news-grid p,
+.about-left-grids ul li {
+  font-weight: 300;
+  color: #111b0a;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+ul.unorder-list {
+  padding-left: 23px;
+}
+
+ul.unorder-list i.fa-circle {
+  font-size: 3px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 3px;
+}
+
+.about-left-grids ul li {
+  margin-bottom: 10px;
+}
+
+.upp-green {
+  color: #00c86b;
+  font-weight: 500;
+  padding-left: 5px;
+}

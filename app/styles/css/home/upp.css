@@ -143,6 +143,12 @@ h4.headTitles.noMargBot {
   margin-bottom: 20px;
 }
 
+.registerTop .btnReg span,
+#host .btn-upp span {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
 .error.general-error,
 p.error {
   background-color: #fceaea;
@@ -168,6 +174,10 @@ select:-webkit-autofill {
   background-color: rgb(255, 255, 255);
 }
 
+a.terms-conditions {
+  padding-left: 5px;
+}
+
 /* ... MARGIN & PADDING ................................................... */
 
 .sect100 {
@@ -180,6 +190,10 @@ select:-webkit-autofill {
 
 .margTop30 {
   margin-top: 30px;
+}
+
+.padBot50 {
+  padding-bottom: 50px;
 }
 
 .marBot100 {
@@ -223,18 +237,23 @@ select:-webkit-autofill {
   position: fixed;
   top: 0;
   z-index: 1000;
-  background-color: #faf9f9;
+  /*background-color: #faf9f9;*/
   width: 100%;
   height: 60px;
   border-bottom: 1px solid #ddd;
+  background: #faf9f9 url("@@config.base_path/images/home/icons/upp_header_bg_xmas.png") repeat-x;
 }
 
 .top-nav ul.hide-tabs {
   display: none !important;
 }
 
-.top-nav ul li {
-  max-width: 210px;
+.top-nav ul li.only-show-small-devises {
+  display: none;
+}
+
+.top-nav ul li a:hover {
+  background-color: rgba(250,249,249,.7);
 }
 
 .top-nav ul li a {
@@ -246,22 +265,33 @@ select:-webkit-autofill {
   text-transform: uppercase;
   position: relative;
   font-weight: 500;
+  max-width: 210px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.top-nav ul li:last-child a {
+.top-nav ul li.enter-bold a {
+  color: #000000;
   font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .top-nav ul li.active a,
-.top-nav ul li a:hover {
+.top-nav ul li a:hover,
+.top-nav ul li a:hover i {
   color: #00c86b;
+}
+
+.top-nav ul li a:hover i {
+  -webkit-transition: all 250ms ease-in;
+  -ms-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
 }
 
 .top-nav ul li a i {
   padding-right: 5px;
+  color: #777777;
 }
 
 .logo a {
@@ -352,6 +382,14 @@ nav a#pull {
 /*Styles for screen 515px and lower*/
 
 @media only screen and (max-width : 768px) {
+  #move-top .container {
+    padding: 0;
+  }
+
+  #move-top .container .logo {
+    padding-left: 15px;
+  }
+
   .containerFull.contNoPad {
     padding-left: 0;
     padding-right: 0;
@@ -382,6 +420,7 @@ nav a#pull {
     text-align: right;
     position: absolute;
     top: 20px;
+    right: 10px;
   }
 
   nav a#pull.rightDots {
@@ -405,27 +444,57 @@ nav a#pull {
     bottom: 20px;
   }
 
+  .top-nav ul li {
+    width: 33.3333%;
+  }
+
   .top-nav ul li a {
     color: #111b0a;
     padding: 0em 0;
+    margin: 0 auto;
+  }
+
+  ul#dropdown-lang a {
+    color: #777777;
   }
 }
 
-/*Smartphone*/
+/* Smartphone :: Landscape */
+
+@media only screen and (max-width : 480px) {
+  .top-nav ul li {
+    width: 50%;
+    border-top: 1px solid #eeeeee;
+  }
+
+  .top-nav ul li:nth-child(odd) {
+    border-right: 1px solid #eeeeee;
+  }
+}
+
+/* Smartphone :: portrait */
 
 @media only screen and (max-width : 320px) {
   nav {
     float: none;
+    padding-left: -15px;
   }
 
-  nav li {
+  nav li,
+  .top-nav ul li {
     display: block;
     float: none;
     width: 100%;
+    border-top: 1px solid #eeeeee;
   }
 
-  nav li a {
-    border-bottom: 1px solid #EEE;
+  nav li,
+  .top-nav ul li:nth-child(odd) {
+    border-right: 1px solid transparent;
+  }
+
+  ul#dropdown-lang {
+    right: 0 !important;
   }
 }
 
@@ -457,6 +526,10 @@ nav a#pull {
   font-family: 'Lato', sans-serif;
   cursor: pointer;
   display: block;
+}
+
+.contact-info-right a:hover {
+  background-color: rgba(250,249,249,.7);
 }
 
 .contact-info a.support {
@@ -532,6 +605,7 @@ a.chat:hover {
 #about {
   border-top: 1px solid #f1f1f1;
   padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 /* ... PRICING TABLES ................................................... */
@@ -571,16 +645,24 @@ a.chat:hover {
 
 /*---- pricing -----*/
 
+#pricing .tax {
+  padding-top: 10px;
+}
+
 .badgeTopSales {
   position: absolute;
-  top: 5px;
-  right: 20px;
+  top: 0;
+  right: 15px;
   z-index: 200;
-  width: 50px;
+  width: 45px;
 }
 
 .pricing-tables {
-  padding: 2em 0;
+  padding: 3em 0;
+}
+
+#anual .alert {
+  margin: 40px 0 0 0;
 }
 
 .pricing-table-grid ul {
@@ -652,22 +734,40 @@ a.chat:hover {
   width: 40px;
 }
 
-.pricing-table-grid:hover {
-  transform: scale(1.05);
+.pricing-table-grid:hover:not(.with-hover) {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.pricing-table-grid:hover {
+.pricing-table-grid:hover:not(.with-hover) {
   border-color: #00c86b;
 }
 
-.pricing-table-grid:hover a,
-.pricing-table-grid:hover span {
+.pricing-table-grid:hover:not(.with-hover) a,
+.pricing-table-grid:hover:not(.with-hover) span {
   border-color: #00c86b;
 }
 
-.pricing-table-grid:hover li span {
+.pricing-table-grid:hover:not(.with-hover) li span {
+  color: #00c86b;
+}
+
+/* Proffesional pricing plan important */
+
+.pricing-table-grid.with-hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  border-color: #00c86b;
+}
+
+.pricing-table-grid.with-hover a,
+.pricing-table-grid.with-hover span {
+  border-color: #00c86b;
+}
+
+.pricing-table-grid.with-hover li span {
   color: #00c86b;
 }
 
@@ -796,7 +896,15 @@ a.order-btn:hover {
     linear-gradient(to right, #80d2ad, #43a4cd);
     -webkit-linear-gradient(to right, #80d2ad, #43a4cd);
     background: repeat-x;*/
-  background: #faf9f9;
+  /*background: url("/web/img/mate.png") repeat left top #9fa09f;*/
+  /* background: #faf9f9; */
+  background: rgba(234,255,245,1);
+  /*background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(234,255,245,1)), color-stop(48%, rgba(149,255,206,0.9)), color-stop(100%, rgba(98,255,182,0.8)));*/
+  background: -webkit-linear-gradient(-45deg, rgba(234,255,245,1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(234,255,245,1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  background: -webkit-linear-gradient(315deg, rgba(234, 255, 245, 1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  background: linear-gradient(135deg, rgba(234,255,245,1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eafff5', endColorstr='#62ffb6', GradientType=1 );
   padding: 3em 0;
   margin-top: 5em;
 }
@@ -999,6 +1107,7 @@ a.price-btn:hover {
 .timeline {
   position: relative;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -1008,9 +1117,10 @@ a.price-btn:hover {
   top: 0;
   bottom: 0;
   left: 40px;
-  width: 2px;
+  width: 4px;
   margin-left: -1.5px;
   background-color: #e0e0e0;
+  bottom: -100px;
 }
 
 .timeline>li {
@@ -1175,6 +1285,7 @@ a.price-btn:hover {
 @media (min-width:768px) {
   .timeline:before {
     left: 50%;
+    bottom: -100px;
   }
 
   .timeline>li {

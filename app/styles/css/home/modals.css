@@ -24,30 +24,92 @@ a.modal-action.modal-close:hover {
   color: #333;
 }
 
-#pruebaGratis.modal {
-  max-height: 495px;
+.modal.modal-upp {
   overflow-y: auto;
+  background-color: #ffffff;
+  top: 0 !important;
+  border-radius: 0;
 }
 
-#pruebaGratis .modal-content {
+#pruebaGratis.modal {
+  max-height: 510px;
+  max-width: 800px;
+}
+
+#allContact.modal {
+  max-height: 300px;
+  max-width: 700px;
+}
+
+#hiring.modal {
+  max-height: 460px;
+  max-width: 700px;
+}
+
+.modal.modal-upp a.modal-action.modal-close {
+  float: inherit;
+  padding: 5px;
+  color: #aaa;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.modal.modal-upp a.modal-action.modal-close i.fa.fa-close {
+  position: relative;
+  bottom: 10px;
+}
+
+.modal.modal-upp .modal-content {
   border: 0 solid transparent;
   border-radius: 0 !important;
   box-shadow: 0 0 0 rgba(0,0,0,0) !important;
   overflow-x: hidden;
+  padding: 0;
 }
 
-#pruebaGratis .modal-content h2 {
+.modal.modal-upp .modal-content h2 {
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   line-height: 35px;
-  padding-left: 10px;
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 15px 0;
 }
 
-#pruebaGratis .modal-content h2 span {
+.modal.modal-upp .modal-content h2:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #f1f1f1;
+  top: 63px;
+}
+
+.modal.modal-upp .modal-content h2:after {
+  right: 48%;
+}
+
+.modal.modal-upp .modal-content h2 span {
   font-weight: 500;
   color: #00ca6b;
-  /* Verde Pistacho */
+}
+
+/* Prueba Gratis :: modal */
+
+#pruebaGratis .modal-content div {
+  padding: 5px 15px 0 15px;
+}
+
+#pruebaGratis form {
+  padding-right: 20px !important;
+}
+
+#pruebaGratis form .input-field .prefix {
+  color: #cccccc;
 }
 
 #pruebaGratis .input-field:last-child a {
@@ -56,18 +118,14 @@ a.modal-action.modal-close:hover {
 
 #pruebaGratis .modal-terms {
   padding: 0;
-  background-color: #eee;
-  text-align: left;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
 #pruebaGratis .modal-terms ul {
   margin-bottom: 0;
-  padding-left: 20px;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 #pruebaGratis .modal-terms ul li {
@@ -114,6 +172,147 @@ a.modal-action.modal-close:hover {
   }
 }
 
+/* Contact :: Modal */
+
+#allContact .modal-content .rrss-modal,
+#hiring .modal-content .rrss-modal {
+  text-align: center;
+}
+
+#allContact .modal-content .row.contact-btns {
+  padding: 15px;
+  margin-top: 30px;
+}
+
+#allContact .modal-content .row:not(.contact-btns) {
+  padding: 0 15px 0 15px;
+  margin-bottom: 0;
+}
+
+#allContact .modal-content .row.contact-btns > div {
+  margin-bottom: 10px;
+}
+
+#allContact .modal-content .rrss-modal li {
+  display: inline;
+  padding: 0 10px;
+}
+
+#allContact .modal-content .rrss-modal li a {
+  font-size: 30px;
+  color: #999999;
+}
+
+#allContact .modal-content .rrss-modal li a:hover {
+  color: #555555;
+}
+
+#allContact .modal-content .rrss-modal li.facebook a:hover {
+  color: #3b5998;
+}
+
+#allContact .modal-content .rrss-modal li.twitter a:hover {
+  color: #55acee;
+}
+
+#allContact .modal-content .rrss-modal li.instagram a:hover {
+  color: #3f729b;
+}
+
+#allContact .modal-content .rrss-modal li.youtube a:hover {
+  color: #cd201f;
+}
+
+#allContact .modal-content .rrss-modal li.linkedin a:hover {
+  color: #0077b5;
+}
+
+#allContact .modal-content .rrss-modal li.google a:hover {
+  color: #dc4e41;
+}
+
+#allContact .modal-content .contact-btns a {
+  width: 100%;
+  font-size: 18px;
+  font-family: "lato";
+  letter-spacing: 0.04em;
+}
+
+#allContact .modal-content .contact-btns a span {
+  position: relative;
+  bottom: 7px;
+  left: 10px;
+}
+
+#allContact .modal-content .contact-btns a:last-child span {
+  text-transform: lowercase;
+}
+
+/* Hiring :: Modal */
+
+#hiring .modal-content .row.hiring-icons {
+  text-align: center;
+}
+
+#hiring .modal-content .row.hiring-icons img {
+  width: 30%;
+  height: auto;
+  padding: 10px 0 20px 0;
+}
+
+#hiring .modal-content .row.contact-btns {
+  padding: 0 15px;
+  margin-top: 0;
+}
+
+#hiring .modal-content .row:not(.contact-btns) {
+  padding: 0 15px 0 15px;
+  margin-bottom: 0;
+}
+
+#hiring .modal-content .row.contact-btns > div {
+  margin-bottom: 10px;
+}
+
+#hiring .modal-content .row.contact-btns > div:nth-child(even) {
+  padding-left: 0;
+}
+
+#hiring .modal-content .contact-btns a {
+  width: 100%;
+  font-size: 18px;
+  font-family: "lato";
+  letter-spacing: 0.04em;
+  text-transform: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  #allContact.modal,
+  #hiring.modal {
+    width: 100%;
+    max-height: 550px;
+  }
+
+  #hiring .modal-content .row.contact-btns > div:nth-child(even) {
+    padding-left: 12px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  #allContact.modal,
+  #hiring.modal {
+    max-height: 360px;
+  }
+
+  #hiring.modal .hiring-icons {
+    display: none;
+  }
+
+  #hiring .modal-content .row.contact-btns {
+    margin-top: 18px;
+  }
+}
+
 /* ... ALERTS ................................................... */
 
 .alert {
@@ -139,16 +338,68 @@ a.modal-action.modal-close:hover {
   margin-right: 10px;
 }
 
+/* anual two month free ALERT :: Pricing Plans Section*/
+
+#anual .alert {
+  min-height: 75px;
+}
+
+#anual .alert i {
+  background-color: transparent;
+}
+
+#anual span i {
+  color: #31708f;
+}
+
+#anual .alert span.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+#anual .alert span.fa-stack i.fa-money {
+  color: #31708f;
+  font-size: 30px;
+  padding-left: 24px;
+}
+
+#anual .alert span.fa-stack i.fa-ban {
+  color: #a1d2eb;
+  opacity: .8;
+  font-size: 70px;
+  position: relative;
+  bottom: 12px;
+  left: -10px;
+}
+
+#anual .alert span.monthless {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 15px;
+  vertical-align: sub;
+  vertical-align: -webkit-baseline-middle;
+}
+
 /* ... SLIDER ................................................... */
 
 .slider,
 .slides {
   height: 600px !important;
+  background-color: transparent !important;
 }
 
 .slider.middle-page-slider,
 .slider.middle-page-slider .slides {
-  height: 400px !important;
+  height: 550px !important;
+}
+
+.slider.middle-page-slider .slides li {
+  border-top: 7px solid #e0e0e0;
+  border-bottom: 7px solid #e0e0e0;
 }
 
 .mainHead {
@@ -179,6 +430,23 @@ a.modal-action.modal-close:hover {
 
 .parallax-container {
   height: 300px;
+}
+
+.slider.middle-page-slider .app-ready {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  top: -3px;
+}
+
+.slider.middle-page-slider .app-ready h4 {
+  background-color: rgba(0,200,107,.2);
+  color: #00c86b;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 10px 0;
+  text-shadow: 2px 2px 0 rgba(0, 47, 25, 1), 1px -1px 0 #002f19, -1px 1px 0 #002f19, 1px 1px 0 #002f19;
 }
 
 /* ... Typed slider PlugIn ................................................... */
@@ -217,9 +485,10 @@ a.modal-action.modal-close:hover {
   }
 }
 
-/* ... HEADER Languages DROPDOWN ................................................... */
+/* ... HEADER Languages & Terms DROPDOWN ................................................... */
 
-ul#dropdown-lang {
+ul#dropdown-lang,
+ul#dropdown-terms {
   margin-top: 47px;
   margin-left: -4px;
   background-color: #faf9f9;
@@ -227,18 +496,26 @@ ul#dropdown-lang {
   border-top: none;
 }
 
-ul#dropdown-lang a {
+ul#dropdown-lang a,
+ul#dropdown-terms a {
   text-align: left;
   padding-left: 18px;
 }
 
+ul#dropdown-lang li:hover,
+ul#dropdown-terms li:hover {
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 768px) {
-  ul#dropdown-lang {
+  ul#dropdown-lang,
+  ul#dropdown-terms {
     margin-left: 0;
     border: none;
   }
 
-  ul#dropdown-lang a {
+  ul#dropdown-lang a,
+  ul#dropdown-terms a {
     text-align: center;
     padding-left: 18px;
   }
