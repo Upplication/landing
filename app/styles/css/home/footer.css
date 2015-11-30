@@ -208,13 +208,18 @@ footer.page-footer .footer-bottom {
 footer.page-footer .footer-bottom ul {
   padding-top: 30px;
   text-decoration: none;
-  opacity: .5;
   text-align: center;
 }
 
 footer.page-footer .footer-bottom ul li {
   display: inline;
   padding-right: 50px;
+  padding-bottom: 10px;
+  opacity: .5;
+}
+
+footer.page-footer .footer-bottom ul li:hover {
+  opacity: 1;
 }
 
 footer.page-footer .footer-bottom ul li:last-child {
@@ -225,7 +230,6 @@ footer.page-footer .footer-bottom ul li:last-child {
   footer.page-footer .footer-bottom ul li {
     display: block;
     padding-right: 0;
-    padding-bottom: 10px;
   }
 }
 

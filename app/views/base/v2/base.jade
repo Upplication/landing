@@ -74,7 +74,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 .container
                     .logo
                         a(href='index.html')
-                            img(src='#{localConfig.base_path}/images/home/icons/upplication.png', title='Upplication logo')
+                            img(src='#{header.logo.url_xmas}', title='#{header.logo.title_xmas}')
                     nav.top-nav
                         ul.top-nav.hide-ul
                             li
@@ -87,7 +87,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     each lang in langs.codes
                                         a.hide-tab.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li
-                                a.hide-tab(href='#about', title='') #{header.nav.how}
+                                a.hide-tab(href='#about', title='') !{header.nav.how}
                             li
                                 a.hide-tab(href='#tabs', title='') #{header.nav.apps}
                             li
@@ -114,11 +114,14 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             .clearfix
                     .clearfix
         // MODAL PRUEBA GRATIS
-        #pruebaGratis.modal
+        #pruebaGratis.modal.modal-upp
             include ../../includes/modal-free.jade
         // MODAL CONTACT
-        #allContact.modal
+        #allContact.modal.modal-upp
             include ../../includes/modal-contact.jade
+        // MODAL HIRING
+        #hiring.modal.modal-upp
+            include ../../includes/modal-hiring.jade
 
         // CONTENT
         block content

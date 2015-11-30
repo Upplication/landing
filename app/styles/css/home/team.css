@@ -300,7 +300,11 @@ Copyright 2015
 /*---- about ----*/
 
 .about-grids {
-  padding: 1.5em 0 0 0;
+  margin-top: 1.5em;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  background: #e0e0e0;
 }
 
 .about-grids.row .col {
@@ -360,4 +364,35 @@ Copyright 2015
 
 .about-grid2 {
   background: #e0e0e0;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width : 940px) {
+  #team .crew-area .m3 {
+    width: 33.3333%;
+  }
+}
+
+@media only screen and (max-width : 801px) {
+  #team .crew-area .m3 {
+    width: 50%;
+  }
+
+  #team .about-grids .col.m4.about-grid,
+  .row .col.m4 {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width : 750px) {
+  #team .bosses-area .m6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 499px) {
+  #team .crew-area .m3 {
+    width: 100%;
+  }
 }

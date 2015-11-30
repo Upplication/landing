@@ -57,3 +57,12 @@ Copyright 2015
   position: relative;
   bottom: 4px;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width : 340px) {
+  #help-center ul.collection li a,
+  #help-center ul.collection li span {
+    min-width: 200px;
+  }
+}
