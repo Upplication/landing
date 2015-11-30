@@ -76,8 +76,8 @@ var setCookie = function (name, value) {
  */
 var checkLanguage = function (current_lang, routing, view) {
 
-    var langCookie = getCookie("ppl_language"),
-        location, browserLang, lang;
+    var langCookie = getCookie("upp_language"),
+        location, browserLang;
 
     log("current lang : " + current_lang);
     log("lang cookie : " + langCookie);
@@ -96,9 +96,8 @@ var checkLanguage = function (current_lang, routing, view) {
         // CHECK BROWSER PREFERENCES
         if (browserLang !== current_lang.substring(0, 2)) {
             log("Updating lang to the browser lang: " + browserLang);
-            lang = browserLang + "_" + browserLang.toUpperCase();
-            setCookie("ppl_language", lang);
-            location = routing[view][lang];
+            setCookie("upp_language", browserLang);
+            location = routing[view][browserLang];
             log("Location in cookie -> " + location);
         }
     }

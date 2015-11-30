@@ -82,3 +82,5 @@ Notes:
 2. *Add the translation file*: 
 
     Create: `app/locales/[country_language].json`
+
+Country language list: http://www.w3schools.com/tags/ref_language_codes.asp
