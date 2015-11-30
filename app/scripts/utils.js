@@ -68,13 +68,19 @@ var setCookie = function (name, value) {
  * If the user dont have a preference lang, then
  * the browser lang is used.
  *
- * @param current_lang the current page lang
+ * http://www.w3schools.com/tags/ref_language_codes.asp
+ *
+ * @param current_lang the current page lang in format like 'es_ES' or 'en_EN'
  * @param routing a map with the views and langs available
  * @param view the current page view
  */
 var checkLanguage = function (current_lang, routing, view) {
+
     var langCookie = getCookie("ppl_language"),
         location, browserLang, lang;
+
+    log("current lang : " + current_lang);
+    log("lang cookie : " + langCookie);
 
     if (langCookie) {
         //CHECK IF CURRENT LANG != LANG COOKIE
@@ -84,25 +90,14 @@ var checkLanguage = function (current_lang, routing, view) {
             log("Location in cookie -> " + location);
             log("Routing -> ");
             log(routing);
-
-            if (location) {
-                window.location = location;
-            }
         }
     } else {
         browserLang = window.navigator.userLanguage || window.navigator.language;
-        //CHECK BROWSER PREFERENCES
+        // CHECK BROWSER PREFERENCES
         if (browserLang !== current_lang.substring(0, 2)) {
-            //TODO: improve this , not manually
-            //Redirect to browser lang
-            lang = "";
-            if (browserLang == "es") {
-                lang = "es_ES";
-                setCookie("ppl_language", "es-ES");
-            } else {
-                lang = "en_EN";
-                setCookie("ppl_language", "en-EN");
-            }
+            log("Updating lang to the browser lang: " + browserLang);
+            lang = browserLang + "_" + browserLang.toUpperCase();
+            setCookie("ppl_language", lang);
             location = routing[view][lang];
             log("Location in cookie -> " + location);
         }
