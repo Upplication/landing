@@ -48,6 +48,10 @@ Copyright 2015
   margin: 0 auto;
 }
 
+.tooltipped {
+  cursor: pointer;
+}
+
 .team-arnaiz {
   background: url("@@config.base_path/images/about/javi_cto.jpg") no-repeat center center;
 }
