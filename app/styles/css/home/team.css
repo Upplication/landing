@@ -400,3 +400,67 @@ Copyright 2015
     width: 100%;
   }
 }
+
+@media only screen and (max-width : 420px) {
+  .upp-boss-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .team-jose {
+    background: url("//localhost:9000/images/about/jose_ceo_mob.jpg") no-repeat center center;
+  }
+
+  .team-jose:hover {
+    background: url("//localhost:9000/images/about/jose_ceo_2_mob.jpg") no-repeat center center;
+  }
+
+  .team-victor {
+    background: url("//localhost:9000/images/about/victor_cmo_mob.jpg") no-repeat center center;
+  }
+
+  .team-victor:hover {
+    background: url("//localhost:9000/images/about/victor_cmo_2_mob.jpg") no-repeat center center;
+  }
+
+  #team .bosses-area a.team-job {
+    background-color: #00c86b;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+    font-size: 23px;
+    padding: 4px 7px 5px 6px;
+  }
+
+  #team .bosses-area a.team-job.team-boss {
+    top: 40px;
+    right: 110px;
+  }
+
+  #team .bosses-area a.team-rrss {
+    font-size: 18px;
+    padding: 10px 13px;
+  }
+
+  #team .bosses-area a.team-rrss.team-linkedin {
+    top: 70px;
+    left: 132px;
+  }
+
+  #team .bosses-area a.team-rrss.team-twitter {
+    top: 150px;
+    left: 92px;
+  }
+
+  #team .bosses-area h5 {
+    font-size: 20px;
+  }
+}
+
+/* HEIGHT */
+
+@media only screen and (max-height: 667px) {
+  #about {
+    padding-top: 0;
+  }
+}

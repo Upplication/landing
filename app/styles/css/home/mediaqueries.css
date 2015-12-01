@@ -437,7 +437,7 @@ Copyright 2015
   .formPhone {
     top: 160px;
     right: 0 !important;
-    width: 100%;
+    width: 95%;
   }
 
   .registerTop .headReg {
@@ -608,6 +608,14 @@ Copyright 2015
   #tabs ul li.tab a i {
     display: block;
     font-size: 2.5em;
+  }
+}
+
+/* HEIGHT */
+
+@media only screen and (max-height: 667px) {
+  .plans-head {
+    padding: 0;
   }
 }
 
@@ -881,6 +889,18 @@ Copyright 2015
   }
 }
 
+/* HEIGHT */
+
+@media only screen and (max-height: 667px) {
+  .c-testmonials .marBot100 {
+    margin-bottom: 50px;
+  }
+
+  .c-testmonials h4 {
+    margin: 0;
+  }
+}
+
 /* ... CREA TU APP (footer) ...................................................... */
 
 @media only screen and (max-width: 1015px) {
@@ -1150,6 +1170,10 @@ Copyright 2015
   .modal {
     width: 95%;
   }
+
+  #pruebaGratis .modal-content h2 {
+    font-size: 16px;
+  }
 }
 
 /* ... PRICING  ...................................................... */
@@ -1164,5 +1188,33 @@ Copyright 2015
   .top-nav ul li.only-show-small-devises.phone-kerning {
     letter-spacing: 0.04em;
     font-family: "Lato", sans-serif;
+  }
+}
+
+/* ... LOGIN AREA  ...................................................... */
+
+@media only screen and (max-height: 667px) {
+  .popup .popup-container-login {
+    margin-top: 110px;
+  }
+
+  a.green.backgrounded {
+    display: inline-block;
+  }
+
+  .popup .popup-container-login header:after {
+    left: 48%;
+  }
+}
+
+@media only screen and (max-height: 375px) {
+  .popup .popup-container-login {
+    width: 95%;
+    max-width: 550px;
+    margin-top: 10px;
+  }
+
+  .info-box.inbox {
+    padding-top: 0;
   }
 }

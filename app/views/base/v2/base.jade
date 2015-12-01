@@ -83,7 +83,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         a.lang-link(href="#", data-activates='dropdown-lang')
                                             i.fa.fa-globe
                                             | !{language.language_short_code}
-                                ul#dropdown-lang.dropdown-content
+                                ul#dropdown-lang.dropdown-content.notshow
                                     each lang in langs.codes
                                         a.hide-tab.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li
@@ -95,7 +95,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li
                                 a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
                             li.only-show-small-devises.phone-kerning
-                                a #{header.telephone}
+                                a.modal-trigger(href='#allContact') #{header.telephone}
                             li.only-show-small-devises
                                 a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
                             li.enter-bold
@@ -172,6 +172,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 });
                 $('#cookies-accept').click(function () {
                     $("#habla_window_div").addClass("bottomFix");
+                });
+                $('.lang-link').click(function () {
+                   $("#dropdown-lang").toggleClass("notshow");
                 });
                 $('.lang-link').dropdown({
                       inDuration: 300,

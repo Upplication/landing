@@ -454,6 +454,10 @@ nav a#pull {
     margin: 0 auto;
   }
 
+  ul#dropdown-lang.notshow {
+    display: none !important;
+  }
+
   ul#dropdown-lang a {
     color: #777777;
   }

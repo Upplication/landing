@@ -296,6 +296,10 @@ a.modal-action.modal-close:hover {
   #hiring .modal-content .row.contact-btns > div:nth-child(even) {
     padding-left: 12px;
   }
+
+  #allContact .modal-content .row.contact-btns {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-height: 600px) {
@@ -310,6 +314,12 @@ a.modal-action.modal-close:hover {
 
   #hiring .modal-content .row.contact-btns {
     margin-top: 18px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .modal.modal-upp .modal-content h2 {
+    font-size: 19px;
   }
 }
 

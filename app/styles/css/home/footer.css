@@ -212,8 +212,8 @@ footer.page-footer .footer-bottom ul {
 }
 
 footer.page-footer .footer-bottom ul li {
-  display: inline;
-  padding-right: 50px;
+  display: inline-block;
+  padding: 20px;
   padding-bottom: 10px;
   opacity: .5;
 }
