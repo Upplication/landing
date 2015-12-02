@@ -48,18 +48,20 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
 
-        // build:css({.tmp, app}) /styles/base.min.css
-        link(rel='stylesheet', href='/styles/css/home/materialize-reserts.css')
-        link(rel='stylesheet', href='/styles/css/home/style.css')
-        link(rel='stylesheet', href='/styles/css/home/upp.css')
-        link(rel='stylesheet', href='/styles/css/home/modals.css')
-        link(rel='stylesheet', href='/styles/css/home/footer.css')
-        link(rel='stylesheet', href='/styles/css/home/cookies.css')
-        link(rel='stylesheet', href='/styles/css/home/mediaqueries.css')
-        // endbuild
-
         // custom css
-        block css
+            block css
+
+        // build:css({.tmp, app}) /styles/base.min.css
+        link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
+        link(rel='stylesheet', href='/styles/css/base/common.css')
+        link(rel='stylesheet', href='/styles/css/base/alerts.css')
+        link(rel='stylesheet', href='/styles/css/base/sliders.css')
+        link(rel='stylesheet', href='/styles/css/base/modals.css')
+        link(rel='stylesheet', href='/styles/css/base/header.css')
+        link(rel='stylesheet', href='/styles/css/base/footer.css')
+        link(rel='stylesheet', href='/styles/css/base/cookies.css')
+        link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
+        // endbuild
 
         meta(name='viewport', content='width=device-width, initial-scale=1')
         // webfonts

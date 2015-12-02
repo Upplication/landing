@@ -8,6 +8,11 @@ block vars
     - var canonical = $.home._canonical
     - var cssClass = 'home'
 
+block css
+    // build:css({.tmp, app}) /styles/home.min.css
+    link(rel='stylesheet', href='/styles/css/home/home.css')
+    // endbuild
+
 block content
     // SLIDER
     .slider

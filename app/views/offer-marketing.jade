@@ -1,4 +1,4 @@
-extends base/base
+extends base/v2/base
 
 block vars
     - var template = $.offer_marketing._template
@@ -8,37 +8,42 @@ block vars
     - var canonical = $.offer_marketing._canonical
     - var cssClass = 'offer'
 
+block css
+    // build:css({.tmp, app}) /styles/offer.min.css
+    link(rel='stylesheet', href='/styles/css/offer/offer.css')
+    // endbuild
+
 block content
     script(type='text/javascript').
         $UPP.url = "#{$.offer_marketing._url}";
 
     section.bottom-space
-        div.container
-            h2 #{$.offer_marketing._name}
+        .container.offer-jobs
+            // h2 #{$.offer_marketing._name}
+            h2.text-center.padTop50 #{external.hiring_marketing.anchor}
 
-            img.full(src="#{localConfig.base_path}/images/office-view.jpg", alt="oficina")
+            img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", alt="oficina")
 
-            div.intro
+            .intro
                 each intro, i in offer_marketing.introduction
                     p #{intro}
-            div.technologies
+
+            .technologies
                 p #{offer_marketing.technologies.intro}
                 ul
                     each tech, i in offer_marketing.technologies.list
                         li #{tech}
                 p #{offer_marketing.technologies.note}
-            div.lifestyle
-                img.pull-right(src="#{localConfig.base_path}/images/office-inside.jpg", alt="oficina")
 
-            div.weoffer_marketing
+            .weoffer_marketing
                 p #{offer_marketing.weoffer.intro}
                 ul
                     each weoffer, i in offer_marketing.weoffer.list
                         li #{weoffer}
 
-            div.wewantyou
+            .wewantyou
                 p !{offer_marketing.wewanttomeetyou}
-                
-            div.cheers
+
+            .cheers
                 each cheer, i in offer_marketing.cheers
                     p #{cheer}

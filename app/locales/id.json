@@ -678,11 +678,11 @@
                 "No un simple tutor, toda un equipo de trabajo siempre dispuesto a resolver tus dudas :)",
                 "Formar parte del desarrollo de un proyecto vivo, tu código lo utilizarán miles de personas.",
                 "Espacio de trabajo cómodo y amplio con un buen equipo y 2 monitores de 22 pulgadas para que trabajes bien a gusto.",
-                "Zona de relax con sus sofas y puffs, máquina de cafés, nevera, microondas, unas vistas increíbles de Madrid, trabajar en la Gran Vía... La verdad es que Wayra (nuestra incubadora) mola bastante",
+                "Zona de relax con sus sofas y puffs, máquina de cafés, nevera, microondas, zona muy bien comunicada (Príncipe Pío)... La verdad es que mola bastante.",
                 "Unos 100 € para que, por lo menos, no te cueste dinero venir a Upplication."
             ]
         },
-        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a javier.arnaiz@upplication.com con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
+        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
         "cheers": [
             "¡Un saludo!",
             "Javier Arnáiz"
@@ -846,11 +846,11 @@
         "hiring": "We are hiring!",
         "hiring_developer": {
             "anchor": "Developer intern",
-            "url": "http://www.upplication.com/offer-trainee-developer/"
+            "url": "@@config.base_path/offer-trainee-developer/"
         },
         "hiring_marketing": {
             "anchor": "Marketing intern",
-            "url": "http://upplication.com/offer-trainee-marketing/"
+            "url": "@@config.base_path/offer-trainee-marketing/"
         },
         "hiring_frontend":{
             "anchor":"Frontend developer",
@@ -858,7 +858,7 @@
         },
         "hiring_backend":{
             "anchor":"Backend developer",
-            "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+            "url":"http://www.upplication.com/blog/empleo-backend-developer-para-upplication/"
         },
         "nubo": {
             "anchor": "NUBO",
