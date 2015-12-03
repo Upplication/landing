@@ -169,10 +169,6 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/images/{,**/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
             },
-            compass: {
-                files: ['<%= yeoman.app %>/styles/sass/{,**/}*.sass', '<%= yeoman.app %>/styles/sass/{,**/}*.scss'],
-                tasks: ['compass:dev', 'replace:dev']
-            },
             jade: {
                 files: ['<%= yeoman.app %>/{,**/}*.jade'],
                 tasks: ['jade', 'replace:dev']
@@ -359,7 +355,6 @@ module.exports = function (grunt) {
         concurrent: {
             server: [
                 'copy:styles',
-                'compass:dev',
                 'imagemin:server'
             ].concat(jade.dev),
             dist: [
@@ -371,26 +366,6 @@ module.exports = function (grunt) {
         },
         uglify: {
             // used by usemin
-        },
-        compass: {                  // Task
-            dist: {                   // Target
-                options: {              // Target options
-                    sassDir: '<%= yeoman.app %>/styles/sass',
-                    cssDir: '<%= yeoman.dist %>/styles',
-                    // usemin css handles the minimification process
-                    // using codeblocks in jade files
-                    environment: 'development',
-                    require: 'susy'
-                }
-            },
-            dev: {                    // Another target
-                options: {
-                    sassDir: '<%= yeoman.app %>/styles/sass',
-                    cssDir: '.tmp/styles',
-                    trace: true,
-                    require: 'susy'
-                }
-            }
         },
         replace: {
             dist: {
@@ -517,7 +492,6 @@ module.exports = function (grunt) {
     //-- GRUNT BUILD
     var myTasks = [
         'htmlmin',
-        'compass',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',

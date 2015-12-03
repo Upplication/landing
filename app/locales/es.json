@@ -340,13 +340,13 @@
         "permanence": "Período de prueba sin compromiso de permanencia."
     },
     "about_us": {
-        "_url": "/about-us/",
+        "_url": "/nosotros/",
         "_template": "about_us",
-        "_name": "About Us",
-        "_meta_title": "Create the app for your business",
-        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "_canonical": "http://www.upplication.com/build-your-app",
+        "_name": "Sobre Nosotros",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_canonical": "http://www.upplication.com/",
         "team": {
             "subtitle": "Conoce",
             "title": "a nuestro equipo",
