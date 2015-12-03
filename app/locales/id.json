@@ -666,34 +666,34 @@
             "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
         ],
         "technologies": {
-            "intro": "Buscamos un becario para el departamento de Marketing de Contenidos que cumpla con los siguientes requisitos:",
-            "requirements": "REQUISITOS",
+            "intro": "We are looking for an intern that will join our Marketing department, and that fulfills the following requirements:",
+            "requirements": "REQUIREMENTS",
             "list": [
-                "Buscamos Titulados universitarios o universitarios en últimos cursos con gran pasión por marketing.",
-                "Buen manejo de herramientas de edición y diseño.",
-                "Gran capacidad de redacción.",
-                "Interesado en los sectores del Marketing Digital y el Ecommerce.",
-                "Preferiblemente persona con conocimientos de periodismo o experiencia en redacción de contenidos.",
-                "Persona proactiva, con iniciativa e implicación con la empresa y los distintos proyectos.",
-                "Persona Organizada (orientada al detalle).",
-                "Gran capacidad de trabajo y ambición, buscamos a un joven profesional que tome el proyecto Upplication como propio."
+                "We are looking for someone with a degree - or someone near the end of one – that is passionate for marketing.",
+                "Knows how to use editing and designing tools.",
+                "Adept writing skills.",
+                "Is interested in Digital Marketing and E-commerce.",
+                "Preferably someone with experience with journalism and content writing.",
+                "Someone that is proactive, with an initiative, and wants to be involved with the company and its projects.",
+                "Organized (detail oriented).",
+                "Hard working and ambitious – we are looking for a young professional that will take ownership of the Upplication project."
             ],
-            "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno."
+            "note": "We are not looking for an expert, that is why these internships exist, and that is why we are looking for someone with incentive and motivation. We are looking someone that wants to work for something more than just a salary. Someone that wants to do something big."
         },
         "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
         "weoffer": {
-            "intro": "Para empezar, tus funciones serán:",
+            "intro": "To start, your job will be:",
             "list": [
-                "Ayuda en la creación de apps para clientes.",
-                "Apoyo en el desarrollo de diferentes proyectos de marketing.",
-                "Apoyo a otros departamentos (Social Media, Ecommerce, Comercial, etc).",
-                "Dada la implicación directa del becario con el departamento comercial, se entregará una remuneración variable en función de resultados."
+                "Help the clients with the formulation of the app.",
+                "Help with the development of new marketing projects.",
+                "Support other departments (Social Media, E-commerce, etc.).",
+                "Since the intern is involved with the marketing department, depending on the results, there could be an added bonus in salary."
             ]
         },
-        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
+        "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!",
         "cheers": [
-            "¡Un saludo!",
-            "Equipo Upplication"
+            "Best Regards!",
+            "Upplication team"
         ]
     },
     "external": {
@@ -801,7 +801,7 @@
             "url": "@@config.base_path/offer-trainee-developer/"
         },
         "hiring_marketing": {
-            "anchor": "Marketing intern",
+            "anchor": "Marketing Internship",
             "url": "@@config.base_path/offer-trainee-marketing/"
         },
         "hiring_frontend":{
