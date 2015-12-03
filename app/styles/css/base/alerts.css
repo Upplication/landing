@@ -75,3 +75,18 @@ Copyright 2015
   vertical-align: sub;
   vertical-align: -webkit-baseline-middle;
 }
+
+.error.general-error,
+p.error {
+  background-color: #fceaea;
+  padding: 6px 10px;
+  color: #7f1313;
+  font-weight: 500;
+  width: 100%;
+}
+
+p.error {
+  position: absolute;
+  z-index: 200;
+  bottom: 5px;
+}

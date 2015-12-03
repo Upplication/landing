@@ -104,3 +104,7 @@ button.btn-upp:hover {
   background-color: #009550;
   color: #fff;
 }
+
+.display-none {
+  display: none;
+}
