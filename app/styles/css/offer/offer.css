@@ -1,0 +1,134 @@
+/*
+OFFER CSS: Custom Stylesheet --- CSS OFERTAS: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2015
+*/
+
+/* ... OFFER - JOB OFFERS :: Offer Section ... */
+
+/* ... Main Container ... */
+
+.container.offer-jobs {
+  width: 100%;
+  max-width: 950px;
+}
+
+/* ... Top Image ... */
+
+.offer-jobs img {
+  vertical-align: middle;
+  width: 98%;
+  height: auto;
+}
+
+/* ... Header ... */
+
+.offer-jobs > h2 {
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 2em 0;
+}
+
+/* ... General Paragraphs ... */
+
+.offer-jobs .intro,
+.offer-jobs .technologies,
+.offer-jobs .lifestyle,
+.offer-jobs .weoffer_marketing,
+.offer-jobs .weoffer,
+.offer-jobs .wewantyou,
+.offer-jobs .cheers {
+  font-weight: 300;
+  color: #111b0a;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-family: "Lato", serif;
+}
+
+/* ... "Intro" Paragraphs ... */
+
+.offer-jobs .intro {
+  padding-top: 30px;
+}
+
+/* ... "We Want You" Paragraphs ... */
+
+.offer-jobs .wewantyou {
+  font-weight: 400;
+}
+
+.offer-jobs .wewantyou a {
+  color: #00c86b;
+  font-weight: 500;
+}
+
+.offer-jobs .wewantyou a:hover {
+  color: #009550;
+}
+
+/* ... "Cheers" Paragraphs ... */
+
+.offer-jobs .cheers {
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #111;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.offer-jobs .cheers p:last-child {
+  color: #777777;
+}
+
+/* ... List ... */
+
+.offer-jobs .technologies ul li,
+.offer-jobs .weoffer_marketing ul li,
+.offer-jobs .weoffer ul li {
+  padding-left: 15px;
+}
+
+.offer-jobs .technologies ul li:before,
+.offer-jobs .weoffer_marketing ul li:before,
+.offer-jobs .weoffer ul li:before {
+  content: "\f111";
+  color: #dddddd;
+  font-size: 8px !important;
+  position: relative;
+  bottom: 3px;
+  padding-right: 10px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ... MEDIA QUERIES ... */
+
+@media only screen and (max-width: 420px) {
+  .offer-jobs > h2 {
+    font-size: 1.5em;
+  }
+
+  .offer-jobs .intro,
+  .offer-jobs .technologies,
+  .offer-jobs .lifestyle,
+  .offer-jobs .weoffer_marketing,
+  .offer-jobs .weoffer,
+  .offer-jobs .wewantyou,
+  .offer-jobs .cheers {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .offer-jobs .technologies ul li,
+  .offer-jobs .weoffer_marketing ul li,
+  .offer-jobs .weoffer ul li {
+    padding-left: 5px;
+  }
+}
