@@ -8,6 +8,11 @@ block vars
     - var canonical = $.home._canonical
     - var cssClass = 'home'
 
+block css
+    // build:css({.tmp, app}) /styles/home.min.css
+    link(rel='stylesheet', href='/styles/css/home/home.css')
+    // endbuild
+
 block content
     // SLIDER
     .slider
@@ -263,7 +268,6 @@ block content
                                 .timeline-body
                                     p.text-muted !{home.how.how_four.publish_step2}
                                     p.text-muted !{home.how.how_four.publish_step3}
-
     // SLIDER 2
     .slider.middle-page-slider
         .app-ready.center

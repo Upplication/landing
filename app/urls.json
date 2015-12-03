@@ -1,19 +1,13 @@
 {
     "home": "/views/home.jade",
-    "prices": "/views/prices.jade",
-    "prices_aplicateca": "/views/prices_aplicateca.jade",
     "helpcenter": "/views/help-center.jade",
-    "about": "/views/about.jade",
+    "about_us": "/views/about_us.jade",
     "offer": "/views/offer.jade",
     "offer_marketing": "/views/offer-marketing.jade",
-    "available_offer": "/views/available_offer.jade",
-    "showcase": "/views/showcase.jade",
-    "ono": "/views/ono.jade",
-    "open_future": "/views/open_future.jade",
-    "gd4f": "/views/gd4f.jade",
-    "landing_test_1": "/views/landing_test_1.jade",
-    "landing_test_2": "/views/landing_test_2.jade",
-    "home_tlf": "/views/home_tlf.jade",
     "terms": "/views/terms.jade",
-    "terms_movistar": "/views/terms_movistar.jade"
+
+    "ono": "/views/ono.jade",
+    "home_tlf": "/views/home_telefonica.jade",
+    "terms_movistar": "/views/terms_movistar.jade",
+    "prices_aplicateca": "/views/prices_aplicateca.jade"
 }

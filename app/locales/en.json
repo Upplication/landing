@@ -62,11 +62,27 @@
     "media": "Medios y redes",
     "brand_copy": "Upplication 2015",
     "signature": "Designed and assembled in Madrid",
-    "terms_of_use": "Terms of Use",
-    "cookies_use": "Use of Cookies",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
     "try_it": "Try it <strong>free for 15 days</strong>!",
+    "tos": {
+      "legal": {
+        "url": "@@config.base_path/terms/",
+        "title": "Terms of Use"
+      },
+      "privacy": {
+        "url": "@@config.base_path/terms/#privacidad",
+        "title": "Privacy Policy"
+      },
+      "terms_of_use": {
+        "url": "@@config.base_path/terms/#uso",
+        "title": "General Conditions of Use"
+      },
+      "cookies": {
+        "url": "@@config.base_path/terms/#cookies-policy",
+        "title": "Use of Cookies"
+      }
+    },
     "partners": {
       "eu": {
         "url": "http://ec.europa.eu/regional_policy/es/funding/erdf/",
@@ -102,6 +118,13 @@
     }
   },
   "home": {
+    "_url": "/build-your-app/",
+    "_template": "home",
+    "_name": "Home",
+    "_meta_title": "Create the app for your business",
+    "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+    "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
+    "_canonical": "http://www.upplication.com/build-your-app",
     "slider": {
       "intro1": "App generator for ",
       "intro2": "<span>Create the app for your business,</span> <span>no coding required, fast and simple.</span>",
@@ -209,13 +232,6 @@
       "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
       "with_tax": "<strong>VAT included</strong> in all prices."
     },
-    "_url": "/build-your-app/",
-    "_template": "home",
-    "_name": "Home",
-    "_meta_title": "Create the app for your business",
-    "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
-    "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
-    "_canonical": "http://www.upplication.com/build-your-app",
     "showcase": {
       "title": "These are some of our apps"
     },
@@ -317,6 +333,13 @@
     "permanence": "Trial period with no obligation to stay."
   },
   "about_us": {
+    "_url": "/about-us/",
+    "_template": "about_us",
+    "_name": "About Us",
+    "_meta_title": "Create the app for your business",
+    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_canonical": "http://www.upplication.com/build-your-app",
     "team": {
       "subtitle": "Meet",
       "title": "Out Team",
@@ -596,65 +619,6 @@
       "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)"
     }
   },
-  "about": {
-    "_url": "/about-us/",
-    "_template": "about",
-    "_name": "About Us",
-    "_meta_title": "Create the app for your business",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/build-your-app",
-    "about_us": {
-      "about_us": "About us",
-      "paragraphs": [
-        "Upplication is a Madrid based tech company specializing in the simplification of app creation.",
-        "Our platform was launched in beta phase in October 2013 as an app builder. The key to this technology is the dashboard, simple yet sophisticated, creation and management is made easy through innovative technology. Businesses have the luxury of creating mobile apps in minutes without the complications of coding. Upplication eliminates the long processes and high costs associated with app creation, and adds the benefit of do-it-yourself app management.",
-        "The key to this technology is the dashboard, simple yet sophisticated, creation and management is made easy through innovative technology. Upplication lets businesses of all types sell their valuable products on mobile devices in the App Store and Google Play.",
-        "Emphasizing on simplicity, Upplication is redefining app creation. Join our revolution with over 10,000 other successful businesses in mobile marketing success."
-      ],
-      "image_alt": "Upplication"
-    },
-    "timeline": {
-      "timeline": "Timeline",
-      "2013": [
-        {
-          "date": "October 2013",
-          "desc": "Hello world! Launch Upplication 1.0.0."
-        },
-        {
-          "date": "December 2013",
-          "desc": "Release Upplication 1.2.0 called Heracles."
-        }
-      ],
-      "2014": [
-        {
-          "date": "February 2014",
-          "desc": "Awarded by Fundetec 2013."
-        },
-        {
-          "date": "April 2014",
-          "desc": "Release Upplication 1.4.0 called Popcorn."
-        },
-        {
-          "date": "May 2014",
-          "desc": "Incubated by Wayra Spain (Telefonica)."
-        },
-        {
-          "date": "May 2014",
-          "desc": "Mayo. Milestone, 5,000 mobile apps."
-        }
-      ]
-    },
-    "apps": {
-      "the_data": "The data",
-      "screen_alt": "App built with Upplication",
-      "apps_created": "Apps created",
-      "num": "14,573"
-    },
-    "video": {
-      "play_alt": "Play Upplication intro"
-    }
-  },
   "offer": {
     "_url": "/offer-trainee-developer/",
     "_template": "offer",
@@ -664,37 +628,37 @@
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_canonical": "http://www.upplication.com/",
     "introduction": [
-      "En Upplication somos un equipo en continuo aprendizaje donde existe un flujo de información entre todo el equipo, donde cualquier idea es revisada y discutida para que nos aseguremos que cada proceso y decisión que hemos tomado sea óptimo.",
-      "Queremos seguir renovando nuestras ideas y por ello buscamos un compañero de trabajo en prácticas que entre a formar parte de nuestro equipo de desarrollo y nos ayude a desarrollar nuestro dashboard y CRM interno.",
-      "Queremos ofrecer una buena experiencia de prácticas donde se aprenda y se disponga de la oportunidad de entrar en el mercado laboral. No creemos en unas prácticas donde, aunque el trabajador demuestre su valía, no se da la oportunidad de entrar a formar parte de la empresa. ¡Es que es de cajón! si una persona es buena, en una empresa que está creciendo, sería un problema no intentar que se quede con nosotros."
+      "In Upplication we’re a team that has an unquenchable thirst for learning, and thankfully we have unlimited information. Every idea is thoroughly revised and discussed between the team, so that every decision we make will be of the highest quality.",
+      "We always want to improve our ideas and because of that we are looking for a new intern to join our developing team, who will help us develop our dashboard and internal CRM.",
+      "We want to offer practice, and the opportunity to will learn and be able to enter the labor market. We don’t believe in practice in which even though the employee shows their worth, they don’t have the opportunity to enter and be part of the company. That’s not accepted anymore! If the person is well hearted, and joins a developing company, there will be a problem if they don’t make them part of the team."
     ],
     "technologies": {
-      "intro": "Dentro de nuestras prácticas, buscamos un desarrollador con conocimientos de las siguientes tecnologías.",
+      "intro": "For this internship, we are looking for a developer bears experience with the following programs:",
       "list": [
         "Java",
         "SQL",
-        "Html y Javascript",
-        "Conocimientos de algún framework MVC. (Spring MVC, por ejemplo)",
-        "Conocimientos de Java EE 6"
+        "Html and Javascript",
+        "Familiarity with any MVC framework, e.g., Spring MVC",
+        "Familiarity with Java EE 6"
       ],
-      "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno."
+      "note": "We are not looking for an expert, that is why these internships exist, and that is why we are looking for someone with incentive and motivation. We are looking someone that wants to work for something more than just a salary. Someone that wants to do something big."
     },
     "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
     "weoffer": {
-      "intro": "Para empezar, te podemos ofrecer:",
+      "intro": "To start, we can offer:",
       "list": [
-        "Prácticas de 3 o 4 meses con posibilidad de entrar en plantilla.",
-        "Horario flexible",
-        "No un simple tutor, toda un equipo de trabajo siempre dispuesto a resolver tus dudas :)",
-        "Formar parte del desarrollo de un proyecto vivo, tu código lo utilizarán miles de personas.",
-        "Espacio de trabajo cómodo y amplio con un buen equipo y 2 monitores de 22 pulgadas para que trabajes bien a gusto.",
-        "Zona de relax con sus sofas y puffs, máquina de cafés, nevera, microondas, unas vistas increíbles de Madrid, trabajar en la Gran Vía... La verdad es que Wayra (nuestra incubadora) mola bastante",
-        "Unos 100 € para que, por lo menos, no te cueste dinero venir a Upplication."
+        "Practice of 3 or 4 months with the possibility to be a permanent part of the team.",
+        "Flexible hours",
+        "Not just one simple tutor, a whole team that is always at your disposal for help",
+        "To experience, live, the development of a rising project, where your code will be used by thousands of people.",
+        "A comfortable and ample workplace with a good team, and two 22’’ monitors so that you can work with delight.",
+        "A room to relax in, with puffs and couches, a coffee machine, fridge, microwave, located on Príncipe Pío… Honestly, Wayra (our incubators) are pretty cool.",
+        "A 100€ bill, so that it doesn’t cost you anything to join Upplication."
       ]
     },
-    "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a javier.arnaiz@upplication.com con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
+    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!",
     "cheers": [
-      "¡Un saludo!",
+      "Best regards!",
       "Javier Arnáiz"
     ]
   },
@@ -707,52 +671,39 @@
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_canonical": "http://www.upplication.com/",
     "introduction": [
-      "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
-      "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
+      "Upplication is a tool that allows any SME create an application, in just a few steps, without the need to have any technological experience nor the need to call support. And also for a price that adapts to any budget (starting from 5€/month).",
+      "Actually, we have a presence in 46 countries, and we have created more than 10.000 apps in the 10 months that we have been in the market."
     ],
     "technologies": {
-      "intro": "Buscamos un becario para el departamento de Marketing de Contenidos que cumpla con los siguientes requisitos:",
-      "requirements": "REQUISITOS",
+      "intro": "We are looking for an intern that will join our Marketing department, and that fulfills the following requirements:",
+      "requirements": "REQUIREMENTS",
       "list": [
-        "Buscamos Titulados universitarios o universitarios en últimos cursos con gran pasión por marketing.",
-        "Buen manejo de herramientas de edición y diseño.",
-        "Gran capacidad de redacción.",
-        "Interesado en los sectores del Marketing Digital y el Ecommerce.",
-        "Preferiblemente persona con conocimientos de periodismo o experiencia en redacción de contenidos.",
-        "Persona proactiva, con iniciativa e implicación con la empresa y los distintos proyectos.",
-        "Persona Organizada (orientada al detalle).",
-        "Gran capacidad de trabajo y ambición, buscamos a un joven profesional que tome el proyecto Upplication como propio."
+        "We are looking for someone with a degree - or someone near the end of one – that is passionate for marketing.",
+        "Knows how to use editing and designing tools.",
+        "Adept writing skills.",
+        "Is interested in Digital Marketing and E-commerce.",
+        "Preferably someone with experience with journalism and content writing.",
+        "Someone that is proactive, with an initiative, and wants to be involved with the company and its projects.",
+        "Organized (detail oriented).",
+        "Hard working and ambitious – we are looking for a young professional that will take ownership of the Upplication project."
       ],
-      "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno."
+      "note": "We are not looking for an expert, that is why these internships exist, and that is why we are looking for someone with incentive and motivation. We are looking someone that wants to work for something more than just a salary. Someone that wants to do something big."
     },
     "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
     "weoffer": {
-      "intro": "Para empezar, tus funciones serán:",
+      "intro": "To start, your job will be:",
       "list": [
-        "Ayuda en la creación de apps para clientes.",
-        "Apoyo en el desarrollo de diferentes proyectos de marketing.",
-        "Apoyo a otros departamentos (Social Media, Ecommerce, Comercial, etc).",
-        "Dada la implicación directa del becario con el departamento comercial, se entregará una remuneración variable en función de resultados."
+        "Help the clients with the formulation of the app.",
+        "Help with the development of new marketing projects.",
+        "Support other departments (Social Media, E-commerce, etc.).",
+        "Since the intern is involved with the marketing department, depending on the results, there could be an added bonus in salary."
       ]
     },
-    "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
+    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!",
     "cheers": [
-      "¡Un saludo!",
-      "Equipo Upplication"
+      "Best Regards!",
+      "Upplication team"
     ]
-  },
-  "available_offer": {
-    "_url": "/jobs/",
-    "_template": "available_offer",
-    "_name": "Ofertas trabajo",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com/",
-    "title": "Ofertas disponibles",
-    "description": "Echa un vistazo a las ofertas disponibles.",
-    "developer": "Developer en prácticas",
-    "marketing": "Prácticas de marketing"
   },
   "external": {
     "titles": {
@@ -856,11 +807,11 @@
     "hiring": "We are hiring!",
     "hiring_developer": {
       "anchor": "Developer intern",
-      "url": "http://www.upplication.com/offer-trainee-developer/"
+      "url": "@@config.base_path/offer-trainee-developer/"
     },
     "hiring_marketing": {
-      "anchor": "Marketing intern",
-      "url": "http://upplication.com/offer-trainee-marketing/"
+      "anchor": "Marketing Internship",
+      "url": "@@config.base_path/offer-trainee-marketing/"
     },
     "hiring_frontend":{
       "anchor":"Frontend developer",
@@ -868,7 +819,7 @@
     },
     "hiring_backend":{
       "anchor":"Backend developer",
-      "url":"http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+      "url":"http://www.upplication.com/blog/empleo-backend-developer-para-upplication/"
     },
     "nubo": {
       "anchor": "NUBO",
@@ -883,183 +834,6 @@
     "have_a_code": "Do you have a seller code?",
     "warning_seller": "Seller code can not be blank",
     "dont_have_a_code": "I don't have a seller code"
-  },
-  "prices": {
-    "_url": "/prices/",
-    "_template": "prices",
-    "_name": "Pricing plans",
-    "_meta_title": "Pricing plans",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/prices/",
-    "title": "Pricing plans",
-    "monthly": "Monthly",
-    "yearly": "Yearly",
-    "euro": "€",
-    "dollar": "$",
-    "os_list": "Android / iPhone / iPad / Web",
-    "most_popular_plan": "Most popular plan",
-    "permanency": "* This plan has a 3 months permanency",
-    "iva_included": "IVA inc.",
-    "plans": [
-      {
-        "name": "Basic",
-        "class_name": "plan-basic",
-        "price": "9.95",
-        "price_dollars": "9.90",
-        "price_yearly": "99.50",
-        "price_yearly_dollars": "99.00",
-        "features": [
-          {
-            "icon_class": "icon-ads",
-            "title": "Upplication ads"
-          },
-          {
-            "icon_class": "icon-signature",
-            "title": "Signature on templates"
-          },
-          {
-            "icon_class": "icon-push",
-            "title": "<span class=\"bold\">No</span><span>alerts</span>"
-          },
-          {
-            "icon_class": "icon-stats",
-            "title": "Statistics of your app"
-          }
-        ],
-        "btn_class": "btn-grey"
-      },
-      {
-        "name": "Professional",
-        "class_name": "plan-professional",
-        "price": "29.95",
-        "price_dollars": "29.90",
-        "price_yearly": "299.50",
-        "price_yearly_dollars": "299.00",
-        "features": [
-          {
-            "icon_class": "icon-ads",
-            "title": "<span class=\"bold\">No</span><span> upplication ads</span>"
-          },
-          {
-            "icon_class": "icon-signature",
-            "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
-          },
-          {
-            "icon_class": "icon-push",
-            "title": "4 alerts / month"
-          },
-          {
-            "icon_class": "icon-stats",
-            "title": "Statistics of your app"
-          }
-        ],
-        "btn_class": "btn-green"
-      },
-      {
-        "name": "Premium",
-        "class_name": "plan-premium",
-        "price": "59.95",
-        "price_dollars": "59.90",
-        "price_yearly": "599.50",
-        "price_yearly_dollars": "599.00",
-        "features": [
-          {
-            "icon_class": "icon-ads",
-            "title": "<span class=\"bold\">No</span><span>publicidad Upplication</span>"
-          },
-          {
-            "icon_class": "icon-signature",
-            "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
-          },
-          {
-            "icon_class": "icon-push",
-            "title": "Unlimited alerts"
-          },
-          {
-            "icon_class": "icon-stats",
-            "title": "Statistics of your app"
-          }
-        ],
-        "btn_class": "btn-grey"
-      }
-    ],
-    "special_plans": [
-      {
-        "name": "Starter",
-        "price": "4.95",
-        "price_dollars": "4.90",
-        "price_yearly": "49.50",
-        "price_yearly_dollars": "49.00",
-        "features": [
-          "No statistics",
-          "No app for iPhone and iPad",
-          "Upplication ads",
-          "Signature on templates",
-          "No alerts"
-        ],
-        "btn_text": "Free trial",
-        "has_permanency": false
-      },
-      {
-        "name": "Unlimited *",
-        "price": "299.95",
-        "price_dollars": "299.90",
-        "price_yearly": "2999.50",
-        "price_yearly_dollars": "2999.00",
-        "features": [
-          "All advantages from premium plan",
-          "We help you with the design of your app",
-          "We promote your app"
-        ],
-        "btn_text": "Leave us your data",
-        "has_permanency": true
-      }
-    ],
-    "month": "month",
-    "year": "year",
-    "free_trial": "Free trial",
-    "custom_app": {
-      "title": "We make your 'made-to-measure' app",
-      "subtitle": "Contact us and we will explain you how we do it.",
-      "btn": "Contact us"
-    },
-    "contact": {
-      "customer_service": {
-        "text": "Customer service:",
-        "phone": {
-          "link": "tel:810512370",
-          "title": "810 512 370",
-          "text": "810 512 370 (free)"
-        },
-        "email": {
-          "link": "mailto:soporte@upplication.com",
-          "title": "soporte@upplication.com",
-          "text": "soporte@upplication.com"
-        }
-      }
-    },
-    "all_plans_include": {
-      "title": "All plans include",
-      "list": [
-        {
-          "icon": "icon-support",
-          "text": "Customer support by phone and chat"
-        },
-        {
-          "icon": "icon-markets",
-          "text": "<span>Automatic upload to markets, </span><span class=\"bold\">we upload your app</span>"
-        },
-        {
-          "icon": "icon-web-responsive",
-          "text": "Multidevice responsive web"
-        },
-        {
-          "icon": "icon-tutor",
-          "text": "Customized tutor"
-        }
-      ]
-    }
   },
   "prices_aplicateca": {
     "_url": "/prices-aplicateca/",
@@ -1223,14 +997,7 @@
     }
   },
   "showcase": {
-    "_url": "/showcase/",
-    "_template": "showcase",
-    "_name": "Showcase",
-    "_meta_title": "Showcase - Upplication",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/showcase/",
-    "title": "Showcase",
+    "_url": "asdasd",
     "categories": [
       {
         "name": "online-store",
@@ -1416,42 +1183,6 @@
     "_canonical": "http://www.upplication.com/",
     "title": "Vodafone examples"
   },
-  "open_future": {
-    "_url": "/mwc-open-future/",
-    "_template": "open_future",
-    "_name": "Open Future",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com/"
-  },
-  "gd4f": {
-    "_url": "/go-digital-4-finance/",
-    "_template": "gd4f",
-    "_name": "Go Digital 4 Finance",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com/"
-  },
-  "landing_test_1": {
-    "_url": "/landing-test/",
-    "_template": "landing_test_1",
-    "_name": "Home",
-    "_meta_title": "Create the app for your business",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/build-your-app"
-  },
-  "landing_test_2": {
-    "_url": "/landing-test2/",
-    "_template": "landing_test_2",
-    "_name": "Home",
-    "_meta_title": "Create the app for your business",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/build-your-app"
-  },
   "home_tlf": {
     "_url": "/home-en-tlf/",
     "_template": "home_tlf",
@@ -1459,7 +1190,17 @@
     "_meta_title": "Create the app for your business",
     "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/build-your-app"
+    "_canonical": "http://www.upplication.com/build-your-app",
+    "contact": {
+      "customer_service": {
+        "text": "Customer service:",
+        "email": {
+          "link": "mailto:soporte@upplication.com",
+          "title": "soporte@upplication.com",
+          "text": "soporte@upplication.com"
+        }
+      }
+    }
   },
   "terms": {
     "_url": "/terms/",

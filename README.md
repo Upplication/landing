@@ -5,10 +5,6 @@ Clone this repo and install the dependencies:
 * [nodejs](http://nodejs.org/)
 * [bower](http://bower.io/) `npm install -g bower`
 * [grunt-cli](http://gruntjs.com/getting-started) `npm install -g grunt-cli`
-* [ruby](https://www.ruby-lang.org/)
-* [sass](http://sass-lang.com/) `gem install sass -v "=3.2.19"`
-* [susy](http://susy.oddbird.net/) `gem install susy -v "=1.0.9"`
-* [Compass Core](http://compass-style.org/install/) `gem install compass`
 * Install node dependencies -- `npm install`
 * Install project dependencies -- `bower install`
 
@@ -17,7 +13,7 @@ DEVELOPMENT
 `grunt server`
 
 Starts development environment:
-* Watch changes in sass, jade, ... folders and compiles if it is necessary
+* Watch changes in css, jade, js ... folders and compiles if it is necessary
 * Browser live's reload 
 
 DEPLOYMENT
@@ -59,9 +55,15 @@ You can override this vars passing the concrete key as parameter with the prefix
 
 3. *Adding styles*: 
 
-    - Create: `app/styles/sass/[view_name].sass` using `app/styles/sass/_foo.sass` schema. 
-
-    - Include your new sass file in `app/styles/sass/main.sass`
+    - Create: `app/styles/css/[view_name]/[name].css`
+    - Add all the new css to the view with inside the css block like:
+    ```
+    // build:css({.tmp, app}) /styles/[view_name].min.css
+    link(rel='stylesheet', href='/styles/css/[view_name]/first.css')
+    link(rel='stylesheet', href='/styles/css/[view_name]/second.css')
+    // endbuild
+    ```
+    - TODO: use less
 
 4. *Add translations*: 
 

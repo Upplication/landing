@@ -89,7 +89,7 @@ block content
                                 li #{feature}
                         a.btn.btn-grey(href="mailto:aplicateca@upplication.com") #{plan.btn_text}
                         if plan.has_permanency
-                            span.acenter.font-size-9px.block.margin-top-2x #{prices.permanency}
+                            span.acenter.font-size-9px.block.margin-top-2x #{prices_aplicateca.permanency}
                 div.clear
 
             div.clear
@@ -107,7 +107,7 @@ block content
             h2 #{$.prices_aplicateca.all_plans_include.title}
 
             ul.plans-features
-                each feature in prices.all_plans_include.list
+                each feature in prices_aplicateca.all_plans_include.list
                     li
                         span(class="#{feature.icon}")
                         span !{feature.text}
