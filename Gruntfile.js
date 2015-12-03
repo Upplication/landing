@@ -387,6 +387,7 @@ module.exports = function (grunt) {
                 options: {
                     sassDir: '<%= yeoman.app %>/styles/sass',
                     cssDir: '.tmp/styles',
+                    trace: true,
                     require: 'susy'
                 }
             }

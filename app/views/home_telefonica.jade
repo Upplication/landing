@@ -227,16 +227,16 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     section
                         .contact__customer-service.margin-top-cero.margin-bottom-cero.large.acenter
                             .g-plusone.vertical-align-middle
-                            .customer-service__text.inline-block.vertical-align-top.padding-4px #{prices.contact.customer_service.text}
+                            .customer-service__text.inline-block.vertical-align-top.padding-4px #{home_tlf.contact.customer_service.text}
                             .customer-service__links.inline-block.vertical-align-top.padding-4px
                                 span -
-                                a.customer-service__email(href="#{prices.contact.customer_service.email.link}", title="#{prices.contact.customer_service.email.title}")  #{prices.contact.customer_service.email.text}
+                                a.customer-service__email(href="#{home_tlf.contact.customer_service.email.link}", title="#{home_tlf.contact.customer_service.email.title}")  #{home_tlf.contact.customer_service.email.text}
                     hr.clear
                     #cookies
                         p !{footer.cookies}
                             span#cookies-accept.close X
 
-        include signup
+        include includes/mpos/signup
         //-script(src='/bower_components/zeptojs/src/touch.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
@@ -250,5 +250,5 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
         script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/app.js')
+        script(type="text/javascript", src='/scripts/mpos/app.js')
         // endbuild

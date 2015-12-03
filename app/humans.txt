@@ -1,15 +1,19 @@
 # http://upplication.com/humans.txt
 
 /* TEAM */
-    Chef: Raul Jiménez
+    Developer: Raul Jiménez
     Twitter: @raul_en
-    From:Granada, Andalucia, Spain
+    From: Granada, Andalucia, Spain
 
     Developer: Javier Arnáiz
     Contact: javier.arnaiz [at] upplication.com
     Twitter: @arnaix
-    From:Sevilla, Andalucia, Spain
+    From: Sevilla, Andalucia, Spain
 
     UI developer: Borja Andrés
     Twitter: @borya09
     From: Bilbao, Vizcaya, Spain
+
+    UI design: Javier Lorenzo
+    Twitter: @jalofernandez
+    From: Madrid, Madrid, Spain
