@@ -40,7 +40,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{canonical}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
-        // build:css({.tmp, app}) /styles/main.min.css
+        // build:css({.tmp, app}) /styles/mpos.min.css
         link(rel='stylesheet', href='/styles/deprecated/main.css')
         // endbuild
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
@@ -243,7 +243,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
         // bower:js
         // endbower
-        // build:js({.tmp,app}) /scripts/app.min.js
+
+        // build:js({.tmp,app}) /scripts/mpos.min.js
         script(type='text/javascript').
             $("#seller-code").hide();
             $("[name=customerType]").val("MPAY");
