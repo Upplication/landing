@@ -29,7 +29,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:type', content='article')
         meta(property='og:title', content='#{title}')
         meta(property='og:description', content='#{description}')
-        meta(property='og:url', content='http://upplication.com/')
+        meta(property='og:url', content='//upplication.com/')
         meta(property='og:site_name', content='Upplication')
         meta(property='og:image', content='/images/upplication_rrss.png')
         meta(name="twitter:card", content="summary")
@@ -40,9 +40,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{canonical}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
-        link(rel='stylesheet', href='/styles/main.css')
-        link(rel="shortcut icon", href="http://upplication.es/favicon.ico")
-        link(rel="profile", href="http://gmpg.org/xfn/11")
+        link(rel="shortcut icon", href="//upplication.es/favicon.ico")
+        link(rel="profile", href="//gmpg.org/xfn/11")
         link(rel='stylesheet', href='#{localConfig.base_path}/fonts/style.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
 
@@ -63,20 +62,11 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
         meta(name='viewport', content='width=device-width, initial-scale=1')
         // webfonts
-        link(href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
-        link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
-        link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
+        link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
+        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
+        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
 
     body(id="#{template}", data-lang="#{lang}")
-        nav.nav-basement
-            ul.nav-basement-options.unstyled.margin-top.change-lang
-                li.menu_txt
-                    p.uppercase.white #{header.menu}
-                li.change-lang.change-lang-menu
-                    each lang in langs.codes
-                        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
-                li.login_btn
-                    a(href='#{$.external.nubo.url}') #{$.external.nubo.anchor}
         .outer-wrap
             #main-container.slide-pannel.effects
                 .header-container.bg-vodafone-red
@@ -93,7 +83,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     p.uppercase.white #{header.menu}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
-                                        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                                        a.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{$.external.nubo.url}') #{$.external.nubo.anchor}
 
@@ -218,7 +208,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='/scripts/app.min.js')
 
         // vendor js
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
@@ -235,43 +224,3 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type="text/javascript", src='/scripts/v2/register.js')
         script(type="text/javascript", src='/scripts/v2/lang.js')
         // endbuild
-
-        // smooth scrolling
-        script(type='text/javascript').
-            $(document).ready(function () {
-                $("#clientsCarousel").owlCarousel({
-                    autoPlay: 3000, // Set AutoPlay to 3 seconds
-                    items: 4,
-                    itemsDesktop: [1199, 3],
-                    itemsDesktopSmall: [979, 3]
-                });
-
-                $('.scrollspy').scrollSpy();
-                //
-
-                $('.modal-trigger').leanModal({
-                    opacity: .7
-                });
-
-                $(".button-collapse").sideNav();
-
-
-                $('.social-share').click(function () {
-                    $(".social-nav").toggleClass("social-show");
-                });
-                $('#cookies-accept').click(function () {
-                    $("#habla_window_div").addClass("bottomFix");
-                });
-                $('.lang-link').click(function () {
-                   $("#dropdown-lang").toggleClass("notshow");
-                });
-                $('.lang-link').dropdown({
-                      inDuration: 300,
-                      outDuration: 225,
-                      constrain_width: false,
-                      gutter: 0,
-                      belowOrigin: false,
-                      alignment: 'left'
-                    }
-                  );
-            });
