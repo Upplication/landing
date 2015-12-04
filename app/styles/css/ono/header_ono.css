@@ -1,0 +1,230 @@
+/* HEADER ONO VODAFONE */
+
+* {
+  outline: none !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* HEADER ONO VODAFONE */
+
+.bg-vodafone-red {
+  background-color: #e60000;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.margin-bottom {
+  margin-bottom: 0.5em;
+}
+
+nav.nav-basement {
+  display: none;
+}
+
+header {
+  max-width: 71em;
+  min-height: 3.4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header a.icon-list {
+  display: none;
+}
+
+a.logo img {
+  padding-top: 0.5em;
+  max-height: 2.8em;
+}
+
+.main-menu {
+  float: right;
+  margin-top: .6em;
+  margin-right: 1em;
+}
+
+.main-menu ul,
+.main-menu li {
+  display: inline-block;
+}
+
+#sections li:first-child {
+  display: none;
+}
+
+.main-menu li {
+  margin-right: 1em;
+}
+
+.main-menu a {
+  color: white;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.main-menu .change-lang {
+  float: left;
+  margin-top: 1em;
+}
+
+.main-menu .change-lang a {
+  margin-right: 0.25em;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.main-menu .login_btn a {
+  font-size: 0.95em;
+  font-weight: 500;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 14px 17px;
+  -webkit-transition: border-color 200ms ease-in-out;
+  -ms-transition: border-color 200ms ease-in-out;
+  transition: border-color 200ms ease-in-out;
+}
+
+.main-menu .change-lang a:hover,
+.main-menu .login_btn a:hover {
+  opacity: .6;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
+.main-menu .login_btn {
+  float: right;
+}
+
+/* MEDIA QUERIES :: HEADER ONO PAGE */
+
+@media (max-width:520px) {
+  .main-menu li {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:480px) {
+  .main-menu .change-lang a {
+    padding: 0 5px !important;
+  }
+}
+
+@media (max-width:405px) {
+  .main-menu .change-lang {
+    display: none;
+  }
+}

@@ -736,16 +736,16 @@ a.order-btn:hover {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   text-shadow: -4px -4px 0 #00c86b,
-                  1px -1px 0 #00c86b,
-                  -1px 1px 0 #00c86b,
-                   1px 1px 0 #00c86b;
+    1px -1px 0 #00c86b,
+    -1px 1px 0 #00c86b,
+    1px 1px 0 #00c86b;
 }
 
 .appReady h4 i:last-child {
   text-shadow: 4px 4px 0 #00c86b,
-                  1px -1px 0 #00c86b,
-                  -1px 1px 0 #00c86b,
-                   1px 1px 0 #00c86b;
+    1px -1px 0 #00c86b,
+    -1px 1px 0 #00c86b,
+    1px 1px 0 #00c86b;
 }
 
 @media (min-width:768px) {
@@ -926,17 +926,19 @@ a.order-btn:hover {
 }
 
 #tabs ul li.tab a {
-  color: #00ca6b !important;
+  color: #e60000 !important;
+  /* Vodafone RED */
   font-weight: 400;
   font-size: 18px;
 }
 
 #tabs ul li.tab a:hover {
-  color: #009550 !important;
+  color: #910000 !important;
+  /* Vodafone RED:hover */
 }
 
 .tabs .indicator {
-  background-color: #00ca6b;
+  background-color: #e60000;
 }
 
 #tabs h5 {
@@ -946,7 +948,7 @@ a.order-btn:hover {
 }
 
 #tabs h5 span {
-  color: #00ca6b;
+  color: #e60000;
 }
 
 #tabs ul.uppOnFoot {
@@ -977,7 +979,7 @@ a.order-btn:hover {
 }
 
 #tabs ul li a i.fa-check {
-  color: #00ca6b;
+  color: #e60000;
   padding-right: 8px;
 }
 
@@ -1070,40 +1072,4 @@ a.order-btn:hover {
 
 .pricing-plan-right {
   margin-top: 1.5em;
-}
-
-/* ... TYPED SLIDER PLUGIN ... */
-
-.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }

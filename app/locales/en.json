@@ -144,7 +144,7 @@
       "serv": "Professional <em>Services</em>",
       "personal": "Custom",
       "rest": {
-        "rest_intro": "Create your restaurant’s Android and iPhone app and add value for your customers.",
+        "rest_intro": "Create your restaurant’s Android and iPhone app and <span>add value for your customers</span>.",
         "details1": "Your customers will be able to  <span> make reservations </span> from their phone.",
         "details2": "Offer <span>door-to-door delivery</span> at the touch of a button.",
         "details3": "Show <span>discount coupons</span> on your app.",
@@ -165,7 +165,7 @@
         "serv_details4": "Send exclusive offers with <span>push notifications</span>"
       },
       "custom": {
-        "cust_intro": "Create your <span>custom</span>mobile app, tailor-made to your needs",
+        "cust_intro": "Create your <span>custom</span> mobile app, tailor-made to your needs",
         "cust_details1": "<span>Personal</span>: Upload your resume, presentations, portfolio...",
         "cust_details2": "<span>Music</span>: Upload music and videos, concert dates, merchandising...",
         "cust_details3": "<span>Events</span>: Upload your event’s calendar, send push notifications, create galleries...",
