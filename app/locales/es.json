@@ -145,7 +145,7 @@
             "serv": "<em>Servicios</em> Profesionales",
             "personal": "Personalizadas",
             "rest": {
-                "rest_intro": "Crea la app Android y iPhone de tu <span>restaurante</span> y aporta valor a tu cliente",
+                "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>aporta valor a tu cliente</span>.",
                 "details1": "Tus clientes podrán <span>reservar mesa</span> desde su móvil.",
                 "details2": "Realiza <span>envío a domicilio</span> de tus productos.",
                 "details3": "Muestra <span>cupones descuento</span> en la app.",
@@ -464,7 +464,7 @@
         },
         "departments": {
             "subtitle": "Conoce",
-            "title": "nuestros departmentos",
+            "title": "nuestros departamentos",
             "support": {
                 "title": "Dpto. Soporte",
                 "img": "Belén llamando a nuestros clientes con su mejor sonrisa",

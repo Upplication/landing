@@ -29,7 +29,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:type', content='article')
         meta(property='og:title', content='#{title}')
         meta(property='og:description', content='#{description}')
-        meta(property='og:url', content='http://upplication.com/')
+        meta(property='og:url', content='//upplication.com/')
         meta(property='og:site_name', content='Upplication')
         meta(property='og:image', content='/images/upplication_rrss.png')
         meta(name="twitter:card", content="summary")
@@ -40,26 +40,37 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{canonical}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
-        link(rel='stylesheet', href='/styles/main.css')
-        link(rel="shortcut icon", href="http://upplication.es/favicon.ico")
-        link(rel="profile", href="http://gmpg.org/xfn/11")
+        link(rel="shortcut icon", href="//upplication.es/favicon.ico")
+        link(rel="profile", href="//gmpg.org/xfn/11")
         link(rel='stylesheet', href='#{localConfig.base_path}/fonts/style.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
+
+        link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
+
+        // build:css({.tmp, app}) /styles/base.min.css
+        link(rel='stylesheet', href='/styles/css/ono/ono.css')
+        link(rel='stylesheet', href='/styles/css/ono/header_ono.css')
+        link(rel='stylesheet', href='/styles/css/ono/materialize-reserts.css')
+        link(rel='stylesheet', href='/styles/css/ono/common.css')
+        link(rel='stylesheet', href='/styles/css/ono/mediaqueries.css')
+        // endbuild
+
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        // webfonts
+        link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
+        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
+        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
+
     body(id="#{template}", data-lang="#{lang}")
-        nav.nav-basement
-            ul.nav-basement-options.unstyled.margin-top.change-lang
-                li.menu_txt
-                    p.uppercase.white #{header.menu}
-                li.change-lang.change-lang-menu
-                    each lang in langs.codes
-                        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
-                li.login_btn
-                    a(href='#{$.external.nubo.url}') #{$.external.nubo.anchor}
         .outer-wrap
             #main-container.slide-pannel.effects
                 .header-container.bg-vodafone-red
-                    header.padding-top.bg-vodafone-red
+                    header.container.padding-top.bg-vodafone-red
                         a.logo.margin-bottom(href='#{localConfig.base_path}')
                             img(src="#{localConfig.base_path}/images/vodafone.png", alt="Upplication logo")
 
@@ -72,51 +83,144 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     p.uppercase.white #{header.menu}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
-                                        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                                        a.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{$.external.nubo.url}') #{$.external.nubo.anchor}
 
-                #content(class='#{cssClass} ono')
-                    section#selector
-                        div.container
-                            div.fade-left
-                            div.app-categories
-                                ul
-                                    each category in showcase.categories
+            // SAMPLES
+            #tabs.container.scrollspy
+                .row
+                    .text-center
+                        h4.headTitles #{home.samples.business}
+                .section
+                    .row
+                        .col.s12
+                            ul.tabs
+                                li.tab.col.s6.l3
+                                    a.active(href='#host')
+                                        i.fa.fa-cutlery
+                                        span #{home.samples.restaurants}
+                                li.tab.col.s6.l3
+                                    a(href='#tiendas')
+                                        i.fa.fa-shopping-cart
+                                        span #{home.samples.shops}
+                                li.tab.col.s6.l3
+                                    a(href='#servprof')
+                                        i.fa.fa-wrench
+                                        span !{home.samples.serv}
+                                li.tab.col.s6.l3
+                                    a(href='#personal')
+                                        i.fa.fa-cog
+                                        span #{home.samples.personal}
+                        #host.col.s12
+                            .row.padTop50
+                                .col.s12.l4.mobileImg
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
+                                .col.s12.l7.margTop50.mobileText
+                                    h5 !{home.samples.rest.rest_intro}
+                                    ul.uppOnFoot(type='circle')
                                         li
-                                            span(class="#{category.icon_class}", data-category="#{category.name}")
-                            div.fade-right
-                            div.position-arrow
-                                section#showcase.min-bottom-space.min-top-space.dark-bg
-                        div.container
-                            button.slider-btn.prev-btn
-                                span(class="icon-arrow-left")
-                            button.slider-btn.next-btn
-                                span(class="icon-arrow-right")
-                                    div#showcase-items.clearfix
-                                each category, i in showcase.categories
-                                    div(class=i === 0 ? "showcase-item clearfix" : "showcase-item clearfix hidden", data-category="#{category.name}")
-                                        div.info-container
-                                            h2 #{category.title}
-                                            p #{category.description}
-                                                ul.features
-                                            each feature in category.features
-                                                li
-                                                    span.plus-icon +
-                                                    span #{feature}
-                                                        ul.operating-systems
-                                            li
-                                                a(href="#{category.url}", target="_blank")
-                                                    span.icon-html5
-                                            li
-                                                a(href="#{category.url}", target="_blank", class="no-pointer-events")
-                                                    span.icon-ios
-                                            li
-                                                a(href="#{category.url}", target="_blank", class="no-pointer-events")
-                                                    span.icon-android
-                                                        div.phone-container.small
-                                            img(src="#{localConfig.base_path}/images/sample_apps/#{category.name}.png", alt="#{category.title}")
+                                            a(href='')
+                                                i.fa.fa-check
+                                                !{home.samples.rest.details1}
+                                        li
+                                            a(href='')
+                                                i.fa.fa-check
+                                                !{home.samples.rest.details2}
+                                        li
+                                            a(href='')
+                                                i.fa.fa-check
+                                                !{home.samples.rest.details3}
+                                        li
+                                            a(href='')
+                                                i.fa.fa-check
+                                                !{home.samples.rest.details4}
+                        #tiendas.col.s12
+                            .row.padTop50
+                                .col.s12.l4.mobileImg
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='#{home.samples.alt_tag.img_nexus}')
+                                .col.s12.l7.margTop50.mobileText
+                                    h5 !{home.samples.shop.shop_intro}
+                                        | .
+                                    ul.uppOnFoot(type='circle')
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.shop.shop_details1}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.shop.shop_details2}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.shop.shop_details3}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.shop.shop_details4}
+                        #servprof.col.s12
+                            .row.padTop50
+                                .col.s12.l4.mobileImg
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='#{home.samples.alt_tag.img_galaxy}')
+                                .col.s12.l7.margTop50.mobileText
+                                    h5 !{home.samples.services.serv_intro}
+                                    ul.uppOnFoot(type='circle')
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.services.serv_details1}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.services.serv_details2}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.services.serv_details3}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.services.serv_details4}
+                        #personal.col.s12
+                            .row.padTop50
+                                .col.s12.l4.mobileImg
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', alt='#{home.samples.alt_tag.img_xperia}')
+                                .col.s12.l7.margTop50.mobileText
+                                    h5 !{home.samples.custom.cust_intro}
+                                    ul.uppOnFoot(type='circle')
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.custom.cust_details1}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.custom.cust_details2}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.custom.cust_details3}
+                                        li
+                                            a(href='#!')
+                                                i.fa.fa-check
+                                                !{home.samples.custom.cust_details4}
         
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='/scripts/app.min.js')
+
+        // vendor js
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
+        // endvendor
+
+        // build:js({.tmp,app}) /scripts/app.v2.min.js
+        script(type="text/javascript", src='/scripts/ua.js')
+        script(type="text/javascript", src='/scripts/topic.js')
+        script(type="text/javascript", src='/scripts/scroll.js')
+        script(type="text/javascript", src='/scripts/v2/cookies.js')
+        script(type="text/javascript", src='/scripts/v2/register.js')
+        script(type="text/javascript", src='/scripts/v2/lang.js')
+        // endbuild

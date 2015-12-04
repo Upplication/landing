@@ -156,7 +156,8 @@ Copyright 2015
   margin-top: 100px;
 }
 
-.team-header h4 {
+.team-header h4,
+#team h4 {
   color: #555;
   font-family: "Lato";
   font-size: 2em;
@@ -165,7 +166,12 @@ Copyright 2015
   padding: 0 0 0.5em 0;
 }
 
-.team-header h4 span {
+#about h4 {
+  margin: 0 0 2.5em 0;
+}
+
+.team-header h4 span,
+#team h4 {
   color: #cccccc;
   padding-right: 10px;
 }
