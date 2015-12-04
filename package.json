@@ -1,6 +1,6 @@
 {
   "name": "Landing-Upplication",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",

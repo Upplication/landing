@@ -56,7 +56,7 @@ You can override this vars passing the concrete key as parameter with the prefix
 3. *Adding styles*: 
 
     - Create: `app/styles/css/[view_name]/[name].css`
-    - Add all the new css to the view with inside the css block like:
+    - Add all the new css to the view with a 'usemin css block'. Example:
     ```
     // build:css({.tmp, app}) /styles/[view_name].min.css
     link(rel='stylesheet', href='/styles/css/[view_name]/first.css')
