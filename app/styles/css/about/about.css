@@ -422,19 +422,19 @@ Copyright 2015
   }
 
   .team-jose {
-    background: url("//localhost:9000/images/about/jose_ceo_mob.jpg") no-repeat center center;
+    background: url("@@config.base_path/images/about/jose_ceo_mob.jpg") no-repeat center center;
   }
 
   .team-jose:hover {
-    background: url("//localhost:9000/images/about/jose_ceo_2_mob.jpg") no-repeat center center;
+    background: url("@@config.base_path/images/about/jose_ceo_2_mob.jpg") no-repeat center center;
   }
 
   .team-victor {
-    background: url("//localhost:9000/images/about/victor_cmo_mob.jpg") no-repeat center center;
+    background: url("@@config.base_path/images/about/victor_cmo_mob.jpg") no-repeat center center;
   }
 
   .team-victor:hover {
-    background: url("//localhost:9000/images/about/victor_cmo_2_mob.jpg") no-repeat center center;
+    background: url("@@config.base_path/images/about/victor_cmo_2_mob.jpg") no-repeat center center;
   }
 
   #team .bosses-area a.team-job {
