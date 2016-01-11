@@ -124,7 +124,6 @@
     "_meta_title": "Create the app for your business",
     "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
     "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
-    "_canonical": "http://www.upplication.com/build-your-app",
     "slider": {
       "intro1": "App generator for ",
       "intro2": "<span>Create the app for your business,</span> <span>no coding required, fast and simple.</span>",
@@ -392,7 +391,6 @@
     "_meta_title": "Create the app for your business",
     "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/build-your-app",
     "team": {
       "subtitle": "Meet",
       "title": "Our Team",
@@ -536,7 +534,6 @@
     "_name": "Help center",
     "_meta_title": "help center",
     "_meta_description": "Description tag",
-    "_canonical": "http://www.upplication.com/help-center",
     "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "title": "Help center",
     "section": {
@@ -673,7 +670,6 @@
     "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com/",
     "introduction": [
       "In Upplication we’re a team that has an unquenchable thirst for learning, and thankfully we have unlimited information. Every idea is thoroughly revised and discussed between the team, so that every decision we make will be of the highest quality.",
       "We always want to improve our ideas and because of that we are looking for a new intern to join our developing team, who will help us develop our dashboard and internal CRM.",
@@ -716,7 +712,6 @@
     "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com/",
     "introduction": [
       "Upplication is a tool that allows any SME create an application, in just a few steps, without the need to have any technological experience nor the need to call support. And also for a price that adapts to any budget (starting from 5€/month).",
       "Actually, we have a presence in 46 countries, and we have created more than 10.000 apps in the 10 months that we have been in the market."
@@ -757,7 +752,6 @@
     "_template": "page_not_found",
     "_meta_title": "404: not found",
     "_meta_description": "Description tag",
-    "_canonical": "http://www.upplication.com/page-not-found-idonesian/",
     "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "title": "404",
     "subtitle1": "Page",
@@ -1248,7 +1242,7 @@
     "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_canonical": "http://www.upplication.com/",
+    "_canonical": "http://www.upplication.com/vodafone-examples/",
     "title": "Vodafone examples"
   },
   "home_tlf": {
@@ -1258,7 +1252,7 @@
     "_meta_title": "Create the app for your business",
     "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_canonical": "http://www.upplication.com/build-your-app",
+    "_canonical": "http://www.upplication.com/home-en-tlf/",
     "contact": {
       "customer_service": {
         "text": "Customer service:",

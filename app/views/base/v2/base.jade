@@ -22,7 +22,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='keywords', content='#{keywords}')
         meta(name='author', content='Upplication Software Technologies, S.L.')
 
-        // link(rel='canonical' href="#{routing[template]['es']}" />
+        each lang in langs.codes
+            link(rel="alternate", href="#{routing[template][lang.language_country]}", hreflang="#{lang.language_country}")
+
+        link(rel='canonical', href="#{routing[template][lang]}")
 
         // Favicon
         link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
