@@ -140,12 +140,20 @@ Copyright 2015
   background: url("@@config.base_path/images/about/cris_marketing_2.jpg") no-repeat center center;
 }
 
+.team-kelia {
+  background: url("@@config.base_path/images/about/kelia_marketing.jpg") no-repeat center center;
+}
+
+.team-kelia:hover {
+  background: url("@@config.base_path/images/about/kelia_marketing_2.jpg") no-repeat center center;
+}
+
 .team-newfella {
   background: url("@@config.base_path/images/about/new_fella.jpg") no-repeat center center;
 }
 
 .team-newfella:hover {
-  background: url("@@config.base_path/images/about/new_fella.jpg") no-repeat center center;
+  background: url("@@config.base_path/images/about/new_fella_2.jpg") no-repeat center center;
 }
 
 /* TEAM Images :: Grupal Pictures */
@@ -293,7 +301,7 @@ Copyright 2015
 }
 
 #team .crew-area a.team-job:hover {
-  background-color: #009550;
+  background-color: #00e386;
 }
 
 #team .crew-area a.team-new {

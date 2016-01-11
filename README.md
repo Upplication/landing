@@ -67,7 +67,16 @@ You can override this vars passing the concrete key as parameter with the prefix
 
 4. *Add translations*: 
 
-    Update all: `app/locales/[contry_lang].json` schema in `app/locales/_foo.json`
+    Update all: `app/locales/[contry_lang].json` with:
+
+    - First we must create the block for the view. This block must be named just like the key added in urls.json
+    - Add the following keys to the block:
+    -- _url: the absoulte url for the json lang
+    -- _template: it must named just like the key added in urls.json and the block name. (TODO: eliminar y pensar como cargar el nombre del bloque en que estamos dinamicamente).
+    -- _meta_title: seo
+    -- _meta_description: seo
+    -- _canonical: original url (TODO borrar canonical de los json de idioma ya que ahora en el base se carga dinamicamente como canoncial la española).
+    -- _keywords: seo
 
 Notes:
 

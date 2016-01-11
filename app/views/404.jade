@@ -1,0 +1,47 @@
+extends base/v2/base
+
+block vars
+    - var template = $.page_not_found._template
+    - var title = $.page_not_found._meta_title
+    - var description = $.page_not_found._meta_description
+    - var keywords = $.page_not_found._keywords
+    - var canonical = $.page_not_found._canonical
+    - var cssClass = 'page_not_found'
+
+block css
+    // build:css({.tmp, app}) /styles/404.min.css
+    link(rel='stylesheet', href='/styles/css/404/404.css')
+    // endbuild
+
+block content
+
+    // 404 ERROR
+    .page-not-found-bg
+        img.responsive-img(src='#{localConfig.base_path}/images/error/404_bg.jpg', alt='#{company.worldmap.worldmap_img}')
+    .container
+        .col.s12.center-align.page-not-found-header.padBot50
+            h4(data-text='404') #{page_not_found.title}
+            p #{page_not_found.subtitle1}
+                span &nbsp#{page_not_found.subtitle2}
+        .row.not-found-suggestions
+            .col.m8.offset-m2.s12
+                p.strong500.padTop30.padBot30 #{page_not_found.pre_advice}
+        .row.not-found-suggestions
+            .col.s12.m3
+                p.number.number-one
+                p #{page_not_found.advice1}
+            .col.s12.m3
+                p.number.number-two
+                p #{page_not_found.advice2}
+            .col.s12.m3
+                p.number.number-three
+                p #{page_not_found.advice3}
+             .col.s12.m3
+                p.number.number-four
+                p #{page_not_found.advice4}
+            .clearfix
+        .row.not-found-suggestions
+            .col.m8.offset-m2.s12
+                p.strong500.padTop30.padBot30 !{page_not_found.suggestion}
+
+block scripts

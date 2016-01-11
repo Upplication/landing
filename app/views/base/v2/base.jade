@@ -21,6 +21,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='description', content='#{description}')
         meta(name='keywords', content='#{keywords}')
         meta(name='author', content='Upplication Software Technologies, S.L.')
+
+        // link(rel='canonical' href="#{routing[template]['es']}" />
+
         // Favicon
         link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
         link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
@@ -75,7 +78,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 .container
                     .logo
                         a(href='index.html')
-                            img(src='#{header.logo.url_xmas}', title='#{header.logo.title_xmas}')
+                            img(src='#{header.logo.url}', title='#{header.logo.title}')
                     nav.top-nav
                         ul.top-nav.hide-ul
                             li

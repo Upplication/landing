@@ -95,13 +95,13 @@ a.price-btn {
 }
 
 a.price-btn:hover {
-  background: #009550;
+  background: #00e386;
 }
 
 /* ... CONTACT DATA :: PRE-FOOTER :: Footer Common in all pages... */
 
 .servCliente {
-  background-color: #eee !important;
+  background-color: #b4bad2 !important;
   /*border-top: 1px solid #009750;*/
 }
 
@@ -118,7 +118,7 @@ a.price-btn:hover {
 
 .servCliente ul li a {
   font-size: 18px;
-  color: #666;
+  color: #686e85;
   font-weight: 500;
 }
 
@@ -137,6 +137,7 @@ a.price-btn:hover {
 
 .servCliente ul li.mail {
   background-color: rgba(0,0,0,.05);
+  margin-left: -4px !important;
 }
 
 .servCliente ul li.tel:hover {
@@ -153,7 +154,7 @@ footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
   margin: 0;
-  background-color: #999 !important;
+  background-color: #c9cedf !important;
 }
 
 footer.page-footer.container {
@@ -164,7 +165,7 @@ footer.page-footer h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #373737;
+  color: #686e85;
   font-size: 15px;
 }
 
@@ -177,7 +178,7 @@ footer.page-footer ul li {
 }
 
 footer.page-footer ul.footLinks li a {
-  color: #333;
+  color: #555;
   font-size: 15px;
   letter-spacing: .03em;
   -webkit-transition-timing-function: ease-in-out;
