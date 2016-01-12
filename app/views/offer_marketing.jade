@@ -1,7 +1,6 @@
 extends base/v2/base
 
 block vars
-    - var template = $.offer_marketing._template
     - var title = $.offer_marketing._meta_title
     - var description = $.offer_marketing._meta_description
     - var keywords = $.offer_marketing._keywords
@@ -18,7 +17,6 @@ block content
 
     section.bottom-space
         .container.offer-jobs
-            // h2 #{$.offer_marketing._name}
             h2.text-center.padTop50 #{external.hiring_marketing.anchor}
 
             img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", alt="oficina")

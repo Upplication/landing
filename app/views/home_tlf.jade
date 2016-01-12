@@ -1,9 +1,7 @@
 block vars
-    - var template = $.home_tlf._template
     - var title = $.home_tlf._meta_title
     - var description = $.home_tlf._meta_description
     - var keywords = $.home_tlf._keywords
-    - var canonical = $.home_tlf._canonical
     - var cssClass = 'home'
 doctype
 //if lt IE 7
@@ -38,7 +36,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(name="twitter:creator", content="@upplication")
         meta(name="twitter:image:src", content="/images/upplication_rrss.png")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
-        link(rel="canonical", href="#{canonical}")
+        link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
         // build:css({.tmp, app}) /styles/mpos.min.css
         link(rel='stylesheet', href='/styles/deprecated/main.css')
@@ -49,7 +47,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
 
-    body(id="#{template}", data-lang="#{lang}")
+    body(id="#{_template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
         nav.nav-basement.color-tlf
             ul.nav-basement-options.unstyled.margin-top.change-lang
@@ -57,7 +55,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     p.uppercase.white #{header.menu}
                 li.change-lang.change-lang-menu
                     each lang in langs.codes
-                        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                        a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                 li.login_btn
                     a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
         .outer-wrap.color-tlf
@@ -74,7 +72,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     p.uppercase.white #{header.menu}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
-                                        a(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                                        a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
                             a.btn-signup.green-accent-btn.triggers-signup.bold(href="#", onclick="return false;") #{header.free_trial}

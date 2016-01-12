@@ -6,8 +6,9 @@ var BASE_PATH;
 var environment;
 var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
 var fs = require('fs');
+var path = require('path');
 var mountFolder = function (connect, dir) {
-    return connect.static(require('path').resolve(dir));
+    return connect.static(path.resolve(dir));
 };
 
 // # Globbing
@@ -29,7 +30,6 @@ module.exports = function (grunt) {
         // override for grunt params
         for (var key in localConfig) {
             if (localConfig.hasOwnProperty(key)) {
-                //console.log(key + " -> " + localConfig[key]);
                 var override = grunt.option("config." + key);
                 if (override) {
                     localConfig[key] = override;
@@ -39,10 +39,28 @@ module.exports = function (grunt) {
         return localConfig;
     };
 
+    /**
+     * Create the views reading the first level of the view directory
+     */
+    var getViews = function() {
+        var viewPath = './app/views/',
+            result = {},
+            views = fs.readdirSync(viewPath);
+
+        views = views.filter(function(elem){
+            return !fs.statSync(viewPath + elem).isDirectory();
+        });
+
+        views.forEach(function(view){
+            result[path.basename(view, '.jade')] = '/views/' + view;
+        });
+
+        return result;
+    };
+
     // we can use configs vars inside locales json
 
     var getRoutes = function () {
-        var views = grunt.file.readJSON('./app/urls.json');
         var langs = grunt.file.readJSON('./app/locales/languages.json');
         langs = langs.codes;
         var langFiles = {}, lang, routing = {}, i;
@@ -51,10 +69,9 @@ module.exports = function (grunt) {
             lang = langs[i].language_country;
             langFiles[lang] = grunt.file.readJSON('./app/locales/' + lang + '.json');
         }
-
+        var views = getViews();
         for (var view in views) {
             routing[view] = {};
-
             if (views.hasOwnProperty(view)) {
                 for (i = 0; i < langs.length; i++) {
                     lang = langs[i].language_country;
@@ -62,7 +79,6 @@ module.exports = function (grunt) {
                 }
             }
         }
-        //console.log("Return routing=", routing);
         return routing;
     };
 
@@ -84,20 +100,12 @@ module.exports = function (grunt) {
     }
 
     //SETUP JADE DINAMICALLY
-    var views = grunt.file.readJSON('./app/urls.json');
+
     var langs = grunt.file.readJSON('./app/locales/languages.json');
-    //console.log("langs=",langs);
 
     var jade_config = {};
-    var dest, src, task, curr_lang, jade = {}, folder, lang_html;
+    var dest, src, task, curr_lang, jade = {}, folder;
 
-    //TODO: For {"dist", "dev"}
-    var tasks = {
-        dist: {
-            name: "dist"
-
-        }
-    };
     ["dist", "dev"].forEach(function (env) {
 
         jade[env] = [];
@@ -120,13 +128,17 @@ module.exports = function (grunt) {
                         localeExtension: true
                     },
                     pretty: true,
-                    data: {
-                        langs: grunt.file.readJSON("app/locales/languages.json"),
-                        lang: lang,
-                        routing: routing,
-                        routingString: JSON.stringify(routing),
-                        config: config,
-                        localConfig: localConfig
+                    data: function(dest, src){
+                        return {
+                            langs: grunt.file.readJSON("app/locales/languages.json"),
+                            lang: lang,
+                            // current key for the block
+                            _template: path.basename(src, '.jade'),
+                            routing: routing,
+                            routingString: JSON.stringify(routing),
+                            config: config,
+                            localConfig: localConfig
+                        };
                     }
                 },
                 files: {}
@@ -134,16 +146,19 @@ module.exports = function (grunt) {
 
             curr_lang = grunt.file.readJSON(yeomanConfig.app + '/locales/' + lang + '.json');
 
+            var views = getViews();
             for (var view in views) {
-                if (views.hasOwnProperty(view)) {
-                    if (env === "dist")
-                        folder = "dist";
-                    else
-                        folder = ".tmp";
+                if (env === "dist")
+                    folder = "dist";
+                else
+                    folder = ".tmp";
 
-                    dest = folder + curr_lang[view]._url + (curr_lang[view].page || "index.html");
-                    src = "<%= yeoman.app %>" + views[view];
-                    jade_config[task].files[dest] = src;
+                dest = folder + curr_lang[view]._url + (curr_lang[view].page || "index.html");
+                src = "<%= yeoman.app %>" + views[view];
+                //jade_config[task].options.data.viewName = view;
+                jade_config[task].files[dest] = src;
+                if (views.hasOwnProperty(view)) {
+
                 }
             }
         });
@@ -542,7 +557,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.loadNpmTasks('grunt-gh-pages');
-    grunt.loadNpmTasks('grunt-jade-i18n-extended');
+    grunt.loadNpmTasks('grunt-jade-i18n');
     grunt.loadNpmTasks('grunt-replace');
 
 };
