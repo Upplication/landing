@@ -45,15 +45,11 @@ The file config.json contains the definition of all the configuration needed by 
 You can override this vars passing the concrete key as parameter with the prefix `config.`. Example `grunt deploy --env=localhost --config.token_manager=1337` load all the vars defined in the localhost section and override the token_manager var with the value `1337`
 
 ## Add a new view
-1. *URI definition*: 
-
-    Update: `app/urls.json`
-
-2. *Adding template*: Create: 
+1. *Adding template*: Create:
 
     `app/views/[view_name].jade`
 
-3. *Adding styles*: 
+2. *Adding styles*:
 
     - Create: `app/styles/css/[view_name]/[name].css`
     - Add all the new css to the view with a 'usemin css block'. Example:
@@ -65,9 +61,16 @@ You can override this vars passing the concrete key as parameter with the prefix
     ```
     - TODO: use less
 
-4. *Add translations*: 
+3. *Add translations*:
 
-    Update all: `app/locales/[contry_lang].json` schema in `app/locales/_foo.json`
+    Update all: `app/locales/[contry_lang].json` with:
+
+    - Add at the end of the file a new object with the name of the file added to the view without the extension [view_name]
+    - Add the following keys to the object:
+     - _url: the absoulte url for the view in the current language
+     - _meta_title: seo
+     - _meta_description: seo
+     - _keywords: seo
 
 Notes:
 

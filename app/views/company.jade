@@ -1,0 +1,130 @@
+extends base/v2/base
+
+block vars
+    - var title = $.company._meta_title
+    - var description = $.company._meta_description
+    - var keywords = $.company._keywords
+    - var cssClass = 'company'
+
+block css
+    // build:css({.tmp, app}) /styles/company.min.css
+    link(rel='stylesheet', href='/styles/css/company/company.css')
+    // endbuild
+
+block content
+
+    // COMPANY INTRO
+    section#intro.border-bottom
+        .container.marBot50
+            .row
+                .plans-head.text-center
+                    h4.headTitles !{company.intro.maintitle}
+            .row.company-intro
+                .col.s12.offset-m2.m8
+                    p !{company.intro.description}
+
+    // COMPANY BIO TIMELINE
+    section#company.scrollspy
+        .container
+            .row
+                .plans-head.text-center
+                    h4.headTitles !{company.timeline.maintitle}
+            .row
+                .col-lg-12
+                    ul.timeline
+                        li.step1
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-01.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step1.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step1.description}
+                        li.timeline-inverted.step2
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-02.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step2.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step2.description}
+                        li.step3
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-03.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step3.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step3.description}
+                        li.timeline-inverted.step4
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-04.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step4.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step4.description}
+                        li.step5
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-05.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step5.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step5.description}
+                        li.timeline-inverted.step6
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-06.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step6.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step6.description}
+                        li.step7
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/company/timeline-07.png', alt='')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading #{company.timeline.step7.year}
+                                .timeline-body
+                                    p.text-muted !{company.timeline.step7.description}
+    // WORLD MAP
+    .worldmap-section
+        .worldmap-bg.marBot50
+            .plans-head.text-center.padTop50
+                h4.headTitles.noMargBot !{company.worldmap.title}
+                p !{company.worldmap.sub_title}
+            img.responsive-img.padTop50#image-test(src='#{localConfig.base_path}/images/home/bg/worldmap_bg.jpg', alt='#{company.worldmap.worldmap_img}')
+
+block scripts
+
+    // CUSTOM JS
+    script(type='text/javascript').
+        $(document).ready(function () {
+            $('ul.tabs').tabs();
+            var options = [
+                {selector: '#company', offset: 300, callback: 'Materialize.showStaggeredList(".timeline")'},
+                {selector: '.worldmap-section', offset: 500, callback: 'Materialize.fadeInImage("#image-test")'},
+            ];
+            Materialize.scrollFire(options);
+            // Animate.css for web elements:
+            var $imgMove = $('.imgMove'),
+                    $imgFlash = $('.imgFlash');
+            $imgMove.mouseenter(function () {
+                $(this).addClass("animated");
+                $(this).addClass("pulse");
+            });
+            $imgMove.mouseleave(function () {
+                $(this).removeClass("animated");
+                $(this).removeClass("pulse");
+            });
+            $imgFlash.mouseenter(function () {
+                $(this).addClass("animated");
+                $(this).addClass("rubberBand");
+            });
+            $imgFlash.mouseleave(function () {
+                $(this).removeClass("animated");
+                $(this).removeClass("rubberBand");
+            });
+            // end home
+        });

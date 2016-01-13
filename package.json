@@ -1,37 +1,51 @@
 {
   "name": "Landing-Upplication",
-  "version": "2.3.3",
+  "version": "2.4.0",
+  "author": "Upplication Team <javier.arnaiz@upplication.com>",
+  "contributors": [{
+    "name": "Raul Jiménez",
+    "email": "@hhkaos"
+    }, {
+      "name": "Borja Andrés",
+      "email": "@borya09"
+    }, {
+      "name": "Javier Arnáiz",
+      "email": "javier.arnaiz@upplication.com"
+    }, {
+      "name": "Javier Lorenzo",
+      "email": "javier.lorenzo@upplication.com"
+    }
+  ],
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-cssmin": "~0.6.0",
-    "grunt-contrib-connect": "~0.3.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-htmlmin": "~0.1.3",
-    "jpegtran-bin": "0.2.3",
-    "pngquant-bin": "0.1.6",
-    "gifsicle": "0.1.4",
-    "optipng-bin": "0.3.1",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-autoprefixer": "~0.2.0",
-    "grunt-svgmin": "~0.2.0",
-    "grunt-ngmin": "~0.0.2",
-    "grunt-rev": "~0.1.0",
-    "grunt-open": "~0.2.0",
-    "grunt-concurrent": "~0.3.0",
-    "load-grunt-tasks": "~0.1.0",
     "connect-livereload": "~0.2.0",
-    "time-grunt": "~0.1.0",
-    "grunt-contrib-jade": "~0.8.0",
-    "grunt-jade-i18n-extended": "~0.0.1",
-    "grunt-usemin": "~0.1.11",
+    "gifsicle": "0.1.4",
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "~0.2.0",
+    "grunt-concurrent": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-htmlmin": "~0.1.3",
+    "grunt-contrib-imagemin": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.2",
     "grunt-gh-pages": "~0.8.1",
-    "grunt-replace": "~0.7.3"
+    "grunt-jade-i18n": "upplication/grunt-jade-i18n#0.4.0",
+    "grunt-ngmin": "~0.0.2",
+    "grunt-open": "~0.2.0",
+    "grunt-replace": "~0.7.3",
+    "grunt-rev": "~0.1.0",
+    "grunt-svgmin": "~0.2.0",
+    "grunt-usemin": "~0.1.11",
+    "jpegtran-bin": "0.2.3",
+    "load-grunt-tasks": "~0.1.0",
+    "optipng-bin": "0.3.1",
+    "pngquant-bin": "0.1.6",
+    "time-grunt": "~0.1.0"
   },
   "engines": {
     "node": ">=0.8.0"

@@ -61,7 +61,7 @@
         "company": "Compañía",
         "community": "Comunidad",
         "media": "Medios y redes",
-        "brand_copy": "Upplication 2015",
+        "brand_copy": "Upplication 2016",
         "signature": "Diseñado y desarrollado en Madrid",
         "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/'>política de cookies</a>.",
         "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/condicioneslegalesmovistar-upplication/'>política de cookies.</a>",
@@ -120,12 +120,9 @@
     },
     "home": {
         "_url": "/",
-        "_template": "home",
-        "_name": "Inicio",
         "_meta_title": "Upplication: Crea la app de tu pyme",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
         "slider": {
             "intro1": "El creador de apps para ",
             "intro2": "<span>Crea la app de tu negocio,</span> <span>sin programar, fácil y rápido.</span>",
@@ -179,6 +176,10 @@
                 "img_xperia": "App de Upplication funcionando en un Sony Xperia"
             },
             "free_app": "Crear mi app Gratis"
+        },
+        "multidevises": {
+            "title": "Nuestras apps son multiplataforma",
+            "sub_title": "Válidas para cualquier dispositivo con cualquier sistema operativo"
         },
         "how": {
             "how_main": "Crea tu app fácilmente",
@@ -339,14 +340,57 @@
         "create_free": "Crear mi app gratis",
         "permanence": "Período de prueba sin compromiso de permanencia."
     },
-    "about_us": {
-        "_url": "/nosotros/",
-        "_template": "about_us",
-        "_name": "Sobre Nosotros",
+    "company": {
+        "_url": "/bio-de-empresa/",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
+        "intro": {
+            "maintitle": "<span>¿Qué es</span> Upplication<span>?</span>",
+            "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>es un servicio útil, completo y totalmente personalizado de marketing móvil </span> y para ayudar a las pymes a crear un <span> nuevo canal de comunicación </span> aportándoles soluciones, ideas y herramientas con las que puedan conseguir lo que para nosotros es lo realmente importante: <span> fidelizar a sus clientes, incrementar sus ventas y diferenciarse de la competencia</span>."
+        },
+        "timeline": {
+            "maintitle": "<span>Nuestra</span> biografía",
+            "step1": {
+                "year": "Octubre 2013",
+                "description": "<span> Lanzamos Upplication </span> para que cualquier propietario de negocio pudiera crear su aplicación móvil de manera sencilla y sin ningún conocimiento de programación, un servicio que habitualmente estaba fuera de su alcance debido a su elevado coste."
+            },
+            "step2": {
+                "year": "Enero 2014",
+                "description": "Cerramos nuestra <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> primera ronda de financiación de 277.000€ </a> procedentes de Business angels europeos, lo que nos permitió iniciar la fase de <span> internacionalización </span> llegando a Latinoamérica."
+            },
+            "step3": {
+                "year": "Mayo 2014",
+                "description": "En mayo de 2014 fuimos seleccionados por <span> Wayra (Telefónica) </span> entre más de 660 proyectos de toda España para su <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleración de startups</a>."
+            },
+            "step4": {
+                "year": "Octubre 2014",
+                "description": "Alcanzamos un <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> acuerdo de Integración comercial con Vodafone </a> completando su Plan de soluciones para empresas apoyando y ayudando a las pymes en su crecimiento."
+            },
+            "step5": {
+                "year": "Mayo 2015",
+                "description": "Ya tenemos <span> clientes en 65 países del mundo siguiendo </span>uno de nuestros principales objetivos: la <span> expansión internacional</span>."
+            },
+            "step6": {
+                "year": "Noviembre 2015",
+                "description": "Cerramos nuestra <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> segunda ronda de financiación de 1.1 Millones de € </a> liderada por el fondo de inversión <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, de origen español, y en la que también participaron un grupo de destacados Business Angels."
+            },
+            "step7": {
+                "year": "Diciembre 2015",
+                "description": "Alcanzamos un <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acuerdo de Integración comercial con Telefónica España </a> con el que continuaremos aportando nuestro conocimiento y experiencia para impulsar a las pymes."
+            }
+        },
+        "worldmap": {
+            "title": "<span>Somos</span> internacionales",
+            "sub_title": "Ayudando a crecer a más de <span> 30.000 pymes </span> en todo el mundo",
+            "worldmap_img": "Mapa de expansión internacional de Upplication"
+        }
+    },
+    "about_us": {
+        "_url": "/nosotros/",
+        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "team": {
             "subtitle": "Conoce",
             "title": "a nuestro equipo",
@@ -374,7 +418,7 @@
                 "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
                 "twitter": "https://twitter.com/arnaix"
             },
-            "support_1": {
+            "support": {
                 "name": "Belén",
                 "surname": "Fernández Pérez",
                 "position": "Atención al cliente",
@@ -382,29 +426,23 @@
                 "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
                 "twitter": "https://twitter.com/BeeleenFP"
             },
-            "support_2": {
-                "name": "Ángel",
-                "surname": "Barroso Sanz",
-                "position": "Soporte técnico",
-                "sentence": "Construyendo apps todos los días",
-                "linkedin": "https://www.linkedin.com/in/aBarroso19",
-                "twitter": "https://twitter.com/Aw3sam3"
-            },
-            "sales_1": {
-                "name": "Javier",
-                "surname": "Coomonte Suárez",
-                "position": "Gerente de Ventas",
-                "sentence": "¡Todo por la pasta!",
-                "linkedin": "https://www.linkedin.com/in/jcoomonte",
-                "twitter": "https://twitter.com/jcoomonte"
-            },
-            "sales_2": {
-                "name": "Álvaro",
-                "surname": "Alcañiz Rubio",
-                "position": "Gerente de Ventas",
-                "sentence": "El dinero nunca duerme",
-                "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
-                "twitter": "https://twitter.com/alcanizalv"
+            "sales": {
+                "sales_1": {
+                    "name": "Javier",
+                    "surname": "Coomonte Suárez",
+                    "position": "Gerente de Ventas",
+                    "sentence": "¡Todo por la pasta!",
+                    "linkedin": "https://www.linkedin.com/in/jcoomonte",
+                    "twitter": "https://twitter.com/jcoomonte"
+                },
+                "sales_2": {
+                    "name": "Álvaro",
+                    "surname": "Alcañiz Rubio",
+                    "position": "Gerente de Ventas",
+                    "sentence": "El dinero nunca duerme",
+                    "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
+                    "twitter": "https://twitter.com/alcanizalv"
+                }
             },
             "dev": {
                 "backend_1": {
@@ -432,10 +470,10 @@
                     "twitter": "https://twitter.com/dark_xuan"
                 }
             },
-            "account": {
+            "admin": {
                 "name": "Noemí",
                 "surname": "Díaz Sanz",
-                "position": "Gerente de Cuentas",
+                "position": "Administración",
                 "sentence": "Guardiana de las divisas",
                 "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
                 "twitter": ""
@@ -451,10 +489,18 @@
             "community": {
                 "name": "Cristina",
                 "surname": "Díaz Gallego",
-                "position": "Gerente de comunicación",
+                "position": "Responsable de comunicación",
                 "sentence": "La mejor captadora de followers",
-                "linkedin": "https://www.linkedin.com/in/",
+                "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
                 "twitter": "https://twitter.com/MissRe_"
+            },
+            "communication": {
+                "name": "Kelia",
+                "surname": "Vidarte Ojeda",
+                "position": "Asistente de comunicación",
+                "sentence": "¡Dadme un megáfono y veréis!",
+                "linkedin": "https://www.linkedin.com/in/kelia-vidarte-ojeda-00b03a76",
+                "twitter": "https://twitter.com/kelitraveler"
             },
             "nextone": {
                 "surname": "¿Eres el siguiente?",
@@ -482,14 +528,12 @@
             }
         }
     },
-    "helpcenter": {
+    "help_center": {
         "_url": "/centro-de-ayuda/",
-        "_template": "helpcenter",
-        "_name": "Centro de ayuda",
         "_meta_title": "Centro de ayuda",
         "_meta_description": "Description tag",
-        "_canonical": "http://www.upplication.com/centro-de-ayuda",
         "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "name": "Centro de ayuda",
         "title": "Centro de ayuda",
         "section": {
             "upp": "Tu creas Upplicación",
@@ -620,12 +664,9 @@
     },
     "offer": {
         "_url": "/oferta-practicas-developer/",
-        "_template": "offer",
-        "_name": "Oferta prácticas",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
         "introduction": [
             "En Upplication somos un equipo en continuo aprendizaje donde existe un flujo de información entre todo el equipo, donde cualquier idea es revisada y discutida para que nos aseguremos que cada proceso y decisión que hemos tomado sea óptimo.",
             "Queremos seguir renovando nuestras ideas y por ello buscamos un compañero de trabajo en prácticas que entre a formar parte de nuestro equipo de desarrollo y nos ayude a desarrollar nuestro dashboard y CRM interno.",
@@ -663,12 +704,9 @@
     },
     "offer_marketing": {
         "_url": "/oferta-practicas-marketing/",
-        "_template": "offer_marketing",
-        "_name": "Oferta prácticas",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
         "introduction": [
             "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
             "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
@@ -704,6 +742,21 @@
             "Equipo Upplication"
         ]
     },
+    "page_not_found": {
+        "_url": "/pagina-no-encontrada/",
+        "_meta_title": "404: No encontrado",
+        "_meta_description": "Description tag",
+        "_keywords": "error, 404, error 404, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "title": "404",
+        "subtitle1": "Página",
+        "subtitle2": "no encontrada",
+        "pre_advice": "Parece que la página que buscas no existe. Lo sentimos. Podría ser por alguna de estas causas:",
+        "advice1": "Que haya tecleado incorrectamente la dirección URL.",
+        "advice2": "Que haya perdido su conexión a internet.",
+        "advice3": "Que la página esté obsoleta y haya sido eliminada.",
+        "advice4": "Que la página no exista en el idioma que solicita.",
+        "suggestion": "Desplácese a través de nuestro menú de navegación superior a otra página dentro de nuestra web o pinche <a href=\"@@config.base_path/\">aquí</a> para volver al Inicio."
+    },
     "external": {
         "titles": {
             "help": "Ayuda:",
@@ -718,6 +771,10 @@
         "about": {
             "anchor": "¿Quienes somos?",
             "url": "@@config.base_path/nosotros/"
+        },
+        "company": {
+            "anchor": "Upplication bio",
+            "url": "@@config.base_path/bio-de-empresa/"
         },
         "team": {
             "anchor": "Equipo",
@@ -836,12 +893,9 @@
     },
     "prices_aplicateca": {
         "_url": "/precios-aplicateca/",
-        "_template": "prices_aplicateca",
-        "_name": "Planes de precios",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/prices-aplicateca/",
         "monthly": "Mensual",
         "yearly": "Anual",
         "title": "Planes de precios",
@@ -1174,22 +1228,16 @@
     },
     "ono": {
         "_url": "/ejemplos-vodafone/",
-        "_template": "ono",
-        "_name": "Ejemplos Ono",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
         "title": "Ejemplos Vodafone"
     },
     "home_tlf": {
         "_url": "/home_tlf/",
-        "_template": "home_tlf",
-        "_name": "Inicio",
         "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
         "contact": {
           "customer_service": {
             "text": "Servicio de atención al cliente:",
@@ -1203,17 +1251,14 @@
     },
     "terms": {
         "_url": "/terminos/",
-        "_template": "terms",
-        "_name": "Términos Legales",
         "_meta_title": "Términos Legales",
         "_meta_description": "Términos Legales",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "_canonical": "http://www.upplication.com/",
         "title": "Términos Legales",
         "legal": {
-            "title": "Aviso Legal",
+            "title": "<span>Aviso</span> Legal",
             "paragraphs": [
-                "En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informamos que la URL www.upplication.com (en adelante el PORTAL) es un dominio propiedad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante la ENTIDAD), con domicilio sito en Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid), con C.I.F. nº B86569654.",
+                "En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informamos que la URL <span>www.upplication.com</span> (en adelante el PORTAL) es un dominio propiedad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante la ENTIDAD), con domicilio sito en <strong>Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid)</strong>, con <strong>C.I.F. nº B86569654</strong>.",
                 "Todas las marcas, nombres comerciales o signos distintivos de cualquier clase que aparecen en el PORTAL son propiedad de la ENTIDAD o de terceros, sin que pueda entenderse que el uso o acceso al sitio y/o a los servicios, atribuya al usuario derecho alguno sobre las citadas marcas, nombres comerciales y/o signos distintivos.",
                 "Asimismo, los contenidos publicados en la web, su diseño gráfico, imágenes, bases de datos y código fuente son propiedad intelectual de la ENTIDAD o de terceros, sin que puedan entenderse cedidos al usuario, en virtud de lo establecido en este Aviso Legal, ninguno de los derechos de explotación que existen o puedan existir sobre dichos contenidos más allá de lo estrictamente necesario para el correcto uso del PORTAL y de los servicios que se prestan a través de él.",
                 "El acceso a este web site es responsabilidad exclusiva de los usuarios. El simple acceso al PORTAL no supone entablar ningún tipo de relación de carácter comercial entre la ENTIDAD y el usuario.",
@@ -1221,63 +1266,62 @@
             ]
         },
         "privacy": {
-            "title": "Política de Privacidad",
+            "title": "<span>Política de</span> Privacidad",
             "paragraphs": [
-                "Esta política se aplica al sitio web www.upplication.com (en adelante el PORTAL) y a todos los servicios y productos ofrecidos en Internet por UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante, la ENTIDAD). El presente documento resume el tipo de información personal que recibe y recopila la Entidad cuando se utilizan los servicios de la página web.",
+                "Esta política se aplica al sitio web <span>www.upplication.com</span> (en adelante el PORTAL) y a todos los servicios y productos ofrecidos en Internet por UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante, la ENTIDAD). El presente documento resume el tipo de información personal que recibe y recopila la Entidad cuando se utilizan los servicios de la página web.",
                 "Se prevé la utilización de cookies, log, enlaces y otras tecnologías para almacenar las preferencias del usuario con el fin de mejorar la calidad de nuestros servicios, asegurar el funcionamiento técnico de la red, y desarrollar nuevas y mejores prestaciones. Si se desactivan o rechazan las cookies, puede ocurrir que algunas de las funciones y/o servicios del PORTAL no funcionen adecuadamente.",
-                "En cumplimiento del artículo 5 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos, le informamos de que sus datos personales serán incorporados a un Fichero de Datos de Carácter Personal, titularidad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. como Responsable del Fichero, con la finalidad de mantener nuestras relaciones contractuales, comerciales y profesionales que nos unen a Ud., así como para el envío de comunicaciones postales, telemáticas, o por otros medios, con ocasión de acontecimientos puntuales, o en ciertos periodos del año, que puedan ser de interés para el afectado.",
-                "Asimismo, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. garantiza al titular de los datos el ejercicio de los derechos de acceso, rectificación, cancelación y oposición de los datos que le conciernen, debiendo, para ello, dirigirse mediante comunicación escrita a la siguiente dirección: Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid). . En cualquier caso, el titular de los datos resulta informado y consiente en la conservación de dichos datos bajo las debidas condiciones de seguridad y secreto profesional, por el período que resulte necesario para la finalidad para la que son recabados.",
+                "En cumplimiento del <strong>artículo 5 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal</strong>, por el que se regula el derecho de información en la recogida de datos, le informamos de que sus datos personales serán incorporados a un Fichero de Datos de Carácter Personal, titularidad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. como Responsable del Fichero, con la finalidad de mantener nuestras relaciones contractuales, comerciales y profesionales que nos unen a Ud., así como para el envío de comunicaciones postales, telemáticas, o por otros medios, con ocasión de acontecimientos puntuales, o en ciertos periodos del año, que puedan ser de interés para el afectado.",
+                "Asimismo, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. garantiza al titular de los datos el ejercicio de los derechos de acceso, rectificación, cancelación y oposición de los datos que le conciernen, debiendo, para ello, dirigirse mediante comunicación escrita a la siguiente dirección: <strong>Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid)</strong>. En cualquier caso, el titular de los datos resulta informado y consiente en la conservación de dichos datos bajo las debidas condiciones de seguridad y secreto profesional, por el período que resulte necesario para la finalidad para la que son recabados.",
                 "El PORTAL no ejerce control sobre los sitios web mostrados como resultado de su búsqueda, enlaces o accesos desde nuestro directorio. Estos otros sitios web pueden colocar sus propias cookies o solicitarle información personal.",
-                "La ENTIDAD informa a los Usuarios Registrados en su caso de la posibilidad de ejercitar los derechos de acceso, cancelación, rectificación y oposición respecto de sus datos de carácter personal que constan en los ficheros de la ENTIDAD, mediante comunicación escrita acompañada de una fotocopia del D.N.I. dirigida a UPPLICATION SOFTWARE TECHNOLOGIES, S.L., a la siguiente dirección: Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid). Estos ficheros se encuentran debidamente inscritos en el Registro de la Agencia Española de Protección de Datos y cumplen las Medidas de Seguridad requeridas por el Real Decreto1720/2007.",
+                "La ENTIDAD informa a los Usuarios Registrados en su caso de la posibilidad de ejercitar los derechos de acceso, cancelación, rectificación y oposición respecto de sus datos de carácter personal que constan en los ficheros de la ENTIDAD, mediante comunicación escrita acompañada de una fotocopia del D.N.I. dirigida a UPPLICATION SOFTWARE TECHNOLOGIES, S.L., a la siguiente dirección: <strong>Glorieta Quevedo 7,  4º Izquieda, 28015 (Madrid)</strong>. Estos ficheros se encuentran debidamente inscritos en el Registro de la Agencia Española de Protección de Datos y cumplen las Medidas de Seguridad requeridas por el <strong>Real Decreto1720/2007</strong>.",
                 "Los citados usuarios sólo están autorizados al uso del PORTAL previa aceptación y cumplimiento de las condiciones aquí recogidas, debiendo abandonar el sitio en caso contrario."
             ]
         },
         "general": {
-            "title": "Condiciones generales de uso de la página web",
+            "title": "Condiciones generales de uso <span>de la página web</span>",
             "subsections": [
                 {
-                    "title": "1. Identificación de las partes:",
+                    "title": "<span>1</span> Identificación de las partes:",
                     "paragraphs": [
-                        "Las presentes Condiciones Generales de uso de los servicios ofrecidos en la URL www.upplication.com (en adelante el PORTAL) son suscritas, por el titular del dominio, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. cuyo correo electrónico de contacto es: hello@upplication.com.",
+                        "Las presentes Condiciones Generales de uso de los servicios ofrecidos en la URL <span>www.upplication.com</span> (en adelante el PORTAL) son suscritas, por el titular del dominio, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. cuyo correo electrónico de contacto es: <a href=\"mailto:hello@upplication.com\">hello@upplication.com </a>",
                         "Se considera USUARIO, a las personas físicas con capacidad para suscribir válidamente un contrato de acuerdo con la ley aplicable.",
-                        "Ud. no podrá utilizar el sitio web y no podrá aceptar las Condiciones si:",
-                        "no es mayor de edad y no puede formalizar un contrato vinculante conforme a derecho, o",
-                        "no reviste la calidad de USUARIO según lo expuesto."
+                        "Ud. no podrá utilizar el sitio web y no podrá aceptar las <strong>Condiciones</strong> si...",
+                        "...No es mayor de edad y no puede formalizar un contrato vinculante conforme a derecho, o",
+                        "...No reviste la calidad de USUARIO según lo expuesto."
                     ]
                 },
                 {
-                    "title": "2. Perfeccionamiento del acuerdo:",
+                    "title": "<span>2</span> Perfeccionamiento del acuerdo:",
                     "paragraphs": [
                         "Para utilizar el PORTAL, deben aceptarse las presentes condiciones generales (en adelante, las Condiciones), así como aquellas estipulaciones particulares recogidas para la utilización y/o contratación de servicios concretos. En caso contrario, deberá abandonarse el PORTAL.",
-                        "Ud. podrá aceptar las Condiciones:",
-                        "- Haciendo clic en el botón de aceptación de las Condiciones, cuando se le ofrezca esta opción en la interfaz de usuario;",
-                        "- Utilizando de forma efectiva el sitio web. Ud. reconoce y acepta que, la utilización del PORTAL se considerará como una aceptación de las Condiciones.",
+                        "Ud. podrá aceptar las <strong>Condiciones</strong>...",
+                        "...Haciendo clic en el botón de aceptación de las Condiciones, cuando se le ofrezca esta opción en la interfaz de usuario;",
+                        "...Utilizando de forma efectiva el sitio web. Ud. reconoce y acepta que, la utilización del PORTAL se considerará como una aceptación de las Condiciones.",
                         "Se aconseja al USUARIO leer con detenimiento las presentes condiciones. Podrá guardarlas o imprimirlas si así lo desea."
 
                     ]
                 },
                 {
-                    "title": "3. Ámbito de aplicación:",
+                    "title": "<span>3</span> Ámbito de aplicación:",
                     "paragraphs": [
-                        "Las presentes condiciones generales serán de aplicación a todos los servicios/productos ",
-                        "recogidos en la web www.upplication.com."
+                        "Las presentes condiciones generales serán de aplicación a todos los servicios/productos recogidos en la web <span>www.upplication.com</span>"
                     ]
                 }
             ]
         },
         "cookies": {
-            "title": "Política de Cookies",
+            "title": "<span>Política de</span> Cookies",
             "subsections": [
                 {
-                    "title": "1. ¿Cómo y por qué usamos cookies?",
+                    "title": "<span>1</span> ¿Cómo y por qué usamos cookies?",
                     "paragraphs": [
-                        "UPPLICATION SOFTWARE TECHNOLOGIES S.L (En adelante UPPLICATION) utiliza cookies dentro sus sitios web (upplication.com,y cualquier subdominio perteneciente al mismo) para ofrecer el sitio web más eficaz posible a nuestros clientes. Entre otras cosas, las cookies permiten recordar las preferencias y el uso de determinadas herramientas y secciones de nuestra web. Esta Política de Cookies explica qué son las cookies, cómo las usamos y cómo te beneficiarán. Como posiblemente sepas, la reciente legislación exige que los sitios web obtengan el consentimiento de los visitantes para utilizar ciertas cookies.",
+                        "UPPLICATION SOFTWARE TECHNOLOGIES S.L (En adelante UPPLICATION) utiliza cookies dentro sus sitios web (<span>www.upplication.com</span>, y cualquier subdominio perteneciente al mismo) para ofrecer el sitio web más eficaz posible a nuestros clientes. Entre otras cosas, las cookies permiten recordar las preferencias y el uso de determinadas herramientas y secciones de nuestra web. Esta Política de Cookies explica qué son las cookies, cómo las usamos y cómo te beneficiarán. Como posiblemente sepas, la reciente legislación exige que los sitios web obtengan el consentimiento de los visitantes para utilizar ciertas cookies.",
                         "UPPLICATION hace uso de las cookies con el objetivo de poder medir el comportamiento de los usuarios tanto en nuestra web (upplication.com) como en cualquier subdominio, como bien se ha mencionado anteriormente. Gracias a la analítica somos capaces de optimizar la experiencia de nuestro usuario dentro de la herramienta.",
-                        "Los datos obtenidos son sacados gracias al software Google Analitycs. Este gestor trata los datos obtenidos y UPPLICATION solo tiene acceso a los mismos. Estos datos son de carácter confidencial y nunca se cederán a otra empresa. Sólo se tratarán a nivel interno y estarán vigilados bajo los niveles de seguridad que establece la ley."
+                        "Los datos obtenidos son sacados gracias al software <strong>Google Analitycs</strong>. Este gestor trata los datos obtenidos y UPPLICATION solo tiene acceso a los mismos. Estos datos son de carácter confidencial y nunca se cederán a otra empresa. Sólo se tratarán a nivel interno y estarán vigilados bajo los niveles de seguridad que establece la ley."
                     ]
                 },
                 {
-                    "title": "2. ¿Cómo se pueden gestionar las Cookies?",
+                    "title": "<span>2</span> ¿Cómo se pueden gestionar las Cookies?",
                     "paragraphs": [
                         "Los navegadores de la mayoría de ordenadores, teléfonos inteligentes y otros dispositivos habilitados para visualizar un sitio Web suelen estar configurados para aceptar cookies. Si deseas modificar tus preferencias de cookies en este sitio web o en cualquier otro, puedes hacerlo a través de la configuración del navegador. La función \"ayuda\" de tu navegador te dirá cómo hacerlo. Te recordamos que si decides bloquear el uso de determinadas cookies en tu navegador de nuestro sitio web puede afectar al funcionamiento del mismo.",
                         "Siempre que visites uno de nuestros sitios web las jurisdicciones locales nos obligan a pedir tu consentimiento para establecer cookies en el dispositivo, siempre te preguntaremos antes de establecer una cookie mediante un banner en la parte inferior de la pantalla, que desaparecerá a los 7 segundos después de su aparición. Trascurrido ese tiempo automáticamente estarás aceptando las cookies establecidas con tu dispositivo."
@@ -1289,12 +1333,9 @@
     },
     "terms_movistar": {
         "_url": "/condicioneslegalesmovistar-upplication/",
-        "_template": "terms_movistar",
-        "_name": "Términos y condiciones",
         "_meta_title": "Términos y condiciones",
         "_meta_description": "Términos y condiciones del servicio.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "_canonical": "http://www.upplication.com/",
         "sections": {
           "title": "Términos y condiciones",
           "sections": [

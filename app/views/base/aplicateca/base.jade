@@ -37,7 +37,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(name="twitter:image:src", content="/images/upplication_rrss.png")
 
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
-        link(rel="canonical", href="#{canonical}")
+        link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
         // build:css({.tmp, app}) /styles/aplicateca.min.css
@@ -51,7 +51,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
     
-    body(id="#{template}", data-lang="#{lang}")
+    body(id="#{_template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
         nav.nav-basement
             ul.nav-basement-options.unstyled.margin-top.change-lang

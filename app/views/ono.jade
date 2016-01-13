@@ -1,9 +1,7 @@
 block vars
-    - var template = $.ono._template
     - var title = $.ono._meta_title
     - var description = $.ono._meta_description
     - var keywords = $.ono._keywords
-    - var canonical = $.ono._canonical
     - var cssClass = 'showcase'
 doctype
 //if lt IE 7
@@ -38,7 +36,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(name="twitter:creator", content="@upplication")
         meta(name="twitter:image:src", content="/images/upplication_rrss.png")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
-        link(rel="canonical", href="#{canonical}")
+        link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
         // Favicon
         link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
@@ -80,7 +78,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
         link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
 
-    body(id="#{template}", data-lang="#{lang}")
+    body(id="#{_template}", data-lang="#{lang}")
         .outer-wrap
             #main-container.slide-pannel.effects
                 .header-container.bg-vodafone-red
@@ -97,7 +95,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     p.uppercase.white #{header.menu}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
-                                        a.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                                        a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{$.external.nubo.url}') #{$.external.nubo.anchor}
 

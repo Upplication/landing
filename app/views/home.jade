@@ -1,11 +1,9 @@
 extends base/v2/base
 
 block vars
-    - var template = $.home._template
     - var title = $.home._meta_title
     - var description = $.home._meta_description
     - var keywords = $.home._keywords
-    - var canonical = $.home._canonical
     - var cssClass = 'home'
 
 block css
@@ -213,6 +211,19 @@ block content
                             a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis')
                                 i.left.fa.fa-cog.fa-spin
                                 span #{home.samples.free_app}
+    // Spacer with Grey Border
+    .spacer-border-grey
+
+    // MULTIDEVISES APPS
+    section#multidevises.scrollspy
+        .container
+            .row
+                .plans-head.text-center.padTop30
+                    h4.headTitles.noMargBot #{home.multidevises.title}
+                    p #{home.multidevises.sub_title}
+            .row
+                .multidevises-bg.marBot50
+                    img.responsive-img#image-test(src='#{localConfig.base_path}/images/home/bg/devises_bg.jpg', alt='#{home.multidevises.title}')
     // HOW I MADE MY OWN APP in 4 Steps
     section#about.scrollspy
         .container
@@ -233,7 +244,7 @@ block content
                                 .timeline-body
                                     p.text-muted
                                         span #{home.how.how_one.reg_step2}
-                                    p.text-muted #{home.how.how_one.reg_step3}
+                                        | &nbsp;#{home.how.how_one.reg_step3}
                         li.timeline-inverted.step2
                             .timeline-image
                                 img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/register.png', alt='')
@@ -605,6 +616,7 @@ block content
 
 block scripts
 
+    // TYPED PLUGIN JS
     script(type='text/javascript').
         $(function () {
             $(".element").typed({
@@ -616,7 +628,7 @@ block scripts
             });
         });
 
-    // custom js
+    // CUSTOM JS
     script(type='text/javascript').
         $(document).ready(function () {
             $('ul.tabs').tabs();
@@ -629,6 +641,7 @@ block scripts
                 {selector: '#tabs', offset: 300, callback: 'Materialize.showStaggeredList("#tabs")'},
                 {selector: '#about', offset: 300, callback: 'Materialize.showStaggeredList(".timeline")'},
                 {selector: '#pricing', offset: 300, callback: 'Materialize.showStaggeredList(".incluye")'},
+                {selector: '#multidevises', offset: 500, callback: 'Materialize.fadeInImage("#image-test")'},
             ];
             Materialize.scrollFire(options);
             // Animate.css for web elements:

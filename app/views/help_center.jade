@@ -1,0 +1,59 @@
+extends base/v2/base
+
+block vars
+    - var title = $.help_center._meta_title
+    - var description = $.help_center._meta_description
+    - var keywords = $.help_center._keywords
+    - var cssClass = 'helpcenter'
+
+block css
+    // build:css({.tmp, app}) /styles/helpcenter.min.css
+    link(rel='stylesheet', href='/styles/css/helpcenter/helpcenter.css')
+    //endbuild
+
+block content
+    // HELP CENTER
+    #help-center.container
+        h4.animated.fadeIn #{help_center.name}
+        .row
+            .col.s12.m6.help-center-grid
+                ul.collection
+                    li.collection-item.avatar.animated.fadeInRight
+                        i.material-icons.circle.blue perm_identity
+                        span.title #{help_center.section.upp}
+                        a(href='#{help_center.uservoice.link}', title='#{help_center.uservoice.title}', target='_blank')
+                            i.fa.fa-circle
+                            | #{help_center.uservoice.title}
+                        a(href='#{help_center.knowledgebase.link}', title='#{help_center.knowledgebase.title}', target='_blank')
+                            i.fa.fa-circle
+                            | #{help_center.knowledgebase.title}
+                    li.collection-item.avatar.animated.fadeInLeft
+                        i.material-icons.circle.red play_arrow
+                        span.title #{help_center.section.video}
+                            a(href='#{help_center.video_1.link}', title='#{help_center.video_1.title}', target='_blank')
+                                i.fa.fa-circle
+                                | #{help_center.video_1.title}
+                            a(href='#{help_center.video_2.link}', title='#{help_center.video_2.title}', target='_blank')
+                                i.fa.fa-circle
+                                | #{help_center.video_2.title}
+                    li.collection-item.avatar.animated.fadeInRight
+                        i.material-icons.circle.green description
+                        span.title #{help_center.section.ebooks}
+                            a(href='#{help_center.sucess.link}', title='#{help_center.sucess.title}', target='_blank')
+                                i.fa.fa-circle
+                                | #{help_center.sucess.title}
+                            a(href='#{help_center.advantages.link}', title='#{help_center.advantages.title}', target='_blank')
+                                i.fa.fa-circle
+                                | #{help_center.advantages.title}
+                    li.collection-item.avatar.animated.fadeInLeft
+                        i.material-icons.circle.purple settings
+                        span.title #{help_center.section.help}
+                            a(href='#{help_center.wedoit.link}', title='#{help_center.wedoit.title}', target='_blank')
+                                i.fa.fa-circle
+                                | #{help_center.wedoit.title}
+                            a(href='#{help_center.workshop.link}', title='#{help_center.workshop.title}', target='_blank')
+                                i.fa.fa-circle
+                                | #{help_center.workshop.title}
+        .clearfix
+
+

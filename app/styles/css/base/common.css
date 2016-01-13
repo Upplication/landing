@@ -68,7 +68,7 @@ h4.headTitles.noMargBot {
   margin-bottom: 0;
 }
 
-/* ... MARGIN & PADDING ... */
+/* ... PADDING ... */
 
 .sect100 {
   padding: 100px 0;
@@ -78,12 +78,26 @@ h4.headTitles.noMargBot {
   padding-top: 50px;
 }
 
-.margTop30 {
-  margin-top: 30px;
+.padTop30 {
+  padding-top: 30px;
+}
+
+.padBot30 {
+  padding-bottom: 30px;
 }
 
 .padBot50 {
   padding-bottom: 50px;
+}
+
+/* ... MARGIN ... */
+
+.margTop30 {
+  margin-top: 30px;
+}
+
+.marBot50 {
+  margin-bottom: 50px;
 }
 
 .marBot100 {
@@ -101,8 +115,14 @@ button.btn-upp {
 
 a.btn-upp:hover,
 button.btn-upp:hover {
-  background-color: #009550;
+  background-color: #00e386;
   color: #fff;
+}
+
+/* ... FONT WEIGHTS ... */
+
+.strong500 {
+  font-weight: 500 !important;
 }
 
 /* ... BORDERS ... */
@@ -112,5 +132,13 @@ button.btn-upp:hover {
 }
 
 .border-bottom {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* ... BORDER DIV ... */
+
+.spacer-border-grey {
+  width: 100%;
+  height: 1px;
   border-bottom: 1px solid #f1f1f1;
 }
