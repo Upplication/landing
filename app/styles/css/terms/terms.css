@@ -113,21 +113,58 @@ Copyright 2015
   padding: 0 0 .5em;
 }
 
+#legal h4 span {
+  color: #cccccc;
+}
+
 #legal h5 {
   font-size: 1.4rem;
   margin-top: 25px;
   text-align: left;
+  color: #00c86b;
+}
+
+#legal h5 span {
+  padding: 2px 8px 4px 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #00c86b;
+  font-size: 16px;
+  position: relative;
+  bottom: 2px;
+  margin-right: 10px;
+  border: 1px solid #00c86b;
 }
 
 .about-left-grids p,
 .latest-news-grid p,
 .about-left-grids ul li {
   font-weight: 300;
-  color: #111b0a;
+  color: #090f05;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 15px;
   text-align: justify;
+}
+
+.about-left-grids p span {
+  color: #00c86b;
+  font-weight: 400;
+}
+
+.about-left-grids p strong {
+  color: #686e85;
+  font-weight: 400;
+}
+
+.about-left-grids p a {
+  color: #686e85;
+  font-weight: 400;
+}
+
+.about-left-grids p a:hover {
+  color: #b4bad2;
 }
 
 ul.unorder-list {

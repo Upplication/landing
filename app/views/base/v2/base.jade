@@ -18,9 +18,16 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         include ../scripts
 
         title #{title}
+
         meta(name='description', content='#{description}')
         meta(name='keywords', content='#{keywords}')
         meta(name='author', content='Upplication Software Technologies, S.L.')
+
+        each lang in langs.codes
+            link(rel="alternate", href="#{routing[_template][lang.language_country]}", hreflang="#{lang.language_country}")
+
+        link(rel='canonical', href="#{routing[_template][lang]}")
+
         // Favicon
         link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
         link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
@@ -75,7 +82,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 .container
                     .logo
                         a(href='index.html')
-                            img(src='#{header.logo.url_xmas}', title='#{header.logo.title_xmas}')
+                            img(src='#{header.logo.url}', title='#{header.logo.title}')
                     nav.top-nav
                         ul.top-nav.hide-ul
                             li
@@ -86,7 +93,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                             | !{language.language_short_code}
                                 ul#dropdown-lang.dropdown-content.notshow
                                     each lang in langs.codes
-                                        a.hide-tab.lang-link(href="#{routing[template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                                        a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li
                                 a.hide-tab(href='#about', title='') !{header.nav.how}
                             li
@@ -111,7 +118,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
                             .contact-info-right
                                 a.modal-trigger(href='#allContact') #{header.telephone}
-                                a.support(href='#{helpcenter.customer_service.email.link}', title='#{helpcenter.customer_service.email.alt_tag}') #{helpcenter.customer_service.email.title}
+                                a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
                             .clearfix
                     .clearfix
         // MODAL PRUEBA GRATIS

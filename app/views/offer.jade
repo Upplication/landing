@@ -1,11 +1,9 @@
 extends base/v2/base
 
 block vars
-    - var template = $.offer._template
     - var title = $.offer._meta_title
     - var description = $.offer._meta_description
     - var keywords = $.offer._keywords
-    - var canonical = $.offer._canonical
     - var cssClass = 'offer'
 
 block css
@@ -19,7 +17,6 @@ block content
 
     section.bottom-space
         .container.offer-jobs
-            // h2 #{$.offer._name}
             h2.text-center.padTop50 #{external.hiring_developer.anchor}
 
             img.full(src="#{localConfig.base_path}/images/offer/office_dev.jpg", alt="oficina")
