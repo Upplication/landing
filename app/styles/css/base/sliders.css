@@ -23,32 +23,6 @@ Copyright 2015
   border-bottom: 7px solid #e9ebf2;
 }
 
-.mainHead {
-  color: #fff;
-  position: absolute;
-  z-index: 200;
-  top: 10%;
-  left: 10%;
-  width: 70%;
-  text-shadow: 1px 1px 1px #000;
-}
-
-.mainHead h1 {
-  font-size: 2.4em;
-  font-weight: 600;
-}
-
-.mainHead h1 span {
-  color: #00c86b;
-  font-weight: 600;
-  padding-right: 5px;
-}
-
-.mainHead h2 {
-  font-size: 1.4em;
-  font-weight: 500;
-}
-
 .parallax-container {
   height: 300px;
 }

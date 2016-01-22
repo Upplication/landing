@@ -124,7 +124,7 @@
     "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
     "slider": {
       "intro1": "App generator for ",
-      "intro2": "<span>Create the app for your business,</span> <span>no coding required, fast and simple.</span>",
+      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>",
       "bg": "Upplication image",
       "appready": "Your App Ready !",
       "text": ["stores", "restaurants", "services", "entrepreneurs", "you"]

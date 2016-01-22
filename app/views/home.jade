@@ -13,23 +13,25 @@ block css
 
 block content
     // SLIDER
-    .slider
+    .slider.slides-to-mobile
         .mainHead
             h1 #{home.slider.intro1}
-                span.element
+                // span.element
+                span emprendedores
             h2 !{home.slider.intro2}
         ul.slides
             li
                 img(src='#{localConfig.base_path}/images/home/bg/bgpymes.jpg', alt='#{home.slider.bg}')
-            li
+            // li
                 img(src='#{localConfig.base_path}/images/home/bg/bgrestaurant.jpg', alt='#{home.slider.bg}')
-            li
+            // li
                 img(src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}')
-            li
+            // li
                 img(src='#{localConfig.base_path}/images/home/bg/bgstores.jpg', alt='#{home.slider.bg}')
-            li
+            // li
                 img(src='#{localConfig.base_path}/images/home/bg/bglandscape.jpg', alt='#{home.slider.bg}')
-    // FORM "TRY FREE 15 DAYS"
+        .dippah.skew-right
+    // FORM "TRY FREE 15 DAYS" (DESKTOP - LAPTOP)
     .col-xs-12.col-md-5.right.formPhone.animated.fadeIn
         .row.registerTop
             .headReg
@@ -37,7 +39,7 @@ block content
             form(name="register", action="/register", method="post").col.s12
                 input(type="hidden", name="customerType", value="UPPLICATION")
                 p.error.general-error.display-none #{register.error.general}
-                .row
+                .row.marBot10
                     .input-field.col.s12
                         input#app_name.validate(type='text', name='appName', required)
                         label(for='app_name') #{form.input.name}
@@ -58,8 +60,13 @@ block content
                     p #{modal.footer.accept}
                         a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
                         | .
+    // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
+    .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
+        a.price-btn.modal-trigger(href='#pruebaGratis')
+            i.fa.fa-cog.fa-spin
+            span #{home.samples.free_app}
     // WHY
-    .features
+    .features.features-upp
         .container
             .features-grids.text-center.animated.zoomIn
                 .col-md-4

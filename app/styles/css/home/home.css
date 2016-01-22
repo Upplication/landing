@@ -5,6 +5,102 @@ Upplication (http://www.upplication.com)
 Copyright 2015
 */
 
+/* ... MAIN TITLE & SUBTITLE ... */
+
+.mainHead {
+  color: #fff;
+  position: absolute;
+  z-index: 200;
+  top: 75px;
+  left: 10%;
+  width: 70%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.mainHead h1 {
+  font-size: 2.6em;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: rgba(0,0,0,.7);
+  /* Lilith Corp. color */
+  display: inline-block;
+  line-height: 1.1em;
+  padding-left: 10px;
+  padding-right: 0;
+  position: relative;
+}
+
+.mainHead h1:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 45px 10px;
+  border-color: transparent transparent rgba(0,0,0,.7) transparent;
+  position: absolute;
+  left: -10px;
+}
+
+/*  */
+
+.mainHead h1:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 45px 28px 0 0;
+  border-color: rgba(0,0,0,.7) transparent transparent transparent;
+  position: absolute;
+  right: -28px;
+  top: 0;
+}
+
+.mainHead h1 span {
+  color: #00c86b;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.mainHead h2 {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.mainHead h2 span {
+  background-color: rgba(0,0,0,.7);
+  display: table;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.mainHead h2 span.intro-2b {
+  margin-left: -6px;
+}
+
+.mainHead h2 span.intro-2a:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 38px 10px;
+  border-color: transparent transparent rgba(0,0,0,.7) transparent;
+  position: relative;
+  left: -15px;
+  top: -34px;
+}
+
+.mainHead h2 span.intro-2b:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 39px 14px 0 0;
+  border-color: rgba(0,0,0,.7) transparent transparent transparent;
+  position: relative;
+  right: -20px;
+  top: 35px;
+}
+
 /* ... REGISTER FORM :: Home Section ... */
 
 .formPhone img {
@@ -16,7 +112,7 @@ Copyright 2015
   background-color: #fff;
   position: absolute;
   z-index: 200;
-  top: 90px;
+  top: 168px;
   right: 7%;
   padding: 0;
   max-width: 400px;
@@ -119,6 +215,15 @@ a.terms-conditions {
 }
 
 /* ... INTRO ................................................... */
+
+.dippah {
+  position: relative;
+  bottom: 45px;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
 
 .features-grid i {
   color: #00c86b;

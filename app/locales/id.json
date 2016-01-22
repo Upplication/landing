@@ -124,7 +124,7 @@
         "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
         "slider": {
             "intro1": "Generator Aplikasi untuk ",
-            "intro2": "<span>Buat aplikasi untuk bisnis Anda,</span> <span>tidak perlu memprogram, cepat, dan mudah.</span>",
+            "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>",
             "bg": "Upplication image",
             "appready": "Your App Ready !",
             "text": ["toko", "perhotelan", "jasa", "pengusaha", "you"]

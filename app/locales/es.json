@@ -125,7 +125,7 @@
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "slider": {
             "intro1": "El creador de apps para ",
-            "intro2": "<span>Crea la app de tu negocio,</span> <span>sin programar, fácil y rápido.</span>",
+            "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>",
             "bg": "Upplication image",
             "appready": "¡ Tu App lista !",
             "text": ["emprendedores", "hostelería", "servicios", "tiendas", "ti"]
