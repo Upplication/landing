@@ -55,6 +55,12 @@ Copyright 2015
   top: 0;
 }
 
+.mainHead h1,
+.mainHead .typed-effect,
+.mainHead h1 .typed-effect span {
+  display: inline-block;
+}
+
 .mainHead h1 span {
   color: #00c86b;
   font-weight: 600;

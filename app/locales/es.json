@@ -654,10 +654,10 @@
                 "alt_tag": "Llamar a soporte técnico de Upplication"
             },
             "email": {
-                "link": "mailto:soporte@upplication.com",
-                "title": "soporte@upplication.com",
-                "text": "soporte@upplication.com",
-                "alt_tag": "Enviar email a soporte técnico de Upplication"
+                "link": "mailto:info@upplication.com",
+                "title": "info@upplication.com",
+                "text": "info@upplication.com",
+                "alt_tag": "Enviar email a Upplication"
             },
             "schedule": "(Horario de atención al cliente de lunes a viernes de 10 a 18h GTM+1)"
         }
@@ -736,7 +736,7 @@
                 "Dada la implicación directa del becario con el departamento comercial, se entregará una remuneración variable en función de resultados."
             ]
         },
-        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
+        "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí.",
         "cheers": [
             "¡Un saludo!",
             "Equipo Upplication"
@@ -1283,7 +1283,7 @@
                 {
                     "title": "<span>1</span> Identificación de las partes:",
                     "paragraphs": [
-                        "Las presentes Condiciones Generales de uso de los servicios ofrecidos en la URL <span>www.upplication.com</span> (en adelante el PORTAL) son suscritas, por el titular del dominio, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. cuyo correo electrónico de contacto es: <a href=\"mailto:hello@upplication.com\">hello@upplication.com </a>",
+                        "Las presentes Condiciones Generales de uso de los servicios ofrecidos en la URL <span>www.upplication.com</span> (en adelante el PORTAL) son suscritas, por el titular del dominio, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. cuyo correo electrónico de contacto es: <a href=\"mailto:info@upplication.com\">info@upplication.com </a>",
                         "Se considera USUARIO, a las personas físicas con capacidad para suscribir válidamente un contrato de acuerdo con la ley aplicable.",
                         "Ud. no podrá utilizar el sitio web y no podrá aceptar las <strong>Condiciones</strong> si...",
                         "...No es mayor de edad y no puede formalizar un contrato vinculante conforme a derecho, o",

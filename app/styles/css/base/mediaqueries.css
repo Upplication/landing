@@ -1759,6 +1759,11 @@ Copyright 2015
   .formPhone {
     right: 11% !important;
   }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 34px 14px 0 0;
+    top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1500px) {
@@ -1910,31 +1915,31 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .mainHead {
     top: 90px;
-    width: 82%;
-    left: 60px;
+    width: 91%;
+    left: 30px;
   }
 
   .mainHead h1 {
-    font-size: 1.9em;
+    font-size: 1.7em;
     margin: 0;
-    padding: 5px 0;
+    padding-bottom: 5px;
   }
 
   .mainHead h1 span {
-    display: table;
+    display: inline-block;
     margin-top: 5px;
   }
 
   .mainHead h1:before {
-    border-width: 0 0 82px 16px;
+    border-width: 0 0 40px 16px;
     left: -16px;
   }
 
   .mainHead h1:after {
-    border-width: 80px 19px 0 0;
+    border-width: 39px 19px 0 0;
     right: -19px;
   }
 
@@ -1952,21 +1957,107 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 505px) {
+@media only screen and (max-width: 720px) {
+  .mainHead h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 37px 16px;
+    left: -16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 36px 19px 0 0;
+    right: -19px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
   .mainHead h1 {
     font-size: 1.3em;
   }
-}
 
-@media only screen and (max-width: 545px) {
-  .mainHead {
-    left: 30px;
+  .mainHead h1:before {
+    border-width: 0 0 33px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 32px 19px 0 0;
+  }
+
+  .mainHead h2 {
+    font-size: 1em;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 27px 10px;
+    top: -23px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 27px 14px 0 0;
+    top: 23px;
+  }
+
+  .mainHead h2 span.intro-2b {
+    margin-left: -4px;
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 560px) {
+  .mainHead h1 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 30px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 29px 19px 0 0;
+  }
+
+  .mainHead h2 {
+    font-size: .8em;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 24px 10px;
+    top: -19px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 24px 14px 0 0;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .mainHead h1 {
+    font-size: 1em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 28px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 27px 19px 0 0;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .mainHead h1,
+  .mainHead .typed-effect {
+    display: table;
+  }
+
   .mainHead h1 {
     font-size: 1.5em;
+    padding-top: 5px;
   }
 
   .mainHead h1:before {
@@ -1974,11 +2065,33 @@ Copyright 2015
   }
 
   .mainHead h1:after {
-    border-width: 66px 19px 0 0;
+    border-width: 68px 19px 0 0;
+  }
+
+  .mainHead h2 {
+    font-size: 1.3em;
+  }
+
+  .mainHead h2 span {
+    display: table;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 31px 10px;
+    top: -27px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 31px 14px 0 0;
+    top: 27px;
   }
 }
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 400px) {
+  .mainHead {
+    left: 20px;
+  }
+
   .mainHead h1 {
     font-size: 1.3em;
   }
@@ -1993,8 +2106,7 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 360px) {
-  .mainHead h1,
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: 1.1em;
   }
 
@@ -2006,9 +2118,13 @@ Copyright 2015
     border-width: 54px 19px 0 0;
   }
 
-  .mainHead h2 span.intro-2a:after {
-    border-width: 0px 0 28px 10px;
-    top: -24px;
+  .mainHead h2 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 29px 10px;
+    top: -25px;
   }
 
   .mainHead h2 span.intro-2b:after {
@@ -2017,8 +2133,16 @@ Copyright 2015
   }
 
   .formPhone-mobile {
-    width: 100%;
     margin-left: 0;
+    width: 100%;
+  }
+}
+
+/* HEIGHTS stoppers */
+
+@media only screen and (max-height: 568px) {
+  .formPhone-mobile {
+    bottom: 95px;
   }
 }
 
@@ -2684,9 +2808,34 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 430px) {
-  #pruebaGratis .modal-footer ul li {
-    font-size: 13px;
+@media only screen and (max-width: 480px) {
+  #pruebaGratis .modal-terms ul li {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  #pruebaGratis .modal-terms ul {
+    padding: 0;
+  }
+
+  #pruebaGratis .modal-terms ul li a {
+    display: block;
+  }
+
+  input[type=text],
+  input[type=password],
+  input[type=password],
+  input[type=email],
+  input[type=url],
+  input[type=time],
+  input[type=date],
+  input[type=datetime-local],
+  input[type=tel],
+  input[type=number],
+  input[type=search],
+  textarea.materialize-textarea {
+    margin: 0 0 20px 0;
   }
 }
 
