@@ -124,7 +124,7 @@
     "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
     "slider": {
       "intro1": "App generator for ",
-      "intro2": "<span>Create the app for your business,</span> <span>no coding required, fast and simple.</span>",
+      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>",
       "bg": "Upplication image",
       "appready": "Your App Ready !",
       "text": ["stores", "restaurants", "services", "entrepreneurs", "you"]
@@ -647,9 +647,9 @@
         "alt_tag": "Call to Upplication customer service"
       },
       "email": {
-        "link": "mailto:soporte@upplication.com",
-        "title": "soporte@upplication.com",
-        "text": "soporte@upplication.com",
+        "link": "mailto:info@upplication.com",
+        "title": "info@upplication.com",
+        "text": "info@upplication.com",
         "alt_tag": "Send email to Upplication customer service"
       },
       "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)"
@@ -729,7 +729,7 @@
         "Since the intern is involved with the marketing department, depending on the results, there could be an added bonus in salary."
       ]
     },
-    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:hello@upplication.com\"> hello@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!",
+    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!",
     "cheers": [
       "Best Regards!",
       "Upplication team"
@@ -1278,7 +1278,7 @@
         {
           "title": "<span>1</span> Identification of the parties:",
           "paragraphs": [
-            "The General Conditions of Use of the services offered in the URL <span>www.upplication.com</span> (hereinafter, the PORTAL/WEBSITE) are signed by the holder of the domain, UPPLICATION SOFTWARE TECHNOLOGIES, S.L., whose contact email is: <a href=\"mailto:hello@upplication.com\">hello@upplication.com </a>",
+            "The General Conditions of Use of the services offered in the URL <span>www.upplication.com</span> (hereinafter, the PORTAL/WEBSITE) are signed by the holder of the domain, UPPLICATION SOFTWARE TECHNOLOGIES, S.L., whose contact email is: <a href=\"mailto:info@upplication.com\">info@upplication.com </a>",
             "We understand by USER : any individual that has the ability of effectively signing/suscribing a contract according to the applicable law.",
             "You may not use the website and may not accept the <strong>Terms</strong> if...",
             "...You are not of legal age and cannot form a binding contract according to the law, or",

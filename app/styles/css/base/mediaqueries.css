@@ -41,7 +41,7 @@ Copyright 2015
     font-size: 1.5em;
   }
 
-  .features {
+  .features:not(.features-upp) {
     padding: 2em 0 2em 0;
   }
 
@@ -1759,37 +1759,42 @@ Copyright 2015
   .formPhone {
     right: 11% !important;
   }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 34px 14px 0 0;
+    top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1500px) {
-  .mainHead h1 {
-    font-size: 2.3em;
-  }
-
   .formPhone {
     right: 10% !important;
   }
 }
 
 @media only screen and (max-width: 1400px) {
-  .mainHead h1 {
-    font-size: 2.15em;
-  }
-
   .formPhone {
     right: 10% !important;
   }
 }
 
-@media only screen and (max-width: 1450px) {
-  .mainHead h2 span {
-    display: block;
+@media only screen and (max-width: 1380px) {
+  .mainHead h1 {
+    font-size: 2.5em;
+  }
+
+  .mainHead h1:before {
+    top: -1px;
   }
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1325px) {
   .mainHead h1 {
-    font-size: 2em;
+    font-size: 2.4em;
+  }
+
+  .mainHead h1:after {
+    border-width: 42px 28px 0 0;
   }
 }
 
@@ -1804,201 +1809,340 @@ Copyright 2015
     right: 30px !important;
   }
 
-  .mainHead h1 {
-    font-size: 2.2em;
-  }
-
   .mainHead {
     left: 60px;
+    width: 90%;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 43px 10px;
   }
 }
 
 @media only screen and (max-width: 1180px) {
-  .mainHead h1 {
-    font-size: 2em;
-  }
-
   .mainHead h2 {
     padding-top: 10px;
   }
 }
 
 @media only screen and (max-width: 1080px) {
-  .mainHead h1 {
-    font-size: 2em;
-  }
-
   .formPhone {
     right: 30px;
   }
 
-  .mainHead {
-    width: 91%;
-    top: 8%;
-  }
-
   .formPhone {
-    top: 150px;
+    top: 162px;
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .mainHead {
-    width: 91%;
-    top: 8%;
-  }
-
+@media only screen and (max-width: 1001px) {
   .mainHead h1 {
-    font-size: 1.8em;
-    margin: 2.1rem 0 -1.32rem 0;
+    font-size: 2.2em;
   }
 
-  .formPhone {
-    top: 150px;
+  .mainHead h1:before {
+    border-width: 0 0 39px 10px;
+  }
+
+  .mainHead h1:after {
+    border-width: 37px 28px 0 0;
   }
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 940px) {
+  .mainHead h1 {
+    font-size: 2em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 36px 10px;
+  }
+
+  .mainHead h1:after {
+    border-width: 35px 28px 0 0;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .mainHead h1 {
+    font-size: 1.9em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 34px 10px;
+  }
+
+  .mainHead h1:after {
+    border-width: 33px 28px 0 0;
+  }
+
   .mainHead h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 34px 14px 0 0;
+    top: 30px;
   }
 }
 
 @media only screen and (max-width: 830px) {
+  .mainHead h1 {
+    font-size: 1.8em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 32px 10px;
+  }
+
+  .mainHead h1:after {
+    border-width: 31px 28px 0 0;
+  }
+
   .mainHead h2 {
-    font-size: 1em;
+    font-size: 1.2em;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 30px 10px;
+    top: -26px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 31px 14px 0 0;
+    top: 27px;
+    right: -19px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .formPhone {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-
   .mainHead {
-    top: 8%;
-    width: 82%;
-    left: 60px;
+    top: 90px;
+    width: 91%;
+    left: 30px;
   }
 
   .mainHead h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .mainHead h1 span {
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 40px 16px;
+    left: -16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 39px 19px 0 0;
+    right: -19px;
   }
 
   .mainHead h2 {
+    font-size: 1.3em;
     margin: 0;
   }
+
+  .mainHead h2 span {
+    display: inline-block;
+  }
+
+  .mainHead h2 span.intro-2b {
+    margin-left: -5px;
+  }
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 720px) {
   .mainHead h1 {
-    font-size: 1.4em;
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 5px;
   }
 
-  .mainHead {
-    width: 92%;
-    left: 17px;
+  .mainHead h1:before {
+    border-width: 0 0 37px 16px;
+    left: -16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 36px 19px 0 0;
+    right: -19px;
   }
 }
 
-@media only screen and (max-width: 505px) {
+@media only screen and (max-width: 655px) {
   .mainHead h1 {
     font-size: 1.3em;
   }
+
+  .mainHead h1:before {
+    border-width: 0 0 33px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 32px 19px 0 0;
+  }
+
+  .mainHead h2 {
+    font-size: 1em;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 27px 10px;
+    top: -23px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 27px 14px 0 0;
+    top: 23px;
+  }
+
+  .mainHead h2 span.intro-2b {
+    margin-left: -4px;
+  }
 }
 
-@media only screen and (max-width: 495px) {
-  .mainHead {
-    top: 45px;
-    left: 10px;
-    width: 91%;
-  }
-
+@media only screen and (max-width: 560px) {
   .mainHead h1 {
-    font-size: 1.4em;
-    display: block;
+    font-size: 1.1em;
   }
 
-  .mainHead h1 span.typed-cursor {
-    display: inline-block;
+  .mainHead h1:before {
+    border-width: 0 0 30px 16px;
   }
 
-  .mainHead h1 span.element {
-    display: inline-block;
+  .mainHead h1:after {
+    border-width: 29px 19px 0 0;
   }
 
   .mainHead h2 {
     font-size: .8em;
-    padding-top: 10px;
   }
 
-  .formPhone {
-    top: 160px;
-    right: 0 !important;
-    width: 95%;
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 24px 10px;
+    top: -19px;
   }
 
-  .registerTop .headReg {
-    margin-bottom: 10px;
-  }
-
-  input[type=text],
-  input[type=password],
-  input[type=email],
-  input[type=url],
-  input[type=time],
-  input[type=date],
-  input[type=datetime-local],
-  input[type=tel],
-  input[type=number],
-  input[type=search],
-  textarea.materialize-textarea {
-    margin: 0 0 15px 0;
-  }
-
-  #password {
-    margin: 0;
-  }
-
-  .registerTop .btnReg p {
-    font-size: 0.6em;
+  .mainHead h2 span.intro-2b:after {
+    border-width: 24px 14px 0 0;
+    top: 20px;
   }
 }
 
-@media only screen and (max-height: 480px) {
-  .registerTop .headReg {
-    margin-bottom: 10px;
+@media only screen and (max-width: 510px) {
+  .mainHead h1 {
+    font-size: 1em;
   }
 
-  input[type=text],
-  input[type=password],
-  input[type=email],
-  input[type=url],
-  input[type=time],
-  input[type=date],
-  input[type=datetime-local],
-  input[type=tel],
-  input[type=number],
-  input[type=search],
-  textarea.materialize-textarea {
-    margin: 0 0 15px 0;
+  .mainHead h1:before {
+    border-width: 0 0 28px 16px;
   }
 
-  #password {
-    margin: 0;
+  .mainHead h1:after {
+    border-width: 27px 19px 0 0;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .mainHead h1,
+  .mainHead .typed-effect {
+    display: table;
   }
 
-  .registerTop .btnReg p {
-    font-size: 0.6em;
+  .mainHead h1 {
+    font-size: 1.5em;
+    padding-top: 5px;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 68px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 68px 19px 0 0;
+  }
+
+  .mainHead h2 {
+    font-size: 1.3em;
+  }
+
+  .mainHead h2 span {
+    display: table;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 31px 10px;
+    top: -27px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 31px 14px 0 0;
+    top: 27px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mainHead {
+    left: 20px;
   }
 
   .mainHead h1 {
     font-size: 1.3em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 60px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 60px 19px 0 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .mainHead h1 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h1:before {
+    border-width: 0 0 54px 16px;
+  }
+
+  .mainHead h1:after {
+    border-width: 54px 19px 0 0;
+  }
+
+  .mainHead h2 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h2 span.intro-2a:before {
+    border-width: 0px 0 29px 10px;
+    top: -25px;
+  }
+
+  .mainHead h2 span.intro-2b:after {
+    border-width: 29px 14px 0 0;
+    top: 25px;
+  }
+
+  .formPhone-mobile {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/* HEIGHTS stoppers */
+
+@media only screen and (max-height: 568px) {
+  .formPhone-mobile {
+    bottom: 95px;
   }
 }
 
@@ -2664,9 +2808,34 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 430px) {
-  #pruebaGratis .modal-footer ul li {
-    font-size: 13px;
+@media only screen and (max-width: 480px) {
+  #pruebaGratis .modal-terms ul li {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  #pruebaGratis .modal-terms ul {
+    padding: 0;
+  }
+
+  #pruebaGratis .modal-terms ul li a {
+    display: block;
+  }
+
+  input[type=text],
+  input[type=password],
+  input[type=password],
+  input[type=email],
+  input[type=url],
+  input[type=time],
+  input[type=date],
+  input[type=datetime-local],
+  input[type=tel],
+  input[type=number],
+  input[type=search],
+  textarea.materialize-textarea {
+    margin: 0 0 20px 0;
   }
 }
 
@@ -2756,5 +2925,57 @@ Copyright 2015
     margin-right: 10px;
     position: relative;
     bottom: 8px;
+  }
+}
+
+/* ... MOBILE "TRY IT" BUTTON (HOME) ...................................................... */
+
+@media only screen and (min-width: 767px) {
+  .formPhone-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formPhone {
+    display: none;
+  }
+
+  .skew-right {
+    -webkit-transform: skew(0deg, -5deg);
+    -ms-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+  }
+
+  .slider.slides-to-mobile,
+  .slider.slides-to-mobile .slides {
+    height: 400px !important;
+  }
+
+  /* "TRY IT" BUTTON for MOBILE & TABLETS */
+
+  .formPhone-mobile {
+    display: block;
+    z-index: 100;
+    bottom: 45px;
+  }
+
+  .formPhone-mobile a {
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .formPhone-mobile a i {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  .slider.slides-to-mobile,
+  .slider.slides-to-mobile .slides {
+    height: 350px !important;
   }
 }

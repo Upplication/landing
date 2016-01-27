@@ -186,7 +186,7 @@ nav a#pull {
   }
 }
 
-/*Styles for screen 515px and lower*/
+/* MEDIA QUERIES :: MOBILE HEADER */
 
 @media only screen and (max-width : 768px) {
   #move-top .container {
@@ -220,14 +220,71 @@ nav a#pull {
     border-bottom: 1px solid #ddd;
   }
 
+  /* MOBILE NAV ICON to show and hide main top nav bar */
+
   nav a#pull {
     display: block;
-    position: relative;
-    color: #F26D7D;
     text-align: right;
     position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+  }
+
+  nav a#pull span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #00c86b;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+  }
+
+  nav a#pull span:nth-child(1) {
+    top: 0;
+  }
+
+  nav a#pull span:nth-child(2),
+  nav a#pull span:nth-child(3) {
+    top: 10px;
+  }
+
+  nav a#pull span:nth-child(4) {
     top: 20px;
-    right: 10px;
+  }
+
+  /* Three Bars nav icon (dropdown menu close) turns to red cross (dropdown menu close) */
+
+  nav a#pull.open span {
+    background: #eb5151;
+  }
+
+  nav a#pull.open span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+
+  nav a#pull.open span:nth-child(2),
+  nav a#pull.open span:nth-child(3) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  nav a#pull.open span:nth-child(4) {
+    top: 10px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 
   nav a#pull.rightDots {
@@ -236,7 +293,7 @@ nav a#pull {
 
   nav a#pull:after {
     content: "";
-    background: url('nav-icon.png') no-repeat;
+    /*background: url('nav-icon.png') no-repeat;*/
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -347,11 +404,11 @@ nav a#pull {
 .contact-info a.support {
   color: #111b0a;
   font-weight: 600;
-  font-size: 11px;
+  font-size: 12px;
   margin-bottom: 0;
   margin-top: 3px;
   text-align: center;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
 }
 
 .contact-info-right a:hover {
@@ -375,7 +432,7 @@ a.chat:hover {
 ul#dropdown-lang,
 ul#dropdown-terms {
   margin-top: 47px;
-  margin-left: -4px;
+  margin-left: -26px;
   background-color: #faf9f9;
   border: 1px solid #cccccc;
   border-top: none;
