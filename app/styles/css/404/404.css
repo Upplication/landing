@@ -1,14 +1,14 @@
 /*
-404 (error) CSS: Custom Stylesheet --- Error 404: Hojas de estilo personalizadas
+404 ("page not found" error page) CSS: Custom Stylesheet --- Error 404: Hojas de estilo personalizadas
 
 Upplication (http://www.upplication.com)
-Copyright 2015
+Copyright 2016
 */
 
 .page-not-found-bg {
   width: 100%;
   border-bottom: 1px solid #e9ebf2;
-  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .page-not-found-header {

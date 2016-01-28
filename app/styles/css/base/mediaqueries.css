@@ -2979,3 +2979,13 @@ Copyright 2015
     height: 350px !important;
   }
 }
+
+/* HOME INTRO SLIDER BOTTOM SKEW for big screems */
+
+@media only screen and (min-width: 1750px) {
+  .dippah.skew-right {
+    -webkit-transform: skew(0deg, -2.5deg);
+    -ms-transform: skew(0deg, -2.5deg);
+    transform: skew(0deg, -2.5deg);
+  }
+}

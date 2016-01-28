@@ -748,7 +748,19 @@
     "advice2": "You have not internet conection.",
     "advice3": "The page is out-dated and has been removed.",
     "advice4": "The page does not exist in the linguistic version required.",
-    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here</a> to come back home page."
+    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
+  },
+  "internal_server_error": {
+    "_url": "/internal-server-error/",
+    "_meta_title": "500: internal server",
+    "_meta_description": "Description tag",
+    "_keywords": "error, 500, error 500, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "title": "500",
+    "subtitle1": "error!",
+    "subtitle2": "Internal Server",
+    "subtitle3": "Internal Server Error",
+    "pre_advice": "It was an error on our server. Sorry for the inconvenience, we will solve soon",
+    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
   },
   "external": {
     "titles": {
