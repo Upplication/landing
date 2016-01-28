@@ -32,7 +32,7 @@ script(type='text/javascript').
     })(window, document, 'script', 'dataLayer', $UPP.localConfig.tagmanager_token);
 script(type="text/javascript", src="//cdn.optimizely.com/js/524801012.js")
 script(type="text/javascript").
-    // script the google plus, buscamos el div con class g-plusone
+    //- Google plus script, find div with class g-plusone
     (function () {
         var po = document.createElement('script');
         po.type = 'text/javascript';
@@ -41,3 +41,23 @@ script(type="text/javascript").
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(po, s);
     })();
+script.
+    //- Twitter follow button script
+    window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+    };
+    return t;
+    }(document, "script", "twitter-wjs"));
+
+script.
+    //- Instagram follow button script
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));

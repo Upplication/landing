@@ -120,7 +120,7 @@
     },
     "home": {
         "_url": "/",
-        "_meta_title": "Upplication: Crea la app de tu pyme",
+        "_meta_title": "Crea la app de tu pyme - Upplication",
         "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "slider": {
@@ -342,8 +342,8 @@
     },
     "company": {
         "_url": "/bio-de-empresa/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Biografía de Upplication: creador de apps",
+        "_meta_description": "Biografía y expansión internacional de Upplication: creador de apps móvil online sin necesidad de programación, en cuestión de minutos, para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "intro": {
             "maintitle": "<span>¿Qué es</span> Upplication<span>?</span>",
@@ -388,8 +388,8 @@
     },
     "about_us": {
         "_url": "/nosotros/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Equipo de Upplication: creador de apps",
+        "_meta_description": "Upplication es un creador de apps online para ti o para tu empresa. Prueba GRATIS durante 15 días, sin necesidad de programación y en cuestión de minutos. Para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "team": {
             "subtitle": "Conoce",
@@ -530,21 +530,21 @@
     },
     "help_center": {
         "_url": "/centro-de-ayuda/",
-        "_meta_title": "Centro de ayuda",
-        "_meta_description": "Description tag",
+        "_meta_title": "Centro de ayuda de Upplication: creador de apps",
+        "_meta_description": "Centro de ayuda de Upplication, el creador de apps online. Encontrarás ejemplos de uso, videotutoriales, datos de contacto del soporte técnico...",
         "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "name": "Centro de ayuda",
         "title": "Centro de ayuda",
         "section": {
-            "upp": "Tu creas Upplicación",
-            "video": "Videos de ayuda",
-            "ebooks": "Ebooks e Infografias",
+            "upp": "Tú creas Upplication",
+            "video": "Vídeos de ayuda",
+            "ebooks": "eBooks e Infografías",
             "help": "Te ayudamos a crear tu app"
         },
         "uservoice": {
             "link": "https://upplication.uservoice.com/",
-            "title": "Comunidad de ususarios",
-            "text": "Comunidad de ususarios"
+            "title": "Comunidad de usuarios",
+            "text": "Comunidad de usuarios"
         },
         "knowledgebase": {
             "link": "https://upplication.uservoice.com/knowledgebase",
@@ -558,8 +558,8 @@
         },
         "video_2": {
             "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-            "title": "Nuestros videos",
-            "text": "Nuestros videos"
+            "title": "Nuestros vídeos",
+            "text": "Nuestros vídeos"
         },
         "sucess": {
             "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
@@ -573,8 +573,8 @@
         },
         "wedoit": {
             "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
-            "title": "Hacemos el trabajo por tí",
-            "text": "Hacemos el trabajo por tí"
+            "title": "Hacemos el trabajo por ti",
+            "text": "Hacemos el trabajo por ti"
         },
         "workshop": {
             "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
@@ -664,8 +664,8 @@
     },
     "offer": {
         "_url": "/oferta-practicas-developer/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Prácticas de desarrollador en Upplication: creador de apps",
+        "_meta_description": "Oferta de prácticas para desarrollador backender o frontender para Upplication, el creador de app online para ti o tu negocio.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "introduction": [
             "En Upplication somos un equipo en continuo aprendizaje donde existe un flujo de información entre todo el equipo, donde cualquier idea es revisada y discutida para que nos aseguremos que cada proceso y decisión que hemos tomado sea óptimo.",
@@ -704,8 +704,8 @@
     },
     "offer_marketing": {
         "_url": "/oferta-practicas-marketing/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Prácticas de marketing en Upplication: creador de apps",
+        "_meta_description": "Oferta de prácticas de marketing y ventas para Upplication, el creador de app online para android e iOS, fácil, rápido y sin programar.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "introduction": [
             "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
@@ -744,8 +744,8 @@
     },
     "page_not_found": {
         "_url": "/pagina-no-encontrada/",
-        "_meta_title": "404: No encontrado",
-        "_meta_description": "Description tag",
+        "_meta_title": "404: Página no encontrada en Upplication - creador de apps",
+        "_meta_description": "404 Página no encontrada en Upplication - creador de apps online. Prueba 15 días gratis.",
         "_keywords": "error, 404, error 404, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "title": "404",
         "subtitle1": "Página",
@@ -759,8 +759,8 @@
     },
     "internal_server_error": {
         "_url": "/error-interno-del-servidor/",
-        "_meta_title": "500: error interno del servidor",
-        "_meta_description": "Description tag",
+        "_meta_title": "500: error interno del servidor en Upplication - creador de apps",
+        "_meta_description": "500 error interno del servidor en Upplication - creador de apps online fácil de usar, rápido y sin conocimientos de programación.",
         "_keywords": "error, 500, error 500, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "title": "500",
         "subtitle1": "Error",
@@ -890,9 +890,13 @@
             "url":"http://www.upplication.com/blog/empleo-backend-developer-para-upplication/"
         },
         "nubo": {
-            "anchor": "NUBO",
-            "url": "http://www.ono.es/microsite-nubo/nubo-upplication/"
-        }
+        "anchor": "NUBO",
+        "url": "http://www.ono.es/microsite-nubo/nubo-upplication/"
+      },
+      "social_media_btns": {
+        "twitter": "https://twitter.com/upplication",
+        "facebook": ""
+      }
     },
     "signup": {
         "close": "(&times;) cerrar",
@@ -905,8 +909,8 @@
     },
     "prices_aplicateca": {
         "_url": "/precios-aplicateca/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Precios de Upplication para Movistar Aplicateca",
+        "_meta_description": "Upplication para crear online tu propia app móvil para Android e iOS a través de Aplicateca de Movistar.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "monthly": "Mensual",
         "yearly": "Anual",
@@ -1009,9 +1013,9 @@
                     "text": "810 512 370 (gratuito)"
                 },
                 "email": {
-                    "link": "mailto:soporte@upplication.com",
-                    "title": "soporte@upplication.com",
-                    "text": "soporte@upplication.com"
+                    "link": "mailto:aplicateca@upplication.com",
+                    "title": "aplicateca@upplication.com",
+                    "text": "aplicateca@upplication.com"
                 }
             }
         },
@@ -1240,31 +1244,31 @@
     },
     "ono": {
         "_url": "/ejemplos-vodafone/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Apps creadas con Vodafone Upplication",
+        "_meta_description": "Upplication: crear online tu propia app móvil a través de Ono Vodafone. Prueba gratis 15 días",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "title": "Ejemplos Vodafone"
     },
     "home_tlf": {
         "_url": "/home_tlf/",
-        "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_meta_title": "Servicio de atención al cliente y soporte de Vodafone Upplication",
+        "_meta_description": "Soporte y atención al cliente de Upplication, para crear app online, de Vodafone Upplication. Fácil, rápido y sin programar.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "contact": {
           "customer_service": {
             "text": "Servicio de atención al cliente:",
             "email": {
-              "link": "mailto:soporte@upplication.com",
-              "title": "soporte@upplication.com",
-              "text": "soporte@upplication.com"
+              "link": "mailto:soporte.ono@upplication.com",
+              "title": "soporte.ono@upplication.com",
+              "text": "soporte.ono@upplication.com"
             }
           }
         }
     },
     "terms": {
         "_url": "/terminos/",
-        "_meta_title": "Términos Legales",
-        "_meta_description": "Términos Legales",
+        "_meta_title": "Términos legales para el uso de Upplication: creador de apps",
+        "_meta_description": "Condiciones de uso de Upplication, creador de apps online para ti o tu negocio.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "title": "Términos Legales",
         "legal": {
@@ -1345,8 +1349,8 @@
     },
     "terms_movistar": {
         "_url": "/condicioneslegalesmovistar-upplication/",
-        "_meta_title": "Términos y condiciones",
-        "_meta_description": "Términos y condiciones del servicio.",
+        "_meta_title": "Términos y condiciones de uso para Upplication en Movistar Applicateca",
+        "_meta_description": "Condiciones de uso del servicio de Upplication, creador online de apps, en Movistar Applicateca.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "sections": {
           "title": "Términos y condiciones",

@@ -245,7 +245,7 @@ footer.page-footer .footer-copyright ul.rrss.right {
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li {
-  padding: 0 18px;
+  padding: 18px;
   display: inline-block;
   font-size: 10px;
   margin-right: -2px !important;
@@ -253,7 +253,7 @@ footer.page-footer .footer-copyright ul.rrss.right li {
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li:first-child {
-  padding: 0 21px;
+  padding: 18px 21px;
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li.facebook:hover {
@@ -319,6 +319,29 @@ footer.page-footer .footer-bottom ul li:hover {
 
 footer.page-footer .footer-bottom ul li:last-child {
   padding-right: 0;
+}
+
+/* FOOTER :: Social Media Buttons */
+
+footer.page-footer .footer-socialmedia-btns {
+  width: 100%;
+  min-height: 50px;
+  background-color: #2f2f2f;
+}
+
+footer.page-footer .footer-socialmedia-btns ul.rrss {
+  margin-top: 5px;
+  list-style: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+footer.page-footer .footer-socialmedia-btns ul.rrss li {
+  display: inline;
+}
+
+footer.page-footer .footer-socialmedia-btns ul.rrss li span.ig-follow {
+  margin-top: -12px !important;
 }
 
 /* MEDIA QUERIES */
