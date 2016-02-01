@@ -575,6 +575,11 @@ a.terms-conditions {
   padding: 0 0 3em 0;
 }
 
+#mensual,
+#anual {
+  margin-top: 2em;
+}
+
 /* ... TESTIMONIAL CLIENTS :: Home Section ... */
 
 .clients-left {
@@ -688,11 +693,6 @@ a.terms-conditions {
   font-weight: 400;
   margin: 2em 0;
   padding: 0 0 0.5em 0;
-}
-
-#mensual,
-#anual {
-  margin-top: 2em;
 }
 
 /* ... "HOW DO I CREATE MY APP" TIMELINE :: Home Section ... */
@@ -1327,4 +1327,77 @@ a.terms-conditions {
   100% {
     opacity: 1;
   }
+}
+
+/* ... SAMPLES SLIDER PAGINATION EFFECT :: Home Section ... */
+
+.pagination {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pagination-navigation {
+  position: relative;
+  text-align: center;
+  font-size: 0;
+  -webkit-filter: url("#goo");
+  filter: url("../pagination.html#goo");
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.pagination-dot,
+.pagination-current {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  line-height: 32px;
+  background: #d5d3d2;
+  border-radius: 50%;
+  margin: 0 13px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pagination-number {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-transform: scale(0.01, 0.01);
+  -ms-transform: scale(0.01, 0.01);
+  transform: scale(0.01, 0.01);
+}
+
+.pagination-current {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pagination-content {
+  height: 450px;
+}
+
+.pagination-item {
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  font-size: 0;
+}
+
+.pagination-item img {
+  position: relative;
+  width: 70%;
+  height: auto;
+  float: inherit;
 }

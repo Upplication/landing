@@ -1,0 +1,302 @@
+/*
+PRICES CSS: Custom Stylesheet --- CSS PRECIOS: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2016
+*/
+
+#mensual,
+#anual {
+  margin-top: 2em;
+}
+
+#pricing .incluye {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#pricing .incluye i {
+  font-size: 25px;
+  padding: 10px;
+  color: #00c86b;
+}
+
+#pricing .incluye i.fa-tablet {
+  padding-left: 15px;
+  padding-right: 13px;
+}
+
+#pricing .incluye i.fa-graduation-cap {
+  font-size: 22px;
+  padding-right: 5px;
+}
+
+#pricing .tax p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#pricing .tax p i {
+  font-size: 10px;
+  position: relative;
+  bottom: 7px;
+  padding-right: 5px;
+}
+
+/*---- pricing -----*/
+
+#pricing .tax {
+  padding-top: 10px;
+}
+
+.badgeTopSales {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 200;
+  width: 45px;
+}
+
+.pricing-tables {
+  padding: 3em 0;
+}
+
+#anual .alert {
+  margin: 40px 0 0 0;
+}
+
+.pricing-table-grid ul {
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-table-grid ul li {
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid #E7E7E7;
+  font-size: 16px;
+}
+
+.pricing-table-grid ul li a {
+  max-width: 280px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pricing-table-grid ul li a,
+.pricing-table-grid ul li span {
+  padding: 1em;
+  display: block;
+  font-family: 'Lato', serif;
+  text-decoration: none;
+  text-align: left;
+  pointer-events: none;
+}
+
+.pricing-table-grid ul li span {
+  text-align: center;
+  font-weight: 700;
+}
+
+.pricing-table-grid ul li a:hover {
+  color: #00c86b;
+}
+
+.pricing-table-grid h3 {
+  font-family: 'Lato', serif;
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 1em 0;
+  display: block;
+  color: #202242;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.pricing-table-grid {
+  border: 1px solid #E7E7E7;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.pricing-table-grid.principal {
+  border: 1px solid #00c86b;
+}
+
+.priceAdvise img {
+  position: absolute;
+  top: 4px;
+  right: 18px;
+  width: 40px;
+}
+
+.pricing-table-grid:hover:not(.with-hover) {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.pricing-table-grid:hover:not(.with-hover) {
+  border-color: #00c86b;
+}
+
+.pricing-table-grid:hover:not(.with-hover) a,
+.pricing-table-grid:hover:not(.with-hover) span {
+  border-color: #00c86b;
+}
+
+.pricing-table-grid:hover:not(.with-hover) li span {
+  color: #00c86b;
+}
+
+/* Proffesional pricing plan important */
+
+.pricing-table-grid.with-hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  border-color: #00c86b;
+}
+
+.pricing-table-grid.with-hover a,
+.pricing-table-grid.with-hover span {
+  border-color: #00c86b;
+}
+
+.pricing-table-grid.with-hover li span {
+  color: #00c86b;
+}
+
+.pricing-table-grid ul li span {
+  background: #fff;
+  font-size: 1.8em;
+  padding: 0.5em 0;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+}
+
+.pricing-table-grid ul li span em {
+  font-style: normal;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.pricing-table-grid ul li i {
+  padding-right: 10px;
+  color: #aaa;
+}
+
+.mobilePrices .pricing-table-grid a.order-btn {
+  color: #202242;
+  padding: 1.5em 0;
+  display: block;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mobilePrices .pricing-table-grid:not(.with-hover) a.order-btn {
+  background-color: #c9cedf;
+}
+
+.mobilePrices .pricing-table-grid.with-hover a.order-btn {
+  background-color: #00c86b;
+  color: #ffffff;
+}
+
+.mobilePrices .pricing-table-grid:not(.with-hover) a.order-btn:hover {
+  color: #ffffff;
+  background-color: #00c86b;
+}
+
+.mobilePrices .pricing-table-grid.with-hover a.order-btn:hover {
+  background-color: #00e386;
+}
+
+.plans-head {
+  padding: 0 0 3em 0;
+}
+
+.plans-head h2 {
+  color: #777;
+  font-family: "Lato";
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 0.5em 0;
+  word-spacing: 0.2em;
+}
+
+.plans-head p {
+  color: #adadad;
+  line-height: 1em;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.2em;
+}
+
+.plans-head > div {
+  text-align: left;
+}
+
+.our-features-head h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #2d2d2d;
+  font-size: 2em;
+  margin: 0;
+  padding: 0 0 0.5em 0;
+}
+
+.our-features-head p {
+  color: #adadad;
+  line-height: 1.5em;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.features-grid-left {
+  float: left;
+  width: 26%;
+}
+
+.features-grid-right {
+  float: right;
+  width: 70%;
+}
+
+.features-grid-right h4 {
+  font-family: 'Roboto Slab', serif;
+  color: #2d2d2d;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0 0 0.2em 0;
+}
+
+.features-grid-right p {
+  color: #adadad;
+  line-height: 1.5em;
+  margin: 0.5em 0 0 0;
+}
+
+.features-grid-right span {
+  color: #ffe13e;
+}
+
+.h-features-grid {
+  padding: 1.5em 0;
+}
+
+.our-features {
+  padding: 0 0 7em 0;
+}
+
+.our-features-head {
+  padding: 0 0 3em 0;
+}

@@ -12,6 +12,30 @@
       "prices": "PRICING",
       "how": "<span>HOW DO I</span> CREATE MY APP",
       "contact": "Contact",
+      "info": {
+        "info":"More...",
+        "about_us": {
+          "title": "About Us",
+          "url": "@@config.base_path/about-us/"
+        },
+        "company_bio": {
+          "title": "Company Bio",
+          "url": "@@config.base_path/company-bio/"
+        },
+        "helpcenter": {
+          "title": "Help Center",
+          "url": "@@config.base_path/centro-de-ayuda/"
+        },
+        "prices": {
+          "title": "Prices",
+          "url": "@@config.base_path/prices/"
+        },
+        "hiring": "Hiring Area",
+        "terms": {
+          "title": "Legal terms",
+          "url": "@@config.base_path/terms/"
+        }
+      },
       "legal": {
         "advise": "Disclaimer",
         "privacy": "Privacy",
@@ -332,6 +356,40 @@
     "try": "Try it free for 15 days!",
     "create_free": "Create my app",
     "permanence": "Trial period with no obligation to stay."
+  },
+  "prices": {
+    "_url": "/prices/",
+    "_meta_title": "Crea la app de tu pyme - Upplication",
+    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "rates": {
+      "rate_intro": "Pricing plans",
+      "rate_sub": "All pricing plans include:",
+      "sub1": "Customer support by e-mail, chat, and phone.",
+      "sub2": "<span>Automatic upload to all App Stores,</span> <span>we publish your app.</span>",
+      "sub3": "Web responsive, supports multiple devices.",
+      "sub4": "Personal tutor.",
+      "monthly": "Monthly plan",
+      "yearly": "Annual plan",
+      "euro_month": "€ / month",
+      "euro_year": "€ / year",
+      "basic": "BASIC",
+      "proff": "PROFFESIONAL",
+      "premiun": "PREMIUM",
+      "unlimited": "UNLIMITED",
+      "app_web": "App and WebApp",
+      "statistics": "<strong>Statistics</strong> of your app",
+      "bullhorn": "Upplication <strong>Ads</strong>",
+      "no_bullhorn": "<strong>No</strong> Upplication Ads",
+      "sign": "<strong>Watermark</strong> on templates",
+      "no_sign": "<strong>No</strong> watermark on templates",
+      "no_push": "<strong>No</strong> push alerts",
+      "four_push": "<strong>4</strong> push alerts / month",
+      "all_push": "<strong>Unlimited</strong> push alerts",
+      "no_templates": "<strong>Custom App</strong>, personalized",
+      "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
+      "with_tax": "<strong>VAT included</strong> in all prices."
+    }
   },
   "company": {
     "_url": "/company-bio/",

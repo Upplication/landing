@@ -146,6 +146,10 @@ a.modal-action.modal-close:hover {
   padding: 0;
 }
 
+#pruebaGratis form {
+  margin-bottom: 0;
+}
+
 .input-field .prefix ~ label {
   margin-left: 3rem;
   margin-top: -5px;

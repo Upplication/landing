@@ -1,44 +1,44 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.arted.es/index.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://www.arted.es/maquetas.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://www.arted.es/textiles.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://www.arted.es/fotografia.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://www.arted.es/grafismos.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://www.arted.es/peluqueria_canina.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://www.arted.es/artedweb_prices2014.html</loc>
-        <lastmod>2014-04-22T15:55:26+00:00</lastmod>
-        <changefreq>mothly</changefreq>
-        <priority>0.4</priority>
+        <loc>http://www.upplication.com/</loc>
+        <lastmod>2016-01-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
 </urlset>

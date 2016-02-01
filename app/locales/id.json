@@ -12,6 +12,30 @@
             "prices": "Harga",
             "how": "<span class='bahasa-header'>Bagaimana saya membuat</span> aplikasi sendiri",
             "contact": "Contact",
+            "info": {
+              "info":"More...",
+              "about_us": {
+                "title": "About Us",
+                "url": "@@config.base_path/about-us-indonesian/"
+              },
+              "company_bio": {
+                "title": "Company Bio",
+                "url": "@@config.base_path/company-bio-indonesian/"
+              },
+              "helpcenter": {
+                "title": "Help Center",
+                "url": "@@config.base_path/help-center-indonesian/"
+              },
+              "prices": {
+                "title": "Prices",
+                "url": "@@config.base_path/prices-indonesian/"
+              },
+              "hiring": "Hiring Area",
+              "terms": {
+                "title": "Legal terms",
+                "url": "@@config.base_path/terms-indonesian/"
+              }
+            },
             "legal": {
                 "advise": "Pengecualian",
                 "privacy": "Privasi",
@@ -332,6 +356,40 @@
         "try": "Try it free for 15 days!",
         "create_free": "Create my app",
         "permanence": "Masa percobaan dengan tanpa harus tinggal."
+    },
+    "prices": {
+        "_url": "/prices-indonesian/",
+        "_meta_title": "Crea la app de tu pyme - Upplication",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+      "rates": {
+        "rate_intro": "Paket harga",
+        "rate_sub": "Semua paket harga termasuk:",
+        "sub1": "Dukungan pelanggan melalui e-mail, obrolan, dan telepon.",
+        "sub2": "<span>Unggah otomatis ke semua App Stores,</span> <span>kami menerbitkan aplikasi Anda.</span>",
+        "sub3": "Web responsif, mendukung banyak perangkat.",
+        "sub4": "Tutor pribadi.",
+        "monthly": "Paket bulanan",
+        "yearly": "Paket tahunan",
+        "euro_month": "€ / bulan",
+        "euro_year": "€ / tahun",
+        "basic": "DASAR",
+        "proff": "PROFESIONAL",
+        "premiun": "PREMIUM",
+        "unlimited": "TAK TERBATAS",
+        "app_web": "Aplikasi and Aplikasi Web",
+        "statistics": "<strong>Statistik</strong> di aplikasi Anda",
+        "bullhorn": "<strong>Iklan</strong> Upplication",
+        "no_bullhorn": "<strong>Tidak ada</strong> Iklan Upplication",
+        "sign": "<strong>Cap air</strong> pada pola",
+        "no_sign": "<strong>Tidak ada</strong> cap air pada pola",
+        "no_push": "<strong>Tidak ada</strong> pemberitahuan push",
+        "four_push": "<strong>4</strong> pemberitahuan push / bulan",
+        "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
+        "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
+        "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
+        "with_tax": "Sudah termasuk <strong>PPN</strong>."
+      }
     },
     "company": {
         "_url": "/company-bio-indonesian/",
@@ -821,7 +879,7 @@
         },
         "pricing": {
             "anchor": "Harga",
-            "url": "@@config.base_path/prices/"
+            "url": "@@config.base_path/prices-indonesian/"
         },
         "pricing_aplicateca": {
             "anchor": "Harga",
