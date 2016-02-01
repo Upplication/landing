@@ -142,11 +142,12 @@
         }
     },
     "home": {
-        "_url": "/generator-aplikasi/",
-        "_meta_title": "Create the app for your business - Upplication",
-        "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
-        "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
-        "slider": {
+      "_url": "/generator-aplikasi/",
+      "_meta_title": "Create the app for your business - Upplication",
+      "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+      "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
+      "_priority" : "1.0",
+      "slider": {
             "intro1": "Generator Aplikasi untuk ",
             "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>",
             "bg": "Upplication image",
@@ -358,10 +359,11 @@
         "permanence": "Masa percobaan dengan tanpa harus tinggal."
     },
     "prices": {
-        "_url": "/prices-indonesian/",
-        "_meta_title": "Crea la app de tu pyme - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+      "_url": "/prices-indonesian/",
+      "_meta_title": "Crea la app de tu pyme - Upplication",
+      "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+      "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+      "_priority" : "0.6",
       "rates": {
         "rate_intro": "Paket harga",
         "rate_sub": "Semua paket harga termasuk:",
@@ -392,10 +394,11 @@
       }
     },
     "company": {
-        "_url": "/company-bio-indonesian/",
-        "_meta_title": "Upplication Bio, the app creator",
-        "_meta_description": "Do apps yourself, for your business. It is easy, without coding and quick, just in few minutes!",
-        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+      "_url": "/company-bio-indonesian/",
+      "_meta_title": "Upplication Bio, the app creator",
+      "_meta_description": "Do apps yourself, for your business. It is easy, without coding and quick, just in few minutes!",
+      "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+      "_priority" : "0.9",
         "intro": {
             "maintitle": "<span>What is</span> Upplication <span>?</span>",
             "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and be different from the competitors</span>."
@@ -442,6 +445,7 @@
         "_meta_title": "Upplication team, the app creator for your business",
         "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+      "_priority" : "0.8",
         "team": {
             "subtitle": "Meet",
             "title": "Our Team",
@@ -584,7 +588,8 @@
         "_meta_title": "help center of Upplication, the app creator",
         "_meta_description": "Upplication Help Center: the online app creator. Info about how to create your own app, app samples, videotutorials, support info...",
         "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "name": "Help center",
+      "_priority" : "0.7",
+      "name": "Help center",
         "title": "Help center",
         "section": {
             "upp": "You create Upplication",
@@ -716,6 +721,7 @@
         "_meta_title": "Trainee developer job offer - Upplication: app creator",
         "_meta_description": "Trainee frontender or backender developer job offer in Upplication: the online app creator for you and your business.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.4",
         "introduction": [
             "In Upplication we’re a team that has an unquenchable thirst for learning, and thankfully we have unlimited information. Every idea is thoroughly revised and discussed between the team, so that every decision we make will be of the highest quality.",
             "We always want to improve our ideas and because of that we are looking for a new intern to join our developing team, who will help us develop our dashboard and internal CRM.",
@@ -756,6 +762,7 @@
         "_meta_title": "Trainee marketing job offer - Upplication: app creator",
         "_meta_description": "Trainee marketing and salesman job offer in Upplication: the online app creator. It is easy, without coding and quick, just in few minutes!",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.4",
         "introduction": [
             "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
             "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
@@ -961,6 +968,7 @@
         "_meta_title": "Upplication Pricing plans in Movistar Aplicateca",
         "_meta_description": "Upplication to do apps yourself, for you or your business in Movistar Aplicateca. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_priority" : "0.6",
         "title": "Pricing plans",
         "monthly": "Monthly",
         "yearly": "Yearly",
@@ -1321,6 +1329,7 @@
         "_meta_title": "Terms of Upplication Service, the app creator",
         "_meta_description": "Legal terms and conditions of use all Upplication Services, an online app creator for you and your business.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_priority" : "0.5",
         "title": "Terms of Service",
         "legal": {
             "title": "Pengecualian",

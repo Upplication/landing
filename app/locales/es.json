@@ -366,10 +366,11 @@
         "permanence": "Período de prueba sin compromiso de permanencia."
     },
     "prices": {
-        "_url": "/precios/",
-        "_meta_title": "Crea la app de tu pyme - Upplication",
-        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+      "_url": "/precios/",
+      "_meta_title": "Crea la app de tu pyme - Upplication",
+      "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+      "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+      "_priority" : "0.6",
       "rates": {
         "rate_intro": "Planes de precios",
         "rate_sub": "Todos los planes incluyen:",
@@ -410,6 +411,7 @@
         "_meta_title": "Biografía de Upplication: creador de apps",
         "_meta_description": "Biografía y expansión internacional de Upplication: creador de apps móvil online sin necesidad de programación, en cuestión de minutos, para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.9",
         "intro": {
             "maintitle": "<span>¿Qué es</span> Upplication<span>?</span>",
             "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>es un servicio útil, completo y totalmente personalizado de marketing móvil </span> y para ayudar a las pymes a crear un <span> nuevo canal de comunicación </span> aportándoles soluciones, ideas y herramientas con las que puedan conseguir lo que para nosotros es lo realmente importante: <span> fidelizar a sus clientes, incrementar sus ventas y diferenciarse de la competencia</span>."
@@ -456,6 +458,7 @@
         "_meta_title": "Equipo de Upplication: creador de apps",
         "_meta_description": "Upplication es un creador de apps online para ti o para tu empresa. Prueba GRATIS durante 15 días, sin necesidad de programación y en cuestión de minutos. Para Android e iOS",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.8",
         "team": {
             "subtitle": "Conoce",
             "title": "a nuestro equipo",
@@ -598,7 +601,8 @@
         "_meta_title": "Centro de ayuda de Upplication: creador de apps",
         "_meta_description": "Centro de ayuda de Upplication, el creador de apps online. Encontrarás ejemplos de uso, videotutoriales, datos de contacto del soporte técnico...",
         "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-        "name": "Centro de ayuda",
+      "_priority" : "0.7",
+      "name": "Centro de ayuda",
         "title": "Centro de ayuda",
         "section": {
             "upp": "Tú creas Upplication",
@@ -732,6 +736,7 @@
         "_meta_title": "Prácticas de desarrollador en Upplication: creador de apps",
         "_meta_description": "Oferta de prácticas para desarrollador backender o frontender para Upplication, el creador de app online para ti o tu negocio.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.4",
         "introduction": [
             "En Upplication somos un equipo en continuo aprendizaje donde existe un flujo de información entre todo el equipo, donde cualquier idea es revisada y discutida para que nos aseguremos que cada proceso y decisión que hemos tomado sea óptimo.",
             "Queremos seguir renovando nuestras ideas y por ello buscamos un compañero de trabajo en prácticas que entre a formar parte de nuestro equipo de desarrollo y nos ayude a desarrollar nuestro dashboard y CRM interno.",
@@ -772,6 +777,7 @@
         "_meta_title": "Prácticas de marketing en Upplication: creador de apps",
         "_meta_description": "Oferta de prácticas de marketing y ventas para Upplication, el creador de app online para android e iOS, fácil, rápido y sin programar.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.4",
         "introduction": [
             "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
             "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
@@ -977,6 +983,7 @@
         "_meta_title": "Precios de Upplication para Movistar Aplicateca",
         "_meta_description": "Upplication para crear online tu propia app móvil para Android e iOS a través de Aplicateca de Movistar.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.6",
         "monthly": "Mensual",
         "yearly": "Anual",
         "title": "Planes de precios",
@@ -1335,6 +1342,7 @@
         "_meta_title": "Términos legales para el uso de Upplication: creador de apps",
         "_meta_description": "Condiciones de uso de Upplication, creador de apps online para ti o tu negocio.",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_priority" : "0.5",
         "title": "Términos Legales",
         "legal": {
             "title": "<span>Aviso</span> Legal",
