@@ -231,40 +231,6 @@
             },
             "app_ready": " <span>Tu App</span> lista "
         },
-        "rates": {
-            "rate_intro": "Planes de precios",
-            "rate_sub": "Todos los planes incluyen:",
-            "sub1": "Atención al cliente por teléfono y chat.",
-            "sub2": "Subida automática a los markets, nosotros subimos tu app.",
-            "sub3": "Web responsive multidispositivo.",
-            "sub4": "Tutor personalizado.",
-            "monthly": "Plan Mensual",
-            "yearly": "Plan Anual",
-            "euro_month": "€ / mes",
-            "euro_year": "€ / año",
-            "basic": "BÁSICO",
-            "proff": "PROFESIONAL",
-            "premiun": "PREMIUM",
-            "unlimited": "ILIMITADO",
-            "app_web": "App y WebApp",
-            "statistics": "<strong>Estadísticas</strong> de tu app",
-            "bullhorn": "<strong>Publicidad</strong> Upplication",
-            "no_bullhorn": "<strong>Sin</strong> publicidad Upplication",
-            "sign": "<strong>Firma</strong> en las plantillas",
-            "no_sign": "<strong>Sin</strong> firma en las plantillas",
-            "no_push": "<strong>Sin</strong> notificaciones push",
-            "four_push": "<strong>4</strong> notificaciones push / mes",
-            "all_push": "Notificaciones <strong>ilimitadas</strong>",
-            "no_templates": "<strong>A medida</strong>, personalizada",
-            "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
-            "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
-            "prices": {
-                "basic_month": "99,50",
-                "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-                "num3": "Mmmmm, ya está ese e-mail registrado",
-                "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
-            }
-        },
         "showcase": {
             "title": "Estas son algunas de nuestras apps"
         },

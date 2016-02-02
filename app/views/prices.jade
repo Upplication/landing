@@ -56,31 +56,31 @@ block content
                     #mensual.col.s12
                         .col-xs-12.col-md-3.mobilePrices
                             .pricing-table-grid
-                                h3 #{home.rates.basic}
+                                h3 #{prices.rates.basic}
                                 ul
                                     li
                                         span
                                             | 9,95
-                                            em #{home.rates.euro_month}
+                                            em #{prices.rates.euro_month}
                                     li
                                         //- MIXIN Use
                                         +webapp
                                     li
                                         a(href='#')
                                             i.fa.fa-bar-chart
-                                            | !{home.rates.statistics}
+                                            | !{prices.rates.statistics}
                                     li
                                         a(href='#')
                                             i.fa.fa-bullhorn
-                                            | !{home.rates.bullhorn}
+                                            | !{prices.rates.bullhorn}
                                     li
                                         a(href='#')
                                             i.fa.fa-pencil
-                                            | !{home.rates.sign}
+                                            | !{prices.rates.sign}
                                     li
                                         a(href='#')
                                             i.fa.fa-bell-slash
-                                            | !{home.rates.no_push}
+                                            | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#pruebaGratis') #{home.register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
                             img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')

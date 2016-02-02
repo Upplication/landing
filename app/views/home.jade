@@ -120,31 +120,6 @@ block content
                 #host.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            //- Pagination Effect
-                                .pagination
-                                    .pagination-content
-                                        .pagination-item
-                                            img(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
-                                        .pagination-item
-                                            img(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
-                                        .pagination-item
-                                            img(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
-                                    .pagination-navigation
-                                        .pagination-current
-                                        .pagination-dots
-                                            button.pagination-dot
-                                                span.pagination-number 1
-                                            button.pagination-dot
-                                                span.pagination-number 2
-                                            button.pagination-dot
-                                                span.pagination-number 3
-                                svg(xmlns='http://www.w3.org/2000/svg', version='1.1', width='800')
-                                    defs
-                                        filter#goo
-                                            fegaussianblur(in='SourceGraphic', stddeviation='10', result='blur')
-                                                fecolormatrix(in='blur', mode='matrix', values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9', result='goo')
-                                                    fecomposite(in='SourceGraphic', in2='goo', operator='atop')
-                            //- ORIGINAL
                             img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.rest.rest_intro}

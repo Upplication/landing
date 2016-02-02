@@ -30,7 +30,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/build-your-app/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/generator-aplikasi/"/>
-		<lastmod>2016-02-01</lastmod>
+		<lastmod>2016-02-02</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
@@ -86,7 +86,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/precios/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/prices/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/prices-indonesian/"/>
-		<lastmod>2016-02-01</lastmod>
+		<lastmod>2016-02-02</lastmod>
 		<priority>0.6</priority>
 	</url>
 	<url>
