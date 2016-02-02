@@ -245,7 +245,7 @@ footer.page-footer .footer-copyright ul.rrss.right {
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li {
-  padding: 18px;
+  padding: 0 18px;
   display: inline-block;
   font-size: 10px;
   margin-right: -2px !important;
@@ -253,7 +253,7 @@ footer.page-footer .footer-copyright ul.rrss.right li {
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li:first-child {
-  padding: 18px 21px;
+  padding: 0 21px;
 }
 
 footer.page-footer .footer-copyright ul.rrss.right li.facebook:hover {
