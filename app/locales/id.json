@@ -139,6 +139,23 @@
             "num9": "Nama aplikasi, akun e-mail dan kode penjual salah",
             "num10": "Tolong lengkapi bagian nama aplikasi dan akun e-mail lagi",
             "general": "Kesalahan umum"
+        },
+        "announce": "Anda dapat mengubahnya nanti",
+        "claim": "Aplikasi Anda, bisnis Anda",
+        "arguments": "Buat Aplikasi Anda sendiri, untuk bisnis Anda. Mudah, tanpa coding, dan cepat, dalam beberapa menit.",
+        "app_name": "Nama Aplikasi",
+        "email": "Email",
+        "password": "Password",
+        "call_to_action": "Try it now",
+        "accept_terms": "Dengan mengklik tombol \"Coba Gratis\" Anda setuju dengan syarat dan ketentuan kami",
+        "loading": "Memuat...",
+        "terms": "aturan penggunaan",
+        "try_it": "Daftar untuk 15 hari coba gratis",
+        "warning": {
+          "name": "Nama aplikasi Anda harus antara 3 sampai 32 karakter panjangnya dan tidak boleh diawali dengan angka",
+          "password": "Panjang minimal password 8 karakter",
+          "ajax": "Ups... kami mengalami masalah kecil",
+          "ajax_msg": "Pendaftaran tidak dapat diselesaikan, silakan coba lagi atau e-mail kami ke  <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
         }
     },
     "home": {
@@ -232,25 +249,6 @@
         },
         "showcase": {
             "title": "These are some of our apps"
-        },
-        "register": {
-            "announce": "Anda dapat mengubahnya nanti",
-            "claim": "Aplikasi Anda, bisnis Anda",
-            "arguments": "Buat Aplikasi Anda sendiri, untuk bisnis Anda. Mudah, tanpa coding, dan cepat, dalam beberapa menit.",
-            "app_name": "Nama Aplikasi",
-            "email": "Email",
-            "password": "Password",
-            "call_to_action": "Try it now",
-            "accept_terms": "Dengan mengklik tombol \"Coba Gratis\" Anda setuju dengan syarat dan ketentuan kami",
-            "loading": "Memuat...",
-            "terms": "aturan penggunaan",
-            "try_it": "Daftar untuk 15 hari coba gratis",
-            "warning": {
-                "name": "Nama aplikasi Anda harus antara 3 sampai 32 karakter panjangnya dan tidak boleh diawali dengan angka",
-                "password": "Panjang minimal password 8 karakter",
-                "ajax": "Ups... kami mengalami masalah kecil",
-                "ajax_msg": "Pendaftaran tidak dapat diselesaikan, silakan coba lagi atau e-mail kami ke  <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
-            }
         },
         "improve_sales": {
             "title": "Improve your sales",
@@ -1282,16 +1280,16 @@
     },
     "home_tlf": {
         "_url": "/home-en-tlf-indonesian/",
-        "_meta_title": "Customer service and support of Vodafone Upplication",
-        "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+        "_meta_title": "Customer service and support of Telefónica Upplication",
+      "_meta_description": "Support and customer service of Telefónica Upplication. It is easy, without coding, and quick, in few minutes.",
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "contact": {
           "customer_service": {
             "text": "Customer service:",
             "email": {
-              "link": "mailto:soporte.ono@upplication.com",
-              "title": "soporte.ono@upplication.com",
-              "text": "soporte.ono@upplication.com"
+              "link": "mailto:soporte@upplication.com",
+              "title": "soporte@upplication.com",
+              "text": "soporte@upplication.com"
             }
           }
         }

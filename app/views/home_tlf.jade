@@ -86,30 +86,30 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             .mobile
                                 img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
                             .claim.padding-top-2x.margin-bottom-2x.width-90.center
-                                h1.uppercase.cwhite.acenter.bold #{home.register.claim}
-                                p.big.acenter #{home.register.arguments}
+                                h1.uppercase.cwhite.acenter.bold #{register.claim}
+                                p.big.acenter #{register.arguments}
                             .video-container.acenter.margin-bottom-3x
                                 a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
                             article
                                 form(name="register", action="/register", method="post")
                                     div.announce.bg-cblack.acenter.btn.arrow-down-black
-                                        | #{$.home.register.announce}
+                                        | #{$.register.announce}
                                     input(type="hidden", name="customerType", value="MPAY")
                                     label(for="appName")
-                                        input(type="text", name="appName", placeholder="#{home.register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{home.register.warning.name}")
+                                        input(type="text", name="appName", placeholder="#{register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{register.warning.name}")
                                         p.error.display-none
                                             //| El nombre de la app ya está registrado
                                     label(for="email")
-                                        input(type="email", name="email", placeholder="#{home.register.email}", required="required")
+                                        input(type="email", name="email", placeholder="#{register.email}", required="required")
                                         p.error.display-none
                                             //| El email ya está registrado
                                     label(for="password")
-                                        input(type="password", name="password", placeholder="#{home.register.password}", required="required", title="#{home.register.warning.password}", pattern=".{8,}")
+                                        input(type="password", name="password", placeholder="#{register.password}", required="required", title="#{register.warning.password}", pattern=".{8,}")
                                         p.error.display-none
                                             //| La contraseña debe contener al menos 6 caracteres
-                                    input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{home.register.call_to_action}", data-loading="#{home.register.loading}", data-text="#{home.register.call_to_action}")
-                                    p.tos.acenter.italic !{home.register.accept_terms}
-                                        a(href="#{external.tos.url}") #{home.register.terms}
+                                    input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{register.call_to_action}", data-loading="#{register.loading}", data-text="#{register.call_to_action}")
+                                    p.tos.acenter.italic !{register.accept_terms}
+                                        a(href="#{external.tos.url}") #{register.terms}
 
                     section#multidevice.bg-alabaster.padding.clearfix
                         .margin-bottom-2x.margin-top-2x

@@ -139,6 +139,23 @@
       "num9": "App name, e-mail account and seller code incorrect",
       "num10": "Please complete the app name and e-mail account fields again",
       "general": "General error"
+    },
+    "announce": "You can change it later",
+    "claim": "Your app, your business",
+    "arguments": "Create the app for your business, no coding required, fast and simple.",
+    "app_name": "App name",
+    "email": "Email",
+    "password": "Password",
+    "call_to_action": "Try it now",
+    "accept_terms": "When you click the \"Try it now button\" you accept our",
+    "loading": "Loading...",
+    "terms": "terms and conditions",
+    "try_it": "Try it free, you have 15 days",
+    "warning": {
+      "name": "Your App’s name must be between 3 and 32 characters long and cannot start with a number",
+      "password": "The minimum password length is 8 characters",
+      "ajax": "Oops... we had a small problem.",
+      "ajax_msg": "Registration could not be completed, please try again or e-mail us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
     }
   },
   "home": {
@@ -232,25 +249,6 @@
     },
     "showcase": {
       "title": "These are some of our apps"
-    },
-    "register": {
-      "announce": "You can change it later",
-      "claim": "Your app, your business",
-      "arguments": "Create the app for your business, no coding required, fast and simple.",
-      "app_name": "App name",
-      "email": "Email",
-      "password": "Password",
-      "call_to_action": "Try it now",
-      "accept_terms": "When you click the \"Try it now button\" you accept our",
-      "loading": "Loading...",
-      "terms": "terms and conditions",
-      "try_it": "Try it free, you have 15 days",
-      "warning": {
-        "name": "Your App’s name must be between 3 and 32 characters long and cannot start with a number",
-        "password": "The minimum password length is 8 characters",
-        "ajax": "Oops... we had a small problem.",
-        "ajax_msg": "Registration could not be completed, please try again or e-mail us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
-      }
     },
     "improve_sales": {
       "title": "Improve your sales",
@@ -1282,16 +1280,16 @@
   },
   "home_tlf": {
     "_url": "/home-en-tlf/",
-    "_meta_title": "Customer service and support of Vodafone Upplication",
-    "_meta_description": "Support and customer service of Vodafone Upplication. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Customer service and support of Telefónica Upplication",
+    "_meta_description": "Support and customer service of Telefónica Upplication. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "contact": {
       "customer_service": {
         "text": "Customer service:",
         "email": {
-          "link": "mailto:soporte.ono@upplication.com",
-          "title": "soporte.ono@upplication.com",
-          "text": "soporte.ono@upplication.com"
+          "link": "mailto:soporte@upplication.com",
+          "title": "soporte@upplication.com",
+          "text": "soporte@upplication.com"
         }
       }
     }
