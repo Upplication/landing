@@ -5,20 +5,6 @@ Upplication (http://www.upplication.com)
 Copyright 2015
 */
 
-/* ... "HOME" OVERWRITE DEFAULT CLASSES IN BASE ... */
-
-.logo img {
-  top: 6px !important;
-}
-
-footer.page-footer .footer-copyright ul.rrss.right li {
-  padding: 18px !important;
-}
-
-footer.page-footer .footer-copyright ul.rrss.right li:first-child {
-  padding: 18px 21px !important;
-}
-
 /* ... MAIN TITLE & SUBTITLE ... */
 
 .mainHead {
