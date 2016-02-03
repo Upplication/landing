@@ -46,6 +46,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='msapplication-TileColor', content='#00a300')
         meta(name='msapplication-TileImage', content='#{localConfig.base_path}/images/favicon/mstile-144x144.png')
         meta(name='theme-color', content='#ffffff')
+        meta(name='google-site-verification', content='#{localConfig.webmaster_token}')
 
         link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
 
@@ -140,7 +141,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     i.fa.fa-lock
                                     | #{header.enter}
                         a#pull(href='')
-                            //- img(src='#{localConfig.base_path}/images/home/icons/nav-icon.png', title='menu')
                             span
                             span
                             span
