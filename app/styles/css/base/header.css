@@ -472,21 +472,34 @@ ul#dropdown-terms li:hover {
   background-color: transparent;
 }
 
+/* ... MEDIA QUERIES :: HEADER Languages & Terms DROPDOWNS ... */
+
 @media only screen and (max-width: 768px) {
   ul#dropdown-lang,
   ul#dropdown-terms {
+    margin-top: 45px;
     margin-left: 0;
     border: none;
   }
 
-  ul#dropdown-terms {
-    margin-top: 45px;
+  ul#dropdown-lang li a,
+  ul#dropdown-terms li a {
+    text-align: center;
+    padding-left: 18px;
+    color: #777;
   }
 
+  ul#dropdown-lang li,
   ul#dropdown-terms li {
     width: 100%;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
+  }
+
+  /* .css only for TERMS DROPDOWN ("MORE...") */
+
+  ul#dropdown-terms {
+    max-height: 150px;
   }
 
   ul#dropdown-terms li:first-child {
@@ -497,10 +510,10 @@ ul#dropdown-terms li:hover {
   ul#dropdown-terms li:last-child {
     border-bottom: 1px solid #eeeeee;
   }
+}
 
-  ul#dropdown-lang a,
-  ul#dropdown-terms a {
-    text-align: center;
-    padding-left: 18px;
+@media only screen and (max-width: 320px) {
+  ul#dropdown-terms {
+    right: 0 !important;
   }
 }
