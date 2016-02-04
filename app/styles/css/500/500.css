@@ -1,0 +1,10 @@
+/*
+500 ("internal server" error page) CSS: Custom Stylesheet --- Error 404: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2016
+*/
+
+.page-not-found-header h4:after {
+  text-shadow: 50px 8px 7px rgba(0, 0, 0, 0.1);
+}

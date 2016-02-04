@@ -12,6 +12,30 @@
       "prices": "PRICING",
       "how": "<span>HOW DO I</span> CREATE MY APP",
       "contact": "Contact",
+      "info": {
+        "info":"More...",
+        "about_us": {
+          "title": "About Us",
+          "url": "@@config.base_path/about-us/"
+        },
+        "company_bio": {
+          "title": "Company Bio",
+          "url": "@@config.base_path/company-bio/"
+        },
+        "helpcenter": {
+          "title": "Help Center",
+          "url": "@@config.base_path/centro-de-ayuda/"
+        },
+        "prices": {
+          "title": "Prices",
+          "url": "@@config.base_path/prices/"
+        },
+        "hiring": "Hiring Area",
+        "terms": {
+          "title": "Legal terms",
+          "url": "@@config.base_path/terms/"
+        }
+      },
       "legal": {
         "advise": "Disclaimer",
         "privacy": "Privacy",
@@ -115,13 +139,31 @@
       "num9": "App name, e-mail account and seller code incorrect",
       "num10": "Please complete the app name and e-mail account fields again",
       "general": "General error"
+    },
+    "announce": "You can change it later",
+    "claim": "Your app, your business",
+    "arguments": "Create the app for your business, no coding required, fast and simple.",
+    "app_name": "App name",
+    "email": "Email",
+    "password": "Password",
+    "call_to_action": "Try it now",
+    "accept_terms": "When you click the \"Try it now button\" you accept our",
+    "loading": "Loading...",
+    "terms": "terms and conditions",
+    "try_it": "Try it free, you have 15 days",
+    "warning": {
+      "name": "Your App’s name must be between 3 and 32 characters long and cannot start with a number",
+      "password": "The minimum password length is 8 characters",
+      "ajax": "Oops... we had a small problem.",
+      "ajax_msg": "Registration could not be completed, please try again or e-mail us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
     }
   },
   "home": {
     "_url": "/build-your-app/",
-    "_meta_title": "Create the app for your business",
+    "_meta_title": "Create the app for your business - Upplication",
     "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
     "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
+    "_priority" : "1.0",
     "slider": {
       "intro1": "App generator for ",
       "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>",
@@ -205,55 +247,8 @@
       },
       "app_ready": " <span>Your App</span> is ready "
     },
-    "rates": {
-      "rate_intro": "Pricing plans",
-      "rate_sub": "All pricing plans include:",
-      "sub1": "Customer support by e-mail, chat, and phone.",
-      "sub2": "Automatic upload to all App Stores, we publish your app.",
-      "sub3": "Web responsive, supports multiple devices.",
-      "sub4": "Personal tutor.",
-      "monthly": "Monthly plan",
-      "yearly": "Annual plan",
-      "euro_month": "€ / month",
-      "euro_year": "€ / year",
-      "basic": "BASIC",
-      "proff": "PROFFESIONAL",
-      "premiun": "PREMIUM",
-      "unlimited": "UNLIMITED",
-      "app_web": "App and WebApp",
-      "statistics": "<strong>Statistics</strong> of your app",
-      "bullhorn": "Upplication <strong>Ads</strong>",
-      "no_bullhorn": "<strong>No</strong> Upplication Ads",
-      "sign": "<strong>Watermark</strong> on templates",
-      "no_sign": "<strong>No</strong> watermark on templates",
-      "no_push": "<strong>No</strong> push alerts",
-      "four_push": "<strong>4</strong> push alerts / month",
-      "all_push": "<strong>Unlimited</strong> push alerts",
-      "no_templates": "<strong>Custom App</strong>, personalized",
-      "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
-      "with_tax": "<strong>VAT included</strong> in all prices."
-    },
     "showcase": {
       "title": "These are some of our apps"
-    },
-    "register": {
-      "announce": "You can change it later",
-      "claim": "Your app, your business",
-      "arguments": "Create the app for your business, no coding required, fast and simple.",
-      "app_name": "App name",
-      "email": "Email",
-      "password": "Password",
-      "call_to_action": "Try it now",
-      "accept_terms": "When you click the \"Try it now button\" you accept our",
-      "loading": "Loading...",
-      "terms": "terms and conditions",
-      "try_it": "Try it free, you have 15 days",
-      "warning": {
-        "name": "Your App’s name must be between 3 and 32 characters long and cannot start with a number",
-        "password": "The minimum password length is 8 characters",
-        "ajax": "Oops... we had a small problem.",
-        "ajax_msg": "Registration could not be completed, please try again or e-mail us to <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>"
-      }
     },
     "improve_sales": {
       "title": "Improve your sales",
@@ -333,11 +328,47 @@
     "create_free": "Create my app",
     "permanence": "Trial period with no obligation to stay."
   },
+  "prices": {
+    "_url": "/prices/",
+    "_meta_title": "Crea la app de tu pyme - Upplication",
+    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_priority" : "0.6",
+    "rates": {
+      "rate_intro": "Pricing plans",
+      "rate_sub": "All pricing plans include:",
+      "sub1": "Customer support by e-mail, chat, and phone.",
+      "sub2": "<span>Automatic upload to all App Stores,</span> <span>we publish your app.</span>",
+      "sub3": "Web responsive, supports multiple devices.",
+      "sub4": "Personal tutor.",
+      "monthly": "Monthly plan",
+      "yearly": "Annual plan",
+      "euro_month": "€ / month",
+      "euro_year": "€ / year",
+      "basic": "BASIC",
+      "proff": "PROFFESIONAL",
+      "premiun": "PREMIUM",
+      "unlimited": "UNLIMITED",
+      "app_web": "App and WebApp",
+      "statistics": "<strong>Statistics</strong> of your app",
+      "bullhorn": "Upplication <strong>Ads</strong>",
+      "no_bullhorn": "<strong>No</strong> Upplication Ads",
+      "sign": "<strong>Watermark</strong> on templates",
+      "no_sign": "<strong>No</strong> watermark on templates",
+      "no_push": "<strong>No</strong> push alerts",
+      "four_push": "<strong>4</strong> push alerts / month",
+      "all_push": "<strong>Unlimited</strong> push alerts",
+      "no_templates": "<strong>Custom App</strong>, personalized",
+      "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
+      "with_tax": "<strong>VAT included</strong> in all prices."
+    }
+  },
   "company": {
     "_url": "/company-bio/",
-    "_meta_title": "Upplication Bio",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Upplication Bio, the app creator",
+    "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android e iOS devises. No programing skills needed. Build in a few minutes!",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_priority" : "0.9",
     "intro": {
       "maintitle": "<span>What is</span> Upplication <span>?</span>",
       "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and be different from the competitors</span>."
@@ -381,9 +412,10 @@
   },
   "about_us": {
     "_url": "/about-us/",
-    "_meta_title": "Create the app for your business",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Upplication team, the app creator for your business",
+    "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_priority" : "0.8",
     "team": {
       "subtitle": "Meet",
       "title": "Our Team",
@@ -523,15 +555,16 @@
   },
   "help_center": {
     "_url": "/help-center/",
-    "_meta_title": "help center",
-    "_meta_description": "Description tag",
+    "_meta_title": "help center of Upplication, the app creator",
+    "_meta_description": "Upplication Help Center: the online app creator. Info about how to create your own app, app samples, videotutorials, support info...",
     "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_priority" : "0.7",
     "name": "Help center",
     "title": "Help center",
     "section": {
       "upp": "You create Upplication",
       "video": "Videos",
-      "ebooks": "Ebooks & Infographics",
+      "ebooks": "eBooks & Infographics",
       "help": "We help you make your app"
     },
     "uservoice": {
@@ -657,9 +690,10 @@
   },
   "offer": {
     "_url": "/offer-trainee-developer/",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_meta_title": "Trainee developer job offer - Upplication: app creator",
+    "_meta_description": "Trainee frontender or backender developer job offer in Upplication: the online app creator for you and your business.",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_priority" : "0.4",
     "introduction": [
       "In Upplication we’re a team that has an unquenchable thirst for learning, and thankfully we have unlimited information. Every idea is thoroughly revised and discussed between the team, so that every decision we make will be of the highest quality.",
       "We always want to improve our ideas and because of that we are looking for a new intern to join our developing team, who will help us develop our dashboard and internal CRM.",
@@ -697,9 +731,10 @@
   },
   "offer_marketing": {
     "_url": "/offer-trainee-marketing/",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_meta_title": "Trainee marketing job offer - Upplication: app creator",
+    "_meta_description": "Trainee marketing and salesman job offer in Upplication: the online app creator. It is easy, without coding and quick, just in few minutes!",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_priority" : "0.4",
     "introduction": [
       "Upplication is a tool that allows any SME create an application, in just a few steps, without the need to have any technological experience nor the need to call support. And also for a price that adapts to any budget (starting from 5€/month).",
       "Actually, we have a presence in 46 countries, and we have created more than 10.000 apps in the 10 months that we have been in the market."
@@ -737,8 +772,8 @@
   },
   "page_not_found": {
     "_url": "/page-not-found/",
-    "_meta_title": "404: not found",
-    "_meta_description": "Description tag",
+    "_meta_title": "404: Page not found in Upplication: the app creator",
+    "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
     "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "title": "404",
     "subtitle1": "Page",
@@ -748,7 +783,19 @@
     "advice2": "You have not internet conection.",
     "advice3": "The page is out-dated and has been removed.",
     "advice4": "The page does not exist in the linguistic version required.",
-    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here</a> to come back home page."
+    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
+  },
+  "internal_server_error": {
+    "_url": "/internal-server-error/",
+    "_meta_title": "500: internal server error in Upplication: the app creator",
+    "_meta_description": "500 internal server error in Upplication: the app creator for Android e iOS devises. No programing skills needed. Build in a few minutes!",
+    "_keywords": "error, 500, error 500, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "title": "500",
+    "subtitle1": "error!",
+    "subtitle2": "Internal Server",
+    "subtitle3": "Internal Server Error",
+    "pre_advice": "It was an error on our server. Sorry for the inconvenience, we will solve soon",
+    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
   },
   "external": {
     "titles": {
@@ -873,6 +920,10 @@
     "nubo": {
       "anchor": "NUBO",
       "url": "http://www.ono.es/microsite-nubo/nubo-upplication/"
+    },
+    "social_media_btns": {
+      "twitter": "https://twitter.com/upplicationENG",
+      "facebook": ""
     }
   },
   "signup": {
@@ -886,9 +937,10 @@
   },
   "prices_aplicateca": {
     "_url": "/prices-aplicateca/",
-    "_meta_title": "Pricing plans",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Upplication Pricing plans in Movistar Aplicateca",
+    "_meta_description": "Upplication to do apps yourself, for you or your business in Movistar Aplicateca. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_priority" : "0.6",
     "title": "Pricing plans",
     "monthly": "Monthly",
     "yearly": "Yearly",
@@ -1014,9 +1066,9 @@
           "text": "810 512 370 (free)"
         },
         "email": {
-          "link": "mailto:soporte@upplication.com",
-          "title": "soporte@upplication.com",
-          "text": "soporte@upplication.com"
+          "link": "mailto:aplicateca@upplication.com",
+          "title": "aplicateca@upplication.com",
+          "text": "aplicateca@upplication.com"
         }
       }
     },
@@ -1221,15 +1273,15 @@
   },
   "ono": {
     "_url": "/vodafone-examples/",
-    "_meta_title": "Crea tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación. - Upplication",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_meta_title": "App samples made with Vodafone Upplication",
+    "_meta_description": "Upplication: app online creator in Ono Vodafone. 15 days free trial.",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "title": "Vodafone examples"
   },
   "home_tlf": {
     "_url": "/home-en-tlf/",
-    "_meta_title": "Create the app for your business",
-    "_meta_description": "Do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Customer service and support of Telefónica Upplication",
+    "_meta_description": "Support and customer service of Telefónica Upplication. It is easy, without coding, and quick, in few minutes.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "contact": {
       "customer_service": {
@@ -1244,9 +1296,10 @@
   },
   "terms": {
     "_url": "/terms/",
-    "_meta_title": "Terms of Service",
-    "_meta_description": "Terms of Service.",
+    "_meta_title": "Terms of Upplication Service, the app creator",
+    "_meta_description": "Legal terms and conditions of use all Upplication Services, an online app creator for you and your business.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_priority" : "0.5",
     "title": "Terms of Service",
     "legal": {
       "title": "Disclaimer",
@@ -1327,8 +1380,8 @@
   },
   "terms_movistar": {
     "_url": "/termsandconditionsmovistar-upplication/",
-    "_meta_title": "Terms and conditions",
-    "_meta_description": "Terms and conditions",
+    "_meta_title": "Terms and conditions of Upplication service in Movistar Applicateca",
+    "_meta_description": "Conditions of use Upplication, an online app creator for android and iOS devises, in Movistar Applicateca services.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "sections": {
       "title": "Términos y condiciones",

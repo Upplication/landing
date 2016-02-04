@@ -71,6 +71,7 @@ You can override this vars passing the concrete key as parameter with the prefix
      - _meta_title: seo
      - _meta_description: seo
      - _keywords: seo
+     - _priority: sitemap priority
 
 Notes:
 

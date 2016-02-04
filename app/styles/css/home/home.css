@@ -575,6 +575,11 @@ a.terms-conditions {
   padding: 0 0 3em 0;
 }
 
+#mensual,
+#anual {
+  margin-top: 2em;
+}
+
 /* ... TESTIMONIAL CLIENTS :: Home Section ... */
 
 .clients-left {
@@ -688,11 +693,6 @@ a.terms-conditions {
   font-weight: 400;
   margin: 2em 0;
   padding: 0 0 0.5em 0;
-}
-
-#mensual,
-#anual {
-  margin-top: 2em;
 }
 
 /* ... "HOW DO I CREATE MY APP" TIMELINE :: Home Section ... */

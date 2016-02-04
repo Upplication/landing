@@ -1,6 +1,6 @@
 {
   "name": "Landing-Upplication",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "contributors": [{
     "name": "Raul Jiménez",
@@ -45,7 +45,8 @@
     "load-grunt-tasks": "~0.1.0",
     "optipng-bin": "0.3.1",
     "pngquant-bin": "0.1.6",
-    "time-grunt": "~0.1.0"
+    "time-grunt": "~0.1.0",
+    "dateformat": "~1.0.12"
   },
   "engines": {
     "node": ">=0.8.0"

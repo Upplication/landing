@@ -19,6 +19,9 @@ Copyright 2015
   height: auto;
   position: relative;
   top: -4px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .logo a {
@@ -30,6 +33,14 @@ Copyright 2015
 
 .logo a:hover {
   text-decoration: none;
+}
+
+.logo a:hover img {
+  -webkit-transition: scale(1.03);
+  -ms-transition: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .logo320 {
@@ -84,12 +95,6 @@ Copyright 2015
   letter-spacing: 0.01em;
 }
 
-.top-nav ul li.active a,
-.top-nav ul li a:hover,
-.top-nav ul li a:hover i {
-  color: #00c86b;
-}
-
 .top-nav ul li a:hover i {
   -webkit-transition: all 250ms ease-in;
   -ms-transition: all 250ms ease-in;
@@ -98,7 +103,18 @@ Copyright 2015
 
 .top-nav ul li a i {
   padding-right: 5px;
-  color: #777777;
+  color: #bbbbbb;
+}
+
+.top-nav ul li a i.fa-lock {
+  color: #111b0a;
+}
+
+.top-nav ul li.active a,
+.top-nav ul li a:hover,
+.top-nav ul li a:hover i,
+.top-nav ul li a:hover i.fa-lock {
+  color: #00c86b;
 }
 
 .logo a {
@@ -432,10 +448,17 @@ a.chat:hover {
 ul#dropdown-lang,
 ul#dropdown-terms {
   margin-top: 47px;
-  margin-left: -26px;
   background-color: #faf9f9;
   border: 1px solid #cccccc;
   border-top: none;
+}
+
+ul#dropdown-lang {
+  margin-left: -26px;
+}
+
+ul#dropdown-terms {
+  margin-left: -6px;
 }
 
 ul#dropdown-lang a,
@@ -449,16 +472,48 @@ ul#dropdown-terms li:hover {
   background-color: transparent;
 }
 
+/* ... MEDIA QUERIES :: HEADER Languages & Terms DROPDOWNS ... */
+
 @media only screen and (max-width: 768px) {
   ul#dropdown-lang,
   ul#dropdown-terms {
+    margin-top: 45px;
     margin-left: 0;
     border: none;
   }
 
-  ul#dropdown-lang a,
-  ul#dropdown-terms a {
+  ul#dropdown-lang li a,
+  ul#dropdown-terms li a {
     text-align: center;
     padding-left: 18px;
+    color: #777;
+  }
+
+  ul#dropdown-lang li,
+  ul#dropdown-terms li {
+    width: 100%;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+  }
+
+  /* .css only for TERMS DROPDOWN ("MORE...") */
+
+  ul#dropdown-terms {
+    max-height: 150px;
+  }
+
+  ul#dropdown-terms li:first-child {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+
+  ul#dropdown-terms li:last-child {
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  ul#dropdown-terms {
+    right: 0 !important;
   }
 }

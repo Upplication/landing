@@ -1,4 +1,4 @@
-// CLIENTS CAROUSEL
+//- CLIENTS CAROUSEL
 .clientSection
     .container
         #clientsCarousel
@@ -23,7 +23,7 @@
             .item
                 a(href='http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar', target='_blank', title='')
                     img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='wwwhatsnew logo')
-// 15 DAYS TRIAL BUTTOM
+//- 15 DAYS TRIAL BUTTOM
 .pricing-plan
    .container
       .pricing-plan-grids
@@ -33,7 +33,7 @@
           .pricing-plan-right
              a.price-btn.modal-trigger(href='#pruebaGratis') #{header.free_trial}
           .clearfix
-// COSTUMERS SERVICES CONTACT AREA
+//- COSTUMERS SERVICES CONTACT AREA
 .servCliente
    .container
       .col.s12
@@ -48,8 +48,9 @@
                a(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}')
                   i.icon-envelope
                   | #{help_center.customer_service.email.title}
-// FOOTER
+//- FOOTER
 footer.page-footer
+                    //- Footer :: links compilation
                     .container.padTop50.padBot50
                         .row.hover-anim
                             .col.l3.s12.footCol
@@ -71,7 +72,7 @@ footer.page-footer
                                     li
                                         a(href='#tabs', title='#{external.apps.anchor}') #{external.apps.anchor}
                                     li
-                                        a(href='#pricing', title='#{external.pricing.anchor}') #{external.pricing.anchor}
+                                        a(href='#{external.pricing.url}', title='#{external.pricing.anchor}') #{external.pricing.anchor}
                             .col.l3.s12.footCol
                                 h6 #{external.titles.misc}
                                 ul.footLinks
@@ -99,6 +100,7 @@ footer.page-footer
                                     li
                                         a(href='#{footer.tos.cookies.url}', title='#{footer.tos.cookies.title}') #{footer.tos.cookies.title}
                     .clearfix
+                    //- Footer :: Copyright & Social Media icon buttons
                     .footer-copyright
                         .container
                             span
@@ -125,18 +127,40 @@ footer.page-footer
                                 li.google
                                     a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
                                         i.fa.fa-google-plus
+                    //- Footer :: Social Media share buttons :: Hide to the user (opacity: 0)
+                    .footer-socialmedia-btns
+                        .container
+                            ul.rrss.right.hover-anim
+                                li
+                                    a.twitter-follow-button(href='#{external.social_media_btns.twitter}', data-show-count='false')
+                                li
+                                    a.fb-share-button(href='#{external.facebook.url}', data-layout='button')
+                                li
+                                    script(src='//platform.linkedin.com/in.js', type='text/javascript').
+                                        lang: en_US
+                                    script(type='IN/Share')
+                                li
+                                    script(src='https://apis.google.com/js/platform.js', async='', defer='').
+                                        {lang: 'es'}
+                                    .g-plus(data-action='share', data-annotation='none')
+                                li
+                                    span.ig-follow(data-id='5479dee', data-handle='igfbdotcom', data-count='false', data-size='small', data-username='true')
+                                li
+                                    script(src='https://apis.google.com/js/platform.js')
+                                    .g-ytsubscribe(data-channel='GoogleDevelopers', data-layout='default', data-count='hidden')
+                    //- Footer :: Partners links
                     .footer-bottom
                         .container
                              ul
                                 li
-                                    a(href='#{footer.partners.eu.url}', target='_blank', title='#{footer.partners.eu.title}')
+                                    a(rel='nofollow', href='#{footer.partners.eu.url}', target='_blank', title='#{footer.partners.eu.title}')
                                        img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='#{footer.partners.eu.title}')
                                 li
-                                    a(href='#{footer.partners.mixpanel.url}', target='_blank', title='#{footer.partners.mixpanel.title}')
+                                    a(rel='nofollow', href='#{footer.partners.mixpanel.url}', target='_blank', title='#{footer.partners.mixpanel.title}')
                                        img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='#{footer.partners.mixpanel.title}')
                                 li
-                                    a(href='#{footer.partners.telefonica.url}', target='_blank', title='#{footer.partners.telefonica.title}')
+                                    a(rel='nofollow', href='#{footer.partners.telefonica.url}', target='_blank', title='#{footer.partners.telefonica.title}')
                                         img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='#{footer.partners.telefonica.title}')
                                 li
-                                    a(href='#{footer.partners.wayra.url}', target='_blank', title='#{footer.partners.wayra.title}')
+                                    a(rel='nofollow', href='#{footer.partners.wayra.url}', target='_blank', title='#{footer.partners.wayra.title}')
                                         img(src='#{localConfig.base_path}/images/home/icons/wayra.png', alt='#{footer.partners.wayra.title}')
