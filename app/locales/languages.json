@@ -1,16 +1,16 @@
 {
   "codes": [
     {
-      "language_name": "English",
-      "language_country" : "en",
-      "language_short_code": "Eng",
-      "home": "/build-your-app"
-    },
-    {
       "language_name": "Español",
       "language_country" : "es",
       "language_short_code": "Esp",
       "home": "/"
+    },
+    {
+      "language_name": "English",
+      "language_country" : "en",
+      "language_short_code": "Eng",
+      "home": "/build-your-app"
     },
     {
       "language_name": "Bahasa",

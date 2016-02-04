@@ -5,6 +5,7 @@ dist
 node_modules
 .tmp
 app/routing.json
+app/sitemap.xml
 .grunt/
 .sass-cache/
 design

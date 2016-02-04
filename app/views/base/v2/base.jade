@@ -46,6 +46,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='msapplication-TileColor', content='#00a300')
         meta(name='msapplication-TileImage', content='#{localConfig.base_path}/images/favicon/mstile-144x144.png')
         meta(name='theme-color', content='#ffffff')
+        meta(name='google-site-verification', content='#{localConfig.webmaster_token}')
 
         link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
 
@@ -76,7 +77,19 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
 
     body
-        // MAIN HEADER
+        //- Facebook "share" button plugin
+        #fb-root
+        script.
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+        //- MAIN HEADER
         #home.header
             #move-top.top-header
                 .container
@@ -93,15 +106,33 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                             | !{language.language_short_code}
                                 ul#dropdown-lang.dropdown-content.notshow
                                     each lang in langs.codes
-                                        a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                                        li
+                                            a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li
-                                a.hide-tab(href='#about', title='') !{header.nav.how}
+                                a.hide-tab(href='#about', title='#{header.nav.how}') !{header.nav.how}
                             li
-                                a.hide-tab(href='#tabs', title='') #{header.nav.apps}
+                                a.hide-tab(href='#tabs', title='#{header.nav.apps}') #{header.nav.apps}
+                            //-
+                                li
+                                    a.hide-tab(href='#pricing', title='') #{header.nav.prices}
                             li
-                                a.hide-tab(href='#pricing', title='') #{header.nav.prices}
+                                a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='#{external.blog.anchor}') #{external.blog.anchor}
                             li
-                                a.hide-tab(href='http://www.upplication.com/blog/', target='_blank', title='') #{external.blog.anchor}
+                                a.lang-link(href='#', data-activates='dropdown-terms')
+                                    | !{header.nav.info.info}
+                                ul#dropdown-terms.dropdown-content.notshow
+                                    li
+                                        a.hide-tab.lang-link(href="#{header.nav.info.about_us.url}", title='#{header.nav.info.about_us.title}') #{header.nav.info.about_us.title}
+                                    li
+                                        a.hide-tab.lang-link(href="#{header.nav.info.company_bio.url}", title='#{header.nav.info.company_bio.title}') #{header.nav.info.company_bio.title}
+                                    li
+                                        a.hide-tab.lang-link(href="#{header.nav.info.helpcenter.url}", title='#{header.nav.info.helpcenter.title}') #{header.nav.info.helpcenter.title}
+                                    li
+                                        a.hide-tab.lang-link(href="#{header.nav.info.prices.url}", title='#{header.nav.info.prices.title}') #{header.nav.info.prices.title}
+                                    li
+                                        a.modal-trigger(href='#hiring', title='#{header.nav.info.hiring}', target='_blank') #{header.nav.info.hiring}
+                                    li
+                                        a.hide-tab.lang-link(href="#{header.nav.info.terms.url}", title='#{header.nav.info.terms.title}') #{header.nav.info.terms.title}
                             li.only-show-small-devises.phone-kerning
                                 a.modal-trigger(href='#allContact') #{header.telephone}
                             li.only-show-small-devises
@@ -111,7 +142,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     i.fa.fa-lock
                                     | #{header.enter}
                         a#pull(href='')
-                            // img(src='#{localConfig.base_path}/images/home/icons/nav-icon.png', title='menu')
                             span
                             span
                             span
@@ -125,13 +155,13 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
                             .clearfix
                     .clearfix
-        // MODAL PRUEBA GRATIS
+        // MODAL :: FREE TRIAL
         #pruebaGratis.modal.modal-upp
             include ../../includes/modal-free.jade
-        // MODAL CONTACT
+        // MODAL :: CONTACT
         #allContact.modal.modal-upp
             include ../../includes/modal-contact.jade
-        // MODAL HIRING
+        // MODAL :: HIRING
         #hiring.modal.modal-upp
             include ../../includes/modal-hiring.jade
 

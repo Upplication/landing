@@ -527,10 +527,6 @@ Copyright 2015
     width: 80%;
   }
 
-  .pricing-tables {
-    padding: 1em 0 0em;
-  }
-
   .domain-grid-right h2 a {
     font-size: 1em;
   }
@@ -1315,7 +1311,7 @@ Copyright 2015
 
   nav a#pull {
     top: 9px;
-    right: -10px;
+    right: 15px;
   }
 
   .contact-info p {
@@ -2977,5 +2973,34 @@ Copyright 2015
   .slider.slides-to-mobile,
   .slider.slides-to-mobile .slides {
     height: 350px !important;
+  }
+}
+
+/* ... HOME INTRO SLIDER BOTTOM SKEW for big screems .................... */
+
+@media only screen and (min-width: 1750px) {
+  .dippah.skew-right {
+    -webkit-transform: skew(0deg, -2.5deg);
+    -ms-transform: skew(0deg, -2.5deg);
+    transform: skew(0deg, -2.5deg);
+  }
+}
+
+/* ... PRICE PAGE ...................................................... */
+
+@media only screen and (max-width: 768px) {
+  .pricing-tables.pricing-tables-mobile {
+    padding: 3em 0 0em !important;
+  }
+
+  #pricing .incluye {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #pricing .incluye ul li span:last-child {
+    display: block;
+    padding-left: 45px;
+    padding-bottom: 8px;
   }
 }

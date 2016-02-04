@@ -1,0 +1,296 @@
+extends base/v2/base
+
+block vars
+   - var title = $.prices._meta_title
+   - var description = $.prices._meta_description
+   - var keywords = $.prices._keywords
+   - var cssClass = 'prices'
+
+block css
+   // build:css({.tmp, app}) /styles/prices.min.css
+   link(rel='stylesheet', href='/styles/css/prices/prices.css')
+   // endbuild
+
+block content
+
+    //- MIXIN Declarations
+    mixin webapp
+        a(href='#')
+            i.fa.fa-desktop
+            i.fa.fa-android
+            i.fa.fa-apple
+            | #{prices.rates.app_web}
+
+
+    //- CLIENTS
+    .clients
+        .container
+            //- PRICING PLANS
+            #pricing.pricing-tables.pricing-tables-mobile.scrollspy
+                .plans-head.text-center
+                    h4.headTitles.noMargBot #{prices.rates.rate_intro}
+                    p #{prices.rates.rate_sub}
+                    .col-xs-12.col-sm-offset-3.col-sm-8.incluye
+                        ul
+                            li
+                                i.fa.fa-commenting-o
+                                | #{prices.rates.sub1}
+                            li
+                                i.fa.fa-shopping-cart
+                                | !{prices.rates.sub2}
+                            li
+                                i.fa.fa-tablet
+                                | #{prices.rates.sub3}
+                            li
+                                i.fa.fa-graduation-cap
+                                | #{prices.rates.sub4}
+                    .clearfix
+                .row
+                    .col.s12.offset-m2.m8
+                        ul.tabs
+                            li.tab.col.s12.m6
+                                a.active(href='#mensual') !{prices.rates.monthly}
+                            li.tab.col.s12.m6
+                                a(href='#anual') !{prices.rates.yearly}
+                    // Plan Mensual
+                    #mensual.col.s12
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{prices.rates.basic}
+                                ul
+                                    li
+                                        span
+                                            | 9,95
+                                            em #{prices.rates.euro_month}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{prices.rates.sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell-slash
+                                            | !{prices.rates.no_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
+                            .pricing-table-grid.with-hover
+                                h3 #{prices.rates.proff}
+                                ul
+                                    li
+                                        span
+                                            | 29,95
+                                            em #{prices.rates.euro_month}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{prices.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{prices.rates.four_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{prices.rates.premiun}
+                                ul
+                                    li
+                                        span
+                                            | 59,95
+                                            em #{prices.rates.euro_month}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{prices.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{prices.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{prices.rates.unlimited}
+                                ul
+                                    li
+                                        span
+                                            | 299,95
+                                            em #{prices.rates.euro_month}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-object-ungroup
+                                            | !{prices.rates.no_templates}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{prices.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .clearfix
+                    //- Plan Anual
+                    #anual.col.s12
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{prices.rates.basic}
+                                ul
+                                    li
+                                        span
+                                            | 99,50
+                                            em #{prices.rates.euro_year}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{prices.rates.sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell-slash
+                                            | !{prices.rates.no_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
+                            .pricing-table-grid.with-hover
+                                h3 #{prices.rates.proff}
+                                ul
+                                    li
+                                        span
+                                            | 299,50
+                                            em #{prices.rates.euro_year}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{prices.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{prices.rates.four_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{prices.rates.premiun}
+                                ul
+                                    li
+                                        span
+                                            | 599,50
+                                            em #{prices.rates.euro_year}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-pencil
+                                            | !{prices.rates.no_sign}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{prices.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .col-xs-12.col-md-3.mobilePrices
+                            .pricing-table-grid
+                                h3 #{prices.rates.unlimited}
+                                ul
+                                    li
+                                        span
+                                            | 2999,50
+                                            em #{prices.rates.euro_year}
+                                    li
+                                        //- MIXIN Use
+                                        +webapp
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bar-chart
+                                            | !{prices.rates.statistics}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bullhorn
+                                            | !{prices.rates.no_bullhorn}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-object-ungroup
+                                            | !{prices.rates.no_templates}
+                                    li
+                                        a(href='#')
+                                            i.fa.fa-bell
+                                            | !{prices.rates.all_push}
+                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                        .clearfix
+                        .col-xs-12
+                            .alert.alert-info(role='alert')
+                                span.fa-stack.fa-lg
+                                    i.fa.fa-money.fa-stack-1x
+                                    i.fa.fa-ban.fa-stack-2x
+                                span.monthless !{prices.rates.monthless}
+                .col-xs-12.tax.center
+                    p
+                        i.fa.fa-asterisk
+                        | !{prices.rates.with_tax}

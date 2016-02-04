@@ -1,0 +1,25 @@
+extends base/v2/base
+block vars
+   - var title = $.internal_server_error._meta_title
+   - var description = $.internal_server_error._meta_description
+   - var keywords = $.internal_server_error._keywords
+   - var cssClass = 'internal_server_error'
+block css
+   // build:css({.tmp, app}) /styles/500.min.css
+   link(rel='stylesheet', href='/styles/css/404/404.css')
+   link(rel='stylesheet', href='/styles/css/500/500.css')
+   // endbuild
+block content
+   // 500 ERROR
+   .page-not-found-bg
+       img.responsive-img(src='#{localConfig.base_path}/images/error/500_bg.jpg', alt='#{internal_server_error.subtitle3}')
+   .container
+      .col.s12.center-align.page-not-found-header.padBot50
+         h4(data-text='500') #{internal_server_error.title}
+         p #{internal_server_error.subtitle1}
+            span &nbsp#{internal_server_error.subtitle2}
+      .row.not-found-suggestions
+         .col.m10.offset-m1.s12
+            p.strong500.padTop30.padBot30 #{internal_server_error.pre_advice}
+            p.strong500.padTop30.padBot30 !{internal_server_error.suggestion}
+block scripts
