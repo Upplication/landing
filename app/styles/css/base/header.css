@@ -55,11 +55,11 @@ Copyright 2015
   z-index: 1000;
   width: 100%;
   height: 60px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #c9cedf;
   /* Only for Xmas:
-  background: #faf9f9 url("@@config.base_path/images/home/icons/upp_header_bg_xmas.png") repeat-x;
+  background: #fefeff url("@@config.base_path/images/home/icons/upp_header_bg_xmas.png") repeat-x;
   */
-  background-color: #faf9f9;
+  background-color: #fefeff;
 }
 
 .top-nav ul.hide-tabs {
@@ -71,7 +71,7 @@ Copyright 2015
 }
 
 .top-nav ul li a:hover {
-  background-color: rgba(250,249,249,.7);
+  background-color: rgba(254,254,255,.7);
 }
 
 .top-nav ul li a {
@@ -173,7 +173,36 @@ nav a#pull {
   display: none;
 }
 
-/*Styles for screen 600px and lower*/
+/* ... HEADER Languages & Terms DROPDOWNS ... */
+
+ul#dropdown-lang,
+ul#dropdown-terms {
+  margin-top: 47px;
+  background-color: #fefeff;
+  border: 1px solid #c9cedf;
+  border-top: none;
+}
+
+ul#dropdown-lang {
+  margin-left: -26px;
+}
+
+ul#dropdown-terms {
+  margin-left: -6px;
+}
+
+ul#dropdown-lang a,
+ul#dropdown-terms a {
+  text-align: left;
+  padding-left: 18px;
+}
+
+ul#dropdown-lang li:hover,
+ul#dropdown-terms li:hover {
+  background-color: transparent;
+}
+
+/* MEDIA QUERIES :: NAV general */
 
 @media screen and (max-width: 768px) {
   nav {
@@ -227,13 +256,12 @@ nav a#pull {
     display: none;
     height: auto;
     margin: 0;
-    background: #fff;
     float: right;
-    background-color: #faf9f9;
+    background-color: #fefeff;
     margin-top: 2px;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #c9cedf;
+    border-left: 1px solid #c9cedf;
+    border-bottom: 1px solid #c9cedf;
   }
 
   /* MOBILE NAV ICON to show and hide main top nav bar */
@@ -343,20 +371,64 @@ nav a#pull {
   }
 }
 
-/* Smartphone :: Landscape */
+/* ... MEDIA QUERIES :: HEADER Languages & Terms DROPDOWNS ... */
+
+@media only screen and (max-width: 768px) {
+  ul#dropdown-lang,
+  ul#dropdown-terms {
+    margin-top: 45px;
+    margin-left: 0;
+    border: none;
+  }
+
+  ul#dropdown-lang li a,
+  ul#dropdown-terms li a {
+    text-align: center;
+    padding-left: 18px;
+    color: #777;
+  }
+
+  ul#dropdown-lang li,
+  ul#dropdown-terms li {
+    width: 100%;
+    border-left: 1px solid #c9cedf;
+    border-right: 1px solid #c9cedf;
+    border-top: 1px solid #c9cedf;
+  }
+
+  ul#dropdown-lang li:last-child,
+  ul#dropdown-terms li:last-child {
+    border-bottom: 1px solid #c9cedf;
+  }
+
+  /* .css only for TERMS DROPDOWN ("MORE...") */
+
+  ul#dropdown-terms {
+    max-height: 150px;
+  }
+}
+
+/* MEDIA QUERIES :: Smartphone :: LANDSCAPE */
 
 @media only screen and (max-width : 480px) {
   .top-nav ul li {
     width: 50%;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #c9cedf;
   }
 
   .top-nav ul li:nth-child(odd) {
-    border-right: 1px solid #eeeeee;
+    border-right: 1px solid #c9cedf;
+  }
+
+  ul#dropdown-lang li,
+  ul#dropdown-terms li {
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
   }
 }
 
-/* Smartphone :: portrait */
+/* MEDIA QUERIES :: Smartphone :: PORTRAIT */
 
 @media only screen and (max-width : 320px) {
   nav {
@@ -369,7 +441,7 @@ nav a#pull {
     display: block;
     float: none;
     width: 100%;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #c9cedf;
   }
 
   nav li,
@@ -377,7 +449,8 @@ nav a#pull {
     border-right: 1px solid transparent;
   }
 
-  ul#dropdown-lang {
+  ul#dropdown-lang,
+  ul#dropdown-terms {
     right: 0 !important;
   }
 }
@@ -414,7 +487,7 @@ nav a#pull {
 }
 
 .contact-info-right a:hover {
-  background-color: rgba(250,249,249,.7);
+  background-color: rgba(254,254,255,.7);
 }
 
 .contact-info a.support {
@@ -441,79 +514,4 @@ a.chat {
 
 a.chat:hover {
   background: #00e386;
-}
-
-/* ... HEADER Languages & Terms DROPDOWNS ... */
-
-ul#dropdown-lang,
-ul#dropdown-terms {
-  margin-top: 47px;
-  background-color: #faf9f9;
-  border: 1px solid #cccccc;
-  border-top: none;
-}
-
-ul#dropdown-lang {
-  margin-left: -26px;
-}
-
-ul#dropdown-terms {
-  margin-left: -6px;
-}
-
-ul#dropdown-lang a,
-ul#dropdown-terms a {
-  text-align: left;
-  padding-left: 18px;
-}
-
-ul#dropdown-lang li:hover,
-ul#dropdown-terms li:hover {
-  background-color: transparent;
-}
-
-/* ... MEDIA QUERIES :: HEADER Languages & Terms DROPDOWNS ... */
-
-@media only screen and (max-width: 768px) {
-  ul#dropdown-lang,
-  ul#dropdown-terms {
-    margin-top: 45px;
-    margin-left: 0;
-    border: none;
-  }
-
-  ul#dropdown-lang li a,
-  ul#dropdown-terms li a {
-    text-align: center;
-    padding-left: 18px;
-    color: #777;
-  }
-
-  ul#dropdown-lang li,
-  ul#dropdown-terms li {
-    width: 100%;
-    border-left: 1px solid #eeeeee;
-    border-right: 1px solid #eeeeee;
-  }
-
-  /* .css only for TERMS DROPDOWN ("MORE...") */
-
-  ul#dropdown-terms {
-    max-height: 150px;
-  }
-
-  ul#dropdown-terms li:first-child {
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-  }
-
-  ul#dropdown-terms li:last-child {
-    border-bottom: 1px solid #eeeeee;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  ul#dropdown-terms {
-    right: 0 !important;
-  }
 }

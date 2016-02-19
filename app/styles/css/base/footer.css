@@ -49,8 +49,8 @@ Copyright 2015
 }
 
 .pricing-plan-left h2 {
-  color: #aaa;
-  font-family: "Lato";
+  color: #8c91a5;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -64,7 +64,7 @@ Copyright 2015
 }
 
 .pricing-plan-left span {
-  color: #aaa;
+  color: #686e85;
   padding: .8em 0 0 1.5em;
   display: block;
   margin: 0;

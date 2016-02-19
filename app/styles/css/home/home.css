@@ -132,7 +132,7 @@ Copyright 2015
 
 .registerTop .headReg {
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #ebecf0;
   height: 50px;
   text-align: center;
   margin-bottom: 20px;
@@ -145,7 +145,7 @@ Copyright 2015
   position: relative;
   border-left: 1em solid transparent;
   border-right: 1em solid transparent;
-  border-top: 1em solid #f1f1f1;
+  border-top: 1em solid #ebecf0;
   bottom: -28px;
   margin-left: -.5em;
 }
@@ -508,7 +508,7 @@ a.terms-conditions {
 }
 
 .plans-head p {
-  color: #adadad;
+  color: #8c91a5;
   line-height: 1em;
   width: 100%;
   margin: 0 auto;
@@ -629,6 +629,7 @@ a.terms-conditions {
 }
 
 .c-testmonial-grid-info p {
+  font-family: "Raleway", sans-serif;
   color: #686e85;
   line-height: 1.8em;
   font-size: 0.875em;
@@ -807,15 +808,16 @@ a.terms-conditions {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: #686e85;
-  font-family: "Lato", serif;
+  font-family: "Raleway", serif;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 15px 30px;
   background-color: #e9ebf2;
   text-align: center;
 }
 
 .timeline .timeline-heading span {
+  font-family: 'Lato', sans-serif;
   padding: 4px 11px;
   background-color: #fff;
   border-radius: 50%;
@@ -1171,13 +1173,14 @@ a.terms-conditions {
 }
 
 #tabs ul.uppOnFoot {
+  font-family: "Lato", sans-serif;
   padding-bottom: 20px;
 }
 
 #tabs ul li a {
   font-weight: 400;
   color: #4b4b4b;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 42px;
 }
 
@@ -1271,16 +1274,17 @@ a.terms-conditions {
 
 .features-grid h3 {
   font-family: 'Lato', serif;
-  color: #111B0A;
+  color: #686e85;
   font-size: 1.6em;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 35px;
   margin-top: 0;
 }
 
 .features-grid h3 strong {
-  /*color:#79B643;*/
-  font-weight: 600;
+  color: #8c91a5;
+  font-weight: 800;
+  letter-spacing: 0.015em;
 }
 
 .features-grid p {
