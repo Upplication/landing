@@ -345,7 +345,7 @@ module.exports = function (grunt) {
                         cwd: '<%= yeoman.app %>',
                         dest: '<%= yeoman.dist %>',
                         src: [
-                            '*.{ico,png,txt}',
+                            '*.{ico,png,txt,xml}',
                             '.htaccess',
                             'bower_components/**/*',
                             'images/{,**/}*.{jpg,gif,png,webp}',
@@ -526,7 +526,8 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
-        'routing'
+        'routing',
+        'sitemap'
     ].concat(jade.dist.concat(myTasks)));
 
     grunt.registerTask('deploy', function () {
@@ -576,6 +577,9 @@ module.exports = function (grunt) {
                 for (var lang in routing[page]) {
                     if (routing[page].hasOwnProperty(lang)) {
                         var url = routing[page][lang];
+                        if (url.indexOf("http") != 0) {
+                            url = "https:" + url;
+                        }
                         if (i == 0){
                             // set the mail url and the mail locale
                             resultString += '\t<url>\n\t\t<loc>' + url + '</loc>\n';

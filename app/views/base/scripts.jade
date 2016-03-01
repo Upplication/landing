@@ -12,11 +12,11 @@ script(type="text/javascript").
     window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
   }
 
-  var base = window.location.origin.split("//")[1];
+  var base = window.location.origin;
 
   var BASE_PATH = "#{localConfig.base_path}";
   var DASHBOARD_PATH = "#{localConfig.dashboard_base_path}";
-  document.write('<base href="//' + base + '" />');
+  document.write('<base href="' + base + '" />');
   // Javascript Error messages
   var ajax = {"error": []};
   ajax.error[2] = "#{register.error.num2}";
