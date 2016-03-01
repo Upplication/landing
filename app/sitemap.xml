@@ -2,114 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
-		<loc>//localhost:9000/nosotros/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/nosotros/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/about-us/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/about-us-indonesian/"/>
+		<loc>https://localhost:9000/nosotros/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/nosotros/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/about-us/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/about-us-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/bio-de-empresa/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/bio-de-empresa/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/company-bio/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/company-bio-indonesian/"/>
+		<loc>https://localhost:9000/bio-de-empresa/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/bio-de-empresa/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/company-bio/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/company-bio-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/centro-de-ayuda/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/centro-de-ayuda/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/help-center/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/help-center-indonesian/"/>
+		<loc>https://localhost:9000/centro-de-ayuda/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/centro-de-ayuda/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/help-center/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/help-center-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/build-your-app/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/generator-aplikasi/"/>
+		<loc>https://localhost:9000/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-your-app/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi/"/>
 		<lastmod>2016-02-04</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/home_tlf/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/home_tlf/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/home-en-tlf/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/home-en-tlf-indonesian/"/>
+		<loc>https://localhost:9000/home_tlf/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/home_tlf/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/home-en-tlf/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/home-en-tlf-indonesian/"/>
 		<lastmod>2016-02-04</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/error-interno-del-servidor/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/error-interno-del-servidor/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/internal-server-error/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/internal-server-error-idonesian/"/>
+		<loc>https://localhost:9000/error-interno-del-servidor/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/error-interno-del-servidor/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/internal-server-error/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/internal-server-error-idonesian/"/>
 		<lastmod>2016-02-04</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/oferta-practicas-developer/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/oferta-practicas-developer/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/offer-trainee-developer/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/offer-trainee-developer-indonesian/"/>
+		<loc>https://localhost:9000/oferta-practicas-developer/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/oferta-practicas-developer/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/offer-trainee-developer/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/offer-trainee-developer-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.4</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/oferta-practicas-marketing/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/oferta-practicas-marketing/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/offer-trainee-marketing/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/offer-trainee-marketing-indonesian/"/>
+		<loc>https://localhost:9000/oferta-practicas-marketing/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/oferta-practicas-marketing/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/offer-trainee-marketing/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/offer-trainee-marketing-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.4</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/ejemplos-vodafone/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/ejemplos-vodafone/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/vodafone-examples/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/vodafone-examples-indonesian/"/>
+		<loc>https://localhost:9000/ejemplos-vodafone/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/ejemplos-vodafone/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/vodafone-examples/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/vodafone-examples-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/pagina-no-encontrada/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/pagina-no-encontrada/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/page-not-found/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/page-not-found-idonesian/"/>
+		<loc>https://localhost:9000/pagina-no-encontrada/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/pagina-no-encontrada/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/page-not-found/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/page-not-found-idonesian/"/>
 		<lastmod>2016-02-04</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/precios/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/precios/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/prices/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/prices-indonesian/"/>
+		<loc>https://localhost:9000/precios/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/precios/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/prices/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/prices-indonesian/"/>
 		<lastmod>2016-02-04</lastmod>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/precios-aplicateca/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/precios-aplicateca/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/prices-aplicateca/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/prices-aplicateca-indonesian/"/>
+		<loc>https://localhost:9000/precios-aplicateca/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/precios-aplicateca/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/prices-aplicateca/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/prices-aplicateca-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/terminos/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/terminos/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/terms/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/terms-indonesian/"/>
+		<loc>https://localhost:9000/terminos/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/terminos/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/terms/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/terms-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>//localhost:9000/condicioneslegalesmovistar-upplication/</loc>
-		<xhtml:link rel="alternate" hreflang="es" href="//localhost:9000/condicioneslegalesmovistar-upplication/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="//localhost:9000/termsandconditionsmovistar-upplication/"/>
-		<xhtml:link rel="alternate" hreflang="id" href="//localhost:9000/termsandconditionsmovistar-upplication-indonesian/"/>
+		<loc>https://localhost:9000/condicioneslegalesmovistar-upplication/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/condicioneslegalesmovistar-upplication/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/termsandconditionsmovistar-upplication/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/termsandconditionsmovistar-upplication-indonesian/"/>
 		<lastmod>2016-01-13</lastmod>
 		<priority>0.5</priority>
 	</url>
