@@ -25,9 +25,10 @@ Copyright 2015
 /* ... Header ... */
 
 .offer-jobs > h2 {
+  font-family: "Raleway", sans-serif;
   color: #555;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 500;
   margin: 2em 0;
 }
 
@@ -96,7 +97,7 @@ Copyright 2015
 .offer-jobs .weoffer_marketing ul li:before,
 .offer-jobs .weoffer ul li:before {
   content: "\f111";
-  color: #dddddd;
+  color: #b4bad2;
   font-size: 8px !important;
   position: relative;
   bottom: 3px;

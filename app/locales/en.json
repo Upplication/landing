@@ -219,7 +219,7 @@
       "free_app": "Create my free app"
     },
     "multidevises": {
-      "title": "Multidevises Apps",
+      "title": "Multidevices Apps",
       "sub_title": "Web responsive, supports multiple devices and OS"
     },
     "how": {
@@ -366,7 +366,7 @@
   "company": {
     "_url": "/company-bio/",
     "_meta_title": "Upplication Bio, the app creator",
-    "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android e iOS devises. No programing skills needed. Build in a few minutes!",
+    "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_priority" : "0.9",
     "intro": {
@@ -482,7 +482,7 @@
           "name": "Marcos",
           "surname": "Rojas Martín",
           "position": "Developer",
-          "sentence": "Git Push!",
+          "sentence": "I´m tired...",
           "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
           "twitter": "https://twitter.com/Mrk992"
         },
@@ -788,7 +788,7 @@
   "internal_server_error": {
     "_url": "/internal-server-error/",
     "_meta_title": "500: internal server error in Upplication: the app creator",
-    "_meta_description": "500 internal server error in Upplication: the app creator for Android e iOS devises. No programing skills needed. Build in a few minutes!",
+    "_meta_description": "500 internal server error in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
     "_keywords": "error, 500, error 500, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "title": "500",
     "subtitle1": "error!",
@@ -1381,7 +1381,7 @@
   "terms_movistar": {
     "_url": "/termsandconditionsmovistar-upplication/",
     "_meta_title": "Terms and conditions of Upplication service in Movistar Applicateca",
-    "_meta_description": "Conditions of use Upplication, an online app creator for android and iOS devises, in Movistar Applicateca services.",
+    "_meta_description": "Conditions of use Upplication, an online app creator for android and iOS devices, in Movistar Applicateca services.",
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "sections": {
       "title": "Términos y condiciones",

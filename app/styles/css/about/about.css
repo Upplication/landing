@@ -167,9 +167,9 @@ Copyright 2015
 .team-header h4,
 #team h4 {
   color: #555;
-  font-family: "Lato";
+  font-family: "Raleway", sans-serif;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 500;
   margin: 2em 0 1em 0;
   padding: 0 0 0.5em 0;
 }
@@ -180,7 +180,7 @@ Copyright 2015
 
 .team-header h4 span,
 #team h4 {
-  color: #cccccc;
+  color: #b4bad2;
   padding-right: 10px;
 }
 
@@ -213,7 +213,7 @@ Copyright 2015
 }
 
 #team a.team-rrss {
-  background-color: #c4c4c4;
+  background-color: #c5c8d2;
   border-radius: 50%;
   color: #ffffff;
   position: relative;
@@ -381,7 +381,7 @@ Copyright 2015
 }
 
 .about-grid2 {
-  background: #e0e0e0;
+  background: #ebecf0;
 }
 
 /* MEDIA QUERIES */

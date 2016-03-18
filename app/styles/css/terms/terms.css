@@ -106,15 +106,16 @@ Copyright 2015
 }
 
 #legal h4 {
+  font-family: "Raleway", sans-serif;
   color: #555;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 500;
   margin: 2em 0;
   padding: 0 0 .5em;
 }
 
 #legal h4 span {
-  color: #cccccc;
+  color: #b4bad2;
 }
 
 #legal h5 {
