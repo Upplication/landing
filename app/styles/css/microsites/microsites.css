@@ -1,0 +1,426 @@
+/*
+    MICROSITES CSS: Custom Stylesheet --- CSS MICROSITES: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2016
+*/
+
+/* ... RESTAURANTS ... */
+
+/*
+HOME (INDEX) CSS: Custom Stylesheet --- CSS HOME (INDICE): Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2016
+*/
+
+/* ... MAIN TITLE & SUBTITLE ... */
+
+.mainHead {
+  color: #fff;
+  position: absolute;
+  z-index: 200;
+  top: 75px;
+  left: 10%;
+  width: 70%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.mainHead h1 {
+  font-size: 2.6em;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: rgba(0,0,0,.7);
+  /* Lilith Corp. color */
+  display: inline-block;
+  line-height: 1.1em;
+  padding-left: 10px;
+  padding-right: 0;
+  position: relative;
+}
+
+.mainHead h1:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 45px 10px;
+  border-color: transparent transparent rgba(0,0,0,.7) transparent;
+  position: absolute;
+  left: -10px;
+}
+
+/*  */
+
+.mainHead h1:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 45px 28px 0 0;
+  border-color: rgba(0,0,0,.7) transparent transparent transparent;
+  position: absolute;
+  right: -28px;
+  top: 0;
+}
+
+.mainHead h1,
+.mainHead .typed-effect,
+.mainHead h1 .typed-effect span {
+  display: inline-block;
+}
+
+.mainHead h1 span {
+  color: #00c86b;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.mainHead h2 {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.mainHead h2 span {
+  background-color: rgba(0,0,0,.7);
+  display: table;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.mainHead h2 span.intro-2b {
+  margin-left: -6px;
+}
+
+.mainHead h2 span.intro-2a:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 38px 10px;
+  border-color: transparent transparent rgba(0,0,0,.7) transparent;
+  position: relative;
+  left: -15px;
+  top: -34px;
+}
+
+.mainHead h2 span.intro-2b:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 39px 14px 0 0;
+  border-color: rgba(0,0,0,.7) transparent transparent transparent;
+  position: relative;
+  right: -20px;
+  top: 35px;
+}
+
+/* ... REGISTER FORM :: Home Section ... */
+
+.formPhone img {
+  width: 290px;
+  height: auto;
+}
+
+.formPhone {
+  background-color: #fff;
+  position: absolute;
+  z-index: 200;
+  top: 168px;
+  right: 7%;
+  padding: 0;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.registerTop {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.registerTop .headReg {
+  width: 100%;
+  background-color: #ebecf0;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registerTop .headReg:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: relative;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-top: 1em solid #ebecf0;
+  bottom: -28px;
+  margin-left: -.5em;
+}
+
+.registerTop .headReg h2 {
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lato", serif;
+  color: #111b0a;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.registerTop .headReg h2 span {
+  color: #00c86b;
+}
+
+.registerTop .input-field {
+  margin-top: 5px;
+}
+
+.registerTop .input-field:first-child {
+  margin-top: 10px;
+}
+
+.registerTop span.accepTerms {
+  font-size: 12px;
+  display: inline-block;
+  padding: 10px 0 0 0;
+  text-align: left;
+}
+
+.registerTop .btnReg {
+  text-align: center;
+}
+
+.registerTop .btnReg p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #222;
+  font-size: 13px;
+}
+
+.registerTop .btnReg p a {
+  font-weight: 600;
+}
+
+.registerTop .btnReg p a:hover {
+  color: #009550;
+  /* Verde Medio */
+}
+
+.registerTop .btnReg a {
+  margin-bottom: 20px;
+}
+
+.registerTop .btnReg span,
+#host .btn-upp span {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+a.terms-conditions {
+  padding-left: 5px;
+}
+
+/* ... INTRO ................................................... */
+
+.dippah {
+  position: relative;
+  bottom: 45px;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+
+.features-grid i {
+  color: #00c86b;
+  font-size: 8em;
+}
+
+/* ... INTRO IMAGE ................................................... */
+
+.banner {
+  background: url(../img/bg/bgDesktop.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  min-height: 580px;
+  position: relative;
+  top: 60px;
+}
+
+.banner h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #FFF;
+  font-size: 3em;
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+
+.banner h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0.4em 0 0 0;
+  padding: 0;
+}
+
+.banner-info {
+  margin-top: 5em;
+}
+
+.banner-info img {
+  margin: 3em 0;
+}
+
+/* --- WHY (three sentences under the main slider) :: Home Section --- */
+
+.features {
+  /*background:url(../img/phone-bg.jpg) no-repeat 0px 0px;*/
+  background-size: cover;
+  padding: 4em 0 5em 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.features-head {
+  padding-bottom: 4em;
+}
+
+.features-head h3 {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0.2em 0;
+}
+
+.features-head span {
+  color: #2d2d2d;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.features-grid span.f-icon1 {
+  background-position: -298px 0px;
+}
+
+.features-grid span.f-icon2 {
+  background-position: -597px 0px;
+}
+
+.features-grid span.f-icon3 {
+  background-position: -898px 0px;
+}
+
+.features-grid h3 {
+  font-family: 'Lato', serif;
+  color: #686e85;
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 0;
+}
+
+.features-grid h3 strong {
+  color: #8c91a5;
+  font-weight: 800;
+  letter-spacing: 0.015em;
+}
+
+.features-grid p {
+  color: #2d2d2d;
+  line-height: 1.5em;
+  margin-top: 1.3em;
+}
+
+.pricing-plan-right {
+  margin-top: 1.5em;
+}
+
+/* --- CLIENTS --- */
+
+#clients .abc {
+  background-image: url("img/clients/abc.png");
+}
+
+#clients img {
+  opacity: .5;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+.center-img {
+  margin-top: 20px;
+  position: relative;
+  width: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.icon-block h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.icon-block h5 strong {
+  font-weight: 700;
+}
+
+.icon-block i {
+  color: #101010;
+}
+
+.icon-block i:first-child {
+  opacity: .5;
+}
+
+.icon-block i.i-green,
+.icon-block span.i-green {
+  color: #00ca6b;
+}
+
+.icon-block span.i-green {
+  font-weight: 700;
+}
+
+.icon-block i:last-child {
+  position: relative;
+  font-size: 60px;
+}
+
+.icon-block i.icon-user {
+  top: 10px;
+  right: 15px;
+}
+
+.icon-block i.icon-checkmark {
+  top: 10px;
+  right: 15px;
+}
+
+.uppSlider {
+  height: 600px !important;
+}
+
+@media (max-height: 960px) {
+  .uppSlider {
+    height: 660px !important;
+  }
+}
+
+@media (max-height: 860px) {
+  .uppSlider {
+    height: 560px !important;
+  }
+}

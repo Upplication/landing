@@ -777,6 +777,21 @@
             "Equipo Upplication"
         ]
     },
+    "restaurants": {
+        "_url": "/crear-app-para-tu-negocio/",
+        "_meta_title": "Upplication: El creador de Apps para tu negocio",
+        "_meta_description": "...",
+        "_keywords": "...",
+        "pic": "Módulo carta para restauración y hostelería",
+        "subtitle1": "Page",
+        "subtitle2": "Not Found!",
+        "pre_advice": "Looks like the page you requested does not exist. Maybe for one of these reasons:",
+        "advice1": "The adress (URL) is not correct.",
+        "advice2": "You have not internet conection.",
+        "advice3": "The page is out-dated and has been removed.",
+        "advice4": "The page does not exist in the linguistic version required.",
+        "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
+    },
     "page_not_found": {
         "_url": "/pagina-no-encontrada/",
         "_meta_title": "404: Página no encontrada en Upplication - creador de apps",

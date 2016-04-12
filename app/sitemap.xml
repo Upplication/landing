@@ -98,6 +98,14 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
+		<loc>https://localhost:9000/crear-app-para-tu-negocio/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-para-tu-negocio/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-your-own-app-for-your-business/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/build-your-own-app-for-your-business-indonesian/"/>
+		<lastmod>2016-04-12</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
 		<loc>https://localhost:9000/terminos/</loc>
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/terminos/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/terms/"/>

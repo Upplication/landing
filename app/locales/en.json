@@ -770,6 +770,21 @@
       "Upplication team"
     ]
   },
+  "restaurants": {
+    "_url": "/build-your-own-app-for-your-business/",
+    "_meta_title": "404: Page not found in Upplication: the app creator",
+    "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
+    "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "pic": "Card module for restaurants and hostelry",
+    "subtitle1": "Page",
+    "subtitle2": "Not Found!",
+    "pre_advice": "Looks like the page you requested does not exist. Maybe for one of these reasons:",
+    "advice1": "The adress (URL) is not correct.",
+    "advice2": "You have not internet conection.",
+    "advice3": "The page is out-dated and has been removed.",
+    "advice4": "The page does not exist in the linguistic version required.",
+    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
+  },
   "page_not_found": {
     "_url": "/page-not-found/",
     "_meta_title": "404: Page not found in Upplication: the app creator",
