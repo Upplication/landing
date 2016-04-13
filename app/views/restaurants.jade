@@ -8,73 +8,61 @@ block css
     // build:css({.tmp, app}) /styles/404.min.css
     link(rel='stylesheet', href='/styles/css/microsites/microsites.css')
     // endbuild
-block content
-    // SLIDER
+block intro
+    // INTRO (header and slider pic)
     .slider.slides-to-mobile
         .mainHead
-            h1 #{home.slider.intro1}
-                .typed-effect
-                    span.element
-            h2 !{home.slider.intro2}
+            h1 #{restaurants.slider.intro1}
+            h2 !{restaurants.slider.intro2}
         ul.slides
             li
                 img(src='#{localConfig.base_path}/images/microsites/microsites_bg_rest.jpg', alt='#{restaurants.pic}')
         .dippah.skew-right
-    // FORM "TRY FREE 15 DAYS" (DESKTOP - LAPTOP)
-    .col-xs-12.col-md-5.right.formPhone.animated.fadeIn
-        .row.registerTop
-            .headReg
-                h2 !{form.free_form}
-            form(name="register", action="/register", method="post").col.s12
-                input(type="hidden", name="customerType", value="UPPLICATION")
-                p.error.general-error.display-none #{register.error.general}
-                .row.marBot10
-                    .input-field.col.s12
-                        input#app_name.validate(type='text', name='appName', required)
-                        label(for='app_name') #{form.input.name}
-                            p.error.display-none.register-appName-error
-                    .input-field.col.s12
-                        input#email.validate(type='email', name='email', required)
-                        label(for='email') #{form.input.email}
-                            p.error.display-none.register-email-error
-                    .input-field.col.s12
-                        input#password.validate(type='password', name='password', required)
-                        label(for='password') #{form.input.pass}
-                            p.error.display-none.register-password-error
-                .btnReg
-                    button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                        i.material-icons.left.check #{icons.check}
-                        span #{header.free_trial}
-                    p #{form.change_form}
-                    p #{modal.footer.accept}
-                        a.terms-conditions(href='#{external.tos.url}', target='_blank', title='#{modal.footer.terms}') #{modal.footer.terms}
-                        | .
-    // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
-    .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
-        a.price-btn.modal-trigger(href='#pruebaGratis')
-            i.fa.fa-cog.fa-spin
-            span #{home.samples.free_app}
-    // WHY (Intro Tips)
+block features
+    // FEATURES (Intro Tips)
     .features.features-upp
         .container
             .features-grids.text-center.animated.zoomIn
                 .col-md-4
                     .features-grid.centerImg
-                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.png', alt='')
+                        // img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.png', alt='')
+                        i.material-icons #{restaurants.features.icon.calendar}
                         span.f-icon
                         label
-                        h3 !{home.why.grow}
+                        h3 !{restaurants.features.booking}
                 .col-md-4
                     .features-grid.centerImg
-                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.png', alt='')
+                        // img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.png', alt='')
+                        i.material-icons #{restaurants.features.icon.notifications}
                         span.f-icon1
                         label
-                        h3 !{home.why.loyal}
+                        h3 !{restaurants.features.notifications}
                 .col-md-4
                     .features-grid.centerImg
-                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.png', alt='')
+                        // img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.png', alt='')
+                        i.material-icons #{restaurants.features.icon.delivery}
                         span.f-icon2
                         label
-                        h3 !{home.why.others}
+                        h3 !{restaurants.features.delivery}
                 .clearfix
+    // MEET US (Team Pic and info data)
+    .meet-us
+        .col-sm-12.col-md-4.meet-us-paragraph.right
+            .row
+                .col-md-8.meet-us-details
+                    h4 !{restaurants.meet_us.title}
+                    p !{restaurants.meet_us.paragraph}
+                    a.btn-call.btn-blue.animate-hover.hide-on-med-and-up(href='#{restaurants.meet_us.tel}', title='#{restaurants.meet_us.telephone}')
+                        i.fa.fa-phone
+                        span #{restaurants.meet_us.btn}
+                    .meet-us-contact
+                        p.meet-us-phone.hide-on-small-only
+                            i.fa.fa-phone
+                            span !{restaurants.meet_us.telephone}
+                        a.meet-us-email(href='#{restaurants.meet_us.mailto}', title='#{restaurants.meet_us.email}')
+                            i.fa.fa-envelope-o
+                            span !{restaurants.meet_us.email}
+        .col-sm-12.col-md-8.meet-us-title.left
+            img.responsive-img(src='#{localConfig.base_path}/images/microsites/marketing_team.jpg', alt='#{restaurants.marketing_team}')
+        .clearfix
 block scripts

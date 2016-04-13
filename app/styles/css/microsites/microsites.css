@@ -5,14 +5,47 @@ Upplication (http://www.upplication.com)
 Copyright 2016
 */
 
-/* ... RESTAURANTS ... */
+/* ...................................................
+                RESTAURANTS (microsites)
+................................................... */
 
-/*
-HOME (INDEX) CSS: Custom Stylesheet --- CSS HOME (INDICE): Hojas de estilo personalizadas
+/* ... COMMON :: general classes ... */
 
-Upplication (http://www.upplication.com)
-Copyright 2016
-*/
+/* for Show only in mobile devices */
+
+/* for animations hover effect */
+
+.animate-hover {
+  -webkit-transition: all 150ms ease-in;
+  -ms-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+}
+
+/* for All Blue Buttons */
+
+.btn-blue {
+  background-color: #3fa4d7;
+}
+
+.btn-blue:hover {
+  background-color: #247fad;
+}
+
+/* for All Green Buttons */
+
+.btn-green {
+  background-color: #00c86b;
+}
+
+.btn-green:hover {
+  background-color: #00e386;
+}
+
+/* ... HEADER :: TOP MAIN ... */
+
+.top-header {
+  background-color: rgba(255,255,255,.99) !important;
+}
 
 /* ... MAIN TITLE & SUBTITLE ... */
 
@@ -28,10 +61,8 @@ Copyright 2016
 
 .mainHead h1 {
   font-size: 2.6em;
-  text-transform: uppercase;
   font-weight: 600;
   background: rgba(0,0,0,.7);
-  /* Lilith Corp. color */
   display: inline-block;
   line-height: 1.1em;
   padding-left: 10px;
@@ -49,8 +80,6 @@ Copyright 2016
   position: absolute;
   left: -10px;
 }
-
-/*  */
 
 .mainHead h1:after {
   content: '';
@@ -124,7 +153,7 @@ Copyright 2016
 }
 
 .formPhone {
-  background-color: #fff;
+  background-color: rgba(255,255,255,.9);
   position: absolute;
   z-index: 200;
   top: 168px;
@@ -137,41 +166,15 @@ Copyright 2016
 .registerTop {
   margin-left: 0rem;
   margin-right: 0rem;
+  margin-bottom: 0;
 }
 
-.registerTop .headReg {
-  width: 100%;
-  background-color: #ebecf0;
-  height: 50px;
-  text-align: center;
-  margin-bottom: 20px;
+.formRegister {
+  padding: 20px !important;
 }
 
-.registerTop .headReg:after {
-  content: " ";
-  width: 0;
-  height: 0;
-  position: relative;
-  border-left: 1em solid transparent;
-  border-right: 1em solid transparent;
-  border-top: 1em solid #ebecf0;
-  bottom: -28px;
-  margin-left: -.5em;
-}
-
-.registerTop .headReg h2 {
-  padding-top: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: "Lato", serif;
-  color: #111b0a;
-  font-weight: 600;
-  font-size: 1.2em;
-  margin: 0;
-}
-
-.registerTop .headReg h2 span {
-  color: #00c86b;
+.formRegister .input-field label {
+  color: #686e85;
 }
 
 .registerTop .input-field {
@@ -191,6 +194,10 @@ Copyright 2016
 
 .registerTop .btnReg {
   text-align: center;
+}
+
+.registerTop .btnReg button.btn-upp {
+  width: 100%;
 }
 
 .registerTop .btnReg p {
@@ -229,6 +236,15 @@ a.terms-conditions {
   padding-left: 5px;
 }
 
+/* Call to Action :: MOBILE ONLY */
+
+.formPhone-mobile a {
+  padding: 1em .5em !important;
+  color: #ffffff;
+  font-weight: 500 !important;
+  letter-spacing: .05em;
+}
+
 /* ... INTRO ................................................... */
 
 .dippah {
@@ -238,11 +254,6 @@ a.terms-conditions {
   width: 100%;
   height: 90px;
   background-color: white;
-}
-
-.features-grid i {
-  color: #00c86b;
-  font-size: 8em;
 }
 
 /* ... INTRO IMAGE ................................................... */
@@ -280,13 +291,12 @@ a.terms-conditions {
   margin: 3em 0;
 }
 
-/* --- WHY (three sentences under the main slider) :: Home Section --- */
+/* ... FEATURES (three sentences under the main slider like "WHY" in Home page) ......... */
 
 .features {
   /*background:url(../img/phone-bg.jpg) no-repeat 0px 0px;*/
   background-size: cover;
   padding: 4em 0 5em 0;
-  border-bottom: 1px solid #f1f1f1;
 }
 
 .features-head {
@@ -307,6 +317,10 @@ a.terms-conditions {
   font-size: 1.2em;
 }
 
+.features-grid {
+  padding: 0 20px;
+}
+
 .features-grid span.f-icon1 {
   background-position: -298px 0px;
 }
@@ -319,19 +333,26 @@ a.terms-conditions {
   background-position: -898px 0px;
 }
 
+.features-grid i {
+  color: rgba(180,186,210,.5);
+  font-size: 8em;
+}
+
 .features-grid h3 {
   font-family: 'Lato', serif;
   color: #686e85;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 600;
-  line-height: 35px;
+  line-height: 30px;
   margin-top: 0;
 }
 
 .features-grid h3 strong {
-  color: #8c91a5;
-  font-weight: 800;
+  color: #b4bad2;
+  font-size: 1.3em;
   letter-spacing: 0.015em;
+  display: block;
+  padding-bottom: 10px;
 }
 
 .features-grid p {
@@ -342,6 +363,61 @@ a.terms-conditions {
 
 .pricing-plan-right {
   margin-top: 1.5em;
+}
+
+/* ... MEET US (bg pic & info data) ......... */
+
+.meet-us .meet-us-paragraph .row {
+  padding-top: 50%;
+  margin-bottom: 0;
+}
+
+.meet-us .meet-us-paragraph h4,
+.meet-us .meet-us-paragraph p,
+.meet-us .meet-us-paragraph a:not(.btn-call) {
+  font-family: 'Lato', serif;
+  line-height: 28px;
+}
+
+.meet-us .meet-us-paragraph h4 {
+  color: #b4bad2;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.meet-us .meet-us-paragraph p,
+.meet-us .meet-us-paragraph a:not(.btn-call) {
+  color: #686e85;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.meet-us .meet-us-paragraph a:hover {
+  color: #b4bad2;
+}
+
+.meet-us .meet-us-paragraph a.btn-call {
+  padding: 10px;
+  width: 100%;
+  display: block;
+  background-color: #3fa4d7;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: .02em;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+
+.meet-us .meet-us-paragraph a.btn-call i,
+.meet-us .meet-us-contact i {
+  padding-right: 8px;
+}
+
+.meet-us .meet-us-contact i {
+  color: #b4bad2;
 }
 
 /* --- CLIENTS --- */
@@ -422,5 +498,125 @@ a.terms-conditions {
 @media (max-height: 860px) {
   .uppSlider {
     height: 560px !important;
+  }
+}
+
+/* ... FOOTER (single one!) ......... */
+
+.footer-copyright {
+  min-height: 100px;
+  width: 100%;
+  display: block;
+  font-weight: 300;
+  background-color: #2c2f39 !important;
+}
+
+.footer-copyright .container {
+  padding-top: 10px;
+}
+
+.footer-copyright span {
+  color: #00ca6b !important;
+}
+
+.footer-copyright span i {
+  padding-right: 5px;
+}
+
+.footer-copyright em {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: .01em;
+  font-family: "Lato",sans-serif;
+  color: rgba(255,255,255,0.8);
+}
+
+.footer-copyright i.fa-circle {
+  font-size: 3px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 3px;
+  color: #ffffff;
+}
+
+/* ... MODALS (reserts) ......... */
+
+#allContact.modal {
+  max-height: 215px !important;
+}
+
+.modal-content .contact-social {
+  display: none;
+}
+
+/* ... MEDIA QUERIES :: responsive design and mobile devices behaviour ......... */
+
+@media all and (max-width: 1575px) {
+  .meet-us .meet-us-paragraph .meet-us-details {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .meet-us .meet-us-paragraph .meet-us-details {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 1180px) {
+  .meet-us .meet-us-paragraph .meet-us-details {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .meet-us .meet-us-paragraph .row {
+    padding-top: 5%;
+  }
+
+  .footer-copyright .container {
+    text-align: center;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 991px) {
+  .meet-us .meet-us-paragraph {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .features-grid i {
+    position: relative;
+    left: 45px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .meet-us .meet-us-paragraph a:not(.btn-call) {
+    display: block;
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 465px) {
+  .mainHead h1 {
+    line-height: 1.2em;
+  }
+
+  .footer-copyright i:not(.fa-copyright) {
+    display: none;
+  }
+
+  .footer-copyright em {
+    display: block;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .features-grid i {
+    left: 25px;
   }
 }

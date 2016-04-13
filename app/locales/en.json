@@ -67,8 +67,8 @@
       "telephone": "+34 810 512 370",
       "telf": "tel:0034810512370",
       "icon_email": "email",
-      "support_mail": "soporte@upplication.com",
-      "email": "mailto:soporte@upplication.com"
+      "support_mail": "info@upplication.com",
+      "email": "mailto:info@upplication.com"
     }
   },
   "form": {
@@ -776,14 +776,31 @@
     "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
     "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "pic": "Card module for restaurants and hostelry",
-    "subtitle1": "Page",
-    "subtitle2": "Not Found!",
-    "pre_advice": "Looks like the page you requested does not exist. Maybe for one of these reasons:",
-    "advice1": "The adress (URL) is not correct.",
-    "advice2": "You have not internet conection.",
-    "advice3": "The page is out-dated and has been removed.",
-    "advice4": "The page does not exist in the linguistic version required.",
-    "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
+    "call_to_action": "Build your free app now!",
+    "slider": {
+      "intro1": "App builder from HOSTELRY",
+      "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
+    },
+    "features": {
+      "icon": {
+        "calendar": "today",
+        "notifications": "speaker_notes",
+        "delivery": "shopping_basket"
+      },
+      "booking": "<strong>Gestor de reservas</strong> Las mesas de tu restaurante llenas con un útil y sencillo botón",
+      "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
+      "delivery": "<strong>Pedidos a domicilio</strong> Sin intermediarios que se coman tus beneficios"
+    },
+    "marketing_team": "Nuestro equipo de tutores personales.",
+    "meet_us": {
+      "title": "Ellos tienen la receta perfecta",
+      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio salga del horno y tus clientes tengan ganas de mojar pan en ella.",
+      "btn": "Llámanos",
+      "telephone": "+34 810 512 370",
+      "tel": "tel:34810512370",
+      "email": "info@upplication.com",
+      "mailto": "mailto:info@upplication.com"
+    }
   },
   "page_not_found": {
     "_url": "/page-not-found/",
