@@ -1,9 +1,9 @@
 extends microsites/base.jade
 block vars
-    - var title = $.gym._meta_title
-    - var description = $.gym._meta_description
-    - var keywords = $.gym._keywords
-    - var cssClass = 'gym'
+    - var title = $.hotels._meta_title
+    - var description = $.hotels._meta_description
+    - var keywords = $.hotels._keywords
+    - var cssClass = 'hotels'
 block css
     // build:css({.tmp, app}) /styles/microsites.min.css
     link(rel='stylesheet', href='/styles/css/microsites/microsites.css')
@@ -12,12 +12,12 @@ block intro
     // INTRO (header and slider pic)
     .slider.slides-to-mobile
         .mainHead
-            h1 #{gym.slider.intro1}
-            h2 !{gym.slider.intro2}
+            h1 #{hotels.slider.intro1}
+            h2 !{hotels.slider.intro2}
         ul.slides
             li
-                img(src='#{localConfig.base_path}/images/microsites/microsites_bg_rest.jpg', alt='#{gym.pic}')
-        .dippah.skew-left
+                img(src='#{localConfig.base_path}/images/microsites/microsites_bg_rest.jpg', alt='#{hotels.pic}')
+        .dippah.skew-right
 block features
     // FEATURES (Intro Tips)
     .features.features-upp
@@ -25,41 +25,41 @@ block features
             .features-grids.text-center.animated.zoomIn
                 .col-md-4
                     .features-grid.centerImg.no-padd
-                        i.icon.icon-calendar
+                        i.icon.icon-map
                         span.f-icon
                         label
-                        h3 !{gym.features.booking}
+                        h3 !{hotels.features.booking}
                 .col-md-4
                     .features-grid.centerImg.no-padd
-                        i.icon.icon-calendar
+                        i.icon.icon-map
                         span.f-icon1
                         label
-                        h3 !{gym.features.notifications}
+                        h3 !{hotels.features.notifications}
                 .col-md-4
                     .features-grid.centerImg.no-padd
-                        i.icon.icon-calendar
+                        i.icon.icon-map
                         span.f-icon2
                         label
-                        h3 !{gym.features.delivery}
+                        h3 !{hotels.features.delivery}
                 .clearfix
     // MEET US (Team Pic and info data)
     .meet-us
         .col-sm-12.col-md-4.meet-us-paragraph.right
             .row
                 .col-md-9.meet-us-details
-                    h4 !{gym.meet_us.title}
-                    p !{gym.meet_us.paragraph}
-                    a.btn-call.btn-blue.animate-hover.hide-on-med-and-up(href='#{gym.meet_us.tel}', title='#{gym.meet_us.telephone}')
+                    h4 !{hotels.meet_us.title}
+                    p !{hotels.meet_us.paragraph}
+                    a.btn-call.btn-blue.animate-hover.hide-on-med-and-up(href='#{hotels.meet_us.tel}', title='#{hotels.meet_us.telephone}')
                         i.icon.icon-phone
-                        span #{gym.meet_us.btn}
+                        span #{hotels.meet_us.btn}
                     .meet-us-contact
                         p.meet-us-phone.hide-on-small-only
                             i.icon.icon-phone
-                            span !{gym.meet_us.telephone}
-                        a.meet-us-email(href='#{gym.meet_us.mailto}', title='#{gym.meet_us.email}')
+                            span !{hotels.meet_us.telephone}
+                        a.meet-us-email(href='#{hotels.meet_us.mailto}', title='#{hotels.meet_us.email}')
                             i.icon.icon-mail
-                            span !{gym.meet_us.email}
+                            span !{hotels.meet_us.email}
         .col-sm-12.col-md-8.meet-us-title.left
-            img.responsive-img(src='#{localConfig.base_path}/images/microsites/marketing_team.jpg', alt='#{gym.marketing_team}')
+            img.responsive-img(src='#{localConfig.base_path}/images/microsites/marketing_team.jpg', alt='#{hotels.marketing_team}')
         .clearfix
 block scripts

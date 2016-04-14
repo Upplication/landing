@@ -875,6 +875,84 @@
       "mailto": "mailto:info@upplication.com"
     }
   },
+  "hotels": {
+    "_url": "/build-app-mobile-hotel/",
+    "_meta_title": "Upplication: the App builder for hotels",
+    "_meta_description": "...",
+    "_keywords": "...",
+    "pic": "Módulo notificación push para hoteles y alojamientos",
+    "slider": {
+      "intro1": "App builder for HOTELS & GUESTHOUSES",
+      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
+    },
+    "features": {
+      "booking": "<strong>Gestor de reserva de citas</strong> Útil y práctico para ti. Sencillo y cómodo para tus clientes",
+      "notifications": "<strong>Consejos que marcan la diferencia</strong> Ofrece información adicional que haga que la experiencia sea inolvidable y única",
+      "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos especiales"
+    },
+    "marketing_team": "Nuestro equipo de tutores personales.",
+    "meet_us": {
+      "title": "Come in, U´re in home!",
+      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que con la aplicación de tu negocio ofrezcas un servicio excelente a tus clientes.",
+      "btn": "Llámanos",
+      "telephone": "+34 810 512 370",
+      "tel": "tel:34810512370",
+      "email": "info@upplication.com",
+      "mailto": "mailto:info@upplication.com"
+    }
+  },
+  "schools": {
+    "_url": "/build-app-mobile-school-academy/",
+    "_meta_title": "Upplication: the App builder for schools, academies and education",
+    "_meta_description": "...",
+    "_keywords": "...",
+    "pic": "Módulo notificación push para hoteles y alojamientos",
+    "slider": {
+      "intro1": "App builder for SCHOOLS & ACADEMIES",
+      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
+    },
+    "features": {
+      "booking": "<strong>Widget (temarios)</strong> ...",
+      "notifications": "<strong>Notificaciones push</strong> Envía información y avisos a los estudiantes",
+      "delivery": "<strong>Módulo multimedia</strong> ..."
+    },
+    "marketing_team": "Nuestro equipo de tutores personales.",
+    "meet_us": {
+      "title": "They will teach you!",
+      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que con la aplicación de tu negocio ofrezcas un servicio excelente a tus clientes.",
+      "btn": "Llámanos",
+      "telephone": "+34 810 512 370",
+      "tel": "tel:34810512370",
+      "email": "info@upplication.com",
+      "mailto": "mailto:info@upplication.com"
+    }
+  },
+  "travels": {
+    "_url": "/build-app-mobile-travel-agency/",
+    "_meta_title": "Upplication: the App builder for travel agencies",
+    "_meta_description": "...",
+    "_keywords": "...",
+    "pic": "Módulo notificación push para agencias de viajes",
+    "slider": {
+      "intro1": "App builder for TRAVEL AGENCIES",
+      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
+    },
+    "features": {
+      "booking": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas o de última hora",
+      "notifications": "<strong>Notificaciones push</strong> Envía mensajes para que tus clientes quieran teletransportarse con ofertas, ideas y XXX",
+      "delivery": "<strong>Módulo fidelización</strong> ..."
+    },
+    "marketing_team": "Nuestro equipo de tutores personales.",
+    "meet_us": {
+      "title": "Ellos son ...",
+      "paragraph": "Belén, Víctor, Javi y Álvaro harán ...",
+      "btn": "Llámanos",
+      "telephone": "+34 810 512 370",
+      "tel": "tel:34810512370",
+      "email": "info@upplication.com",
+      "mailto": "mailto:info@upplication.com"
+    }
+  },
   "page_not_found": {
     "_url": "/page-not-found/",
     "_meta_title": "404: Page not found in Upplication: the app creator",
