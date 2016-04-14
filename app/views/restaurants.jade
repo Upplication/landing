@@ -25,22 +25,19 @@ block features
             .features-grids.text-center.animated.zoomIn
                 .col-md-4
                     .features-grid.centerImg
-                        // img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.png', alt='')
-                        i.material-icons #{restaurants.features.icon.calendar}
+                        i.icon.icon-calendar
                         span.f-icon
                         label
                         h3 !{restaurants.features.booking}
                 .col-md-4
                     .features-grid.centerImg
-                        // img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.png', alt='')
-                        i.material-icons #{restaurants.features.icon.notifications}
+                        i.icon.icon-calendar
                         span.f-icon1
                         label
                         h3 !{restaurants.features.notifications}
                 .col-md-4
                     .features-grid.centerImg
-                        // img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.png', alt='')
-                        i.material-icons #{restaurants.features.icon.delivery}
+                        i.icon.icon-calendar
                         span.f-icon2
                         label
                         h3 !{restaurants.features.delivery}
@@ -53,14 +50,14 @@ block features
                     h4 !{restaurants.meet_us.title}
                     p !{restaurants.meet_us.paragraph}
                     a.btn-call.btn-blue.animate-hover.hide-on-med-and-up(href='#{restaurants.meet_us.tel}', title='#{restaurants.meet_us.telephone}')
-                        i.fa.fa-phone
+                        i.icon.icon-phone
                         span #{restaurants.meet_us.btn}
                     .meet-us-contact
                         p.meet-us-phone.hide-on-small-only
-                            i.fa.fa-phone
+                            i.icon.icon-phone
                             span !{restaurants.meet_us.telephone}
                         a.meet-us-email(href='#{restaurants.meet_us.mailto}', title='#{restaurants.meet_us.email}')
-                            i.fa.fa-envelope-o
+                            i.icon.icon-mail
                             span !{restaurants.meet_us.email}
         .col-sm-12.col-md-8.meet-us-title.left
             img.responsive-img(src='#{localConfig.base_path}/images/microsites/marketing_team.jpg', alt='#{restaurants.marketing_team}')

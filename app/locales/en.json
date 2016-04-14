@@ -773,7 +773,7 @@
   },
   "restaurants": {
     "_url": "/build-app-mobile-restaurant/",
-    "_meta_title": "Upplication: the App builder for Restaurants",
+    "_meta_title": "Upplication: the App builder for restaurants and hostelry",
     "_meta_description": "...",
     "_keywords": "...",
     "pic": "Card module for restaurants and hostelry",
@@ -782,18 +782,13 @@
       "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
     },
     "features": {
-      "icon": {
-        "calendar": "today",
-        "notifications": "speaker_notes",
-        "delivery": "shopping_basket"
-      },
       "booking": "<strong>Gestor de reservas</strong> Las mesas de tu restaurante llenas con un útil y sencillo botón",
       "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
       "delivery": "<strong>Pedidos a domicilio</strong> Sin intermediarios que se coman tus beneficios"
     },
     "marketing_team": "Our personal tutors team.",
     "meet_us": {
-      "title": "Ellos tienen la receta perfecta",
+      "title": "They have the perfect recipe",
       "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio salga del horno y tus clientes tengan ganas de mojar pan en ella.",
       "btn": "Llámanos",
       "telephone": "+34 810 512 370",
@@ -824,7 +819,7 @@
     },
     "marketing_team": "Our personal tutors team.",
     "meet_us": {
-      "title": "Ellos son quienes te van a atender",
+      "title": "They will support you",
       "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea tu mejor escaparate.",
       "btn": "Llámanos",
       "telephone": "+34 810 512 370",
@@ -855,7 +850,38 @@
     },
     "marketing_team": "Our personal tutors team.",
     "meet_us": {
-      "title": "Ellos serán tus entrenadores personales",
+      "title": "They will be your personal trainers",
+      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
+      "btn": "Llámanos",
+      "telephone": "+34 810 512 370",
+      "tel": "tel:34810512370",
+      "email": "info@upplication.com",
+      "mailto": "mailto:info@upplication.com"
+    }
+  },
+  "health": {
+    "_url": "/build-app-mobile-health-beauty/",
+    "_meta_title": "Upplication: the App builder for health & Beauty",
+    "_meta_description": "...",
+    "_keywords": "...",
+    "pic": "Módulo notificación push para gimnasios",
+    "slider": {
+      "intro1": "App builder for HEALTH & BEAUTY",
+      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
+    },
+    "features": {
+      "icon": {
+        "calendar": "today",
+        "notifications": "speaker_notes",
+        "delivery": "shopping_basket"
+      },
+      "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
+      "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
+      "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
+    },
+    "marketing_team": "Our personal tutors team.",
+    "meet_us": {
+      "title": "They will care about you",
       "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
       "btn": "Llámanos",
       "telephone": "+34 810 512 370",

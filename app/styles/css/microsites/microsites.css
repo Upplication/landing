@@ -296,7 +296,7 @@ a.terms-conditions {
 .features {
   /*background:url(../img/phone-bg.jpg) no-repeat 0px 0px;*/
   background-size: cover;
-  padding: 4em 0 5em 0;
+  padding: 3em 0 5em 0;
 }
 
 .features-head {
@@ -344,7 +344,7 @@ a.terms-conditions {
   font-size: 1.2em;
   font-weight: 600;
   line-height: 30px;
-  margin-top: 0;
+  margin-top: -30px;
 }
 
 .features-grid h3 strong {
@@ -418,6 +418,12 @@ a.terms-conditions {
 
 .meet-us .meet-us-contact i {
   color: #b4bad2;
+}
+
+.meet-us .meet-us-contact i.icon.icon-mail {
+  font-size: 22px;
+  position: relative;
+  top: 5px;
 }
 
 /* --- CLIENTS --- */
@@ -532,11 +538,11 @@ a.terms-conditions {
   color: rgba(255,255,255,0.8);
 }
 
-.footer-copyright i.fa-circle {
-  font-size: 3px;
+.footer-copyright i.icon-dot {
+  font-size: 8px;
   padding: 0 10px;
   position: relative;
-  bottom: 3px;
+  bottom: 1px;
   color: #ffffff;
 }
 
@@ -598,6 +604,10 @@ a.terms-conditions {
   .meet-us .meet-us-paragraph a:not(.btn-call) {
     display: block;
     margin-top: 30px;
+  }
+
+  .meet-us .meet-us-paragraph a.meet-us-email {
+    text-align: center;
   }
 }
 

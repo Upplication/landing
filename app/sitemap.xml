@@ -26,6 +26,14 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
+		<loc>https://localhost:9000/crear-app-movil-relax-belleza/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-relax-belleza/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-health-beauty/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-kesehatan-keindahan/"/>
+		<lastmod>2016-04-14</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
 		<loc>https://localhost:9000/centro-de-ayuda/</loc>
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/centro-de-ayuda/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/help-center/"/>

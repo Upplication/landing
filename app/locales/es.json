@@ -780,20 +780,15 @@
     },
     "restaurants": {
         "_url": "/crear-app-movil-restaurante/",
-        "_meta_title": "Upplication: El creador de Apps para tu negocio",
+        "_meta_title": "Upplication: El creador de Apps para restauración y hostelería",
         "_meta_description": "...",
         "_keywords": "...",
         "pic": "Módulo carta para restauración y hostelería",
         "slider": {
-            "intro1": "El creador de aplicaciones para NEGOCIOS",
+            "intro1": "El creador de aplicaciones para HOSTELERÍA",
             "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
         },
         "features": {
-            "icon": {
-                "calendar": "today",
-                "notifications": "speaker_notes",
-                "delivery": "shopping_basket"
-            },
             "booking": "<strong>Gestor de reservas</strong> Las mesas de tu restaurante llenas con un útil y sencillo botón",
             "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
             "delivery": "<strong>Pedidos a domicilio</strong> Sin intermediarios que se coman tus beneficios"
@@ -811,7 +806,7 @@
     },
     "shops": {
         "_url": "/crear-app-movil-tienda/",
-        "_meta_title": "Upplication: El creador de Apps para tu negocio",
+        "_meta_title": "Upplication: El creador de Apps para tu tienda",
         "_meta_description": "...",
         "_keywords": "...",
         "pic": "Módulo catálogo para tiendas y negocios",
@@ -864,6 +859,37 @@
       "meet_us": {
         "title": "Ellos serán tus entrenadores personales",
         "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
+        "btn": "Llámanos",
+        "telephone": "+34 810 512 370",
+        "tel": "tel:34810512370",
+        "email": "info@upplication.com",
+        "mailto": "mailto:info@upplication.com"
+      }
+    },
+    "health": {
+      "_url": "/crear-app-movil-spa-balneario-clinica/",
+      "_meta_title": "Upplication: El creador de Apps para spas, balnearios, clínicas...",
+      "_meta_description": "...",
+      "_keywords": "...",
+      "pic": "Módulo notificación push para relax y belleza",
+      "slider": {
+        "intro1": "El creador de aplicaciones para RELAX Y BELLEZA",
+        "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
+      },
+      "features": {
+        "icon": {
+          "calendar": "today",
+          "notifications": "speaker_notes",
+          "delivery": "shopping_basket"
+        },
+        "booking": "<strong>Gestor de reserva de citas</strong> Útil y práctico para ti. Sencillo y cómodo para tus clientes",
+        "notifications": "<strong>Notificaciones push</strong> Nuevos servicios, descuentos o ideas. ¡Sedúceles con tus mensajes!",
+        "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas"
+      },
+      "marketing_team": "Nuestro equipo de tutores personales.",
+      "meet_us": {
+        "title": "Ellos son quienes te van a cuidar",
+        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea una experiencia única para tus clientes.",
         "btn": "Llámanos",
         "telephone": "+34 810 512 370",
         "tel": "tel:34810512370",
