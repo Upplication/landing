@@ -815,11 +815,6 @@
             "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
         },
         "features": {
-            "icon": {
-                "calendar": "today",
-                "notifications": "speaker_notes",
-                "delivery": "shopping_basket"
-            },
             "booking": "<strong>Tienda online 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tus clientes están comprando",
             "notifications": "<strong>Notificaciones push</strong> Nuevos productos, descuentos o ideas. ¡Sedúceles con tus mensajes!",
             "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas"
@@ -846,11 +841,6 @@
         "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
       },
       "features": {
-        "icon": {
-          "calendar": "today",
-          "notifications": "speaker_notes",
-          "delivery": "shopping_basket"
-        },
         "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
         "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
         "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
@@ -877,11 +867,6 @@
         "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
       },
       "features": {
-        "icon": {
-          "calendar": "today",
-          "notifications": "speaker_notes",
-          "delivery": "shopping_basket"
-        },
         "booking": "<strong>Gestor de reserva de citas</strong> Útil y práctico para ti. Sencillo y cómodo para tus clientes",
         "notifications": "<strong>Notificaciones push</strong> Nuevos servicios, descuentos o ideas. ¡Sedúceles con tus mensajes!",
         "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas"

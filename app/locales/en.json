@@ -808,11 +808,6 @@
       "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
     },
     "features": {
-      "icon": {
-        "calendar": "today",
-        "notifications": "speaker_notes",
-        "delivery": "shopping_basket"
-      },
       "booking": "<strong>Tienda online 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tus clientes están comprando",
       "notifications": "<strong>Notificaciones push</strong> Nuevos productos, descuentos o ideas. ¡Sedúceles con tus mensajes!",
       "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas"
@@ -839,11 +834,6 @@
       "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
     },
     "features": {
-      "icon": {
-        "calendar": "today",
-        "notifications": "speaker_notes",
-        "delivery": "shopping_basket"
-      },
       "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
       "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
       "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
@@ -870,11 +860,6 @@
       "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
     },
     "features": {
-      "icon": {
-        "calendar": "today",
-        "notifications": "speaker_notes",
-        "delivery": "shopping_basket"
-      },
       "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
       "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
       "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
