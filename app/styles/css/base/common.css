@@ -37,6 +37,12 @@ body a {
   transform: skew(0deg, -3deg);
 }
 
+.skew-left {
+  -webkit-transform: skew(0deg, 3deg);
+  -ms-transform: skew(0deg, 3deg);
+  transform: skew(0deg, 3deg);
+}
+
 /* ... CENTER IMAGES ... */
 
 .centerImg img {

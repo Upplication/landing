@@ -5,13 +5,7 @@ Upplication (http://www.upplication.com)
 Copyright 2016
 */
 
-/* ...................................................
-                RESTAURANTS (microsites)
-................................................... */
-
 /* ... COMMON :: general classes ... */
-
-/* for Show only in mobile devices */
 
 /* for animations hover effect */
 
@@ -39,6 +33,12 @@ Copyright 2016
 
 .btn-green:hover {
   background-color: #00e386;
+}
+
+/* for resert all paddings */
+
+.no-padd {
+  padding: 0 !important;
 }
 
 /* ... HEADER :: TOP MAIN ... */
@@ -349,7 +349,7 @@ a.terms-conditions {
 
 .features-grid h3 strong {
   color: #b4bad2;
-  font-size: 1.3em;
+  font-size: 1.2em;
   letter-spacing: 0.015em;
   display: block;
   padding-bottom: 10px;

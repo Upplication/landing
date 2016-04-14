@@ -79,7 +79,8 @@
             "name": "Nombre de tu aplicación",
             "email": "email",
             "pass": "Contraseña"
-        }
+        },
+        "call_to_action": "¡Crea ahora tu app gratis!"
     },
     "footer": {
         "company": "Compañía",
@@ -778,14 +779,13 @@
         ]
     },
     "restaurants": {
-        "_url": "/crear-app-para-tu-negocio/",
+        "_url": "/crear-app-movil-restaurante/",
         "_meta_title": "Upplication: El creador de Apps para tu negocio",
         "_meta_description": "...",
         "_keywords": "...",
         "pic": "Módulo carta para restauración y hostelería",
-        "call_to_action": "¡Crea ahora tu app gratis!",
         "slider": {
-            "intro1": "El creador de aplicaciones para HOSTELERÍA",
+            "intro1": "El creador de aplicaciones para NEGOCIOS",
             "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
         },
         "features": {
@@ -808,6 +808,68 @@
           "email": "info@upplication.com",
           "mailto": "mailto:info@upplication.com"
         }
+    },
+    "shops": {
+        "_url": "/crear-app-movil-tienda/",
+        "_meta_title": "Upplication: El creador de Apps para tu negocio",
+        "_meta_description": "...",
+        "_keywords": "...",
+        "pic": "Módulo catálogo para tiendas y negocios",
+        "slider": {
+            "intro1": "El creador de aplicaciones para TIENDAS",
+            "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
+        },
+        "features": {
+            "icon": {
+                "calendar": "today",
+                "notifications": "speaker_notes",
+                "delivery": "shopping_basket"
+            },
+            "booking": "<strong>Tienda online 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tus clientes están comprando",
+            "notifications": "<strong>Notificaciones push</strong> Nuevos productos, descuentos o ideas. ¡Sedúceles con tus mensajes!",
+            "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas"
+        },
+        "marketing_team": "Nuestro equipo de tutores personales.",
+        "meet_us": {
+            "title": "Ellos son quienes te van a atender",
+            "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea tu mejor escaparate.",
+            "btn": "Llámanos",
+            "telephone": "+34 810 512 370",
+            "tel": "tel:34810512370",
+            "email": "info@upplication.com",
+            "mailto": "mailto:info@upplication.com"
+        }
+    },
+    "gym": {
+      "_url": "/crear-app-movil-gimnasio/",
+      "_meta_title": "Upplication: El creador de Apps para tu gimnasio",
+      "_meta_description": "...",
+      "_keywords": "...",
+      "pic": "Módulo notificación push para gimnasios",
+      "slider": {
+        "intro1": "El creador de aplicaciones para GIMNASIOS",
+        "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
+      },
+      "features": {
+        "icon": {
+          "calendar": "today",
+          "notifications": "speaker_notes",
+          "delivery": "shopping_basket"
+        },
+        "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
+        "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
+        "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
+      },
+      "marketing_team": "Nuestro equipo de tutores personales.",
+      "meet_us": {
+        "title": "Ellos serán tus entrenadores personales",
+        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
+        "btn": "Llámanos",
+        "telephone": "+34 810 512 370",
+        "tel": "tel:34810512370",
+        "email": "info@upplication.com",
+        "mailto": "mailto:info@upplication.com"
+      }
     },
     "page_not_found": {
         "_url": "/pagina-no-encontrada/",

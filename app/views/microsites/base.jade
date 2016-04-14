@@ -12,7 +12,7 @@ doctype html
 html.no-js(lang='#{lang}', data-lang="#{lang}")
     // <![endif]
     head
-        include ../base/scripts
+        include ../base/scripts.jade
         title #{title}
         meta(name='description', content='#{description}')
         meta(name='keywords', content='#{keywords}')
@@ -46,11 +46,13 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='theme-color', content='#ffffff')
         meta(name='google-site-verification', content='#{localConfig.webmaster_token}')
         link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icon/upplication-icon.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
-        // CSS
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
+
         block css
         // build:css({.tmp, app}) /styles/base.min.css
         link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
@@ -113,12 +115,12 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 p.error.display-none.register-password-error
                     .btnReg
                         button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                            span #{restaurants.call_to_action}
+                            span #{form.call_to_action}
         // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
         .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
             a.price-btn.btn-green.modal-trigger(href='#pruebaGratis')
                 i.fa.fa-cog.fa-spin
-                span #{restaurants.call_to_action}
+                span #{form.call_to_action}
         // FEATURES (Intro Tips)
         block features
         // FOOTER (Copyright)
@@ -135,6 +137,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         // vendor js
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
         // endvendor
         // build:js({.tmp, app}) /scripts/app.v2.min.js
         script(type="text/javascript", src='/scripts/ua.js')
@@ -237,4 +241,4 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             });
         // end scripts
         block scripts
-        include ../base/scripts-thirdparties
+        include ../base/scripts-thirdparties.jade
