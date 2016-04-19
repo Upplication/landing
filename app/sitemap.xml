@@ -22,7 +22,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-gimnasio/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-gym/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-gym/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -30,7 +30,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-spa-balneario-clinica/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-health-beauty/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-kesehatan-keindahan/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -46,7 +46,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-your-app/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi/"/>
-		<lastmod>2016-04-12</lastmod>
+		<lastmod>2016-04-15</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>
@@ -62,7 +62,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-hotel/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-hotel/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-hotel/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -126,7 +126,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-restaurante/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-restaurant/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-restoran/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -134,7 +134,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-colegio-academia/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-school-academy/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-sekolah/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -142,7 +142,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-tienda/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-shop/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-toko/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -166,7 +166,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-agencia-viaje/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-travel-agency/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-biro-perjalanan/"/>
-		<lastmod>2016-04-14</lastmod>
+		<lastmod>2016-04-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 </urlset>
