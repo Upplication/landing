@@ -1,6 +1,6 @@
 {
   "name": "landing",
-  "version": "2.6.3",
+  "version": "2.7.0",
   "dependencies": {
     "animate.css": "latest",
     "bootstrap": "~3.1.1",
