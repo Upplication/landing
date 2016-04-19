@@ -772,8 +772,8 @@
     "restaurants": {
       "_url": "/generator-aplikasi-mobil-restoran/",
       "_meta_title": "Upplication: generator aplikasi untuk restoran",
-      "_meta_description": "...",
-      "_keywords": "...",
+      "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+      "_keywords": "create app, create restaurant app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
       "pic": "Card module for restaurants and hostelry",
       "slider": {
         "intro1": "Generator Aplikasi untuk RESTORAN",
@@ -798,8 +798,8 @@
     "shops": {
       "_url": "/generator-aplikasi-mobil-toko/",
       "_meta_title": "Upplication: generator aplikasi untuk toko",
-      "_meta_description": "...",
-      "_keywords": "...",
+      "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+      "_keywords": "create app, create shop app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
       "pic": "Módulo catálogo para tiendas y negocios",
       "slider": {
             "intro1": "Generator Aplikasi untuk TOKO",
@@ -814,136 +814,6 @@
       "meet_us": {
         "title": "They will support you",
         "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea tu mejor escaparate.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "gym": {
-      "_url": "/generator-aplikasi-mobil-gym/",
-      "_meta_title": "Upplication: generator aplikasi untuk gym",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para gimnasios",
-      "slider": {
-        "intro1": "Generator Aplikasi untuk GYM",
-        "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>"
-      },
-      "features": {
-        "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
-        "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
-        "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
-      },
-      "marketing_team": "Our personal tutors team.",
-      "meet_us": {
-        "title": "They will be your personal trainers",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "health": {
-      "_url": "/generator-aplikasi-mobil-kesehatan-keindahan/",
-      "_meta_title": "Upplication: generator aplikasi untuk kesehatan dan keindahan",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para gimnasios",
-      "slider": {
-        "intro1": "Generator Aplikasi untuk KESEHATAN dan KEINDAHAN",
-        "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>"
-      },
-      "features": {
-        "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
-        "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
-        "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
-      },
-      "marketing_team": "Our personal tutors team.",
-      "meet_us": {
-        "title": "They will care about you",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "hotels": {
-      "_url": "/generator-aplikasi-mobil-hotel/",
-      "_meta_title": "Upplication: generator aplikasi untuk hotel",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para hoteles",
-      "slider": {
-        "intro1": "Generator Aplikasi untuk HOTEL",
-        "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>"
-      },
-      "features": {
-        "booking": "<strong>Gestor de reserva de citas</strong> Útil y práctico para ti. Sencillo y cómodo para tus clientes",
-        "notifications": "<strong>Consejos que marcan la diferencia</strong> Ofrece información adicional que haga que la experiencia sea inolvidable y única",
-        "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos especiales"
-      },
-      "marketing_team": "Our personal tutors team.",
-      "meet_us": {
-        "title": "Come in, U´re in home!",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "schools": {
-      "_url": "/generator-aplikasi-mobil-sekolah/",
-      "_meta_title": "Upplication: generator aplikasi untuk sekolah, akademi dan pendidikan",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para sekolah, akademi dan pendidikan",
-      "slider": {
-        "intro1": "Generator Aplikasi untuk SEKOLAH dan PENDIDIKAN",
-        "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>"
-      },
-      "features": {
-        "booking": "<strong>Widget (temarios)</strong> ...",
-        "notifications": "<strong>Notificaciones push</strong> Envía información y avisos a los estudiantes",
-        "delivery": "<strong>Módulo multimedia</strong> ..."
-      },
-      "marketing_team": "Our personal tutors team.",
-      "meet_us": {
-        "title": "They will teach you!",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "travels": {
-      "_url": "/generator-aplikasi-mobil-biro-perjalanan/",
-      "_meta_title": "Upplication: generator aplikasi untuk biro perjalanan",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para biro perjalanan",
-      "slider": {
-        "intro1": "Generator Aplikasi untuk BIRO PERJALANAN",
-        "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>"
-      },
-      "features": {
-        "booking": "<strong>Widget</strong> ...",
-        "notifications": "<strong>Notificaciones push</strong> Envía información y avisos a los estudiantes",
-        "delivery": "<strong>Módulo multimedia</strong> ..."
-      },
-      "marketing_team": "Our personal tutors team.",
-      "meet_us": {
-        "title": "They will teach you!",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
         "btn": "Llámanos",
         "telephone": "+34 810 512 370",
         "tel": "tel:34810512370",

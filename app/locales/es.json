@@ -781,8 +781,8 @@
     "restaurants": {
         "_url": "/crear-app-movil-restaurante/",
         "_meta_title": "Upplication: El creador de Apps para restauración y hostelería",
-        "_meta_description": "...",
-        "_keywords": "...",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, crear app restaurante, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil",
         "pic": "Módulo carta para restauración y hostelería",
         "slider": {
             "intro1": "El creador de aplicaciones para HOSTELERÍA",
@@ -790,7 +790,7 @@
         },
         "features": {
             "booking": "<strong>Gestor de reservas</strong> Las mesas de tu restaurante llenas con un útil y sencillo botón",
-            "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
+          "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
             "delivery": "<strong>Pedidos a domicilio</strong> Sin intermediarios que se coman tus beneficios"
         },
         "marketing_team": "Nuestro equipo de tutores personales.",
@@ -807,8 +807,8 @@
     "shops": {
         "_url": "/crear-app-movil-tienda/",
         "_meta_title": "Upplication: El creador de Apps para tu tienda",
-        "_meta_description": "...",
-        "_keywords": "...",
+        "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+        "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil",
         "pic": "Módulo catálogo para tiendas y negocios",
         "slider": {
             "intro1": "El creador de aplicaciones para TIENDAS",
@@ -829,136 +829,6 @@
             "email": "info@upplication.com",
             "mailto": "mailto:info@upplication.com"
         }
-    },
-    "gym": {
-      "_url": "/crear-app-movil-gimnasio/",
-      "_meta_title": "Upplication: El creador de Apps para tu gimnasio",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para gimnasios",
-      "slider": {
-        "intro1": "El creador de aplicaciones para GIMNASIOS",
-        "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
-      },
-      "features": {
-        "booking": "<strong>Gestor de reserva de clases</strong> Pónselo fácil a tus alumnos para que elijan clase y hora con un botón útil y sencillo",
-        "notifications": "<strong>Notificaciones push</strong> Informa de cualquier cambio de clase o profesor y envía promociones",
-        "delivery": "<strong>Entrenador personal 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tendrán acceso a sus tablas de ejercicio"
-      },
-      "marketing_team": "Nuestro equipo de tutores personales.",
-      "meet_us": {
-        "title": "Ellos serán tus entrenadores personales",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea la más potente.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "health": {
-      "_url": "/crear-app-movil-spa-balneario-clinica/",
-      "_meta_title": "Upplication: El creador de Apps para spas, balnearios, clínicas...",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para relax y belleza",
-      "slider": {
-        "intro1": "El creador de aplicaciones para RELAX Y BELLEZA",
-        "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
-      },
-      "features": {
-        "booking": "<strong>Gestor de reserva de citas</strong> Útil y práctico para ti. Sencillo y cómodo para tus clientes",
-        "notifications": "<strong>Notificaciones push</strong> Nuevos servicios, descuentos o ideas. ¡Sedúceles con tus mensajes!",
-        "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas"
-      },
-      "marketing_team": "Nuestro equipo de tutores personales.",
-      "meet_us": {
-        "title": "Ellos son quienes te van a cuidar",
-        "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea una experiencia única para tus clientes.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "hotels": {
-        "_url": "/crear-app-movil-hotel/",
-        "_meta_title": "Upplication: El creador de Apps para hoteles y alojamientos",
-        "_meta_description": "...",
-        "_keywords": "...",
-        "pic": "Módulo notificación push para hoteles y alojamientos",
-        "slider": {
-            "intro1": "El creador de aplicaciones para ALOJAMIENTOS",
-            "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
-        },
-        "features": {
-            "booking": "<strong>Gestor de reserva de citas</strong> Útil y práctico para ti. Sencillo y cómodo para tus clientes",
-            "notifications": "<strong>Consejos que marcan la diferencia</strong> Ofrece información adicional que haga que la experiencia sea inolvidable y única",
-            "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos especiales"
-        },
-        "marketing_team": "Nuestro equipo de tutores personales.",
-        "meet_us": {
-            "title": "Entra, ¡estás en tu casa!",
-            "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que con la aplicación de tu negocio ofrezcas un servicio excelente a tus clientes.",
-            "btn": "Llámanos",
-            "telephone": "+34 810 512 370",
-            "tel": "tel:34810512370",
-            "email": "info@upplication.com",
-            "mailto": "mailto:info@upplication.com"
-        }
-    },
-    "schools": {
-      "_url": "/crear-app-movil-colegio-academia/",
-      "_meta_title": "Upplication: El creador de Apps para colegios, academias y educación",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para colegios y academias",
-      "slider": {
-        "intro1": "El creador de aplicaciones para COLEGIOS Y ACADEMIAS",
-        "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
-      },
-      "features": {
-        "booking": "<strong>Widget (temarios)</strong> ...",
-        "notifications": "<strong>Notificaciones push</strong> Envía información y avisos a los estudiantes",
-        "delivery": "<strong>Módulo multimedia</strong> ..."
-      },
-      "marketing_team": "Nuestro equipo de tutores personales.",
-      "meet_us": {
-        "title": "Ellos son quienes te van a enseñar",
-        "paragraph": "Belén, Víctor, Javi y Álvaro harán que luzcas con orgullo la aplicación de tu negocio porque te van a ayudar, asesorar y guiar en todo momento para que con tu app ofrezcas un servicio excelente a tus clientes.",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
-    },
-    "travels": {
-      "_url": "/crear-app-movil-agencia-viaje/",
-      "_meta_title": "Upplication: El creador de Apps para agencias de viajes",
-      "_meta_description": "...",
-      "_keywords": "...",
-      "pic": "Módulo notificación push para agencias de viajes",
-      "slider": {
-        "intro1": "El creador de aplicaciones para AGENCIAS DE VIAJES",
-        "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>"
-      },
-      "features": {
-        "booking": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas o de última hora",
-        "notifications": "<strong>Notificaciones push</strong> Envía mensajes para que tus clientes quieran teletransportarse con ofertas, ideas y XXX",
-        "delivery": "<strong>Módulo fidelización</strong> ..."
-      },
-      "marketing_team": "Nuestro equipo de tutores personales.",
-      "meet_us": {
-        "title": "Ellos son quienes te van a enseñar",
-        "paragraph": "Belén, Víctor, Javi y Álvaro harán que...",
-        "btn": "Llámanos",
-        "telephone": "+34 810 512 370",
-        "tel": "tel:34810512370",
-        "email": "info@upplication.com",
-        "mailto": "mailto:info@upplication.com"
-      }
     },
     "page_not_found": {
         "_url": "/pagina-no-encontrada/",
