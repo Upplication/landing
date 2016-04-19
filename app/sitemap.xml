@@ -6,7 +6,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/nosotros/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/about-us/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/about-us-indonesian/"/>
-		<lastmod>2016-03-18</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
@@ -38,7 +38,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/home_tlf/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/home-en-tlf/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/home-en-tlf-indonesian/"/>
-		<lastmod>2016-02-11</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -46,7 +46,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/error-interno-del-servidor/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/internal-server-error/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/internal-server-error-idonesian/"/>
-		<lastmod>2016-02-11</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -78,7 +78,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/pagina-no-encontrada/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/page-not-found/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/page-not-found-idonesian/"/>
-		<lastmod>2016-02-11</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -86,7 +86,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/precios/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/prices/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/prices-indonesian/"/>
-		<lastmod>2016-02-11</lastmod>
+		<lastmod>2016-04-19</lastmod>
 		<priority>0.6</priority>
 	</url>
 	<url>
