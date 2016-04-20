@@ -54,7 +54,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
 
         block css
-        // build:css({.tmp, app}) /styles/base.min.css
+        // build:css({.tmp, app}) /styles/microsites.min.css
+        link(rel='stylesheet', href='/styles/css/microsites/microsites.css')
         link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
         link(rel='stylesheet', href='/styles/css/base/common.css')
         link(rel='stylesheet', href='/styles/css/base/alerts.css')
@@ -219,25 +220,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 $('.slider').slider({
                     indicators: false,
                     interval: 4000
-                });
-                // Animate.css for web elements:
-                var $imgMove = $('.imgMove'),
-                        $imgFlash = $('.imgFlash');
-                $imgMove.mouseenter(function () {
-                    $(this).addClass("animated");
-                    $(this).addClass("pulse");
-                });
-                $imgMove.mouseleave(function () {
-                    $(this).removeClass("animated");
-                    $(this).removeClass("pulse");
-                });
-                $imgFlash.mouseenter(function () {
-                    $(this).addClass("animated");
-                    $(this).addClass("rubberBand");
-                });
-                $imgFlash.mouseleave(function () {
-                    $(this).removeClass("animated");
-                    $(this).removeClass("rubberBand");
                 });
                 // end script
             });
