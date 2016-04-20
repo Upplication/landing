@@ -75,8 +75,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             #move-top.top-header
                 .container
                     .logo
-                        a.no-events(href='index.html')
-                            img(src='#{header.logo.url}', title='#{header.logo.title}')
+                        a.no-events(href='index.html', title='#{header.logo.title}')
+                            img(src='#{header.logo.url}', alt='#{header.logo.title}')
                     .contact-info
                         .contact-info-grids
                             .contact-info-left
@@ -119,7 +119,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
         .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
             a.price-btn.btn-green.modal-trigger(href='#pruebaGratis')
-                i.fa.fa-cog.fa-spin
                 span #{form.call_to_action}
         // FEATURES (Intro Tips)
         block features
@@ -131,6 +130,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     | #{footer.brand_copy}
                 i.icon.icon-dot
                 em #{footer.signature}
+                i.icon.icon-dot.terms-micro-hidden
+                em.terms-micro-hidden #{footer.terms_microsites.warning}
+                a.terms-micro-hidden(href='#{footer.terms_microsites.url}', title='#{footer.terms_microsites.title}', target='_blank') #{footer.terms_microsites.text}
         #cookies
             i#cookies-accept.fa.fa-times.close
             p !{footer.cookies}

@@ -115,10 +115,10 @@ Copyright 2016
 }
 
 .formPhone {
-  background-color: #fff;
+  background-color: rgba(255,255,255,.9);
   position: absolute;
   z-index: 200;
-  top: 168px;
+  top: 148px;
   right: 7%;
   padding: 0;
   max-width: 400px;
@@ -128,41 +128,15 @@ Copyright 2016
 .registerTop {
   margin-left: 0rem;
   margin-right: 0rem;
+  margin-bottom: 0;
 }
 
-.registerTop .headReg {
-  width: 100%;
-  background-color: #ebecf0;
-  height: 50px;
-  text-align: center;
-  margin-bottom: 20px;
+.formRegister {
+  padding: 20px !important;
 }
 
-.registerTop .headReg:after {
-  content: " ";
-  width: 0;
-  height: 0;
-  position: relative;
-  border-left: 1em solid transparent;
-  border-right: 1em solid transparent;
-  border-top: 1em solid #ebecf0;
-  bottom: -28px;
-  margin-left: -.5em;
-}
-
-.registerTop .headReg h2 {
-  padding-top: 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: "Lato", serif;
-  color: #111b0a;
-  font-weight: 600;
-  font-size: 1.2em;
-  margin: 0;
-}
-
-.registerTop .headReg h2 span {
-  color: #00c86b;
+.formRegister .input-field label {
+  color: #686e85;
 }
 
 .registerTop .input-field {
@@ -184,11 +158,15 @@ Copyright 2016
   text-align: center;
 }
 
+.registerTop .btnReg button.btn-upp {
+  width: 100%;
+}
+
 .registerTop .btnReg p {
   margin-top: 10px;
   font-weight: 500;
   color: #222;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .registerTop .btnReg p a {
@@ -218,6 +196,15 @@ select:-webkit-autofill {
 
 a.terms-conditions {
   padding-left: 5px;
+}
+
+/* Call to Action :: MOBILE ONLY */
+
+.formPhone-mobile a {
+  padding: 1em .5em !important;
+  color: #ffffff;
+  font-weight: 500 !important;
+  letter-spacing: .05em;
 }
 
 /* ... INTRO ................................................... */

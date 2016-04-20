@@ -125,6 +125,12 @@
         "url": "http://wayra.co/en",
         "title": "Wayra, Telefónica's startup accelerator"
       }
+    },
+    "terms_microsites": {
+      "warning": "By clicking the 'Free Trial' button you accept our",
+      "url": "@@config.base_path/build-app-mobile-terms/",
+      "title": "By using our Services, you are agreeing to these terms",
+      "text": "terms of use"
     }
   },
   "register": {
@@ -789,7 +795,11 @@
     "marketing_team": "Our personal tutors team.",
     "meet_us": {
       "title": "They have the perfect recipe",
-      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio salga del horno y tus clientes tengan ganas de mojar pan en ella.",
+      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para:",
+      "tip_one": "Diferenciarte de la competencia.",
+      "tip_two": "Crear el canal de comunicación más directo con tu cliente.",
+      "tip_three": "Fidelizar a los consumidores.",
+      "tip_four": "Aumentar tus ventas.",
       "btn": "Llámanos",
       "telephone": "+34 810 512 370",
       "tel": "tel:34810512370",
@@ -822,6 +832,12 @@
       "email": "info@upplication.com",
       "mailto": "mailto:info@upplication.com"
     }
+  },
+  "terms_micro": {
+    "_url": "/build-app-mobile-terms/",
+    "_meta_title": "Upplication: El creador de Apps para tu tienda",
+    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil"
   },
   "page_not_found": {
     "_url": "/page-not-found/",

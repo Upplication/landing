@@ -126,6 +126,12 @@
                 "url": "http://wayra.co/en",
                 "title": "Wayra, acelerador de startups de Telefónica"
             }
+        },
+        "terms_microsites": {
+          "warning": "Al hacer clic en 'Prueba Gratis' aceptas nuestros",
+          "url": "@@config.base_path/crear-app-movil-terminos-legales/",
+          "title": "Usando Upplication estás aceptando los siguientes términos y condiciones legales",
+          "text": "términos y condiciones"
         }
     },
     "register": {
@@ -790,13 +796,17 @@
         },
         "features": {
             "booking": "<strong>Gestor de reservas</strong> Las mesas de tu restaurante llenas con un útil y sencillo botón",
-          "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
+            "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes",
             "delivery": "<strong>Pedidos a domicilio</strong> Sin intermediarios que se coman tus beneficios"
         },
         "marketing_team": "Nuestro equipo de tutores personales.",
         "meet_us": {
           "title": "Ellos tienen la receta perfecta",
-          "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio salga del horno y tus clientes tengan ganas de mojar pan en ella.",
+          "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para:",
+          "tip_one": "Diferenciarte de la competencia.",
+          "tip_two": "Crear el canal de comunicación más directo con tu cliente.",
+          "tip_three": "Fidelizar a los consumidores.",
+          "tip_four": "Aumentar tus ventas.",
           "btn": "Llámanos",
           "telephone": "+34 810 512 370",
           "tel": "tel:34810512370",
@@ -829,6 +839,12 @@
             "email": "info@upplication.com",
             "mailto": "mailto:info@upplication.com"
         }
+    },
+    "terms_micro": {
+      "_url": "/crear-app-movil-terminos-legales/",
+      "_meta_title": "Upplication: El creador de Apps para tu tienda",
+      "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+      "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil"
     },
     "page_not_found": {
         "_url": "/pagina-no-encontrada/",

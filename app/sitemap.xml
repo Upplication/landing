@@ -102,7 +102,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-restaurante/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-restaurant/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-restoran/"/>
-		<lastmod>2016-04-19</lastmod>
+		<lastmod>2016-04-20</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -110,7 +110,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-tienda/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-shop/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-toko/"/>
-		<lastmod>2016-04-19</lastmod>
+		<lastmod>2016-04-20</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
@@ -119,6 +119,14 @@
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/terms/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/terms-indonesian/"/>
 		<lastmod>2016-02-11</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://localhost:9000/crear-app-movil-terminos-legales/</loc>
+		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/crear-app-movil-terminos-legales/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-app-mobile-terms/"/>
+		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi-mobil-syarat-dan-ketentuan-kami/"/>
+		<lastmod>2016-04-20</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
