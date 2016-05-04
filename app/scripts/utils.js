@@ -77,10 +77,18 @@ var setCookie = function (name, value) {
 var checkLanguage = function (current_lang, routing, view) {
 
     var langCookie = getCookie("upp_language"),
-        location, browserLang;
+        browserLang = window.navigator.userLanguage || window.navigator.language,
+        location;
 
     log("current lang : " + current_lang);
     log("lang cookie : " + langCookie);
+    log("browser lang : " + browserLang);
+
+    if (!browserLang) {
+        // if we dont have browserLang because we are a bot or
+        // some old browser we dont change the current url.
+        return;
+    }
 
     if (langCookie) {
         //CHECK IF CURRENT LANG != LANG COOKIE
@@ -92,7 +100,6 @@ var checkLanguage = function (current_lang, routing, view) {
             log(routing);
         }
     } else {
-        browserLang = window.navigator.userLanguage || window.navigator.language;
         // CHECK BROWSER PREFERENCES
         if (browserLang !== current_lang.substring(0, 2)) {
             log("Updating lang to the browser lang: " + browserLang);
