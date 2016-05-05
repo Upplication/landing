@@ -84,7 +84,10 @@ var checkLanguage = function (current_lang, routing, view) {
     log("lang cookie : " + langCookie);
     log("browser lang : " + browserLang);
 
-    if (!browserLang) {
+    if (!browserLang ||
+            // see: https://perishablepress.com/list-all-user-agents-top-search-engines/
+            // tests: https://regex101.com/r/kX6zN9/1
+            /googlebot|adsbot-google|mediapartners-google|aolbuild|baidu|bingbot|bingpreview|msnbot|duckduckgo|teoma|slurp|yandex|bot|spider|robot|crawl/i.test(window.navigator.userAgent)) {
         // if we dont have browserLang because we are a bot or
         // some old browser we dont change the current url.
         return;

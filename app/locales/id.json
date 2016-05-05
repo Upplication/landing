@@ -87,7 +87,7 @@
         "media": "Media",
         "brand_copy": "Upplication 2016",
         "signature": "Dirancang dan dibangun di Madrid",
-        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>Penggunaan Cookies</a>.",
+        "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>Penggunaan Cookies</a>.",
         "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>Penggunaan Cookies.</a>.",
         "try_it": "Coba <strong>gratis 15 hari</strong>!",
         "tos": {
