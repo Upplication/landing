@@ -87,7 +87,7 @@
     "media": "Medios y redes",
     "brand_copy": "Upplication 2016",
     "signature": "Designed and assembled in Madrid",
-    "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/'>cookies policy</a>.",
+    "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>cookies policy</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
     "try_it": "Try it <strong>free for 15 days</strong>!",
     "tos": {
