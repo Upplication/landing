@@ -2145,6 +2145,7 @@ Copyright 2015
 /* ... HEADERS :: TITLE SECTIONS ...................................................... */
 
 @media only screen and (max-width: 450px) {
+  h2.headTitles,
   h4 {
     font-size: 2rem;
   }

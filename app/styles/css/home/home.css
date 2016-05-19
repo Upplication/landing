@@ -484,14 +484,12 @@ a.terms-conditions {
 }
 
 .plans-head h2 {
-  color: #777;
-  font-family: "Lato";
-  text-transform: uppercase;
+  color: #555;
+  font-family: "Raleway", sans-serif;
   font-size: 2em;
   font-weight: 400;
-  margin: 0;
+  margin: 2em 0;
   padding: 0 0 0.5em 0;
-  word-spacing: 0.2em;
 }
 
 .plans-head p {

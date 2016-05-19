@@ -69,7 +69,9 @@ body a {
 
 /* ... MAIN HEADERS (SECTIONS) ... */
 
-h4.headTitles {
+.headTitles,
+h4.headTitles,
+h2.headTitles {
   color: #555;
   font-family: "Raleway", sans-serif;
   font-size: 2em;
@@ -78,7 +80,7 @@ h4.headTitles {
   padding: 0 0 0.5em 0;
 }
 
-h4.headTitles.noMargBot {
+.headTitles.noMargBot {
   margin-bottom: 0;
 }
 

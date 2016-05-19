@@ -90,7 +90,7 @@
         "signature": "Diseñado y desarrollado en Madrid",
         "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/#cookies-policy'>política de cookies</a>.",
         "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/condicioneslegalesmovistar-upplication/'>política de cookies.</a>",
-        "try_it": "¡Pruébalo, tienes <strong>15 días gratis</strong>!",
+        "try_it": "¡Crea tu app, tienes <strong>15 días gratis</strong>!",
         "tos": {
             "legal": {
                 "url": "@@config.base_path/terminos/",
@@ -332,7 +332,7 @@
             "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
             "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
         },
-        "try": "¡Pruébalo, tienes 15 días gratis!",
+        "try": "¡Crea tu app, tienes 15 días gratis!",
         "create_free": "Crear mi app gratis",
         "permanence": "Período de prueba sin compromiso de permanencia."
     },
