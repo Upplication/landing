@@ -1,7 +1,7 @@
 {
   "header": {
     "logo": {
-      "url": "@@config.base_path/images/home/icons/upplication.png",
+      "url": "@@config.base_path/images/home/icons/upplication.svg",
       "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png",
       "title": "Upplication Logo",
       "title_xmas": "Upplication Xmas Logo"
