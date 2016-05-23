@@ -1,9 +1,9 @@
 div#signup-screen.closed
     div.signup-screen-container.padding-top-4x.padding-bottom-4x
-        a#signup-close.btn-signup-close(href="#") !{signup.close}
+        a#signup-close.btn-signup-close(href="#", title='#{modal.head.close}') !{signup.close}
 
         div.signup-header
-            img.inline-block(src="#{localConfig.base_path}/images/upplication.png", alt="Upplication")
+            img.inline-block(src="#{localConfig.base_path}/images/upplication.png", alt="#{header.logo.title}", title="#{header.logo.title}")
 
             p.big.right.inline-block.padding-top-2x !{signup.signup_free}
 
@@ -28,9 +28,9 @@ div#signup-screen.closed
             div.field.clearfix
                 input.green-accent-btn.btn.bold.big(type="submit", value="#{register.call_to_action}", data-loading="#{register.loading}", data-text="#{register.call_to_action}")
                 p.tos.acenter !{register.accept_terms}
-                    a.cwhite(href="#{external.tos.url}") #{register.terms}
+                    a.cwhite(href="#{external.tos.url}", title="#{external.tos.anchor}") #{register.terms}
 
-            a#seller-code.seller-code.accent-green.right(href="#", alt="#{signup.have_a_code}") #{signup.have_a_code}
-            a#without-seller-code.seller-code.accent-green.acenter.padding-top-4x.display-none(href="#", alt="#{signup.dont_have_a_code}") #{signup.dont_have_a_code}
+            a#seller-code.seller-code.accent-green.right(href="#", title="#{signup.have_a_code}") #{signup.have_a_code}
+            a#without-seller-code.seller-code.accent-green.acenter.padding-top-4x.display-none(href="#", title="#{signup.dont_have_a_code}") #{signup.dont_have_a_code}
 
 
