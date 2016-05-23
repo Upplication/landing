@@ -1,11 +1,11 @@
 //- MODAL :: HIRING
-a.modal-action.modal-close.waves-effect.waves-green.btn-flat
+a.modal-action.modal-close.waves-effect.waves-green.btn-flat(title='#{modal.head.close}')
    i.fa.fa-close
 .modal-content
    h3 !{modal.head.hiring_modal}
    .row.hiring-icons
       .col.s12
-         img.circle.responsive-img(src='#{localConfig.base_path}/images/home/bg/hiring-dino.jpg', alt='')
+         img.circle.responsive-img(src='#{localConfig.base_path}/images/home/bg/hiring-dino.jpg', alt='#{modal.head.hiring_modal}', title='#{modal.picture_hiring_modal}')
       .clearfix
    .row.contact-btns
       .col.s12.m6
