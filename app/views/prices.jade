@@ -15,7 +15,7 @@ block content
 
     //- MIXIN Declarations
     mixin webapp
-        a(href='#')
+        a(href='#', title='#{prices.rates.app_web}')
             i.fa.fa-desktop
             i.fa.fa-android
             i.fa.fa-apple
@@ -49,9 +49,9 @@ block content
                     .col.s12.offset-m2.m8
                         ul.tabs
                             li.tab.col.s12.m6
-                                a.active(href='#mensual') !{prices.rates.monthly}
+                                a.active(href='#mensual', title='#{prices.rates.monthly}') !{prices.rates.monthly}
                             li.tab.col.s12.m6
-                                a(href='#anual') !{prices.rates.yearly}
+                                a(href='#anual', title='#{prices.rates.yearly}') !{prices.rates.yearly}
                     // Plan Mensual
                     #mensual.col.s12
                         .col-xs-12.col-md-3.mobilePrices
@@ -66,24 +66,24 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.sign}')
                                             i.fa.fa-pencil
                                             | !{prices.rates.sign}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_push}')
                                             i.fa.fa-bell-slash
                                             | !{prices.rates.no_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
-                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
+                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
                                 ul
@@ -95,22 +95,22 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.no_bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_sign}')
                                             i.fa.fa-pencil
                                             | !{prices.rates.no_sign}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.four_push}')
                                             i.fa.fa-bell
                                             | !{prices.rates.four_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
                             .pricing-table-grid
                                 h3 #{prices.rates.premiun}
@@ -123,22 +123,22 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.no_bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_sign}')
                                             i.fa.fa-pencil
                                             | !{prices.rates.no_sign}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.fa.fa-bell
                                             | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
                             .pricing-table-grid
                                 h3 #{prices.rates.unlimited}
@@ -151,22 +151,22 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.no_bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_templates}')
                                             i.fa.fa-object-ungroup
                                             | !{prices.rates.no_templates}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.fa.fa-bell
                                             | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .clearfix
                     //- Plan Anual
                     #anual.col.s12
@@ -182,24 +182,24 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.sign}')
                                             i.fa.fa-pencil
                                             | !{prices.rates.sign}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_push}')
                                             i.fa.fa-bell-slash
                                             | !{prices.rates.no_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
-                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', alt='')
+                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
                                 ul
@@ -211,22 +211,22 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.no_bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_sign}')
                                             i.fa.fa-pencil
                                             | !{prices.rates.no_sign}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.four_push}')
                                             i.fa.fa-bell
                                             | !{prices.rates.four_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
                             .pricing-table-grid
                                 h3 #{prices.rates.premiun}
@@ -239,22 +239,22 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.no_bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_sign}')
                                             i.fa.fa-pencil
                                             | !{prices.rates.no_sign}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.fa.fa-bell
                                             | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
                             .pricing-table-grid
                                 h3 #{prices.rates.unlimited}
@@ -267,22 +267,22 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.statistics}')
                                             i.fa.fa-bar-chart
                                             | !{prices.rates.statistics}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
                                             i.fa.fa-bullhorn
                                             | !{prices.rates.no_bullhorn}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.no_templates}')
                                             i.fa.fa-object-ungroup
                                             | !{prices.rates.no_templates}
                                     li
-                                        a(href='#')
+                                        a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.fa.fa-bell
                                             | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#pruebaGratis') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#pruebaGratis', title='#{register.call_to_action}') #{register.call_to_action}
                         .clearfix
                         .col-xs-12
                             .alert.alert-info(role='alert')
