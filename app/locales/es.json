@@ -53,10 +53,12 @@
     },
     "modal": {
         "head": {
+            "close": "Cerrar esta ventana modal",
             "register_modal": "Regístrate <span>gratis</span> y prueba <span>15 días</span>",
             "contact_modal": "<span>Contacta</span> con nosotros",
             "hiring_modal": "Estamos <span>contratando</span>"
         },
+        "picture_hiring_modal": "¡Tenemos hambre de contratar!",
         "footer": {
             "seller": "¿Tienes un código seller?",
             "accept": "Al hacer clic en 'Prueba Gratis' aceptas nuestros",
@@ -81,6 +83,43 @@
             "pass": "Contraseña"
         },
         "call_to_action": "¡Crea ahora tu app gratis!"
+    },
+    "ourclients": {
+      "client1": {
+        "url": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
+        "alt": "Logotipo ABC",
+        "title": "Upplication en el diario ABC"
+      },
+      "client2": {
+        "url": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+        "alt": "Logotipo El Economista",
+        "title": "Upplication en El Economista"
+      },
+      "client3": {
+        "url": "http://www.forbes.es/",
+        "alt": "Logotipo Forbes",
+        "title": "Forbes, revista sobre negocios y las finanzas"
+      },
+      "client4": {
+        "url": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+        "alt": "Logotipo EFE: Emprende",
+        "title": "Upplication en EFE: Emprende, noticias sobre empresas y emprendedores"
+      },
+      "client5": {
+        "url": "http://blogthinkbig.com/upplication-post-pc/",
+        "alt": "Logotipo Telefónica",
+        "title": "Upplication en Blogthinkbig de Telefónica"
+      },
+      "client6": {
+        "url": "http://www.ticbeat.com/pymes/servicios-crear-app-de-tu-negocio-sin-programar/",
+        "alt": "Logotipo TicBeat",
+        "title": "TicBeat, noticias de tecnología y empresa"
+      },
+      "client7": {
+        "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
+        "alt": "Logotipo wwwhat´s new",
+        "title": "wwwhat´s new, noticias sobre tecnologías web y apps"
+      }
     },
     "footer": {
         "company": "Compañía",
@@ -175,11 +214,19 @@
         "slider": {
             "intro1": "El creador de apps para ",
             "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>",
-            "bg": "Upplication image",
-            "appready": "¡ Tu App lista !",
+            "bg": "Crea la app de tu pyme",
+            "appready": {
+                "title": "¡ Tu App lista !",
+                "bg": "Creador de apps"
+            },
             "text": ["emprendedores", "hostelería", "servicios", "tiendas", "ti"]
         },
         "why": {
+            "img": {
+              "grow": "Aumenta tus ventas",
+              "loyal": "Fideliza a tus clientes",
+              "others": "Diferénciate de la competencia"
+            },
             "grow": "<strong>Aumenta</strong> tus ventas",
             "loyal": "<strong>Fideliza</strong> a tus clientes",
             "others": "<strong>Diferénciate</strong> de la competencia"
@@ -189,6 +236,7 @@
             "restaurants": "Hostelería",
             "shops": "Tiendas",
             "serv": "<em>Servicios</em> Profesionales",
+            "serv_alt": "Servicios Profesionales",
             "personal": "Personalizadas",
             "rest": {
                 "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>aporta valor a tu cliente</span>.",
@@ -334,7 +382,10 @@
         },
         "try": "¡Crea tu app, tienes 15 días gratis!",
         "create_free": "Crear mi app gratis",
-        "permanence": "Período de prueba sin compromiso de permanencia."
+        "permanence": "Período de prueba sin compromiso de permanencia.",
+        "vodafone": {
+          "logo": "Logotipo Vodafone"
+        }
     },
     "prices": {
       "_url": "/precios/",
@@ -367,14 +418,20 @@
         "four_push": "<strong>4</strong> notificaciones push / mes",
         "all_push": "Notificaciones <strong>ilimitadas</strong>",
         "no_templates": "<strong>A medida</strong>, personalizada",
+        "icons": {
+            "statistics": "Estadísticas de tu app",
+            "bullhorn": "Publicidad Upplication",
+            "no_bullhorn": "Sin publicidad Upplication",
+            "sign": "Firma en las plantillas",
+            "no_sign": "Sin firma en las plantillas",
+            "no_push": "Sin notificaciones push",
+            "four_push": "4 notificaciones push / mes",
+            "all_push": "Notificaciones ilimitadas",
+            "no_templates": "A medida, personalizada"
+        },
         "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
         "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
-        "prices": {
-          "basic_month": "99,50",
-          "num2": "¡Ouch! Error al crear la app, por favor ponte en contacto con nosotros",
-          "num3": "Mmmmm, ya está ese e-mail registrado",
-          "num10": "¡Brrr! El e-mail o el nombre de app están por rellenar"
-        }
+        "topsale": "Más demandado"
       }
     },
     "company": {
@@ -390,30 +447,37 @@
         "timeline": {
             "maintitle": "<span>Nuestra</span> biografía",
             "step1": {
+                "pic": "Lanzamos Upplication",
                 "year": "Octubre 2013",
                 "description": "<span> Lanzamos Upplication </span> para que cualquier propietario de negocio pudiera crear su aplicación móvil de manera sencilla y sin ningún conocimiento de programación, un servicio que habitualmente estaba fuera de su alcance debido a su elevado coste."
             },
             "step2": {
+                "pic": "Primera ronda de financiación",
                 "year": "Enero 2014",
                 "description": "Cerramos nuestra <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> primera ronda de financiación de 277.000€ </a> procedentes de Business angels europeos, lo que nos permitió iniciar la fase de <span> internacionalización </span> llegando a Latinoamérica."
             },
             "step3": {
+                "pic": "Logotipo Wayra (Telefónica)",
                 "year": "Mayo 2014",
                 "description": "En mayo de 2014 fuimos seleccionados por <span> Wayra (Telefónica) </span> entre más de 660 proyectos de toda España para su <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleración de startups</a>."
             },
             "step4": {
+                "pic": "Logotipo Vodafone",
                 "year": "Octubre 2014",
                 "description": "Alcanzamos un <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> acuerdo de Integración comercial con Vodafone </a> completando su Plan de soluciones para empresas apoyando y ayudando a las pymes en su crecimiento."
             },
             "step5": {
+                "pic": "Expansión internacional",
                 "year": "Mayo 2015",
                 "description": "Ya tenemos <span> clientes en 65 países del mundo siguiendo </span>uno de nuestros principales objetivos: la <span> expansión internacional</span>."
             },
             "step6": {
+                "pic": "Segunda ronda de financiación",
                 "year": "Noviembre 2015",
                 "description": "Cerramos nuestra <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> segunda ronda de financiación de 1.1 Millones de € </a> liderada por el fondo de inversión <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, de origen español, y en la que también participaron un grupo de destacados Business Angels."
             },
             "step7": {
+                "pic": "Logotipo Telefónica",
                 "year": "Diciembre 2015",
                 "description": "Alcanzamos un <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acuerdo de Integración comercial con Telefónica España </a> con el que continuaremos aportando nuestro conocimiento y experiencia para impulsar a las pymes."
             }
@@ -458,12 +522,22 @@
                 "twitter": "https://twitter.com/arnaix"
             },
             "support": {
-                "name": "Belén",
-                "surname": "Fernández Pérez",
-                "position": "Atención al cliente",
-                "sentence": "Mi prioridad eres tú",
-                "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
-                "twitter": "https://twitter.com/BeeleenFP"
+                "support_1": {
+                  "name": "Belén",
+                  "surname": "Fernández Pérez",
+                  "position": "Atención al cliente",
+                  "sentence": "Mi prioridad eres tú",
+                  "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+                  "twitter": "https://twitter.com/BeeleenFP"
+                },
+                "support_2": {
+                  "name": "Margot",
+                  "surname": "Capó Barroso",
+                  "position": "Atención al cliente",
+                  "sentence": "Ayuda todoterreno",
+                  "linkedin": "https://www.linkedin.com/in/margot-capó",
+                  "twitter": "https://twitter.com/Margot_cb"
+                }
             },
             "sales": {
                 "sales_1": {
@@ -873,6 +947,13 @@
         "pre_advice": "Se ha producido un error con nuestro servidor. Disculpen las molestias, lo solucionaremos muy pronto.",
         "suggestion": "Desplácese a través de nuestro menú de navegación superior a otra página dentro de nuestra web o pinche <a href=\"@@config.base_path/\">aquí para volver al Inicio</a>."
     },
+    "aplicateca": {
+      "pricing_aplicateca": {
+        "anchor": "Precios",
+        "url": "@@config.base_path/precios-aplicateca/",
+        "title": "Precios de Upplication en Aplicateca"
+      }
+    },
     "external": {
         "titles": {
             "help": "Ayuda:",
@@ -936,10 +1017,6 @@
             "anchor": "Precios",
             "url": "@@config.base_path/precios/"
         },
-        "pricing_aplicateca": {
-          "anchor": "Precios",
-          "url": "@@config.base_path/precios-aplicateca/"
-        },
         "media_kit": {
             "anchor": "Prensa",
             "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
@@ -974,7 +1051,8 @@
         },
         "aplicateca": {
             "anchor": "Entrar",
-            "url": "http://www.aplicateca.es/upplication"
+            "url": "http://www.aplicateca.es/upplication",
+            "title": "Entrar en Aplicateca de Telefónica"
         },
         "hiring": "¡Estamos contratando!",
         "hiring_developer": {
@@ -1146,7 +1224,7 @@
         "custom_app": {
             "title": "Te hacemos tu app a medida",
             "subtitle": "Contacta con nosotros y te explicamos cómo lo hacemos.",
-            "btn": "Contacta con nosotros"
+            "btn": "Crea tu app con nosotros"
         },
         "all_plans_include": {
             "title": "Todos los planes incluyen",
@@ -1350,7 +1428,7 @@
     "ono": {
         "_url": "/ejemplos-vodafone/",
         "_meta_title": "Apps creadas con Vodafone Upplication",
-        "_meta_description": "Upplication: crear online tu propia app móvil a través de Ono Vodafone. Prueba gratis 15 días",
+        "_meta_description": "Upplication: crear online tu propia app móvil a través de Ono Vodafone. Prueba tu app gratis 15 días",
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
         "title": "Ejemplos Vodafone"
     },

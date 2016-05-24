@@ -53,10 +53,12 @@
     },
     "modal": {
         "head": {
+            "close": "Close this modal window",
             "register_modal": "Daftar untuk <span>15 hari coba gratis</span>",
             "contact_modal": "<span>Contact</span> Us",
             "hiring_modal": "We are <span>hiring</span>"
         },
+        "picture_hiring_modal": "We are hungry of hiring!",
         "footer": {
             "seller": "Do you have a seller code?",
             "accept": "Dengan mengklik tombol 'Coba Gratis' Anda setuju dengan",
@@ -80,6 +82,43 @@
             "pass": "Coba Gratis"
         },
         "call_to_action": "Build your own App now!"
+    },
+    "ourclients": {
+      "client1": {
+        "url": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
+        "alt": "ABC logo",
+        "title": "Upplication in ABC dairy"
+      },
+      "client2": {
+        "url": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+        "alt": "El Economista logo",
+        "title": "Upplication in El Economista"
+      },
+      "client3": {
+        "url": "http://www.forbes.com/",
+        "alt": "Forbes logo",
+        "title": "Forbes, business and financial news"
+      },
+      "client4": {
+        "url": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+        "alt": "EFE: Emprende logo",
+        "title": "Upplication in EFE: Emprende, business news"
+      },
+      "client5": {
+        "url": "http://blogthinkbig.com/upplication-post-pc/",
+        "alt": "Telefónica logo",
+        "title": "Upplication in Telefónica´s Blogthinkbig"
+      },
+      "client6": {
+        "url": "@@config.base_path/terminos/",
+        "alt": "ABC logo",
+        "title": "Términos"
+      },
+      "client7": {
+        "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar",
+        "alt": "wwwhat´s new logo",
+        "title": "wwwhat´s new, technology and business app news"
+      }
     },
     "footer": {
         "company": "Perusahaan",
@@ -174,11 +213,19 @@
       "slider": {
             "intro1": "Generator Aplikasi untuk ",
             "intro2": "<span class=\"intro-2a\">Buat aplikasi untuk bisnis Anda,</span> <span class=\"intro-2b\">tidak perlu memprogram, cepat, dan mudah.</span>",
-            "bg": "Upplication image",
-            "appready": "Your App Ready !",
+            "bg": "Buat aplikasi untuk bisnis Anda",
+        "appready": {
+          "title": "Sebuah aplikasi",
+          "bg": "Generator Aplikasi"
+        },
             "text": ["toko", "perhotelan", "jasa", "pengusaha", "you"]
         },
         "why": {
+          "img": {
+            "grow": "Tingkatkan penjualan",
+            "loyal": "Menjamin kesetiaan pelanggan",
+            "others": "Membedakan Anda dari pesaing Anda"
+          },
             "grow": "<strong>Tingkatkan</strong> penjualan",
             "loyal": "<strong>Menjamin</strong> kesetiaan pelanggan",
             "others": "<strong>Membedakan</strong> Anda dari pesaing Anda"
@@ -188,6 +235,7 @@
             "restaurants": "perhotelan",
             "shops": "toko",
             "serv": "<em>Jasa</em> Profesional",
+            "serv_alt": "Jasa Profesional",
             "personal": "Cukai",
             "rest": {
                 "rest_intro": "Ciptakan aplikasi Android dan iPhone <span>restoran</span> Anda dan tambahkan nilai untuk pelanggan Anda",
@@ -333,7 +381,10 @@
         },
         "try": "Try it free for 15 days!",
         "create_free": "Create my app",
-        "permanence": "Masa percobaan dengan tanpa harus tinggal."
+        "permanence": "Masa percobaan dengan tanpa harus tinggal.",
+        "vodafone": {
+        "logo": "Vodafone logo"
+      }
     },
     "prices": {
       "_url": "/prices-indonesian/",
@@ -366,8 +417,20 @@
         "four_push": "<strong>4</strong> pemberitahuan push / bulan",
         "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
         "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
+        "icons": {
+          "statistics": "Statistik di aplikasi Anda",
+          "bullhorn": "Iklan Upplication",
+          "no_bullhorn": "Tidak ada Iklan Upplication",
+          "sign": "Cap air pada pola",
+          "no_sign": "Tidak ada cap air pada pola",
+          "no_push": "Tidak ada pemberitahuan push",
+          "four_push": "4 pemberitahuan push / bulan",
+          "all_push": "Pemberitahuan push tak terbatas",
+          "no_templates": "Aplikasi Custom, terindividualisasi"
+        },
         "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
-        "with_tax": "Sudah termasuk <strong>PPN</strong>."
+        "with_tax": "Sudah termasuk <strong>PPN</strong>.",
+        "topsale": "Top sale"
       }
     },
     "company": {
@@ -383,32 +446,39 @@
         "timeline": {
             "maintitle": "<span>Our</span> Bio Timeline",
             "step1": {
-                "year": "On October 2013",
-                "description": "<span> We launch Upplication </span> for all kind of small business. Anyone can make his own app easily without programming knowledge."
+              "pic": "We launch Upplication",
+              "year": "On October 2013",
+              "description": "<span> We launch Upplication </span> for all kind of small business. Anyone can make his own app easily without programming knowledge."
             },
             "step2": {
-                "year": "In January 2014",
-                "description": "We closed our <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> first round of investments </a> by European Business Angels (investors), with 277.000€. This investment is what helped us <span> internationalize ourselves </span>, leading us to Latinoamerica."
+              "pic": "First round of investments",
+              "year": "In January 2014",
+              "description": "We closed our <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> first round of investments </a> by European Business Angels (investors), with 277.000€. This investment is what helped us <span> internationalize ourselves </span>, leading us to Latinoamerica."
             },
             "step3": {
-                "year": "On May 2014",
-                "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>."
+              "pic": "Wayra logo",
+              "year": "On May 2014",
+              "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>."
             },
             "step4": {
-                "year": "On October 2014",
-                "description": "We have reached a <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> trade integration agreement with Vodafone </a> completing its plan of supporting and assisting SMEs grow."
+              "pic": "Vodafone logo",
+              "year": "On October 2014",
+              "description": "We have reached a <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> trade integration agreement with Vodafone </a> completing its plan of supporting and assisting SMEs grow."
             },
             "step5": {
-                "year": "On May 2015",
-                "description": "We already had <span> clients in 65 different countries </span>, reaching one of our goals: <span>International growthl</span>."
+              "pic": "International growthl",
+              "year": "On May 2015",
+              "description": "We already had <span> clients in 65 different countries </span>, reaching one of our goals: <span>International growthl</span>."
             },
             "step6": {
-                "year": "On November 2015",
-                "description": "We closed our <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> second round of investments with 1.1 million euros </a>; mostly led by <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, - who come form a Spanish origin - with Business Angels)."
+              "pic": "Second round of investments",
+              "year": "On November 2015",
+              "description": "We closed our <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> second round of investments with 1.1 million euros </a>; mostly led by <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, - who come form a Spanish origin - with Business Angels)."
             },
             "step7": {
-                "year": "On December 2015",
-                "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience."
+              "pic": "Telefónica logo",
+              "year": "On December 2015",
+              "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience."
             }
         },
         "worldmap": {
@@ -451,12 +521,22 @@
                 "twitter": "https://twitter.com/arnaix"
             },
             "support": {
+              "support_1": {
                 "name": "Belén",
                 "surname": "Fernández Pérez",
                 "position": "Customer & Support",
                 "sentence": "Customers Priority",
                 "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
                 "twitter": "https://twitter.com/BeeleenFP"
+              },
+              "support_2": {
+                "name": "Margot",
+                "surname": "Capó Barroso",
+                "position": "Customer & Support",
+                "sentence": "All kind of truly help",
+                "linkedin": "https://www.linkedin.com/in/margot-capó",
+                "twitter": "https://twitter.com/Margot_cb"
+              }
             },
             "sales": {
                 "sales_1": {
@@ -864,6 +944,13 @@
         "pre_advice": "It was an error on our server. Sorry for the inconvenience, we will solve soon",
         "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>."
     },
+    "aplicateca": {
+      "pricing_aplicateca": {
+        "anchor": "Harga",
+        "url": "@@config.base_path/prices-aplicateca/",
+        "title": "Upplication prices in Aplicateca"
+      }
+    },
     "external": {
         "titles": {
             "help": "bantuan:",
@@ -927,10 +1014,6 @@
             "anchor": "Harga",
             "url": "@@config.base_path/prices-indonesian/"
         },
-        "pricing_aplicateca": {
-            "anchor": "Harga",
-            "url": "@@config.base_path/prices-aplicateca/"
-        },
         "media_kit": {
             "anchor": "Pers",
             "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
@@ -965,7 +1048,8 @@
         },
         "aplicateca": {
             "anchor": "Login",
-            "url": "http://www.aplicateca.es/upplication"
+            "url": "http://www.aplicateca.es/upplication",
+            "title": "Enter on Telefónica´s Aplicateca"
         },
         "hiring": "We are hiring!",
         "hiring_developer": {
@@ -1122,7 +1206,7 @@
         "custom_app": {
             "title": "We make your 'made-to-measure' app",
             "subtitle": "Contact us and we will explain you how we do it.",
-            "btn": "Contact us"
+            "btn": "Build your own app with us"
         },
         "contact": {
             "customer_service": {
