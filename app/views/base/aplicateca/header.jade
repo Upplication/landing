@@ -1,6 +1,6 @@
 header.padding-top
-    a.logo.margin-bottom(title='#{header.logo.title}')
-        img(src="#{localConfig.base_path}/images/upplication.png", alt="#{header.logo.title}", title="#{header.logo.title}")
+    a.logo.margin-bottom
+        img(src="#{header.logo.url}", alt="#{header.logo.title}", title="#{header.logo.title}")
 
     a.icon-list
         span Menu
@@ -9,4 +9,4 @@ header.padding-top
         ul#sections
             include header-links
 
-    a.login.unstyled(href="#{$.aplicateca.header.url}", title="#{aplicateca.header.title}") #{$.aplicateca.header.anchor}
+    a.login.unstyled(href="#{$.aplicateca.pricing_aplicateca.url}", title="#{aplicateca.pricing_aplicateca.anchor}") #{$.aplicateca.pricing_aplicateca.anchor}

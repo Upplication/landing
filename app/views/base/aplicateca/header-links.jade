@@ -1,9 +1,9 @@
 li.menu_txt
-  p.uppercase.white #{header.menu}
+    p.uppercase.white #{header.menu}
 li
-    a(href='#{$.aplicateca.pricing.url}', title='#{$.aplicateca.pricing.title}') #{$.aplicateca.pricing.anchor}
+    a(href='#{$.aplicateca.pricing_aplicateca.url}', title="#{$.aplicateca.pricing_aplicateca.anchor}") #{$.aplicateca.pricing_aplicateca.anchor}
     each lang in langs.codes
         li.change-lang.change-lang-menu
             a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
 li.login_btn
-    a(href="#{$.aplicateca.header.url}", title="#{aplicateca.header.title}") #{$.aplicateca.header.anchor}
+    a(href='#{$.aplicateca.pricing_aplicateca.url}', title="#{$.aplicateca.pricing_aplicateca.anchor}") #{$.aplicateca.pricing_aplicateca.anchor}
