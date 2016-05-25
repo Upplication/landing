@@ -73,6 +73,8 @@ You can override this vars passing the concrete key as parameter with the prefix
      - _keywords: seo
      - _priority: sitemap priority
 
+We use Oneskyapp.com to translate/review the texts. You can use the task: grunt oneskyExport to override the lang with the translations in: https://upplication.oneskyapp.com (you need the access key and secret key)
+
 Notes:
 
 * You don't need to follow this process in order to link external resources (blog, youtube videos, etc.) using the language file.

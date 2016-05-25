@@ -1,15 +1,15 @@
 {
   "name": "Landing-Upplication",
-  "version": "2.7.7",
+  "version": "2.7.8",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "contributors": [{
-    "name": "Raul JimÈnez",
+    "name": "Raul Jim√©nez",
     "email": "@hhkaos"
     }, {
-      "name": "Borja AndrÈs",
+      "name": "Borja Andr√©s",
       "email": "@borya09"
     }, {
-      "name": "Javier Arn·iz",
+      "name": "Javier Arn√°iz",
       "email": "javier.arnaiz@upplication.com"
     }, {
       "name": "Javier Lorenzo",
@@ -41,6 +41,7 @@
     "grunt-rev": "~0.1.0",
     "grunt-svgmin": "~0.2.0",
     "grunt-usemin": "~0.1.11",
+    "grunt-onesky-export": "^0.1.7",
     "jpegtran-bin": "0.2.3",
     "load-grunt-tasks": "~0.1.0",
     "optipng-bin": "0.3.1",

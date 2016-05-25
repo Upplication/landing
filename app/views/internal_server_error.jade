@@ -12,7 +12,7 @@ block css
 block content
    // 500 ERROR
    .page-not-found-bg
-       img.responsive-img(src='#{localConfig.base_path}/images/error/500_bg.jpg', alt='#{internal_server_error.subtitle3}')
+       img.responsive-img(src='#{localConfig.base_path}/images/error/500_bg.jpg', title='#{internal_server_error.subtitle3}', alt='#{internal_server_error.subtitle3}')
    .container
       .col.s12.center-align.page-not-found-header.padBot50
          h4(data-text='500') #{internal_server_error.title}

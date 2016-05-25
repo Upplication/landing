@@ -84,7 +84,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                 .header-container.bg-vodafone-red
                     header.container.padding-top.bg-vodafone-red
                         a.logo.margin-bottom(href='#{localConfig.base_path}')
-                            img(src="#{localConfig.base_path}/images/vodafone.png", alt="Upplication logo")
+                            img(src="#{localConfig.base_path}/images/vodafone.png", title="#{home.vodafone.logo}", alt="#{home.vodafone.logo}")
 
                         a.icon-list
                             span Menu
@@ -109,112 +109,112 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                         .col.s12
                             ul.tabs
                                 li.tab.col.s6.l3
-                                    a.active(href='#host')
+                                    a.active(href='#host', title="#{home.samples.restaurants}")
                                         i.fa.fa-cutlery
                                         span #{home.samples.restaurants}
                                 li.tab.col.s6.l3
-                                    a(href='#tiendas')
+                                    a(href='#tiendas', title="#{home.samples.shops}")
                                         i.fa.fa-shopping-cart
                                         span #{home.samples.shops}
                                 li.tab.col.s6.l3
-                                    a(href='#servprof')
+                                    a(href='#servprof', title="#{home.samples.serv_alt}")
                                         i.fa.fa-wrench
                                         span !{home.samples.serv}
                                 li.tab.col.s6.l3
-                                    a(href='#personal')
+                                    a(href='#personal', title="#{home.samples.personal}")
                                         i.fa.fa-cog
                                         span #{home.samples.personal}
                         #host.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', title='#{home.samples.alt_tag.img_iphone}', alt='#{home.samples.alt_tag.img_iphone}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.rest.rest_intro}
                                     ul.uppOnFoot(type='circle')
                                         li
-                                            a(href='')
+                                            a(href='', title="#{home.samples.rest.details1}")
                                                 i.fa.fa-check
                                                 !{home.samples.rest.details1}
                                         li
-                                            a(href='')
+                                            a(href='', title="#{home.samples.rest.details2}")
                                                 i.fa.fa-check
                                                 !{home.samples.rest.details2}
                                         li
-                                            a(href='')
+                                            a(href='', title="#{home.samples.rest.details3}")
                                                 i.fa.fa-check
                                                 !{home.samples.rest.details3}
                                         li
-                                            a(href='')
+                                            a(href='', title="#{home.samples.rest.details4}")
                                                 i.fa.fa-check
                                                 !{home.samples.rest.details4}
                         #tiendas.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='#{home.samples.alt_tag.img_nexus}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', title='#{home.samples.alt_tag.img_nexus}', alt='#{home.samples.alt_tag.img_nexus}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.shop.shop_intro}
                                         | .
                                     ul.uppOnFoot(type='circle')
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.shop.shop_details1}")
                                                 i.fa.fa-check
                                                 !{home.samples.shop.shop_details1}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.shop.shop_details2}")
                                                 i.fa.fa-check
                                                 !{home.samples.shop.shop_details2}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.shop.shop_details3}")
                                                 i.fa.fa-check
                                                 !{home.samples.shop.shop_details3}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.shop.shop_details4}")
                                                 i.fa.fa-check
                                                 !{home.samples.shop.shop_details4}
                         #servprof.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='#{home.samples.alt_tag.img_galaxy}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', title='#{home.samples.alt_tag.img_galaxy}', alt='#{home.samples.alt_tag.img_galaxy}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.services.serv_intro}
                                     ul.uppOnFoot(type='circle')
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.services.serv_details1}")
                                                 i.fa.fa-check
                                                 !{home.samples.services.serv_details1}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.services.serv_details2}")
                                                 i.fa.fa-check
                                                 !{home.samples.services.serv_details2}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.services.serv_details3}")
                                                 i.fa.fa-check
                                                 !{home.samples.services.serv_details3}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.services.serv_details4}")
                                                 i.fa.fa-check
                                                 !{home.samples.services.serv_details4}
                         #personal.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', alt='#{home.samples.alt_tag.img_xperia}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', title='#{home.samples.alt_tag.img_xperia}', alt='#{home.samples.alt_tag.img_xperia}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.custom.cust_intro}
                                     ul.uppOnFoot(type='circle')
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.custom.cust_details1}")
                                                 i.fa.fa-check
                                                 !{home.samples.custom.cust_details1}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.custom.cust_details2}")
                                                 i.fa.fa-check
                                                 !{home.samples.custom.cust_details2}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.custom.cust_details3}")
                                                 i.fa.fa-check
                                                 !{home.samples.custom.cust_details3}
                                         li
-                                            a(href='#!')
+                                            a(href='#!', title="#{home.samples.custom.cust_details4}")
                                                 i.fa.fa-check
                                                 !{home.samples.custom.cust_details4}
         
