@@ -3,13 +3,13 @@
   "version": "2.7.7",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "contributors": [{
-    "name": "Raul Jiménez",
+    "name": "Raul Jimï¿½nez",
     "email": "@hhkaos"
     }, {
-      "name": "Borja Andrés",
+      "name": "Borja Andrï¿½s",
       "email": "@borya09"
     }, {
-      "name": "Javier Arnáiz",
+      "name": "Javier Arnï¿½iz",
       "email": "javier.arnaiz@upplication.com"
     }, {
       "name": "Javier Lorenzo",
@@ -41,6 +41,7 @@
     "grunt-rev": "~0.1.0",
     "grunt-svgmin": "~0.2.0",
     "grunt-usemin": "~0.1.11",
+    "grunt-onesky-export": "^0.1.7",
     "jpegtran-bin": "0.2.3",
     "load-grunt-tasks": "~0.1.0",
     "optipng-bin": "0.3.1",

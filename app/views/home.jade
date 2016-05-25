@@ -332,8 +332,9 @@ block scripts
     // TYPED PLUGIN JS
     script(type='text/javascript').
         $(function () {
+            var array = $.map(!{JSON.stringify(home.slider.text)}, function(el) { return el });
             $(".element").typed({
-                strings: !{JSON.stringify(home.slider.text)},
+                strings: array,
                 typeSpeed: 100,
                 startDelay: 200,
                 backDelay: 2500,
