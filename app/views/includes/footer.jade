@@ -3,26 +3,26 @@
     .container
         #clientsCarousel
             .item
-                a(href='http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='ABC logo')
+                a(href='#{ourclients.client1.url}', target='_blank', title='#{ourclients.client1.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
             .item
-                a(href='http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='El Economista logo')
+                a(href='#{ourclients.client2.url}', target='_blank', title='#{ourclients.client2.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='#{ourclients.client2.alt}', title='#{ourclients.client2.title}')
             .item
-                a(href='http://www.forbes.es/actualizaciones/', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='Forbes logo')
+                a(href='#{ourclients.client3.url}', target='_blank', title='#{ourclients.client3.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='#{ourclients.client3.alt}', title='#{ourclients.client3.title}')
             .item
-                a(href='http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='Emprende logo')
+                a(href='#{ourclients.client4.url}', target='_blank', title='#{ourclients.client4.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='#{ourclients.client4.alt}', title='#{ourclients.client4.title}')
             .item
-                a(href='http://blogthinkbig.com/upplication-post-pc/', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='Telefónica logo')
+                a(href='#{ourclients.client5.url}', target='_blank', title='#{ourclients.client5.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='#{ourclients.client5.alt}', title='#{ourclients.client5.title}')
             .item
-                a(href='http://www.ticbeat.com/pymes/servicios-crear-app-de-tu-negocio-sin-programar/', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='TicBeat logo')
+                a(href='#{ourclients.client6.url}', target='_blank', title='#{ourclients.client6.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='#{ourclients.client6.alt}', title='#{ourclients.client6.title}')
             .item
-                a(href='http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar', target='_blank', title='')
-                    img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='wwwhatsnew logo')
+                a(href='#{ourclients.client7.url}', target='_blank', title='#{ourclients.client7.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='#{ourclients.client7.alt}', title='#{ourclients.client7.title}')
 //- 15 DAYS TRIAL BUTTOM
 .pricing-plan
    .container
@@ -31,7 +31,7 @@
              h2 !{footer.try_it}
              span #{home.permanence}
           .pricing-plan-right
-             a.price-btn.modal-trigger(href='#pruebaGratis') #{header.free_trial}
+             a.price-btn.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}') #{header.free_trial}
           .clearfix
 //- COSTUMERS SERVICES CONTACT AREA
 .servCliente
@@ -39,7 +39,7 @@
       .col.s12
          ul
             li
-               a #{help_center.customer_service.text2}
+               a(title='#{help_center.customer_service.text2}') #{help_center.customer_service.text2}
             li.tel.hover-anim
                a(href='#{help_center.customer_service.phone.link}', title='#{help_center.customer_service.phone.alt_tag}')
                   i.icon-phone
@@ -154,13 +154,13 @@ footer.page-footer
                              ul
                                 li
                                     a(rel='nofollow', href='#{footer.partners.eu.url}', target='_blank', title='#{footer.partners.eu.title}')
-                                       img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='#{footer.partners.eu.title}')
+                                       img(src='#{localConfig.base_path}/images/home/icons/eu.png', alt='#{footer.partners.eu.title}', title='#{footer.partners.eu.title}')
                                 li
                                     a(rel='nofollow', href='#{footer.partners.mixpanel.url}', target='_blank', title='#{footer.partners.mixpanel.title}')
-                                       img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='#{footer.partners.mixpanel.title}')
+                                       img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='#{footer.partners.mixpanel.title}', title='#{footer.partners.mixpanel.title}')
                                 li
                                     a(rel='nofollow', href='#{footer.partners.telefonica.url}', target='_blank', title='#{footer.partners.telefonica.title}')
-                                        img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='#{footer.partners.telefonica.title}')
+                                        img(src='#{localConfig.base_path}/images/home/icons/telefonica.png', alt='#{footer.partners.telefonica.title}', title='#{footer.partners.telefonica.title}')
                                 li
                                     a(rel='nofollow', href='#{footer.partners.wayra.url}', target='_blank', title='#{footer.partners.wayra.title}')
-                                        img(src='#{localConfig.base_path}/images/home/icons/wayra.png', alt='#{footer.partners.wayra.title}')
+                                        img(src='#{localConfig.base_path}/images/home/icons/wayra.png', alt='#{footer.partners.wayra.title}', title='#{footer.partners.wayra.title}')

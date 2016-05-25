@@ -167,6 +167,35 @@ module.exports = function (grunt) {
     });
 
     grunt.initConfig({
+        oneskyExport: {
+            options: {
+                authFile: 'onesky.json',
+                projectId: '68574',
+                dest: yeomanConfig.app+ "/locales/",
+                indent: 4,
+                exportType: 'locale',
+                sortKeys: true,
+                sourceFile: 'es.json'
+            },
+            exportEs: {
+                options: {
+                    locale: 'es',
+                    output: 'es.json'
+                }
+            },
+            exportEn: {
+                options: {
+                    locale: 'en',
+                    output: 'en.json'
+                }
+            },
+            exportId: {
+                options: {
+                    locale: 'id',
+                    output: 'id.json'
+                }
+            }
+        },
         yeoman: yeomanConfig,
         watch: {
             styles: {
@@ -605,6 +634,7 @@ module.exports = function (grunt) {
         'gh-pages'
     ]);
 
+    grunt.loadNpmTasks('grunt-onesky-export');
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.loadNpmTasks('grunt-jade-i18n');
     grunt.loadNpmTasks('grunt-replace');

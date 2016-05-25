@@ -19,7 +19,7 @@ block content
         .container.offer-jobs
             h2.text-center.padTop50 #{external.hiring_marketing.anchor}
 
-            img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", alt="oficina")
+            img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", title="#{external.hiring}", alt="#{external.hiring}")
 
             .intro
                 each intro, i in offer_marketing.introduction

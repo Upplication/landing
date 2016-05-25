@@ -1,8 +1,8 @@
 //- MODAL :: FREE TRIAL
-a.modal-action.modal-close.waves-effect.waves-green.btn-flat
+a.modal-action.modal-close.waves-effect.waves-green.btn-flat(title='#{modal.head.close}')
     i.fa.fa-close
 .modal-content
-    h2 !{modal.head.register_modal}
+    h3 !{modal.head.register_modal}
     .row
         form(name="register", action="/register", method="post").col.s12.center
             input(type="hidden", name="customerType", value="UPPLICATION")

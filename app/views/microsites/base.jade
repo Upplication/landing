@@ -77,13 +77,13 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 .container
                     .logo
                         a.no-events(href='index.html', title='#{header.logo.title}')
-                            img(src='#{header.logo.url}', alt='#{header.logo.title}')
+                            img(src='#{header.logo.url}', title='#{header.logo.title}', alt='#{header.logo.title}')
                     .contact-info
                         .contact-info-grids
                             .contact-info-left
-                                a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
+                                a.chat.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}') #{header.free_trial}
                             .contact-info-right
-                                a.modal-trigger(href='#allContact') #{header.telephone}
+                                a.modal-trigger(href='#allContact', title='#{header.telephone}') #{header.telephone}
                                 a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
                             .clearfix
                     .clearfix
@@ -119,7 +119,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             span #{form.call_to_action}
         // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
         .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
-            a.price-btn.btn-green.modal-trigger(href='#pruebaGratis')
+            a.price-btn.btn-green.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}')
                 span #{form.call_to_action}
         // FEATURES (Intro Tips)
         block features

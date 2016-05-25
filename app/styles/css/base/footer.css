@@ -181,24 +181,15 @@ footer.page-footer ul.footLinks li a {
   color: #555;
   font-size: 15px;
   letter-spacing: .03em;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-duration: .5s;
-  transition-duration: .5s;
-  transform: translate(0px);
-  -ms-transform: translate(0px);
-  -webkit-transform: translate(0px);
+  padding-left: 0;
+  -webkit-transition: padding 0.5s;
+  -ms-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 
 footer.page-footer ul.footLinks li a:hover {
   color: #111;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-duration: .5s;
-  transition-duration: .5s;
-  transform: translate(10px);
-  -ms-transform: translate(10px);
-  -webkit-transform: translate(10px);
+  padding-left: 20px;
 }
 
 footer.page-footer ul li.schedule-foot {

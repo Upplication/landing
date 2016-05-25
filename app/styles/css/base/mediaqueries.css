@@ -1756,7 +1756,7 @@ Copyright 2015
     right: 11% !important;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 34px 14px 0 0;
     top: 30px;
   }
@@ -1775,21 +1775,21 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 1380px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 2.5em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     top: -1px;
   }
 }
 
 @media only screen and (max-width: 1325px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 2.4em;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 42px 28px 0 0;
   }
 }
@@ -1810,13 +1810,13 @@ Copyright 2015
     width: 90%;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 43px 10px;
   }
 }
 
 @media only screen and (max-width: 1180px) {
-  .mainHead h2 {
+  .mainHead h1 {
     padding-top: 10px;
   }
 }
@@ -1832,79 +1832,79 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 1001px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 2.2em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 39px 10px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 37px 28px 0 0;
   }
 }
 
 @media only screen and (max-width: 940px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 2em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 36px 10px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 35px 28px 0 0;
   }
 }
 
 @media only screen and (max-width: 885px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.9em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 34px 10px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 33px 28px 0 0;
   }
 
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: 1.4em;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 34px 14px 0 0;
     top: 30px;
   }
 }
 
 @media only screen and (max-width: 830px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.8em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 32px 10px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 31px 28px 0 0;
   }
 
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: 1.2em;
   }
 
-  .mainHead h2 span.intro-2a:before {
+  .mainHead h1 span.intro-2a:before {
     border-width: 0px 0 30px 10px;
     top: -26px;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 31px 14px 0 0;
     top: 27px;
     right: -19px;
@@ -1918,166 +1918,166 @@ Copyright 2015
     left: 30px;
   }
 
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.7em;
     margin: 0;
     padding-bottom: 5px;
   }
 
-  .mainHead h1 span {
+  .mainHead h2 span {
     display: inline-block;
     margin-top: 5px;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 40px 16px;
     left: -16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 39px 19px 0 0;
     right: -19px;
   }
 
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: 1.3em;
     margin: 0;
   }
 
-  .mainHead h2 span {
+  .mainHead h1 span {
     display: inline-block;
   }
 
-  .mainHead h2 span.intro-2b {
+  .mainHead h1 span.intro-2b {
     margin-left: -5px;
   }
 }
 
 @media only screen and (max-width: 720px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.5em;
     margin: 0;
     padding-bottom: 5px;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 37px 16px;
     left: -16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 36px 19px 0 0;
     right: -19px;
   }
 }
 
 @media only screen and (max-width: 655px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.3em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 33px 16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 32px 19px 0 0;
   }
 
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: 1em;
   }
 
-  .mainHead h2 span.intro-2a:before {
+  .mainHead h1 span.intro-2a:before {
     border-width: 0px 0 27px 10px;
     top: -23px;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 27px 14px 0 0;
     top: 23px;
   }
 
-  .mainHead h2 span.intro-2b {
+  .mainHead h1 span.intro-2b {
     margin-left: -4px;
   }
 }
 
 @media only screen and (max-width: 560px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.1em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 30px 16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 29px 19px 0 0;
   }
 
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: .8em;
   }
 
-  .mainHead h2 span.intro-2a:before {
+  .mainHead h1 span.intro-2a:before {
     border-width: 0px 0 24px 10px;
     top: -19px;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 24px 14px 0 0;
     top: 20px;
   }
 }
 
 @media only screen and (max-width: 510px) {
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 28px 16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 27px 19px 0 0;
   }
 }
 
 @media only screen and (max-width: 465px) {
-  .mainHead h1,
+  .mainHead h2,
   .mainHead .typed-effect {
     display: table;
   }
 
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.5em;
     padding-top: 5px;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 68px 16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 68px 19px 0 0;
   }
 
-  .mainHead h2 {
+  .mainHead h1 {
     font-size: 1.3em;
   }
 
-  .mainHead h2 span {
+  .mainHead h1 span {
     display: table;
   }
 
-  .mainHead h2 span.intro-2a:before {
+  .mainHead h1 span.intro-2a:before {
     border-width: 0px 0 31px 10px;
     top: -27px;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 31px 14px 0 0;
     top: 27px;
   }
@@ -2088,42 +2088,42 @@ Copyright 2015
     left: 20px;
   }
 
-  .mainHead h1 {
+  .mainHead h2 {
     font-size: 1.3em;
   }
 
-  .mainHead h1:before {
+  .mainHead h2:before {
     border-width: 0 0 60px 16px;
   }
 
-  .mainHead h1:after {
+  .mainHead h2:after {
     border-width: 60px 19px 0 0;
   }
 }
 
 @media only screen and (max-width: 360px) {
-  .mainHead h1 {
-    font-size: 1.1em;
-  }
-
-  .mainHead h1:before {
-    border-width: 0 0 54px 16px;
-  }
-
-  .mainHead h1:after {
-    border-width: 54px 19px 0 0;
-  }
-
   .mainHead h2 {
     font-size: 1.1em;
   }
 
-  .mainHead h2 span.intro-2a:before {
+  .mainHead h2:before {
+    border-width: 0 0 54px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 54px 19px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h1 span.intro-2a:before {
     border-width: 0px 0 29px 10px;
     top: -25px;
   }
 
-  .mainHead h2 span.intro-2b:after {
+  .mainHead h1 span.intro-2b:after {
     border-width: 29px 14px 0 0;
     top: 25px;
   }
@@ -2145,6 +2145,7 @@ Copyright 2015
 /* ... HEADERS :: TITLE SECTIONS ...................................................... */
 
 @media only screen and (max-width: 450px) {
+  h2.headTitles,
   h4 {
     font-size: 2rem;
   }

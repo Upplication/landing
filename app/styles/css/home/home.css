@@ -17,7 +17,7 @@ Copyright 2016
   text-shadow: 1px 1px 1px #000;
 }
 
-.mainHead h1 {
+.mainHead h2 {
   font-size: 2.6em;
   text-transform: uppercase;
   font-weight: 600;
@@ -30,7 +30,7 @@ Copyright 2016
   position: relative;
 }
 
-.mainHead h1:before {
+.mainHead h2:before {
   content: '';
   width: 0;
   height: 0;
@@ -43,7 +43,7 @@ Copyright 2016
 
 /*  */
 
-.mainHead h1:after {
+.mainHead h2:after {
   content: '';
   width: 0;
   height: 0;
@@ -55,35 +55,35 @@ Copyright 2016
   top: 0;
 }
 
-.mainHead h1,
+.mainHead h2,
 .mainHead .typed-effect,
-.mainHead h1 .typed-effect span {
+.mainHead h2 .typed-effect span {
   display: inline-block;
 }
 
-.mainHead h1 span {
+.mainHead h2 span {
   color: #00c86b;
   font-weight: 600;
   padding-right: 5px;
 }
 
-.mainHead h2 {
+.mainHead h1 {
   font-size: 1.6em;
   font-weight: 500;
 }
 
-.mainHead h2 span {
+.mainHead h1 span {
   background-color: rgba(0,0,0,.7);
   display: table;
   padding: 5px;
   margin: 10px 0;
 }
 
-.mainHead h2 span.intro-2b {
+.mainHead h1 span.intro-2b {
   margin-left: -6px;
 }
 
-.mainHead h2 span.intro-2a:before {
+.mainHead h1 span.intro-2a:before {
   content: '';
   width: 0;
   height: 0;
@@ -95,7 +95,7 @@ Copyright 2016
   top: -34px;
 }
 
-.mainHead h2 span.intro-2b:after {
+.mainHead h1 span.intro-2b:after {
   content: '';
   width: 0;
   height: 0;
@@ -211,7 +211,7 @@ a.terms-conditions {
 
 .dippah {
   position: relative;
-  bottom: 45px;
+  bottom: 47px;
   z-index: 100;
   width: 100%;
   height: 90px;
@@ -484,14 +484,12 @@ a.terms-conditions {
 }
 
 .plans-head h2 {
-  color: #777;
-  font-family: "Lato";
-  text-transform: uppercase;
+  color: #555;
+  font-family: "Raleway", sans-serif;
   font-size: 2em;
   font-weight: 400;
-  margin: 0;
+  margin: 2em 0;
   padding: 0 0 0.5em 0;
-  word-spacing: 0.2em;
 }
 
 .plans-head p {
