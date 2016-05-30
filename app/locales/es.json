@@ -113,14 +113,6 @@
                 "surname": "¿Eres el siguiente?"
             },
             "sales": {
-                "sales_1": {
-                    "linkedin": "https://www.linkedin.com/in/jcoomonte",
-                    "name": "Javier",
-                    "position": "Gerente de Ventas",
-                    "sentence": "¡Todo por la pasta!",
-                    "surname": "Coomonte Suárez",
-                    "twitter": "https://twitter.com/jcoomonte"
-                },
                 "sales_2": {
                     "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
                     "name": "Álvaro",
@@ -808,7 +800,7 @@
             "telf": "tel:0034810512370"
         },
         "footer": {
-            "accept": "Al hacer clic en 'Prueba Gratis' aceptas nuestros",
+            "free": "15 días de prueba gratis con ayuda personalizada.",
             "seller": "¿Tienes un código seller?",
             "terms": " términos y condiciones"
         },

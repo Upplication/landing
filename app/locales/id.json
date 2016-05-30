@@ -113,14 +113,6 @@
                 "surname": "Are you the next one?"
             },
             "sales": {
-                "sales_1": {
-                    "linkedin": "https://www.linkedin.com/in/jcoomonte",
-                    "name": "Javier",
-                    "position": "Sales Manager",
-                    "sentence": "all for a buck!",
-                    "surname": "Coomonte Suárez",
-                    "twitter": "https://twitter.com/jcoomonte"
-                },
                 "sales_2": {
                     "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
                     "name": "Álvaro",
@@ -808,7 +800,7 @@
             "telf": "tel:0034810512370"
         },
         "footer": {
-            "accept": "Dengan mengklik tombol 'Coba Gratis' Anda setuju dengan",
+            "free": "15 hari coba gratis dengan bantuan pribadi.",
             "seller": "Do you have a seller code?",
             "terms": " syarat dan ketentuan kami"
         },
