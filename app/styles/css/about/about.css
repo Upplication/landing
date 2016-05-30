@@ -76,14 +76,6 @@ Copyright 2015
   background: url("@@config.base_path/images/about/margot_support_2.jpg") no-repeat center center;
 }
 
-.team-coomonte {
-  background: url("@@config.base_path/images/about/coomonte_sales.jpg") no-repeat center center;
-}
-
-.team-coomonte:hover {
-  background: url("@@config.base_path/images/about/coomonte_sales_2.jpg") no-repeat center center;
-}
-
 .team-noemi {
   background: url("@@config.base_path/images/about/noemi_account.jpg") no-repeat center center;
 }

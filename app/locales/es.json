@@ -113,14 +113,6 @@
                 "surname": "¿Eres el siguiente?"
             },
             "sales": {
-                "sales_1": {
-                    "linkedin": "https://www.linkedin.com/in/jcoomonte",
-                    "name": "Javier",
-                    "position": "Gerente de Ventas",
-                    "sentence": "¡Todo por la pasta!",
-                    "surname": "Coomonte Suárez",
-                    "twitter": "https://twitter.com/jcoomonte"
-                },
                 "sales_2": {
                     "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
                     "name": "Álvaro",
@@ -164,6 +156,18 @@
             "title": "Precios de Upplication en Aplicateca",
             "url": "@@config.base_path/precios-aplicateca/"
         }
+    },
+    "blog_is_out": {
+        "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+        "_meta_description": "Biografía y expansión internacional de Upplication: creador de apps móvil online sin necesidad de programación, en cuestión de minutos, para Android e iOS",
+        "_meta_title": "Biografía de Upplication: creador de apps",
+        "_url": "/blog-en-reconstruccion/",
+        "pre_advice": "Muy pronto será el lanzamiento de nuestro nuevo blog pero mientras tanto... ¡seguimos celebrando la undécima!",
+        "subtitle1": "...",
+        "subtitle2": "temporalmente fuera de servicio",
+        "subtitle3": "Blog temporalmente fuera de servicio",
+        "suggestion": "Desplácese a través de nuestro menú de navegación superior a otra página dentro de nuestra web o pinche <a href=\"@@config.base_path/\">aquí para volver al Inicio</a>.",
+        "title": "Blog..."
     },
     "company": {
         "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
@@ -808,7 +812,7 @@
             "telf": "tel:0034810512370"
         },
         "footer": {
-            "accept": "Al hacer clic en 'Prueba Gratis' aceptas nuestros",
+            "free": "15 días de prueba gratis con ayuda personalizada.",
             "seller": "¿Tienes un código seller?",
             "terms": " términos y condiciones"
         },

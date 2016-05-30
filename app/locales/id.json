@@ -113,14 +113,6 @@
                 "surname": "Are you the next one?"
             },
             "sales": {
-                "sales_1": {
-                    "linkedin": "https://www.linkedin.com/in/jcoomonte",
-                    "name": "Javier",
-                    "position": "Sales Manager",
-                    "sentence": "all for a buck!",
-                    "surname": "Coomonte Suárez",
-                    "twitter": "https://twitter.com/jcoomonte"
-                },
                 "sales_2": {
                     "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
                     "name": "Álvaro",
@@ -165,11 +157,22 @@
             "url": "@@config.base_path/prices-aplicateca/"
         }
     },
+    "blog_is_out": {
+        "_keywords": "error, blog is out, blog is out of service, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_meta_description": "Blog is out of service in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
+        "_meta_title": "Blog dari layanan di Upplication: buat aplikasi untuk bisnis Anda",
+        "_url": "/blog-dari-layanan/",
+        "pre_advice": "Muy pronto será el lanzamiento de nuestro nuevo blog pero mientras tanto... ¡seguimos celebrando la undécima!",
+        "subtitle1": "...",
+        "subtitle2": "dari layanan",
+        "subtitle3": "Blog dari layanan",
+        "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>.",
+        "title": "Blog..."
+    },
     "company": {
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding and quick, just in few minutes!",
         "_meta_title": "Upplication Bio, the app creator",
-        "_priority": "0.9",
         "_url": "/company-bio-indonesian/",
         "intro": {
             "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and be different from the competitors</span>.",
@@ -808,7 +811,7 @@
             "telf": "tel:0034810512370"
         },
         "footer": {
-            "accept": "Dengan mengklik tombol 'Coba Gratis' Anda setuju dengan",
+            "free": "15 hari coba gratis dengan bantuan pribadi.",
             "seller": "Do you have a seller code?",
             "terms": " syarat dan ketentuan kami"
         },
