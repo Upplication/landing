@@ -113,14 +113,6 @@
                 "surname": "Are you the next one?"
             },
             "sales": {
-                "sales_1": {
-                    "linkedin": "https://www.linkedin.com/in/jcoomonte",
-                    "name": "Javier",
-                    "position": "Sales Manager",
-                    "sentence": "All for a buck!",
-                    "surname": "Coomonte Suárez",
-                    "twitter": "https://twitter.com/jcoomonte"
-                },
                 "sales_2": {
                     "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
                     "name": "Álvaro",
@@ -164,6 +156,18 @@
             "title": "Upplication prices in Aplicateca",
             "url": "@@config.base_path/prices-aplicateca/"
         }
+    },
+    "blog_is_out": {
+        "_keywords": "error, blog is out, blog is out of service, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_meta_description": "Blog is out of service in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
+        "_meta_title": "Blog is out in Upplication: the app creator",
+        "_url": "/blog-is-out/",
+        "pre_advice": "Stay tuned because the launching of our new blog will be very soon but in the meantime… we continue celebrating the Champions league cup!",
+        "subtitle1": "...",
+        "subtitle2": "is temporarily out of service",
+        "subtitle3": "Blog is temporarily out of service",
+        "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>.",
+        "title": "Blog..."
     },
     "company": {
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
@@ -808,7 +812,7 @@
             "telf": "tel:0034810512370"
         },
         "footer": {
-            "accept": "By clicking the 'Free Trial' button you accept our",
+            "free": "15 days free trial with friendly support.",
             "seller": "Do you have a seller code?",
             "terms": "terms and conditions"
         },

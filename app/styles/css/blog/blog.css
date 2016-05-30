@@ -1,0 +1,43 @@
+/*
+Blog is Out ("Blog not working" error page) CSS: Custom Stylesheet --- Error blog: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2016
+*/
+
+.page-not-found-header h4 {
+  font-size: 180px;
+}
+
+.page-not-found-header h4:after {
+  text-shadow: 85px 8px 7px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:980px) {
+  .page-not-found-header h4 {
+    font-size: 150px;
+  }
+
+  .page-not-found-header h4:after {
+    text-shadow: 10px 8px 7px rgba(0, 0, 0, 0.1);
+  }
+
+  .page-not-found-header p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width:480px) {
+  .page-not-found-header h4 {
+    font-size: 100px;
+    margin-top: 95px;
+  }
+
+  .page-not-found-header h4:after {
+    text-shadow: 2px 8px 7px rgba(0, 0, 0, 0.1);
+  }
+
+  .page-not-found-header p {
+    font-size: 18px;
+  }
+}
