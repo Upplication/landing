@@ -71,12 +71,13 @@ Copyright 2015
 }
 
 .top-nav ul li a:hover {
-  background-color: rgba(254,254,255,.7);
+  background-color: transparent;
 }
 
 .top-nav ul li a {
   color: #111b0a;
   padding: 0.2em 0.8em;
+  max-height: 40px;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -259,8 +260,6 @@ ul#dropdown-terms li:hover {
     float: right;
     background-color: #fefeff;
     margin-top: 2px;
-    border-right: 1px solid #c9cedf;
-    border-left: 1px solid #c9cedf;
     border-bottom: 1px solid #c9cedf;
   }
 
