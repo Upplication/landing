@@ -227,7 +227,8 @@
         },
         "blog": {
             "anchor": "Blog",
-            "url": "/blog"
+            "title": "Blog de Upplication",
+            "url": "@@config.base_path/blog-en-reconstruccion/"
         },
         "breakfasts": {
             "anchor": "Desayunos Upplication",
