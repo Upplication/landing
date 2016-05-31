@@ -157,18 +157,6 @@
             "url": "@@config.base_path/prices-aplicateca/"
         }
     },
-    "blog_is_out": {
-        "_keywords": "error, blog is out, blog is out of service, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "_meta_description": "Blog is out of service in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
-        "_meta_title": "Blog is out in Upplication: the app creator",
-        "_url": "/blog-is-out/",
-        "pre_advice": "Stay tuned because the launching of our new blog will be very soon but in the meantime… we continue celebrating the Champions league cup!",
-        "subtitle1": "...",
-        "subtitle2": "is temporarily out of service",
-        "subtitle3": "Blog is temporarily out of service",
-        "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>.",
-        "title": "Blog..."
-    },
     "company": {
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",

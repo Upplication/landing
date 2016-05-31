@@ -157,18 +157,6 @@
             "url": "@@config.base_path/prices-aplicateca/"
         }
     },
-    "blog_is_out": {
-        "_keywords": "error, blog is out, blog is out of service, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-        "_meta_description": "Blog is out of service in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
-        "_meta_title": "Blog dari layanan di Upplication: buat aplikasi untuk bisnis Anda",
-        "_url": "/blog-dari-layanan/",
-        "pre_advice": "Muy pronto será el lanzamiento de nuestro nuevo blog pero mientras tanto... ¡seguimos celebrando la undécima!",
-        "subtitle1": "...",
-        "subtitle2": "dari layanan",
-        "subtitle3": "Blog dari layanan",
-        "suggestion": "Choose another link in the top header navigation menu or click <a href=\"@@config.base_path/\">here to come back home page</a>.",
-        "title": "Blog..."
-    },
     "company": {
         "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
         "_meta_description": "Do apps yourself, for your business. It is easy, without coding and quick, just in few minutes!",
