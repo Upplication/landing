@@ -239,6 +239,7 @@
         },
         "blog": {
             "anchor": "Blog",
+            "title": "Upplication´s Blog",
             "url": "http://blog.en.upplication.com"
         },
         "breakfasts": {

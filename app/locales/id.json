@@ -237,8 +237,9 @@
             "url": "@@config.base_path/showcase/"
         },
         "blog": {
-            "anchor": "Blog",
-            "url": "http://blog.en.upplication.com"
+          "anchor": "Blog",
+          "title": "Upplication´s Blog",
+          "url": "http://blog.en.upplication.com"
         },
         "breakfasts": {
             "anchor": "Gabung dengan kami untuk sarapan",
