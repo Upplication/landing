@@ -6,7 +6,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/nosotros/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/about-us/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/about-us-indonesian/"/>
-		<lastmod>2016-05-25</lastmod>
+		<lastmod>2016-05-31</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
@@ -14,7 +14,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/bio-de-empresa/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/company-bio/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/company-bio-indonesian/"/>
-		<lastmod>2016-05-25</lastmod>
+		<lastmod>2016-05-31</lastmod>
 		<priority>0.9</priority>
 	</url>
 	<url>
@@ -30,7 +30,7 @@
 		<xhtml:link rel="alternate" hreflang="es" href="https://localhost:9000/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://localhost:9000/build-your-app/"/>
 		<xhtml:link rel="alternate" hreflang="id" href="https://localhost:9000/generator-aplikasi/"/>
-		<lastmod>2016-05-25</lastmod>
+		<lastmod>2016-05-31</lastmod>
 		<priority>1.0</priority>
 	</url>
 	<url>

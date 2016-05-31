@@ -375,6 +375,7 @@ module.exports = function (grunt) {
                         dest: '<%= yeoman.dist %>',
                         src: [
                             '*.{ico,png,txt,xml}',
+                            '_redirects',
                             '.htaccess',
                             'bower_components/**/*',
                             'images/{,**/}*.{jpg,gif,png,webp}',

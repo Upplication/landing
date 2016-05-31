@@ -1,0 +1,12 @@
+# seo redirects
+/showcase   /build-your-app/
+/showcase/  /build-your-app/
+
+/inspirate  /
+/inspirate/ /
+
+# custom 404
+/* /pagina-no-encontrada 404
+
+# proxy the blog
+/blog/*  http://blog.upplication.com/:splat  200
