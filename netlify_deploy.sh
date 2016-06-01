@@ -5,7 +5,7 @@ bash set -e
 
 zip -r website.zip dist
 
-if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
+if [[ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]]
 then
     curl -H "Content-Type: application/zip" \
         -H "Authorization: Bearer $token" \
@@ -13,7 +13,7 @@ then
         https://api.netlify.com/api/v1/sites/landing-upplication/deploys
     echo "Build successful, publishing in production environment!"
 
-elif ([ $TRAVIS_BRANCH == "develop" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
+elif [[ $TRAVIS_BRANCH == "develop" && $TRAVIS_PULL_REQUEST == "false" ]]
 then
     curl -H "Content-Type: application/zip" \
             -H "Authorization: Bearer $token" \
