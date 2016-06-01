@@ -1,4 +1,3 @@
-sudo: required
 language: node_js
 node_js:
   - "4.2"
@@ -12,5 +11,5 @@ script:
   - if [ "$TRAVIS_BRANCH" == "develop" ]; then grunt deploy --env=landing.upplication.priv --config.base_path=//landing.dev.upplication.com; fi
   - if [ "$TRAVIS_BRANCH" == "master" ]; then grunt deploy --env=upplication.com; fi
 after_success:
-  - if [ "$TRAVIS_BRANCH" == "develop" ]; then netlify -t $TOKEN -e develop; fi
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then netlify -t $TOKEN -e production; fi
+  - if [ "$TRAVIS_BRANCH" == "develop" ]; then netlify deploy -t $TOKEN -e develop; fi
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then netlify deploy -t $TOKEN -e production; fi
