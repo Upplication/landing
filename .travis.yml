@@ -1,0 +1,18 @@
+sudo: required
+language: node_js
+node_js:
+  - "4.2"
+before_install:
+  - sudo npm install -g netlify
+  - sudo npm install -g bower
+  - sudo npm install -g grunt-cli
+  - sudo npm install
+  - sudo bower install
+before_script:
+- chmod a+x ./print_surefire_reports.sh
+script:
+  - if [ "$TRAVIS_BRANCH" == "develop" ]; then grunt deploy --env=landing.upplication.priv --config.base_path=//landing.dev.upplication.com; fi
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then grunt deploy --env=upplication.com; fi
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "develop" ]; then netlify -t $TOKEN -e develop; fi
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then netlify -t $TOKEN -e production; fi
