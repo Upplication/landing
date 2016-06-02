@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Upplication/landing.svg?branch=develop)](https://travis-ci.org/Upplication/landing)
+
 INSTALLATION
 --------
 Clone this repo and install the dependencies:

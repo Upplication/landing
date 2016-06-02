@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "4.2"
+before_install:
+  - npm install -g bower
+  - npm install -g grunt-cli
+  - npm install
+  - bower install
+before_script:
+  - chmod a+x ./netlify_deploy.sh
+script:
+  - if [ "$TRAVIS_BRANCH" == "develop" ]; then grunt deploy --env=landing.upplication.priv --config.base_path=//landing.dev.upplication.com; fi
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then grunt deploy --env=upplication.com; fi
+after_success:
+  - ./netlify_deploy.sh
