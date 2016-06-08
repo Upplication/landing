@@ -1,0 +1,1778 @@
+{
+    "about_us": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication \u00e9 um criador de apps online para ti ou para a tua empresa. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o e em quest\u00e3o de minutos. Para Android e iOS",
+        "_meta_title": "Equipa de Upplication: criador de apps",
+        "_priority": "0.8",
+        "_url": "\/n\u00f3s\/",
+        "departments": {
+            "develop": {
+                "img": "Todos os frikis reunidos!",
+                "text": "Cordova, AngularJS, Java, CSS, UX\u2026 Adoramos a tecnologia e somos um pouco freaks. Trabalhamos com metodologias \u00e1geis e estamos a mudar a forma nas quais as PME do mundo criam as suas apps m\u00f3veis. Todos os dias aprendemos algo novo.",
+                "title": "Dept. Desenvolvimento"
+            },
+            "marketing": {
+                "img": "O trabalho duro dos nossos vendedores",
+                "text": "Lideramos o crescimento do projeto em qualquer canto do mundo. O nosso dia-a-dia est\u00e1 orientado para os dados e para a an\u00e1lise. Sempre a pensar em como vender mais e mais r\u00e1pido. Cada vez que temos um novo cliente fazemos soar a buzina nos nossos escrit\u00f3rios.",
+                "title": "Dept. Marketing"
+            },
+            "subtitle": "Conhece",
+            "support": {
+                "img": "A Bel\u00e9n a ligar aos nossos clientes com o seu melhor sorriso",
+                "text": "Objetivo priorit\u00e1rio que o cliente seja feliz. Falamos todos os dias com centenas de utilizadores de mais de 65 pa\u00edses do mundo. Somos muito pr\u00f3ximos e temos sempre um sorriso nos l\u00e1bios. Adoramos ajudar-te para que a tua experi\u00eancia seja rent\u00e1vel connosco.",
+                "title": "Dept. Suporte"
+            },
+            "title": "os nossos departamentos"
+        },
+        "team": {
+            "admin": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/noemidiazsanz",
+                "name": "Noem\u00ed",
+                "position": "Administra\u00e7\u00e3o",
+                "sentence": "Guardi\u00e3 das divisas",
+                "surname": "D\u00edaz Sanz",
+                "twitter": ""
+            },
+            "ceo": {
+                "linkedin": "https:\/\/es.linkedin.com\/in\/joseluisvds",
+                "name": "Jos\u00e9 Luis",
+                "position": "Co-fundador e CEO",
+                "sentence": "Eu mando!",
+                "surname": "Vega de Seoane Barona",
+                "twitter": "https:\/\/twitter.com\/joseluisVdS"
+            },
+            "cmo": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/victorrodadofrutos",
+                "name": "V\u00edctor",
+                "position": "Co-fundador e CMO",
+                "sentence": "Eu tamb\u00e9m mando, eh?",
+                "surname": "Rodado Frutos",
+                "twitter": "https:\/\/twitter.com\/rodadofrutos"
+            },
+            "communication": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/kelia-vidarte-ojeda-00b03a76",
+                "name": "Kelia",
+                "position": "Assistente de comunica\u00e7\u00e3o",
+                "sentence": "Deem-me um megafone e ver\u00e3o!",
+                "surname": "Vidarte Ojeda",
+                "twitter": "https:\/\/twitter.com\/kelitraveler"
+            },
+            "community": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/cristinadiazgallego",
+                "name": "Cristina",
+                "position": "Respons\u00e1vel de comunica\u00e7\u00e3o",
+                "sentence": "A melhor captadora de followers",
+                "surname": "D\u00edaz Gallego",
+                "twitter": "https:\/\/twitter.com\/MissRe_"
+            },
+            "cto": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/javierarnaizgonzalez",
+                "name": "Javier",
+                "position": "CTO",
+                "sentence": "Guru da tecnologia",
+                "surname": "Arn\u00e1iz Gonz\u00e1lez",
+                "twitter": "https:\/\/twitter.com\/arnaix"
+            },
+            "design": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/javierlorenzofernandez",
+                "name": "Javier",
+                "position": "Arte e Desenho",
+                "sentence": "Vermelho \u00e9 uma cor...",
+                "surname": "Lorenzo Fern\u00e1ndez",
+                "twitter": "https:\/\/twitter.com\/jalofernandez"
+            },
+            "dev": {
+                "backend_1": {
+                    "linkedin": "https:\/\/www.linkedin.com\/in\/gorka-jimeno-99345397",
+                    "name": "Gorka",
+                    "position": "Desenvolvedor",
+                    "sentence": "Ctrl + F",
+                    "surname": "Jimeno Garrach\u00f3n",
+                    "twitter": "https:\/\/twitter.com\/gorkajg"
+                },
+                "backend_2": {
+                    "linkedin": "https:\/\/www.linkedin.com\/in\/marcos-rojas-martin-4754184a",
+                    "name": "Marcos",
+                    "position": "Desenvolvedor",
+                    "sentence": "#estouCansado...",
+                    "surname": "Rojas Mart\u00edn",
+                    "twitter": "https:\/\/twitter.com\/Mrk992"
+                },
+                "frontend_1": {
+                    "linkedin": "https:\/\/www.linkedin.com\/in\/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+                    "name": "Juan Jos\u00e9",
+                    "position": "Desenvolvedor",
+                    "sentence": "Java n\u00e3o \u00e9 s\u00f3 uma personagem de Star Wars",
+                    "surname": "Herrero Barbosa",
+                    "twitter": "https:\/\/twitter.com\/dark_xuan"
+                }
+            },
+            "nextone": {
+                "position": "S\u00ea parte da nossa equipa",
+                "sentence": "Tipo novo na vizinhan\u00e7a",
+                "surname": "\u00c9s o seguinte?"
+            },
+            "sales": {
+                "sales_2": {
+                    "linkedin": "https:\/\/www.linkedin.com\/in\/alvaroalcanizrubio",
+                    "name": "\u00c1lvaro",
+                    "position": "Gerente de Vendas",
+                    "sentence": "O dinheiro nunca dorme",
+                    "surname": "Alca\u00f1iz Rubio",
+                    "twitter": "https:\/\/twitter.com\/alcanizalv"
+                }
+            },
+            "subtitle": "Conhece",
+            "support": {
+                "linkedin": "https:\/\/www.linkedin.com\/in\/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
+                "name": "Bel\u00e9n",
+                "position": "Aten\u00e7\u00e3o ao cliente",
+                "sentence": "A minha prioridade \u00e9s tu",
+                "support_1": {
+                    "linkedin": "https:\/\/www.linkedin.com\/in\/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
+                    "name": "Bel\u00e9n",
+                    "position": "Aten\u00e7\u00e3o ao cliente",
+                    "sentence": "A minha prioridade \u00e9s tu",
+                    "surname": "Fern\u00e1ndez P\u00e9rez",
+                    "twitter": "https:\/\/twitter.com\/BeeleenFP"
+                },
+                "support_2": {
+                    "linkedin": "https:\/\/www.linkedin.com\/in\/margot-cap\u00f3",
+                    "name": "Margot",
+                    "position": "Aten\u00e7\u00e3o ao cliente",
+                    "sentence": "Ajuda todo terreno",
+                    "surname": "Cap\u00f3 Barroso",
+                    "twitter": "https:\/\/twitter.com\/Margot_cb"
+                },
+                "surname": "Fern\u00e1ndez P\u00e9rez",
+                "twitter": "https:\/\/twitter.com\/BeeleenFP"
+            },
+            "title": "a nossa equipa"
+        }
+    },
+    "aplicateca": {
+        "pricing_aplicateca": {
+            "anchor": "Pre\u00e7os",
+            "title": "Pre\u00e7os de Upplication em Aplicateca",
+            "url": "@@config.base_path\/precios-aplicateca\/"
+        }
+    },
+    "company": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Biografia e expans\u00e3o internacional da Upplication: criador de apps m\u00f3vel online sem necessidade de programa\u00e7\u00e3o, em quest\u00e3o de minutos, para Android e iOS",
+        "_meta_title": "Biografia da Upplication: criador de apps",
+        "_priority": "0.9",
+        "_url": "\/bio-de-empresa\/",
+        "intro": {
+            "description": "<a href=\"https:\/\/www.youtube.com\/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication<\/a> <span>\u00e9 um servi\u00e7o \u00fatil, completo e totalmente personalizado de marketing m\u00f3vel <\/span> e para ajudar \u00e0s PME a criar um <span> novo canal de comunica\u00e7\u00e3o <\/span> aportando-lhes solu\u00e7\u00f5es, ideias e ferramentas com as quais podem conseguir o que para n\u00f3s \u00e9 o realmente importante: <span> fidelizar os seus clientes, aumentar as suas vendas e diferenciar-se da concorr\u00eancia<\/span>.",
+            "maintitle": "<span>\u00bfO que \u00e9<\/span> Upplication<span>?<\/span>"
+        },
+        "timeline": {
+            "maintitle": "<span>A nossa<\/span> biografia",
+            "step1": {
+                "description": "<span> Lan\u00e7amos Upplication <\/span> para que qualquer propriet\u00e1rio de neg\u00f3cio pudesse criar a sua aplica\u00e7\u00e3o m\u00f3vel de maneira simples e sem nenhum conhecimento de programa\u00e7\u00e3o, um servi\u00e7o que habitualmente estava fora do seu alcance devido ao seu custo elevado.",
+                "pic": "Lan\u00e7amos Upplication",
+                "year": "Outubro 2013"
+            },
+            "step2": {
+                "description": "Fechamos a nossa <a href=\"https:\/\/www.eureka-experts.com\/news\/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> primeira ronda de financiamento de 277.000\u20ac <\/a> procedentes de Business angels europeus, o que nos permitiu iniciar a fase de <span> internacionaliza\u00e7\u00e3o <\/span> chegando \u00e0 Am\u00e9rica Latina.",
+                "pic": "Primeira ronda de financiamento",
+                "year": "Janeiro 2014"
+            },
+            "step3": {
+                "description": "Em maio de 2014 fomos selecionados por <span> Wayra (Telef\u00f3nica) <\/span> entre mais de 660 projetos de toda a Espanha para a sua  <a href=\"http:\/\/www.upplication.com\/blog\/wayra-espana-2014\/\" target=\"_blank\">Programa de acelera\u00e7\u00e3o de startups<\/a>.",
+                "pic": "Logotipo Wayra (Telef\u00f3nica)",
+                "year": "Maio 2014"
+            },
+            "step4": {
+                "description": "Alcan\u00e7amos um <a href=\"http:\/\/www.vodafone.es\/empresas\/es\/descubre-vodafone\/sectores\/comercio\/\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Vodafone <\/a> completando o seu Plano de solu\u00e7\u00f5es para empresas apoiando e ajudando as PME no seu crescimento.",
+                "pic": "Logotipo Vodafone",
+                "year": "Outubro 2014"
+            },
+            "step5": {
+                "description": "J\u00e1 temos <span> clientes em 75 pa\u00edses do mundo seguindo <\/span>um dos nossos principais objetivos: a <span> expans\u00e3o internacional<\/span>.",
+                "pic": "Expans\u00e3o internacional",
+                "year": "Maio 2015"
+            },
+            "step6": {
+                "description": "Fechamos a nossa <a href=\"http:\/\/novobrief.com\/upplication-funding\/\" target=\"_blank\"> segunda ronda de financiamento de 1.1 Milh\u00f5es de \u20ac <\/a> liderada pelo fundo de investimento <a href=\"http:\/\/corpgn.com\/\" target=\"_blank\"> Corporation Global <\/a>, de origem espanhola, e na qual tamb\u00e9m participaram um grupo de destacados Business Angels.",
+                "pic": "Segunda ronda de financiamento",
+                "year": "Novembro 2015"
+            },
+            "step7": {
+                "description": "Alcan\u00e7amos um <a href=\"http:\/\/www.telefonica.com\/es\/business_solutions\/html\/sme\/home.shtml\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Telef\u00f3nica Espanha <\/a> com o qual continuaremos a aportar o nosso conhecimento e experi\u00eancia para impulsionar as PME.",
+                "pic": "Logotipo Telef\u00f3nica",
+                "year": "Dezembro 2015"
+            }
+        },
+        "worldmap": {
+            "sub_title": "Ajudando a crescer a mais de <span> 30.000 PME <\/span> em todo o mundo",
+            "title": "<span>Somos<\/span> internacionais",
+            "worldmap_img": "Mapa de expans\u00e3o internacional de Upplication"
+        }
+    },
+    "external": {
+        "about": {
+            "anchor": "Quem somos?",
+            "url": "@@config.base_path\/n\u00f3s\/"
+        },
+        "aplicateca": {
+            "anchor": "Entrar",
+            "title": "Entrar em Aplicateca da Telef\u00f3nica",
+            "url": "http:\/\/www.aplicateca.es\/upplication"
+        },
+        "apps": {
+            "anchor": "Exemplos de apps",
+            "url": "@@config.base_path\/inspirate"
+        },
+        "blog": {
+            "anchor": "Blogue",
+            "title": "Blogue da Upplication",
+            "url": "http:\/\/www.upplication.com\/blog\/"
+        },
+        "breakfasts": {
+            "anchor": "Pequenos almo\u00e7os Upplication",
+            "url": "http:\/\/upplication.com\/blog\/taller-crear-apps-madrid\/"
+        },
+        "company": {
+            "anchor": "Upplication bio",
+            "url": "@@config.base_path\/bio-de-empresa\/"
+        },
+        "create_apps": {
+            "anchor": "Criamos a tua app",
+            "url": "\/fazemos-o-trabalho-por-ti\/"
+        },
+        "dashboard": {
+            "anchor": "Entrar",
+            "url": "@@config.dashboard_base_path\/web"
+        },
+        "facebook": {
+            "anchor": "Facebook",
+            "url": "http:\/\/www.facebook.com\/Upplication"
+        },
+        "features": {
+            "anchor": "Caracter\u00edsticas",
+            "url": "\/caracter\u00edsticas\/"
+        },
+        "googleplus": {
+            "anchor": "Google Plus",
+            "url": "https:\/\/plus.google.com\/+Upplication?prsrc=5"
+        },
+        "helpcenter": {
+            "anchor": "Centro de ajuda",
+            "url": "@@config.base_path\/centro-de-ajuda\/"
+        },
+        "hiring": "Estamos a contratar!",
+        "hiring_backend": {
+            "anchor": "Desenvolvedor Backend",
+            "url": "http:\/\/www.upplication.com\/blog\/empleo-backend-developer-para-upplication\/"
+        },
+        "hiring_developer": {
+            "anchor": "Est\u00e1gio de desenvolvedor",
+            "url": "@@config.base_path\/oferta-est\u00e1gio-developer\/"
+        },
+        "hiring_frontend": {
+            "anchor": "Desenvolvedor Frontend",
+            "url": "http:\/\/upplication.com\/blog\/empleo-madrid-buscamos-frontend-developer-y-backend-developer\/"
+        },
+        "hiring_marketing": {
+            "anchor": "Est\u00e1gio de marketing",
+            "url": "@@config.base_path\/oferta-est\u00e1gio-marketing\/"
+        },
+        "instagram": {
+            "anchor": "Instagram",
+            "url": "http:\/\/www.instagram.com\/upplication"
+        },
+        "jobs": {
+            "anchor": "Estamos a contratar!",
+            "url": "@@config.base_path\/trabalhos\/"
+        },
+        "linkedin": {
+            "anchor": "Linkedin",
+            "url": "http:\/\/www.linkedin.com\/company\/upplication"
+        },
+        "media_kit": {
+            "anchor": "Imprensa",
+            "url": "https:\/\/www.dropbox.com\/s\/sy2f0quvuq7nk9n\/Mediakit.zip"
+        },
+        "nubo": {
+            "anchor": "NUBO",
+            "url": "http:\/\/www.ono.es\/microsite-nubo\/nubo-upplication\/"
+        },
+        "partners": {
+            "anchor": "Torna-te distribuidor",
+            "url": "http:\/\/www.upplication.com\/distribuidores\/conviertete-en-distribuidor-de-apps.html"
+        },
+        "pricing": {
+            "anchor": "Pre\u00e7os",
+            "url": "@@config.base_path\/pre\u00e7os\/"
+        },
+        "pricing_aplicateca": {
+            "anchor": "Pre\u00e7os",
+            "url": "@@config.base_path\/pre\u00e7os-aplicateca\/"
+        },
+        "social_media_btns": {
+            "facebook": "",
+            "twitter": "https:\/\/twitter.com\/upplication"
+        },
+        "team": {
+            "anchor": "Equipa",
+            "url": "@@config.base_path\/equipa\/"
+        },
+        "titles": {
+            "help": "Ajuda:",
+            "legal": "Aviso legal:",
+            "misc": "Miscel\u00e2nea:",
+            "uppl": "Upplication:"
+        },
+        "tos": {
+            "anchor": "Condi\u00e7\u00f5es legais",
+            "url": "@@config.base_path\/termos\/"
+        },
+        "tutorials": {
+            "anchor": "Tutoriais",
+            "url": "http:\/\/www.youtube.com\/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+        },
+        "twitter": {
+            "anchor": "Twitter",
+            "url": "http:\/\/www.twitter.com\/upplication"
+        },
+        "youtube": {
+            "anchor": "Youtube",
+            "url": "http:\/\/youtube.com\/upplication"
+        }
+    },
+    "footer": {
+        "brand_copy": "Upplication 2016",
+        "community": "Sociedade",
+        "company": "Empresa",
+        "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path\/terminos\/#cookies-policy'>pol\u00edtica de cookies<\/a>.",
+        "cookies_aplicateca": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path\/condicioneslegalesmovistar-upplication\/'>pol\u00edtica de cookies.<\/a>",
+        "media": "Meios e redes",
+        "partners": {
+            "eu": {
+                "title": "UE fondo de desenvolvimento regional",
+                "url": "http:\/\/ec.europa.eu\/regional_policy\/es\/funding\/erdf\/"
+            },
+            "mixpanel": {
+                "title": "Mixpainel, an\u00e1lise m\u00f3vel",
+                "url": "https:\/\/mixpanel.com\/"
+            },
+            "telefonica": {
+                "title": "Telef\u00f3nica, empresa de telecomunica\u00e7\u00f5es",
+                "url": "http:\/\/info.telefonica.es\/portada\/index.html"
+            },
+            "wayra": {
+                "title": "Wayra, acelerador de startups da Telef\u00f3nica",
+                "url": "http:\/\/wayra.co\/en"
+            }
+        },
+        "signature": "Desenhado e desenvolvido em Madrid",
+        "terms_microsites": {
+            "text": "termos e condi\u00e7\u00f5es",
+            "title": "Utilizando Upplication est\u00e1s a aceitar os seguintes termos e condi\u00e7\u00f5es legais",
+            "url": "@@config.base_path\/criar-app-m\u00f3vel-termos-legais\/",
+            "warning": "Ao fazer clique em 'Experimente Gr\u00e1tis' aceitas os nossos"
+        },
+        "tos": {
+            "cookies": {
+                "title": "Utiliza\u00e7\u00e3o de Cookies",
+                "url": "@@config.base_path\/termos\/#cookies-policy"
+            },
+            "legal": {
+                "title": "Termos Legais",
+                "url": "@@config.base_path\/termos\/"
+            },
+            "privacy": {
+                "title": "Pol\u00edtica de Privacidade",
+                "url": "@@config.base_path\/termos\/#privacidade"
+            },
+            "terms_of_use": {
+                "title": "Condi\u00e7\u00f5es de utiliza\u00e7\u00e3o",
+                "url": "@@config.base_path\/termos\/#utiliza\u00e7\u00e3o"
+            }
+        },
+        "try_it": "Cria a tua app, tens <strong>15 dias gr\u00e1tis<\/strong>!"
+    },
+    "form": {
+        "call_to_action": "Cria a tua app gr\u00e1tis agora!",
+        "input": {
+            "email": "email",
+            "name": "Nome da tua aplica\u00e7\u00e3o",
+            "pass": "Senha"
+        }
+    },
+    "header": {
+        "enter": "Entrar",
+        "free_trial": "Experimente gr\u00e1tis",
+        "logo": {
+            "title": "Logotipo da Upplication",
+            "title_xmas": "Upplication logo de Natal",
+            "url": "@@config.base_path\/images\/home\/icons\/upplication.svg",
+            "url_xmas": "@@config.base_path\/images\/home\/icons\/upplication_xmas.png"
+        },
+        "menu": "menu",
+        "nav": {
+            "apps": "Exemplos",
+            "contact": "Contacto",
+            "how": "Como crio a minha App",
+            "info": {
+                "about_us": {
+                    "title": "sobre n\u00f3s",
+                    "url": "@@config.base_path\/n\u00f3s\/"
+                },
+                "company_bio": {
+                    "title": "Biografia",
+                    "url": "@@config.base_path\/bio-da-empresa\/"
+                },
+                "helpcenter": {
+                    "title": "Centro de Ajuda",
+                    "url": "@@config.base_path\/centro-de-ajuda\/"
+                },
+                "hiring": "Contratamos",
+                "info": "Mais...",
+                "prices": {
+                    "title": "Pre\u00e7os",
+                    "url": "@@config.base_path\/pre\u00e7os\/"
+                },
+                "terms": {
+                    "title": "Aviso Legal",
+                    "url": "@@config.base_path\/termos\/"
+                }
+            },
+            "legal": {
+                "advise": "Aviso Legal",
+                "conditions": "Condi\u00e7\u00f5es",
+                "cookies": "Cookies",
+                "privacy": "Privacidade"
+            },
+            "prices": "Pre\u00e7os"
+        },
+        "support_mail": "<a href='mailto:soporte@upplication.com'>suporte@upplication.com<\/a>",
+        "telephone": "+34 810 512 370"
+    },
+    "help_center": {
+        "_keywords": "centro de ajuda, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Centro de ajuda de Upplication, o criador de apps online. Encontrar\u00e1s exemplos de utiliza\u00e7\u00e3o, v\u00eddeo tutoriais, dados de contacto do suporte t\u00e9cnico...",
+        "_meta_title": "Centro de ajuda de Upplication: criador de apps",
+        "_priority": "0.7",
+        "_url": "\/centro-de-ajuda\/",
+        "advantages": {
+            "link": "http:\/\/upplication.com\/blog\/ventajas-app-negocio\/",
+            "text": "Vantagens de ter uma app",
+            "title": "Vantagens de ter uma app"
+        },
+        "customer_service": {
+            "email": {
+                "alt_tag": "Enviar email a Upplication",
+                "link": "mailto:info@upplication.com",
+                "text": "info@upplication.com",
+                "title": "info@upplication.com"
+            },
+            "phone": {
+                "alt_tag": "Ligar para o suporte t\u00e9cnico da Upplication",
+                "link": "tel:810512370",
+                "text": "telf: +34 810 512 370",
+                "text_tel": "<span>+34 810 512 370<\/span>",
+                "title": "810 512 370"
+            },
+            "schedule": "(Hor\u00e1rio de aten\u00e7\u00e3o ao cliente de segunda-feira a sexta-feira das 10 \u00e0s 18h GTM+1)",
+            "text": "Aten\u00e7\u00e3o ao cliente",
+            "text2": "Servi\u00e7o de aten\u00e7\u00e3o ao cliente"
+        },
+        "knowledgebase": {
+            "link": "https:\/\/upplication.uservoice.com\/knowledgebase",
+            "text": "Perguntas frequentes",
+            "title": "Perguntas frequentes"
+        },
+        "name": "Centro de ajuda",
+        "resources": {
+            "ebooks": {
+                "links": [
+                    {
+                        "link": "http:\/\/upplication.com\/como-conseguir-app-exito-rapido\/",
+                        "text": "Descarga-Consegue uma app de \u00eaxito",
+                        "title": "Descarga-Consegue uma app de \u00eaxito"
+                    },
+                    {
+                        "link": "http:\/\/upplication.com\/blog\/ventajas-app-negocio\/",
+                        "text": "Vantagens de ter uma app",
+                        "title": "Vantagens de ter uma app"
+                    }
+                ],
+                "title": "Ebooks e Infografias"
+            },
+            "makeyourapp": {
+                "links": [
+                    {
+                        "link": "http:\/\/upplication.com\/hacemos-el-trabajo-por-ti\/",
+                        "text": "Fazemos o trabalho por ti",
+                        "title": "Fazemos o trabalho por ti"
+                    },
+                    {
+                        "link": "http:\/\/upplication.com\/blog\/taller-crear-apps-madrid\/",
+                        "text": "Vem aos nossos pequenos almo\u00e7os",
+                        "title": "Vem aos nossos pequenos almo\u00e7os"
+                    }
+                ],
+                "title": "Ajudamos-te a criar a tua app"
+            },
+            "videos": {
+                "links": [
+                    {
+                        "link": "http:\/\/www.youtube.com\/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "text": "Tutoriais",
+                        "title": "Tutoriais"
+                    },
+                    {
+                        "link": "https:\/\/www.youtube.com\/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+                        "text": "Os nossos v\u00eddeos",
+                        "title": "Os nossos v\u00eddeos"
+                    }
+                ],
+                "title": "V\u00eddeos de ajuda"
+            }
+        },
+        "section": {
+            "ebooks": "eBooks e Infografias",
+            "help": "Ajudamos-te a criar a tua app",
+            "upp": "Tu crias Upplication",
+            "video": "V\u00eddeos de ajuda"
+        },
+        "sucess": {
+            "link": "http:\/\/upplication.com\/como-conseguir-app-exito-rapido\/",
+            "text": "Consegue uma app de \u00eaxito",
+            "title": "Consegue uma app de \u00eaxito"
+        },
+        "title": "Centro de ajuda",
+        "uservoice": {
+            "link": "https:\/\/upplication.uservoice.com\/",
+            "text": "Sociedade de utilizadores",
+            "title": "Sociedade de utilizadores"
+        },
+        "video_1": {
+            "link": "http:\/\/www.youtube.com\/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+            "text": "Tutoriais",
+            "title": "Tutoriais"
+        },
+        "video_2": {
+            "link": "https:\/\/www.youtube.com\/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
+            "text": "Os nossos v\u00eddeos",
+            "title": "Os nossos v\u00eddeos"
+        },
+        "wedoit": {
+            "link": "http:\/\/upplication.com\/hacemos-el-trabajo-por-ti\/",
+            "text": "Fazemos o trabalho por ti",
+            "title": "Fazemos o trabalho por ti"
+        },
+        "workshop": {
+            "link": "http:\/\/upplication.com\/blog\/taller-crear-apps-madrid\/",
+            "text": "Vem aos nossos pequenos almo\u00e7os",
+            "title": "Vem aos nossos pequenos almo\u00e7os"
+        }
+    },
+    "home": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pria app m\u00f3vel online. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
+        "_meta_title": "Cria a tua app da tua PME - Upplication",
+        "_priority": "1.0",
+        "_url": "\/criar-app\/",
+        "create_free": "Criar a minha app gr\u00e1tis",
+        "how": {
+            "app_ready": " <span>A tua App<\/span> lista ",
+            "how_four": {
+                "publish_step1": "Publicamos a tua App",
+                "publish_step2": "<span>N\u00f3s encarregamo-nos de subir-te a app<\/span> aos diferentes markets (Apple, Android).",
+                "publish_step3": "Todas as nossas apps s\u00e3o  <span>multidispositivo<\/span> (telem\u00f3vel, tablet, Pc, Mac...)."
+            },
+            "how_main": "Cria a tua app facilmente",
+            "how_one": {
+                "reg_step1": "Regista-te",
+                "reg_step2": "Regista-te em tr\u00eas passos simples:",
+                "reg_step3": "nome da tua app, email e senha."
+            },
+            "how_three": {
+                "tutor_step1": "Tutor pessoal",
+                "tutor_step2": "<span>Suporte t\u00e9cnico profissional<\/span> para te ajudar na ideia e na cria\u00e7\u00e3o da tua App.",
+                "tutor_step3": "Dispon\u00edvel por <span>chat<\/span>, <span>email<\/span>, e <span>telefone<\/span>."
+            },
+            "how_two": {
+                "app_step1": "Cria a tua App",
+                "app_step2": "Painel de controlo <span>simples de utilizar<\/span>, intuitivo.",
+                "app_step3": "Utiliza <span>m\u00f3dulos e folhas de c\u00e1lculo<\/span> para personalizara  tua app.",
+                "app_step4": "Controla o <span>n\u00famero de descargas<\/span> e envia <span>alertas push<\/span> aos teus clientes."
+            }
+        },
+        "improve_sales": {
+            "points": [
+                "Melhora os rendimentos do teu neg\u00f3cio",
+                "Vende a partir dos dispositivos m\u00f3veis",
+                "Melhora a comunica\u00e7\u00e3o com os teus clientes"
+            ],
+            "title": "Melhora as tuas vendas"
+        },
+        "multidevice": {
+            "android_alt": "Cria a tua app com Android",
+            "devices_alt": "Criar app",
+            "html5_alt": "Cria a tua app com HTML5",
+            "ios_alt": "Cria a tua app com iOS",
+            "text": "Ao criar uma app m\u00f3vel cria-se automaticamente uma web vis\u00edvel em computadores, tablets e smartphones, funcional em dispositivos Android e iOS.",
+            "title": "App e web multidispositivo"
+        },
+        "multidevises": {
+            "sub_title": "V\u00e1lidas para qualquer dispositivo com qualquer sistema operativo",
+            "title": "As nossas apps s\u00e3o multiplataforma"
+        },
+        "optimize": {
+            "points": [
+                {
+                    "desc": "Uma app ir\u00e1 permitir-te estar sempre no bolso do teu cliente. Fideliza, cria uma rela\u00e7\u00e3o longa e consegue melhorar os teus rendimentos.",
+                    "icon": "customize",
+                    "title": "Personaliza\u00e7\u00e3o"
+                },
+                {
+                    "desc": "Acompanhamos-te em cada passo para a cria\u00e7\u00e3o da tua app, para isso ter\u00e1s a uma pessoa encarregada de te ajudar em cada momento.",
+                    "icon": "pessoal-tutor",
+                    "title": "Tutor pessoal"
+                },
+                {
+                    "desc": "Com Upplication poder\u00e1s criar a tua app para iOS, Android e a web responsive que desejas. Al\u00e9m disso n\u00f3s iremos public\u00e1-la em App Store e Google Play por ti.",
+                    "icon": "multidevice",
+                    "title": "Multidispositivo"
+                }
+            ],
+            "title": "Otimiza o teu neg\u00f3cio"
+        },
+        "permanence": "Per\u00edodo de prova sem compromisso de perman\u00eancia",
+        "press": {
+            "abc": "http:\/\/www.abc.es\/tecnologia\/moviles-aplicaciones\/20140315\/abci-upplication-wordpress-creacion-201403141400.html",
+            "agencia_efe": "http:\/\/www.efeempresas.com\/noticia\/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas\/",
+            "el_economista": "http:\/\/www.eleconomista.es\/interstitial\/volver\/consejo\/emprendedores-innova\/noticias\/5498091\/01\/14\/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+            "forbes": "http:\/\/www.forbesmagazine.es\/actualidad-noticia\/upplication-crea-app-tu-negocio-5-minutos_635.html",
+            "telefonica": "http:\/\/blogthinkbig.com\/upplication-post-pc\/",
+            "ticbeat": "http:\/\/pymes.ticbeat.com\/servicios-crear-app-de-tu-negocio-sin-programar\/",
+            "wwwhatsnew": "http:\/\/wwwhatsnew.com\/2013\/10\/21\/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+        },
+        "register_inline": {
+            "app_name": "Nome da app",
+            "call_to_action": "Experimentar gr\u00e1tis",
+            "email": "E-mail",
+            "password": "Senha",
+            "title": "Regista-te e come\u00e7a a criar a tua primeira app gr\u00e1tis"
+        },
+        "samples": {
+            "alt_tag": {
+                "img_galaxy": "App de Upplication a funcionar num Samsung Galaxy",
+                "img_iphone": "App de Upplication a funcionar num iPhone",
+                "img_nexus": "App de Upplication a funcionar num Nexus",
+                "img_xperia": "App de Upplication a funcionar num Sony Xperia"
+            },
+            "business": "Apps para todo o tipo de neg\u00f3cios",
+            "custom": {
+                "cust_details1": "<span>Pessoal<\/span>: sobe o teu curriculum, apresenta\u00e7\u00f5es, trabalhos...",
+                "cust_details2": "<span>M\u00fasica<\/span>: sobe m\u00fasica e v\u00eddeos, datas de concertos, merchandising...",
+                "cust_details3": "<span>Eventos<\/span>: sobe a agenda do evento, envia alertas push, introduz galerias...",
+                "cust_details4": "<span>Turismo<\/span>: Introduz mapas, recomenda lugares, sobe promo\u00e7\u00f5es gastron\u00f3micas...",
+                "cust_intro": "Cria a tua app m\u00f3vel <span>personalizada<\/span>, feita \u00e0 medida do que necessitas"
+            },
+            "free_app": "Criar a minha app Gr\u00e1tis",
+            "personal": "Personalizadas",
+            "rest": {
+                "details1": "Os teus clientes poder\u00e3o <span>reservar mesa<\/span> a partir do telem\u00f3vel.",
+                "details2": "Realiza <span>envio ao domic\u00edlio<\/span> dos teus produtos.",
+                "details3": "Mostra <span>tal\u00f5es desconto<\/span> na app.",
+                "details4": "Envia <span>alertas push<\/span> com ofertas exclusivas.",
+                "rest_intro": "Cria a app Android e iPhone do teu restaurante e <span>aporta valor ao teu cliente<\/span>."
+            },
+            "restaurants": "Hotelaria",
+            "serv": "<em>Servi\u00e7os<\/em> Profissionais",
+            "serv_alt": "Servi\u00e7os Profissionais",
+            "services": {
+                "serv_details1": "Faz com que os teus clientes possam <span>contratar os teus servi\u00e7os<\/span> em qualquer lugar.",
+                "serv_details2": "Mostra os <span>hor\u00e1rios dos teus servi\u00e7os<\/span> no telem\u00f3vel dos teus clientes",
+                "serv_details3": "Sobe <span>v\u00eddeos e fotografias<\/span> que promovem os teus servi\u00e7os.",
+                "serv_details4": "Envia ofertas exclusivas com os <span>alertas push<\/span>",
+                "serv_intro": "Cria a <span>app dos teus servi\u00e7os<\/span> e conecta com o teu cliente no telem\u00f3vel"
+            },
+            "shop": {
+                "shop_details1": "Integra a passarela de pagamento em quest\u00e3o de minutos e <span>come\u00e7a a vender<\/span>",
+                "shop_details2": "Oferece <span>produtos exclusivos<\/span> e aporta mais valor ao teu cliente.",
+                "shop_details3": "<span>Envia alertas<\/span> push com as melhores ofertas.",
+                "shop_details4": "Faz com que os teus clientes levem <span>o teu neg\u00f3cio no bolso<\/span>.",
+                "shop_intro": "Cria a tua app e faz com que os teus clientes possam <span>comprar os teus produtos a partir do telem\u00f3vel<\/span>"
+            },
+            "shops": "Lojas"
+        },
+        "showcase": {
+            "title": "Estas s\u00e3o algumas das nossas apps"
+        },
+        "slider": {
+            "appready": {
+                "": "A tua App pronta!",
+                "bg": "Criador de apps",
+                "title": "A tua App pronta!"
+            },
+            "bg": "Cria a app da tua PME",
+            "intro1": "O criador de apps para ",
+            "intro2": "<span class=\"intro-2a\">Cria a app do teu neg\u00f3cio,<\/span> <span class=\"intro-2b\">sem programar, f\u00e1cil e r\u00e1pido.<\/span>",
+            "text": [
+                "empreendedores",
+                "hotelaria",
+                "servi\u00e7os",
+                "lojas",
+                "ti"
+            ]
+        },
+        "support": {
+            "desc": "Todos e cada um dos colegas que formamos Upplication vamos colocar todo o nosso empenho em conseguir que obtenhas a melhor experi\u00eancia de suporte t\u00e9cnico que esteja nas nossas m\u00e3os. Se tens qualquer problema conta connosco.",
+            "title": "Estamos para te ajudar!"
+        },
+        "testimonials": {
+            "client1": {
+                "cite": "Excelente aten\u00e7\u00e3o ao cliente online e telef\u00f3nica. Com a minha app consegui fidelizar muitos dos meus clientes.",
+                "name": "Ana, C, UP Your choice on top",
+                "url": "https:\/\/play.google.com\/store\/apps\/details?id=es.upplication.android1734"
+            },
+            "client2": {
+                "cite": "Os meus clientes reservam mesa e veem a ementa do meu bar a partir da app. Com Upplication giro o dia a dia do meu neg\u00f3cio em poucos minutos.",
+                "name": "David, Bar Trapatapa",
+                "url": "https:\/\/play.google.com\/store\/apps\/details?id=es.upplication.android767"
+            },
+            "client3": {
+                "cite": "A ferramenta mais intuitiva que experimentei. Gerir a minha app \u00e9 muito simples. Al\u00e9m disso, Upplication n\u00e3o p\u00e1ra de melhorar semana a semana.",
+                "name": "Gabriel, Moto Urban",
+                "url": "https:\/\/play.google.com\/store\/apps\/details?id=es.upplication.android596"
+            },
+            "title": "O que dizem das nossas apps?"
+        },
+        "try": "Cria a tua app, tens 15 dias gr\u00e1tis!",
+        "vodafone": {
+            "logo": "Logotipo Vodafone"
+        },
+        "why": {
+            "grow": "<strong>Aumenta<\/strong> as tuas vendas",
+            "img": {
+                "grow": "Aumenta as tuas vendas",
+                "loyal": "Fideliza os teus clientes",
+                "others": "Diferencia-te da concorr\u00eancia"
+            },
+            "loyal": "<strong>Fideliza<\/strong> os teus clientes",
+            "others": "<strong>Diferencia-te<\/strong> da concorr\u00eancia"
+        }
+    },
+    "home_tlf": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Suporte e aten\u00e7\u00e3o ao cliente de Upplication, para criar app online, da Telef\u00f3nica Upplication. F\u00e1cil, r\u00e1pido e sem programar.",
+        "_meta_title": "Servi\u00e7o de aten\u00e7\u00e3o e suporte da Telef\u00f3nica Upplication",
+        "_url": "\/home_telef\/",
+        "contact": {
+            "customer_service": {
+                "email": {
+                    "link": "mailto:soporte@upplication.com",
+                    "text": "soporte@upplication.com",
+                    "title": "soporte@upplication.com"
+                },
+                "text": "Servi\u00e7o de aten\u00e7\u00e3o ao cliente:"
+            }
+        }
+    },
+    "icons": {
+        "check": "done"
+    },
+    "internal_server_error": {
+        "_keywords": "erro, 500, erro 500, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "500 erro interno do servidor em Upplication - criador de apps online f\u00e1cil de utilizar, r\u00e1pido e sem conhecimentos de programa\u00e7\u00e3o.",
+        "_meta_title": "500: erro interno do servidor em Upplication - criador de apps",
+        "_url": "\/erro-interno-do-servidor\/",
+        "pre_advice": "Produziu-se um erro com o nosso servidor. Desculpem o inc\u00f3modo causado, brevemente ser\u00e1 solucionado.",
+        "subtitle1": "Erro",
+        "subtitle2": "interno do servidor",
+        "subtitle3": "Erro interno do servidor",
+        "suggestion": "Desloque-se atrav\u00e9s do nosso menu de navega\u00e7\u00e3o superior para outra p\u00e1gina dentro da nossa web ou clique <a href=\"@@config.base_path\/\">aqui para voltar ao In\u00edcio<\/a>.",
+        "title": "500"
+    },
+    "modal": {
+        "button": {
+            "email": "mailto:info@upplication.com",
+            "icon_email": "e-mail",
+            "icon_telf": "phone",
+            "support_mail": "info@upplication.com",
+            "telephone": "+34 810 512 370",
+            "telf": "tel:0034810512370"
+        },
+        "footer": {
+            "free": "15 dias de prova gr\u00e1tis com ajuda personalizada.",
+            "seller": "Tens um c\u00f3digo seller?",
+            "accept": "Ao clicar em 'Prova Gr\u00e1tis' aceitas os nossos",
+            "terms": "termos e condi\u00e7\u00f5es"
+        },
+        "head": {
+            "close": "Fechar esta janela modal",
+            "contact_modal": "<span>Contacta<\/span> connosco",
+            "hiring_modal": "Estamos <span>a contratar<\/span>",
+            "register_modal": "Regista-te <span>gr\u00e1tis<\/span> e experimenta <span>15 dias<\/span>"
+        },
+        "picture_hiring_modal": "Temos fome de contratar!"
+    },
+    "offer": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Oferta de forma\u00e7\u00e3o para desenvolvedor ou backender ou frontender para Upplication, o criador de app online para ti ou para o teu neg\u00f3cio.",
+        "_meta_title": "Forma\u00e7\u00e3o de desenvolvedor em Upplication: criador de apps",
+        "_priority": "0.4",
+        "_url": "\/oferta-forma\u00e7\u00e3o-developer\/",
+        "cheers": [
+            "Cumprimentos!",
+            "Javier Arn\u00e1iz"
+        ],
+        "introduction": [
+            "em Upplication somos uma equipa em aprendizagem cont\u00ednua onde existe um fluxo de informa\u00e7\u00e3o entre toda a equipa, onde qualquer ideia \u00e9 revista e discutida para nos certificarmos que cada processo e decis\u00e3o que tom\u00e1mos seja \u00f3timo.",
+            "Queremos continuar a renovar a nossas ideias e por isso procuramos um colega de trabalho em est\u00e1gio que entre para fazer parte da nossa equipa de desenvolvimento e nos ajude a desenvolver o nosso dashboard e CRM interno.",
+            "Queremos oferecer uma boa experi\u00eancia de forma\u00e7\u00e3o  onde se aprenda e se disponha da oportunidade de entrar no mercado laboral. N\u00e3o acreditamos num est\u00e1gio onde, embora o trabalhador mostre o seu valor, n\u00e3o se lhe d\u00e1 a oportunidade de entrar e fazer parte da empresa. \u00c9 \u00f3bvio! Se uma pessoa \u00e9 boa, numa empresa que est\u00e1 a crescer, seria um problema n\u00e3o tentar que fique connosco."
+        ],
+        "lifestyle": "Se queres ganhar a vida como desenvolvedor e gostas das tecnologias m\u00f3veis, gostar\u00edamos que nos conhec\u00eassemos e fal\u00e1ssemos  sobre o projeto e a nossa maneira de entender o trabalho. Se vemos que tudo encaixa, faremos tudo o que for poss\u00edvel para que estejas na nossa equipa.",
+        "technologies": {
+            "intro": "Dentro do nosso est\u00e1gio, procuramos um desenvolvedor com conhecimentos das seguintes tecnologias.",
+            "list": [
+                "Java",
+                "SQL",
+                "Html e Javascript",
+                "Conhecimentos de algum framework MVC. (Spring MVC, por exemplo)",
+                "Conhecimentos de Java EE 6"
+            ],
+            "note": "N\u00e3o procuramos um especialista, o est\u00e1gio serve para isso, mas sim procuramos pessoas com motiva\u00e7\u00e3o e iniciativa, que queira trabalhar por algo mais que um simples ordenado. Por fazer algo grande e bom."
+        },
+        "weoffer": {
+            "intro": "Para come\u00e7ar, podemos oferecer-te:",
+            "list": [
+                "Est\u00e1gio de 3 ou 4 meses com possibilidade de entrar no quadro.",
+                "Hor\u00e1rio flex\u00edvel",
+                "N\u00e3o um simples tutor, toda uma equipa de trabalho sempre disposta a resolver as tuas d\u00favidas :)",
+                "Fazer parte do desenvolvimento de um projeto vivo, o teu c\u00f3digo ser\u00e1 utilizado por milhares de pessoas.",
+                "Espa\u00e7o de trabalho c\u00f3modo e amplo com um bom equipamento e 2 monitores de 22 polegadas para que trabalhes bem e \u00e0 vontade.",
+                "Zona de relax com os seus sof\u00e1s e puffs, m\u00e1quina de caf\u00e9, frigor\u00edfico, microondas, zona muito bem comunicada (Pr\u00edncipe P\u00edo)... A verdade \u00e9 que t\u00e1 fixe.",
+                "Uns 100 \u20ac para que, pelo menos, n\u00e3o te custe dinheiro vir para a Upplication."
+            ]
+        },
+        "wewanttomeetyou": "Para que possamos conhecer-te envia-nos um email para <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com <\/a> com o teu CV e uma breve introdu\u00e7\u00e3o sobre ti, o teu trabalho e com o que podes contribuir para a Upplication. Prometemos responder, sim ou sim."
+    },
+    "offer_marketing": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Oferta de est\u00e1gio de marketing e vendas para Upplication, o criador de app online para android e iOS, f\u00e1cil, r\u00e1pido e sem programar.",
+        "_meta_title": "Est\u00e1gio de marketing em Upplication: criador de apps",
+        "_priority": "0.4",
+        "_url": "\/oferta-est\u00e1gio-marketing\/",
+        "cheers": [
+            "Cumprimentos!",
+            "Equipa Upplication"
+        ],
+        "introduction": [
+            "Upplication \u00e9 uma ferramenta que permite a qualquer PME criar uma app em poucos passos, sem necessidade de conhecimentos t\u00e9cnicos nem ligar a ningu\u00e9m, e por um pre\u00e7o que se adapta \u00e0 sua capacidade de investimento (a partir de 5\u20ac\/m\u00eas).",
+            "Atualmente estamos presentes em 46 pa\u00edses e cri\u00e1mos mais de 10.000 apps nos 10 meses que estamos no mercado."
+        ],
+        "lifestyle": "Se queres ganhar a vida como desenvolvedor e gostas das tecnologias m\u00f3veis, gostar\u00edamos de nos conhecermos e fal\u00e1ssemos sobre o projeto e a nossa maneira de entender o trabalho. Se vemos que tudo encaixa, faremos todo o poss\u00edvel para que estejas na nossa equipa.",
+        "technologies": {
+            "intro": "Procuramos um estagi\u00e1rio para o departamento de Marketing de Conte\u00fados que cumpra com os seguintes requisitos:",
+            "list": [
+                "Procuramos licenciados ou universit\u00e1rios nos \u00faltimos anos com grande paix\u00e3o pelo marketing.",
+                "Boa manipula\u00e7\u00e3o de ferramentas de edi\u00e7\u00e3o e desenho.",
+                "Grande capacidade de reda\u00e7\u00e3o.",
+                "Interessado nos setores do Marketing Digital e do Ecommerce.",
+                "Preferivelmente pessoa com conhecimentos de jornalismo ou experi\u00eancia em reda\u00e7\u00e3o de conte\u00fados.",
+                "Pessoa pr\u00f3-ativa, com iniciativa e comprometimento com a empresa e os distintos projetos.",
+                "Pessoa Organizada (orientada para o pormenor).",
+                "Grande capacidade de trabalho e ambi\u00e7\u00e3o, procuramos um jovem profissional que apanhe o  projeto Upplication como pr\u00f3prio."
+            ],
+            "note": "N\u00e3o procuramos um especialista, o est\u00e1gio serve para isso, mas sim procuramos pessoas com motiva\u00e7\u00e3o e iniciativa, que queira trabalhar por algo mais que um simples ordenado. Por fazer algo grande e bom.",
+            "requirements": "REQUISITOS"
+        },
+        "weoffer": {
+            "intro": "Para come\u00e7ar, as tuas fun\u00e7\u00f5es ser\u00e3o:",
+            "list": [
+                "Ajuda na cria\u00e7\u00e3o de apps para clientes.",
+                "Apoio no desenvolvimento de diferentes projetos de marketing.",
+                "Apoio a outros departamentos (Social Media, Ecommerce, Comercial, etc).",
+                "Dado o envolvimento direto do estagi\u00e1rio com o departamento comercial, ser\u00e1 entregue uma remunera\u00e7\u00e3o vari\u00e1vel em fun\u00e7\u00e3o dos resultados."
+            ]
+        },
+        "wewanttomeetyou": "Para que possamos conhecer-te envia-nos um email para <a href=\"mailto:info@upplication.com\"> info@upplication.com <\/a> com o teu CV e uma breve introdu\u00e7\u00e3o sobre ti, o teu trabalho e com o que podes contribuir para a Upplication. Prometemos responder, sim ou sim."
+    },
+    "ono": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication: criar online a tua pr\u00f3pria app m\u00f3vel atrav\u00e9s da Ono Vodafone. Experimenta a tua app gr\u00e1tis durante 15 dias",
+        "_meta_title": "Apps criadas com Vodafone Upplication",
+        "_url": "\/exemplos-vodafone\/",
+        "title": "Exemplos Vodafone"
+    },
+    "ourclients": {
+        "client1": {
+            "alt": "Logotipo ABC",
+            "title": "Upplication no jornal ABC",
+            "url": "http:\/\/www.abc.es\/tecnologia\/moviles-aplicaciones\/20140315\/abci-upplication-wordpress-creacion-201403141400.html"
+        },
+        "client2": {
+            "alt": "Logotipo El Economista",
+            "title": "Upplication em El Economista",
+            "url": "http:\/\/www.eleconomista.es\/interstitial\/volver\/consejo\/emprendedores-innova\/noticias\/5498091\/01\/14\/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html"
+        },
+        "client3": {
+            "alt": "Logotipo Forbes",
+            "title": "Forbes, revista sobre neg\u00f3cios e as finan\u00e7as",
+            "url": "http:\/\/www.forbes.es\/"
+        },
+        "client4": {
+            "alt": "Logotipo EFE: Empreende",
+            "title": "Upplication em EFE: Empreende, not\u00edcias sobre empresas e empreendedores",
+            "url": "http:\/\/www.efeempresas.com\/noticia\/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas\/"
+        },
+        "client5": {
+            "alt": "Logotipo Telef\u00f3nica",
+            "title": "Upplication em Blogthinkbig da Telef\u00f3nica",
+            "url": "http:\/\/blogthinkbig.com\/upplication-post-pc\/"
+        },
+        "client6": {
+            "alt": "Logotipo TicBeat",
+            "title": "TicBeat, not\u00edcias de tecnologia e empresa",
+            "url": "http:\/\/www.ticbeat.com\/pymes\/servicios-crear-app-de-tu-negocio-sin-programar\/"
+        },
+        "client7": {
+            "alt": "Logotipo wwwhat\u00b4s new",
+            "title": "wwwhat\u00b4s new, not\u00edcias sobre tecnologias web e apps",
+            "url": "http:\/\/wwwhatsnew.com\/2013\/10\/21\/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+        }
+    },
+    "page_not_found": {
+        "_keywords": "erro, 404, erro 404, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "404 P\u00e1gina n\u00e3o encontrada em Upplication - criador de apps online. Experimenta durante 15 dias gr\u00e1tis.",
+        "_meta_title": "404: P\u00e1gina n\u00e3o encontrada em Upplication - criador de apps",
+        "_url": "\/p\u00e1gina-n\u00e3o-encontrada\/",
+        "advice1": "Que tenha digitado incorretamente a dire\u00e7\u00e3o  URL.",
+        "advice2": "Que tenha perdido a sua liga\u00e7\u00e3o \u00e0 internet.",
+        "advice3": "Que a p\u00e1gina esteja obsoleta e tenha sido eliminada.",
+        "advice4": "Que a p\u00e1gina n\u00e3o exista no idioma que solicita.",
+        "pre_advice": "Parece que a p\u00e1gina que procuras n\u00e3o existe. Lamentamos. Poderia ser por alguma destas causas:",
+        "subtitle1": "P\u00e1gina",
+        "subtitle2": "n\u00e3o encontrada",
+        "suggestion": "Desloque-se atrav\u00e9s do nosso menu de navega\u00e7\u00e3o superior para outra p\u00e1gina dentro da nossa web ou clique <a href=\"@@config.base_path\/\">aqui para voltar ao In\u00edcio<\/a>.",
+        "title": "404"
+    },
+    "prices": {
+        "_keywords": "criar app, como criar a tua app, crear app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pria app m\u00f3vel online. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
+        "_meta_title": "Cria a app da tua PME - Upplication",
+        "_priority": "0.6",
+        "_url": "\/pre\u00e7os\/",
+        "rates": {
+            "all_push": "Notifica\u00e7\u00f5es <strong>ilimitadas<\/strong>",
+            "app_web": "App e WebApp",
+            "basic": "B\u00c1SICO",
+            "bullhorn": "<strong>Publicidade<\/strong> Upplication",
+            "euro_month": "\u20ac \/ m\u00eas",
+            "euro_year": "\u20ac \/ ano",
+            "four_push": "<strong>4<\/strong> notifica\u00e7\u00f5es push \/ m\u00eas",
+            "icons": {
+                "all_push": "Notifica\u00e7\u00f5es ilimitadas",
+                "bullhorn": "Publicidade Upplication",
+                "four_push": "4 notifica\u00e7\u00f5es push \/ m\u00eas",
+                "no_bullhorn": "Sem publicidade Upplication",
+                "no_push": "Sem notifica\u00e7\u00f5es push",
+                "no_sign": "Sem assinatura nas folhas de c\u00e1lculo",
+                "no_templates": "\u00c0 medida, personalizada",
+                "sign": "Assinatura nas folhas de c\u00e1lculo",
+                "statistics": "Estad\u00edsticas da tua app"
+            },
+            "monthless": "Com o Plano Anual <strong>poupar\u00e1s dois meses<\/strong>. Paga dez meses em vez de doze.",
+            "monthly": "Plano Mensal",
+            "no_bullhorn": "<strong>Sem<\/strong> publicidade Upplication",
+            "no_push": "<strong>Sem<\/strong> notifica\u00e7\u00f5es push",
+            "no_sign": "<strong>Sem<\/strong> assinatura nas folhas de c\u00e1lculo",
+            "no_templates": "<strong>\u00c0 medida<\/strong>, personalizada",
+            "premiun": "PREMIUM",
+            "proff": "PROFISSIONAL",
+            "rate_intro": "Planos de pre\u00e7os",
+            "rate_sub": "Todos os planos incluem:",
+            "sign": "<strong>Assinatura<\/strong> nas folhas de c\u00e1lculo",
+            "statistics": "<strong>Estad\u00edsticas<\/strong> da tua app",
+            "sub1": "Aten\u00e7\u00e3o ao cliente por telefone e chat.",
+            "sub2": "<span>Upload autom\u00e1tico aos markets,<\/span> <span>n\u00f3s fazemos o upload da tua app.<\/span>",
+            "sub3": "Web responsive multidispositivo.",
+            "sub4": "Tutor personalizado.",
+            "topsale": "Mais procurado",
+            "unlimited": "ILIMITADO",
+            "with_tax": "Todos os pre\u00e7os <strong>incluem IVA<\/strong>.",
+            "yearly": "Plano Anual"
+        }
+    },
+    "prices_aplicateca": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication para criar online a tua pr\u00f3pria app m\u00f3vel para Android e iOS atrav\u00e9s de Aplicateca da Movistar.",
+        "_meta_title": "Pre\u00e7os de Upplication para Movistar Aplicateca",
+        "_priority": "0.6",
+        "_url": "\/pre\u00e7os-aplicateca\/",
+        "all_plans_include": {
+            "list": [
+                {
+                    "icon": "icon-support",
+                    "text": "Aten\u00e7\u00e3o ao cliente por telefone e chat"
+                },
+                {
+                    "icon": "icon-markets",
+                    "text": "<span>Upload autom\u00e1tico aos markets, <\/span><span class=\"bold\">n\u00f3s fazemos o upload da tua app<\/span>"
+                },
+                {
+                    "icon": "icon-web-responsive",
+                    "text": "Web responsive multidispositivo"
+                },
+                {
+                    "icon": "icon-tutor",
+                    "text": "Tutor personalizado"
+                }
+            ],
+            "title": "Todos os planos incluem"
+        },
+        "contact": {
+            "customer_service": {
+                "email": {
+                    "link": "mailto:aplicateca@upplication.com",
+                    "text": "aplicateca@upplication.com",
+                    "title": "aplicateca@upplication.com"
+                },
+                "phone": {
+                    "link": "tel:810512370",
+                    "text": "810 512 370 (gratuito)",
+                    "title": "810 512 370"
+                },
+                "text": "Servi\u00e7o de aten\u00e7\u00e3o ao cliente:"
+            }
+        },
+        "custom_app": {
+            "btn": "Cria a tua app connosco",
+            "subtitle": "Contacta connosco e explicamos-te como o fazemos.",
+            "title": "Fazemos-te a tua app \u00e0 medida"
+        },
+        "dollar": "$",
+        "euro": "\u20ac",
+        "free_trial": "Experimentar gr\u00e1tis",
+        "iva_included": "IVA n\u00e3o inc.",
+        "month": "m\u00eas",
+        "monthly": "Mensal",
+        "most_popular_plan": "O plano mais popular",
+        "os_list": "Android \/ iPhone \/ iPad \/ Web",
+        "permanency": "* Plano sujeito a 3 meses de perman\u00eancia",
+        "plans": [
+            {
+                "btn_class": "btn-grey",
+                "class_name": "plan-basic",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "Publicidade Upplication"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "Assinatura nas folhas de c\u00e1lculo"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "<span class=\"bold\">Sem<\/span><span>alertas<\/span>"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Estat\u00edsticas da tua app"
+                    }
+                ],
+                "name": "B\u00e1sico",
+                "price": "8,25",
+                "price_dollars": "8,25",
+                "price_yearly": "82,50",
+                "price_yearly_dollars": "82,50"
+            },
+            {
+                "btn_class": "btn-green",
+                "class_name": "plano-profissional",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "<span class=\"bold\">Sem<\/span><span> publicidade Upplication<\/span>"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "<span class=\"bold\">Sem<\/span><span>assinatura nas folhas de c\u00e1lculo<\/span>"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "4 alertas \/ m\u00eas"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Estat\u00edsticas da tua app"
+                    }
+                ],
+                "name": "Profissional",
+                "price": "24,75",
+                "price_dollars": "24,75",
+                "price_yearly": "247,50",
+                "price_yearly_dollars": "247,50"
+            },
+            {
+                "btn_class": "btn-grey",
+                "class_name": "plano-premium",
+                "features": [
+                    {
+                        "icon_class": "icon-ads",
+                        "title": "<span class=\"bold\">Sem<\/span><span>publicidade Upplication<\/span>"
+                    },
+                    {
+                        "icon_class": "icon-signature",
+                        "title": "<span class=\"bold\">Sem<\/span><span>assinatura nas folhas de c\u00e1lculo<\/span>"
+                    },
+                    {
+                        "icon_class": "icon-push",
+                        "title": "Alertas ilimitadas"
+                    },
+                    {
+                        "icon_class": "icon-stats",
+                        "title": "Estat\u00edsticas da tua app"
+                    }
+                ],
+                "name": "Premium",
+                "price": "49,55",
+                "price_dollars": "49,55",
+                "price_yearly": "495,50",
+                "price_yearly_dollars": "495,50"
+            }
+        ],
+        "special_plans": [
+            {
+                "btn_text": "Deixa-nos os teus dados",
+                "features": [
+                    "Todas as vantagens do plano premium",
+                    "Apoio no desenho da tua app",
+                    "N\u00f3s promovemos a tua app"
+                ],
+                "has_permanency": true,
+                "name": "Executivo *",
+                "price": "247,90",
+                "price_dollars": "247,90",
+                "price_yearly": "247,90",
+                "price_yearly_dollars": "2479,00"
+            }
+        ],
+        "title": "Planos de pre\u00e7os",
+        "year": "ano",
+        "yearly": "Anual"
+    },
+    "register": {
+        "accept_terms": "Ao clicar no bot\u00e3o \u201cExperimentar\u201d aceitas os nossos",
+        "announce": "Poder\u00e1s mud\u00e1-lo depois",
+        "app_name": "Nome da app",
+        "arguments": "Cria a app do teu neg\u00f3cio, sem programar, f\u00e1cil e r\u00e1pido.",
+        "call_to_action": "Experimentar gr\u00e1tis",
+        "claim": "A tua app, o teu neg\u00f3cio.",
+        "email": "E-mail",
+        "error": {
+            "general": "Erro geral",
+            "num1": "Espetacular! Acabaste o registo",
+            "num10": "O e-mail ou o nome da app est\u00e3o por preencher",
+            "num2": "Erro ao criar a app, por favor entra em contacto connosco",
+            "num3": "Este e-mail j\u00e1 est\u00e1 registado",
+            "num4": "Esse nome de app j\u00e1 foi escolhido",
+            "num5": "O c\u00f3digo seller n\u00e3o est\u00e1 correto",
+            "num6": "Nome da app e e-mail j\u00e1 registados",
+            "num7": "O nome da app j\u00e1 foi escolhido e o c\u00f3digo seller n\u00e3o \u00e9 correto",
+            "num8": "O e-mail j\u00e1 est\u00e1 registado e o c\u00f3digo seller n\u00e3o \u00e9 correto",
+            "num9": "O nome da app, o e-mail e c\u00f3digo seller n\u00e3o s\u00e3o corretos"
+        },
+        "loading": "Carregando...",
+        "password": "Senha",
+        "terms": "termos e condi\u00e7\u00f5es",
+        "try_it": "Experimenta-o gr\u00e1tis, tens 15 dias",
+        "warning": {
+            "ajax": "Uuups..., houve um problema",
+            "ajax_msg": "O registo n\u00e3o se p\u00f4de completar, por favor tenta novamente ou escreve-nos para <a href='mailto:soporte@upplication.com'>soporte@upplication.com<\/a>",
+            "name": "O nome da tua app tem de ter entre 3 e 32 caracteres e n\u00e3o pode come\u00e7ar por um n\u00famero",
+            "password": "O tamanho m\u00ednimo para a senha \u00e9 de 8 caracteres."
+        }
+    },
+    "restaurants": {
+        "_keywords": "criar app, criar app restaurante, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pria app m\u00f3vel online. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
+        "_meta_title": "Upplication: O criador de Apps para restaura\u00e7\u00e3o e hotelaria",
+        "_url": "\/criar-app-m\u00f3vel-restaurante\/",
+        "features": {
+            "booking": "<strong>Gestor de reservas<\/strong> As mesas do teu restaurante cheias com um bot\u00e3o simples e \u00fatil",
+            "delivery": "<strong>Encomendas ao domic\u00edlio<\/strong> Sem intermedi\u00e1rios que beneficiem dos teus lucros",
+            "notifications": "<strong>Notifica\u00e7\u00f5es push<\/strong> Envia mensagens que abram o apetite aos teus clientes"
+        },
+        "marketing_team": "A nossa equipa de tutores pessoais.",
+        "meet_us": {
+            "btn": "Liga-nos",
+            "email": "info@upplication.com",
+            "mailto": "mailto:info@upplication.com",
+            "paragraph": "A Bel\u00e9n, o V\u00edctor, o Javi e o \u00c1lvaro v\u00e3o-te ajudar, aconselhar e guiar a qualquer momento para:",
+            "tel": "tel:34810512370",
+            "telephone": "+34 810 512 370",
+            "tip_four": "Aumentar as tuas vendas.",
+            "tip_one": "Diferenciar-te da concorr\u00eancia.",
+            "tip_three": "Fidelizar os consumidores.",
+            "tip_two": "Criar o canal de comunica\u00e7\u00e3o mais direto com o teu cliente.",
+            "title": "Eles t\u00eam a receita perfeita"
+        },
+        "pic": "M\u00f3dulo ementa para restaura\u00e7\u00e3o e hotelaria",
+        "slider": {
+            "intro1": "O criador de aplica\u00e7\u00f5es para HOTELARIA",
+            "intro2": "<span class=\"intro-2a\">Cria a app do teu neg\u00f3cio,<\/span> <span class=\"intro-2b\">sem programar, f\u00e1cil e r\u00e1pido.<\/span>"
+        }
+    },
+    "shops": {
+        "_keywords": "criar app, criar app loja, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pia app m\u00f3vel online. Experimentar GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
+        "_meta_title": "Upplication: O criador de Apps para a tua loja",
+        "_url": "\/criar-app-m\u00f3vel-loja\/",
+        "features": {
+            "booking": "<strong>Loja online 24h 365 dias<\/strong> A partir de qualquer dispositivo e a qualquer hora os teus clientes est\u00e3o a comprar",
+            "delivery": "<strong>Ofertas exclusivas s\u00f3 na tua app<\/strong> Faz com que necessitem ter a tua aplica\u00e7\u00e3o para usufruir de promo\u00e7\u00f5es \u00fanicas",
+            "notifications": "<strong>Notifica\u00e7\u00f5es push<\/strong> Produtos novos, descontos ou ideias. Seduze-os com as tuas mensagens!"
+        },
+        "marketing_team": "A nossa equipa de tutores pessoais.",
+        "meet_us": {
+            "btn": "Liga-nos",
+            "email": "info@upplication.com",
+            "mailto": "mailto:info@upplication.com",
+            "paragraph": "A Bel\u00e9n, o V\u00edctor, o Javi e o \u00c1lvaro v\u00e3o-te ajudar, aconselhar e guiar a qualquer momento para que a aplica\u00e7\u00e3o do teu neg\u00f3cio seja a melhor montra.",
+            "tel": "tel:34810512370",
+            "telephone": "+34 810 512 370",
+            "title": "Eles s\u00e3o quem te v\u00e3o atender"
+        },
+        "pic": "M\u00f3dulo cat\u00e1logo para lojas e neg\u00f3cios",
+        "slider": {
+            "intro1": "O criador de aplica\u00e7\u00f5es para LOJAS",
+            "intro2": "<span class=\"intro-2a\">Cria a app do teu neg\u00f3cio,<\/span> <span class=\"intro-2b\">sem programar, f\u00e1cil e r\u00e1pido.<\/span>"
+        }
+    },
+    "showcase": {
+        "_url": "asdasd",
+        "categories": [
+            {
+                "description": "Cria a tua app m\u00f3vel e faz com que os teus clientes possam comprar os teus produtos a partir do telem\u00f3vel.",
+                "features": [
+                    "Integra a passarela de pagamento em quest\u00e3o de minutos e come\u00e7a a vender.",
+                    "Oferece produtos exclusivos e aporta mais valor ao teu cliente.",
+                    "Envia alertas push com as melhores ofertas.",
+                    "Faz com que os teus clientes levem o teu neg\u00f3cio no bolso."
+                ],
+                "icon_class": "icon-online-store",
+                "name": "online-store",
+                "title": "A tua loja online",
+                "url": "http:\/\/shopexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel do teu restaurante e aporta valor ao teu cliente m\u00f3vel",
+                "features": [
+                    "Os teus clientes poder\u00e3o reservar mesa a partir do seu telem\u00f3vel.",
+                    "Realiza envio ao domic\u00edlio dos teus produtos.",
+                    "Mostra tal\u00f5es desconto na app.",
+                    "Envia alertas push com ofertas exclusivas."
+                ],
+                "icon_class": "icon-restaurants",
+                "name": "restaurants",
+                "title": "Restaura\u00e7\u00e3o",
+                "url": "http:\/\/restaurantexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel do teu bar&pastelaria e descobre uma nova forma de fazer marketing.",
+                "features": [
+                    "Mostra os eventos que celebras no teu local.",
+                    "Oferece tal\u00f5es descontos para fidelizar os teus clientes.",
+                    "Faz com que toda a tua ementa seja acess\u00edvel a partir de qualquer telem\u00f3vel.",
+                    "Envia alertas push para manter informado os teus clientes."
+                ],
+                "icon_class": "icon-bar-and-coffee",
+                "name": "bar-and-coffee",
+                "title": "Bar & pastelaria",
+                "url": "http:\/\/barcafeexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel do teu gin\u00e1sio e posiciona o teu neg\u00f3cio na vanguarda tecnol\u00f3gica.",
+                "features": [
+                    "Mostra os hor\u00e1rios das tuas aulas no telem\u00f3vel dos teus clientes.",
+                    "Vende produtos desportivos na app m\u00f3vel.",
+                    "Envia alertas push com novidades sobre o teu gin\u00e1sio.",
+                    "Fideliza o teu cliente com ofertas exclusivas dentro da app m\u00f3vel."
+                ],
+                "icon_class": "icon-gym",
+                "name": "gym",
+                "title": "Gin\u00e1sios & Pavilh\u00f5es polidesportivos",
+                "url": "http:\/\/gymexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel dos teus servi\u00e7os e conecta com o teu cliente no telem\u00f3vel.",
+                "features": [
+                    "Faz com que os teus clientes possam contratar os teus servi\u00e7os em qualquer lugar.",
+                    "Envia ofertas exclusivas com os alertas push."
+                ],
+                "icon_class": "icon-professional-services",
+                "name": "professional-services",
+                "title": "Servi\u00e7os profissionais",
+                "url": "http:\/\/professionalservicesexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel do teu evento para fidelizar os assistentes.",
+                "features": [
+                    "Mete a agenda do evento no m\u00f3vel.",
+                    "Utiliza alertas push antes e depois do evento.",
+                    "Introduz v\u00eddeos e fotografias para ajudar os assistentes."
+                ],
+                "icon_class": "icon-events",
+                "name": "events",
+                "title": "Eventos",
+                "url": "http:\/\/eventsexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel do teu grupo de m\u00fasica e torna feliz os teus fans.",
+                "features": [
+                    "Introduz m\u00fasica e v\u00eddeos para que os teus fans te levem no telem\u00f3vel.",
+                    "P\u00f5e as datas dos teus concertos e notifica-as com alertas push.",
+                    "Vende merchandising da tua banda dentro da app m\u00f3vel."
+                ],
+                "icon_class": "icon-music",
+                "name": "music",
+                "title": "M\u00fasica",
+                "url": "http:\/\/musicexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a pr\u00f3pria app m\u00f3vel e conta todas as tuas virtudes.",
+                "features": [
+                    "Escreve o teu curriculum de uma maneira divertida.",
+                    "Faz upload das tuas melhores apresenta\u00e7\u00f5es e trabalhos.",
+                    "Faz com que tenha o teu contacto de uma forma simples."
+                ],
+                "icon_class": "icon-pessoal-app",
+                "name": "pessoal-app",
+                "title": "App pessoal",
+                "url": "http:\/\/personalappexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel da tua cidade para ajudar os turistas.",
+                "features": [
+                    "Introduz mapas que ajudem a conhecer a cidade.",
+                    "Conta a hist\u00f3ria da tua cidade com v\u00eddeos e fotografias.",
+                    "Recomenda os melhores lugares a visitar."
+                ],
+                "icon_class": "icon-tourism",
+                "name": "tourism",
+                "title": "Turismo",
+                "url": "http:\/\/tourismexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app do teu centro de est\u00e9tica e torna a vida dos teus clientes mais saud\u00e1vel.",
+                "features": [
+                    "Vende produtos de beleza atrav\u00e9s da app.",
+                    "Faz com que o teu cliente reserve lugar no teu centro de forma simples.",
+                    "Fideliza atrav\u00e9s de alertas push os teus clientes.",
+                    "Oferece descontos exclusivos na app m\u00f3vel."
+                ],
+                "icon_class": "icon-health",
+                "name": "health",
+                "title": "Sa\u00fade e beleza",
+                "url": "http:\/\/healthbeautyexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel com os teus desenhos, faz arte.",
+                "features": [
+                    "Faz upload de todas as tuas cria\u00e7\u00f5es para a app m\u00f3vel.",
+                    "Conta ao mundo quando ser\u00e3o as seguintes exposi\u00e7\u00f5es.",
+                    "Oferece conte\u00fado exclusivo notifica-os com alertas push."
+                ],
+                "icon_class": "icon-art",
+                "name": "art",
+                "title": "Desenho e arte",
+                "url": "http:\/\/musicexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel do teu meio de comunica\u00e7\u00e3o para que o teu leitor se informe onde queira.",
+                "features": [
+                    "Mostra as tuas not\u00edcias de maneira simples.",
+                    "Utiliza a app para melhorar os teus dados e rentabilizar o teu neg\u00f3cio.",
+                    "Envia alertas push com as not\u00edcias mais relevantes."
+                ],
+                "icon_class": "icon-midia",
+                "name": "midia",
+                "title": "Midia & blogs",
+                "url": "http:\/\/mediablogexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app do teu neg\u00f3cio e faz com que os teus clientes pe\u00e7am os teus servi\u00e7os ao domic\u00edlio.",
+                "features": [
+                    "Faz com que o teu cliente pe\u00e7a os teus produtos ao domic\u00edlio e pague a partir da app.",
+                    "Oferece descontos e tal\u00f5es por pedir a partir da app m\u00f3vel.",
+                    "Melhora a comunica\u00e7\u00e3o com os teus clientes atrav\u00e9s das notifica\u00e7\u00f5es push."
+                ],
+                "icon_class": "icon-delivery",
+                "name": "delivery",
+                "title": "Envio ao domic\u00edlio",
+                "url": "http:\/\/musicexample.upplication.com\/"
+            },
+            {
+                "description": "Cria a app m\u00f3vel com os teus hobbies e interesses.",
+                "features": [
+                    "Faz upload dos teus v\u00eddeos e conte\u00fado que mostrem a paix\u00e3o pelos teus interesses.",
+                    "Utiliza a app para conectar com outros aficionados.",
+                    "Envia alertas push para informar os teus utilizadores."
+                ],
+                "icon_class": "icon-lifestyle",
+                "name": "lifestyle",
+                "title": "Estilo de vida",
+                "url": "http:\/\/waysoflifeexample.upplication.com\/"
+            }
+        ]
+    },
+    "signup": {
+        "close": "(&times;) fechar",
+        "dont_have_a_code": "N\u00e3o tenho um c\u00f3digo seller",
+        "have_a_code": "Tens um c\u00f3digo seller?",
+        "seller_code": "C\u00f3digo seller",
+        "signup_free": "Regista-te <span class=\"bold\">gr\u00e1tis<\/span> e experimenta durante 15 dias",
+        "submit": "Criar a minha app gr\u00e1tis",
+        "warning_seller": "Preenche o c\u00f3digo seller"
+    },
+    "terms": {
+        "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+        "_meta_description": "Condi\u00e7\u00f5es de utiliza\u00e7\u00e3o da Upplication, criador de apps online para ti ou o teu neg\u00f3cio.",
+        "_meta_title": "Termos legais para a utiliza\u00e7\u00e3o da Upplication: criador de apps",
+        "_priority": "0.5",
+        "_url": "\/termos\/",
+        "cookies": {
+            "subsections": [
+                {
+                    "paragraphs": [
+                        "UPPLICATION SOFTWARE TECHNOLOGIES S.L (daqui para a frente UPPLICATION) utiliza cookies dentro dos seus websites (<span>www.upplication.com<\/span>, e qualquer subdom\u00ednio pertencente ao mesmo) para oferecer o website mais eficaz poss\u00edvel aos nossos clientes. Entre outras coisas, as cookies permitem recordar as prefer\u00eancias e a utiliza\u00e7\u00e3o de determinadas ferramentas e sec\u00e7\u00f5es da nossa web. Esta pol\u00edtica de Cookies explica o que s\u00e3o os cookies, como as utilizamos e como te beneficiar\u00e3o. Como possivelmente j\u00e1 sabias, a recente legisla\u00e7\u00e3o exige que os websites obtenham o consentimento dos visitantes para utilizar certos cookies.",
+                        "UPPLICATION faz utiliza\u00e7\u00e3o dos cookies com o objetivo de poder medir o comportamento dos utilizadores tanto na nossa web (upplication.com) como em qualquer subdom\u00ednio, como se mencionou anteriormente. Gra\u00e7as \u00e0 an\u00e1lise somos capazes de otimizar a experi\u00eancia do nosso utilizador dentro da ferramenta.",
+                        "Os dados obtidos s\u00e3o obtidos gra\u00e7as ao software <strong>Google Analitycs<\/strong>. Este gestor trata os dados obtidos e UPPLICATION s\u00f3 tem acesso aos mesmos. Estes dados s\u00e3o de car\u00e1ter confidencial e nunca se ceder\u00e3o a outra empresa. S\u00f3 se tratar\u00e3o a n\u00edvel interno e estar\u00e3o vigiados sob os n\u00edveis de seguran\u00e7a que a lei estabelece."
+                    ],
+                    "title": "<span>1<\/span> Como e porque utilizamos cookies?"
+                },
+                {
+                    "paragraphs": [
+                        "Os navegadores da maioria dos computadores, smartphones e outros dispositivos habilitados para visualizar um website costumam estar configurados para aceitar cookies. Se desejas modificar as tuas prefer\u00eancias de cookies neste website ou em qualquer outro, podes faz\u00ea-lo atrav\u00e9s da configura\u00e7\u00e3o do navegador. A fun\u00e7\u00e3o \u201cajuda\u201d do teu navegador ir\u00e1 dizer-te como faz\u00ea-lo. Recordamos que se decides bloquear a utiliza\u00e7\u00e3o de determinados cookies no teu navegador do nosso website pode afetar o funcionamento do mesmo.",
+                        "Sempre que visites um dos nossos websites as jurisdi\u00e7\u00f5es locais obrigam-nos a pedir o teu consentimento para estabelecer um cookie mediante um banner na parte inferior do ecr\u00e3, que desaparecer\u00e1 passados 7 segundos depois do seu aparecimento. Passado esse tempo automaticamente estar\u00e1s a aceitar os cookies estabelecidas com o teu dispositivo."
+                    ],
+                    "title": "<span>2<\/span> Como \u00e9 que se podem gerir os Cookies?"
+                }
+            ],
+            "title": "<span>Pol\u00edtica de<\/span> Cookies"
+        },
+        "general": {
+            "subsections": [
+                {
+                    "paragraphs": [
+                        "As presentes Condi\u00e7\u00f5es Gerais de utiliza\u00e7\u00e3o dos servi\u00e7os oferecidos na URL <span>www.upplication.com<\/span> (deaqui para a frente o PORTAL) s\u00e3o subscritas, pelo titular do dom\u00ednio, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. cujo endere\u00e7o eletr\u00f3nico de contacto \u00e9: <a href=\"mailto:info@upplication.com\">info@upplication.com <\/a>",
+                        "Considera-se UTILIZADOR, as pessoas f\u00edsicas com capacidade para subscrever validamente um contrato de acordo com a lei aplic\u00e1vel.",
+                        "N\u00e3o poder\u00e1 utilizar o website e n\u00e3o poder\u00e1 aceitar as <strong>Condi\u00e7\u00f5es<\/strong> se...",
+                        "...N\u00e3o \u00e9 maior de idade e n\u00e3o pode formalizar um contrato vinculante conforme a direito, ou",
+                        "...N\u00e3o reveste a qualidade de UTILIZADOR segundo o exposto."
+                    ],
+                    "title": "<span>1<\/span> Identifica\u00e7\u00e3o das partes:"
+                },
+                {
+                    "paragraphs": [
+                        "Para utilizar o PORTAL, devem-se aceitar as presentes condi\u00e7\u00f5es gerais (deaqui para a frente, as Condi\u00e7\u00f5es), assim como aquelas cl\u00e1usulas particulares abrangidas para a utiliza\u00e7\u00e3o e\/ou contrata\u00e7\u00e3o de servi\u00e7os concretos. No caso contr\u00e1rio, dever-se-\u00e1 abandonar o PORTAL.",
+                        "Poder\u00e1 aceitar as <strong>Condi\u00e7\u00f5es<\/strong>...",
+                        "...Clicando no bot\u00e3o de aceita\u00e7\u00e3o das Condi\u00e7\u00f5es, quando se lhe ofere\u00e7a esta op\u00e7\u00e3o na interface de utilizador;",
+                        "...Utilizando de forma efetiva o website, reconhece e aceita que, a utiliza\u00e7\u00e3o do PORTAL se considerar\u00e1 como uma aceita\u00e7\u00e3o das Condi\u00e7\u00f5es.",
+                        "Aconselha-se o UTILIZADOR a ler atentamente as presentes condi\u00e7\u00f5es. Poder\u00e1 guard\u00e1-las ou imprimi-las se assim o desejar."
+                    ],
+                    "title": "<span>2<\/span> Aperfei\u00e7oamento do acordo:"
+                },
+                {
+                    "paragraphs": [
+                        "Las presentes condiciones generales ser\u00e1n de aplicaci\u00f3n a todos los servicios\/productos recogidos en la web <span>www.upplication.com<\/span>"
+                    ],
+                    "title": "<span>3<\/span> \u00c1mbito de aplicaci\u00f3n:"
+                }
+            ],
+            "title": "Condiciones generales de uso <span>de la p\u00e1gina web<\/span>"
+        },
+        "legal": {
+            "paragraphs": [
+                "En cumplimiento con el deber de informaci\u00f3n recogido en el art\u00edculo 10 de la Ley 34\/2002, de 11 de julio, de Servicios de la Sociedad de la Informaci\u00f3n y de Comercio Electr\u00f3nico, le informamos que la URL <span>www.upplication.com<\/span> (en adelante el PORTAL) es un dominio propiedad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante la ENTIDAD), con domicilio sito en <strong>Glorieta Quevedo 7,  4\u00ba Izquieda, 28015 (Madrid)<\/strong>, con <strong>C.I.F. n\u00ba B86569654<\/strong>.",
+                "Todas las marcas, nombres comerciales o signos distintivos de cualquier clase que aparecen en el PORTAL son propiedad de la ENTIDAD o de terceros, sin que pueda entenderse que el uso o acceso al sitio y\/o a los servicios, atribuya al usuario derecho alguno sobre las citadas marcas, nombres comerciales y\/o signos distintivos.",
+                "Asimismo, los contenidos publicados en la web, su dise\u00f1o gr\u00e1fico, im\u00e1genes, bases de datos y c\u00f3digo fuente son propiedad intelectual de la ENTIDAD o de terceros, sin que puedan entenderse cedidos al usuario, en virtud de lo establecido en este Aviso Legal, ninguno de los derechos de explotaci\u00f3n que existen o puedan existir sobre dichos contenidos m\u00e1s all\u00e1 de lo estrictamente necesario para el correcto uso del PORTAL y de los servicios que se prestan a trav\u00e9s de \u00e9l.",
+                "El acceso a este web site es responsabilidad exclusiva de los usuarios. El simple acceso al PORTAL no supone entablar ning\u00fan tipo de relaci\u00f3n de car\u00e1cter comercial entre la ENTIDAD y el usuario.",
+                "Accediendo a \u00e9l acepta los t\u00e9rminos y condiciones descritos en el PORTAL."
+            ],
+            "title": "<span>Aviso<\/span> Legal"
+        },
+        "privacy": {
+            "paragraphs": [
+                "Esta pol\u00edtica se aplica al sitio web <span>www.upplication.com<\/span> (en adelante el PORTAL) y a todos los servicios y productos ofrecidos en Internet por UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante, la ENTIDAD). El presente documento resume el tipo de informaci\u00f3n personal que recibe y recopila la Entidad cuando se utilizan los servicios de la p\u00e1gina web.",
+                "Se prev\u00e9 la utilizaci\u00f3n de cookies, log, enlaces y otras tecnolog\u00edas para almacenar las preferencias del usuario con el fin de mejorar la calidad de nuestros servicios, asegurar el funcionamiento t\u00e9cnico de la red, y desarrollar nuevas y mejores prestaciones. Si se desactivan o rechazan las cookies, puede ocurrir que algunas de las funciones y\/o servicios del PORTAL no funcionen adecuadamente.",
+                "En cumplimiento del <strong>art\u00edculo 5 de la Ley Org\u00e1nica 15\/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal<\/strong>, por el que se regula el derecho de informaci\u00f3n en la recogida de datos, le informamos de que sus datos personales ser\u00e1n incorporados a un Fichero de Datos de Car\u00e1cter Personal, titularidad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. como Responsable del Fichero, con la finalidad de mantener nuestras relaciones contractuales, comerciales y profesionales que nos unen a Ud., as\u00ed como para el env\u00edo de comunicaciones postales, telem\u00e1ticas, o por otros medios, con ocasi\u00f3n de acontecimientos puntuales, o en ciertos periodos del a\u00f1o, que puedan ser de inter\u00e9s para el afectado.",
+                "En cualquier caso, el titular de los datos resulta informado y consiente en la conservaci\u00f3n de dichos datos bajo las debidas condiciones de seguridad y secreto profesional, por el per\u00edodo que resulte necesario para la finalidad para la que son recabados.",
+                "El PORTAL no ejerce control sobre los sitios web mostrados como resultado de su b\u00fasqueda, enlaces o accesos desde nuestro directorio. Estos otros sitios web pueden colocar sus propias cookies o solicitarle informaci\u00f3n personal.",
+                "La ENTIDAD informa a los Usuarios Registrados en su caso de la posibilidad de ejercitar los derechos de acceso, cancelaci\u00f3n, rectificaci\u00f3n y oposici\u00f3n respecto de sus datos de car\u00e1cter personal que constan en los ficheros de la ENTIDAD, mediante comunicaci\u00f3n escrita acompa\u00f1ada de una fotocopia del D.N.I. dirigida a UPPLICATION SOFTWARE TECHNOLOGIES, S.L., a la siguiente direcci\u00f3n: <strong>Glorieta Quevedo 7,  4\u00ba Izquieda, 28015 (Madrid)<\/strong>. Estos ficheros se encuentran debidamente inscritos en el Registro de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos y cumplen las Medidas de Seguridad requeridas por el <strong>Real Decreto1720\/2007<\/strong>.",
+                "Los citados usuarios s\u00f3lo est\u00e1n autorizados al uso del PORTAL previa aceptaci\u00f3n y cumplimiento de las condiciones aqu\u00ed recogidas, debiendo abandonar el sitio en caso contrario."
+            ],
+            "title": "<span>Pol\u00edtica de<\/span> Privacidad"
+        },
+        "title": "T\u00e9rminos Legales"
+    },
+    "terms_micro": {
+        "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app m\u00f3vil",
+        "_meta_description": "Upplication\u00ae Crear app, tu propia app m\u00f3vil online. Prueba GRATIS durante 15 d\u00edas, sin necesidad de programaci\u00f3n en cuesti\u00f3n de minutos. Tu app para Android e iOS",
+        "_meta_title": "Upplication: El creador de Apps para tu tienda",
+        "_url": "\/crear-app-movil-terminos-legales\/"
+    },
+    "terms_movistar": {
+        "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+        "_meta_description": "Condiciones de uso del servicio de Upplication, creador online de apps, en Movistar Applicateca.",
+        "_meta_title": "T\u00e9rminos y condiciones de uso para Upplication en Movistar Applicateca",
+        "_url": "\/condicioneslegalesmovistar-upplication\/",
+        "sections": {
+            "sections": [
+                {
+                    "children": [
+                        "En cumplimiento con el deber de informaci\u00f3n recogido en el art\u00edculo 10 de la Ley 34\/2002, de 11 de julio, de Servicios de la Sociedad de la Informaci\u00f3n y de Comercio Electr\u00f3nico, le informamos que la URL www.upplication.com (en adelante el PORTAL) es un dominio propiedad de\u00a0UPPLICATION SOFTWARE TECHNOLOGIES, S.L.\u00a0(en adelante la ENTIDAD), con domicilio en la Glorieta de Quevedo 7, 4\u00ba izda., 28015 Madrid (Madrid), con C.I.F. n\u00ba B86569654.",
+                        "Todas las marcas, nombres comerciales o signos distintivos de cualquier clase que aparecen en el PORTAL son propiedad de la ENTIDAD o de terceros, sin que pueda entenderse que el uso o acceso al sitio y\/o a los servicios, atribuya al usuario derecho alguno sobre las citadas marcas, nombres comerciales y\/o signos distintivos.",
+                        "Asimismo, los contenidos publicados en la web, su dise\u00f1o gr\u00e1fico, im\u00e1genes, bases de datos y c\u00f3digo fuente son propiedad intelectual de la ENTIDAD o de terceros, sin que puedan entenderse cedidos al usuario, en virtud de lo establecido en este Aviso Legal, ninguno de los derechos de explotaci\u00f3n que existen o puedan existir sobre dichos contenidos m\u00e1s all\u00e1 de lo estrictamente necesario para el correcto uso del PORTAL y de los servicios que se prestan a trav\u00e9s de \u00e9l.",
+                        "El acceso a este website es responsabilidad exclusiva de los usuarios. El simple acceso al PORTAL no supone entablar ning\u00fan tipo de relaci\u00f3n de car\u00e1cter comercial entre la ENTIDAD y el usuario. Accediendo a \u00e9l acepta los t\u00e9rminos y condiciones descritos en el PORTAL."
+                    ],
+                    "title": "Aviso legal"
+                },
+                {
+                    "children": [
+                        "Esta pol\u00edtica se aplica al sitio web www.upplication.com (en adelante el PORTAL) y a todos los servicios y productos ofrecidos en Internet por UPPLICATION SOFTWARE TECHNOLOGIES, S.L. (en adelante, la ENTIDAD). El presente documento resume el tipo de informaci\u00f3n personal que recibe y recopila la Entidad cuando se utilizan los servicios de la p\u00e1gina web.",
+                        "Se prev\u00e9 la utilizaci\u00f3n de cookies, log, enlaces y otras tecnolog\u00edas para almacenar las preferencias del usuario con el fin de mejorar la calidad de nuestros servicios, asegurar el funcionamiento t\u00e9cnico de la red, y desarrollar nuevas y mejores prestaciones. Si se desactivan o rechazan las cookies, puede ocurrir que algunas de las funciones y\/o servicios del PORTAL no funcionen adecuadamente.",
+                        "En cumplimiento del art\u00edculo 5 de la Ley Org\u00e1nica 15\/1999, de 13 de diciembre, de Protecci\u00f3n de Datos de Car\u00e1cter Personal, por el que se regula el derecho de informaci\u00f3n en la recogida de datos, le informamos de que sus datos personales ser\u00e1n incorporados a un Fichero de Datos de Car\u00e1cter Personal, titularidad de UPPLICATION SOFTWARE TECHNOLOGIES, S.L. como Responsable del Fichero, con la finalidad de mantener nuestras relaciones contractuales, comerciales y profesionales que nos unen a Ud., as\u00ed como para el env\u00edo de comunicaciones postales, telem\u00e1ticas, o por otros medios, con ocasi\u00f3n de acontecimientos puntuales, o en ciertos periodos del a\u00f1o, que puedan ser de inter\u00e9s para el afectado.",
+                        "Asimismo, UPPLICATION SOFTWARE TECHNOLOGIES, S.L. garantiza al titular de los datos el ejercicio de los derechos de acceso, rectificaci\u00f3n, cancelaci\u00f3n y oposici\u00f3n de los datos que le conciernen, debiendo, para ello, dirigirse mediante comunicaci\u00f3n escrita a la siguiente direcci\u00f3n Glorieta de Quevedo 7, 4\u00ba izda., 28015 Madrid (Madrid). En cualquier caso, el titular de los datos resulta informado y consiente en la conservaci\u00f3n de dichos datos bajo las debidas condiciones de seguridad y secreto profesional, por el per\u00edodo que resulte necesario para la finalidad para la que son recabados.",
+                        "El PORTAL no ejerce control sobre los sitios web mostrados como resultado de su b\u00fasqueda, enlaces o accesos desde nuestro directorio. Estos otros sitios web pueden colocar sus propias cookies o solicitarle informaci\u00f3n personal.",
+                        "La ENTIDAD informa a los Usuarios Registrados en su caso de la posibilidad de ejercitar los derechos de acceso, cancelaci\u00f3n, rectificaci\u00f3n y oposici\u00f3n respecto de sus datos de car\u00e1cter personal que constan en los ficheros de la ENTIDAD, mediante comunicaci\u00f3n escrita acompa\u00f1ada de una fotocopia del D.N.I. dirigida a UPPLICATION SOFTWARE TECHNOLOGIES, S.L., a la siguiente direcci\u00f3n: Glorieta de Quevedo 7, 4\u00ba izda., 28015 Madrid (Madrid)",
+                        "Estos ficheros se encuentran debidamente inscritos en el Registro de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos y cumplen las Medidas de Seguridad requeridas por el Real Decreto1720\/2007.",
+                        "Los citados usuarios s\u00f3lo est\u00e1n autorizados al uso del PORTAL previa aceptaci\u00f3n y cumplimiento de las condiciones aqu\u00ed recogidas, debiendo abandonar el sitio en caso contrario."
+                    ],
+                    "title": "Pol\u00edtica de privacidad"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                "El presente documento establece las condiciones por las que se rige el uso de esta p\u00e1gina web y la adquisici\u00f3n de productos en la misma (en adelante, las \"Condiciones\").",
+                                "Al utilizar esta p\u00e1gina web y al contratar cualquier producto a trav\u00e9s de la misma, usted consiente en quedar vinculado por estas Condiciones, por lo que si no est\u00e1 usted de acuerdo con las mismas, no debe usar esta p\u00e1gina web ni contratar a trav\u00e9s de la misma.",
+                                "Estas Condiciones podr\u00edan ser modificadas, por lo que rogamos su lectura aunque ya lo haya hecho antes.",
+                                "En todo caso, las Condiciones que est\u00e9n vigentes en el momento de celebraci\u00f3n de un contrato sobre cualquier producto o servicio ser\u00e1n las que le resulten aplicables.",
+                                "En las presentes condiciones aludiremos a nosotros como \"UPPLICATION\" y a Vd. como el \"Cliente\"."
+                            ],
+                            "title": "1.- Introducci\u00f3n"
+                        },
+                        {
+                            "children": [
+                                "Esta p\u00e1gina web est\u00e1 operada bajo la denominaci\u00f3n UPPLICATION por UPPLICATION SOFTWARE TECHNOLOGIES S.L., sociedad espa\u00f1ola con domicilio en Glorieta de Quevedo 7, 4\u00ba izda., 28015 Madrid (Madrid), inscrita en el Registro Mercantil de Madrid, Tomo 30419, Folio 1, Secci\u00f3n 8, Hoja 547507, inscripci\u00f3n 1\u00aa y CIF n\u00ba B86569654.",
+                                "Dicha entidad es la parte contratante en caso de que adquiera alg\u00fan producto."
+                            ],
+                            "title": "2.- Nuestros datos"
+                        },
+                        {
+                            "children": [
+                                "La informaci\u00f3n o datos personales que nos facilite ser\u00e1n tratados con arreglo a lo establecido en las presentes Condiciones.",
+                                "Le rogamos lea atentamente los siguientes apartados:",
+                                "a) Cesi\u00f3n de sus propios datos:",
+                                "Al hacer uso de esta p\u00e1gina web y al contratar cualquier producto, usted consiente en la incorporaci\u00f3n de sus datos de car\u00e1cter personal en un fichero que ser\u00e1 objeto de tratamiento con el fin de poder comunicarnos con Vd. as\u00ed como de gestionar el cumplimiento y desarrollo de los contratos que suscriba con nosotros, y tambi\u00e9n con fines de comunicaci\u00f3n comercial entre Vd. y nosotros.",
+                                "Los datos que se le solicitan durante el proceso de contrataci\u00f3n son obligatorios. Si no nos facilita usted toda la informaci\u00f3n y datos de car\u00e1cter personal que le solicitamos, no podremos contratar con Vd., por lo que cualquier pedido se tendr\u00e1 por no efectuado.",
+                                "No obstante, en cualquier momento podr\u00e1 ejercitar los derechos de acceso, rectificaci\u00f3n, cancelaci\u00f3n y oposici\u00f3n comunic\u00e1ndolo en la direcci\u00f3n administracion@upplication.com. Tambi\u00e9n podr\u00e1 comunicar en ese correo si desea que la cesi\u00f3n de datos de car\u00e1cter personal tenga solamente por finalidad el establecimiento del contrato y las necesidades propias del contrato, excluyendo otros fines.",
+                                "El responsable del fichero y del tratamiento de los datos es UPPLICATION SOFTWARE TECHNOLOGIES S.L., con domicilio Glorieta de Quevedo 7, 4\u00ba izda., 28015 Madrid (Madrid) y CIF n\u00ba B86569654.",
+                                "El usuario de esta p\u00e1gina web y de los productos y servicios que haya contratado o pueda contratar declara que toda la informaci\u00f3n o datos que facilite son veraces y se corresponden con la realidad.",
+                                "b) Cesi\u00f3n de datos de terceros como consecuencia de la contrataci\u00f3n de los productos y servicios de UPPLICATION.",
+                                "La contrataci\u00f3n de los productos de UPPLICATION podr\u00e1 implicar que Vd. podr\u00e1 ponerse en contacto con terceros, ya sean sus clientes, ya sean simplemente contactos personales, y que \u00e9stos le suministren datos de car\u00e1cter personal para su incorporaci\u00f3n a un fichero de Vd. y su tratamiento.",
+                                "Debido a ello se le informa de que Vd. se compromete, y es responsabilidad suya, el cumplimiento de las obligaciones y limitaciones que le impone la Ley Org\u00e1nica 15\/1999 de Protecci\u00f3n de Datos para obtener datos de car\u00e1cter personal de terceras personas, almacenarlos en un fichero y su tratamiento. A tal efecto, Vd. ser\u00e1 el responsable del tratamiento de dichos datos.",
+                                "Se le informa de que UPPLICATION, tal como est\u00e1 previsto en el art. 12 de la Ley 15\/1999 de Protecci\u00f3n de Datos, almacenar\u00e1 y tratar\u00e1 dichos datos de sus contactos como encargado del tratamiento y exclusivamente para la gesti\u00f3n y desarrollo del producto que Vd. ha contratado con nosotros, y que Vd. nos encarga al contratar un producto. En todo caso, el tratamiento y utilizaci\u00f3n de los datos por parte de UPPLICATION se limitar\u00e1 a las especificaciones que se describen para el producto que Vd. haya contratado.",
+                                "Asimismo, y a los efectos previstos en el art. 21 del Real Decreto 1720\/2007 que aprueba el Reglamento de desarrollo de la Ley de Protecci\u00f3n de Datos de Car\u00e1cter Personal, Vd. autoriza a UPPLICATION a subcontratar los servicios de almacenamiento y tratamiento de los datos de car\u00e1cter personal que Vd. obtuviere como consecuencia del uso de los productos contratados. La empresa subcontratada es Acens Technologies, S.L. con domicilio en la calle San Rafael, 14, 28.108 \u2013 Alcobendas (Madrid) y el objeto de la subcontrataci\u00f3n consiste en el almacenamiento y tratamiento de datos especificado en el producto que Vd. haya contratado. Tambi\u00e9n se le informa de que el tratamiento de datos de car\u00e1cter personal, tanto por UPPLICATION como por la empresa subcontratada, se ajustar\u00e1 a las instrucciones de Vd. como responsable del tratamiento.",
+                                "Una vez finalizado el contrato entre Vd. y nosotros por cualquier causa los datos se destruir\u00e1n."
+                            ],
+                            "title": "3.- Advertencias sobre datos de car\u00e1cter personal"
+                        },
+                        {
+                            "children": [
+                                "Al realizar un contrato a trav\u00e9s de esta p\u00e1gina web, usted declara ser mayor de 18 a\u00f1os y tener capacidad legal para celebrar contratos.",
+                                "Al hacer uso de esta p\u00e1gina web y al contratar los productos de UPPLICATION a trav\u00e9s de la misma Vd. se compromete a:",
+                                "a) Hacer uso de esta p\u00e1gina web \u00fanicamente para realizar consultas o pedidos legalmente v\u00e1lidos.",
+                                "b) No realizar ning\u00fan pedido falso o fraudulento. Si razonablemente se pudiera considerar que se ha hecho un pedido de esta \u00edndole estaremos autorizados a anularlo e informar, en su caso, a las autoridades pertinentes.",
+                                "c) Facilitarnos su nombre y apellidos o denominaci\u00f3n social, el NIF o CIF, direcci\u00f3n de correo electr\u00f3nico, direcci\u00f3n postal y tel\u00e9fono de contacto de forma veraz y exacta. Asimismo, consiente que podremos hacer uso de dicha informaci\u00f3n para ponernos en contacto con usted si es necesario. En caso de que los datos que nos suministre no se ajustaran a la realidad, UPPLICATION podr\u00e1 cancelar o no iniciar relaciones contractuales con Vd.",
+                                "d) A utilizar los productos con fines ajustados a la Ley y cumpliendo con los requisitos que, en su caso, la Ley exija, as\u00ed como con lealtad y buena fe frente a terceros."
+                            ],
+                            "title": "4.- Uso de nuestra p\u00e1gina web y contrataci\u00f3n de productos de UPPLICATION"
+                        },
+                        {
+                            "children": [
+                                "La informaci\u00f3n contenida en las presentes Condiciones y los detalles contenidos en esta p\u00e1gina web no constituye una oferta de venta, sino una invitaci\u00f3n para contratar. No existir\u00e1 ning\u00fan contrato entre usted y nosotros en relaci\u00f3n con ning\u00fan producto o servicio hasta que haya sido satisfecho el precio correcto que en cada caso y para cada modalidad se indica, y haya sido expresamente aceptado por nosotros.",
+                                "Si su pedido no es aceptado y ya se hubiese realizado alg\u00fan cargo en su cuenta, el importe del mismo le ser\u00e1 reintegrado en su totalidad.",
+                                "Para realizar un pedido, deber\u00e1 seguir el procedimiento de compra on-line siguiendo estrictamente las instrucciones que se le formulan."
+                            ],
+                            "title": "5.- Celebraci\u00f3n del contrato de adquisici\u00f3n de productos de UPPLICATION"
+                        }
+                    ],
+                    "title": "Condiciones de uso de la p\u00e1gina web, compra de productos y contrataci\u00f3n"
+                },
+                {
+                    "children": [
+                        "Nos reservamos el derecho de retirar cualquier producto o servicio de esta p\u00e1gina web en cualquier momento."
+                    ],
+                    "title": "MODIFICACIONES EN LA OFERTA DE PRODUCTOS"
+                },
+                {
+                    "children": [
+                        "El precio de cada producto ser\u00e1 el que se establezca en cada momento en nuestra p\u00e1gina web, salvo en caso de error.",
+                        "Si descubri\u00e9semos un error en el precio de alguno de los productos que usted ha encargado, le informaremos lo antes posible y le daremos la opci\u00f3n de reconfirmar su pedido al precio correcto o bien anularlo.\u00a0Si no logramos ponernos en contacto con usted, el pedido se considerar\u00e1 cancelado y se le reembolsar\u00e1n \u00edntegramente las cantidades que hubiesen sido abonadas. No estaremos obligados a suministrarle ning\u00fan producto a un precio incorrecto (incluso aunque le hayamos enviado alguna confirmaci\u00f3n).",
+                        "El procedimiento para el pago es el que se describe en la p\u00e1gina web y deber\u00e1 seguir todos los pasos que se le indicar\u00e1n. La transacci\u00f3n es segura, ser\u00e1 verificada por el sistema CV2 y la responsabilidad de la misma es de UPPLICATION.",
+                        "Una vez completados todos los pasos no se admitir\u00e1 el retroceso de ning\u00fan pago con la sola excepci\u00f3n de lo se\u00f1alado en el p\u00e1rrafo anterior.",
+                        "En caso de que el producto o servicio contratado incluya importes a pagar por su parte de forma peri\u00f3dica, Vd. deber\u00e1 atender los pagos a los vencimientos se\u00f1alados.",
+                        "En caso de incumplimiento por su parte de cualquier obligaci\u00f3n de pago, total o parcialmente, UPPLICATION podr\u00e1 resolver el contrato de forma inmediata."
+                    ],
+                    "title": "PRECIO Y PAGO"
+                },
+                {
+                    "children": [
+                        "Las condiciones particulares del contrato estar\u00e1n constituidas por la definici\u00f3n que se proporciona en la p\u00e1gina web de UPPLICATION del Plan que contrate el Cliente."
+                    ],
+                    "title": "SOBRE EL CONTENIDO DEL CONTRATO"
+                },
+                {
+                    "children": [
+                        "Dado que los productos que ofrece UPPLICATION incluyen que el Cliente podr\u00e1 utilizarlos en sus relaciones, personales o comerciales, con terceros, en la utilizaci\u00f3n que pueda realizar de los productos contratados con UPPLICATION, el Cliente se compromete a respetar los siguientes principios:",
+                        "a) La salvaguarda del orden p\u00fablico, la investigaci\u00f3n penal, la seguridad p\u00fablica y la defensa nacional.",
+                        "b) La protecci\u00f3n de la salud p\u00fablica o de las personas f\u00edsicas o jur\u00eddicas que tengan la condici\u00f3n de consumidores o usuarios incluso cuando act\u00faen como inversores.",
+                        "c) El respeto a la dignidad de la persona y al principio de no discriminaci\u00f3n por motivos de raza, sexo, religi\u00f3n, opini\u00f3n, nacionalidad, discapacidad o cualquier otra circunstancia personal o social.",
+                        "d) La protecci\u00f3n de la juventud y de la infancia.",
+                        "e) La salvaguarda de los derechos de propiedad intelectual.",
+                        "e) Se respetar\u00e1n en todo caso las garant\u00edas, normas y procedimientos previstos en el ordenamiento jur\u00eddico para proteger los derechos a la intimidad personal y familiar, a la protecci\u00f3n de los datos personales, a la libertad de expresi\u00f3n o a la libertad de informaci\u00f3n.",
+                        "Debido a que los productos que se pueden contratar prev\u00e9n la creaci\u00f3n y gesti\u00f3n por parte del Cliente de una web, el Cliente es consciente de que, adem\u00e1s de cumplir con las anteriores condiciones, deber\u00e1 cumplir con las prevenciones y requisitos establecidos en la Ley 34\/2002 de 11 de julio de Servicios de la Sociedad de la Informaci\u00f3n.",
+                        "UPPLICATION no es responsable de las infracciones o incumplimientos en los que el Cliente pudiera incurrir en relaci\u00f3n con lo contemplado en la presente cl\u00e1usula."
+                    ],
+                    "title": "COMPROMISOS GENERALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION"
+                },
+                {
+                    "children": [
+                        "El uso que el Cliente haga de los productos contratados con UPPLICATION puede dar lugar a que el cliente acuerde compromisos de car\u00e1cter civil, mercantil o administrativo frente a terceros y\/o Administraciones p\u00fablicas. El Cliente es consciente de que UPPLICATION no es parte de esos posibles compromisos ni puede verse afectada directa o indirectamente por los mismos. El Cliente adoptar\u00e1, en su caso, las medidas necesarias para mantener a UPPLICATION al margen e indemne de cualquier responsabilidad derivada de aqu\u00e9llos."
+                    ],
+                    "title": "COMPROMISOS CONTRACTUALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION"
+                },
+                {
+                    "children": [
+                        "Debido a la naturaleza abierta de esta p\u00e1gina web y debido a que los productos que se ofrecen consisten en aplicaciones electr\u00f3nicas que se distribuyen a trav\u00e9s de las redes generales de comunicaci\u00f3n, existe la posibilidad de que se produzcan errores en el almacenaje y transmisi\u00f3n de informaci\u00f3n digital, as\u00ed como riesgos de ataques o alteraciones fraudulentas por parte de terceros. En consecuencia, no podemos garantizar la precisi\u00f3n y seguridad de la informaci\u00f3n transmitida u obtenida tanto por medio de esta p\u00e1gina web como la que se suministre para dar cumplimiento a los Contratos que Vd. pueda celebrar.",
+                        "Con el alcance que permita la ley, excluimos todas las garant\u00edas, salvo aqu\u00e9llas que no puedan ser leg\u00edtimamente excluidas frente a los consumidores y usuarios.",
+                        "Lo dispuesto en la presente cl\u00e1usula no afectar\u00e1 a sus derechos legales en caso de que Vd. act\u00fae como consumidor y usuario.",
+                        "Por otra parte, se hace constar a los efectos de los art\u00edculos 15 y 16 de la Ley 34\/2002 de Servicios de la Sociedad de la Informaci\u00f3n que en el desarrollo del Contrato UPPLICATION:",
+                        "a) No modificar\u00e1 la informaci\u00f3n que reciba.",
+                        "b) Permitir\u00e1 el acceso a ella solamente al Cliente.",
+                        "c) Su sistema respeta las normas generalmente aceptadas y aplicadas para la actualizaci\u00f3n de la informaci\u00f3n.",
+                        "d) UPPLICATION no interfiere en la utilizaci\u00f3n l\u00edcita de tecnolog\u00eda generalmente aceptada y empleada por el sector para obtener datos sobre la utilizaci\u00f3n de la informaci\u00f3n.",
+                        "e) UPPLICATION retirar\u00e1 la informaci\u00f3n que haya almacenado, o har\u00e1 imposible el acceso a ella, cuando tenga conocimiento efectivo de que ha sido retirada del lugar en que se encontraba, o bien que se ha imposibilitado el acceso a ella, o bien que una autoridad competente ha ordenado su retirada o impedido el acceso a ella.",
+                        "f) UPPLICATION no tendr\u00e1 conocimiento efectivo de la informaci\u00f3n que reciba de Vd. hasta tal punto que le permita analizar o discernir sobre la licitud o ilicitud de actividad que Vd. desarrolle mediante el producto contratado, o que la misma pueda producir lesi\u00f3n en los derechos o bienes de un tercero. No obstante, si por cualquier medio comprobara o llegara a su conocimiento que en su actuaci\u00f3n el Cliente ha podido incurrir en una actividad il\u00edcita o lesiva de los derechos o bienes de un tercero, UPPLICATION actuar\u00e1 con diligencia retirando los datos o haciendo imposible el acceso a ellos y se reserva al derecho a resolver el Contrato sin tener que restituir ning\u00fan importe, y con reserva de acciones legales."
+                    ],
+                    "title": "EXONERACI\u00d3N DE RESPONSABILIDAD"
+                },
+                {
+                    "children": [
+                        "Los productos y servicios ofrecidos por UPPLICATION contienen software original cuyo autor es UPPLICATION SOFTWARE TECHNOLIGIES, S.L., a los efectos del art. 96 del Real Decreto Legislativo 1\/1996 que aprueba la Ley de Propiedad Intelectual. Tambi\u00e9n gozan de dicha protecci\u00f3n las versiones sucesivas y los programas derivados, as\u00ed como la documentaci\u00f3n t\u00e9cnica y los manuales e instrucciones de uso de los distintos productos.",
+                        "Usted podr\u00e1 hacer uso de dicho material \u00fanicamente en la forma en que se lo autoricemos expresamente nosotros y en ning\u00fan caso est\u00e1 autorizado a considerarse licenciatario ni a divulgarlo ni a transmitirlo a terceros. Tampoco est\u00e1 autorizado a reproducirlo, ni total ni parcialmente, ni a\u00fan de forma transitoria, ni a introducir ninguna modificaci\u00f3n distinta a las que est\u00e9n previstas en el propio producto de forma ordinaria.",
+                        "Tambi\u00e9n se le informa que todos los signos distintivos, iconos y logotipos que Vd. puede ver en la p\u00e1gina web, o que se le suministren si Vd. suscribe un contrato, est\u00e1n protegidos por la legislaci\u00f3n espa\u00f1ola sobre patentes y marcas y Vd. no tiene autorizaci\u00f3n para hacer uso de ellos bajo ning\u00fan concepto."
+                    ],
+                    "title": "PROPIEDAD INTELECTUAL\u2028E INDUSTRIAL"
+                },
+                {
+                    "children": [
+                        "En el caso de que nuestra p\u00e1gina web contenga links o enlaces a otras p\u00e1ginas web y materiales de terceros, dichos links se facilitan \u00fanicamente a efectos informativos, sin que nosotros tengamos control alguno sobre el contenido de dichas p\u00e1ginas web o materiales. Por lo tanto, no aceptamos responsabilidad alguna por cualquier da\u00f1o, perjuicio o p\u00e9rdida derivados de su uso."
+                    ],
+                    "title": "LINKS DESDE NUESTRA P\u00c1GINA WEB"
+                },
+                {
+                    "children": [
+                        "A efectos contractuales, Vd. consiente en usar el correo electr\u00f3nico que facilita en el proceso de contrataci\u00f3n como medio de comunicaci\u00f3n a efectos contractuales y reconoce que tanto el contrato como la notificaci\u00f3n, informaci\u00f3n y dem\u00e1s comunicaciones que le enviemos de forma electr\u00f3nica cumplen con los requisitos legales de ser por escrito. Esta condici\u00f3n no afectar\u00e1 a sus derechos irrenunciables reconocidos por ley.",
+                        "Para probar que la notificaci\u00f3n ha sido hecha, ser\u00e1 suficiente con probar que el correo electr\u00f3nico fue enviado a la direcci\u00f3n de correo especificada por Vd. en el proceso de contrataci\u00f3n aunque no conste la recepci\u00f3n.",
+                        "De forma rec\u00edproca, las notificaciones que usted nos env\u00ede deber\u00e1n remitirse siempre al correo administracion@upplication.com y, del mismo modo, cumplir\u00e1n con todos los requisitos para ser v\u00e1lidas y suficientes a efectos contractuales."
+                    ],
+                    "title": "COMUNICACIONES POR ESCRITO"
+                },
+                {
+                    "children": [
+                        "El Contrato es vinculante tanto para usted como para nosotros.",
+                        "Usted no podr\u00e1 transmitir, ceder, gravar o de cualquier otro modo transferir el Contrato o alguno de los derechos u obligaciones derivados del mismo a ning\u00fan tercero sin haber obtenido nuestro consentimiento previo por escrito.",
+                        "UPPLICATION podr\u00e1 transmitir, ceder, gravar, subcontratar o de cualquier otro modo transferir un Contrato o alguno de los derechos u obligaciones derivados del mismo a cualquier tercero y en cualquier momento durante la vigencia del Contrato. Para evitar cualquier duda, dichas transmisiones, cesiones, grav\u00e1menes u otras transferencias no afectar\u00e1n los derechos que, en su caso, usted tiene en virtud del contrato o como consumidor \/ usuario reconocidos por ley."
+                    ],
+                    "title": "CESI\u00d3N DE DERECHOS Y OBLIGACIONES"
+                },
+                {
+                    "children": [
+                        "Aunque contamos con importantes medidas de seguridad, debemos advertirle de que no seremos responsables de cualquier da\u00f1o o p\u00e9rdida resultante de un ataque de denegaci\u00f3n de servicio, virus o cualquier otro programa o material tecnol\u00f3gicamente perjudicial o da\u00f1ino que pueda afectar a su ordenador, equipo inform\u00e1tico, datos o materiales como consecuencia del uso de esta p\u00e1gina web, del uso de los productos que Vd. adquiera o de la descarga de contenidos de la misma o a los que la misma redireccione.",
+                        "Usted no debe realizar un uso indebido de esta p\u00e1gina web mediante la introducci\u00f3n intencionada en la misma de virus, troyanos, gusanos, bombas l\u00f3gicas o cualquier otro programa o material tecnol\u00f3gicamente perjudicial, da\u00f1ino o que altere el contenido, bien modific\u00e1ndolo, bien redireccion\u00e1ndolo. Usted no tratar\u00e1 de tener acceso no autorizado a esta p\u00e1gina web, al servidor en que dicha p\u00e1gina se encuentra alojada o a cualquier servidor, ordenador o base de datos relacionada con nuestra p\u00e1gina web o con las empresas que subcontratemos. Vd. se compromete a no atacar esta p\u00e1gina web a trav\u00e9s de un ataque de denegaci\u00f3n de servicio o de un ataque de denegaci\u00f3n de servicio distribuido.",
+                        "El incumplimiento de esta cl\u00e1usula podr\u00eda llevar aparejada la comisi\u00f3n de infracciones tipificadas por la normativa aplicable. Informaremos de cualquier incumplimiento de dicha normativa a las autoridades competentes y cooperaremos con ellas para descubrir la identidad del atacante. Asimismo, en caso de incumpla o intente incumplir la presente cl\u00e1usula, dejar\u00e1 inmediatamente de estar autorizado a usar esta p\u00e1gina web. Asimismo, en estos casos ser\u00e1 responsable de todos los da\u00f1os y perjuicios de naturaleza econ\u00f3mica o de cualquier otra naturaleza que pudiera causar."
+                    ],
+                    "title": "VIRUS, PIRATER\u00cdA Y OTROS ATAQUES INFORM\u00c1TICOS"
+                },
+                {
+                    "children": [
+                        "No seremos responsables por ning\u00fan incumplimiento o retraso en el cumplimiento de alguna de las obligaciones que asumamos al amparo de un Contrato, cuya causa se deba a acontecimientos que est\u00e1n fuera de nuestro control razonable (\"Causa de Fuerza Mayor\").",
+                        "Las Causas de Fuerza Mayor incluir\u00e1n cualquier acto, acontecimiento, falta de ejercicio, omisi\u00f3n o accidente que, entre otros y sin car\u00e1cter limitativo, se enumeran a continuaci\u00f3n:",
+                        "a) Huelgas, cierres patronales u otras medidas reivindicativas.",
+                        "b) Rebeli\u00f3n, invasi\u00f3n, ataque terrorista o amenaza terrorista, guerra (declarada o no) o amenaza o preparativos de guerra.",
+                        "c) Incendio, explosi\u00f3n, tormenta, inundaci\u00f3n, terremoto, hundimiento, epidemia o cualquier otro desastre natural o causado por el hombre, con culpa o accidentalmente.",
+                        "d) Imposibilidad o dificultad grave de utilizar sistemas p\u00fablicos o privados de telecomunicaciones y de almacenamiento y tratamiento de datos.",
+                        "e) Actos, decretos, legislaci\u00f3n, normativa o restricciones de cualquier gobierno o autoridad p\u00fablica.",
+                        "Se entender\u00e1 que nuestras obligaciones derivadas de los Contratos quedar\u00e1n suspendidas durante el per\u00edodo en que la Causa de Fuerza Mayor contin\u00fae, y dispondremos de una ampliaci\u00f3n en el plazo para cumplir dichas obligaciones por un periodo de tiempo igual al que dure la Causa de Fuerza Mayor. Pondremos todos los medios razonables para que finalice la Causa de Fuerza Mayor o para encontrar una soluci\u00f3n que nos permita cumplir nuestras obligaciones en virtud del Contrato a pesar de la Causa de Fuerza Mayor."
+                    ],
+                    "title": "OTROS ACONTECIMIENTOS FUERA DE NUESTRO CONTROL"
+                },
+                {
+                    "children": [
+                        "El Cliente podr\u00e1 contratar los productos con las duraciones temporales y condiciones particulares aplicables a cada uno de los planes que se ofrecen.",
+                        "Durante el tiempo en que est\u00e9 en vigor el Plan que haya contratado, UPPLICATION estar\u00e1 obligada a dar soporte a los servicios que incluye el producto durante el periodo que en cada caso se indica seg\u00fan la modalidad escogida.",
+                        "El periodo contractual abarcar\u00e1 desde la fecha de formalizaci\u00f3n electr\u00f3nica del Contrato hasta su cancelaci\u00f3n a instancias del Cliente o de UPPLICATION.",
+                        "El Cliente podr\u00e1 desistir del Contrato en cualquier momento pero su efectividad se producir\u00e1 en el \u00faltimo d\u00eda de la mensualidad en curso, cuyo pago, por lo tanto, deber\u00e1 efectuarse. UPPLICATION no tendr\u00e1 que devolver ninguna cantidad recibida a cuenta.",
+                        "La comunicaci\u00f3n de aviso de cancelaci\u00f3n o no renovaci\u00f3n por parte del cliente deber\u00e1 realizarse a la siguiente direcci\u00f3n de correo electr\u00f3nico: administracion@upplication.com.",
+                        "En caso de falta de pago de cualquiera de las obligaciones de pago, as\u00ed como en caso de incumplimiento por parte del Cliente de cualquiera de sus obligaciones derivadas de las presentes Condiciones o de las condiciones particulares del Plan contratado, UPPLICATION estar\u00e1 facultada, pero no obligada, para resolver el contrato y cancelar inmediata y definitivamente el uso del producto o servicio, a todos los efectos. Tambi\u00e9n tendr\u00e1 derecho a reclamar todos aquellos vencimientos anteriores a la resoluci\u00f3n del contrato que estuvieren pendientes de pago.",
+                        "En caso de que UPPLICATION cancelara el contrato, por cualquier causa, incluso por Fuerza Mayor, lo comunicar\u00e1 en la direcci\u00f3n electr\u00f3nica proporcionada por el Cliente.",
+                        "Efectos de la extinci\u00f3n del Contrato:",
+                        "a) Cuando se extinga el contrato por cualquier causa, incluyendo el vencimiento, el incumplimiento del Cliente, Fuerza Mayor o cualquier otro motivo, UPPLICATION interrumpir\u00e1 la conexi\u00f3n del Cliente con su sistema.",
+                        "b) Todos los datos e informaciones, tanto del Cliente como de sus contactos (clientes propios o particulares), que hayan quedado almacenados en los sistemas de UPPLICATION o de las empresas con las que haya subcontratado a consecuencia de los servicios prestados, ser\u00e1n destruidos salvo en los casos previstos por la Ley.",
+                        "c) Ninguna de las partes tendr\u00e1 acci\u00f3n de reclamaci\u00f3n frente a la otra como consecuencia de la resoluci\u00f3n del contrato, excepto las acciones de reclamaci\u00f3n de UPPLICATION frente al cliente por motivo de falta de pago y\/o incumplimiento de sus obligaciones, que permanecer\u00e1n vigentes."
+                    ],
+                    "title": "DURACI\u00d3N, RESOLUCI\u00d3N Y EXTINCI\u00d3N DEL CONTRATO"
+                },
+                {
+                    "children": [
+                        "La falta de requerimiento por nuestra parte del cumplimiento estricto por su parte de alguna de las obligaciones asumidas por Vd. en virtud de un Contrato o de las presentes Condiciones, o la falta de ejercicio por nuestra parte de los derechos o acciones que nos pudiesen corresponder en virtud de dicho Contrato o de las Condiciones, no supondr\u00e1 renuncia ni limitaci\u00f3n alguna en relaci\u00f3n con dichos derechos o acciones ni le exonerar\u00e1 a Vd. de cumplir con tales obligaciones.",
+                        "En caso de que expresamente renunciemos por nuestra parte a un derecho o acci\u00f3n concreto, ello no supondr\u00e1 una renuncia a otros derechos o acciones derivados del contrato o de las presentes Condiciones.",
+                        "Ninguna renuncia por nuestra parte a alguna de las presentes Condiciones o a los derechos o acciones derivados del contrato surtir\u00e1 efecto, a no ser que se establezca expresamente que es una renuncia y se le comunique a usted por escrito."
+                    ],
+                    "title": "RENUNCIA"
+                },
+                {
+                    "children": [
+                        "Si alguna de las presentes Condiciones o alguna disposici\u00f3n de un Contrato fuesen declaradas nulas y \/ o sin efecto por resoluci\u00f3n firme o de car\u00e1cter cautelar por parte de una autoridad competente, los restantes t\u00e9rminos y condiciones permanecer\u00e1n en vigor, sin que queden afectados por dicha declaraci\u00f3n de nulidad."
+                    ],
+                    "title": "NULIDAD PARCIAL"
+                },
+                {
+                    "children": [
+                        "Las presentes Condiciones, conjuntamente con las derivadas del Contrato en los t\u00e9rminos que se le exponen a lo largo del procedimiento de contrataci\u00f3n, constituyen el acuerdo \u00edntegro existente entre usted y nosotros en relaci\u00f3n con el Contrato y sustituyen a cualquier otro pacto, acuerdo o promesa anterior convenida entre usted y nosotros verbalmente o por escrito.",
+                        "Vd. y nosotros reconocemos haber consentido la celebraci\u00f3n del Contrato sin haber confiado en ninguna declaraci\u00f3n o promesa hecha por la otra parte o que pudiera inferirse de cualquier declaraci\u00f3n o escrito en las negociaciones entabladas por los dos antes de dicho Contrato, salvo aquello que figura expresamente mencionado en las presentes Condiciones y en las condiciones particulares del Plan o Planes contratados."
+                    ],
+                    "title": "ACUERDO COMPLETO"
+                },
+                {
+                    "children": [
+                        "Tenemos derecho a revisar y modificar las presentes Condiciones en cualquier momento.",
+                        "En cualquier caso, las Condiciones del Contrato que Vd. suscriba ser\u00e1n las que est\u00e9n vigentes en el momento de su suscripci\u00f3n, salvo que por ley o decisi\u00f3n de autoridades p\u00fablicas debamos hacer cambios con car\u00e1cter retroactivo. En este caso los posibles cambios afectar\u00e1n tambi\u00e9n a los pedidos que usted hubiera hecho previamente."
+                    ],
+                    "title": "NUESTRO DERECHO A MODIFICAR ESTAS CONDICIONES"
+                },
+                {
+                    "children": [
+                        "El uso de nuestra p\u00e1gina web y los contratos de adquisici\u00f3n de productos a trav\u00e9s de la misma se regir\u00e1n por la legislaci\u00f3n espa\u00f1ola.",
+                        "Cualquier controversia que surja o guarde relaci\u00f3n con el uso de la p\u00e1gina web o con dichos contratos ser\u00e1 sometida a la jurisdicci\u00f3n de los juzgados y tribunales de Madrid capital, Espa\u00f1a."
+                    ],
+                    "title": "LEGISLACI\u00d3N APLICABLE Y JURISDICCI\u00d3N"
+                }
+            ],
+            "title": "T\u00e9rminos y condiciones"
+        }
+    }
+}
