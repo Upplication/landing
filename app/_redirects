@@ -8,5 +8,12 @@
 # proxy the blog
 /blog/*  http://blog.upplication.com/:splat  200
 
+# proxy estudio-mobile-pymes
+/estudio-mobile-pymes-2016 http://microlanding.upplication.com/estudio-mobile-pymes-2016 200
+
+# proxy microlandings
+/crear-app-movil/* http://microlanding.upplication.com/crear-app-movil/:splat 200
+/crear/* http://microlanding.upplication.com/crear-app-movil/:splat 200
+
 # custom 404
 /* /pagina-no-encontrada 404
