@@ -56,7 +56,7 @@ You can override this vars passing the concrete key as parameter with the prefix
     link(rel='stylesheet', href='/styles/css/[view_name]/second.css')
     // endbuild
     ```
-    - With less:
+    With less:
     - Create: `app/styles/less/[view_name]/[name].less`
     - Add all the new css to the view with a 'usemin css block'. Example:
     ```

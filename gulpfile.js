@@ -175,9 +175,9 @@ gulp.task('onesky', function() {
     return gulp.src('./onesky.json')
         .pipe(onesky({
             projectId: '68574',
-            sourceFile: 'default.json'
+            sourceFile: ['default.json','terms.json']
         }))
-        .pipe(gulp.dest('app/locales/test'))
+        .pipe(gulp.dest('app/locales'))
 });
 
 gulp.task('clean', function() {
