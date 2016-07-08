@@ -1,13 +1,13 @@
 extends base/v2/base
 
 block vars
-    - var title = $.about_us._meta_title
-    - var description = $.about_us._meta_description
-    - var keywords = $.about_us._keywords
+    - var title = about_us._meta_title
+    - var description = about_us._meta_description
+    - var keywords = about_us._keywords
     - var cssClass = 'about'
 
 block css
-    // build:css({.tmp, app}) /styles/about.min.css
+    // build:css(app) /styles/about.min.css
     link(rel='stylesheet', href='/styles/css/about/about.css')
     // endbuild
 

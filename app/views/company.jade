@@ -1,13 +1,13 @@
 extends base/v2/base
 
 block vars
-    - var title = $.company._meta_title
-    - var description = $.company._meta_description
-    - var keywords = $.company._keywords
+    - var title = company._meta_title
+    - var description = company._meta_description
+    - var keywords = company._keywords
     - var cssClass = 'company'
 
 block css
-    // build:css({.tmp, app}) /styles/company.min.css
+    // build:css(app) /styles/company.min.css
     link(rel='stylesheet', href='/styles/css/company/company.css')
     // endbuild
 

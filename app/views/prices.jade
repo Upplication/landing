@@ -1,13 +1,13 @@
 extends base/v2/base
 
 block vars
-   - var title = $.prices._meta_title
-   - var description = $.prices._meta_description
-   - var keywords = $.prices._keywords
+   - var title = prices._meta_title
+   - var description = prices._meta_description
+   - var keywords = prices._keywords
    - var cssClass = 'prices'
 
 block css
-   // build:css({.tmp, app}) /styles/prices.min.css
+   // build:css(app) /styles/prices.min.css
    link(rel='stylesheet', href='/styles/css/prices/prices.css')
    // endbuild
 

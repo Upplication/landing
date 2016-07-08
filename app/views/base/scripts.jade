@@ -5,7 +5,6 @@
 
 script(type="text/javascript").
   window.$UPP = window.$UPP || {};
-  $UPP.config = !{config};
   $UPP.localConfig = !{JSON.stringify(localConfig)};
   // Fix for IE
   if (!window.location.origin) {
@@ -26,10 +25,10 @@ script(type="text/javascript").
   ajax.error[6] = "#{register.error.num6}";
   ajax.error[10] = "#{register.error.num10}";
 
-// build:js({.tmp,app}) /scripts/utils.min.js
+// build:js(app) /scripts/utils.min.js
 script(type="text/javascript", src='/scripts/utils.js')
 // endbuild
 
 script(type='text/javascript').
-  checkLanguage("#{lang}", !{routingString}, "#{_template}");
+  checkLanguage("#{lang}", !{JSON.stringify(routing)}, "#{_template}");
   

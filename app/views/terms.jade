@@ -1,13 +1,13 @@
 extends base/v2/base
 
 block vars
-    - var title = $.terms._meta_title
-    - var description = $.terms._meta_description
-    - var keywords = $.terms._keywords
+    - var title = terms._meta_title
+    - var description = terms._meta_description
+    - var keywords = terms._keywords
     - var cssClass = 'terms'
 
 block css
-    // build:css({.tmp, app}) /styles/terms.min.css
+    // build:css(app) /styles/terms.min.css
     link(rel='stylesheet', href='/styles/css/terms/terms.css')
     // endbuild
 
@@ -35,3 +35,8 @@ block content
                             h5 !{subsections.title}
                             each paragraph in subsections.paragraphs
                                 p !{paragraph}
+                        h4#dashboard-policy.scrollspy !{terms.dashboard.title}
+                            each subsections in terms.dashboard.subsections
+                                h5 !{subsections.title}
+                                each paragraph in subsections.paragraphs
+                                    p !{paragraph}

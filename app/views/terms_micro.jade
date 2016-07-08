@@ -1,11 +1,11 @@
 extends microsites/base.jade
 block vars
-    - var title = $.terms_micro._meta_title
-    - var description = $.terms_micro._meta_description
-    - var keywords = $.terms_micro._keywords
+    - var title = terms_micro._meta_title
+    - var description = terms_micro._meta_description
+    - var keywords = terms_micro._keywords
     - var cssClass = 'terms_micro'
 block css
-    // build:css({.tmp, app}) /styles/terms_micro.min.css
+    // build:css(app) /styles/terms_micro.min.css
     link(rel='stylesheet', href='/styles/css/microsites/terms_micro.css')
     // endbuild
 block features

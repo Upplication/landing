@@ -1,19 +1,19 @@
 extends base/v2/base
 
 block vars
-    - var title = $.offer._meta_title
-    - var description = $.offer._meta_description
-    - var keywords = $.offer._keywords
+    - var title = offer._meta_title
+    - var description = offer._meta_description
+    - var keywords = offer._keywords
     - var cssClass = 'offer'
 
 block css
-    // build:css({.tmp, app}) /styles/offer.developer.min.css
+    // build:css(app) /styles/offer.developer.min.css
     link(rel='stylesheet', href='/styles/css/offer/offer.css')
     // endbuild
 
 block content
     script(type='text/javascript').
-        $UPP.url = "#{$.offer._url}";
+        $UPP.url = "#{offer._url}";
 
     section.bottom-space
         .container.offer-jobs

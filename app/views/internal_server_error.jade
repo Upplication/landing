@@ -1,11 +1,11 @@
 extends base/v2/base
 block vars
-   - var title = $.internal_server_error._meta_title
-   - var description = $.internal_server_error._meta_description
-   - var keywords = $.internal_server_error._keywords
+   - var title = internal_server_error._meta_title
+   - var description = internal_server_error._meta_description
+   - var keywords = internal_server_error._keywords
    - var cssClass = 'internal_server_error'
 block css
-   // build:css({.tmp, app}) /styles/500.min.css
+   // build:css(app) /styles/500.min.css
    link(rel='stylesheet', href='/styles/css/404/404.css')
    link(rel='stylesheet', href='/styles/css/500/500.css')
    // endbuild
