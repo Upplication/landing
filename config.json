@@ -1,5 +1,5 @@
 { 
-  "upplication.com":{
+  "upplication.com": {
     "segmentio_token": "pqbi6xsdfe",
     "tagmanager_token": "GTM-PPJS3G",
     "webmaster_token": "juFFMSMoqmlI8iFOJJs3EE2tObAcgyeywGbfKBrTXrU",
@@ -7,17 +7,7 @@
     "dashboard_base_path": "//dashboard.upplication.com",
     "env": "PRO"
   },
-
-  "upptesting.com":{
-    "segmentio_token": "j44nuye4y6",
-    "tagmanager_token": "GTM-M8KJZG",
-    "webmaster_token": "",
-    "base_path": "//www.upptesting.com",
-    "dashboard_base_path": "//prepro.upplication.com",
-    "env": "PRE"
-  },
-
-  "landing.upplication.priv":{
+  "landing.dev.upplication.com": {
     "segmentio_token": "j44nuye4y6",
     "tagmanager_token": "GTM-M8KJZG",
     "webmaster_token": "",
@@ -25,8 +15,7 @@
     "dashboard_base_path": "//dashboard.upplication.priv",
     "env": "DES"
   },
-  
-  "localhost":{
+  "localhost": {
     "segmentio_token": "j44nuye4y6",
     "tagmanager_token": "GTM-M8KJZG",
     "webmaster_token": "",

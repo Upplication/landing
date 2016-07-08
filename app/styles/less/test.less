@@ -1,0 +1,22 @@
+/* Mixin */
+.border-radius (@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+/* Implementation */
+body {
+  .border-radius(20px);
+}
+
+/*
+-----------------
+Usage with usemin:
+-----------------
+
+// build:less(app) /styles/less/test.css
+link(rel='stylesheet', href='/styles/less/test.less')
+// endbuild
+
+ */

@@ -1,13 +1,13 @@
 extends base/v2/base
 
 block vars
-    - var title = $.home._meta_title
-    - var description = $.home._meta_description
-    - var keywords = $.home._keywords
+    - var title = home._meta_title
+    - var description = home._meta_description
+    - var keywords = home._keywords
     - var cssClass = 'home'
 
 block css
-    // build:css({.tmp, app}) /styles/home.min.css
+    // build:css(app) /styles/home.min.css
     link(rel='stylesheet', href='/styles/css/home/home.css')
     // endbuild
 
@@ -118,19 +118,19 @@ block content
                                 li
                                     a(href='', title='#{home.samples.rest.details1}')
                                         i.fa.fa-check
-                                        !{home.samples.rest.details1}
+                                        | !{home.samples.rest.details1}
                                 li
                                     a(href='', title='#{home.samples.rest.details2}')
                                         i.fa.fa-check
-                                        !{home.samples.rest.details2}
+                                        | !{home.samples.rest.details2}
                                 li
                                     a(href='', title='#{home.samples.rest.details3}')
                                         i.fa.fa-check
-                                        !{home.samples.rest.details3}
+                                        | !{home.samples.rest.details3}
                                 li
                                     a(href='', title='#{home.samples.rest.details4}')
                                         i.fa.fa-check
-                                        !{home.samples.rest.details4}
+                                        | !{home.samples.rest.details4}
                             a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
                                 i.left.fa.fa-cog.fa-spin
                                 span #{home.samples.free_app}
@@ -145,19 +145,19 @@ block content
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details1}')
                                         i.fa.fa-check
-                                        !{home.samples.shop.shop_details1}
+                                        | !{home.samples.shop.shop_details1}
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details2}')
                                         i.fa.fa-check
-                                        !{home.samples.shop.shop_details2}
+                                        | !{home.samples.shop.shop_details2}
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details3}')
                                         i.fa.fa-check
-                                        !{home.samples.shop.shop_details3}
+                                        | !{home.samples.shop.shop_details3}
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details4}')
                                         i.fa.fa-check
-                                        !{home.samples.shop.shop_details4}
+                                        | !{home.samples.shop.shop_details4}
                             a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
                                 i.left.fa.fa-cog.fa-spin
                                 span #{home.samples.free_app}
@@ -171,19 +171,19 @@ block content
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details1}')
                                         i.fa.fa-check
-                                        !{home.samples.services.serv_details1}
+                                        | !{home.samples.services.serv_details1}
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details2}')
                                         i.fa.fa-check
-                                        !{home.samples.services.serv_details2}
+                                        | !{home.samples.services.serv_details2}
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details3}')
                                         i.fa.fa-check
-                                        !{home.samples.services.serv_details3}
+                                        | !{home.samples.services.serv_details3}
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details4}')
                                         i.fa.fa-check
-                                        !{home.samples.services.serv_details4}
+                                        | !{home.samples.services.serv_details4}
                             a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
                                 i.left.fa.fa-cog.fa-spin
                                 span #{home.samples.free_app}
@@ -197,19 +197,19 @@ block content
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details1}')
                                         i.fa.fa-check
-                                        !{home.samples.custom.cust_details1}
+                                        | !{home.samples.custom.cust_details1}
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details2}')
                                         i.fa.fa-check
-                                        !{home.samples.custom.cust_details2}
+                                        | !{home.samples.custom.cust_details2}
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details3}')
                                         i.fa.fa-check
-                                        !{home.samples.custom.cust_details3}
+                                        | !{home.samples.custom.cust_details3}
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details4}')
                                         i.fa.fa-check
-                                        !{home.samples.custom.cust_details4}
+                                        | !{home.samples.custom.cust_details4}
                             a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
                                 i.left.fa.fa-cog.fa-spin
                                 span #{home.samples.free_app}
@@ -242,7 +242,7 @@ block content
                                 .timeline-heading
                                     h4.subheading
                                         span 1
-                                        !{home.how.how_one.reg_step1}
+                                        | !{home.how.how_one.reg_step1}
                                 .timeline-body
                                     p.text-muted
                                         span #{home.how.how_one.reg_step2}
@@ -254,7 +254,7 @@ block content
                                 .timeline-heading
                                     h4.subheading
                                         span 2
-                                        !{home.how.how_two.app_step1}
+                                        | !{home.how.how_two.app_step1}
                                 .timeline-body
                                     p.text-muted !{home.how.how_two.app_step2}
                                     p.text-muted !{home.how.how_two.app_step3}
@@ -266,7 +266,7 @@ block content
                                 .timeline-heading
                                     h4.subheading
                                         span 3
-                                        !{home.how.how_three.tutor_step1}
+                                        | !{home.how.how_three.tutor_step1}
                                 .timeline-body
                                     p.text-muted !{home.how.how_three.tutor_step2}
                                     p.text-muted !{home.how.how_three.tutor_step3}
@@ -277,7 +277,7 @@ block content
                                 .timeline-heading
                                     h4.subheading
                                         span 4
-                                        !{home.how.how_four.publish_step1}
+                                        | !{home.how.how_four.publish_step1}
                                 .timeline-body
                                     p.text-muted !{home.how.how_four.publish_step2}
                                     p.text-muted !{home.how.how_four.publish_step3}
@@ -330,9 +330,8 @@ block scripts
     // TYPED PLUGIN JS
     script(type='text/javascript').
         $(function () {
-            var array = $.map(!{JSON.stringify(home.slider.text)}, function(el) { return el });
             $(".element").typed({
-                strings: array,
+                strings: !{JSON.stringify(home.slider.text)},
                 typeSpeed: 100,
                 startDelay: 200,
                 backDelay: 2500,

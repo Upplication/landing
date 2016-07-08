@@ -56,7 +56,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
 
         block css
-        // build:css({.tmp, app}) /styles/microsites.min.css
+        // build:css(app) /styles/microsites.min.css
         link(rel='stylesheet', href='/styles/css/microsites/microsites.css')
         link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
         link(rel='stylesheet', href='/styles/css/base/common.css')
@@ -145,7 +145,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
         // endvendor
-        // build:js({.tmp, app}) /scripts/app.v2.min.js
+        // build:js(app) /scripts/app.v2.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
         script(type="text/javascript", src='/scripts/scroll.js')

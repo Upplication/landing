@@ -1,7 +1,7 @@
 block vars
-    - var title = $.home_tlf._meta_title
-    - var description = $.home_tlf._meta_description
-    - var keywords = $.home_tlf._keywords
+    - var title = home_tlf._meta_title
+    - var description = home_tlf._meta_description
+    - var keywords = home_tlf._keywords
     - var cssClass = 'home'
 doctype
 //if lt IE 7
@@ -38,7 +38,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
-        // build:css({.tmp, app}) /styles/mpos.min.css
+        // build:css(app) /styles/mpos.min.css
         link(rel='stylesheet', href='/styles/deprecated/main.css')
         // endbuild
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
@@ -57,7 +57,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     each lang in langs.codes
                         a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                 li.login_btn
-                    a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
+                    a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
         .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
                 .header-container-tlf
@@ -74,13 +74,13 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     each lang in langs.codes
                                         a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
-                                    a(href='#{$.external.dashboard.url}') #{$.external.dashboard.anchor}
+                                    a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
                             a.btn-signup.green-accent-btn.triggers-signup.bold(href="#", onclick="return false;") #{header.free_trial}
-                        a.login.unstyled(href="#{$.external.dashboard.url}") #{$.external.dashboard.anchor}
+                        a.login.unstyled(href="#{external.dashboard.url}") #{external.dashboard.anchor}
 
                 #content(class="#{cssClass}")
                     script(type='text/javascript').
-                        $UPP.url = "#{$.home_tlf._url}";
+                        $UPP.url = "#{home_tlf._url}";
                     section#register
                         div
                             .mobile
@@ -93,7 +93,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             article
                                 form(name="register", action="/register", method="post")
                                     div.announce.bg-cblack.acenter.btn.arrow-down-black
-                                        | #{$.register.announce}
+                                        | #{register.announce}
                                     input(type="hidden", name="customerType", value="MPAY")
                                     label(for="appName")
                                         input(type="text", name="appName", placeholder="#{register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{register.warning.name}")
@@ -242,7 +242,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // bower:js
         // endbower
 
-        // build:js({.tmp,app}) /scripts/mpos.min.js
+        // build:js(app) /scripts/mpos.min.js
         script(type='text/javascript').
             $("#seller-code").hide();
             $("[name=customerType]").val("MPAY");

@@ -6,7 +6,6 @@
 
 script(type="text/javascript").
   window.$UPP = window.$UPP || {};
-  $UPP.config = !{config};
   $UPP.localConfig = !{JSON.stringify(localConfig)};
 
 // build:js({.tmp,app}) /scripts/utils.min.js
@@ -38,4 +37,4 @@ script(type='text/javascript').
   ajax.error[10] = "#{register.error.num10}";
 
 script(type='text/javascript').
-  checkLanguage("#{lang}", !{routingString}, "#{_template}");
+  checkLanguage("#{lang}", !{JSON.stringify(routing)}, "#{_template}");

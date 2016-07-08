@@ -1,20 +1,20 @@
 extends base/v2/base
 
 block vars
-    - var title = $.help_center._meta_title
-    - var description = $.help_center._meta_description
-    - var keywords = $.help_center._keywords
+    - var title = help_center._meta_title
+    - var description = help_center._meta_description
+    - var keywords = help_center._keywords
     - var cssClass = 'helpcenter'
 
 block css
-    // build:css({.tmp, app}) /styles/helpcenter.min.css
+    // build:css(app) /styles/helpcenter.min.css
     link(rel='stylesheet', href='/styles/css/helpcenter/helpcenter.css')
     //endbuild
 
 block content
     // HELP CENTER
     #help-center.container
-        h4.animated.fadeIn #{help_center.name}
+        h4.animated.fadeIn #{help_center.name} test
         .row
             .col.s12.m6.help-center-grid
                 ul.collection

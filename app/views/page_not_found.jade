@@ -1,13 +1,13 @@
 extends base/v2/base
 
 block vars
-    - var title = $.page_not_found._meta_title
-    - var description = $.page_not_found._meta_description
-    - var keywords = $.page_not_found._keywords
+    - var title = page_not_found._meta_title
+    - var description = page_not_found._meta_description
+    - var keywords = page_not_found._keywords
     - var cssClass = 'page_not_found'
 
 block css
-    // build:css({.tmp, app}) /styles/404.min.css
+    // build:css(app) /styles/404.min.css
     link(rel='stylesheet', href='/styles/css/404/404.css')
     // endbuild
 

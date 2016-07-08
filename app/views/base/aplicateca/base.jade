@@ -40,7 +40,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
-        // build:css({.tmp, app}) /styles/aplicateca.min.css
+        // build:css(app) /styles/aplicateca.min.css
         link(rel='stylesheet', href='/styles/deprecated/main.css')
         // endbuild   
 
@@ -77,7 +77,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // bower:js
         // endbower
 
-        // build:js({.tmp,app}) /scripts/aplicateca.min.js
+        // build:js(app) /scripts/aplicateca.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
         script(type="text/javascript", src='/scripts/v2/cookies.js')

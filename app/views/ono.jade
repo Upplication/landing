@@ -1,7 +1,7 @@
 block vars
-    - var title = $.ono._meta_title
-    - var description = $.ono._meta_description
-    - var keywords = $.ono._keywords
+    - var title = ono._meta_title
+    - var description = ono._meta_description
+    - var keywords = ono._keywords
     - var cssClass = 'showcase'
 doctype
 //if lt IE 7
@@ -64,7 +64,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
 
-        // build:css({.tmp, app}) /styles/ono.min.css
+        // build:css(app) /styles/ono.min.css
         link(rel='stylesheet', href='/styles/css/ono/ono.css')
         link(rel='stylesheet', href='/styles/css/ono/header_ono.css')
         link(rel='stylesheet', href='/styles/css/ono/materialize-reserts.css')
@@ -97,7 +97,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     each lang in langs.codes
                                         a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
-                                    a(href='#{$.external.nubo.url}') #{$.external.nubo.anchor}
+                                    a(href='#{external.nubo.url}') #{external.nubo.anchor}
 
             // SAMPLES
             #tabs.container.scrollspy
@@ -134,19 +134,19 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                         li
                                             a(href='', title="#{home.samples.rest.details1}")
                                                 i.fa.fa-check
-                                                !{home.samples.rest.details1}
+                                                | !{home.samples.rest.details1}
                                         li
                                             a(href='', title="#{home.samples.rest.details2}")
                                                 i.fa.fa-check
-                                                !{home.samples.rest.details2}
+                                                | !{home.samples.rest.details2}
                                         li
                                             a(href='', title="#{home.samples.rest.details3}")
                                                 i.fa.fa-check
-                                                !{home.samples.rest.details3}
+                                                | !{home.samples.rest.details3}
                                         li
                                             a(href='', title="#{home.samples.rest.details4}")
                                                 i.fa.fa-check
-                                                !{home.samples.rest.details4}
+                                                | !{home.samples.rest.details4}
                         #tiendas.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
@@ -158,19 +158,19 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details1}")
                                                 i.fa.fa-check
-                                                !{home.samples.shop.shop_details1}
+                                                | !{home.samples.shop.shop_details1}
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details2}")
                                                 i.fa.fa-check
-                                                !{home.samples.shop.shop_details2}
+                                                | !{home.samples.shop.shop_details2}
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details3}")
                                                 i.fa.fa-check
-                                                !{home.samples.shop.shop_details3}
+                                                | !{home.samples.shop.shop_details3}
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details4}")
                                                 i.fa.fa-check
-                                                !{home.samples.shop.shop_details4}
+                                                | !{home.samples.shop.shop_details4}
                         #servprof.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
@@ -181,19 +181,19 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details1}")
                                                 i.fa.fa-check
-                                                !{home.samples.services.serv_details1}
+                                                | !{home.samples.services.serv_details1}
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details2}")
                                                 i.fa.fa-check
-                                                !{home.samples.services.serv_details2}
+                                                | !{home.samples.services.serv_details2}
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details3}")
                                                 i.fa.fa-check
-                                                !{home.samples.services.serv_details3}
+                                                | !{home.samples.services.serv_details3}
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details4}")
                                                 i.fa.fa-check
-                                                !{home.samples.services.serv_details4}
+                                                | !{home.samples.services.serv_details4}
                         #personal.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
@@ -204,19 +204,19 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details1}")
                                                 i.fa.fa-check
-                                                !{home.samples.custom.cust_details1}
+                                                | !{home.samples.custom.cust_details1}
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details2}")
                                                 i.fa.fa-check
-                                                !{home.samples.custom.cust_details2}
+                                                | !{home.samples.custom.cust_details2}
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details3}")
                                                 i.fa.fa-check
-                                                !{home.samples.custom.cust_details3}
+                                                | !{home.samples.custom.cust_details3}
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details4}")
                                                 i.fa.fa-check
-                                                !{home.samples.custom.cust_details4}
+                                                | !{home.samples.custom.cust_details4}
         
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
@@ -228,7 +228,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
         // endvendor
 
-        // build:js({.tmp,app}) /scripts/ono.min.js
+        // build:js(app) /scripts/ono.min.js
         script(type="text/javascript", src='/scripts/ua.js')
         script(type="text/javascript", src='/scripts/topic.js')
         script(type="text/javascript", src='/scripts/scroll.js')
