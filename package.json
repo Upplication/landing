@@ -1,6 +1,6 @@
 {
   "name": "Landing-Upplication",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "contributors": [
     {
@@ -21,6 +21,7 @@
     }
   ],
   "devDependencies": {
+    "bluebird": "^3.4.1",
     "connect-livereload": "~0.2.0",
     "dateformat": "~1.0.12",
     "del": "^2.2.1",
@@ -43,7 +44,7 @@
     "gulp-util": "^3.0.7",
     "less": "^2.7.1",
     "lodash": "^4.13.1",
-    "request": "^2.72.0",
+    "request-promise": "^3.0.0",
     "through2": "^2.0.1"
   },
   "engines": {

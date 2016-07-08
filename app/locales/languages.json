@@ -14,6 +14,12 @@
       "home": "/build-your-app"
     },
     {
+      "language_name": "Portuguese",
+      "language_country" : "pt",
+      "language_short_code": "Port",
+      "home": "/criar-app"
+    },
+    {
       "language_name": "Bahasa",
       "language_country" : "id",
       "language_short_code": "Bah",
