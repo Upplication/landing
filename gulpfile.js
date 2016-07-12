@@ -88,7 +88,13 @@ var routes = function () {
         if (views.hasOwnProperty(view)) {
             langs.codes.forEach(function(code) {
                 var  lang = code.language_country;
-                routing[view][lang] = BASE_PATH +  locales[lang][view]._url;
+                try {
+                    routing[view][lang] = BASE_PATH +  locales[lang][view]._url;
+                } catch(e) {
+                    gutil.log("Cant build Routes. Error for the lang:", gutil.colors.green(lang), "and the view:",  gutil.colors.green(view), gutil.colors.red(e));
+                    throw e;
+                }
+
             });
         }
     }

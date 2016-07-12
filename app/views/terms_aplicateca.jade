@@ -1,14 +1,14 @@
 extends base/aplicateca/base
 block vars
-    - var title = terms_movistar._meta_title
-    - var description = terms_movistar._meta_description
-    - var keywords = terms_movistar._keywords
+    - var title = terms_aplicateca._meta_title
+    - var description = terms_aplicateca._meta_description
+    - var keywords = terms_aplicateca._keywords
     - var cssClass = 'terms'
 block content
     section
-        h2 #{terms_movistar.sections.title}
+        h2 #{terms_aplicateca.sections.title}
         div.container.margin
-            each section in terms_movistar.sections.sections
+            each section in terms_aplicateca.sections.sections
                 h1 #{section.title}
                 each ch in section.children
                     if typeof ch != 'object'
