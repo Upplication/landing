@@ -365,12 +365,6 @@
       }
     },
     "signature": "Desenhado e desenvolvido em Madrid",
-    "terms_microsites": {
-      "text": "termos e condições",
-      "title": "Utilizando Upplication estás a aceitar os seguintes termos e condições legais",
-      "url": "@@config.base_path/criar-app-móvel-termos-legais/",
-      "warning": "Ao fazer clique em 'Experimente Grátis' aceitas os nossos"
-    },
     "tos": {
       "cookies": {
         "title": "Utilização de Cookies",
@@ -757,11 +751,11 @@
       "others": "<strong>Diferencia-te</strong> da concorrência"
     }
   },
-  "home_tlf": {
+  "home_telefonica_mpos": {
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "Suporte e atenção ao cliente de Upplication, para criar app online, da Telefónica Upplication. Fácil, rápido e sem programar.",
     "_meta_title": "Serviço de atenção e suporte da Telefónica Upplication",
-    "_url": "/home_telef/",
+    "_url": "/telefonica-pt/",
     "contact": {
       "customer_service": {
         "email": {
@@ -1187,62 +1181,6 @@
       "password": "O tamanho mínimo para a senha é de 8 caracteres."
     }
   },
-  "restaurants": {
-    "_keywords": "criar app, criar app restaurante, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Upplication® Criar app, a tua própria app móvel online. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
-    "_meta_title": "Upplication: O criador de Apps para restauração e hotelaria",
-    "_url": "/criar-app-móvel-restaurante/",
-    "features": {
-      "booking": "<strong>Gestor de reservas</strong> As mesas do teu restaurante cheias com um botão simples e útil",
-      "delivery": "<strong>Encomendas ao domicílio</strong> Sem intermediários que beneficiem dos teus lucros",
-      "notifications": "<strong>Notificações push</strong> Envia mensagens que abram o apetite aos teus clientes"
-    },
-    "marketing_team": "A nossa equipa de tutores pessoais.",
-    "meet_us": {
-      "btn": "Liga-nos",
-      "email": "info@upplication.com",
-      "mailto": "mailto:info@upplication.com",
-      "paragraph": "A Belén, o Víctor, o Javi e o Álvaro vão-te ajudar, aconselhar e guiar a qualquer momento para:",
-      "tel": "tel:34810512370",
-      "telephone": "+34 810 512 370",
-      "tip_four": "Aumentar as tuas vendas.",
-      "tip_one": "Diferenciar-te da concorrência.",
-      "tip_three": "Fidelizar os consumidores.",
-      "tip_two": "Criar o canal de comunicação mais direto com o teu cliente.",
-      "title": "Eles têm a receita perfeita"
-    },
-    "pic": "Módulo ementa para restauração e hotelaria",
-    "slider": {
-      "intro1": "O criador de aplicações para HOTELARIA",
-      "intro2": "<span class=\"intro-2a\">Cria a app do teu negócio,</span> <span class=\"intro-2b\">sem programar, fácil e rápido.</span>"
-    }
-  },
-  "shops": {
-    "_keywords": "criar app, criar app loja, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Upplication® Criar app, a tua própia app móvel online. Experimentar GRÁTIS durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
-    "_meta_title": "Upplication: O criador de Apps para a tua loja",
-    "_url": "/criar-app-móvel-loja/",
-    "features": {
-      "booking": "<strong>Loja online 24h 365 dias</strong> A partir de qualquer dispositivo e a qualquer hora os teus clientes estão a comprar",
-      "delivery": "<strong>Ofertas exclusivas só na tua app</strong> Faz com que necessitem ter a tua aplicação para usufruir de promoções únicas",
-      "notifications": "<strong>Notificações push</strong> Produtos novos, descontos ou ideias. Seduze-os com as tuas mensagens!"
-    },
-    "marketing_team": "A nossa equipa de tutores pessoais.",
-    "meet_us": {
-      "btn": "Liga-nos",
-      "email": "info@upplication.com",
-      "mailto": "mailto:info@upplication.com",
-      "paragraph": "A Belén, o Víctor, o Javi e o Álvaro vão-te ajudar, aconselhar e guiar a qualquer momento para que a aplicação do teu negócio seja a melhor montra.",
-      "tel": "tel:34810512370",
-      "telephone": "+34 810 512 370",
-      "title": "Eles são quem te vão atender"
-    },
-    "pic": "Módulo catálogo para lojas e negócios",
-    "slider": {
-      "intro1": "O criador de aplicações para LOJAS",
-      "intro2": "<span class=\"intro-2a\">Cria a app do teu negócio,</span> <span class=\"intro-2b\">sem programar, fácil e rápido.</span>"
-    }
-  },
   "showcase": {
     "categories": [
       {
@@ -1427,11 +1365,5 @@
     "signup_free": "Regista-te <span class=\"bold\">grátis</span> e experimenta durante 15 dias",
     "submit": "Criar a minha app grátis",
     "warning_seller": "Preenche o código seller"
-  },
-  "terms_micro": {
-    "_keywords": "criar app, criar app loja, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Upplication® Criar app, a tua própria app móvel online. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
-    "_meta_title": "Upplication: O criador de Apps para a tua loja",
-    "_url": "/criar-app-móvel-termos-legais/"
   }
 }

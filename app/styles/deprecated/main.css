@@ -778,7 +778,7 @@ a.unstyled {
   color: #fff;
   background-color: #fabe78;
   width: 380px;
-  background-image: url(//landing.upplication.priv/images/cookie.png);
+  background-image: url(@@config.base_path/images/cookie.png);
   background-position: 15px 15px;
   background-repeat: no-repeat;
   -webkit-transition: all,3s,ease-in-out;
@@ -805,7 +805,7 @@ a.unstyled {
 }
 
 #cookies:before {
-  background: url(//landing.upplication.priv/images/cookie.png);
+  background: url(@@config.base_path/images/cookie.png);
   display: block;
   width: 147px;
   height: 121px;
@@ -1594,7 +1594,7 @@ img.fedr-logo {
   }
 
   #content.home #register {
-    background-image: url(//landing.upplication.priv/images/mobile/header.jpg);
+    background-image: url(@@config.base_path/images/mobile/header.jpg);
     background-size: 100% 100%;
   }
 
@@ -1725,7 +1725,7 @@ img.fedr-logo {
 
   #content.home #register {
     position: relative;
-    background-image: url(//landing.upplication.priv/images/header_desktop.jpeg);
+    background-image: url(@@config.base_path/images/header_desktop.jpeg);
     background-size: cover;
     background-position: center;
     min-height: 450px;
@@ -3024,22 +3024,22 @@ section#showcase #showcase-items .showcase-item .phone-container iframe {
 .resource.resource--create-upp .resource__links {
   background-position: 0 .3em;
   background-size: 3em;
-  background-image: url(//landing.upplication.priv/images/helpcenter-createupp.png);
+  background-image: url(@@config.base_path/images/helpcenter-createupp.png);
 }
 
 .resource.resource--videos .resource__links {
   background-position: 0 0;
-  background-image: url(//landing.upplication.priv/images/helpcenter-videos.png);
+  background-image: url(@@config.base_path/images/helpcenter-videos.png);
 }
 
 .resource.resource--ebooks .resource__links {
-  background-image: url(//landing.upplication.priv/images/helpcenter-ebooks.png);
+  background-image: url(@@config.base_path/images/helpcenter-ebooks.png);
 }
 
 .resource.resource--make-your-app .resource__links {
   background-position: 0 .3em;
   background-size: 3em;
-  background-image: url(//landing.upplication.priv/images/helpcenter-makeyourapp.png);
+  background-image: url(@@config.base_path/images/helpcenter-makeyourapp.png);
 }
 
 .resource__title {

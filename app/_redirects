@@ -1,13 +1,19 @@
 # seo redirects
 /showcase   /build-your-app/
 /showcase/  /build-your-app/
+
+/inspirate  /
+/inspirate/ /
+
 /condicioneslegalesmovistar-upplication/  /terminos-aplicateca/
 /termsandconditionsmovistar-upplication/  /terms-aplicateca/
 /termsandconditionsmovistar-upplication-indonesian/  /terms-aplicateca-indonesian/
 /condiçõeslegaismovistar-upplication/   /termos-aplicateca/
 
-/inspirate  /
-/inspirate/ /
+/home_tlf/  /telefonica/
+
+# microlandings migrated to instapage
+/crear-app-movil-*  /crear-app-movil/:splat 301
 
 # proxy the blog
 /blog/*  http://blog.upplication.com/:splat  200
@@ -18,6 +24,7 @@
 # proxy microlandings
 /crear-app-movil/* http://microlanding.upplication.com/crear-app-movil/:splat 200
 /crear/* http://microlanding.upplication.com/crear-app-movil/:splat 200
+/crear-app-movil-terminos-legales/
 
 # custom 404
 /* /pagina-no-encontrada 404

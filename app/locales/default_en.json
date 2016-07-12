@@ -366,12 +366,6 @@
       }
     },
     "signature": "Designed and assembled in Madrid",
-    "terms_microsites": {
-      "text": "terms of use",
-      "title": "By using our Services, you are agreeing to these terms",
-      "url": "@@config.base_path/build-app-mobile-terms/",
-      "warning": "By clicking the 'Free Trial' button you accept our"
-    },
     "tos": {
       "cookies": {
         "title": "Use of Cookies",
@@ -758,11 +752,11 @@
       "others": "<strong>Differentiate</strong> from your competitors"
     }
   },
-  "home_tlf": {
+  "home_telefonica_mpos": {
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "Support and customer service of Telefónica Upplication. It is easy, without coding, and quick, in few minutes.",
     "_meta_title": "Customer service and support of Telefónica Upplication",
-    "_url": "/home-en-tlf/",
+    "_url": "/telefonica-en/",
     "contact": {
       "customer_service": {
         "email": {
@@ -1191,62 +1185,6 @@
       "password": "The minimum password length is 8 characters"
     }
   },
-  "restaurants": {
-    "_keywords": "create app, create restaurant app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
-    "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
-    "_meta_title": "Upplication: the App builder for restaurants and hostelry",
-    "_url": "/build-app-mobile-restaurant/",
-    "features": {
-      "booking": "<strong>Gestor de reservas</strong> Las mesas de tu restaurante llenas con un útil y sencillo botón",
-      "delivery": "<strong>Pedidos a domicilio</strong> Sin intermediarios que se coman tus beneficios",
-      "notifications": "<strong>Notificaciones push</strong> Envía mensajes que abran el apetito a tus clientes"
-    },
-    "marketing_team": "Our personal tutors team.",
-    "meet_us": {
-      "btn": "Llámanos",
-      "email": "info@upplication.com",
-      "mailto": "mailto:info@upplication.com",
-      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para:",
-      "tel": "tel:34810512370",
-      "telephone": "+34 810 512 370",
-      "tip_four": "Aumentar tus ventas.",
-      "tip_one": "Diferenciarte de la competencia.",
-      "tip_three": "Fidelizar a los consumidores.",
-      "tip_two": "Crear el canal de comunicación más directo con tu cliente.",
-      "title": "They have the perfect recipe"
-    },
-    "pic": "Card module for restaurants and hostelry",
-    "slider": {
-      "intro1": "App builder for HOSTELRY",
-      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
-    }
-  },
-  "shops": {
-    "_keywords": "create app, create shop app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
-    "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
-    "_meta_title": "Upplication: the App builder for Shops",
-    "_url": "/build-app-mobile-shop/",
-    "features": {
-      "booking": "<strong>Tienda online 24h 365 días</strong> Desde cualquier dispositivo y a cualquier hora tus clientes están comprando",
-      "delivery": "<strong>Ofertas exclusivas sólo en tu app</strong> Haz que necesiten tener tu aplicación para disfrutar de promos únicas",
-      "notifications": "<strong>Notificaciones push</strong> Nuevos productos, descuentos o ideas. ¡Sedúceles con tus mensajes!"
-    },
-    "marketing_team": "Our personal tutors team.",
-    "meet_us": {
-      "btn": "Llámanos",
-      "email": "info@upplication.com",
-      "mailto": "mailto:info@upplication.com",
-      "paragraph": "Belén, Víctor, Javi y Álvaro te van a ayudar, asesorar y guiar en todo momento para que la aplicación de tu negocio sea tu mejor escaparate.",
-      "tel": "tel:34810512370",
-      "telephone": "+34 810 512 370",
-      "title": "They will support you"
-    },
-    "pic": "Módulo catálogo para tiendas y negocios",
-    "slider": {
-      "intro1": "App builder for SHOPS",
-      "intro2": "<span class=\"intro-2a\">Create the app for your business,</span> <span class=\"intro-2b\">no coding required, fast and simple.</span>"
-    }
-  },
   "showcase": {
     "categories": [
       {
@@ -1431,11 +1369,5 @@
     "signup_free": "Sign up for <span class=\"bold\">free</span> and try it for 15 days",
     "submit": "Create my app for free",
     "warning_seller": "Seller code can not be blank"
-  },
-  "terms_micro": {
-    "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_meta_title": "Upplication: El creador de Apps para tu tienda",
-    "_url": "/build-app-mobile-terms/"
   }
 }
