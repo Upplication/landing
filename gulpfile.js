@@ -77,6 +77,7 @@ var locales = _locales();
  *      "en": "www.upplication.com/about-us"
  *  }
  * }
+ * Throw error if some url are duplicated in some other lang or view.
  */
 var routes = function () {
     var langs = JSON.parse(fs.readFileSync('./app/locales/languages.json'));
@@ -89,12 +90,24 @@ var routes = function () {
             langs.codes.forEach(function(code) {
                 var  lang = code.language_country;
                 try {
-                    routing[view][lang] = BASE_PATH +  locales[lang][view]._url;
+                    var url =  BASE_PATH + locales[lang][view]._url;
+
+                    // try to validate its unique
+                    for (var viewKey in routing) {
+                        for (var langKey in routing[viewKey]){
+                            if (url === routing[viewKey][langKey]){
+                                gutil.log("Cant build Routes. The url:", gutil.colors.green(url),
+                                    "in:", gutil.colors.green(view + "." + lang), "already exists in:",  gutil.colors.green(viewKey + "." + langKey));
+                                throw new Error("The url: " + url + "already exists in view: " + viewKey + " with the lang: " + langKey);
+                            }
+                        }
+                    }
+
+                    routing[view][lang] = url;
                 } catch(e) {
                     gutil.log("Cant build Routes. Error for the lang:", gutil.colors.green(lang), "and the view:",  gutil.colors.green(view), gutil.colors.red(e));
                     throw e;
                 }
-
             });
         }
     }
