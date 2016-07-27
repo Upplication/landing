@@ -2,39 +2,39 @@
   "about_us": {
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
-    "_meta_title": "Upplication team, the app creator for your business",
+    "_meta_title": "Upplication Team, the app creator for your business",
     "_priority": "0.8",
     "_url": "/about-us/",
     "departments": {
       "develop": {
         "img": "All the freak ones!",
         "text": "Cordova, AngularJS, Java, CSS, UX…. We love technology and we’re a little obsessed with it. We work in a flexible and easy way and we are always changing the way in which SMEs in the world create their mobile application. We learn something new every day.",
-        "title": "Dept. of Develop"
+        "title": "Development Deparment"
       },
       "marketing": {
-        "img": "Salesman working hard",
-        "text": "Our goal is to bring this project to every corner in the world. Our every day life is dedicated to data and analysis. Always thinking of how to sell more in less time. Every time we get a new client, we blow a horn in the office to celebrate.",
-        "title": "Dept. of Marketing"
+        "img": "Salesman working hard!",
+        "text": "Our goal is to bring this project to every corner in the world. Our everyday life is dedicated to data and analysis. Always thinking on how to sell more in less time. Every time we get a new client, we blow a horn in the office to celebrate.",
+        "title": "Marketing Department"
       },
       "subtitle": "Meet",
       "support": {
-        "img": "Belén is calling with his best smile",
-        "text": "Our main objective is to make our costumers happy. Every day, we talk to hundreds of clients from more than 65 countries. We are very approachable and we always have a smile on our faces. We love to help, so that you have a pleasant and beneficial experience.",
-        "title": "Dept. of Support"
+        "img": "Belén calling with her best smile :)",
+        "text": "Our main objective is to make our costumers happy. Everyday, we talk with hundreds of clients from more than 78 countries all over the world. We are very approachable and we always have a smile on our faces cause we love to help people.",
+        "title": "Support Deparment"
       },
       "title": "Our Departments"
     },
     "team": {
       "admin": {
         "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
-        "name": "Noemí",
+        "name": "Noemi",
         "position": "Admin Manager",
         "sentence": "Accounts Keeper",
         "surname": "Díaz Sanz"
       },
       "ceo": {
         "linkedin": "https://www.linkedin.com/in/joseluisvds",
-        "name": "José Luis",
+        "name": "Jose Luis",
         "position": "Co-founder & CEO",
         "sentence": "I command!",
         "surname": "Vega de Seoane Barona",
@@ -51,7 +51,7 @@
       "communication": {
         "linkedin": "https://www.linkedin.com/in/kelia-vidarte-ojeda-00b03a76",
         "name": "Kelia",
-        "position": "Communication Assistant",
+        "position": "Communications Assistant",
         "sentence": "Gimme a bulhorn and U will see!",
         "surname": "Vidarte Ojeda",
         "twitter": "https://twitter.com/kelitraveler"
@@ -59,7 +59,7 @@
       "community": {
         "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
         "name": "Cristina",
-        "position": "Communication Manager",
+        "position": "Communications Manager",
         "sentence": "Best followers catcher",
         "surname": "Díaz Gallego",
         "twitter": "https://twitter.com/MissRe_"
@@ -107,7 +107,7 @@
         }
       },
       "nextone": {
-        "position": "Be part of our team",
+        "position": "Be part of our Team",
         "sentence": "New fella in da hood",
         "surname": "Are you the next one?"
       },
@@ -115,7 +115,7 @@
         "sales_2": {
           "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
           "name": "Álvaro",
-          "position": "Sales Manager",
+          "position": "Sales & Marketing Manager",
           "sentence": "Money never sleeps",
           "surname": "Alcañiz Rubio",
           "twitter": "https://twitter.com/alcanizalv"
@@ -125,13 +125,13 @@
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
         "name": "Belén",
-        "position": "Customer & Support",
-        "sentence": "Customers Priority",
+        "position": "Customer & Support Manager",
+        "sentence": "My priority is YOU",
         "support_1": {
           "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
           "name": "Belén",
           "position": "Customer & Support",
-          "sentence": "Customers Priority",
+          "sentence": "My priority is always YOU",
           "surname": "Fernández Pérez",
           "twitter": "https://twitter.com/BeeleenFP"
         },
@@ -158,12 +158,12 @@
   },
   "company": {
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
-    "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
+    "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android and iOS devices. No programing skills needed. Build in a few minutes!",
     "_meta_title": "Upplication Bio, the app creator",
     "_priority": "0.9",
     "_url": "/company-bio/",
     "intro": {
-      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and be different from the competitors</span>.",
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and stand out from the competitors</span>.",
       "maintitle": "<span>What is</span> Upplication <span>?</span>"
     },
     "timeline": {
@@ -174,38 +174,38 @@
         "year": "On October 2013"
       },
       "step2": {
-        "description": "We closed our <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> first round of investments </a> by European Business Angels (investors), with 277.000€. This investment is what helped us <span> internationalize ourselves </span>, leading us to Latinoamerica.",
-        "pic": "First round of investments",
-        "year": "In January 2014"
+        "description": "We closed our <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> first round funding </a> by European Business Angels (investors), with 277.000€. This investment helped us <span> with the internationalisation </span> in Latinoamérica.",
+        "pic": "First round funding",
+        "year": "January 2014"
       },
       "step3": {
         "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>.",
         "pic": "Wayra logo",
-        "year": "On May 2014"
+        "year": "May 2014"
       },
       "step4": {
         "description": "We have reached a <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> trade integration agreement with Vodafone </a> completing its plan of supporting and assisting SMEs grow.",
         "pic": "Vodafone logo",
-        "year": "On October 2014"
+        "year": "October 2014"
       },
       "step5": {
         "description": "We already had <span> clients in 75 different countries </span>, reaching one of our goals: <span>International growthl</span>.",
         "pic": "International growthl",
-        "year": "On May 2015"
+        "year": "May 2015"
       },
       "step6": {
-        "description": "We closed our <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> second round of investments with 1.1 million euros </a>; mostly led by <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, - who come form a Spanish origin - with Business Angels).",
+        "description": "We closed our <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> second round funding with 1.1 million euros </a>; mostly led by <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, - who come form a Spanish origin - with Business Angels).",
         "pic": "Second round of investments",
-        "year": "On November 2015"
+        "year": "November 2015"
       },
       "step7": {
-        "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience.",
+        "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefónica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience.",
         "pic": "Telefónica logo",
-        "year": "On December 2015"
+        "year": "December 2015"
       }
     },
     "worldmap": {
-      "sub_title": "Helping to grow more than <span> 30.000 business </span> around the world",
+      "sub_title": "Helping to grow more than <span> 30.000 business </span> around the world.",
       "title": "<span>We are</span> internationals",
       "worldmap_img": "Upplication international map"
     }
@@ -441,7 +441,7 @@
       "prices": "PRICING"
     },
     "support_mail": "<a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
-    "telephone": "+34 810 512 370"
+    "telephone": "+34 917 958 203"
   },
   "help_center": {
     "_keywords": "help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
@@ -463,10 +463,10 @@
       },
       "phone": {
         "alt_tag": "Call to Upplication customer service",
-        "link": "tel:810512370",
-        "text": "tel: +34 810 512 370",
-        "text_tel": "<span>+34 810 512 370</span>",
-        "title": "810 512 370"
+        "link": "tel:0034917958203",
+        "text": "tel: +34 917 958 203",
+        "text_tel": "<span>+34 917 958 203</span>",
+        "title": "+34 917 958 203"
       },
       "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)",
       "text": "Customer service",
@@ -789,8 +789,8 @@
       "icon_email": "email",
       "icon_telf": "phone",
       "support_mail": "info@upplication.com",
-      "telephone": "+34 810 512 370",
-      "telf": "tel:0034810512370"
+      "telephone": "+34 917 958 203",
+      "telf": "tel:0034917958203"
     },
     "footer": {
       "free": "15 days free trial with friendly support.",
@@ -1029,9 +1029,9 @@
           "title": "aplicateca@upplication.com"
         },
         "phone": {
-          "link": "tel:810512370",
-          "text": "810 512 370 (free)",
-          "title": "810 512 370"
+          "link": "tel:0034917958203",
+          "text": "+34 917 958 203 (free)",
+          "title": "+34 917 958 203"
         },
         "text": "Customer service:"
       }
