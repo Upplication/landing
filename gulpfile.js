@@ -194,7 +194,7 @@ gulp.task('onesky', function() {
     return gulp.src('./onesky.json')
         .pipe(onesky({
             projectId: '68574',
-            sourceFile: ['default.json','terms.json']
+            sourceFile: ['default.json','terms.json', 'aplicateca_terms.json']
         }))
         .pipe(gulp.dest('app/locales'))
 });

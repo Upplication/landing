@@ -440,7 +440,7 @@
       "prices": "Preços"
     },
     "support_mail": "<a href='mailto:soporte@upplication.com'>suporte@upplication.com</a>",
-    "telephone": "+34 810 512 370"
+    "telephone": "+34 917 958 203"
   },
   "help_center": {
     "_keywords": "centro de ajuda, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
@@ -462,10 +462,10 @@
       },
       "phone": {
         "alt_tag": "Ligar para o suporte técnico da Upplication",
-        "link": "tel:810512370",
-        "text": "telf: +34 810 512 370",
-        "text_tel": "<span>+34 810 512 370</span>",
-        "title": "810 512 370"
+        "link": "tel:0034917958203",
+        "text": "telf: +34 917 958 203",
+        "text_tel": "<span>+34 917 958 203</span>",
+        "title": "+34 917 958 203"
       },
       "schedule": "(Horário de atenção ao cliente de segunda-feira a sexta-feira das 10 às 18h GTM+1)",
       "text": "Atenção ao cliente",
@@ -787,8 +787,8 @@
       "icon_email": "e-mail",
       "icon_telf": "phone",
       "support_mail": "info@upplication.com",
-      "telephone": "+34 810 512 370",
-      "telf": "tel:0034810512370"
+      "telephone": "+34 917 958 203",
+      "telf": "tel:0034917958203"
     },
     "footer": {
       "free": "15 dias de experiência grátis com ajuda personalizada.",
@@ -1026,9 +1026,9 @@
           "title": "aplicateca@upplication.com"
         },
         "phone": {
-          "link": "tel:810512370",
-          "text": "810 512 370 (gratuito)",
-          "title": "810 512 370"
+          "link": "tel:0034917958203",
+          "text": "+34 917 958 203 (gratuito)",
+          "title": "+34 917 958 203"
         },
         "text": "Serviço de atenção ao cliente:"
       }
