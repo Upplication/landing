@@ -5,6 +5,10 @@
     "webmaster_token": "juFFMSMoqmlI8iFOJJs3EE2tObAcgyeywGbfKBrTXrU",
     "base_path": "//www.upplication.com",
     "dashboard_base_path": "//dashboard.upplication.com",
+    "newrelic": {
+      "licenseKey": "8eee99f18b",
+      "applicationID": "30437098"
+    },
     "env": "PRO"
   },
   "landing.dev.upplication.com": {
