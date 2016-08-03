@@ -24,7 +24,7 @@
     "tagmanager_token": "GTM-M8KJZG",
     "webmaster_token": "",
     "base_path": "//localhost:9000",
-    "dashboard_base_path": "//dashboard.upplication.priv",
+    "dashboard_base_path": "//localhost:8080",
     "env": "LOC"
   }
 }
