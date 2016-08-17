@@ -7,60 +7,8 @@ Copyright 2015
 
 /* ... MAIN TOP NAV BAR ... */
 
-/*----- start-header ----*/
-
-.logo {
-  float: left;
-  margin-top: 0;
-}
-
-.logo img {
-  width: 160px;
-  height: auto;
-  position: relative;
-  top: -4px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
-
-.logo a {
-  color: #303030;
-  font-weight: 200;
-  text-transform: uppercase;
-  font-size: 2.5em;
-}
-
-.logo a:hover {
-  text-decoration: none;
-}
-
-.logo a:hover img {
-  -webkit-transition: scale(1.03);
-  -ms-transition: scale(1.03);
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-.logo320 {
-  display: none;
-}
 
 /*---- navbar-nav ----*/
-
-.top-header {
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  height: 60px;
-  border-bottom: 1px solid #dee1ec;
-  /* Only for Xmas:
-  background: #fefeff url("@@config.base_path/images/home/icons/upp_header_bg_xmas.png") repeat-x;
-  */
-  background-color: #fefeff;
-}
 
 .top-nav ul.hide-tabs {
   display: none !important;

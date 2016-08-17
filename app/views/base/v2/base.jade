@@ -77,6 +77,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
         // endbuild
 
+        // build:less(app) /styles/less/test.css
+        link(rel='stylesheet', href='/styles/less/base/header.less')
+        // endbuild
+
         meta(name='viewport', content='width=device-width, initial-scale=1')
         // webfonts
         link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
@@ -259,6 +263,17 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     $('#pull').click(function () {
                         $("#pull").toggleClass("open");
                     });
+                }
+            });
+
+        // HEADER ANIMATION when you scrolling down or up
+        script.
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 250) {
+                    $(".top-header").addClass("thiny-top-header");
+                } else {
+                    $(".top-header").removeClass("thiny-top-header");
                 }
             });
 

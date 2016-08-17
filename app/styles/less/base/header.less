@@ -1,0 +1,107 @@
+/*
+HEADER LESS: Custom Stylesheet --- LESS CABECERA: Hojas de estilo personalizadas
+
+Upplication (http://www.upplication.com)
+Copyright 2016
+*/
+
+@import "common.less";
+
+/**
+**********************************
+* main nav TOP HEADER
+**********************************
+*/
+
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 80px;
+  background-color: @header-bg;
+  border-bottom: 1px solid @header-border;
+  /* Only for Xmas:
+  background: #fefeff url("@@config.base_path/images/home/icons/upp_header_bg_xmas.png") repeat-x;
+  */
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+
+  // container Header inside
+  .container {
+
+    padding-top: 10px;
+    .anim-all-300;
+
+    .logo {
+      float: left;
+      margin-top: 0;
+
+      a {
+        text-decoration: none;
+
+        img {
+          width: 205px;
+          height: auto;
+          position: relative;
+          top: -4px;
+          -webkit-transition: all 0.1s ease-in-out;
+          -moz-transition: all 0.1s ease-in-out;
+          -ms-transition: all 0.1s ease-in-out;
+          -o-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
+        }
+
+        // logo img animation hover effect
+        &:hover {
+          img {
+            -webkit-transform: scale(1.03);
+            -moz-transform: scale(1.03);
+            -ms-transform: scale(1.03);
+            -o-transform: scale(1.03);
+            transform: scale(1.03);
+          }
+        }
+      }
+    }
+
+    ul#dropdown-lang,
+    ul#dropdown-terms {
+      margin-top: 57px;
+    }
+  }
+
+  // slim Header :: animation when you scrolling
+  &.thiny-top-header {
+    height: 60px;
+
+    .container {
+      padding-top: 0;
+
+      .logo {
+        a {
+          img {
+            width: 160px;
+            top: 7px;
+          }
+        }
+      }
+
+      ul#dropdown-lang,
+      ul#dropdown-terms {
+        margin-top: 47px;
+      }
+    }
+  }
+}
+
+
+/* ... LANDING-UPP :: older styles remains ... */
+
+.logo320 {
+  display: none;
+}
