@@ -180,6 +180,19 @@ block content
                             | #{about_us.team.support.support_2.surname}
                         p.team-work #{about_us.team.support.support_2.position}
                     .col.s12.m3.center-align
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.community.linkedin}', title='#{about_us.team.community.linkedin}', target='_blank')
+                            i.fa.fa-linkedin
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.community.twitter}', title='#{about_us.team.community.twitter}', target='_blank')
+                            i.fa.fa-twitter
+                        a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.community.sentence}')
+                            i.fa.fa-bullhorn
+                        .upp-team-img.team-sergio.circle.animate-hover
+                            img.hidden(src='#{localConfig.base_path}/images/about/sergio_communication_2.jpg', title='#{about_us.team.community.position}', alt='#{about_us.team.community.position}')
+                        h5
+                            strong #{about_us.team.community.name}
+                            | #{about_us.team.community.surname}
+                        p.team-work #{about_us.team.community.position}
+                    .col.s12.m3.center-align
                         a.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
                             i.fa.fa-plus
                         .upp-team-img.team-newfella.circle.animate-hover
