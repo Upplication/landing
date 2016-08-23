@@ -78,7 +78,7 @@
         border-bottom: 1px solid transparent;
 
         li {
-          //
+          // main header nav links
           a {
             color: @dark-lilac;
             padding: 0.2em 0.8em;
@@ -91,10 +91,15 @@
             position: relative;
             max-width: 210px;
             .ellipsis;
+            .anim-all-150;
 
             &:hover {
               background-color: transparent;
               color: @main-green;
+            }
+
+            &.active {
+              color: @darkest-lilac;
             }
 
             i {
