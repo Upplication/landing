@@ -191,12 +191,12 @@ Copyright 2015
     padding: 2em 0 5em;
   }
 
-  .pricing-plan-left {
+  .trial-block-left {
     float: none;
     width: 100%;
   }
 
-  .pricing-plan-right {
+  .trial-block-right {
     margin-top: 1em;
     float: none;
     width: 100%;
@@ -207,11 +207,11 @@ Copyright 2015
     padding: 0.6em 1.2em;
   }
 
-  .pricing-plan {
+  .trial-block {
     padding: 1em 0 1.5em;
   }
 
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 1.8em;
   }
 
@@ -441,12 +441,12 @@ Copyright 2015
     padding: 2em 0 5em;
   }
 
-  .pricing-plan-left {
+  .trial-block-left {
     float: none;
     width: 100%;
   }
 
-  .pricing-plan-right {
+  .trial-block-right {
     margin-top: 1em;
     float: none;
     width: 100%;
@@ -457,11 +457,11 @@ Copyright 2015
     padding: 0.6em 1.2em;
   }
 
-  .pricing-plan {
+  .trial-block {
     padding: 1em 0 1.5em;
   }
 
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 1.8em;
   }
 
@@ -715,12 +715,12 @@ Copyright 2015
     padding: 2em 0 5em;
   }
 
-  .pricing-plan-left {
+  .trial-block-left {
     float: none;
     width: 100%;
   }
 
-  .pricing-plan-right {
+  .trial-block-right {
     margin-top: 1em;
     float: none;
     width: 100%;
@@ -732,11 +732,11 @@ Copyright 2015
     font-size: 1em;
   }
 
-  .pricing-plan {
+  .trial-block {
     padding: 1em 0 1.5em;
   }
 
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 1.4em;
   }
 
@@ -1078,12 +1078,12 @@ Copyright 2015
     padding: 1em 0 4em;
   }
 
-  .pricing-plan-left {
+  .trial-block-left {
     float: none;
     width: 100%;
   }
 
-  .pricing-plan-right {
+  .trial-block-right {
     margin-top: 0.5em;
     float: none;
     width: 100%;
@@ -1095,11 +1095,11 @@ Copyright 2015
     font-size: 0.875em;
   }
 
-  .pricing-plan {
+  .trial-block {
     padding: 1em 0 1.5em;
   }
 
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 1.2em;
   }
 
@@ -1356,7 +1356,7 @@ Copyright 2015
     padding-top: 1.2em;
   }
 
-  .pricing-plan-left span {
+  .trial-block-left span {
     font-size: 0.875em;
   }
 
@@ -2407,72 +2407,72 @@ Copyright 2015
 /* ... CREA TU APP (footer) ...................................................... */
 
 @media only screen and (max-width: 1015px) {
-  .pricing-plan-left {
+  .trial-block-left {
     width: 60%;
   }
 
-  .pricing-plan-right {
+  .trial-block-right {
     float: right;
     text-align: right;
     width: 40%;
   }
 
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 805px) {
-  .pricing-plan {
+  .trial-block {
     padding: 7em 0;
   }
 
-  .pricing-plan-left {
+  .trial-block-left {
     width: 100%;
     text-align: center;
   }
 
-  .pricing-plan-right {
+  .trial-block-right {
     text-align: center;
     margin-top: 80px;
     width: 100%;
   }
 
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 2em;
   }
 
-  .pricing-plan-left span {
+  .trial-block-left span {
     padding: .8em 0 0 0;
   }
 }
 
 @media only screen and (max-width: 520px) {
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 1.8em;
   }
 
-  .pricing-plan-left span {
+  .trial-block-left span {
     font-size: 1em;
   }
 }
 
 @media only screen and (max-width: 460px) {
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 1.6em;
   }
 
-  .pricing-plan-left span {
+  .trial-block-left span {
     font-size: .8em;
   }
 }
 
 @media only screen and (max-width: 420px) {
-  .pricing-plan-left h2 {
+  .trial-block-left h2 {
     font-size: 2em;
   }
 
-  .pricing-plan-left h2 em {
+  .trial-block-left h2 em {
     display: block;
   }
 }
@@ -2486,18 +2486,18 @@ Copyright 2015
 /* ... SERVICIO ATENCIÓN AL CLIENTE (footer) ...................................................... */
 
 @media only screen and (max-width: 830px) {
-  .servCliente .container {
+  .customer-service .container {
     padding-right: 0;
     padding-left: 0;
   }
 
-  .servCliente ul li {
+  .customer-service ul li {
     padding: 20px 20px 15px 20px;
     display: block;
     text-align: center;
   }
 
-  .servCliente ul li::first-child a {
+  .customer-service ul li::first-child a {
     color: #999;
   }
 }
@@ -2511,7 +2511,7 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 992px) {
-  .page-footer .footCol {
+  .page-footer .footer-nav-col {
     width: 25% !important;
   }
 }
@@ -2541,7 +2541,7 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 767px) {
-  .page-footer .footCol {
+  .page-footer .footer-nav-col {
     width: 33% !important;
   }
 }
@@ -2551,7 +2551,7 @@ Copyright 2015
     padding-top: 10px;
   }
 
-  .page-footer .footCol {
+  .page-footer .footer-nav-col {
     width: 100% !important;
     padding-left: 30px;
   }

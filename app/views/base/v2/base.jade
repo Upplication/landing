@@ -66,19 +66,18 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         block css
 
         // build:css(app) /styles/base.min.css
-        link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
-        link(rel='stylesheet', href='/styles/css/base/common.css')
-        link(rel='stylesheet', href='/styles/css/base/alerts.css')
-        link(rel='stylesheet', href='/styles/css/base/sliders.css')
         link(rel='stylesheet', href='/styles/css/base/modals.css')
-        link(rel='stylesheet', href='/styles/css/base/header.css')
-        link(rel='stylesheet', href='/styles/css/base/footer.css')
-        link(rel='stylesheet', href='/styles/css/base/cookies.css')
         link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
         // endbuild
 
         // build:less(app) /styles/less/test.css
+        link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
+        link(rel='stylesheet', href='/styles/less/base/common.less')
+        link(rel='stylesheet', href='/styles/less/base/sliders.less')
         link(rel='stylesheet', href='/styles/less/base/header.less')
+        link(rel='stylesheet', href='/styles/less/base/alerts.less')
+        link(rel='stylesheet', href='/styles/less/base/footer.less')
+        link(rel='stylesheet', href='/styles/less/base/cookies.less')
         // endbuild
 
         meta(name='viewport', content='width=device-width, initial-scale=1')
@@ -108,24 +107,14 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         a(href='index.html')
                             img(src='#{header.logo.url}', title='#{header.logo.title}')
                     nav.top-nav
-                        ul.top-nav.hide-ul
-                            li
-                                each language in langs.codes
-                                    if lang == language.language_country
-                                        a.lang-link(href="#", data-activates='dropdown-lang')
-                                            i.fa.fa-globe
-                                            | !{language.language_short_code}
-                                ul#dropdown-lang.dropdown-content.notshow
-                                    each lang in langs.codes
-                                        li
-                                            a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
-                            li
+                        ul.top-nav-list.hide-ul
+                            li.how
                                 a.hide-tab(href='#about', title='#{header.nav.how}') !{header.nav.how}
-                            li
+                            li.samples
                                 a.hide-tab(href='#tabs', title='#{header.nav.apps}') #{header.nav.apps}
-                            li
+                            li.blog
                                 a.hide-tab(href='#{external.blog.url}', target='_blank', title='#{external.blog.title}') #{external.blog.anchor}
-                            li
+                            li.more
                                 a.lang-link(href='#', data-activates='dropdown-terms')
                                     | !{header.nav.info.info}
                                 ul#dropdown-terms.dropdown-content.notshow
@@ -141,28 +130,38 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         a.modal-trigger(href='#hiring', title='#{header.nav.info.hiring}', target='_blank') #{header.nav.info.hiring}
                                     li
                                         a.hide-tab.lang-link(href="#{header.nav.info.terms.url}", title='#{header.nav.info.terms.title}') #{header.nav.info.terms.title}
-                            li.only-show-small-devises.phone-kerning
+                            li.languages
+                                each language in langs.codes
+                                    if lang == language.language_country
+                                        a.lang-link(href="#", data-activates='dropdown-lang')
+                                            i.fa.fa-globe
+                                            | !{language.language_short_code}
+                                ul#dropdown-lang.dropdown-content.notshow
+                                    each lang in langs.codes
+                                        li
+                                            a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                            li.trial.only-show-small-devises.phone-kerning
                                 a.modal-trigger(href='#allContact') #{header.telephone}
-                            li.only-show-small-devises
+                            li.trial.only-show-small-devises
                                 a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
-                            li.enter-bold
+                            li.enter-btn
                                 a.hide-tab(href="#{external.dashboard.url}")
                                     i.fa.fa-lock
                                     | #{header.enter}
+                            li.contact-info
+                                .contact-info-grids
+                                    .contact-info-left
+                                        a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
+                                    .contact-info-right
+                                        a.modal-trigger(href='#allContact') #{header.telephone}
+                                        a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
+                        // Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
                             span
                             span
                             span
-                    .contact-info
-                        .contact-info-grids
-                            .contact-info-left
-                                a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
-                            .contact-info-right
-                                a.modal-trigger(href='#allContact') #{header.telephone}
-                                a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
-                            .clearfix
-                    .clearfix
+
         // MODAL :: FREE TRIAL
         #pruebaGratis.modal.modal-upp
             include ../../includes/modal-free.jade
@@ -200,7 +199,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         // smooth scrolling
         script(type='text/javascript').
             $(document).ready(function () {
-                $("#clientsCarousel").owlCarousel({
+                $("#clients-carousel").owlCarousel({
                     autoPlay: 3000, // Set AutoPlay to 3 seconds
                     items: 4,
                     itemsDesktop: [1199, 3],
@@ -240,7 +239,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         script.
             $(function () {
                 var $pull = $('#pull');
-                menu = $('nav ul');
+                menu = $('.top-nav-list');
                 menuHeight = menu.height();
                 $pull.on('click', function (e) {
                     e.preventDefault();

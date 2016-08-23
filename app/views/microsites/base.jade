@@ -58,15 +58,20 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         block css
         // build:css(app) /styles/microsites.min.css
         link(rel='stylesheet', href='/styles/css/microsites/microsites.css')
-        link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
-        link(rel='stylesheet', href='/styles/css/base/common.css')
-        link(rel='stylesheet', href='/styles/css/base/alerts.css')
-        link(rel='stylesheet', href='/styles/css/base/sliders.css')
         link(rel='stylesheet', href='/styles/css/base/modals.css')
-        link(rel='stylesheet', href='/styles/css/base/header.css')
-        link(rel='stylesheet', href='/styles/css/base/cookies.css')
         link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
         // endbuild
+
+        // build:less(app) /styles/less/test.css
+        link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
+        link(rel='stylesheet', href='/styles/less/base/common.less')
+        link(rel='stylesheet', href='/styles/less/base/sliders.less')
+        link(rel='stylesheet', href='/styles/less/base/header.less')
+        link(rel='stylesheet', href='/styles/less/base/alerts.less')
+        link(rel='stylesheet', href='/styles/less/base/footer.less')
+        link(rel='stylesheet', href='/styles/less/base/cookies.less')
+        // endbuild
+
         meta(name='viewport', content='width=device-width, initial-scale=1')
         // webfonts
         link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')

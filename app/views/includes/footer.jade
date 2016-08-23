@@ -1,7 +1,7 @@
 //- CLIENTS CAROUSEL
-.clientSection
+.clients-section
     .container
-        #clientsCarousel
+        #clients-carousel
             .item
                 a(href='#{ourclients.client1.url}', target='_blank', title='#{ourclients.client1.title}')
                     img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
@@ -24,17 +24,17 @@
                 a(href='#{ourclients.client7.url}', target='_blank', title='#{ourclients.client7.title}')
                     img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='#{ourclients.client7.alt}', title='#{ourclients.client7.title}')
 //- 15 DAYS TRIAL BUTTOM
-.pricing-plan
+.trial-block
    .container
-      .pricing-plan-grids
-          .pricing-plan-left
+      .trial-block-grids
+          .trial-block-left
              h2 !{footer.try_it}
              span #{home.permanence}
-          .pricing-plan-right
+          .trial-block-right
              a.price-btn.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}') #{header.free_trial}
           .clearfix
 //- COSTUMERS SERVICES CONTACT AREA
-.servCliente
+.customer-service
    .container
       .col.s12
          ul
@@ -53,7 +53,7 @@ footer.page-footer
                     //- Footer :: links compilation
                     .container.padTop50.padBot50
                         .row.hover-anim
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.help}
                                 ul.footLinks
                                     li
@@ -62,7 +62,7 @@ footer.page-footer
                                         a(href='#{external.tutorials.url}', title='#{external.tutorials.anchor}') #{external.tutorials.anchor}
                                     li
                                         a(href='#{external.blog.url}', title='#{external.blog.title}', target='_blank',) #{external.blog.anchor}
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.uppl}
                                 ul.uppOnFoot.footLinks(type='circle')
                                     li
@@ -73,7 +73,7 @@ footer.page-footer
                                         a(href='#tabs', title='#{external.apps.anchor}') #{external.apps.anchor}
                                     li
                                         a(href='#{external.pricing.url}', title='#{external.pricing.anchor}') #{external.pricing.anchor}
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.misc}
                                 ul.footLinks
                                     li
@@ -88,7 +88,7 @@ footer.page-footer
                                         a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
                                     // li
                                         a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.legal}
                                 ul.footLinks
                                     li

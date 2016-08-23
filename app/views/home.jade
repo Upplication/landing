@@ -299,6 +299,12 @@ block content
     // CLIENTS
     .clients
         .container
+            // VIDEOS
+            video(width='320', height='240', controls='')
+                source(src='#{localConfig.base_path}/videos/serafina.mp4', type='video/mp4')
+                | Your browser does not support the video tag.
+            .video-container
+                iframe(width='853', height='480', src='https://youtu.be/LluyPqRVGC4', frameborder='0', allowfullscreen='')
             // CLIENTS TESTIMONIALS
             .c-testmonials
                 .text-center.marBot100
