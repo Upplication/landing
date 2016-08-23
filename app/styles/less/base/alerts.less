@@ -1,0 +1,104 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: ALERTS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "common.less";
+
+/* ... ALERTS ... */
+
+.alert {
+  padding: 0;
+  margin: 40px 0 0 0;
+  border: 0 solid transparent;
+  border-radius: 0;
+
+  span {
+    font-weight: 600;
+  }
+
+  i {
+    padding: 15px 20px;
+    background-color: #cbe6f4;
+    margin-right: 10px;
+  }
+}
+
+.alert-info {
+  color: @alert-info-font;
+  font-weight: 500;
+  background-color: @alert-info-bg;
+}
+
+
+/* ... Anual two month free ALERT :: Pricing Plans Section ... */
+
+#anual {
+  .alert {
+    min-height: 75px;
+
+    i {
+      background-color: transparent;
+    }
+
+    span {
+      &.fa-stack {
+        position: relative;
+        display: inline-block;
+        width: 3em;
+        height: 3em;
+        line-height: 2em;
+        vertical-align: middle;
+
+        i {
+          &.fa-money {
+            color: @alert-info-icon;
+            font-size: 30px;
+            padding-left: 24px;
+          }
+          &.fa-ban {
+            color: #a1d2eb;
+            opacity: .8;
+            font-size: 70px;
+            position: relative;
+            bottom: 12px;
+            left: -10px;
+          }
+        }
+      }
+
+      &.monthless {
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 15px;
+        vertical-align: sub;
+        vertical-align: -webkit-baseline-middle;
+      }
+    }
+  }
+
+  span {
+    i {
+      color: @alert-info-icon;
+    }
+  }
+}
+
+
+.error.general-error,
+p.error {
+  background-color: @alert-warning-bg;
+  padding: 6px 10px;
+  color: @alert-warning-font;
+  font-weight: 500;
+  width: 100%;
+}
+
+p.error {
+  position: absolute;
+  z-index: 200;
+  bottom: 5px;
+}
