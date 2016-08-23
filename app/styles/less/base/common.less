@@ -1,10 +1,171 @@
-/*
-COMMON LESS: Custom Stylesheet --- LESS COMUNES: Hojas de estilo personalizadas
-
-Upplication (http://www.upplication.com)
-Copyright 2016
-*/
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: COMMON :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
 
 @import "_variables.less";
 @import "_mixins.less";
 
+
+/* ... GENERAL FONTS ... */
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  background: @white;
+}
+
+/* ... ANIMATIONS ... */
+
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.hover-anim,
+.hover-anim li {
+  -webkit-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* ... TRANSFORMS ... */
+
+.skew-right {
+  -webkit-transform: skew(0deg, -3deg);
+  -ms-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+}
+
+.skew-left {
+  -webkit-transform: skew(0deg, 3deg);
+  -ms-transform: skew(0deg, 3deg);
+  transform: skew(0deg, 3deg);
+}
+
+/* ... CENTER IMAGES ... */
+
+.centerImg img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* ... TEXT SELECTED COLOR ... */
+
+/* Safari */
+::selection {
+  background: @main-green;
+}
+
+/* Firefox */
+::-moz-selection {
+  background: @main-green;
+}
+
+/* ... MAIN HEADERS (SECTIONS) ... */
+
+.headTitles,
+h4.headTitles,
+h2.headTitles {
+  color: @dark-lilac;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 1em 0;
+  padding: 0 0 0.5em 0;
+}
+
+.headTitles.noMargBot {
+  margin-bottom: 0;
+}
+
+/* ... PADDING ... */
+
+.sect100 {
+  padding: 100px 0;
+}
+
+.padTop50 {
+  padding-top: 50px;
+}
+
+.padTop30 {
+  padding-top: 30px;
+}
+
+.padBot10 {
+  padding-bottom: 10px;
+}
+
+.padBot30 {
+  padding-bottom: 30px;
+}
+
+.padBot50 {
+  padding-bottom: 50px;
+}
+
+/* ... MARGIN ... */
+
+.margTop30 {
+  margin-top: 30px;
+}
+
+.marBot50 {
+  margin-bottom: 50px;
+}
+
+.marBot10 {
+  margin-bottom: 10px;
+}
+
+.marBot100 {
+  margin-bottom: 100px;
+}
+
+/* ... UPP MAIN BUTTON ... */
+
+a.btn-upp,
+button.btn-upp {
+  background-color: @accept-btn;
+  color: @white;
+  border-radius: 0;
+}
+
+a.btn-upp:hover,
+button.btn-upp:hover {
+  background-color: @accept-btn-hover;
+  color: @white;
+}
+
+/* ... FONT WEIGHTS ... */
+
+.strong500 {
+  font-weight: 500 !important;
+}
+
+/* ... BORDERS ... */
+
+.display-none {
+  display: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid @bg-lilac-light;
+}
+
+/* ... BORDER DIV ... */
+
+.spacer-border-grey {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid @bg-lilac-light;
+}
