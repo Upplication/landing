@@ -1,11 +1,12 @@
-/*
-HEADER LESS: Custom Stylesheet --- LESS CABECERA: Hojas de estilo personalizadas
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: HEADER (base) :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
 
-Upplication (http://www.upplication.com)
-Copyright 2016
-*/
-
-@import "common.less";
+@import (reference) "common.less";
 
 /**
 **********************************
@@ -37,11 +38,13 @@ Copyright 2016
     padding-top: 10px;
     .anim-all-300;
 
+    // Right Side Main LOGO
     .logo {
       float: left;
       margin-top: 0;
 
       a {
+        display: block;
         text-decoration: none;
 
         img {
@@ -49,11 +52,7 @@ Copyright 2016
           height: auto;
           position: relative;
           top: -4px;
-          -webkit-transition: all 0.1s ease-in-out;
-          -moz-transition: all 0.1s ease-in-out;
-          -ms-transition: all 0.1s ease-in-out;
-          -o-transition: all 0.1s ease-in-out;
-          transition: all 0.1s ease-in-out;
+          .anim-all-300;
         }
 
         // logo img animation hover effect
@@ -69,9 +68,118 @@ Copyright 2016
       }
     }
 
-    ul#dropdown-lang,
-    ul#dropdown-terms {
-      margin-top: 57px;
+    // Left Side Main NAVBAR
+    .top-nav {
+      float: right;
+      margin-top: 10px;
+
+      .top-nav-list {
+        line-height: 35px;
+        border-bottom: 1px solid transparent;
+
+        li {
+          //
+          a {
+            color: @dark-lilac;
+            padding: 0.2em 0.8em;
+            max-height: 40px;
+            .font-family-header;
+            font-size: 16px;
+            letter-spacing: .02em;
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+            max-width: 210px;
+            .ellipsis;
+
+            &:hover {
+              background-color: transparent;
+              color: @main-green;
+            }
+
+            i {
+              padding-right: 5px;
+            }
+          }
+
+          &.enter-btn {
+            a {
+              border: 2px solid @accept-btn;
+              color: @accept-btn;
+              margin: 0 8px;
+
+              &:hover {
+                border: 2px solid @accept-btn-hover;
+                color: @accept-btn-hover;
+              }
+            }
+          }
+
+          // "Free trial" BTN & Contact Info block
+          &.contact-info {
+
+            a {
+              .anim-all-150;
+            }
+
+            .contact-info-grids {
+              min-width: 280px;
+
+              .contact-info-left {
+                float: left;
+                width: 50%;
+
+                .chat {
+                  background: @accept-btn;
+                  color: @white;
+                  font-weight: 600;
+                  text-decoration: none;
+
+                  &:hover {
+                    background-color: @accept-btn-hover;
+                  }
+                }
+              }
+
+              .contact-info-right {
+                float: right;
+                width: 50%;
+                text-align: center;
+                margin-top: -2px;
+
+                a {
+                  display: block;
+                  padding: 0 5px;
+                  font-size: 15px;
+                  .font-family-main;
+                  text-align: left;
+                  cursor: pointer;
+                  line-height: 20px;
+
+                  &.support {
+                    margin-bottom: 0;
+                    padding-top: 5px;
+                    color: @darkest-lilac;
+                    font-size: 13px;
+                    font-weight: 400;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                  }
+
+                  &:hover {
+                    color: @accept-btn-hover;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #dropdown-lang,
+    #dropdown-terms {
+      margin-top: 59px;
     }
   }
 
@@ -91,17 +199,400 @@ Copyright 2016
         }
       }
 
-      ul#dropdown-lang,
-      ul#dropdown-terms {
-        margin-top: 47px;
+      #dropdown-lang,
+      #dropdown-terms {
+        margin-top: 49px;
       }
     }
   }
 }
 
 
+/* ... THREE animated BARS icon BTN for drop down main navbar in mobile ... */
+
+@media only screen and (min-width : 769px) {
+  nav a#pull {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  nav a#pull {
+    display: block;
+    text-align: right;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+
+    span {
+      display: block;
+      position: absolute;
+      height: 4px;
+      width: 100%;
+      background: @main-green;
+      opacity: 1;
+      left: 0;
+      .rotate-0;
+      .anim-all-250;
+
+      &:nth-child(1) {
+        top: 0;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        top: 10px;
+      }
+      &:nth-child(4) {
+        top: 20px;
+      }
+    }
+
+    &:after {
+      content: "";
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+      top: 10px;
+    }
+
+    // Three Bars nav icon btn (dropdown menu close) turns to cross (dropdown menu close)
+    &.open {
+      span {
+        background: @light-lilac;
+
+        &:nth-child(1) {
+          top: 18px;
+          width: 0%;
+          left: 50%;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+          .rotate-45;
+        }
+        &:nth-child(4) {
+          top: 10px;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
+
+
+
+// Common styles to dropdown subnavs in main header top navbar
+#dropdown-lang,
+#dropdown-terms {
+  background-color: @header-bg;
+  border: 1px solid @light-lilac;
+  border-top: none;
+
+  li {
+    a {
+      text-align: left;
+      padding-left: 18px;
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+#dropdown-lang {
+  margin-left: 14px;
+}
+
+#dropdown-terms {
+  margin-left: -6px;
+}
+
+
+// to hide elements in mobile (responsive behaviour)
+.hide-tabs {
+  display: none !important;
+}
+
+
+
 /* ... LANDING-UPP :: older styles remains ... */
 
 .logo320 {
   display: none;
+}
+
+
+
+/**
+**********************************
+* main Header :: MEDIA QUERIES
+**********************************
+*/
+
+@media only screen and (max-width: 1150px) {
+  .top-header {
+    .container {
+      .top-nav {
+        .top-nav-list {
+          li.contact-info {
+            .contact-info-grids {
+              min-width: inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .top-header {
+    .container {
+      .logo {
+        a {
+          img {
+            width: 160px;
+            padding-top: 10px;
+          }
+        }
+      }
+    }
+    &.thiny-top-header {
+      .container {
+        .logo {
+          a {
+            img {
+              padding-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .top-header {
+    .container {
+      .top-nav {
+        .top-nav-list {
+          li.contact-info {
+            .contact-info-grids {
+              .contact-info-left {
+                .chat {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .top-header {
+    .container {
+      .top-nav {
+        .top-nav-list {
+          li {
+            a {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 767px) {
+  .only-show-small-devises {
+    display: none;
+  }
+}
+
+// TABLETS
+@media only screen and (max-width: 768px) {
+  .top-header,
+  .top-header.thiny-top-header {
+    height: 60px;
+
+    .container {
+      padding: 0;
+
+      .logo {
+        padding-left: 15px;
+
+        a {
+          img {
+            width: 160px;
+            top: 7px;
+            padding-top: 0;
+          }
+        }
+      }
+
+      .top-nav {
+        float: inherit;
+        margin-top: 59px;
+
+        .top-nav-list {
+          display: none;
+          height: auto;
+          margin: 0;
+          float: inherit;
+          background-color: @header-bg;
+          border-bottom: 1px solid @header-border;
+
+          li {
+            width: 33.3333%;
+            background-color: @header-bg;
+            text-align: center;
+
+            &.only-show-small-devises {
+              // display: inline-block;
+              display: none;
+            }
+
+            &.languages,
+            &.more,
+            &.enter-btn {
+              border-bottom: 1px solid @header-border;
+            }
+
+            a {
+
+            }
+          }
+        }
+      }
+
+      // main top navbar dropdowns
+      #dropdown-lang,
+      #dropdown-terms {
+        margin-top: 51px;
+        margin-left: -6px;
+        border: none;
+
+        li {
+          width: 100%;
+          border-left: 1px solid @header-border;
+          border-right: 1px solid @header-border;
+
+          &:last-child {
+            border-bottom: 1px solid @header-border;
+          }
+
+          a {
+            text-align: left;
+            padding-left: 18px;
+            color: @medium-lilac;
+          }
+        }
+      }
+
+      #dropdown-lang.notshow {
+        display: none !important;
+      }
+    }
+  }
+}
+
+
+// MEDIA QUERIES :: Smartphone :: LANDSCAPE
+@media only screen and (max-width : 480px) {
+  .top-header,
+  .top-header.thiny-top-header {
+    .container {
+      .top-nav {
+        .top-nav-list {
+          li {
+            width: 50%;
+
+            &.more {
+              border-bottom: none;
+            }
+
+            a {
+
+            }
+          }
+        }
+      }
+
+      #dropdown-terms {
+        margin-left: 50px;
+
+        li {
+          border: none;
+
+          &:last-child {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES :: Smartphone :: PORTRAIT
+@media only screen and (max-width : 320px) {
+  .top-header,
+  .top-header.thiny-top-header {
+    .container {
+      .top-nav {
+        .top-nav-list {
+          li {
+            width: 100%;
+            display: block;
+            float: none;
+            border-bottom: none !important;
+
+            &.contact-info {
+              display: none;
+            }
+
+            a {
+
+            }
+          }
+        }
+      }
+
+      #dropdown-lang,
+      #dropdown-terms {
+        li {
+          border: none;
+        }
+      }
+
+      #dropdown-terms {
+        margin-left: -38px;
+      }
+    }
+  }
+}
+
+
+// Media Queries :: HEIGHT
+@media only screen and (max-height: 575px) {
+  .top-header,
+  .top-header.thiny-top-header {
+    .container {
+      #dropdown-terms {
+        max-height: 150px;
+      }
+    }
+  }
 }
