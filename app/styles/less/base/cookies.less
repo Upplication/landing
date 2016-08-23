@@ -1,0 +1,54 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: COOKIES :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "common.less";
+
+#cookies {
+  position: fixed;
+  bottom: 0;
+  z-index: 8999;
+  display: none;
+  background-color: rgba(0,200,107,.7);
+  width: 100%;
+  border-top: 1px solid @main-green;
+  color: @black;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 12px 18px 0;
+
+  &.show {
+    display: block;
+  }
+
+  i {
+    float: left;
+    padding-top: 2px;
+    padding-right: 15px;
+  }
+
+  p {
+    a {
+      font-weight: 600;
+
+      &:hover {
+        color: @dark-green;
+      }
+    }
+  }
+}
+
+
+// MEDIA QUERIES :: Cookies
+@media only screen and (max-width: 899px) {
+  // to create a gap to "Zopin" Chat widget
+  #cookies {
+    p {
+      margin: 0 0 35px;
+    }
+  }
+}
