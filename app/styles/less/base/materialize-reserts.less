@@ -1,14 +1,17 @@
-/*
-GOOGLE MATERIALIZE RESERTS CSS: Custom Stylesheet --- CSS GENERALES: Hojas de estilo personalizadas
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: MATERIALIZE RESERTS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
 
-Upplication (http://www.upplication.com)
-Copyright 2015
-*/
+@import (reference) "common.less";
 
-/* --- MATERIALIZE RESERTS --- */
 
+// LINKS
 a {
-  color: #111b0a;
+  color: @black;
 }
 
 a,
@@ -19,8 +22,26 @@ a:visited {
   text-decoration: none;
 }
 
+// BOLD
 strong {
   font-weight: 600;
+}
+
+
+// NAVS
+nav {
+  color: transparent;
+  background-color: transparent;
+  width: auto;
+  height: 0;
+  line-height: 0;
+
+  ul {
+    li:hover,
+    li.active {
+      background-color: rgba(0,0,0,0);
+    }
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -33,14 +54,7 @@ strong {
   }
 }
 
-nav {
-  color: transparent;
-  background-color: transparent;
-  width: auto;
-  height: 0;
-  line-height: 0;
-}
-
+// VARIOUS
 .z-depth-1,
 nav,
 .card-panel,
@@ -53,47 +67,48 @@ nav,
 .collapsible,
 .side-nav {
   box-shadow: 0 0 0 0 rgba(0,0,0,0),
-                0 0 0 0 rgba(0,0,0,0);
+  0 0 0 0 rgba(0,0,0,0);
 }
 
-nav ul li:hover,
-nav ul li.active {
-  background-color: rgba(0,0,0,0);
+// TABS
+.tabs {
+  .tab {
+    a {
+      color: @main-green;
+      font-size: 18px;
+      font-weight: 600;
+
+      &:hover {
+        color: #009550;
+      }
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: @main-green;
+    will-change: left, right;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      position: relative;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-top: 10px solid @main-green;
+      bottom: 0;
+      z-index: 10;
+      will-change: left, right;
+      left: 45%;
+    }
+  }
 }
 
-.tabs .tab a {
-  color: #00c86b;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.tabs .tab a:hover {
-  color: #009550;
-}
-
-.tabs .indicator {
-  position: absolute;
-  bottom: 0;
-  height: 2px;
-  background-color: #00c86b;
-  will-change: left, right;
-}
-
-.tabs .indicator::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  position: relative;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-top: 10px solid #00c86b;
-  bottom: 0;
-  z-index: 10;
-  will-change: left, right;
-  left: 45%;
-}
-
+// INPUTS
 input[type=text],
 input[type=password],
 input[type=email],
