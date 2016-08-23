@@ -1,0 +1,591 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: FOOTER :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "common.less";
+
+/* ... CLIENTS CAROUSEL :: Footer Common in all pages... */
+
+.clients-section {
+  background: rgba(234,255,245,1);
+  background: -webkit-linear-gradient(-45deg, rgba(234,255,245,1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(234,255,245,1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  background: -webkit-linear-gradient(315deg, rgba(234, 255, 245, 1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  background: linear-gradient(135deg, rgba(234,255,245,1) 0%, rgba(149,255,206,0.9) 48%, rgba(98,255,182,0.8) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eafff5', endColorstr='#62ffb6', GradientType=1 );
+  padding: 3em 0;
+  margin-top: 5em;
+
+  .item {
+    margin: 3px;
+
+    img {
+      opacity: .5;
+      display: block;
+      width: auto;
+      height: 40px;
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* ... "TRY IT FOR FREE 15 DAYS!" :: Footer Common in all pages... */
+
+.trial-block {
+  background: @white;
+  padding: 8em 0;
+
+  // Text Side
+  .trial-block-left {
+    float: left;
+    width: 70%;
+
+    h2 {
+      color: @medium-lilac;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      font-size: 2.58em;
+
+      em {
+        color: @main-green;
+        font-weight: 400;
+        font-style: normal;
+      }
+    }
+
+    span {
+      color: @dark-lilac;
+      padding: .8em 0 0 1.5em;
+      display: block;
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+
+  // BTN side
+  .trial-block-right {
+    margin-top: 1.5em;
+    float: right;
+    text-align: left;
+    width: 30%;
+
+    a.price-btn {
+      background: @accept-btn;
+      color: @white;
+      padding: 1.3em 2.2em;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 1.3em;
+      letter-spacing: 0.03em;
+
+      &:hover {
+        background: @accept-btn-hover;
+      }
+    }
+  }
+}
+
+
+
+/* ... CONTACT DATA :: PRE-FOOTER :: Footer Common in all pages... */
+
+.customer-service {
+  background-color: lighten(@medium-lilac, 10%);
+
+  ul {
+    margin: 0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+
+    li {
+      padding: 20px 20px 15px 20px;
+      display: inline-block;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &.tel {
+
+        &:hover {
+          background-color: lighten(@medium-lilac, 5%);
+        }
+      }
+
+      &.mail {
+        margin-left: -4px !important;
+
+        &:hover {
+          background-color: lighten(@medium-lilac, 5%);
+        }
+      }
+
+      a {
+        font-size: 18px;
+        color: @dark-lilac;
+        font-weight: 500;
+
+        span {
+          font-family: "Lato", sans-serif;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+
+/* ... FOOTER :: Footer Common in all pages... */
+
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  margin: 0;
+  background-color: @light-lilac;
+
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: @dark-lilac;
+    font-size: 15px;
+  }
+
+  .footLinks {
+    li {
+      padding: 5px 0;
+
+      a {
+        color: @darkest-lilac;
+        font-size: 15px;
+        letter-spacing: .03em;
+        padding-left: 0;
+        -webkit-transition: padding 0.5s;
+        -moz-transition: padding 0.5s;
+        -ms-transition: padding 0.5s;
+        -o-transition: padding 0.5s;
+        transition: padding 0.5s;
+
+        &:hover {
+          color: @black;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+  // Last bottom Footer :: Social Media
+  .footer-copyright {
+    font-weight: 300;
+    background-color: @darkest-lilac !important;
+
+    span {
+      color: @main-green !important;
+
+      i {
+        padding-right: 5px;
+      }
+    }
+
+    i.fa-circle {
+      font-size: 3px;
+      padding: 0 10px;
+      position: relative;
+      bottom: 3px;
+    }
+
+    em {
+      font-style: normal;
+      font-size: 14px;
+    }
+
+    // Social Media external links linst
+    ul.rrss.right {
+      float: right;
+
+      li {
+        padding: 0 18px;
+        display: inline-block;
+        font-size: 10px;
+        margin-right: -2px !important;
+        margin-left: -2px !important;
+
+        &:first-child {
+          padding: 0 21px;
+        }
+
+        &.facebook:hover { background-color: @facebook; }
+        &.twitter:hover { background-color: @twitter; }
+        &.instagram:hover { background-color: @instagram; }
+        &.youtube:hover { background-color: @youtube; }
+        &.linkedin:hover { background-color: @linkedin; }
+        &.google {
+          padding-right: 18px !important;
+
+          &:hover { background-color: @google-plus; }
+        }
+
+        a {
+          color: @white;
+          font-size: 20px;
+          text-align: center;
+
+          i {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  // Last bottom Footer :: Partners
+  .footer-bottom {
+    width: 100%;
+    min-height: 150px;
+    background-color: @bg-footer-lilac;
+
+    ul {
+      padding-top: 30px;
+      text-decoration: none;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        padding: 20px;
+        padding-bottom: 10px;
+        opacity: .5;
+
+        &:last-child {
+          padding-right: 0;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  // Hidden share buttons (social media)
+  .footer-socialmedia-btns {
+    width: 100%;
+    min-height: 50px;
+    background-color: @bg-footer-lilac;
+
+    ul.rrss {
+      margin-top: 5px;
+      list-style: none;
+      opacity: 0;
+      pointer-events: none;
+
+      li {
+        display: inline;
+
+        span.ig-follow {
+          margin-top: -12px !important;
+        }
+      }
+    }
+  }
+}
+
+
+/**
+ ************************************************************
+ * {LESS} :: MEDIA QUERIES :: FOOTER :: (upplication, 2016)
+ ************************************************************
+ */
+
+/* ... TRIAL BLOCK :: media queries common ... */
+
+// BIG SCREENS
+@media only screen and (max-width: 1150px) {
+  .trial-block {
+    .trial-block-right {
+      text-align: right;
+
+      a.price-btn {
+        padding: 1.3em 2.4em;
+      }
+    }
+  }
+}
+
+
+// MEDIUM SCREENS
+@media (max-width: 980px) {
+  // to center all elements in one block each
+  .trial-block {
+    padding: 7em 0;
+
+    .trial-block-left {
+      width: 100%;
+      text-align: center;
+
+      h2 {
+        font-size: 2.5em;
+      }
+
+      span {
+        padding: .8em 0 0 0;
+      }
+    }
+
+    .trial-block-right {
+      text-align: center;
+      margin-top: 80px;
+      width: 100%;
+    }
+  }
+}
+
+
+// TABLETS
+@media (max-width:768px) {
+  .trial-block {
+    .trial-block-left {
+      h2 {
+        font-size: 2em;
+      }
+    }
+    .trial-block-right {
+      a.price-btn {
+        padding: 1em 2em;
+      }
+    }
+  }
+}
+
+
+// SMARTPHONE landscape Big
+@media only screen and (max-width: 598px) {
+  .trial-block {
+    .trial-block-left {
+      h2 {
+        font-size: 1.8em;
+      }
+    }
+  }
+}
+
+
+// SMARTPHONE landscape Small
+@media only screen and (max-width: 480px) {
+  .trial-block {
+    .trial-block-left {
+      span {
+        font-size: .8em;
+      }
+    }
+  }
+}
+
+
+// SMARTPHONE portrait
+@media only screen and (max-width: 360px) {
+  .trial-block {
+    padding: 6em 0;
+
+    .trial-block-right {
+      a.price-btn {
+        padding: 1em 1.5em;
+      }
+    }
+  }
+}
+
+/* ... CUSTOMERS SERVICE :: media queries common ... */
+
+@media only screen and (max-width: 830px) {
+  // to center all elements in one block each
+  .customer-service {
+    .container {
+      padding-right: 0;
+      padding-left: 0;
+
+      ul {
+        li {
+          padding: 20px 20px 15px 20px;
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/* ... SOCIAL MEDIA & VERY END FOOTER :: media queries common ... */
+
+@media only screen and (max-width: 1280px) {
+  .page-footer {
+    .footer-copyright {
+      .container {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  // to erase default "materialize" col values
+  .page-footer {
+    .footer-nav-col {
+      width: 25% !important;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 810px) {
+  footer.page-footer {
+    .footer-copyright {
+      height: 100px;
+      line-height: 30px;
+
+      .container {
+        padding-left: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        span {
+          padding-left: 20px;
+          margin-top: 20px;
+        }
+
+        ul {
+          display: block;
+          width: 100%;
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  // to erase default "materialize" col values
+  .page-footer {
+    .footer-nav-col {
+      width: 33% !important;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 599px) {
+  .page-footer {
+    .padTop50 {
+      padding-top: 10px;
+
+      .footer-nav-col {
+        width: 100% !important;
+        padding-left: 30px;
+      }
+    }
+    .footer-copyright {
+      span {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 540px) {
+  footer.page-footer {
+    .footer-bottom {
+      ul {
+        li {
+          display: block;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 499px) {
+  .page-footer {
+    .footer-copyright {
+      font-size: 14px;
+
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .page-footer {
+    .footer-copyright {
+      font-size: 13px;
+
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  footer.page-footer {
+    .footer-copyright {
+      height: 150px;
+      line-height: 30px;
+
+      span,
+      em {
+        display: block;
+      }
+      em {
+        padding-left: 20px;
+        font-size: 16px;
+      }
+      i.fa-circle {
+        display: none;
+      }
+    }
+
+    .footer-bottom {
+      ul {
+        li {
+          display: block;
+          padding-right: 0;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  footer.page-footer {
+    .footer-copyright {
+      ul.rrss.right {
+        li {
+          padding: 23px 15px;
+        }
+      }
+    }
+  }
+}
+
