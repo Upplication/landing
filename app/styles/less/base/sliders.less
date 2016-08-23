@@ -1,0 +1,82 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: SLIDERS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "common.less";
+
+.slider {
+  /* ... Main top Home page Slider ... */
+  height: 600px !important;
+  background-color: transparent !important;
+
+  .slides {
+    height: 600px !important;
+    background-color: transparent !important;
+  }
+
+  /* ... "App Ready" middle Home page Slider ... */
+  &.middle-page-slider {
+    height: 550px !important;
+
+    // top Title
+    .app-ready {
+      position: absolute;
+      z-index: 100;
+      width: 100%;
+      top: -3px;
+
+      h4 {
+        background-color: rgba(0,200,107,.2);
+        color: @main-green;
+        font-size: 45px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding: 10px 0;
+        text-shadow: 2px 2px 0 rgba(0, 47, 25, 1), 1px -1px 0 #002f19, -1px 1px 0 #002f19, 1px 1px 0 #002f19;
+      }
+    }
+
+    // Slides carousel
+    .slides {
+      height: 550px !important;
+
+      li {
+        border-top: 7px solid #e9ebf2;
+        border-bottom: 7px solid #e9ebf2;
+      }
+    }
+  }
+}
+
+
+.parallax-container {
+  height: 300px;
+}
+
+
+
+/* ... MEDIA QUERIES :: SLIDERS ... */
+
+@media only screen and (max-width: 768px) {
+  .slider.slides-to-mobile {
+    height: 400px !important;
+
+    .slides {
+      height: 400px !important;
+    }
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  .slider.slides-to-mobile {
+    height: 350px !important;
+
+    .slides {
+      height: 350px !important;
+    }
+  }
+}
