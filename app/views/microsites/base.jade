@@ -58,7 +58,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         block css
         // build:css(app) /styles/microsites.min.css
         link(rel='stylesheet', href='/styles/css/microsites/microsites.css')
-        link(rel='stylesheet', href='/styles/css/base/modals.css')
         link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
         // endbuild
 
@@ -66,8 +65,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
         link(rel='stylesheet', href='/styles/less/base/common.less')
         link(rel='stylesheet', href='/styles/less/base/sliders.less')
-        link(rel='stylesheet', href='/styles/less/base/header.less')
+        link(rel='stylesheet', href='/styles/less/base/modals.less')
         link(rel='stylesheet', href='/styles/less/base/alerts.less')
+        link(rel='stylesheet', href='/styles/less/base/header.less')
         link(rel='stylesheet', href='/styles/less/base/footer.less')
         link(rel='stylesheet', href='/styles/less/base/cookies.less')
         // endbuild
@@ -88,17 +88,17 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     .contact-info
                         .contact-info-grids
                             .contact-info-left
-                                a.chat.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}') #{header.free_trial}
+                                a.chat.modal-trigger(href='#free-trial', title='#{header.free_trial}') #{header.free_trial}
                             .contact-info-right
-                                a.modal-trigger(href='#allContact', title='#{header.telephone}') #{header.telephone}
+                                a.modal-trigger(href='#all-contact', title='#{header.telephone}') #{header.telephone}
                                 a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
                             .clearfix
                     .clearfix
         // MODAL :: FREE TRIAL
-        #pruebaGratis.modal.modal-upp
+        #free-trial.modal.modal-upp
             include ../includes/modal-free.jade
         // MODAL :: CONTACT
-        #allContact.modal.modal-upp
+        #all-contact.modal.modal-upp
             include ../includes/modal-contact.jade
         // INTRO (header and slider pic)
         block intro
@@ -126,7 +126,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             span #{form.call_to_action}
         // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
         .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
-            a.price-btn.btn-green.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}')
+            a.price-btn.btn-green.modal-trigger(href='#free-trial', title='#{header.free_trial}')
                 span #{form.call_to_action}
         // FEATURES (Intro Tips)
         block features

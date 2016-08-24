@@ -66,7 +66,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         block css
 
         // build:css(app) /styles/base.min.css
-        link(rel='stylesheet', href='/styles/css/base/modals.css')
         link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
         // endbuild
 
@@ -74,8 +73,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
         link(rel='stylesheet', href='/styles/less/base/common.less')
         link(rel='stylesheet', href='/styles/less/base/sliders.less')
-        link(rel='stylesheet', href='/styles/less/base/header.less')
+        link(rel='stylesheet', href='/styles/less/base/modals.less')
         link(rel='stylesheet', href='/styles/less/base/alerts.less')
+        link(rel='stylesheet', href='/styles/less/base/header.less')
         link(rel='stylesheet', href='/styles/less/base/footer.less')
         link(rel='stylesheet', href='/styles/less/base/cookies.less')
         // endbuild
@@ -141,9 +141,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         li
                                             a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li.trial.only-show-small-devises.phone-kerning
-                                a.modal-trigger(href='#allContact') #{header.telephone}
+                                a.modal-trigger(href='#all-contact') #{header.telephone}
                             li.trial.only-show-small-devises
-                                a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
+                                a.modal-trigger(href='#free-trial', title='') #{header.free_trial}
                             li.enter-btn
                                 a.hide-tab(href="#{external.dashboard.url}")
                                     i.fa.fa-lock
@@ -151,9 +151,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li.contact-info
                                 .contact-info-grids
                                     .contact-info-left
-                                        a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
+                                        a.chat.modal-trigger(href='#free-trial') #{header.free_trial}
                                     .contact-info-right
-                                        a.modal-trigger(href='#allContact') #{header.telephone}
+                                        a.modal-trigger(href='#all-contact') #{header.telephone}
                                         a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
                         // Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
@@ -163,10 +163,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             span
 
         // MODAL :: FREE TRIAL
-        #pruebaGratis.modal.modal-upp
+        #free-trial.modal.modal-upp
             include ../../includes/modal-free.jade
         // MODAL :: CONTACT
-        #allContact.modal.modal-upp
+        #all-contact.modal.modal-upp
             include ../../includes/modal-contact.jade
         // MODAL :: HIRING
         #hiring.modal.modal-upp

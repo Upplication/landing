@@ -1,0 +1,465 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: MODALS DIALOGS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "common.less";
+
+
+/* ... Common all modal dialogs COMPONENTS ... */
+
+// Inputs animation effect
+.input-field {
+  .prefix {
+    color: @bg-lilac-light !important;
+  }
+  .prefix ~ label {
+    margin-left: 4rem;
+    margin-top: -5px;
+    text-align: left;
+
+    &.active {
+      text-align: left;
+      color: @bg-lilac-light;
+    }
+  }
+
+  input {
+    font-size: 20px !important;
+    color: @darkest-lilac;
+
+    &.valid + label {
+      color: @main-green !important;
+    }
+    &.invalid + label {
+      color: @main-red !important;
+    }
+  }
+}
+
+
+
+
+/* ... Common all MODAL DIALOGS ... */
+
+.modal.modal-upp {
+  overflow-y: auto;
+  background-color: @white;
+  top: 0 !important;
+  border-radius: 0;
+
+  /* ... to CLOSE modal dialog ... */
+  a.modal-action.modal-close {
+    float: inherit;
+    padding: 0;
+    color: @dark-lilac;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    .anim-all-250;
+
+    &:hover {
+      color: @darkest-lilac;
+      .rotate-180;
+    }
+  }
+
+  /* ... modal CONTENT for all modals dialogs :: common ... */
+  .modal-content {
+    border: 0 solid transparent;
+    border-radius: 0 !important;
+    box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    overflow-x: hidden;
+    padding: 0;
+
+    // Header (modal dialog content)
+    h3 {
+      background-color: @bg-lilac-light;
+      padding: 15px 0;
+      text-transform: uppercase;
+      font-family: 'Lato', sans-serif;
+      font-size: 25px;
+      color: @darkest-lilac;
+      line-height: 35px;
+      text-align: center;
+
+      &:after {
+        content: " ";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid @bg-lilac-light;
+        top: 63px;
+        right: 48%;
+      }
+
+      span {
+        font-weight: 600;
+        color: @main-green;
+      }
+    }
+  }
+
+  /* ... only "FREE TRIAL" modal ... */
+  &#free-trial.modal {
+    min-height: 515px;
+    max-height: 580px;
+    max-width: 800px;
+
+    div:not(.modal-content) {
+      padding: 5px 15px 0 15px;
+    }
+
+    form {
+      padding-right: 20px !important;
+
+      // each inputs fields error
+      .error {
+        width: initial;
+        position: relative;
+        bottom: 20px;
+        margin-left: 3rem;
+        z-index: 20;
+
+        // modal main error
+        &.general-error {
+          margin-left: inherit;
+          bottom: 0px;
+          text-align: center;
+        }
+      }
+    }
+
+    .modal-terms {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      padding: 0;
+
+      ul {
+        margin-bottom: 0;
+        padding: 10px;
+
+        li {
+          display: inline;
+          font-size: 14px;
+          font-weight: 400;
+
+          a {
+            font-weight: 600;
+            
+            &:hover {
+              color: @main-green;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* ... only "CONTACT" modal ... */
+  &#all-contact.modal {
+    max-height: 300px;
+    max-width: 700px;
+
+    .modal-content {
+
+      // Contact BTNs
+      .contact-btns {
+        padding: 15px;
+        margin-top: 30px;
+
+        a {
+          width: 100%;
+          font-size: 18px;
+          font-family: "lato";
+          letter-spacing: 0.04em;
+
+          span {
+            position: relative;
+            bottom: 7px;
+            left: 10px;
+          }
+
+          &:last-child {
+            span {
+              text-transform: lowercase;
+            }
+          }
+        }
+      }
+
+      .contact-btns > div {
+        margin-bottom: 10px;
+      }
+
+      // Social Media items list
+      .contact-social {
+        padding: 0 15px 0 15px;
+        margin-bottom: 0;
+
+        .rrss-modal {
+          text-align: center;
+
+          li {
+            display: inline;
+            padding: 0 10px;
+
+            a {
+              font-size: 30px;
+              color: @medium-lilac;
+
+              &:hover {
+                color: @dark-lilac;
+              }
+            }
+
+            &.facebook a:hover {
+              color: @facebook;
+            }
+            &.twitter a:hover {
+              color: @twitter;
+            }
+            &.instagram a:hover {
+              color: @instagram;
+            }
+            &.youtube a:hover {
+              color: @youtube;
+            }
+            &.linkedin a:hover {
+              color: @linkedin;
+            }
+            &.google a:hover {
+              color: @google-plus;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* ... only "HIRING" modal ... */
+  &#hiring.modal {
+    max-height: 460px;
+    max-width: 700px;
+
+    .modal-content {
+
+      // top IMG
+      .row.hiring-icons {
+        text-align: center;
+
+        img {
+          width: 30%;
+          height: auto;
+          padding: 10px 0 20px 0;
+        }
+      }
+
+      // Contact BTNs
+      .row.contact-btns {
+        padding: 0 15px;
+        margin-top: 0;
+
+        a {
+          width: 100%;
+          font-size: 18px;
+          font-family: "lato";
+          letter-spacing: 0.04em;
+          text-transform: inherit;
+        }
+      }
+
+      .row.contact-btns > div {
+        margin-bottom: 10px;
+      }
+
+      .row.contact-btns > div:nth-child(even) {
+        padding-left: 0;
+      }
+
+      .row:not(.contact-btns) {
+        padding: 0 15px 0 15px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+/* ... MEDIA QUERIES :: all Modal Dialogs ... */
+
+@media only screen and (max-width: 850px) {
+  #free-trial .modal-footer ul {
+    padding-top: 7px;
+  }
+}
+
+
+@media only screen and (max-width: 668px) {
+  #free-trial.modal {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .modal.modal-upp {
+
+    &#free-trial.modal {
+      .modal-content {
+        h3 {
+          font-size: 22px;
+        }
+      }
+    }
+
+    &#all-contact.modal,
+    &#hiring.modal {
+      width: 100%;
+      max-height: 550px;
+    }
+
+    &#all-contact {
+      .modal-content {
+        .contact-btns {
+          margin: 0;
+        }
+      }
+    }
+
+    &#hiring.modal {
+      .modal-content {
+        .row.contact-btns > div:nth-child(even) {
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .modal.modal-upp {
+    .modal-content {
+      h3 {
+        font-size: 19px;
+        text-align: left;
+        padding-left: 20px;
+      }
+    }
+
+    &#free-trial.modal {
+      div:not(.modal-content) {
+        padding: 5px 5px 0;
+      }
+      .modal-content {
+        h3 {
+          font-size: 19px;
+        }
+      }
+      .modal-terms ul li a {
+        display: block;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .modal.modal-upp {
+    .modal-content {
+      h3 {
+        font-size: 16px;
+        padding: 5px 40px 5px 20px;
+
+        &:after {
+          top: 40px;
+        }
+      }
+    }
+
+    &#free-trial.modal {
+      div:not(.modal-content) {
+        padding: 5px 5px 0;
+      }
+      .modal-content {
+        h3 {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
+
+// very small screens devises (mobiles - smartphones)
+@media only screen and (max-width: 360px) {
+  .input-field {
+    .prefix {
+      display: none;
+    }
+    input {
+      font-size: 16px !important;
+    }
+    .prefix ~ input {
+      width: calc(100% - 2rem);
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+    .prefix ~ label {
+      margin-left: 1rem;
+    }
+  }
+
+  .modal.modal-upp {
+    .modal-content {
+      h3 {
+        font-size: 15px;
+      }
+    }
+
+    &#free-trial.modal {
+      div:not(.modal-content) {
+        padding: 5px 5px 0;
+      }
+      .modal-content {
+        h3 {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
+
+
+/* ... media queries :: HEIGHT ... */
+
+@media only screen and (max-height: 600px) {
+  .modal.modal-upp {
+    &#all-contact.modal,
+    &#hiring.modal {
+      max-height: 360px !important;
+    }
+
+    &#hiring.modal {
+      max-height: 460px;
+      max-width: 700px;
+
+      .modal-content {
+        .row.hiring-icons {
+          display: none;
+        }
+        .row.contact-btns {
+          margin-top: 18px;
+        }
+      }
+    }
+  }
+}
+

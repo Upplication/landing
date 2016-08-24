@@ -1,16 +1,14 @@
-/*
-MEDIA QUERIES CSS: Custom Stylesheet --- CSS DISEÑO ADAPTATIVO: Hojas de estilo personalizadas
 
-Upplication (http://www.upplication.com)
-Copyright 2015
-*/
 
-/* ... GENERAL MEDIA QUERIES (Responsive Design) ... */
+/**
+ ******************************************************
+ ******************************************************
+ *                              BIG ONES
+ ******************************************************
+  *****************************************************
+ */
 
 @media (max-width:1024px) {
-  nav {
-    margin: 1.4% 0 0 23%;
-  }
 
   .domain-Serach-bar-grids {
     width: 60.8%;
@@ -67,6 +65,16 @@ Copyright 2015
     width: 100%;
   }
 }
+
+
+/**
+ ******************************************************
+ ******************************************************
+ *                              TABLETS
+ ******************************************************
+  *****************************************************
+ */
+
 
 @media (max-width:768px) {
   nav {
@@ -191,29 +199,8 @@ Copyright 2015
     padding: 2em 0 5em;
   }
 
-  .pricing-plan-left {
-    float: none;
-    width: 100%;
-  }
 
-  .pricing-plan-right {
-    margin-top: 1em;
-    float: none;
-    width: 100%;
-  }
 
-  a.price-btn {
-    display: inline-block;
-    padding: 0.6em 1.2em;
-  }
-
-  .pricing-plan {
-    padding: 1em 0 1.5em;
-  }
-
-  .pricing-plan-left h2 {
-    font-size: 1.8em;
-  }
 
   .about-left-grids {
     width: 100%;
@@ -310,6 +297,14 @@ Copyright 2015
   }
 }
 
+/**
+ ******************************************************
+ ******************************************************
+ *                              MOBILE 680
+ ******************************************************
+  *****************************************************
+ */
+
 @media (max-width:680px) {
   nav a#pull img {
     margin-right: 0;
@@ -317,6 +312,14 @@ Copyright 2015
     bottom: 20px;
   }
 }
+
+/**
+ ******************************************************
+ ******************************************************
+ *                              MOBILE 640
+ ******************************************************
+  *****************************************************
+ */
 
 @media (max-width:640px) {
   nav {
@@ -441,30 +444,6 @@ Copyright 2015
     padding: 2em 0 5em;
   }
 
-  .pricing-plan-left {
-    float: none;
-    width: 100%;
-  }
-
-  .pricing-plan-right {
-    margin-top: 1em;
-    float: none;
-    width: 100%;
-  }
-
-  a.price-btn {
-    display: inline-block;
-    padding: 0.6em 1.2em;
-  }
-
-  .pricing-plan {
-    padding: 1em 0 1.5em;
-  }
-
-  .pricing-plan-left h2 {
-    font-size: 1.8em;
-  }
-
   .about-left-grids {
     width: 100%;
     float: none;
@@ -573,6 +552,14 @@ Copyright 2015
   }
 }
 
+/**
+ ******************************************************
+ ******************************************************
+ *                              MOBILE 607
+ ******************************************************
+  *****************************************************
+ */
+
 @media (max-width:607px) {
   nav a#pull img {
     margin-right: 0;
@@ -580,6 +567,14 @@ Copyright 2015
     bottom: 15px;
   }
 }
+
+/**
+ ******************************************************
+ ******************************************************
+ *                              MOBILE 480
+ ******************************************************
+  *****************************************************
+ */
 
 @media (max-width:480px) {
   nav {
@@ -709,31 +704,6 @@ Copyright 2015
 
   .clients {
     padding: 2em 0 5em;
-  }
-
-  .pricing-plan-left {
-    float: none;
-    width: 100%;
-  }
-
-  .pricing-plan-right {
-    margin-top: 1em;
-    float: none;
-    width: 100%;
-  }
-
-  a.price-btn {
-    display: inline-block;
-    padding: 1em 2em;
-    font-size: 1em;
-  }
-
-  .pricing-plan {
-    padding: 1em 0 1.5em;
-  }
-
-  .pricing-plan-left h2 {
-    font-size: 1.4em;
   }
 
   .about-left-grids {
@@ -939,6 +909,14 @@ Copyright 2015
   }
 }
 
+/**
+ ******************************************************
+ ******************************************************
+ *                              MOBILE 320
+ ******************************************************
+  *****************************************************
+ */
+
 @media (max-width:320px) {
   nav {
     margin: 1.4% 0 0 23%;
@@ -1074,30 +1052,6 @@ Copyright 2015
     padding: 1em 0 4em;
   }
 
-  .pricing-plan-left {
-    float: none;
-    width: 100%;
-  }
-
-  .pricing-plan-right {
-    margin-top: 0.5em;
-    float: none;
-    width: 100%;
-  }
-
-  a.price-btn {
-    display: inline-block;
-    padding: 0.5em 1em;
-    font-size: 0.875em;
-  }
-
-  .pricing-plan {
-    padding: 1em 0 1.5em;
-  }
-
-  .pricing-plan-left h2 {
-    font-size: 1.2em;
-  }
 
   .about-left-grids {
     width: 100%;
@@ -1352,10 +1306,6 @@ Copyright 2015
     padding-top: 1.2em;
   }
 
-  .pricing-plan-left span {
-    font-size: 0.875em;
-  }
-
   .c-testmonial-grid-info a {
     font-size: 1em;
   }
@@ -1487,6 +1437,14 @@ Copyright 2015
   }
 }
 
+
+
+
+
+
+
+
+
 /* ... UPP CUSTOM MEDIA QUERIES (Responsive Design) ... */
 
 @media only screen and (min-width: 993px) {
@@ -1501,94 +1459,9 @@ Copyright 2015
   }
 }
 
-@media only screen and (max-width: 1390px) {
-  nav {
-    margin-left: 9%;
-  }
-}
 
-@media only screen and (max-width: 1375px) {
-  nav {
-    margin-left: 8%;
-  }
-}
-
-@media only screen and (max-width: 1360px) {
-  nav {
-    margin-left: 7%;
-  }
-}
-
-@media only screen and (max-width: 1345px) {
-  nav {
-    margin-left: 6%;
-  }
-}
-
-@media only screen and (max-width: 1335px) {
-  nav {
-    margin-left: 5%;
-  }
-}
-
-@media only screen and (max-width: 1320px) {
-  nav {
-    margin-left: 4%;
-  }
-}
-
-@media only screen and (max-width: 1305px) {
-  nav {
-    margin-left: 3%;
-  }
-}
-
-@media only screen and (max-width: 1295px) {
-  nav {
-    margin-left: 2%;
-  }
-}
-
-@media only screen and (max-width: 1280px) {
-  nav {
-    margin-left: 8%;
-  }
-}
-
-@media only screen and (max-width: 1240px) {
-  nav {
-    margin-left: 6%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  nav {
-    margin-left: 4%;
-  }
-}
-
-@media only screen and (max-width: 1180px) {
-  nav {
-    margin-left: 3%;
-  }
-}
-
-@media only screen and (max-width: 1170px) {
-  nav {
-    margin-left: 2%;
-  }
-}
-
-@media only screen and (max-width: 1180px) {
-  nav {
-    margin-left: 3%;
-  }
-}
 
 @media only screen and (max-width: 1150px) {
-  nav {
-    margin-left: 10%;
-  }
 
   nav ul.top-nav {
     float: right;
@@ -1620,33 +1493,12 @@ Copyright 2015
 
 @media only screen and (max-width: 1050px) {
   nav {
-    margin-left: 3%;
     margin-top: 7px;
   }
 }
 
-@media only screen and (max-width: 999px) {
-  nav {
-    margin-left: 2.5%;
-  }
-}
-
-@media only screen and (max-width: 975px) {
-  nav {
-    margin-left: 2%;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-  nav {
-    margin-left: 0;
-  }
-}
 
 @media only screen and (max-width: 940px) {
-  nav {
-    margin-left: 3%;
-  }
 
   .top-nav ul li a {
     padding: 0.2em .8em;
@@ -1659,9 +1511,7 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 920px) {
-  nav {
-    margin-left: 2%;
-  }
+
 
   .top-nav ul li a {
     padding: 0.2em .7em;
@@ -1669,9 +1519,7 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 895px) {
-  nav {
-    margin-left: 0;
-  }
+
 }
 
 @media only screen and (max-width: 875px) {
@@ -2547,200 +2395,19 @@ Copyright 2015
 
 /* ... CREA TU APP (footer) ...................................................... */
 
-@media only screen and (max-width: 1015px) {
-  .pricing-plan-left {
-    width: 60%;
-  }
 
-  .pricing-plan-right {
-    float: right;
-    text-align: right;
-    width: 40%;
-  }
-
-  .pricing-plan-left h2 {
-    font-size: 2em;
-  }
-}
-
-@media only screen and (max-width: 805px) {
-  .pricing-plan {
-    padding: 7em 0;
-  }
-
-  .pricing-plan-left {
-    width: 100%;
-    text-align: center;
-  }
-
-  .pricing-plan-right {
-    text-align: center;
-    margin-top: 80px;
-    width: 100%;
-  }
-
-  .pricing-plan-left h2 {
-    font-size: 2em;
-  }
-
-  .pricing-plan-left span {
-    padding: .8em 0 0 0;
-  }
-}
-
-@media only screen and (max-width: 520px) {
-  .pricing-plan-left h2 {
-    font-size: 1.8em;
-  }
-
-  .pricing-plan-left span {
-    font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 460px) {
-  .pricing-plan-left h2 {
-    font-size: 1.6em;
-  }
-
-  .pricing-plan-left span {
-    font-size: .8em;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .pricing-plan-left h2 {
-    font-size: 2em;
-  }
-
-  .pricing-plan-left h2 em {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 340px) {
-  a.price-btn {
-    padding: 1em;
-  }
-}
 
 /* ... SERVICIO ATENCIÓN AL CLIENTE (footer) ...................................................... */
 
-@media only screen and (max-width: 830px) {
-  .servCliente .container {
-    padding-right: 0;
-    padding-left: 0;
-  }
 
-  .servCliente ul li {
-    padding: 20px 20px 15px 20px;
-    display: block;
-    text-align: center;
-  }
-
-  .servCliente ul li::first-child a {
-    color: #999;
-  }
-}
 
 /* ... FOOTER ...................................................... */
 
-@media only screen and (max-width: 1280px) {
-  .page-footer .footer-copyright .container {
-    padding-right: 0;
-  }
-}
 
-@media only screen and (max-width: 992px) {
-  .page-footer .footCol {
-    width: 25% !important;
-  }
-}
 
-@media only screen and (max-width: 810px) {
-  footer.page-footer .footer-copyright {
-    height: 100px;
-    line-height: 30px;
-  }
 
-  footer.page-footer .footer-copyright ul {
-    display: block;
-    width: 100%;
-    padding-top: 10px;
-  }
 
-  .page-footer .footer-copyright .container {
-    padding-left: 0;
-    padding-top: 10px;
-    text-align: center;
-  }
 
-  footer.page-footer .footer-copyright span {
-    padding-left: 20px;
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .page-footer .footCol {
-    width: 33% !important;
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  .page-footer .padTop50 {
-    padding-top: 10px;
-  }
-
-  .page-footer .footCol {
-    width: 100% !important;
-    padding-left: 30px;
-  }
-
-  .page-footer .footer-copyright span {
-    padding-left: 20px;
-  }
-}
-
-@media only screen and (max-width: 499px) {
-  .page-footer .footer-copyright {
-    font-size: 14px;
-  }
-
-  .page-footer .footer-copyright span {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .page-footer .footer-copyright {
-    font-size: 13px;
-  }
-
-  .page-footer .footer-copyright span {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .page-footer .footer-copyright {
-    font-size: 14px;
-  }
-
-  .page-footer .footer-copyright span {
-    padding-left: 12px;
-  }
-
-  .page-footer .footer-copyright em {
-    font-size: 16px;
-    display: block;
-  }
-
-  footer.page-footer .footer-copyright {
-    height: 150px;
-    line-height: 30px;
-  }
-}
 
 /* ... LEGAL ADVISE & ABOUT US ...................................................... */
 
@@ -2761,92 +2428,15 @@ Copyright 2015
   }
 }
 
-/* ... MODAL ...................................................... */
+/* ... HELP CENTER ................................................. */
 
-@media only screen and (max-width: 1280px) {
-  .modal {
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .modal {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 989px) {
-  .modal {
-    width: 80%;
-  }
-}
 
 @media only screen and (max-width: 850px) {
-  .modal {
-    width: 90%;
-  }
-
   #help-center .help-center-grid {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 668px) {
-  #pruebaGratis.modal {
-    width: 100%;
-  }
-
-  #pruebaGratis .modal-content h2 {
-    font-size: 20px;
-  }
-
-  #pruebaGratis .modal-content h2:after {
-    top: 59px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #pruebaGratis .modal-terms ul li {
-    font-size: 12px;
-  }
-}
-
-@media only screen and (max-width: 440px) {
-  #pruebaGratis .modal-terms ul {
-    padding: 0;
-  }
-
-  #pruebaGratis .modal-terms ul li a {
-    display: block;
-  }
-
-  input[type=text],
-  input[type=password],
-  input[type=password],
-  input[type=email],
-  input[type=url],
-  input[type=time],
-  input[type=date],
-  input[type=datetime-local],
-  input[type=tel],
-  input[type=number],
-  input[type=search],
-  textarea.materialize-textarea {
-    margin: 0 0 20px 0;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  .modal {
-    width: 95%;
-  }
-
-  #pruebaGratis .modal-content h2 {
-    font-size: 16px;
-  }
-}
-
-/* ... PRICING  ...................................................... */
 
 /* ... MAIN MENU TOP NAV ...................................................... */
 
@@ -2944,11 +2534,6 @@ Copyright 2015
     transform: skew(0deg, -5deg);
   }
 
-  .slider.slides-to-mobile,
-  .slider.slides-to-mobile .slides {
-    height: 400px !important;
-  }
-
   /* "TRY IT" BUTTON for MOBILE & TABLETS */
 
   .formPhone-mobile {
@@ -2958,24 +2543,28 @@ Copyright 2015
   }
 
   .formPhone-mobile a {
+    display: block;
     width: 100%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
+    background-color: #00c86b;
+    color: #fff;
+    padding: 1em .5em;
+    font-size: 1.3em;
+    letter-spacing: .03em;
   }
+
+    .formPhone-mobile a:hover {
+        background-color: #00e386;
+    }
 
   .formPhone-mobile a i {
     margin-right: 10px;
   }
 }
 
-@media only screen and (max-height: 420px) {
-  .slider.slides-to-mobile,
-  .slider.slides-to-mobile .slides {
-    height: 350px !important;
-  }
-}
 
 /* ... HOME INTRO SLIDER BOTTOM SKEW for big screems .................... */
 

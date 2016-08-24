@@ -2651,21 +2651,21 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 668px) {
-  #pruebaGratis.modal {
+  #free-trial.modal {
     width: 100%;
   }
 
-  #pruebaGratis .modal-content h2 {
+  #free-trial .modal-content h2 {
     font-size: 20px;
   }
 
-  #pruebaGratis .modal-content h2:after {
+  #free-trial .modal-content h2:after {
     top: 59px;
   }
 }
 
 @media only screen and (max-width: 430px) {
-  #pruebaGratis .modal-footer ul li {
+  #free-trial .modal-footer ul li {
     font-size: 13px;
   }
 }
@@ -2675,7 +2675,7 @@ Copyright 2015
     width: 95%;
   }
 
-  #pruebaGratis .modal-content h2 {
+  #free-trial .modal-content h2 {
     font-size: 16px;
   }
 }
