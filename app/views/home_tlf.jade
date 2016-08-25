@@ -29,12 +29,12 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:description', content='#{description}')
         meta(property='og:url', content='http://upplication.com/')
         meta(property='og:site_name', content='Upplication')
-        meta(property='og:image', content='/images/upplication_rrss.png')
+        meta(property='og:image', content='/images/common/upplication_rrss.png')
         meta(name="twitter:card", content="summary")
         meta(name="twitter:site", content="@upplication")
         meta(name="twitter:domain", content="Upplication")
         meta(name="twitter:creator", content="@upplication")
-        meta(name="twitter:image:src", content="/images/upplication_rrss.png")
+        meta(name="twitter:image:src", content="/images/common/upplication_rrss.png")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
@@ -84,7 +84,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     section#register
                         div
                             .mobile
-                                img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
+                                img(src="#{localConfig.base_path}/images/aplicateca/la-florette-mobile.png", alt="App móvil")
                             .claim.padding-top-2x.margin-bottom-2x.width-90.center
                                 h1.uppercase.cwhite.acenter.bold #{register.claim}
                                 p.big.acenter #{register.arguments}
@@ -120,7 +120,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     | #{home.multidevice.text}
 
                             #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
-                                img.screenshot-devices(src='#{localConfig.base_path}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
+                                img.screenshot-devices(src='#{localConfig.base_path}/images/aplicateca/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
 
                             ul.so-available
                                 li
