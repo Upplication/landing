@@ -16,21 +16,6 @@ Copyright 2015
     width: 60.8%;
   }
 
-  .banner-info {
-    margin-top: 4em;
-  }
-
-  .banner h1 {
-    font-size: 2.5em;
-  }
-
-  .banner {
-    min-height: 550px;
-  }
-
-  .banner-info img {
-    margin: 2em 0;
-  }
 
   .services-left,
   .services-right {
@@ -88,22 +73,6 @@ Copyright 2015
 
   .domain-Serach-bar-grids {
     width: 79.2%;
-  }
-
-  .banner-info {
-    margin-top: 4em;
-  }
-
-  .banner h1 {
-    font-size: 2em;
-  }
-
-  .banner {
-    min-height: 500px;
-  }
-
-  .banner-info img {
-    margin: 2em 0;
   }
 
   .services-left,
@@ -340,21 +309,6 @@ Copyright 2015
     width: 96.2%;
   }
 
-  .banner-info {
-    margin-top: 2em;
-  }
-
-  .banner h1 {
-    font-size: 2em;
-  }
-
-  .banner {
-    min-height: 450px;
-  }
-
-  .banner-info img {
-    margin: 2em 0 1em;
-  }
 
   .services-left,
   .services-right {
@@ -608,21 +562,6 @@ Copyright 2015
     border: 8px solid rgba(255, 255, 255, 0.5);
   }
 
-  .banner-info {
-    margin-top: 2em;
-  }
-
-  .banner h1 {
-    font-size: 1.4em;
-  }
-
-  .banner {
-    min-height: 380px;
-  }
-
-  .banner-info img {
-    margin: 2em 0 1em;
-  }
 
   .services-left,
   .services-right {
@@ -864,9 +803,6 @@ Copyright 2015
     font-size: 0.875em;
   }
 
-  .banner h2 {
-    font-size: 1.2em;
-  }
 
   .latest-news-grid h3 a {
     font-size: 0.62em;
@@ -966,22 +902,6 @@ Copyright 2015
     border: 8px solid rgba(255, 255, 255, 0.5);
   }
 
-  .banner-info {
-    margin-top: 1em;
-  }
-
-  .banner h1 {
-    font-size: 1.4em;
-  }
-
-  .banner {
-    min-height: 308px;
-  }
-
-  .banner-info img {
-    margin: 1em 0 0em;
-    width: 15%;
-  }
 
   .services-left,
   .services-right {
@@ -1229,10 +1149,6 @@ Copyright 2015
 
   .features-head span {
     font-size: 0.875em;
-  }
-
-  .banner h2 {
-    font-size: 1.2em;
   }
 
   .latest-news-grid h3 a {
@@ -1702,61 +1618,61 @@ Copyright 2015
 /* ... HEADERS of Slider ...................................................... */
 
 @media only screen and (min-width: 2000px) {
-  .formPhone {
+  .register-form {
     right: 20% !important;
   }
 }
 
 @media only screen and (max-width: 1950px) {
-  .formPhone {
+  .register-form {
     right: 19% !important;
   }
 }
 
 @media only screen and (max-width: 1950px) {
-  .formPhone {
+  .register-form {
     right: 18% !important;
   }
 }
 
 @media only screen and (max-width: 1900px) {
-  .formPhone {
+  .register-form {
     right: 17% !important;
   }
 }
 
 @media only screen and (max-width: 1850px) {
-  .formPhone {
+  .register-form {
     right: 16% !important;
   }
 }
 
 @media only screen and (max-width: 1800px) {
-  .formPhone {
+  .register-form {
     right: 15% !important;
   }
 }
 
 @media only screen and (max-width: 1750px) {
-  .formPhone {
+  .register-form {
     right: 14% !important;
   }
 }
 
 @media only screen and (max-width: 1700px) {
-  .formPhone {
+  .register-form {
     right: 13% !important;
   }
 }
 
 @media only screen and (max-width: 1650px) {
-  .formPhone {
+  .register-form {
     right: 12% !important;
   }
 }
 
 @media only screen and (max-width: 1600px) {
-  .formPhone {
+  .register-form {
     right: 11% !important;
   }
 }
@@ -1766,7 +1682,7 @@ Copyright 2015
     font-size: 2.3em;
   }
 
-  .formPhone {
+  .register-form {
     right: 10% !important;
   }
 }
@@ -1776,7 +1692,7 @@ Copyright 2015
     font-size: 2.15em;
   }
 
-  .formPhone {
+  .register-form {
     right: 10% !important;
   }
 }
@@ -1794,13 +1710,13 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 1300px) {
-  .formPhone {
+  .register-form {
     right: 9% !important;
   }
 }
 
 @media only screen and (max-width: 1280px) {
-  .formPhone {
+  .register-form {
     right: 30px !important;
   }
 
@@ -1828,7 +1744,7 @@ Copyright 2015
     font-size: 2em;
   }
 
-  .formPhone {
+  .register-form {
     right: 30px;
   }
 
@@ -1837,7 +1753,7 @@ Copyright 2015
     top: 8%;
   }
 
-  .formPhone {
+  .register-form {
     top: 150px;
   }
 }
@@ -1853,7 +1769,7 @@ Copyright 2015
     margin: 2.1rem 0 -1.32rem 0;
   }
 
-  .formPhone {
+  .register-form {
     top: 150px;
   }
 }
@@ -1871,7 +1787,7 @@ Copyright 2015
 }
 
 @media only screen and (max-width: 768px) {
-  .formPhone {
+  .register-form {
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -1937,13 +1853,13 @@ Copyright 2015
     padding-top: 10px;
   }
 
-  .formPhone {
+  .register-form {
     top: 160px;
     right: 0 !important;
     width: 95%;
   }
 
-  .registerTop .headReg {
+  .register-top .headReg {
     margin-bottom: 10px;
   }
 
@@ -1965,13 +1881,13 @@ Copyright 2015
     margin: 0;
   }
 
-  .registerTop .btnReg p {
+  .register-top .register-form-btn p {
     font-size: 0.6em;
   }
 }
 
 @media only screen and (max-height: 480px) {
-  .registerTop .headReg {
+  .register-top .headReg {
     margin-bottom: 10px;
   }
 
@@ -1993,7 +1909,7 @@ Copyright 2015
     margin: 0;
   }
 
-  .registerTop .btnReg p {
+  .register-top .register-form-btn p {
     font-size: 0.6em;
   }
 

@@ -75,12 +75,26 @@ body a {
 .headTitles,
 h4.headTitles,
 h2.headTitles {
-  color: @dark-lilac;
+  color: @darkest-lilac;
   font-family: "Raleway", sans-serif;
   font-size: 2em;
   font-weight: 500;
   margin: 1em 0;
   padding: 0 0 0.5em 0;
+  
+  span {
+    color: @medium-lilac;
+  }
+}
+
+h4:not(.head-terms).headTitles + p,
+.plans-head p {
+  color: @medium-lilac;
+  line-height: 1em;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.2em;
 }
 
 .headTitles.noMargBot {
@@ -169,3 +183,122 @@ button.btn-upp:hover {
   height: 1px;
   border-bottom: 1px solid @bg-lilac-light;
 }
+
+/* ... THREE CARDS LAYOUT to video, text or img ... */
+
+// Used in "Home" (index) & "About Us" (Team) pages
+.about-grids {
+  margin-top: 1.5em;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+  background: @bg-lilac-light;
+
+  &.row {
+    .col {
+      padding: 0;
+    }
+  }
+
+  .about-grid {
+
+    // TEXT area
+    .about-grid-info {
+      padding: 2.3em 2.5em;
+
+      h4 {
+        font-family: "Lato", sans-serif;
+        margin: 0 0 2em 0;
+        padding: 0 0 0.5em 0;
+        font-size: 1.3em;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+        span {
+          font-weight: 600;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400;
+        text-align: justify;
+      }
+    }
+
+    // PICs & VIDEO areas
+    .about-grid-pic {
+      img {
+        width: 100%;
+      }
+    }
+
+    // Backgrounds Colors
+    &.about-grid1 {
+      background: @main-green;
+
+      .about-grid-info {
+        p,
+        h4 {
+          color: @white;
+        }
+        h4 {
+          border-bottom: 1px solid @white;
+        }
+      }
+    }
+    .about-grid2 {
+      background: @bg-lilac-light;
+
+      .about-grid-info {
+        p,
+        h4 {
+          color: @darkest-lilac;
+        }
+        h4 {
+          border-bottom: 1px solid @darkest-lilac;
+        }
+      }
+    }
+  }
+}
+
+/* ... Media Queries :: Three Cards video-image layout :: WIDTH */
+
+@media only screen and (max-width : 801px) {
+  #team .about-grids .col.m4.about-grid,
+  .row .col.m4 {
+    width: 100% !important;
+  }
+}
+
+/* ... Media Queries :: Three Cards video-image layout :: HEIGHT */
+
+@media only screen and (max-height: 667px) {
+  #about {
+    padding-top: 0;
+  }
+}
+
+/* ... DIAGONAL BLOCK LAYOUT to Home & Microlandings views ... */
+
+.dippah {
+  position: relative;
+  bottom: 47px;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+
+
+@import "../home/home.less";
+
+
+
+
+
+
+

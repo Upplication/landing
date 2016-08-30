@@ -7,12 +7,12 @@ Copyright 2015
 
 /* ... REGISTER FORM :: Home Section ... */
 
-.formPhone img {
+.register-form img {
   width: 290px;
   height: auto;
 }
 
-.formPhone {
+.register-form {
   background-color: #fff;
   position: absolute;
   z-index: 200;
@@ -23,12 +23,12 @@ Copyright 2015
   min-width: 300px;
 }
 
-.registerTop {
+.register-top {
   margin-left: 0rem;
   margin-right: 0rem;
 }
 
-.registerTop .headReg {
+.register-top .headReg {
   width: 100%;
   background-color: #f1f1f1;
   height: 50px;
@@ -36,7 +36,7 @@ Copyright 2015
   margin-bottom: 20px;
 }
 
-.registerTop .headReg:after {
+.register-top .headReg:after {
   content: " ";
   width: 0;
   height: 0;
@@ -48,7 +48,7 @@ Copyright 2015
   margin-left: -.5em;
 }
 
-.registerTop .headReg h2 {
+.register-top .headReg h2 {
   padding-top: 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -59,50 +59,45 @@ Copyright 2015
   margin: 0;
 }
 
-.registerTop .headReg h2 span {
+.register-top .headReg h2 span {
   color: #009550;
 }
 
-.registerTop .input-field {
+.register-top .input-field {
   margin-top: 5px;
 }
 
-.registerTop .input-field:first-child {
+.register-top .input-field:first-child {
   margin-top: 10px;
 }
 
-.registerTop span.accepTerms {
-  font-size: 12px;
-  display: inline-block;
-  padding: 10px 0 0 0;
-  text-align: left;
-}
 
-.registerTop .btnReg {
+
+.register-top .register-form-btn {
   text-align: center;
 }
 
-.registerTop .btnReg p {
+.register-top .register-form-btn p {
   margin-top: 10px;
   font-weight: 500;
   color: #222;
   font-size: 13px;
 }
 
-.registerTop .btnReg p a {
+.register-top .register-form-btn p a {
   font-weight: 600;
 }
 
-.registerTop .btnReg p a:hover {
+.register-top .register-form-btn p a:hover {
   color: #009550;
   /* Verde Medio */
 }
 
-.registerTop .btnReg a {
+.register-top .register-form-btn a {
   margin-bottom: 20px;
 }
 
-.registerTop .btnReg span,
+.register-top .register-form-btn span,
 #host .btn-upp span {
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -114,50 +109,11 @@ select:-webkit-autofill {
   background-color: rgb(255, 255, 255);
 }
 
-a.terms-conditions {
-  padding-left: 5px;
-}
-
 /* ... INTRO ................................................... */
 
 .features-grid i {
   color: #00c86b;
   font-size: 8em;
-}
-
-/* ... INTRO IMAGE ................................................... */
-
-.banner {
-  background: url(../img/bg/bgDesktop.jpg) no-repeat 0px 0px;
-  background-size: cover;
-  min-height: 580px;
-  position: relative;
-  top: 60px;
-}
-
-.banner h1 {
-  font-family: 'Roboto Slab', serif;
-  color: #FFF;
-  font-size: 3em;
-  margin: 0 0 0.5em;
-  padding: 0;
-}
-
-.banner h2 {
-  font-family: 'Raleway', sans-serif;
-  color: #FFF;
-  font-weight: 400;
-  font-size: 1.5em;
-  margin: 0.4em 0 0 0;
-  padding: 0;
-}
-
-.banner-info {
-  margin-top: 5em;
-}
-
-.banner-info img {
-  margin: 3em 0;
 }
 
 /* ... PRICING TABLES :: Home Section ... */
@@ -951,7 +907,7 @@ a.order-btn:hover {
   color: #e60000;
 }
 
-#tabs ul.uppOnFoot {
+#tabs ul.tabs-content-list {
   padding-bottom: 20px;
 }
 

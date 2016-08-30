@@ -153,7 +153,7 @@ Copyright 2015
 /* Team Header */
 
 .team-header {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .team-header h4,
@@ -314,7 +314,7 @@ Copyright 2015
   margin-right: 0;
   margin-left: 0;
   padding: 0;
-  background: #e0e0e0;
+  background: #e9ebf2;
 }
 
 .about-grids.row .col {
@@ -361,7 +361,7 @@ Copyright 2015
 
 .about-grid2 .about-grid-info p,
 .about-grid2 .about-grid-info h4 {
-  color: #111b0a;
+  color: #1e1f26;
 }
 
 .about-grid1 .about-grid-info h4 {
@@ -369,11 +369,11 @@ Copyright 2015
 }
 
 .about-grid2 .about-grid-info h4 {
-  border-bottom: 1px solid #111b0a;
+  border-bottom: 1px solid #1e1f26;
 }
 
 .about-grid2 {
-  background: #ebecf0;
+  background: #e9ebf2;
 }
 
 /* MEDIA QUERIES */

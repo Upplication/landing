@@ -1,0 +1,98 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: REGISTER FORM :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "../base/common.less";
+
+
+// Chrome browser default values resert
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+
+/* ... Main REGISTER FORM Block to desktop, big screens & no touch devises ... */
+
+.register-form {
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  z-index: 200;
+  top: 148px;
+  right: 7%;
+  padding: 0;
+  max-width: 400px;
+  min-width: 300px;
+
+  .register-top {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0;
+
+    .register-form-block {
+      padding: 20px 20px 10px 20px !important;
+
+      // Register Form Input Fields
+      .input-field {
+        margin-top: 5px;
+
+        &:first-child {
+          margin-top: 10px;
+        }
+
+        label {
+          color: @dark-lilac;
+        }
+
+      }
+
+      // Register Form Button
+      .register-form-btn {
+        text-align: center;
+
+        button.btn-upp {
+          width: 100%;
+        }
+
+        // under BTN copy
+        p {
+          margin-top: 10px;
+          text-align: center;
+          color: @darkest-lilac;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+/* ... Call to Action :: MOBILE ONLY ... */
+
+.register-form-mobile {
+  a {
+    padding: 1em .5em !important;
+    color: @white;
+    font-weight: 500 !important;
+    letter-spacing: .05em;
+  }
+}
+
+
+
+
+.register-top .register-form-btn span,
+#host .btn-upp span {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+
+
+
+
