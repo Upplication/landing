@@ -7,8 +7,9 @@ block vars
     - var cssClass = 'offer'
 
 block css
-    // build:css(app) /styles/offer.marketing.min.css
-    link(rel='stylesheet', href='/styles/css/offer/offer.css')
+
+    // build:less(app) /styles/less/test.less
+    link(rel='stylesheet', href='/styles/less/offer/offer.less')
     // endbuild
 
 block content
@@ -17,30 +18,30 @@ block content
 
     section.bottom-space
         .container.offer-jobs
-            h2.text-center.padTop50 #{external.hiring_marketing.anchor}
+            h4.headTitles.text-center.padTop50 #{external.hiring_marketing.anchor}
 
             img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", title="#{external.hiring}", alt="#{external.hiring}")
 
-            .intro
+            .intro.offer-jobs-text
                 each intro, i in offer_marketing.introduction
                     p #{intro}
 
-            .technologies
+            .technologies.offer-jobs-text
                 p #{offer_marketing.technologies.intro}
                 ul
                     each tech, i in offer_marketing.technologies.list
                         li #{tech}
                 p #{offer_marketing.technologies.note}
 
-            .weoffer_marketing
+            .weoffer_marketing.offer-jobs-text
                 p #{offer_marketing.weoffer.intro}
                 ul
                     each weoffer, i in offer_marketing.weoffer.list
                         li #{weoffer}
 
-            .wewantyou
+            .wewantyou.offer-jobs-text
                 p !{offer_marketing.wewanttomeetyou}
 
-            .cheers
+            .cheers.offer-jobs-text
                 each cheer, i in offer_marketing.cheers
                     p #{cheer}
