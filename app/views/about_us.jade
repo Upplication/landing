@@ -7,14 +7,15 @@ block vars
     - var cssClass = 'about'
 
 block css
-    // build:css(app) /styles/about.min.css
-    link(rel='stylesheet', href='/styles/css/about/about.css')
+
+    // build:less(app) /styles/less/test.less
+    link(rel='stylesheet', href='/styles/less/about/about.less')
     // endbuild
 
 block content
     // MEET OUR TEAM
     .col.s12.center-align.team-header.padBot50.border-bottom
-        h4
+        h4.headTitles.text-center
             span #{about_us.team.subtitle}
             | #{about_us.team.title}
         #team.about
@@ -180,20 +181,20 @@ block content
                             | #{about_us.team.support.support_2.surname}
                         p.team-work #{about_us.team.support.support_2.position}
                     .col.s12.m3.center-align
-                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.community.linkedin}', title='#{about_us.team.community.linkedin}', target='_blank')
+                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.communication.linkedin}', title='#{about_us.team.communication.linkedin}', target='_blank')
                             i.fa.fa-linkedin
-                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.community.twitter}', title='#{about_us.team.community.twitter}', target='_blank')
+                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.communication.twitter}', title='#{about_us.team.communication.twitter}', target='_blank')
                             i.fa.fa-twitter
-                        a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.community.sentence}')
+                        a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.communication.sentence}')
                             i.fa.fa-bullhorn
                         .upp-team-img.team-sergio.circle.animate-hover
-                            img.hidden(src='#{localConfig.base_path}/images/about/sergio_communication_2.jpg', title='#{about_us.team.community.position}', alt='#{about_us.team.community.position}')
+                            img.hidden(src='#{localConfig.base_path}/images/about/sergio_communication_2.jpg', title='#{about_us.team.communication.position}', alt='#{about_us.team.communication.position}')
                         h5
-                            strong #{about_us.team.community.name}
-                            | #{about_us.team.community.surname}
-                        p.team-work #{about_us.team.community.position}
+                            strong #{about_us.team.communication.name}
+                            | #{about_us.team.communication.surname}
+                        p.team-work #{about_us.team.communication.position}
                     .col.s12.m3.center-align
-                        a.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
+                        a.team-job.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
                             i.fa.fa-plus
                         .upp-team-img.team-newfella.circle.animate-hover
                         h5 #{about_us.team.nextone.surname}
@@ -202,7 +203,7 @@ block content
     // DPTOS. INFO & PICS
     #about.about
         .col.s12.center-align.team-header
-            h4
+            h4.headTitles.text-center
                 span #{about_us.departments.subtitle}
                 | #{about_us.departments.title}
         .about-grids.row
