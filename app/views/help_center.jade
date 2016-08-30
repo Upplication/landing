@@ -7,14 +7,15 @@ block vars
     - var cssClass = 'helpcenter'
 
 block css
-    // build:css(app) /styles/helpcenter.min.css
-    link(rel='stylesheet', href='/styles/css/helpcenter/helpcenter.css')
-    //endbuild
+
+    // build:less(app) /styles/less/test.less
+    link(rel='stylesheet', href='/styles/less/help-center/help-center.less')
+    // endbuild
 
 block content
     // HELP CENTER
     #help-center.container
-        h4.animated.fadeIn #{help_center.name} test
+        h4.headTitles.center-align.animated.fadeIn #{help_center.name} test
         .row
             .col.s12.m6.help-center-grid
                 ul.collection

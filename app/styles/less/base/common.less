@@ -48,14 +48,30 @@ body a {
   transform: skew(0deg, 3deg);
 }
 
-/* ... CENTER IMAGES ... */
+/* ... to CENTER Blocks ... */
 
-.centerImg img {
+.centered {
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+/* ... to CENTER Images ... */
+
+.centerImg img {
+  .centered;
+}
+
+/* ... to add an Ellipsis ... */
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* ... TEXT SELECTED COLOR ... */
@@ -294,8 +310,10 @@ button.btn-upp:hover {
 }
 
 
-@import "../home/home.less";
+/* ... (external) ... */
 
+@import "../home/home.less";
+@import "../help-center/help-center.less";
 
 
 
