@@ -74,12 +74,10 @@ body a {
 
 /* ... TEXT SELECTED COLOR ... */
 
-/* Safari */
 ::selection {
   background: @main-green;
 }
 
-/* Firefox */
 ::-moz-selection {
   background: @main-green;
 }
@@ -198,7 +196,64 @@ button.btn-upp:hover {
   border-bottom: 1px solid @bg-lilac-light;
 }
 
-/* ... THREE CARDS LAYOUT to video, text or img ... */
+
+/* ... DIAGONAL BLOCK LAYOUT to Home & Microlandings views ... */
+
+.dippah {
+  position: relative;
+  bottom: 47px;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+
+
+/**
+ ******************************************************
+ * (component) :: TABS :: (upplication, 2016)
+ ******************************************************
+ */
+
+.tabs {
+  line-height: 70px;
+
+  // each Tab
+  .tab {
+    text-transform: inherit;
+
+    a {
+      color: @main-green;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 25px;
+
+      &:hover {
+        color: @accept-btn-hover;
+      }
+
+      em {
+        font-style: normal;
+      }
+    }
+  }
+
+  // each Tab underline
+  .indicator {
+    background-color: @main-green;
+    bottom: 10px;
+
+    &:after {
+      left: 45%;
+    }
+  }
+}
+
+/**
+ ****************************************************************
+ * (component) :: THREE CARDS GRID layout  :: (upplication, 2016)
+ ****************************************************************
+ */
 
 // Used in "Home" (index) & "About Us" (Team) pages
 .about-grids {
@@ -296,16 +351,7 @@ button.btn-upp:hover {
   }
 }
 
-/* ... DIAGONAL BLOCK LAYOUT to Home & Microlandings views ... */
 
-.dippah {
-  position: relative;
-  bottom: 47px;
-  z-index: 100;
-  width: 100%;
-  height: 90px;
-  background-color: white;
-}
 
 
 /* ... (external) ... */
@@ -314,6 +360,7 @@ button.btn-upp:hover {
 @import "../help-center/help-center.less";
 @import "../offer/offer.less";
 @import "../about/about.less";
+@import "../prices/prices.less";
 
 
 

@@ -7,8 +7,9 @@ block vars
    - var cssClass = 'prices'
 
 block css
-   // build:css(app) /styles/prices.min.css
-   link(rel='stylesheet', href='/styles/css/prices/prices.css')
+
+   // build:less(app) /styles/less/test.less
+   link(rel='stylesheet', href='/styles/less/prices/prices.less')
    // endbuild
 
 block content
@@ -30,7 +31,7 @@ block content
                 .plans-head.text-center
                     h4.headTitles.noMargBot #{prices.rates.rate_intro}
                     p #{prices.rates.rate_sub}
-                    .col-xs-12.col-sm-offset-3.col-sm-8.incluye
+                    .col-xs-12.col-sm-offset-3.col-sm-8.prices-common-features
                         ul
                             li
                                 i.fa.fa-commenting-o
@@ -83,7 +84,7 @@ block content
                                             | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
-                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
+                            img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
                                 ul
@@ -199,7 +200,7 @@ block content
                                             | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
                         .col-xs-12.col-md-3.mobilePrices
-                            img.responsive-img.badgeTopSales(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
+                            img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
                                 ul

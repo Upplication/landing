@@ -1,0 +1,217 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: PRICES :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "../base/common.less";
+
+
+#pricing {
+  &.pricing-tables {
+    padding: 6em 0;
+
+    .tabs .tab a {
+      letter-spacing: 0;
+    }
+  }
+
+  // Common FEATURES
+  .plans-head {
+    padding: 0 0 3em 0;
+
+    .prices-common-features {
+      text-align: left;
+      font-size: 18px;
+      font-weight: 500;
+
+      i {
+        font-size: 25px;
+        padding: 10px;
+        color: @main-green;
+
+        &.fa-tablet {
+          padding-left: 15px;
+          padding-right: 13px;
+        }
+
+        &.fa-graduation-cap {
+          font-size: 22px;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+
+  // Bottom TAX ADVISE
+  .tax {
+    padding-top: 10px;
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+
+      i {
+        font-size: 10px;
+        position: relative;
+        bottom: 7px;
+        padding-right: 5px;
+      }
+    }
+  }
+
+  // Best Seller Product badge
+  .best-seller {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 200;
+    width: 45px;
+  }
+
+  /* ... PRICING Plan TABLES ... */
+
+  // Common styles in Pricing Plans Tables
+  .pricing-table-grid {
+    border: 1px solid @header-border;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+
+    // Plan Name
+    h3 {
+      text-align: center;
+      display: block;
+      margin: 0;
+      padding: 1em 0;
+      display: block;
+      color: @darkest-lilac;
+      text-transform: uppercase;
+      font-size: 1.5em;
+    }
+
+    // Features List
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        text-align: center;
+        border-bottom: 1px solid @header-border;
+        font-size: 16px;
+
+        a,
+        span {
+          padding: 1em;
+          display: block;
+          text-decoration: none;
+          text-align: left;
+          pointer-events: none;
+        }
+
+        span {
+          text-align: center;
+          padding: .5em 0;
+          background: @white;
+          font-size: 1.8em;
+          font-weight: 700;
+          -webkit-transition: 0.5s all;
+          -moz-transition: 0.5s all;
+          -ms-transition: 0.5s all;
+          -o-transition: 0.5s all;
+          transition: 0.5s all;
+
+          em {
+            font-style: normal;
+            font-size: 15px;
+            padding-left: 10px;
+          }
+        }
+
+        a {
+          max-width: 280px;
+          .ellipsis;
+
+          &:hover {
+            color: @main-green;
+          }
+
+          i {
+            padding-right: 10px;
+            color: @light-lilac;
+          }
+        }
+      }
+    }
+
+    // Trial BTN
+    a.order-btn {
+      padding: 1.5em 0;
+      display: block;
+      background-color: @light-lilac;
+      text-align: center;
+      font-family: 'Roboto Slab', serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: @darkest-lilac;
+    }
+
+    // Not "Best Seller" Pricing Plan
+    &:not(.with-hover) {
+      &:hover {
+        border-color: @main-green;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+
+        span {
+          color: @main-green;
+        }
+
+        a.order-btn:hover {
+          background-color: @main-green;
+          color: @white;
+        }
+      }
+    }
+
+    // "Best Seller" Pricing Plan
+    &.with-hover {
+      border-color: @main-green;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05);
+
+      span {
+        color: @main-green;
+      }
+
+      a.order-btn {
+        background-color: @main-green;
+        color: @white;
+
+        &:hover {
+          background-color: lighten(@main-green, 5%);
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+#mensual,
+#anual {
+  margin-top: 2em;
+}

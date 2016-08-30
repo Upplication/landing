@@ -157,7 +157,7 @@ select:-webkit-autofill {
   padding-top: 10px;
 }
 
-.badgeTopSales {
+.best-seller {
   position: absolute;
   top: 0;
   right: 15px;
@@ -231,9 +231,6 @@ select:-webkit-autofill {
   -ms-transition: 0.5s all;
 }
 
-.pricing-table-grid.principal {
-  border: 1px solid #00c86b;
-}
 
 .priceAdvise img {
   position: absolute;
