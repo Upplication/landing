@@ -32,6 +32,7 @@
     "gulp-clean-css": "^2.0.11",
     "gulp-connect": "^4.1.0",
     "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^3.0.3",
     "gulp-jade": "^1.1.0",
     "gulp-less": "^3.1.0",
     "gulp-onesky": "^1.1.0",

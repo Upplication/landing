@@ -15,6 +15,7 @@ var del = require('del');
 var gutil = require('gulp-util');
 var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');
+var imagemin = require('gulp-imagemin');
 var _ = require('lodash');
 
 var onesky = require('./gulp/onesky');
@@ -186,6 +187,7 @@ gulp.task('clean', function() {
 
 gulp.task('copy:images', function() {
     return gulp.src('./app/images/**',  { base: 'app' })
+        .pipe(imagemin())
         .pipe(gulp.dest('./dist/'));
 });
 
