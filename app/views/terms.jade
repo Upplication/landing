@@ -7,8 +7,8 @@ block vars
     - var cssClass = 'terms'
 
 block css
-    // build:css(app) /styles/terms.min.css
-    link(rel='stylesheet', href='/styles/css/terms/terms.css')
+    // build:less(app) /styles/less/styles.css
+    link(rel='stylesheet', href='/styles/less/terms/terms.less')
     // endbuild
 
 block content
@@ -18,24 +18,24 @@ block content
         #legal.about.scrollspy
             .about-grids
                 .container.animated.fadeIn
-                    .about-left-grids
-                        h4 !{terms.legal.title}
+                    .terms-grid.about-left-grids
+                        h4.headTitles.head-terms !{terms.legal.title}
                         each paragraph in terms.legal.paragraphs
                             p !{paragraph}
-                        h4#privacidad.scrollspy !{terms.privacy.title}
+                        h4#privacidad.headTitles.head-terms.scrollspy !{terms.privacy.title}
                         each paragraph in terms.privacy.paragraphs
                             p !{paragraph}
-                        h4#uso.scrollspy !{terms.general.title}
+                        h4#uso.headTitles.head-terms.scrollspy !{terms.general.title}
                         each subsection in terms.general.subsections
                             h5 !{subsection.title}
                             each paragraph in subsection.paragraphs
                                 p !{paragraph}
-                        h4#cookies-policy.scrollspy !{terms.cookies.title}
+                        h4#cookies-policy.headTitles.head-terms.scrollspy !{terms.cookies.title}
                         each subsections in terms.cookies.subsections
                             h5 !{subsections.title}
                             each paragraph in subsections.paragraphs
                                 p !{paragraph}
-                        h4#dashboard-policy.scrollspy !{terms.dashboard.title}
+                        h4#dashboard-policy.headTitles.head-terms.scrollspy !{terms.dashboard.title}
                             each subsections in terms.dashboard.subsections
                                 h5 !{subsections.title}
                                 each paragraph in subsections.paragraphs
