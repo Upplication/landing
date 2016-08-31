@@ -53,7 +53,7 @@ nav,
 .collapsible,
 .side-nav {
   box-shadow: 0 0 0 0 rgba(0,0,0,0),
-                0 0 0 0 rgba(0,0,0,0);
+  0 0 0 0 rgba(0,0,0,0);
 }
 
 nav ul li:hover,
@@ -61,38 +61,49 @@ nav ul li.active {
   background-color: rgba(0,0,0,0);
 }
 
-.tabs .tab a {
-  color: #e60000;
-  font-size: 18px;
-  font-weight: 600;
+/* ... TABS ... */
+
+.tabs {
+  line-height: 70px;
+
+  .tab {
+    a {
+      color: #e60000;
+      font-size: 18px;
+      font-weight: 600;
+
+      &:hover {
+        color: #910000;
+      }
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: 10px;
+    height: 2px;
+    background-color: #e60000;
+    will-change: left, right;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      position: relative;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-top: 10px solid #e60000;
+      bottom: 0;
+      z-index: 10;
+      will-change: left, right;
+      left: 45%;
+    }
+  }
 }
 
-.tabs .tab a:hover {
-  color: #009550;
-}
 
-.tabs .indicator {
-  position: absolute;
-  bottom: 0;
-  height: 2px;
-  background-color: #e60000;
-  will-change: left, right;
-}
 
-.tabs .indicator::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  position: relative;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-top: 10px solid #e60000;
-  bottom: 0;
-  z-index: 10;
-  will-change: left, right;
-  left: 45%;
-}
 
 input[type=text],
 input[type=password],
