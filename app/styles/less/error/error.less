@@ -1,0 +1,203 @@
+/**
+ ************************************************************************************************
+ ************************************************************************************************
+ * {LESS} :: ERROR :: 404 (page not found) & 500 (internal server error) :: (upplication, 2016)
+ ************************************************************************************************
+  ***********************************************************************************************
+ */
+
+@import (reference) "../base/common.less";
+
+
+// Heading BCKGRND in Error views
+.page-not-found-bg {
+  width: 100%;
+  padding-top: 50px;
+}
+
+// Heading TITLE in Error views
+.page-not-found-header {
+  top: 100px;
+  .centered;
+  position: absolute;
+
+  h4 {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eafff5), color-stop(100%, #00a659));
+    background-image: -webkit-linear-gradient(#eafff5,#00a659);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: @white;
+    position: relative;
+    font-size: 200px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    margin: .2em 0 0 0;
+    padding: 0;
+
+    &:after {
+      background: none;
+      content: attr(data-text);
+      left: 0;
+      position: absolute;
+      text-shadow: 33px 5px 5px rgba(0, 0, 0, 0.1);
+      top: 0;
+      z-index: -1;
+    }
+  }
+
+  p {
+    font-size: 41px;
+    color: @white;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  // 500 error (Internal Server Error)
+  &.internal-server-error {
+    h4:after {
+      text-shadow: 50px 8px 7px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// SUGGESTIONS list in Error views
+.not-found-suggestions {
+  .each-suggestions {
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: @darkest-lilac;
+    font-size: 18px;
+    line-height: 30px;
+
+    &.number {
+      text-align: center;
+
+      &:before {
+        padding: 4px 11px;
+        background-color: @white;
+        border-radius: 50%;
+        font-weight: 700;
+        color: @medium-lilac;
+        font-size: 20px;
+        position: relative;
+        bottom: 4px;
+        margin-right: 10px;
+        border: 1px solid @medium-lilac;
+      }
+
+      &.number-one:before {
+        content: '1';
+      }
+      &.number-two:before {
+        content: '2';
+      }
+      &.number-three:before {
+        content: '3';
+      }
+      &.number-four:before {
+        content: '4';
+      }
+    }
+
+    a {
+      color: @main-green;
+
+      &:hover {
+        color: darken(@main-green, 5%);
+      }
+    }
+  }
+}
+
+
+
+/* ... MEDIA QUERIES :: Page Not Found ... */
+
+@media (max-width:1350px) {
+  .page-not-found-header {
+    top: 60px;
+  }
+}
+
+@media (max-width:1150px) {
+  .page-not-found-header {
+    top: 30px;
+  }
+}
+
+@media (max-width:1080px) {
+  .page-not-found-header {
+    h4 {
+      font-size: 150px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width:801px) {
+  .each-suggestions {
+    width: 66.6666666667% !important;
+    margin-left: 16.6666666667% !important;
+  }
+}
+
+@media (max-width:768px) {
+  .page-not-found-header {
+    h4 {
+      font-size: 130px;
+    }
+  }
+}
+
+@media (max-width:667px) {
+  .page-not-found-header {
+    h4:after {
+      text-shadow: -4px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width:600px) {
+  .page-not-found-header {
+    text-align: left;
+    padding-bottom: 0;
+    top: 50px;
+
+    h4 {
+      font-size: 90px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .each-suggestions {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width:480px) {
+  .page-not-found-header {
+    top: 35px;
+  }
+}
+
+@media (max-width:420px) {
+  .page-not-found-header {
+    h4 {
+      font-size: 75px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}

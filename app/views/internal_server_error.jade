@@ -5,14 +5,13 @@ block vars
    - var keywords = internal_server_error._keywords
    - var cssClass = 'internal_server_error'
 block css
-   // build:css(app) /styles/500.min.css
-   link(rel='stylesheet', href='/styles/css/404/404.css')
-   link(rel='stylesheet', href='/styles/css/500/500.css')
+   // build:less(app) /styles/less/test.less
+   link(rel='stylesheet', href='/styles/less/error/error.less')
    // endbuild
 block content
    // 500 ERROR
-   .page-not-found-bg
-       img.responsive-img(src='#{localConfig.base_path}/images/error/500_bg.jpg', title='#{internal_server_error.subtitle3}', alt='#{internal_server_error.subtitle3}')
+   .page-not-found-bg.internal-server-error
+       img.responsive-img(src='#{localConfig.base_path}/images/error/404_bg.jpg', title='#{internal_server_error.subtitle3}', alt='#{internal_server_error.subtitle3}')
    .container
       .col.s12.center-align.page-not-found-header.padBot50
          h4(data-text='500') #{internal_server_error.title}
