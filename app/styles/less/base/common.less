@@ -9,6 +9,8 @@
 @import "_variables.less";
 @import "_mixins.less";
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
+
 
 /* ... GENERAL FONTS ... */
 
@@ -76,10 +78,12 @@ body a {
 
 ::selection {
   background: @main-green;
+  color: @white;
 }
 
 ::-moz-selection {
   background: @main-green;
+  color: @white;
 }
 
 /* ... MAIN HEADERS (SECTIONS) ... */
@@ -334,6 +338,121 @@ button.btn-upp:hover {
   }
 }
 
+
+/**
+ ****************************************************************
+ * (component) :: MAIN TOP TITLE (H1 & H2)  :: (upplication, 2016)
+ ****************************************************************
+ */
+
+/* ... MAIN TITLE & SUBTITLE (main text just over the top slider) ... */
+
+.mainHead {
+  color: @white;
+  position: absolute;
+  z-index: 200;
+  top: 75px;
+  left: 10%;
+  width: 70%;
+  text-shadow: 1px 1px 1px @black;
+
+  // Second Header in Top Slider (Home view)
+  h2 {
+    font-size: 2.6em;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: rgba(0,0,0,.7);
+    display: inline-block;
+    line-height: 1.1em;
+    padding-left: 10px;
+    padding-right: 0;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0 45px 10px;
+      border-color: transparent transparent rgba(0,0,0,.7) transparent;
+      position: absolute;
+      left: -10px;
+    }
+
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 45px 28px 0 0;
+      border-color: rgba(0,0,0,.7) transparent transparent transparent;
+      position: absolute;
+      right: -28px;
+      top: 0;
+    }
+
+    // Changing Text with animation effect
+    .typed-effect {
+      display: inline-block;
+
+      span {
+        display: inline-block;
+      }
+    }
+
+    span {
+      color: @main-green;
+      font-weight: 600;
+      padding-right: 5px;
+    }
+  }
+
+  // Main Header in Top Slider (Home view)
+  h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+
+    span {
+      background-color: rgba(0,0,0,.7);
+      display: table;
+      padding: 5px;
+      margin: 10px 0;
+
+      // First row main clain text
+      &.intro-2a {
+        &:before {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 38px 10px;
+          border-color: transparent transparent rgba(0,0,0,.7) transparent;
+          position: relative;
+          left: -15px;
+          top: -34px;
+        }
+      }
+
+      // Second row main clain text
+      &.intro-2b {
+        margin-left: -6px;
+
+        &:after {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 39px 14px 0 0;
+          border-color: rgba(0,0,0,.7) transparent transparent transparent;
+          position: relative;
+          right: -20px;
+          top: 35px;
+        }
+      }
+    }
+  }
+}
+
 /* ... Media Queries :: Three Cards video-image layout :: WIDTH */
 
 @media only screen and (max-width : 801px) {
@@ -352,7 +471,353 @@ button.btn-upp:hover {
 }
 
 
+/* ... Media Queries :: Three Cards video-image layout :: WIDTH */
 
+@media only screen and (max-width: 1600px) {
+  .register-form {
+    right: 11% !important;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 34px 14px 0 0;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .mainHead h2 {
+    font-size: 2.5em;
+  }
+
+  .mainHead h2:before {
+    top: -1px;
+  }
+}
+
+@media only screen and (max-width: 1325px) {
+  .mainHead h2 {
+    font-size: 2.4em;
+  }
+
+  .mainHead h2:after {
+    border-width: 42px 28px 0 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .mainHead {
+    left: 60px;
+    width: 90%;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 43px 10px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .mainHead h1 {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1001px) {
+  .mainHead h2 {
+    font-size: 2.2em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 39px 10px;
+  }
+
+  .mainHead h2:after {
+    border-width: 37px 28px 0 0;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .mainHead h2 {
+    font-size: 2em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 36px 10px;
+  }
+
+  .mainHead h2:after {
+    border-width: 35px 28px 0 0;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .mainHead h2 {
+    font-size: 1.9em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 34px 10px;
+  }
+
+  .mainHead h2:after {
+    border-width: 33px 28px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: 1.4em;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 34px 14px 0 0;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .mainHead h2 {
+    font-size: 1.8em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 32px 10px;
+  }
+
+  .mainHead h2:after {
+    border-width: 31px 28px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: 1.2em;
+  }
+
+  .mainHead h1 span.intro-2a:before {
+    border-width: 0px 0 30px 10px;
+    top: -26px;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 31px 14px 0 0;
+    top: 27px;
+    right: -19px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainHead {
+    top: 90px;
+    width: 89%;
+    left: 30px;
+  }
+
+  .mainHead h2 {
+    font-size: 1.7em;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .mainHead h2 span {
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 40px 16px;
+    left: -16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 39px 19px 0 0;
+    right: -19px;
+  }
+
+  .mainHead h1 {
+    font-size: 1.3em;
+    margin: 0;
+  }
+
+  .mainHead h1 span {
+    display: inline-block;
+  }
+
+  .mainHead h1 span.intro-2b {
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .mainHead h2 {
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 37px 16px;
+    left: -16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 36px 19px 0 0;
+    right: -19px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .mainHead h2 {
+    font-size: 1.3em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 33px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 32px 19px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: 1em;
+  }
+
+  .mainHead h1 span.intro-2a:before {
+    border-width: 0px 0 27px 10px;
+    top: -23px;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 27px 14px 0 0;
+    top: 23px;
+  }
+
+  .mainHead h1 span.intro-2b {
+    margin-left: -4px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .mainHead h2 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 30px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 29px 19px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: .8em;
+  }
+
+  .mainHead h1 span.intro-2a:before {
+    border-width: 0px 0 24px 10px;
+    top: -19px;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 24px 14px 0 0;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .mainHead h2 {
+    font-size: 1em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 28px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 27px 19px 0 0;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .mainHead h2,
+  .mainHead .typed-effect {
+    display: table;
+  }
+
+  .mainHead h2 {
+    font-size: 1.5em;
+    padding-top: 5px;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 68px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 68px 19px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: 1.3em;
+  }
+
+  .mainHead h1 span {
+    display: table;
+  }
+
+  .mainHead h1 span.intro-2a:before {
+    border-width: 0px 0 31px 10px;
+    top: -27px;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 31px 14px 0 0;
+    top: 27px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mainHead {
+    left: 20px;
+  }
+
+  .mainHead h2 {
+    font-size: 1.3em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 60px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 60px 19px 0 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .mainHead h2 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h2:before {
+    border-width: 0 0 54px 16px;
+  }
+
+  .mainHead h2:after {
+    border-width: 54px 19px 0 0;
+  }
+
+  .mainHead h1 {
+    font-size: 1.1em;
+  }
+
+  .mainHead h1 span.intro-2a:before {
+    border-width: 0px 0 29px 10px;
+    top: -25px;
+  }
+
+  .mainHead h1 span.intro-2b:after {
+    border-width: 29px 14px 0 0;
+    top: 25px;
+  }
+}
 
 /* ... (external) ... */
 

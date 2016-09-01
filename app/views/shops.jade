@@ -8,8 +8,8 @@ block intro
     // INTRO (header and slider pic)
     .slider.slides-to-mobile
         .mainHead
-            h1 #{shops.slider.intro1}
-            h2 !{shops.slider.intro2}
+            h2 !{shops.slider.intro1}
+            h1 !{shops.slider.intro2}
         ul.slides
             li
                 img(src='#{localConfig.base_path}/images/microsites/microsites_bg_shop.jpg', title='#{shops.pic}', alt='#{shops.pic}')
@@ -22,20 +22,14 @@ block features
                 .col-md-4
                     .features-grid.centerImg.no-padd
                         i.icon.icon-ecommerce
-                        span.f-icon
-                        label
                         h3 !{shops.features.booking}
                 .col-md-4
                     .features-grid.centerImg.no-padd
                         i.icon.icon-push
-                        span.f-icon1
-                        label
                         h3 !{shops.features.notifications}
                 .col-md-4
                     .features-grid.centerImg.no-padd
                         i.icon.icon-loyalty
-                        span.f-icon2
-                        label
                         h3 !{shops.features.delivery}
                 .clearfix
     // MEET US (Team Pic and info data)

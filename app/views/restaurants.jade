@@ -8,8 +8,8 @@ block intro
     // INTRO (header and slider pic)
     .slider.slides-to-mobile
         .mainHead
-            h1 #{restaurants.slider.intro1}
-            h2 !{restaurants.slider.intro2}
+            h2 !{restaurants.slider.intro1}
+            h1 !{restaurants.slider.intro2}
         ul.slides
             li
                 img(src='#{localConfig.base_path}/images/microsites/microsites_bg_rest.jpg', title='#{restaurants.pic}', alt='#{restaurants.pic}')
@@ -22,20 +22,14 @@ block features
                 .col-md-4
                     .features-grid.centerImg
                         i.icon.icon-calendar
-                        span.f-icon
-                        label
                         h3 !{restaurants.features.booking}
                 .col-md-4
                     .features-grid.centerImg
                         i.icon.icon-push
-                        span.f-icon1
-                        label
                         h3 !{restaurants.features.notifications}
                 .col-md-4
                     .features-grid.centerImg
                         i.icon.icon-delivery
-                        span.f-icon2
-                        label
                         h3 !{restaurants.features.delivery}
                 .clearfix
     // MEET US (Team Pic and info data)
@@ -48,16 +42,16 @@ block features
                         li
                             p !{restaurants.meet_us.paragraph}
                         li
-                            i.fa.fa-check
+                            i.icon.icon-ok
                             span !{restaurants.meet_us.tip_one}
                         li
-                            i.fa.fa-check
+                            i.icon.icon-ok
                             span !{restaurants.meet_us.tip_two}
                         li
-                            i.fa.fa-check
+                            i.icon.icon-ok
                             span !{restaurants.meet_us.tip_three}
                         li
-                            i.fa.fa-check
+                            i.icon.icon-ok
                             span !{restaurants.meet_us.tip_four}
                     a.btn-call.btn-blue.animate-hover.hide-on-med-and-up(href='#{restaurants.meet_us.tel}', title='#{restaurants.meet_us.telephone}')
                         i.icon.icon-phone

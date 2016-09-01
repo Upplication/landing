@@ -1,0 +1,473 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: MICROSITES :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "../base/common.less";
+
+
+/* ... COMMON custom styles ... */
+
+/* for All Blue Buttons */
+.btn-blue {
+  background-color: @doit-btn;
+
+  &:hover {
+    background-color: @doit-btn-hover;
+  }
+}
+
+/* for All Green Buttons */
+.btn-green {
+  background-color: @accept-btn;
+
+  &:hover {
+    background-color: @accept-btn-hover;
+  }
+}
+
+/* for resert all paddings */
+.no-padd {
+  padding: 0 !important;
+}
+
+
+/* ... HEADER :: TOP MAIN ... */
+
+.top-header {
+  background-color: rgba(255,255,255,.99) !important;
+}
+
+a.no-events {
+  pointer-events: none;
+}
+
+// Media Queries :: Header Reserts
+@media only screen and (max-width: 1150px) {
+  .contact-info-right {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .top-header .container .top-nav .top-nav-list li.contact-info .contact-info-grids .contact-info-left .chat {
+    display: inherit;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  .contact-info {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  // to add mobile navigation
+  .top-header .container .top-nav .top-nav-list li.contact-info .contact-info-grids {
+    .contact-info-left {
+      background-color: @header-bg;
+      width: 100%;
+
+      .chat {
+        display: block;
+        width: 100%;
+        margin: 0;
+        max-width: initial;
+      }
+    }
+    .contact-info-right {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .top-header .container .top-nav .top-nav-list li.contact-info {
+    display: block;
+  }
+}
+
+
+/* ... MAIN TITLE & SUBTITLE (main text just over the top slider) ... */
+
+.mainHead {
+  h2 {
+    font-size: 2.3em;
+
+    &:before {
+      border-width: 0 0 40px 10px;
+    }
+    &:after {
+      border-width: 40px 28px 0 0;
+    }
+  }
+}
+
+// Media Queries Main Title
+@media (max-width: 1050px) {
+  .mainHead {
+    h2 {
+      font-size: 2em;
+
+      &:before {
+        border-width: 0 0 35px 10px;
+      }
+      &:after {
+        border-width: 35px 28px 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 901px) {
+  .mainHead {
+    h2 {
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+/* ... SLIDER :: TOP BG ... */
+
+.slider .slides li,
+.slider.slides-to-mobile {
+  pointer-events: none;
+  touch-action: none;
+}
+
+/* ... FEATURES (three claims under the main slider) :: Microsites Section ... */
+
+.features {
+  padding: 3em 0 2em 0;
+  border-bottom: none;
+
+  .features-grid {
+    padding: 0 20px;
+
+    i {
+      color: @light-lilac;
+      font-size: 8em;
+    }
+
+    h3 {
+      color: @dark-lilac;
+      font-size: 1.2em;
+      line-height: 30px;
+      margin-top: -30px;
+
+      strong {
+        color: @medium-lilac;
+        font-size: 1.2em;
+        font-weight: 700;
+        letter-spacing: 0.015em;
+        display: block;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+/* ... MEET US (bg pic & info data) ......... */
+
+.meet-us-paragraph {
+  .padd-25 {
+    padding-top: 25%;
+    padding-right: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.meet-us-details {
+  h4,
+  p,
+  a:not(.btn-call) {
+    line-height: 28px;
+  }
+
+  p,
+  a:not(.btn-call) {
+    color: @darkest-lilac;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  a:not(.btn-call):hover {
+    color: @main-green;
+  }
+
+  // only mobile BTN
+  a.btn-call {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    background-color: @doit-btn;
+    color: @white;
+    font-size: 1.2em;
+    letter-spacing: .02em;
+    font-weight: 400;
+    text-align: center;
+
+    i {
+      padding-right: 8px;
+    }
+  }
+
+  h4 {
+    color: @medium-lilac;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      font-size: 1.1em;
+      font-weight: 400;
+      padding-bottom: 10px;
+
+      i {
+        color: @main-green;
+        padding-right: 5px;
+      }
+
+      span {
+        color: @dark-lilac;
+      }
+    }
+  }
+}
+
+.meet-us-contact {
+  i {
+    padding-right: 8px;
+    color: @medium-lilac;
+  }
+
+  .meet-us-email {
+    i {
+      font-size: 22px;
+      position: relative;
+      top: 5px;
+    }
+  }
+}
+
+
+/* ... FOOTER (single one!) ......... */
+
+.footer-copyright {
+  min-height: 100px;
+  width: 100%;
+  display: block;
+  background-color: @darkest-lilac;
+  font-weight: 300;
+
+  .container {
+    padding-top: 10px;
+
+    span {
+      color: @main-green;
+      font-weight: 400;
+
+      // copyright icon
+      i {
+        padding-right: 5px;
+        position: relative;
+        top: 2px;
+      }
+    }
+
+    .icon-dot {
+      font-size: 8px;
+      padding: 0 10px;
+      position: relative;
+      bottom: 1px;
+      color: @white;
+    }
+
+    em,
+    a {
+      font-style: normal;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: .01em;
+    }
+
+    em {
+      color: @white;
+    }
+
+    a {
+      padding-left: 5px;
+      color: @main-green;
+      font-weight: 400;
+
+      &:hover, &:focus {
+        color: @accept-btn-hover;
+      }
+    }
+  }
+}
+
+
+/* ... MODALS (reserts) ......... */
+
+#all-contact.modal {
+  max-height: 215px !important;
+}
+
+.modal-content .contact-social {
+  display: none;
+}
+
+/* ... MEDIA QUERIES :: responsive design and mobile devices behaviour ......... */
+
+@media all and (max-width: 1575px) {
+  .meet-us-details {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .meet-us-details {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 1240px) {
+  .meet-us-paragraph .padd-25 {
+    padding-top: 10%;
+  }
+}
+
+@media all and (max-width: 1180px) {
+  .meet-us-details {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 1080px) {
+  .meet-us-paragraph .padd-25 {
+    padding-top: 0;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .features-grid h3 {
+    font-size: 1.2em !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .meet-us-paragraph .row {
+    padding-top: 5%;
+  }
+
+  .footer-copyright .container {
+    text-align: center;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 991px) {
+  .meet-us-paragraph {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .features-grid {
+    margin-bottom: 0 !important;
+
+    .col-md-4 {
+      position: relative;
+      bottom: 30px;
+    }
+
+    h3 {
+      margin: 0 !important;
+      padding: 0;
+      position: relative;
+      bottom: 25px;
+      font-size: 1.3em !important;
+    }
+  }
+}
+
+@media all and (max-width: 640px) {
+  .features-grid h3 {
+    font-size: 1.2em !important;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .meet-us-paragraph a {
+    &:not(.btn-call) {
+      display: block;
+      margin-top: 30px;
+    }
+    &.meet-us-email {
+      text-align: center;
+    }
+  }
+}
+
+@media all and (max-width: 465px) {
+  .mainHead h1 {
+    line-height: 1.2em;
+  }
+
+  .footer-copyright {
+    i:not(.fa-copyright) {
+      display: none;
+    }
+    em {
+      display: block;
+    }
+  }
+}
+
+@media all and (max-width: 425px) {
+  .features-grid {
+    h3 {
+      line-height: 28px;
+    }
+  }
+
+  .meet-us-paragraph .padd-25 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .features-grid {
+    h3 {
+      font-size: 1.1em !important;
+      line-height: 25px;
+
+      strong {
+        font-size: 1.2em !important;
+      }
+    }
+  }
+
+  .meet-us-paragraph {
+    h4 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 1em;
+    }
+  }
+}
