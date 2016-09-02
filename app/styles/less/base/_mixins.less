@@ -56,6 +56,33 @@
   transition: all 300ms;
 }
 
+// Infinite Spin Loop
+
+.anim-spin {
+  -webkit-animation: anim-spin 1s infinite;
+  -moz-animation: anim-spin 1s infinite;
+  -ms-animation: anim-spin 1s infinite;
+  -o-animation: anim-spin 1s infinite;
+  animation: anim-spin 1s infinite;
+}
+
+@keyframes anim-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes anim-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
 /* ... ROTATES ... */
 
 .rotate-0 {
@@ -111,4 +138,13 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+// ICONS to restart default values
+// mixin
+.icon-default {
+  display: inline-block;
+  font-size: 1rem;
+  height: 0;
+  line-height: 0;
 }

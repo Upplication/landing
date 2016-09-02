@@ -56,8 +56,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='google-site-verification', content='#{localConfig.webmaster_token}')
 
         link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/upplication-icons.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
@@ -135,7 +134,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 each language in langs.codes
                                     if lang == language.language_country
                                         a.lang-link(href="#", data-activates='dropdown-lang')
-                                            i.fa.fa-globe
+                                            i.icon.icon-globe
                                             | !{language.language_short_code}
                                 ul#dropdown-lang.dropdown-content.notshow
                                     each lang in langs.codes
@@ -147,7 +146,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a.modal-trigger(href='#free-trial', title='') #{header.free_trial}
                             li.enter-btn
                                 a.hide-tab(href="#{external.dashboard.url}")
-                                    i.fa.fa-lock
+                                    i.icon.icon-key
                                     | #{header.enter}
                             li.contact-info
                                 .contact-info-grids
@@ -179,7 +178,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         // CLIENTS, TRIAL, CONTACT and FOOTER
         include ../../includes/footer.jade
         #cookies
-            i#cookies-accept.fa.fa-times.close
+            i#cookies-accept.icon.icon-cross
             p !{footer.cookies}
         // vendor js
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
@@ -276,7 +275,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     $(".top-header").removeClass("thiny-top-header");
                 }
             });
-
         // end scripts
         block scripts
 

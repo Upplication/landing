@@ -41,48 +41,17 @@
     min-height: 75px;
 
     i {
+      margin-right: 0;
       background-color: transparent;
-    }
-
-    span {
-      &.fa-stack {
-        position: relative;
-        display: inline-block;
-        width: 3em;
-        height: 3em;
-        line-height: 2em;
-        vertical-align: middle;
-
-        i {
-          &.fa-money {
-            color: @alert-info-icon;
-            font-size: 30px;
-            padding-left: 24px;
-          }
-          &.fa-ban {
-            color: #a1d2eb;
-            opacity: .8;
-            font-size: 70px;
-            position: relative;
-            bottom: 12px;
-            left: -10px;
-          }
-        }
-      }
-
-      &.monthless {
-        font-size: 18px;
-        font-weight: 500;
-        padding-left: 15px;
-        vertical-align: sub;
-        vertical-align: -webkit-baseline-middle;
-      }
-    }
-  }
-
-  span {
-    i {
+      font-size: 1.8em;
       color: @alert-info-icon;
+      top: 13px;
+    }
+
+    .monthless {
+      font-size: 18px;
+      font-weight: 500;
+      vertical-align: -webkit-baseline-middle;
     }
   }
 }

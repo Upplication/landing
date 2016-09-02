@@ -55,6 +55,14 @@ body a {
   transform: skew(0deg, 3deg);
 }
 
+/* ... to Fix Upplication Icons position ... */
+
+i.icon {
+  position: relative;
+  top: 2px;
+  font-weight: 100;
+}
+
 /* ... to CENTER Blocks ... */
 
 .centered {
@@ -322,7 +330,7 @@ button.btn-upp:hover {
         }
       }
     }
-    .about-grid2 {
+    &.about-grid2 {
       background: @bg-lilac-light;
 
       .about-grid-info {
@@ -602,6 +610,10 @@ button.btn-upp:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .team-header {
+    margin-top: 6em;
+  }
+
   .mainHead {
     top: 90px;
     width: 89%;

@@ -31,16 +31,6 @@
         font-size: 25px;
         padding: 10px;
         color: @main-green;
-
-        &.fa-tablet {
-          padding-left: 15px;
-          padding-right: 13px;
-        }
-
-        &.fa-graduation-cap {
-          font-size: 22px;
-          padding-right: 5px;
-        }
       }
     }
   }
@@ -55,9 +45,8 @@
 
       i {
         font-size: 10px;
-        position: relative;
-        bottom: 7px;
         padding-right: 5px;
+        top: -3px;
       }
     }
   }
@@ -209,9 +198,29 @@
 }
 
 
-
-
 #mensual,
 #anual {
   margin-top: 2em;
+}
+
+
+/* ... Media Queries :: Pricing Plans view ... */
+@media only screen and (max-width: 780px) {
+  #anual {
+    .col-xs-12:not(.mobilePrices) {
+      text-align: center;
+
+      .alert {
+        background-color: transparent;
+
+        .monthless {
+          padding: 15px;
+
+          i {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
