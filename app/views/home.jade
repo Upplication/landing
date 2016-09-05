@@ -32,7 +32,7 @@ block content
                 img(src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
         .dippah.skew-right
     // FORM "TRY FREE 15 DAYS" (DESKTOP - LAPTOP)
-    .col-xs-12.col-md-5.right.register-form.animated.fadeIn
+    .register-form.right.animated.fadeIn
         .row.register-top
             form(name="register", action="/register", method="post").col.s12.register-form-block
                 input(type="hidden", name="customerType", value="UPPLICATION")
@@ -55,22 +55,22 @@ block content
                         span #{form.call_to_action}
                     p #{modal.footer.free}
     // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
-    .col-xs-10.col-xs-offset-1.register-form-mobile.animated.fadeIn
-        a.price-btn.modal-trigger(href='#free-trial', title='#{form.call_to_action}')
+    .row.register-form-mobile.animated.fadeIn
+        a.col.s10.offset-s1.price-btn.btn-green.modal-trigger(href='#free-trial', title='#{header.free_trial}')
             span #{form.call_to_action}
     // WHY (Intro Tips)
     .features.features-upp
         .container
-            .features-grids.text-center.animated.zoomIn
-                .col-md-4
+            .row.features-grids.text-center.animated.zoomIn
+                .col.s12.m4
                     .features-grid.centerImg
                         img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.svg', alt='#{home.why.img.grow}', title='#{home.why.img.grow}')
                         h3 !{home.why.grow}
-                .col-md-4
+                .col.s12.m4
                     .features-grid.centerImg
                         img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.svg', alt='#{home.why.img.loyal}', title='#{home.why.img.loyal}')
                         h3 !{home.why.loyal}
-                .col-md-4
+                .col.s12.m4
                     .features-grid.centerImg
                         img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.svg', alt='#{home.why.img.others}', title='#{home.why.img.others}')
                         h3 !{home.why.others}
@@ -225,11 +225,11 @@ block content
                 .plans-head.text-center
                     h2.headTitles #{home.how.how_main}
             .row
-                .col-lg-12
+                .col.l12
                     ul.timeline
                         li.step1
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/keyboard.png', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/sign-up.svg', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
                             .timeline-panel
                                 .timeline-heading
                                     h4.subheading
@@ -241,7 +241,7 @@ block content
                                         | &nbsp;#{home.how.how_one.reg_step3}
                         li.timeline-inverted.step2
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/register.png', alt='#{home.how.how_two.app_step1}', title='#{home.how.how_two.app_step1}')
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/create-your-app.svg', alt='#{home.how.how_two.app_step1}', title='#{home.how.how_two.app_step1}')
                             .timeline-panel
                                 .timeline-heading
                                     h4.subheading
@@ -253,7 +253,7 @@ block content
                                     p.text-muted !{home.how.how_two.app_step4}
                         li.step3
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/light.png', alt='#{home.how.how_three.tutor_step1}', title='#{home.how.how_three.tutor_step1}')
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/personal-tutor.svg', alt='#{home.how.how_three.tutor_step1}', title='#{home.how.how_three.tutor_step1}')
                             .timeline-panel
                                 .timeline-heading
                                     h4.subheading
@@ -264,7 +264,7 @@ block content
                                     p.text-muted !{home.how.how_three.tutor_step3}
                         li.timeline-inverted.step4
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/bullhorn.png', alt='#{home.how.how_four.publish_step1}', title='#{home.how.how_four.publish_step1}')
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/we-publish-your-app.png', alt='#{home.how.how_four.publish_step1}', title='#{home.how.how_four.publish_step1}')
                             .timeline-panel
                                 .timeline-heading
                                     h4.subheading
