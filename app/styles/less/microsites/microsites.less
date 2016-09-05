@@ -176,6 +176,10 @@ a.no-events {
 
 /* ... MEET US (bg pic & info data) ......... */
 
+.meet-us {
+  margin-bottom: 0;
+}
+
 .meet-us-paragraph {
   .padd-25 {
     padding-top: 25%;
@@ -205,6 +209,7 @@ a.no-events {
 
   // only mobile BTN
   a.btn-call {
+    margin-top: 20px;
     padding: 10px;
     width: 100%;
     display: block;
@@ -384,11 +389,24 @@ a.no-events {
   }
 }
 
+@media all and (max-width: 980px) {
+  .meet-us-paragraph.right {
+    width: 90% !important;
+    margin: 0 5%;
+  }
+  .meet-us-title.left {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 @media all and (max-width: 768px) {
   .features-grid {
     margin-bottom: 0 !important;
 
-    .col-md-4 {
+    .col.s12.m4 {
+      width: 100%;
       position: relative;
       bottom: 30px;
     }
@@ -400,6 +418,19 @@ a.no-events {
       bottom: 25px;
       font-size: 1.3em !important;
     }
+  }
+
+  .features-upp {
+    .features-grids {
+      .col.s12.m4 {
+        width: 100%;
+      }
+    }
+  }
+
+  // to hide sketch bg over slider imag
+  .dippah {
+    display: none;
   }
 }
 

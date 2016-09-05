@@ -102,7 +102,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         // INTRO (header and slider pic)
         block intro
         // FORM "TRY FREE 15 DAYS" (DESKTOP - LAPTOP)
-        .col-xs-12.col-md-5.right.register-form.animated.fadeIn
+        .register-form.right.animated.fadeIn
             .row.register-top
                 form(name="register", action="/register", method="post").col.s12.register-form-block
                     input(type="hidden", name="customerType", value="UPPLICATION")
@@ -124,8 +124,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                             span #{form.call_to_action}
         // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
-        .col-xs-10.col-xs-offset-1.register-form-mobile.animated.fadeIn
-            a.price-btn.btn-green.modal-trigger(href='#free-trial', title='#{header.free_trial}')
+        .row.register-form-mobile.animated.fadeIn
+            a.col.s10.offset-s1.price-btn.btn-green.modal-trigger(href='#free-trial', title='#{header.free_trial}')
                 span #{form.call_to_action}
         // FEATURES (Intro Tips)
         block features
