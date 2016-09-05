@@ -15,9 +15,7 @@ block css
 block content
     // MEET OUR TEAM
     .col.s12.center-align.team-header.padBot50.border-bottom
-        h4.headTitles.text-center
-            span #{about_us.team.subtitle}
-            | #{about_us.team.title}
+        h4.headTitles.text-center !{about_us.team.title}
         #team.about
             .container
                 .row.bosses-area.animated.fadeInDown
@@ -181,19 +179,6 @@ block content
                             | #{about_us.team.support.support_2.surname}
                         p.team-work #{about_us.team.support.support_2.position}
                     .col.s12.m3.center-align
-                        a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.communication.linkedin}', title='#{about_us.team.communication.linkedin}', target='_blank')
-                            i.icon.icon-linkedin
-                        a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.communication.twitter}', title='#{about_us.team.communication.twitter}', target='_blank')
-                            i.icon.icon-twitter
-                        a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.communication.sentence}')
-                            i.icon.icon-megaphone
-                        .upp-team-img.team-sergio.circle.animate-hover
-                            img.hidden(src='#{localConfig.base_path}/images/about/sergio_communication_2.jpg', title='#{about_us.team.communication.position}', alt='#{about_us.team.communication.position}')
-                        h5
-                            strong #{about_us.team.communication.name}
-                            | #{about_us.team.communication.surname}
-                        p.team-work #{about_us.team.communication.position}
-                    .col.s12.m3.center-align
                         a.team-job.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
                             i.icon.icon-plus
                         .upp-team-img.team-newfella.circle.animate-hover
@@ -203,15 +188,12 @@ block content
     // DPTOS. INFO & PICS
     #about.about
         .col.s12.center-align.team-header
-            h4.headTitles.text-center
-                span #{about_us.departments.subtitle}
-                | #{about_us.departments.title}
+            h4.headTitles.text-center !{about_us.departments.title}
         .about-grids.row
             .col.m4.about-grid.about-grid1.animated.fadeInLeft
                 .about-grid-info
                     h4 #{about_us.departments.support.title}
-                    p
-                        | #{about_us.departments.support.text}
+                    p #{about_us.departments.support.text}
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_support.jpg', title='#{about_us.departments.support.img}', alt='#{about_us.departments.support.img}')
             .col.m4.about-grid.about-grid2.animated.fadeInUp
@@ -219,13 +201,11 @@ block content
                     img(src='#{localConfig.base_path}/images/about/upp_team_sales.jpg', title='#{about_us.departments.marketing.img}', alt='#{about_us.departments.marketing.img}')
                 .about-grid-info
                     h4 #{about_us.departments.marketing.title}
-                    p
-                        | #{about_us.departments.marketing.text}
+                    p #{about_us.departments.marketing.text}
             .col.m4.about-grid.about-grid1.animated.fadeInRight
                 .about-grid-info
                     h4 #{about_us.departments.develop.title}
-                    p
-                        | #{about_us.departments.develop.text}
+                    p #{about_us.departments.develop.text}
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_dev.jpg', title='#{about_us.departments.develop.img}', alt='#{about_us.departments.develop.img}')
             .clearfix
