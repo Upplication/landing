@@ -410,6 +410,34 @@
         span {
           font-weight: 500;
         }
+
+        b {
+          font-weight: 600;
+        }
+        
+        a {
+          i {
+            top: 1px;
+            font-size: 14px;
+            padding-left: 5px;
+            -webkit-transition: padding 0.3s;
+            -moz-transition: padding 0.3s;
+            -ms-transition: padding 0.3s;
+            -o-transition: padding 0.3s;
+            transition: padding 0.3s;
+
+            &:before {
+              .rotate-180;
+            }
+          }
+
+          &:hover {
+            color: @black;
+            i {
+              padding-left: 20px;
+            }
+          }
+        }
       }
     }
   }

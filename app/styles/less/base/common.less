@@ -81,6 +81,16 @@ i.icon {
   .centered;
 }
 
+/* ... to add BOX SHADOW ... */
+
+.box-shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+
 
 /* ... TEXT SELECTED COLOR ... */
 
@@ -92,6 +102,13 @@ i.icon {
 ::-moz-selection {
   background: @main-green;
   color: @white;
+}
+
+/* ... to add Shadow Hover Effect in images ... */
+
+img.materialboxed:hover {
+  .box-shadow;
+  .anim-all-250;
 }
 
 /* ... MAIN HEADERS (SECTIONS) ... */
@@ -184,6 +201,18 @@ button.btn-upp:hover {
   color: @white;
 }
 
+/* ... to add Block styles... */
+
+.block-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+
 /* ... FONT WEIGHTS ... */
 
 .strong500 {
@@ -273,7 +302,7 @@ button.btn-upp:hover {
  ****************************************************************
  */
 
-// Used in "Home" (index) & "About Us" (Team) pages
+// Used in "Home" (index), "About Us" (Team) & "Showcases" (Testimonials) pages
 .about-grids {
   margin-top: 1.5em;
   margin-right: 0;
@@ -312,6 +341,35 @@ button.btn-upp:hover {
         line-height: 25px;
         font-weight: 400;
         text-align: justify;
+
+        &.grid-link {
+          margin-bottom: 0;
+
+          a {
+            font-weight: 400;
+
+            i {
+              top: 1px;
+              font-size: 14px;
+              padding-left: 5px;
+              -webkit-transition: padding 0.3s;
+              -moz-transition: padding 0.3s;
+              -ms-transition: padding 0.3s;
+              -o-transition: padding 0.3s;
+              transition: padding 0.3s;
+
+              &:before {
+                .rotate-180;
+              }
+            }
+
+            &:hover {
+              i {
+                padding-left: 20px;
+              }
+            }
+          }
+        }
       }
     }
 
@@ -328,7 +386,8 @@ button.btn-upp:hover {
 
       .about-grid-info {
         p,
-        h4 {
+        h4,
+        a {
           color: @white;
         }
         h4 {
@@ -341,7 +400,8 @@ button.btn-upp:hover {
 
       .about-grid-info {
         p,
-        h4 {
+        h4,
+        a {
           color: @darkest-lilac;
         }
         h4 {
@@ -955,6 +1015,7 @@ button.btn-upp:hover {
 @import "../about/about.less";
 @import "../prices/prices.less";
 @import "../error/error.less";
+@import "../showcase/showcase.less";
 
 
 

@@ -81,10 +81,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         // endbuild
 
         meta(name='viewport', content='width=device-width, initial-scale=1')
-        // webfonts
-        link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
-        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
-        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
 
     body
         //- Facebook "share" button plugin
@@ -207,14 +203,12 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 });
 
                 $('.scrollspy').scrollSpy();
-                //
 
-                $('.modal-trigger').leanModal({
-                    opacity: .7
-                });
+                $('.modal-trigger').leanModal({opacity: .7});
 
                 $(".button-collapse").sideNav();
 
+                $('.materialboxed').materialbox();
 
                 $('.social-share').click(function () {
                     $(".social-nav").toggleClass("social-show");

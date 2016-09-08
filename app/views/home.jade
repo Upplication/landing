@@ -103,7 +103,7 @@ block content
                 #host.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}', title='#{home.samples.alt_tag.img_iphone}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-hostelry.png', alt='#{home.samples.alt_tag.img_iphone}', title='#{home.samples.alt_tag.img_iphone}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.rest.rest_intro}
                             ul.tabs-content-list(type='circle')
@@ -129,7 +129,7 @@ block content
                 #tiendas.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='#{home.samples.alt_tag.img_nexus}', title='#{home.samples.alt_tag.img_nexus}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-shop.png', alt='#{home.samples.alt_tag.img_nexus}', title='#{home.samples.alt_tag.img_nexus}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.shop.shop_intro}
                                 | .
@@ -156,7 +156,7 @@ block content
                 #servprof.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='#{home.samples.alt_tag.img_galaxy}', title='#{home.samples.alt_tag.img_galaxy}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-porfessional-services.png', alt='#{home.samples.alt_tag.img_galaxy}', title='#{home.samples.alt_tag.img_galaxy}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.services.serv_intro}
                             ul.tabs-content-list(type='circle')
@@ -182,7 +182,7 @@ block content
                 #personal.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', alt='#{home.samples.alt_tag.img_xperia}', title='#{home.samples.alt_tag.img_xperia}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-customize.png', alt='#{home.samples.alt_tag.img_xperia}', title='#{home.samples.alt_tag.img_xperia}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.custom.cust_intro}
                             ul.tabs-content-list(type='circle')
@@ -237,31 +237,33 @@ block content
                                         | !{home.how.how_one.reg_step1}
                                 .timeline-body
                                     p.text-muted
-                                        span #{home.how.how_one.reg_step2}
-                                        | &nbsp;#{home.how.how_one.reg_step3}
-                        li.timeline-inverted.step2
-                            .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/create-your-app.svg', alt='#{home.how.how_two.app_step1}', title='#{home.how.how_two.app_step1}')
-                            .timeline-panel
-                                .timeline-heading
-                                    h4.subheading
-                                        span 2
-                                        | !{home.how.how_two.app_step1}
-                                .timeline-body
-                                    p.text-muted !{home.how.how_two.app_step2}
-                                    p.text-muted !{home.how.how_two.app_step3}
-                                    p.text-muted !{home.how.how_two.app_step4}
-                        li.step3
+                                        span !{home.how.how_one.reg_step2}
+                                        | &nbsp; !{home.how.how_one.reg_step3}
+                                    p.text-muted !{home.how.how_one.reg_step4}
+                                    p.text-muted
+                                        a.modal-trigger(href='#free-trial', alt='#{home.how.how_one.reg_title}', title='#{home.how.how_one.reg_title}') #{home.how.how_one.reg_step5}
+                                            i.icon.icon-left
+                        li.timeline-inverted.step3
                             .timeline-image
                                 img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/personal-tutor.svg', alt='#{home.how.how_three.tutor_step1}', title='#{home.how.how_three.tutor_step1}')
                             .timeline-panel
                                 .timeline-heading
                                     h4.subheading
-                                        span 3
+                                        span 2
                                         | !{home.how.how_three.tutor_step1}
                                 .timeline-body
                                     p.text-muted !{home.how.how_three.tutor_step2}
-                                    p.text-muted !{home.how.how_three.tutor_step3}
+                        li.step2
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/create-your-app.svg', alt='#{home.how.how_two.app_step1}', title='#{home.how.how_two.app_step1}')
+                            .timeline-panel
+                                .timeline-heading
+                                    h4.subheading
+                                        span 3
+                                        | !{home.how.how_two.app_step1}
+                                .timeline-body
+                                    p.text-muted !{home.how.how_two.app_step2}
+                                    p.text-muted !{home.how.how_two.app_step3}
                         li.timeline-inverted.step4
                             .timeline-image
                                 img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/we-publish-your-app.png', alt='#{home.how.how_four.publish_step1}', title='#{home.how.how_four.publish_step1}')
@@ -273,6 +275,9 @@ block content
                                 .timeline-body
                                     p.text-muted !{home.how.how_four.publish_step2}
                                     p.text-muted !{home.how.how_four.publish_step3}
+                                    p.text-muted
+                                        a.modal-trigger(href='#free-trial', alt='#{home.how.how_one.reg_title}', title='#{home.how.how_one.reg_title}') #{home.how.how_one.reg_step5}
+                                            i.icon.icon-left
     // SLIDER 2
     .slider.middle-page-slider
         .app-ready.center
@@ -288,7 +293,7 @@ block content
                 img(src='#{localConfig.base_path}/images/home/bg/bg_04.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
                 img(src='#{localConfig.base_path}/images/home/bg/bg_05.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
-    // CLIENTS :: new trestimonial area
+    // CLIENTS :: new testimonial area
     #about.about
         .col.s12.center-align.team-header
             h4.headTitles !{home.testimonials.title}
@@ -296,8 +301,10 @@ block content
             .col.m4.about-grid.about-grid1.animated.fadeInLeft
                 .about-grid-info
                     h4 !{home.testimonials.client1.name}
-                    p
-                        | #{home.testimonials.client1.cite}
+                    p #{home.testimonials.client1.quote}
+                    p.grid-link
+                        a(href="#{successful_showcase.samples.sample1_url}", alt='#{successful_showcase.samples.sample1}', title="#{successful_showcase.samples.sample1}") #{successful_showcase.samples.sample1}
+                            i.icon.icon-left
                 .about-grid-pic
                     .video-container
                         iframe(width='560' height='315', src='https://www.youtube.com/embed/LluyPqRVGC4', frameborder='0', allowfullscreen='')
@@ -307,13 +314,17 @@ block content
                         iframe(width='560' height='315', src='https://www.youtube.com/embed/pbWm6NaZfbY', frameborder='0', allowfullscreen='')
                 .about-grid-info
                     h4 !{home.testimonials.client2.name}
-                    p
-                        | #{home.testimonials.client2.cite}
+                    p #{home.testimonials.client2.quote}
+                    p.grid-link
+                        a(href="#{successful_showcase.samples.sample2_url}", alt='#{successful_showcase.samples.sample2}', title="#{successful_showcase.samples.sample2}") #{successful_showcase.samples.sample2}
+                            i.icon.icon-left
             .col.m4.about-grid.about-grid1.animated.fadeInRight
                 .about-grid-info
                     h4 !{home.testimonials.client3.name}
-                    p
-                        | #{home.testimonials.client3.cite}
+                    p #{home.testimonials.client3.quote}
+                    p.grid-link
+                        a(href="#{successful_showcase.samples.sample3_url}", alt='#{successful_showcase.samples.sample3}', title="#{successful_showcase.samples.sample3}") #{successful_showcase.samples.sample3}
+                            i.icon.icon-left
                 .about-grid-pic
                     .video-container
                         iframe(width='560' height='315', src='https://www.youtube.com/embed/gmf326nQI9I', frameborder='0', allowfullscreen='')
