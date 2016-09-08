@@ -7,14 +7,15 @@ block vars
     - var cssClass = 'company'
 
 block css
-    // build:css(app) /styles/company.min.css
-    link(rel='stylesheet', href='/styles/css/company/company.css')
+
+    // build:less(app) /styles/less/test.css
+    link(rel='stylesheet', href='/styles/less/company/company.less')
     // endbuild
 
 block content
 
     // COMPANY INTRO
-    section#intro.border-bottom
+    section#intro
         .container.marBot50
             .row
                 .plans-head.text-center
@@ -24,7 +25,7 @@ block content
                     p !{company.intro.description}
 
     // COMPANY BIO TIMELINE
-    section#company.scrollspy
+    section#company.timeline-section.scrollspy
         .container
             .row
                 .plans-head.text-center
