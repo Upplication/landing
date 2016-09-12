@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = offer._meta_title
@@ -20,28 +20,28 @@ block content
         .container.offer-jobs
             h4.headTitles.text-center.padTop50 #{external.hiring_developer.anchor}
 
-            img.full(src="#{localConfig.base_path}/images/offer/office_dev.jpg", title="#{external.hiring}", alt="#{external.hiring}")
+            img.full(src="#{localConfig.base_path}/images/offer/office_dev.jpg", data-aos='fade-down', title="#{external.hiring}", alt="#{external.hiring}")
 
-            .intro.offer-jobs-text
+            .intro.offer-jobs-text(data-aos='fade-right')
                 each intro, i in offer.introduction
                     p #{intro}
 
-            .technologies.offer-jobs-text
+            .technologies.offer-jobs-text(data-aos='fade-left')
                 p #{offer.technologies.intro}
                 ul
                     each tech, i in offer.technologies.list
                         li #{tech}
                 p #{offer.technologies.note}
 
-            .weoffer.offer-jobs-text
+            .weoffer.offer-jobs-text(data-aos='fade-right')
                 p #{offer.weoffer.intro}
                 ul
                     each weoffer, i in offer.weoffer.list
                         li #{weoffer}
 
-            .wewantyou.offer-jobs-text
+            .wewantyou.offer-jobs-text(data-aos='fade-left')
                 p !{offer.wewanttomeetyou}
                 
-            .cheers.offer-jobs-text
+            .cheers.offer-jobs-text(data-aos='fade-up')
                 each cheer, i in offer.cheers
                     p #{cheer}

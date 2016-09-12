@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 block vars
    - var title = internal_server_error._meta_title
    - var description = internal_server_error._meta_description
@@ -17,7 +17,7 @@ block content
          h4(data-text='500') #{internal_server_error.title}
          p #{internal_server_error.subtitle1}
             span &nbsp#{internal_server_error.subtitle2}
-      .row.not-found-suggestions
+      .row.not-found-suggestions(data-aos='fade-up')
          .col.m10.offset-m1.s12
             p.strong500.padTop30.padBot30 #{internal_server_error.pre_advice}
             p.strong500.padTop30.padBot30 !{internal_server_error.suggestion}

@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
    - var title = prices._meta_title
@@ -31,7 +31,7 @@ block content
                 .plans-head.text-center
                     h4.headTitles.noMargBot #{prices.rates.rate_intro}
                     p #{prices.rates.rate_sub}
-                    .col-xs-12.col-sm-offset-3.col-sm-8.prices-common-features
+                    .col-xs-12.col-sm-offset-3.col-sm-8.prices-common-features(data-aos='zoom-in')
                         ul
                             li
                                 i.icon.icon-comment-empty
@@ -55,7 +55,7 @@ block content
                                 a(href='#anual', title='#{prices.rates.yearly}') !{prices.rates.yearly}
                     // Plan Mensual
                     #mensual.col.s12
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-right')
                             .pricing-table-grid
                                 h3 #{prices.rates.basic}
                                 ul
@@ -83,7 +83,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-left')
                             img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
@@ -112,7 +112,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.four_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-right')
                             .pricing-table-grid
                                 h3 #{prices.rates.premiun}
                                 ul
@@ -140,7 +140,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.all_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-left')
                             .pricing-table-grid
                                 h3 #{prices.rates.unlimited}
                                 ul
@@ -171,7 +171,7 @@ block content
                         .clearfix
                     //- Plan Anual
                     #anual.col.s12
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-right')
                             .pricing-table-grid
                                 h3 #{prices.rates.basic}
                                 ul
@@ -199,7 +199,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-left')
                             img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
@@ -228,7 +228,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.four_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-right')
                             .pricing-table-grid
                                 h3 #{prices.rates.premiun}
                                 ul
@@ -256,7 +256,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.all_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices
+                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-left')
                             .pricing-table-grid
                                 h3 #{prices.rates.unlimited}
                                 ul

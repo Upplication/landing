@@ -1,4 +1,4 @@
-extends microsites/base.jade
+extend microsites/base.jade
 block vars
     - var title = terms_micro._meta_title
     - var description = terms_micro._meta_description
@@ -17,22 +17,22 @@ block features
                     .terms-grid.about-left-grids
                         h4.headTitles.head-terms !{terms.legal.title}
                         each paragraph in terms.legal.paragraphs
-                            p !{paragraph}
+                            p(data-aos='fade-up') !{paragraph}
                         h4#privacidad.headTitles.head-terms.scrollspy !{terms.privacy.title}
                         each paragraph in terms.privacy.paragraphs
-                            p !{paragraph}
+                            p(data-aos='fade-up') !{paragraph}
                         h4#uso.headTitles.head-terms.scrollspy !{terms.general.title}
                         each subsection in terms.general.subsections
                             h5 !{subsection.title}
                             each paragraph in subsection.paragraphs
-                                p !{paragraph}
+                                p(data-aos='fade-up') !{paragraph}
                         h4#cookies-policy.headTitles.head-terms.scrollspy !{terms.cookies.title}
                         each subsections in terms.cookies.subsections
                             h5 !{subsections.title}
                             each paragraph in subsections.paragraphs
-                                p !{paragraph}
+                                p(data-aos='fade-up') !{paragraph}
                         h4#dashboard-policy.headTitles.head-terms.scrollspy !{terms.dashboard.title}
                             each subsections in terms.dashboard.subsections
                                 h5 !{subsections.title}
                                 each paragraph in subsections.paragraphs
-                                    p !{paragraph}
+                                    p(data-aos='fade-up') !{paragraph}

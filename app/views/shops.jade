@@ -1,4 +1,4 @@
-extends microsites/base.jade
+extend microsites/base.jade
 block vars
     - var title = shops._meta_title
     - var description = shops._meta_description
@@ -18,7 +18,7 @@ block features
     // FEATURES (Intro Tips)
     .features.features-upp
         .container
-            .features-grids.row.text-center.animated.zoomIn
+            .features-grids.row.text-center(data-aos='zoom-in')
                 .col.s12.m4
                     .features-grid.centerImg.no-padd
                         i.icon.icon-ecommerce
@@ -34,7 +34,7 @@ block features
                 .clearfix
     // MEET US (Team Pic and info data)
     .meet-us.row
-        .col.s11.m4.meet-us-paragraph.right
+        .col.s11.m4.meet-us-paragraph.right(data-aos='zoom-in-left')
             .row.padd-25
                 .col.m11.meet-us-details
                     h4 !{shops.meet_us.title}
@@ -49,7 +49,7 @@ block features
                         a.meet-us-email(href='#{shops.meet_us.mailto}', title='#{shops.meet_us.email}')
                             i.icon.icon-mail
                             span !{shops.meet_us.email}
-        .col.s12.m8.meet-us-title.left
+        .col.s12.m8.meet-us-title.left(data-aos='zoom-in-up')
             img.responsive-img(src='#{localConfig.base_path}/images/microsites/marketing_team.jpg', title='#{shops.marketing_team}', alt='#{shops.marketing_team}')
         .clearfix
 block scripts

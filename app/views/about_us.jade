@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = about_us._meta_title
@@ -18,8 +18,8 @@ block content
         h4.headTitles.text-center !{about_us.team.title}
         #team.about
             .container
-                .row.bosses-area.animated.fadeInDown
-                    .col.s12.m6.center-align
+                .row.bosses-area
+                    .col.s12.m6.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.ceo.linkedin}', title='#{about_us.team.ceo.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.ceo.twitter}', title='#{about_us.team.ceo.twitter}', target='_blank')
@@ -32,7 +32,7 @@ block content
                             strong #{about_us.team.ceo.name}
                             | #{about_us.team.ceo.surname}
                         p.team-work #{about_us.team.ceo.position}
-                    .col.s12.m6.center-align
+                    .col.s12.m6.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.cmo.linkedin}', title='#{about_us.team.cmo.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cmo.twitter}', title='#{about_us.team.cmo.twitter}', target='_blank')
@@ -45,8 +45,8 @@ block content
                             strong #{about_us.team.cmo.name}
                             | #{about_us.team.cmo.surname}
                         p.team-work #{about_us.team.cmo.position}
-                .row.crew-area.animated.fadeIn
-                    .col.s12.m3.center-align
+                .row.crew-area
+                    .col.s12.m3.center-align(data-aos='zoom-in-right')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.cto.linkedin}', title='#{about_us.team.cto.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cto.twitter}', title='#{about_us.team.cto.twitter}', target='_blank')
@@ -59,7 +59,7 @@ block content
                             strong #{about_us.team.cto.name}
                             | #{about_us.team.cto.surname}
                         p.team-work #{about_us.team.cto.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.support.support_1.linkedin}', title='#{about_us.team.support.support_1.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.support.support_1.twitter}', title='#{about_us.team.support.support_1.twitter}', target='_blank')
@@ -72,7 +72,7 @@ block content
                             strong #{about_us.team.support.support_1.name}
                             | #{about_us.team.support.support_1.surname}
                         p.team-work #{about_us.team.support.support_1.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.backend_1.linkedin}', title='#{about_us.team.dev.backend_1.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.backend_1.twitter}', title='#{about_us.team.dev.backend_1.twitter}', target='_blank')
@@ -85,7 +85,7 @@ block content
                             strong #{about_us.team.dev.backend_1.name}
                             | #{about_us.team.dev.backend_1.surname}
                         p.team-work #{about_us.team.dev.backend_1.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-left')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.admin.linkedin}', title='#{about_us.team.admin.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.admin.twitter}', title='#{about_us.team.admin.twitter}', target='_blank')
@@ -99,7 +99,7 @@ block content
                             | #{about_us.team.admin.surname}
                         p.team-work #{about_us.team.admin.position}
                     .clearfix
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-right')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.community.linkedin}', title='#{about_us.team.community.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.community.twitter}', title='#{about_us.team.community.twitter}', target='_blank')
@@ -112,7 +112,7 @@ block content
                             strong #{about_us.team.community.name}
                             | #{about_us.team.community.surname}
                         p.team-work #{about_us.team.community.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.design.linkedin}', title='#{about_us.team.design.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.design.twitter}', title='#{about_us.team.design.twitter}', target='_blank')
@@ -125,7 +125,7 @@ block content
                             strong #{about_us.team.design.name}
                             | #{about_us.team.design.surname}
                         p.team-work #{about_us.team.design.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.backend_2.linkedin}', title='#{about_us.team.dev.backend_2.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.backend_2.twitter}', title='#{about_us.team.dev.backend_2.twitter}', target='_blank')
@@ -138,7 +138,7 @@ block content
                             strong #{about_us.team.dev.backend_2.name}
                             |  #{about_us.team.dev.backend_2.surname}
                         p.team-work #{about_us.team.dev.backend_2.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-left')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.sales.sales_2.linkedin}', title='#{about_us.team.sales.sales_2.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.sales.sales_2.twitter}', title='#{about_us.team.sales.sales_2.twitter}', target='_blank')
@@ -152,7 +152,7 @@ block content
                             | #{about_us.team.sales.sales_2.surname}
                         p.team-work #{about_us.team.sales.sales_2.position}
                     .clearfix
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-right')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.frontend_1.linkedin}', title='#{about_us.team.dev.frontend_1.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.frontend_1.twitter}', title='#{about_us.team.dev.frontend_1.twitter}', target='_blank')
@@ -165,7 +165,7 @@ block content
                             strong #{about_us.team.dev.frontend_1.name}
                             | #{about_us.team.dev.frontend_1.surname}
                         p.team-work #{about_us.team.dev.frontend_1.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.support.support_2.linkedin}', title='#{about_us.team.support.support_2.linkedin}', target='_blank')
                             i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.support.support_2.twitter}', title='#{about_us.team.support.support_2.twitter}', target='_blank')
@@ -178,7 +178,7 @@ block content
                             strong #{about_us.team.support.support_2.name}
                             | #{about_us.team.support.support_2.surname}
                         p.team-work #{about_us.team.support.support_2.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-job.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
                             i.icon.icon-plus
                         .upp-team-img.team-newfella.circle.animate-hover
@@ -190,19 +190,19 @@ block content
         .col.s12.center-align.team-header
             h4.headTitles.text-center !{about_us.departments.title}
         .about-grids.row
-            .col.m4.about-grid.about-grid1.animated.fadeInLeft
+            .col.m4.about-grid.about-grid1(data-aos='fade-left')
                 .about-grid-info
                     h4 #{about_us.departments.support.title}
                     p #{about_us.departments.support.text}
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_support.jpg', title='#{about_us.departments.support.img}', alt='#{about_us.departments.support.img}')
-            .col.m4.about-grid.about-grid2.animated.fadeInUp
+            .col.m4.about-grid.about-grid2(data-aos='fade-down')
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_sales.jpg', title='#{about_us.departments.marketing.img}', alt='#{about_us.departments.marketing.img}')
                 .about-grid-info
                     h4 #{about_us.departments.marketing.title}
                     p #{about_us.departments.marketing.text}
-            .col.m4.about-grid.about-grid1.animated.fadeInRight
+            .col.m4.about-grid.about-grid1(data-aos='fade-right')
                 .about-grid-info
                     h4 #{about_us.departments.develop.title}
                     p #{about_us.departments.develop.text}

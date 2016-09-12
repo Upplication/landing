@@ -57,18 +57,15 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
 
         link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/upplication-icons.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/aos/dist/aos.css')
 
         block css
 
-        // build:css(app) /styles/base.min.css
-        link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
-        // endbuild
-
         // build:less(app) /styles/less/test.css
+        link(rel='stylesheet', href='/styles/less/base/mediaqueries.less')
         link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
         link(rel='stylesheet', href='/styles/less/base/common.less')
         link(rel='stylesheet', href='/styles/less/base/sliders.less')
@@ -160,27 +157,31 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
 
         // MODAL :: FREE TRIAL
         #free-trial.modal.modal-upp
-            include ../../includes/modal-free.jade
+            include ../../includes/modal-free
         // MODAL :: CONTACT
         #all-contact.modal.modal-upp
-            include ../../includes/modal-contact.jade
+            include ../../includes/modal-contact
         // MODAL :: HIRING
         #hiring.modal.modal-upp
-            include ../../includes/modal-hiring.jade
+            include ../../includes/modal-hiring
 
         // CONTENT
         block content
 
         // CLIENTS, TRIAL, CONTACT and FOOTER
-        include ../../includes/footer.jade
+        include ../../includes/footer
+
+        // Cookies alert
         #cookies
             i#cookies-accept.icon.icon-cross
             p !{footer.cookies}
+
         // vendor js
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/aos/dist/aos.js')
         // endvendor
 
         // build:js(app) /scripts/app.v2.min.js
@@ -192,7 +193,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         script(type="text/javascript", src='/scripts/v2/lang.js')
         // endbuild
 
-        // smooth scrolling
+        // end scripts
         script(type='text/javascript').
             $(document).ready(function () {
                 $("#clients-carousel").owlCarousel({
@@ -229,6 +230,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     }
                   );
             });
+
         // START MOBILE TOP NAVIGATION MENU
         script.
             $(function () {
@@ -269,7 +271,14 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     $(".top-header").removeClass("thiny-top-header");
                 }
             });
-        // end scripts
+
+        // AOS animations lib
+        script.
+            AOS.init({
+                once: true,
+            });
+
         block scripts
 
         include ../scripts-thirdparties
+        // end scripts

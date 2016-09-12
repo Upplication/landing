@@ -1,0 +1,357 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: SHOWCASE (base) :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "../base/common.less";
+
+// Heading BCKGRND in Showcase views
+.showcase-bg {
+  width: 100%;
+  margin-top: 80px;
+
+  img {
+    .box-shadow;
+  }
+
+  // Heading TITLE in Error views
+  .showcase-header {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url("@@config.base_path/images/showcase/default-logo.jpg");
+    background-color: @white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 170px 170px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 95px;
+    z-index: 10;
+    .box-shadow;
+
+    &.showcase-asis-gross {
+      background-image: url("@@config.base_path/images/showcase/asis-gross-logo.jpg");
+    }
+    &.showcase-fisiohogar {
+      background-image: url("@@config.base_path/images/showcase/fisiohogar-logo.jpg");
+    }
+    &.showcase-serafina {
+      background-image: url("@@config.base_path/images/showcase/serafina-logo.png");
+      background-color: #b8a177;
+    }
+  }
+}
+
+
+/* ... FULL BLOCK LAYOUT (component) reserts ... */
+.about {
+
+  // Quote & VIDEO
+  &.showcase-how {
+
+    .headTitles {
+      margin: 0;
+
+      p {
+        color: @darkest-lilac !important;
+      }
+    }
+
+    .about-grids {
+      .about-grid {
+        &.about-grid1,
+        &.about-grid2 {
+          background-color: @bg-lilac-light;
+
+          &.about-grid-info,
+          &.about-grid-pic {
+            background-color: @bg-lilac-light;
+
+            h4,
+            p {
+              color: @darkest-lilac !important;
+            }
+          }
+
+          &.about-grid-info {
+            float: left;
+          }
+
+          &.about-grid-pic {
+            float: right;
+          }
+        }
+      }
+
+      .about-grid.about-grid1 .about-grid-info p {
+        color: @darkest-lilac;
+      }
+    }
+  }
+
+  // Two Blocks Pics
+  &.showcase-app {
+    margin-top: 6em;
+
+    .about-grid.about-grid1 {
+      background-color: @white;
+    }
+
+    .about-grid-info,
+    .about-grid-pic {
+      padding: 0 !important;
+
+      img {
+        width: 100%;
+        padding: 1em;
+      }
+
+      .about-owners {
+        position: relative;
+        bottom: 78px;
+        z-index: 10;
+        padding: 20px;
+        background-color: rgba(255,255,255,.7);
+
+        p {
+          padding-left: 20px;
+          color: @darkest-lilac;
+          font-weight: 600;
+          letter-spacing: .02em;
+        }
+      }
+    }
+  }
+
+  // Another successful showcases block
+  &.showcase-samples {
+    .about-grids .about-grid .about-grid-info {
+      padding: 0;
+    }
+
+    .showcase-btn {
+      .block-btn;
+    }
+  }
+}
+
+// Download (Markets Area)
+.showcase-download {
+  padding-top: 1em;
+
+  .features-grids {
+    .features-grid {
+      display: block;
+      padding: 25px 20px 10px;
+      .anim-all-250;
+
+      &:hover {
+        .box-shadow;
+      }
+
+      img {
+        width: 70%;
+        height: auto;
+      }
+
+      h5 {
+        color: @darkest-lilac;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+
+        span {
+          font-weight: 600;
+          display: block;
+        }
+
+        i {
+          padding-left: 5px;
+        }
+      }
+
+      &.go-to-app-store {
+        h5 {
+          span,
+          i {
+            color: @ios;
+          }
+        }
+      }
+
+      &.go-to-google-play {
+        h5 {
+          span,
+          i {
+            color: @android;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Three Layout TIPS
+.showcase-tips {
+  padding: 50px 0;
+  margin-top: 80px;
+  border-top: 1px solid @header-border;
+  margin-bottom: 100px;
+  border-bottom: 1px solid @header-border;
+
+  .features-grids {
+
+    .headTitles {
+      margin-bottom: 2em;
+    }
+
+    .features-grid {
+      padding: 0 15px;
+
+      h5 {
+        margin: 0;
+        padding-top: 25px;
+        color: @dark-lilac;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: .02em;
+        min-height: 90px;
+        line-height: 30px;
+      }
+
+      p {
+        text-align: justify;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+/* ... MEDIA QUERIES :: SHOWCASE view ... */
+
+@media (min-width: 1281px) {
+  .showcase-app,
+  .showcase-samples {
+    .about-grid.about-grid1,
+    .about-grid.about-grid2 {
+      width: 100%;
+
+      .about-grid-pic,
+      .about-grid-info {
+        width: 50%;
+      }
+    }
+
+    .about-grid.about-grid1 {
+      .about-grid-info {
+        float: left;
+      }
+      .about-grid-pic {
+        float: right;
+      }
+    }
+
+    .about-grid.about-grid2 {
+      .about-grid-info {
+        float: right;
+      }
+      .about-grid-pic {
+        float: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .showcase-header {
+    width: 150px;
+    height: 150px;
+    background-size: 125px 125px;
+    bottom: 75px;
+  }
+
+  .showcase-tips {
+    .features-grids {
+      margin-bottom: 0;
+
+      .feature-tip {
+        width: 50%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .showcase-bg {
+    padding-top: 60px;
+  }
+
+  .showcase-how {
+    .resert-for-mobile {
+      padding-top: 0 !important;
+    }
+  }
+
+  .showcase-app {
+    .about-grids {
+      background-color: @white;
+    }
+  }
+
+  .showcase-tips {
+    .features-grids {
+      .feature-tip {
+        width: 100%;
+
+        .features-grid {
+          h5 {
+            min-height: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .showcase-download {
+    .features-grid-apple {
+      margin-left: 0 !important;
+    }
+    .features-grid-android,
+    .features-grid-apple {
+      width: 50% !important;
+    }
+  }
+}
+
+
+@media (max-width: 600px) {
+  .showcase-download {
+    .features-grids {
+      .features-grid {
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 480px) {
+  .showcase-header {
+    width: 120px;
+    height: 120px;
+    background-size: 100px 100px;
+    bottom: 58px;
+  }
+}
