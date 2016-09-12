@@ -45,6 +45,9 @@ block content
                             li
                                 i.icon.icon-graduation-cap
                                 | #{prices.rates.sub4}
+                            li
+                                i.icon.icon-cog
+                                | #{prices.rates.sub5}
                     .clearfix
                 .row
                     .col.s12.offset-m2.m8
@@ -54,8 +57,8 @@ block content
                             li.tab.col.s12.m6
                                 a(href='#anual', title='#{prices.rates.yearly}') !{prices.rates.yearly}
                     // Plan Mensual
-                    #mensual.col.s12
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-right')
+                    #mensual.col.s12.m10.offset-m1
+                        .col-xs-12.col-md-4.mobile-prices(data-aos='fade-right')
                             .pricing-table-grid
                                 h3 #{prices.rates.basic}
                                 ul
@@ -83,7 +86,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-left')
+                        .col-xs-12.col-md-4.mobile-prices(data-aos='flip-left')
                             img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
@@ -112,9 +115,10 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.four_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-right')
-                            .pricing-table-grid
-                                h3 #{prices.rates.premiun}
+                        .col-xs-12.col-md-4.mobile-prices(data-aos='flip-right')
+                            .pricing-table-grid.pricing-table-custom
+                                h3 #{prices.rates.custom}
+                                h5 #{prices.rates.custom_subtitle}
                                 ul
                                     li
                                         span
@@ -140,38 +144,10 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.all_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-left')
-                            .pricing-table-grid
-                                h3 #{prices.rates.unlimited}
-                                ul
-                                    li
-                                        span
-                                            | 299,95
-                                            em #{prices.rates.euro_month}
-                                    li
-                                        //- MIXIN Use
-                                        +webapp
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.statistics}')
-                                            i.icon.icon-chart-line
-                                            | !{prices.rates.statistics}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
-                                            i.icon.icon-megaphone
-                                            | !{prices.rates.no_bullhorn}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.no_templates}')
-                                            i.icon.icon-clone
-                                            | !{prices.rates.no_templates}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.all_push}')
-                                            i.icon.icon-paper-plane
-                                            | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
                         .clearfix
                     //- Plan Anual
-                    #anual.col.s12
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-right')
+                    #anual.col.s12.m10.offset-m1
+                        .col-xs-12.col-md-4.mobile-prices(data-aos='fade-right')
                             .pricing-table-grid
                                 h3 #{prices.rates.basic}
                                 ul
@@ -199,7 +175,7 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.no_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-left')
+                        .col-xs-12.col-md-4.mobile-prices(data-aos='flip-left')
                             img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover
                                 h3 #{prices.rates.proff}
@@ -228,9 +204,10 @@ block content
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.four_push}
                                 a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='flip-right')
-                            .pricing-table-grid
-                                h3 #{prices.rates.premiun}
+                        .col-xs-12.col-md-4.mobile-prices(data-aos='flip-right')
+                            .pricing-table-grid.pricing-table-custom
+                                h3 #{prices.rates.custom}
+                                h5 #{prices.rates.custom_subtitle}
                                 ul
                                     li
                                         span
@@ -251,34 +228,6 @@ block content
                                         a(href='#', title='#{prices.rates.icons.no_sign}')
                                             i.icon.icon-pencil
                                             | !{prices.rates.no_sign}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.all_push}')
-                                            i.icon.icon-paper-plane
-                                            | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
-                        .col-xs-12.col-md-3.mobilePrices(data-aos='fade-left')
-                            .pricing-table-grid
-                                h3 #{prices.rates.unlimited}
-                                ul
-                                    li
-                                        span
-                                            | 2999,50
-                                            em #{prices.rates.euro_year}
-                                    li
-                                        //- MIXIN Use
-                                        +webapp
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.statistics}')
-                                            i.icon.icon-chart-line
-                                            | !{prices.rates.statistics}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
-                                            i.icon.icon-megaphone
-                                            | !{prices.rates.no_bullhorn}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.no_templates}')
-                                            i.icon.icon-clone
-                                            | !{prices.rates.no_templates}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
