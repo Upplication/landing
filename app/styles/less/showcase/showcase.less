@@ -65,16 +65,17 @@
       .about-grid {
         &.about-grid1,
         &.about-grid2 {
-          background-color: @bg-lilac-light;
+          background-color: transparent;
+
+          p {
+            color: @darkest-lilac;
+            font-size: 16px;
+            line-height: 22px;
+          }
 
           &.about-grid-info,
           &.about-grid-pic {
             background-color: @bg-lilac-light;
-
-            h4,
-            p {
-              color: @darkest-lilac !important;
-            }
           }
 
           &.about-grid-info {
@@ -85,10 +86,6 @@
             float: right;
           }
         }
-      }
-
-      .about-grid.about-grid1 .about-grid-info p {
-        color: @darkest-lilac;
       }
     }
   }
@@ -290,7 +287,14 @@
 
 @media (max-width: 768px) {
   .showcase-bg {
-    padding-top: 60px;
+    margin-top: 60px;
+
+    .showcase-header {
+      width: 150px;
+      height: 150px;
+      background-size: 120px 120px;
+      bottom: 70px;
+    }
   }
 
   .showcase-how {
@@ -348,10 +352,12 @@
 
 
 @media (max-width: 480px) {
-  .showcase-header {
-    width: 120px;
-    height: 120px;
-    background-size: 100px 100px;
-    bottom: 58px;
+  .showcase-bg {
+    .showcase-header {
+      width: 120px;
+      height: 120px;
+      background-size: 100px 100px;
+      bottom: 60px;
+    }
   }
 }
