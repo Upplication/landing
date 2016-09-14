@@ -5,6 +5,8 @@
 /inspirate  /
 /inspirate/ /
 
+/blog/autor/equipo-upplication/ /nosotros/ 301
+
 # proxy the blog
 /blog/*  http://blog.upplication.com/:splat  200
 
