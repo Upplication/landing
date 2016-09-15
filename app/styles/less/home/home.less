@@ -212,7 +212,7 @@
   }
 
   #tabs img {
-    width: 40%;
+    width: 50%;
     float: none;
     position: relative;
     left: 50%;
@@ -232,6 +232,12 @@
 
   #tabs div.margTop50 {
     padding-left: 20px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  #tabs img {
+    width: 40%;
   }
 }
 
@@ -277,6 +283,20 @@
     }
   }
 }
+
+
+@media (max-width: 480px) {
+  .headTitles,
+  h4.headTitles,
+  h2.headTitles {
+    font-size: 1.5em;
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
 
 /* HEIGHT */
 

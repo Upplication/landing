@@ -38,6 +38,22 @@
   }
 }
 
+/* ... MEDIA QUERIES (small smartphones) ... */
+@media all and (max-width: 480px) {
+  #intro {
+    // to reset margin
+    .container {
+      margin-bottom: 25px;
+      // Text adapted
+      .company-intro {
+        p {
+          .font-mobile;
+        }
+      }
+    }
+  }
+}
+
 
 /* ... TIMELINE (styles added in "common" component) ... */
 
@@ -131,6 +147,20 @@
   }
 }
 
+/* ... MEDIA QUERIES (small smartphones) ... */
+@media all and (max-width: 480px) {
+  // Text adapted in Timeline section
+  .timeline-section:not(#timeline) {
+    .timeline {
+      .timeline-panel {
+        .timeline-body > p {
+          .font-mobile;
+        }
+      }
+    }
+  }
+}
+
 
 /* ... WORLD MAP section ... */
 
@@ -173,6 +203,19 @@
   .worldmap-section {
     .worldmap-bg {
       width: 100%;
+    }
+  }
+}
+
+/* ... MEDIA QUERIES (small smartphones) ... */
+@media all and (max-width: 480px) {
+  // to reset margins & paddings
+  .worldmap-section {
+    .headTitles {
+      margin-top: 25px;
+    }
+    .headTitles + p {
+      padding: 0 20px;
     }
   }
 }

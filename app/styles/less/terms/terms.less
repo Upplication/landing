@@ -20,7 +20,7 @@
   margin-top: 30px;
 
   // Main titles
-  h4 {
+  .headTitles {
     margin: 2em 0 !important;
   }
 
@@ -84,13 +84,23 @@
   display: none;
 }
 
+
 /* ... MEDIA QUERIES :: Terms & Legal ... */
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 480px) {
   .terms-grid {
+    // to reset Text default values
+    .headTitles {
+      font-size: 1.6em;
+      margin-bottom: .5em !important;
+    }
+
+    h5 {
+      font-size: 1.2em;
+    }
+
     p, ul li {
-      font-size: 17px;
-      line-height: 25px;
+      .font-mobile;
     }
   }
 }

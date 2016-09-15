@@ -62,19 +62,19 @@ block content
             .row
                 .col.s12
                     ul.tabs
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a.active(href='#host', title='#{home.samples.restaurants}')
                                 i.icon.icon-food
                                 span #{home.samples.restaurants}
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a(href='#tiendas', title='#{home.samples.shops}')
                                 i.icon.icon-ecommerce
                                 span #{home.samples.shops}
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a(href='#servprof', title='#{home.samples.serv}')
                                 i.icon.icon-laptop
                                 span !{home.samples.serv}
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a(href='#personal', title='#{home.samples.personal}')
                                 i.icon.icon-brush
                                 span #{home.samples.personal}
@@ -193,7 +193,7 @@ block content
                 .plans-head.text-center.padTop30
                     h2.headTitles.noMargBot #{home.multidevises.title}
                     p #{home.multidevises.sub_title}
-            .row(data-aos='zoom-in-down', data-aos-delay='800')
+            .row(data-aos='zoom-in-down', data-aos-delay='400')
                 .multidevises-bg.marBot50
                     img.responsive-img#image-test(src='#{localConfig.base_path}/images/home/bg/multidevise-bg.png', alt='#{home.multidevises.title}', title='#{home.multidevises.title}')
 
@@ -278,7 +278,7 @@ block content
         .col.s12.center-align.team-header
             h4.headTitles !{home.testimonials.title}
         .about-grids.row
-            .col.m4.about-grid.about-grid1(data-aos='fade-left')
+            .col.m4.about-grid.about-grid1(data-aos='fade-down')
                 .about-grid-info
                     h4 !{home.testimonials.client1.name}
                     p #{home.testimonials.client1.quote}
@@ -298,7 +298,7 @@ block content
                     p.grid-link
                         a(href="#{successful_showcase.samples.sample2_url}", alt='#{successful_showcase.samples.sample2}', title="#{successful_showcase.samples.sample2}") #{successful_showcase.samples.sample2}
                             i.icon.icon-left
-            .col.m4.about-grid.about-grid1(data-aos='fade-right')
+            .col.m4.about-grid.about-grid1(data-aos='fade-down')
                 .about-grid-info
                     h4 !{home.testimonials.client3.name}
                     p #{home.testimonials.client3.quote}
