@@ -975,6 +975,11 @@
         "sign": "Cap air pada pola",
         "statistics": "Statistik di aplikasi Anda"
       },
+      "subtitles": {
+        "basic": "Selamat datang rencana.",
+        "professional": "Rencana peluncur bisnis.",
+        "create": "Kami membuat dan merancang aplikasi Anda."
+      },
       "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
       "monthly": "Paket bulanan",
       "no_bullhorn": "<strong>Tidak ada</strong> Iklan Upplication",
@@ -982,9 +987,8 @@
       "no_sign": "<strong>Tidak ada</strong> cap air pada pola",
       "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
       "premiun": "PREMIUM",
-      "proff": "PROFESIONAL",
-      "custom": "KAMI MEMBUAT APLIKASI ANDA",
-      "custom_subtitle": "Pengembangan dan desain disesuaikan.",
+      "professional": "PROFESIONAL",
+      "create": "KAMI MEMBUAT APLIKASI ANDA",
       "rate_intro": "Paket harga",
       "rate_sub": "Semua paket harga termasuk:",
       "sign": "<strong>Cap air</strong> pada pola",

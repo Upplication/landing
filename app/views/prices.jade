@@ -59,8 +59,10 @@ block content
                     // Plan Mensual
                     #mensual.col.s12.m10.offset-m1
                         .col-xs-12.col-md-4.mobile-prices(data-aos='fade-right')
-                            .pricing-table-grid
+                            .pricing-table-grid.center-img
                                 h3 #{prices.rates.basic}
+                                h5 #{prices.rates.subtitles.basic}
+                                img(src='#{localConfig.base_path}/images/home/icons/rocket-copper.svg', alt='#{prices.rates.subtitles.basic}', title='#{prices.rates.subtitles.basic}')
                                 ul
                                     li
                                         span
@@ -85,11 +87,15 @@ block content
                                         a(href='#', title='#{prices.rates.icons.no_push}')
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.no_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}')
+                                    | #{register.call_to_action}
+                                    i.icon.icon-left.hover-anim
                         .col-xs-12.col-md-4.mobile-prices(data-aos='flip-left')
                             img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
-                            .pricing-table-grid.with-hover
-                                h3 #{prices.rates.proff}
+                            .pricing-table-grid.with-hover.center-img
+                                h3 #{prices.rates.professional}
+                                h5 #{prices.rates.subtitles.professional}
+                                img(src='#{localConfig.base_path}/images/home/icons/rocket-silver.svg', alt='#{prices.rates.subtitles.professional}', title='#{prices.rates.subtitles.professional}')
                                 ul
                                     li
                                         span
@@ -114,11 +120,14 @@ block content
                                         a(href='#', title='#{prices.rates.icons.four_push}')
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.four_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}')
+                                    | #{register.call_to_action}
+                                    i.icon.icon-left.hover-anim
                         .col-xs-12.col-md-4.mobile-prices(data-aos='flip-right')
-                            .pricing-table-grid.pricing-table-custom
-                                h3 #{prices.rates.custom}
-                                h5 #{prices.rates.custom_subtitle}
+                            .pricing-table-grid.pricing-table-custom.center-img
+                                h3 #{prices.rates.create}
+                                h5 #{prices.rates.subtitles.create}
+                                img(src='#{localConfig.base_path}/images/home/icons/rocket-gold.svg', alt='#{prices.rates.subtitles.create}', title='#{prices.rates.subtitles.create}')
                                 ul
                                     li
                                         span
@@ -143,13 +152,17 @@ block content
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}')
+                                    | #{register.call_to_action}
+                                    i.icon.icon-left.hover-anim
                         .clearfix
                     //- Plan Anual
                     #anual.col.s12.m10.offset-m1
                         .col-xs-12.col-md-4.mobile-prices(data-aos='fade-right')
-                            .pricing-table-grid
+                            .pricing-table-grid.center-img
                                 h3 #{prices.rates.basic}
+                                h5 #{prices.rates.subtitles.basic}
+                                img(src='#{localConfig.base_path}/images/home/icons/rocket-copper.svg', alt='#{prices.rates.subtitles.basic}', title='#{prices.rates.subtitles.basic}')
                                 ul
                                     li
                                         span
@@ -174,11 +187,15 @@ block content
                                         a(href='#', title='#{prices.rates.icons.no_push}')
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.no_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}')
+                                    | #{register.call_to_action}
+                                    i.icon.icon-left.hover-anim
                         .col-xs-12.col-md-4.mobile-prices(data-aos='flip-left')
                             img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
-                            .pricing-table-grid.with-hover
-                                h3 #{prices.rates.proff}
+                            .pricing-table-grid.with-hover.center-img
+                                h3 #{prices.rates.professional}
+                                h5 #{prices.rates.subtitles.professional}
+                                img(src='#{localConfig.base_path}/images/home/icons/rocket-silver.svg', alt='#{prices.rates.subtitles.professional}', title='#{prices.rates.subtitles.professional}')
                                 ul
                                     li
                                         span
@@ -203,11 +220,14 @@ block content
                                         a(href='#', title='#{prices.rates.icons.four_push}')
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.four_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}')
+                                    | #{register.call_to_action}
+                                    i.icon.icon-left.hover-anim
                         .col-xs-12.col-md-4.mobile-prices(data-aos='flip-right')
-                            .pricing-table-grid.pricing-table-custom
-                                h3 #{prices.rates.custom}
-                                h5 #{prices.rates.custom_subtitle}
+                            .pricing-table-grid.pricing-table-custom.center-img
+                                h3 #{prices.rates.create}
+                                h5 #{prices.rates.subtitles.create}
+                                img(src='#{localConfig.base_path}/images/home/icons/rocket-gold.svg', alt='#{prices.rates.subtitles.create}', title='#{prices.rates.subtitles.create}')
                                 ul
                                     li
                                         span
@@ -232,7 +252,9 @@ block content
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
                                             | !{prices.rates.all_push}
-                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}') #{register.call_to_action}
+                                a.order-btn.modal-trigger(href='#free-trial', title='#{register.call_to_action}')
+                                    | #{register.call_to_action}
+                                    i.icon.icon-left.hover-anim
                         .clearfix
                         .col-xs-12
                             .alert.alert-info(role='alert')

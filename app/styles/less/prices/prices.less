@@ -80,26 +80,28 @@
       text-align: center;
       display: block;
       margin: 0;
-      padding: 1.5em 0;
+      padding: 1.5em 0 0 0;
       display: block;
       color: @darkest-lilac;
       text-transform: uppercase;
       font-size: 1.5em;
     }
 
-    // Last Pricing Plan reserts
-    &.pricing-table-custom {
-
-      h3 {
-        padding-bottom: 0;
-      }
-
-      h5 {
-        text-align: center;
-      }
+    // Plan Subtitle
+    h5 {
+      text-align: center;
+      font-size: .95em;
+      color: @dark-lilac;
     }
 
-    // Features List
+    // Plan image
+    img {
+      margin-top: 10px;
+      width: 100px;
+      height: auto;
+    }
+
+    // Plan Features List
     ul {
       margin: 0;
       padding: 0;
@@ -112,7 +114,7 @@
 
         a,
         span {
-          padding: 1em;
+          padding: .8em 1em;
           display: block;
           text-decoration: none;
           text-align: left;
@@ -165,6 +167,28 @@
       text-transform: uppercase;
       text-decoration: none;
       color: @darkest-lilac;
+
+      i {
+        opacity: 0;
+        position: relative;
+        top: 3px;
+        font-size: 16px;
+        color: @white;
+        margin-left: -20px;
+
+        &:before {
+          .rotate-180;
+        }
+      }
+
+      &:hover {
+        color: @white ;
+
+        i {
+          opacity: 1;
+          margin-left: 10px;
+        }
+      }
     }
 
     // Not "Best Seller" Pricing Plan

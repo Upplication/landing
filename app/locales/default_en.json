@@ -976,6 +976,11 @@
         "sign": "Watermark on templates",
         "statistics": "Statistics of your app"
       },
+      "subtitles": {
+        "basic": "Welcome Plan.",
+        "professional": "Business launcher Plan.",
+        "create": "We create & design your App."
+      },
       "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
       "monthly": "Monthly plan",
       "no_bullhorn": "<strong>No</strong> Upplication Ads",
@@ -983,9 +988,8 @@
       "no_sign": "<strong>No</strong> watermark on templates",
       "no_templates": "<strong>Custom App</strong>, personalized",
       "premiun": "PREMIUM",
-      "proff": "PROFFESIONAL",
-      "custom": "WE CREATE YOUR APP",
-      "custom_subtitle": "Development & customized design.",
+      "professional": "PROFFESIONAL",
+      "create": "WE CREATE YOUR APP",
       "rate_intro": "Pricing plans",
       "rate_sub": "All pricing plans include:",
       "sign": "<strong>Watermark</strong> on templates",

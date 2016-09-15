@@ -978,6 +978,11 @@
         "sign": "Firma en las plantillas",
         "statistics": "Estadísticas de tu app"
       },
+      "subtitles": {
+        "basic": "Plan para recién llegados.",
+        "professional": "Plan para poner tu negocio en órbita.",
+        "create": "Desarrollamos y diseñamos tu app."
+      },
       "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
       "monthly": "Plan Mensual",
       "no_bullhorn": "<strong>Sin</strong> publicidad Upplication",
@@ -985,9 +990,8 @@
       "no_sign": "<strong>Sin</strong> firma en las plantillas",
       "no_templates": "<strong>A medida</strong>, personalizada",
       "premiun": "PREMIUM",
-      "proff": "PROFESIONAL",
-      "custom": "CREAMOS TU APP",
-      "custom_subtitle": "Desarrollo y diseño personalizado.",
+      "professional": "PROFESIONAL",
+      "create": "CREAMOS TU APP",
       "rate_intro": "Planes de precios",
       "rate_sub": "Todos los planes incluyen:",
       "sign": "<strong>Firma</strong> en las plantillas",
