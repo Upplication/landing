@@ -361,6 +361,10 @@
       "wayra": {
         "title": "Wayra, Telefónica's startup accelerator",
         "url": "http://wayra.co/en"
+      },
+      "freepik": {
+        "title": "Freepik, free graphic resources for designers",
+        "url": "http://www.freepik.com/"
       }
     },
     "signature": "Designed and assembled in Madrid",
@@ -977,7 +981,7 @@
         "statistics": "Statistics of your app"
       },
       "subtitles": {
-        "basic": "Welcome Plan.",
+        "basic": "Starter Plan.",
         "professional": "Business launcher Plan.",
         "create": "We create & design your App."
       },
