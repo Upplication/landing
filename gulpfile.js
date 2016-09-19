@@ -187,7 +187,7 @@ gulp.task('clean', function() {
 
 gulp.task('copy:images', function() {
     return gulp.src('./app/images/**',  { base: 'app' })
-        .pipe(imagemin())
+        .pipe(gutil.env.type === 'production' ? imagemin() : gutil.noop())
         .pipe(gulp.dest('./dist/'));
 });
 
