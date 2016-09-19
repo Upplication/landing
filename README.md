@@ -33,7 +33,7 @@ This is a quick reference that aims to help you to learn how to add new language
 
 ## Configure environment
 
-The file config.json contains the definition of all the configuration needed by the project. This definitions are grouped by environment. You can activate one environemnt by calling the paramenter `env`. Example `grunt deploy --env=localhost` load all the vars defined in the localhost section. All this vars are available at:
+The file config.json contains the definition of all the configuration needed by the project. This definitions are grouped by environment. You can activate one environemnt by calling the paramenter `env`. Example `gulp deploy --env=localhost` load all the vars defined in the localhost section. All this vars are available at:
 
 * Jade templates by calling `#{localConfig.xxxx}`
 * Saas files by calling `@@config`. (#{localConfig.} cant be use because saas define his own vars in that way)
