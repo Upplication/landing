@@ -16,7 +16,6 @@ var gutil = require('gulp-util');
 var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
-var duration = require('gulp-duration')
 var _ = require('lodash');
 
 var onesky = require('./gulp/onesky');
@@ -129,10 +128,6 @@ gulp.task('templates', function() {
         return configJson;
     };
 
-    var useminTimer = duration('usemin time')
-    var startingTimer = duration('starting time')
-    var pugTimer = duration('pug time')
-
     return gulp.src('./app/views/*.jade')
         .pipe(through2.obj(function(data, enc, cb) {
             var langs = JSON.parse(fs.readFileSync( './app/locales/languages.json'));
@@ -155,25 +150,20 @@ gulp.task('templates', function() {
         .pipe(data(function(file) {
             return getLocale(file);
         }))
-        .pipe(startingTimer)
-        //.once('data', pugTimer.start)
         .pipe(jade({
             pretty: gutil.env.type !== 'production'
         }))
-        .pipe(pugTimer)
         .pipe(through2.obj(function(data, enc, cb) {
             data.path = path.dirname(data.path) + data.config.url + 'index.html';
             this.push(data);
             cb();
         }))
-        //.once('data', useminTimer.start)
         .pipe(usemin({
             outputRelativePath: './',
             js: (gutil.env.type === 'production' ? [uglify, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
             css: (gutil.env.type === 'production' ? [cleanCSS, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
-            less: (gutil.env.type === 'production' ? [less, cleanCSS, rev] : [sourcemaps.init, less, 'concat', sourcemaps.write])
+            less: (gutil.env.type === 'production' ? [less, 'concat', rev] : [sourcemaps.init, less, 'concat', sourcemaps.write])
         }))
-        .pipe(useminTimer)
         /*
          * try to replace in locales.json the @@config vars
          */
@@ -205,7 +195,7 @@ gulp.task('onesky', function() {
     return gulp.src('./onesky.json')
         .pipe(onesky({
             projectId: '68574',
-            sourceFile: ['default.json','terms.json', 'aplicateca_terms.json']
+            sourceFile: ['default.json','terms.json', 'aplicateca_terms.json', 'home.json', 'successful.json']
         }))
         .pipe(gulp.dest('app/locales'))
 });

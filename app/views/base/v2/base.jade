@@ -63,8 +63,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/aos/dist/aos.css')
 
-        block css
-
         // build:less(app) /styles/less/base.css
         link(rel='stylesheet', href='/styles/less/base/mediaqueries.less')
         link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
@@ -77,6 +75,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='/styles/less/base/footer.less')
         link(rel='stylesheet', href='/styles/less/base/cookies.less')
         // endbuild
+
+        block css
 
     body
         //- Facebook "share" button plugin
