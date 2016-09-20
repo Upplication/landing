@@ -16,6 +16,7 @@ var gutil = require('gulp-util');
 var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
+var duration = require('gulp-duration')
 var _ = require('lodash');
 
 var onesky = require('./gulp/onesky');
@@ -78,6 +79,7 @@ var locales = _locales();
  *      "en": "www.upplication.com/about-us"
  *  }
  * }
+ * Throw error if some url are duplicated in some other lang or view.
  */
 var routes = function () {
     var langs = JSON.parse(fs.readFileSync('./app/locales/languages.json'));
@@ -89,7 +91,25 @@ var routes = function () {
         if (views.hasOwnProperty(view)) {
             langs.codes.forEach(function(code) {
                 var  lang = code.language_country;
-                routing[view][lang] = BASE_PATH +  locales[lang][view]._url;
+                try {
+                    var url =  BASE_PATH + locales[lang][view]._url;
+
+                    // try to validate its unique
+                    for (var viewKey in routing) {
+                        for (var langKey in routing[viewKey]){
+                            if (url === routing[viewKey][langKey]){
+                                gutil.log("Cant build Routes. The url:", gutil.colors.green(url),
+                                    "in:", gutil.colors.green(view + "." + lang), "already exists in:",  gutil.colors.green(viewKey + "." + langKey));
+                                throw new Error("The url: " + url + " already exists in view: " + viewKey + " with the lang: " + langKey);
+                            }
+                        }
+                    }
+
+                    routing[view][lang] = url;
+                } catch(e) {
+                    gutil.log("Cant build Routes. Error for the lang:", gutil.colors.green(lang), "and the view:",  gutil.colors.green(view), gutil.colors.red(e));
+                    throw e;
+                }
             });
         }
     }
@@ -108,6 +128,10 @@ gulp.task('templates', function() {
         configJson._template = path.basename(file.path, '.' + lang + '.jade');
         return configJson;
     };
+
+    var useminTimer = duration('usemin time')
+    var startingTimer = duration('starting time')
+    var pugTimer = duration('pug time')
 
     return gulp.src('./app/views/*.jade')
         .pipe(through2.obj(function(data, enc, cb) {
@@ -131,20 +155,25 @@ gulp.task('templates', function() {
         .pipe(data(function(file) {
             return getLocale(file);
         }))
+        .pipe(startingTimer)
+        //.once('data', pugTimer.start)
         .pipe(jade({
             pretty: gutil.env.type !== 'production'
         }))
+        .pipe(pugTimer)
         .pipe(through2.obj(function(data, enc, cb) {
             data.path = path.dirname(data.path) + data.config.url + 'index.html';
             this.push(data);
             cb();
         }))
+        //.once('data', useminTimer.start)
         .pipe(usemin({
             outputRelativePath: './',
             js: (gutil.env.type === 'production' ? [uglify, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
             css: (gutil.env.type === 'production' ? [cleanCSS, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
             less: (gutil.env.type === 'production' ? [less, cleanCSS, rev] : [sourcemaps.init, less, 'concat', sourcemaps.write])
         }))
+        .pipe(useminTimer)
         /*
          * try to replace in locales.json the @@config vars
          */
@@ -176,7 +205,7 @@ gulp.task('onesky', function() {
     return gulp.src('./onesky.json')
         .pipe(onesky({
             projectId: '68574',
-            sourceFile: ['default.json','terms.json']
+            sourceFile: ['default.json','terms.json', 'aplicateca_terms.json']
         }))
         .pipe(gulp.dest('app/locales'))
 });

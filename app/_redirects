@@ -7,11 +7,21 @@
 
 /blog/autor/equipo-upplication/ /nosotros/ 301
 
+/condicioneslegalesmovistar-upplication/  /terminos-aplicateca/
+/termsandconditionsmovistar-upplication/  /terms-aplicateca/
+/termsandconditionsmovistar-upplication-indonesian/  /terms-aplicateca-indonesian/
+/condiçõeslegaismovistar-upplication/   /termos-aplicateca/
+
+/home_tlf/  /telefonica/
+
+# microlandings migrated to instapage
+/crear-app-movil-*  /crear-app-movil/:splat 301
+
 # proxy the blog
 /blog/*  http://blog.upplication.com/:splat  200
 
 # proxy estudio-mobile-pymes
-/estudio-mobile-pymes-2016 http://microlanding.upplication.com/estudio-mobile-pymes-2016 200
+/estudio-mobile-pymes-2016* http://microlanding.upplication.com/estudio-mobile-pymes-2016 200
 
 # proxy microlandings
 /crear-app-movil/* http://microlanding.upplication.com/crear-app-movil/:splat 200

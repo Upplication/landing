@@ -778,7 +778,7 @@ a.unstyled {
   color: #fff;
   background-color: #fabe78;
   width: 380px;
-  background-image: url(//landing.upplication.priv/images/cookie.png);
+  background-image: url(@@config.base_path/images/cookie.png);
   background-position: 15px 15px;
   background-repeat: no-repeat;
   -webkit-transition: all,3s,ease-in-out;
@@ -805,7 +805,7 @@ a.unstyled {
 }
 
 #cookies:before {
-  background: url(//landing.upplication.priv/images/cookie.png);
+  background: url(@@config.base_path/images/cookie.png);
   display: block;
   width: 147px;
   height: 121px;
@@ -1594,7 +1594,7 @@ img.fedr-logo {
   }
 
   #content.home #register {
-    background-image: url(//landing.upplication.priv/images/mobile/header.jpg);
+    background-image: url(@@config.base_path/images/mobile/header.jpg);
     background-size: 100% 100%;
   }
 
@@ -1725,7 +1725,7 @@ img.fedr-logo {
 
   #content.home #register {
     position: relative;
-    background-image: url(//landing.upplication.priv/images/header_desktop.jpeg);
+    background-image: url(@@config.base_path/images/header_desktop.jpeg);
     background-size: cover;
     background-position: center;
     min-height: 450px;
@@ -2771,7 +2771,7 @@ section#showcase #showcase-items .showcase-item .phone-container {
   float: right;
   height: 608px;
   width: 330px;
-  background: transparent url(/images/common/iphone6.png) center center;
+  background: transparent url(@@config.base_path/images/common/iphone6.png) center center;
   background-size: cover;
 }
 
@@ -3019,27 +3019,6 @@ section#showcase #showcase-items .showcase-item .phone-container iframe {
   background: #333;
   padding: 1.5em;
   margin-bottom: .5em;
-}
-
-.resource.resource--create-upp .resource__links {
-  background-position: 0 .3em;
-  background-size: 3em;
-  background-image: url(//landing.upplication.priv/images/common/helpcenter-createupp.png);
-}
-
-.resource.resource--videos .resource__links {
-  background-position: 0 0;
-  background-image: url(//landing.upplication.priv/images/common/helpcenter-videos.png);
-}
-
-.resource.resource--ebooks .resource__links {
-  background-image: url(//landing.upplication.priv/images/common/helpcenter-ebooks.png);
-}
-
-.resource.resource--make-your-app .resource__links {
-  background-position: 0 .3em;
-  background-size: 3em;
-  background-image: url(//landing.upplication.priv/images/common/helpcenter-makeyourapp.png);
 }
 
 .resource__title {
@@ -3917,7 +3896,7 @@ section#showcase #showcase-items .showcase-item .phone-container iframe {
 }
 
 #content.about section#video {
-  background: transparent url(/images/common/video_about_intro_bg.png) center center no-repeat;
+  background: transparent url(@@config.base_path/images/common/video_about_intro_bg.png) center center no-repeat;
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -5975,7 +5954,7 @@ a.btn-signup-tlf {
 }
 
 .logo-tlf {
-  background: url(/images/aplicateca/logo_tlf.png) left top no-repeat;
+  background: url(@@config.base_path/images/aplicateca/logo_tlf.png) left top no-repeat;
   width: 120px;
   background-size: contain;
   padding-top: 56px;
@@ -6031,7 +6010,7 @@ a.btn-signup-tlf {
   }
 
   header.tlf .logo-tlf {
-    background: url(/images/aplicateca/logo_tlf.png) left top no-repeat;
+    background: url(@@config.base_path/images/aplicateca/logo_tlf.png) left top no-repeat;
     width: 94px;
     background-size: contain;
     padding-top: 41px;

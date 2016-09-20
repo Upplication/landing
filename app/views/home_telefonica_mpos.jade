@@ -1,7 +1,7 @@
 block vars
-    - var title = home_tlf._meta_title
-    - var description = home_tlf._meta_description
-    - var keywords = home_tlf._keywords
+    - var title = home_telefonica_mpos._meta_title
+    - var description = home_telefonica_mpos._meta_description
+    - var keywords = home_telefonica_mpos._keywords
     - var cssClass = 'home'
 doctype
 //if lt IE 7
@@ -43,7 +43,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         // endbuild
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
-        link(rel='stylesheet', href='#{localConfig.base_path}/fonts/style.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
 
     body(id="#{_template}", data-lang="#{lang}")
@@ -79,7 +78,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
                 #content(class="#{cssClass}")
                     script(type='text/javascript').
-                        $UPP.url = "#{home_tlf._url}";
+                        $UPP.url = "#{home_telefonica_mpos._url}";
                     section#register
                         div
                             .mobile
@@ -97,15 +96,15 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     label(for="appName")
                                         input(type="text", name="appName", placeholder="#{register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{register.warning.name}")
                                         p.error.display-none
-                                            //| El nombre de la app ya está registrado
+                                            // El nombre de la app ya está registrado
                                     label(for="email")
                                         input(type="email", name="email", placeholder="#{register.email}", required="required")
                                         p.error.display-none
-                                            //| El email ya está registrado
+                                            // El email ya está registrado
                                     label(for="password")
                                         input(type="password", name="password", placeholder="#{register.password}", required="required", title="#{register.warning.password}", pattern=".{8,}")
                                         p.error.display-none
-                                            //| La contraseña debe contener al menos 6 caracteres
+                                            // La contraseña debe contener al menos 6 caracteres
                                     input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{register.call_to_action}", data-loading="#{register.loading}", data-text="#{register.call_to_action}")
                                     p.tos.acenter.italic !{register.accept_terms}
                                         a(href="#{external.tos.url}") #{register.terms}
@@ -221,10 +220,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     section
                         .contact__customer-service.margin-top-cero.margin-bottom-cero.large.acenter
                             .g-plusone.vertical-align-middle
-                            .customer-service__text.inline-block.vertical-align-top.padding-4px #{home_tlf.contact.customer_service.text}
+                            .customer-service__text.inline-block.vertical-align-top.padding-4px #{home_telefonica_mpos.contact.customer_service.text}
                             .customer-service__links.inline-block.vertical-align-top.padding-4px
                                 span -
-                                a.customer-service__email(href="#{home_tlf.contact.customer_service.email.link}", title="#{home_tlf.contact.customer_service.email.title}")  #{home_tlf.contact.customer_service.email.text}
+                                a.customer-service__email(href="#{home_telefonica_mpos.contact.customer_service.email.link}", title="#{home_telefonica_mpos.contact.customer_service.email.title}")  #{home_telefonica_mpos.contact.customer_service.email.text}
                     hr.clear
                     #cookies
                         p !{footer.cookies}
