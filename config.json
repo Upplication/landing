@@ -13,7 +13,7 @@
   },
   "landing.dev.upplication.com": {
     "segmentio_token": "j44nuye4y6",
-    "tagmanager_token": "GTM-M8KJZG",
+    "tagmanager_token": "",
     "webmaster_token": "",
     "base_path": "//landing.dev.upplication.com",
     "dashboard_base_path": "//dashboard.upplication.priv",
