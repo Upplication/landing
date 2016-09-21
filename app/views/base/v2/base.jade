@@ -96,8 +96,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             #move-top.top-header
                 .container
                     .logo
-                        a(href='index.html')
-                            img(src='#{header.logo.url}', title='#{header.logo.title}')
+                        a(href='#{header.logo.url}', alt='#{header.logo.title}')
+                            img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{header.logo.title}')
                     nav.top-nav
                         ul.top-nav-list.hide-ul
                             li.how
