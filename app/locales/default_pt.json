@@ -219,8 +219,8 @@
       "url": "http://www.upplication.com/blog/"
     },
     "breakfasts": {
-      "anchor": "Pequenos almoços Upplication",
-      "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
+      "anchor": "Sucesso app",
+      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
     },
     "company": {
       "anchor": "Upplication bio",
