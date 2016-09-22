@@ -246,6 +246,12 @@ gulp.task('styles', function() {
         .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
 
     var cssTask =  gulp.src("./app/styles/**/*.css")
+        .pipe(replace({
+            patterns: [{
+                json: envConfig
+            }],
+            prefix: '@@config.'
+        }))
         .pipe(gulp.dest("./dist/styles"));
 
     return merge([lessTask, cssTask]);
