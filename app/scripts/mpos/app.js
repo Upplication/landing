@@ -4,6 +4,31 @@
 $(function () {
     'use strict';
 
+    var Topic = function($){
+        return {
+            _observers: {},
+
+            fire: function (event) {
+                var observers = this._observers[event];
+                if (observers){
+                    $.each(observers, function (index, observer) {
+                        observer();
+                    });
+                }
+            },
+
+            on: function (event, fn) {
+                var observers = this._observers[event];
+                if (observers) {
+                    observers.push(fn);
+                }
+                else {
+                    this._observers[event] = [fn];
+                }
+            }
+        }
+    }($);
+
     var UTM_PARAMS = ["utm_source", "utm_campaign", "utm_medium", "utm_content"];
 
     /**
