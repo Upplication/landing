@@ -455,10 +455,23 @@
 
 
 @media only screen and (min-width: 767px) {
+  // removed cause it´s only for mobile
   .only-show-small-devises {
     display: none;
   }
+  // to fix width in big screens
+  .top-header {
+    .container {
+      #dropdown-terms {
+        width: 175px !important;
+      }
+      #dropdown-lang {
+        width: 130px !important;
+      }
+    }
+  }
 }
+
 
 // TABLETS
 @media only screen and (max-width: 768px) {
