@@ -14,8 +14,8 @@
       "tips_icon1": "Si no lo comunicas, no existe",
       "tips_icon2": "Comunícate con tus clientes",
       "tips_icon3": "Tu app debe aparecer en tu web",
-      "app_store": "Available on the iPhone & iPad at the Apple Store",
-      "google_play": "Available at the Google Play for Android"
+      "app_store": "Available in iPhone & iPad on the Apple Store",
+      "google_play": "Available on the Google Play for Android"
     },
     "how": {
       "title" : "<span>How can</span> you do<span>?</span>",
@@ -38,9 +38,9 @@
       "title": "Asis & Gross <span>App</span>"
     },
     "download" : {
-      "app_store": "Available on the iPhone & iPad at the <span>Apple Store</span>",
+      "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
       "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
-      "google_play": "Available at the Google Play for <span>Android</span>",
+      "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
     },
     "samples": {
@@ -67,8 +67,8 @@
       "tips_icon1": "Incentiva las descargas de tu app",
       "tips_icon2": "Crea una Tarjeta de fidelización",
       "tips_icon3": "Aprovecha el impacto de tus mails",
-      "app_store": "Available on the iPhone & iPad at the Apple Store",
-      "google_play": "Available at the Google Play for Android"
+      "app_store": "Available in iPhone & iPad on the Apple Store",
+      "google_play": "Available on the Google Play for Android"
     },
     "how": {
       "title" : "<span>How</span> he do it<span>?</span>",
@@ -92,9 +92,9 @@
       "title": "Fisiohogar <span>App</span>"
     },
     "download" : {
-      "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+      "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
       "app_store_url": "https://itunes.apple.com/es/app/fisio-en-tu-movil/id874340902?mt=8",
-      "google_play": "Disponible en Google Play para <span>Android</span>",
+      "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android3563"
     },
     "samples": {
@@ -121,8 +121,8 @@
       "tips_icon1": "Tell all of them about your App",
       "tips_icon2": "Make loyalty cards",
       "tips_icon3": "Share with customers",
-      "app_store": "Available on the iPhone & iPad at the Apple Store",
-      "google_play": "Available at the Google Play for Android"
+      "app_store": "Available in iPhone & iPad on the Apple Store",
+      "google_play": "Available on the Google Play for Android"
     },
     "how": {
       "title" : "<span>How</span> he do it<span>?</span>",
@@ -145,9 +145,9 @@
       "title": "Serafina Cocina Bar <span>App</span>"
     },
     "download" : {
-      "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+      "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
       "app_store_url": "https://itunes.apple.com/es/app/serafina-cocina-bar/id1033235573?mt=8",
-      "google_play": "Disponible en Google Play para <span>Android</span>",
+      "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android14000"
     },
     "samples": {

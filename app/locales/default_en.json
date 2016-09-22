@@ -222,8 +222,8 @@
       "url": "http://blog.en.upplication.com"
     },
     "breakfasts": {
-      "anchor": "Go to our breakfasts",
-      "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
+      "anchor": "A sucessful showcase!",
+      "url": "@@config.base_path/asis-and-gross/"
     },
     "company": {
       "anchor": "Upplication bio",

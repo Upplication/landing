@@ -13,8 +13,8 @@
       "tips_icon1": "Si no lo comunicas, no existe",
       "tips_icon2": "Comunícate con tus clientes",
       "tips_icon3": "Tu app debe aparecer en tu web",
-      "app_store": "Available on the iPhone & iPad at the Apple Store",
-      "google_play": "Available at the Google Play for Android"
+      "app_store": "Available in iPhone & iPad on the Apple Store",
+      "google_play": "Available on the Google Play for Android"
     },
     "how": {
       "title" : "<span>Como</span> fizeram",
@@ -24,7 +24,7 @@
       "text3": "Upplication nos pareció la plataforma más sencilla de utilizar, sobre todo para personas como nosotras y pensando en nuestras clientas que se sienten parte activa de la tecnología y eso les gusta. Además, <b>cada vez tenemos un público más joven</b>, y el hecho de saber que nuestra idea ha llegado tan lejos –y lo que le queda- nos reconforta mucho."
     },
     "tips": {
-      "title" : "<span>How</span> they do it<span>?</span>",
+      "title" : "<span>Como</span> você pode fazer",
       "subtitle1" : "Si no lo comunicas, no existe",
       "subtitle2" : "Comunícate con tus clientes",
       "subtitle3" : "Tu app debe aparecer en tu web",
@@ -37,9 +37,9 @@
       "title": "Asis & Gross <span>App</span>"
     },
     "download" : {
-      "app_store": "Available on the iPhone & iPad at the <span>Apple Store</span>",
+      "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
       "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
-      "google_play": "Available at the Google Play for <span>Android</span>",
+      "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
     },
     "samples": {
@@ -66,11 +66,11 @@
       "tips_icon1": "Incentiva las descargas de tu app",
       "tips_icon2": "Crea una Tarjeta de fidelización",
       "tips_icon3": "Aprovecha el impacto de tus mails",
-      "app_store": "Available on the iPhone & iPad at the Apple Store",
-      "google_play": "Available at the Google Play for Android"
+      "app_store": "Available in iPhone & iPad on the Apple Store",
+      "google_play": "Available on the Google Play for Android"
     },
     "how": {
-      "title" : "<span>How</span> he do it<span>?</span>",
+      "title" : "<span>Como</span> ele fazê-lo",
       "subtitle": "<b>Pablo Herrera</b> tell us about his own experience:",
       "text1": "Ya éramos un negocio bastante digitalizado, además tratamos de innovar continuamente. Por ello, <b>decidimos contactar con Upplication para expandir digitalmente aún más nuestro negocio</b>.",
       "text2": "Upplication nos ha ayudado en todo el proceso. Se volcaron con nosotros, y siguen haciéndolo: cada vez que tenemos una duda o queremos ampliar algo, se implican.",
@@ -78,7 +78,7 @@
       "text4": "Mi negocio, desde la creación de la app con Upplication, ha crecido en muchos aspectos: <b>la fidelización de mis clientes es más fuerte</b>, y hemos logrado potenciar mucho nuestra imagen de marca. <b>Ahora los clientes llevan a su fisioterapeuta 24 horas en el bolsillo</b>. Cada vez que lo necesiten, pueden pedir cita, además de contar con todos los ejercicios y estiramientos pautados incluidos en la app. Nuestros clientes perciben una mayor calidad y, las empresas, a nivel económico, nos han ayudado a lanzar algunas promociones que lleguen de forma más directa."
     },
     "tips": {
-      "title" : "<span>How can</span> you do<span>?</span>",
+      "title" : "<span>Como</span> você pode fazer",
       "subtitle1" : "Incentiva las descargas de tu app",
       "subtitle2" : "Crea una Tarjeta de fidelización",
       "subtitle3" : "Aprovecha el impacto de tus mails",
@@ -91,9 +91,9 @@
       "title": "Fisiohogar <span>App</span>"
     },
     "download" : {
-      "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+      "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
       "app_store_url": "https://itunes.apple.com/es/app/fisio-en-tu-movil/id874340902?mt=8",
-      "google_play": "Disponible en Google Play para <span>Android</span>",
+      "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android3563"
     },
     "samples": {
@@ -120,18 +120,18 @@
       "tips_icon1": "Tell all of them about your App",
       "tips_icon2": "Make loyalty cards",
       "tips_icon3": "Share with customers",
-      "app_store": "Available on the iPhone & iPad at the Apple Store",
-      "google_play": "Available at the Google Play for Android"
+      "app_store": "Available in iPhone & iPad on the Apple Store",
+      "google_play": "Available on the Google Play for Android"
     },
     "how": {
-      "title" : "<span>How</span> he do it<span>?</span>",
+      "title" : "<span>Como</span> ele fazê-lo",
       "subtitle": "<b>Jesús Peláez</b> nos cuenta su experiencia:",
       "text1": "Las dos cosas que más nos han motivado para crear la app son <b>convertirnos en una marca más cercana a nuestro consumidor y llegar a fidelizarlo de una manera más directa</b>. Además, tener un canal de comunicación mucho más rápido y al alcance de todo el mundo es una ventaja que teniendo un negocio solo offline no puedes disfrutar.",
       "text2": "El equipo de Upplication te sabe asesorar y guiar, te ayuda en cualquier tipo de duda que tengas, e incluso en la publicación de la app en Apple Store. <b>La creación de una app convierte un negocio en mucho más grande de lo que es: hace que los 200 metros que pueda tener tu local se transformen en infinitos, por así decirlo</b>.",
       "text3": "Puedes llegar al consumidor esté donde esté. Las notificaciones push, por otro lado, no dejan de ser una comunicación totalmente directa con nuestro cliente donde esté para conocer cualquier tipo de comunicación que queramos lanzar: una facilidad para el crecimiento de tu negocio."
     },
     "tips": {
-      "title" : "<span>How can</span> you do<span>?</span>",
+      "title" : "<span>Como</span> você pode fazer",
       "subtitle1" : "Cuéntaselo en persona",
       "subtitle2" : "Crea una Tarjeta de fidelización",
       "subtitle3" : "Comunícate con tus clientes",
@@ -144,9 +144,9 @@
       "title": "Serafina Cocina Bar <span>App</span>"
     },
     "download" : {
-      "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+      "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
       "app_store_url": "https://itunes.apple.com/es/app/serafina-cocina-bar/id1033235573?mt=8",
-      "google_play": "Disponible en Google Play para <span>Android</span>",
+      "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android14000"
     },
     "samples": {

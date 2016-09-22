@@ -221,7 +221,7 @@
     },
     "breakfasts": {
       "anchor": "Gabung dengan kami untuk sarapan",
-      "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
+      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase-indonesian/"
     },
     "company": {
       "anchor": "Upplication bio",
