@@ -7,10 +7,7 @@ block vars
     - var cssClass = 'about'
 
 block css
-
-    // build:less(app) /styles/less/about.css
-    link(rel='stylesheet', href='/styles/less/about/about.less')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/about/about.css')
 
 block content
     // MEET OUR TEAM

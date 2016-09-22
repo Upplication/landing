@@ -5,9 +5,8 @@ block vars
    - var keywords = internal_server_error._keywords
    - var cssClass = 'internal_server_error'
 block css
-   // build:less(app) /styles/less/error.css
-   link(rel='stylesheet', href='/styles/less/error/error.less')
-   // endbuild
+   link(rel='stylesheet', href='#{localConfig.base_path}/styles/error/error.css')
+
 block content
    // 500 ERROR
    .page-not-found-bg.internal-server-error

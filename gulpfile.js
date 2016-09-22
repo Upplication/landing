@@ -4,8 +4,7 @@ var jade = require('gulp-jade');
 var data = require('gulp-data');
 var path = require('path');
 var through2 = require('through2');
-var usemin = require('gulp-usemin');
-var cleanCSS = require('gulp-clean-css');
+var revReplace = require('gulp-rev-replace');
 var connect = require('gulp-connect');
 var replace = require('gulp-replace-task');
 var uglify = require('gulp-uglify');
@@ -16,6 +15,9 @@ var gutil = require('gulp-util');
 var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
+var revdel = require('gulp-rev-delete-original');
+var merge = require('merge-stream');
 var _ = require('lodash');
 
 var onesky = require('./gulp/onesky');
@@ -158,15 +160,6 @@ gulp.task('templates', function() {
             this.push(data);
             cb();
         }))
-        .pipe(usemin({
-            outputRelativePath: './',
-            js: (gutil.env.type === 'production' ? [uglify, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
-            css: (gutil.env.type === 'production' ? [cleanCSS, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
-            less: (gutil.env.type === 'production' ? [less, 'concat', rev] : [sourcemaps.init, less, 'concat', sourcemaps.write])
-        }))
-        /*
-         * try to replace in locales.json the @@config vars
-         */
         .pipe(replace({
             patterns: [{
                 json: envConfig
@@ -174,15 +167,95 @@ gulp.task('templates', function() {
             prefix: '@@config.'
         }))
         .pipe(gulp.dest('./dist/'))
-        .pipe(connect.reload());
+        .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
+});
 
+gulp.task('scripts', function() {
+
+    var stylesPath = "./app/scripts";
+
+    function getFolders(dir) {
+        return fs.readdirSync(dir)
+            .filter(function(file) {
+                return fs.statSync(path.join(dir, file)).isDirectory();
+            });
+    }
+
+    var folders = getFolders(stylesPath);
+    var tasks = folders.map(function(folder) {
+        return gulp.src(path.join(stylesPath, folder, '/**/*.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat(folder + '.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest("./dist/scripts"))
+            .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop())
+    });
+
+    return merge(tasks);
+});
+
+gulp.task('post', ['rev:scripts', 'rev:styles'], function() {
+    if (gutil.env.type === 'production') {
+        return gulp.src('./dist/**/*.html')
+            .pipe(revReplace({manifest: gulp.src("./dist/rev-manifest-*.json")}))
+            .pipe(gulp.dest('./dist/'));
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'post'"), "task when", gutil.colors.green("--type=production"), "not present");
+    }
+});
+
+gulp.task('rev:scripts', ['scripts'], function() {
+    if (gutil.env.type === 'production') {
+        return gulp.src('./dist/scripts/**/*.js')
+            .pipe(uglify())
+            .pipe(rev())
+            .pipe(revdel())
+            .pipe(gulp.dest('./dist/scripts'))
+            .pipe(rev.manifest('rev-manifest-js.json'))
+            .pipe(gulp.dest("./dist"))
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'rev:scripts'"), "task when", gutil.colors.green("--type=production"), "not present");
+    }
+});
+
+gulp.task('rev:styles', ['styles'], function() {
+    if (gutil.env.type === 'production') {
+        return gulp.src('./dist/styles/**/*.css')
+            .pipe(rev())
+            .pipe(revdel())
+            .pipe(gulp.dest('./dist/styles'))
+            .pipe(rev.manifest('rev-manifest-css.json'))
+            .pipe(gulp.dest("./dist"))
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'rev:styles'"), "task when", gutil.colors.green("--type=production"), "not present");
+    }
+});
+
+gulp.task('styles', function() {
+    var lessTask = gulp.src("./app/styles/less/**/[^_]*.less")
+        .pipe(gutil.env.type !== 'production' ?  sourcemaps.init() : gutil.noop())
+        .pipe(less())
+        .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+        .pipe(replace({
+            patterns: [{
+                json: envConfig
+            }],
+            prefix: '@@config.'
+        }))
+        .pipe(gulp.dest("./dist/styles"))
+        .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
+
+    var cssTask =  gulp.src("./app/styles/**/*.css")
+        .pipe(gulp.dest("./dist/styles"));
+
+    return merge([lessTask, cssTask]);
 });
 
 gulp.task('bower', function() {
     return bower();
 });
 
-gulp.task('connect', function() {
+gulp.task('connect', ['templates'], function() {
     connect.server({
         root: 'dist',
         port: 9000,
@@ -216,8 +289,15 @@ gulp.task('copy', function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['./app/**/*.jade', './app/styles/**/*.css', './app/styles/less/**/*.less', './app/**/*.js', './app/locales/*.json'], ['templates']);
-    gulp.watch(['./app/images/**'], ['copy:images']);
+    if (gutil.env.type !== 'production') {
+        gulp.watch(['./app/**/*.jade', './app/locales/*.json'], ['templates']);
+        gulp.watch(['./app/styles/**/*.css', './app/styles/less/**/*.less'], ['styles']);
+        gulp.watch(['./app/**/*.js'], ['scripts']);
+        gulp.watch(['./app/images/**'], ['copy:images']);
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'watch'"), "task when", gutil.colors.green("--type=production"));
+    }
+
 });
 
 /**
@@ -231,7 +311,6 @@ gulp.task('routing', function () {
                 path: './routing.json',
                 contents: new Buffer(JSON.stringify(routes, null, 4))
             });
-
             this.push(routeFile);
             callback();
         }))
@@ -244,14 +323,12 @@ gulp.task('routing', function () {
  * If you want to override the priority you must to set the _priority key
  */
 gulp.task('sitemap', function () {
-
     return gulp
         .src('./app/views/*.jade')
         .pipe(sitemap({basePath: envConfig.base_path}))
         .pipe(gulp.dest("dist"));
-
 });
 
-gulp.task('default', ['templates', 'bower', 'copy:images', 'copy', 'connect', 'sitemap', 'routing', 'watch']);
-gulp.task('deploy', ['templates', 'bower', 'copy:images', 'copy', 'sitemap', 'routing']);
+gulp.task('default', ['templates', 'styles', 'scripts', 'post', 'bower', 'copy:images', 'copy', 'sitemap', 'routing', 'connect', 'watch']);
+gulp.task('deploy', ['templates', 'styles', 'scripts', 'post', 'bower', 'copy:images', 'copy', 'sitemap', 'routing']);
 

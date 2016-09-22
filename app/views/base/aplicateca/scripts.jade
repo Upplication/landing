@@ -8,9 +8,7 @@ script(type="text/javascript").
   window.$UPP = window.$UPP || {};
   $UPP.localConfig = !{JSON.stringify(localConfig)};
 
-// build:js({.tmp,app}) /scripts/utils.min.js
-script(type="text/javascript", src='/scripts/utils.js')
-// endbuild
+script(type="text/javascript", src='#{localConfig.base_path}/scripts/header.js')
 
 script(type='text/javascript').
   

@@ -1,13 +1,14 @@
 extend base/v2/base
+
 block vars
     - var title = successful_showcase._meta_title
     - var description = successful_showcase._meta_description
     - var keywords = successful_showcase._keywords
     - var cssClass = 'successful_showcase_services'
+
 block css
-    // build:less(app) /styles/less/showcase.css
-    link(rel='stylesheet', href='/styles/less/showcase/showcase.less')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/showcase/showcase.css')
+
 block content
     // SHOWCASE INTRO
     .showcase-bg

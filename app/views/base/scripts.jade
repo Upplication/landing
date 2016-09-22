@@ -25,9 +25,7 @@ script(type="text/javascript").
   ajax.error[6] = "#{register.error.num6}";
   ajax.error[10] = "#{register.error.num10}";
 
-// build:js(app) /scripts/utils.min.js
-script(type="text/javascript", src='/scripts/utils.js')
-// endbuild
+script(type="text/javascript", src='/scripts/header.js')
 
 script(type='text/javascript').
   checkLanguage("#{lang}", !{JSON.stringify(routing)}, "#{_template}");

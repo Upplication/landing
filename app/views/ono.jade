@@ -29,12 +29,12 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:description', content='#{description}')
         meta(property='og:url', content='//upplication.com/')
         meta(property='og:site_name', content='Upplication')
-        meta(property='og:image', content='/images/common/upplication_rrss.png')
+        meta(property='og:image', content='#{localConfig.base_path}/images/common/upplication_rrss.png')
         meta(name="twitter:card", content="summary")
         meta(name="twitter:site", content="@upplication")
         meta(name="twitter:domain", content="Upplication")
         meta(name="twitter:creator", content="@upplication")
-        meta(name="twitter:image:src", content="/images/common/upplication_rrss.png")
+        meta(name="twitter:image:src", content="#{localConfig.base_path}/images/common/upplication_rrss.png")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
@@ -61,13 +61,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
 
-        // build:less(app) /styles/less/ono.css
-        link(rel='stylesheet', href='/styles/less/ono/ono.less')
-        link(rel='stylesheet', href='/styles/less/ono/header-ono.less')
-        link(rel='stylesheet', href='/styles/less/ono/materialize-reserts.less')
-        link(rel='stylesheet', href='/styles/less/ono/common.less')
-        link(rel='stylesheet', href='/styles/less/ono/mediaqueries.less')
-        // endbuild
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/ono/ono.css')
 
         meta(name='viewport', content='width=device-width, initial-scale=1')
 
@@ -218,11 +212,5 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
         // endvendor
 
-        // build:js(app) /scripts/ono.min.js
-        script(type="text/javascript", src='/scripts/ua.js')
-        script(type="text/javascript", src='/scripts/topic.js')
-        script(type="text/javascript", src='/scripts/scroll.js')
-        script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/v2/register.js')
-        script(type="text/javascript", src='/scripts/v2/lang.js')
-        // endbuild
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')

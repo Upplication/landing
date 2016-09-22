@@ -7,10 +7,7 @@ block vars
     - var cssClass = 'successful_showcase'
 
 block css
-
-    // build:less(app) /styles/less/showcase.css
-    link(rel='stylesheet', href='/styles/less/showcase/showcase.less')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/showcase/showcase.css')
 
 block content
 

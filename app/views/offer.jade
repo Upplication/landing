@@ -7,10 +7,7 @@ block vars
     - var cssClass = 'offer'
 
 block css
-
-    // build:less(app) /styles/less/offer.css
-    link(rel='stylesheet', href='/styles/less/offer/offer.less')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/offer/offer.css')
 
 block content
     script(type='text/javascript').

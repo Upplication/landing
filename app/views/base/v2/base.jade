@@ -63,19 +63,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/aos/dist/aos.css')
 
-        // build:less(app) /styles/less/base.css
-        link(rel='stylesheet', href='/styles/less/base/mediaqueries.less')
-        link(rel='stylesheet', href='/styles/less/base/materialize-reserts.less')
-        link(rel='stylesheet', href='/styles/less/base/common.less')
-        link(rel='stylesheet', href='/styles/less/base/sliders.less')
-        link(rel='stylesheet', href='/styles/less/base/modals.less')
-        link(rel='stylesheet', href='/styles/less/base/alerts.less')
-        link(rel='stylesheet', href='/styles/less/base/register.less')
-        link(rel='stylesheet', href='/styles/less/base/header.less')
-        link(rel='stylesheet', href='/styles/less/base/footer.less')
-        link(rel='stylesheet', href='/styles/less/base/cookies.less')
-        // endbuild
-
         block css
 
     body
@@ -183,14 +170,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/aos/dist/aos.js')
         // endvendor
 
-        // build:js(app) /scripts/app.v2.min.js
-        script(type="text/javascript", src='/scripts/ua.js')
-        script(type="text/javascript", src='/scripts/topic.js')
-        script(type="text/javascript", src='/scripts/scroll.js')
-        script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/v2/register.js')
-        script(type="text/javascript", src='/scripts/v2/lang.js')
-        // endbuild
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
+
 
         // end scripts
         script(type='text/javascript').
