@@ -394,8 +394,7 @@
     "logo": {
       "title": "Upplication Logo",
       "title_xmas": "Upplication Xmas Logo",
-      "url": "@@config.base_path/images/home/icons/upplication.svg",
-      "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png"
+      "url": "@@config.base_path/generator-aplikasi/"
     },
     "menu": "menu",
     "nav": {

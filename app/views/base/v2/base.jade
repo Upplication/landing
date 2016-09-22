@@ -66,25 +66,13 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         block css
 
     body
-        //- Facebook "share" button plugin
-        #fb-root
-        script.
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-
         //- MAIN HEADER
         #home.header
             #move-top.top-header
                 .container
                     .logo
-                        a(href='index.html')
-                            img(src='#{header.logo.url}', title='#{header.logo.title}')
+                        a(href='#{header.logo.url}', alt='#{header.logo.title}')
+                            img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{header.logo.title}')
                     nav.top-nav
                         ul.top-nav-list.hide-ul
                             li.how

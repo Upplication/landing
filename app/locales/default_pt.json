@@ -393,8 +393,7 @@
     "logo": {
       "title": "Logotipo da Upplication",
       "title_xmas": "Upplication logo de Natal",
-      "url": "@@config.base_path/images/home/icons/upplication.svg",
-      "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png"
+      "url": "@@config.base_path/Criar-a-minha-app/"
     },
     "menu": "menu",
     "nav": {

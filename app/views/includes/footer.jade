@@ -31,7 +31,7 @@
              h2 !{footer.try_it}
              span #{home.permanence}
           .trial-block-right
-             a.price-btn.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}') #{header.free_trial}
+             a.price-btn.modal-trigger(href='#free-trial', title='#{header.free_trial}') #{header.free_trial}
           .clearfix
 //- COSTUMERS SERVICES CONTACT AREA
 .customer-service
@@ -127,27 +127,6 @@ footer.page-footer
                                 li.google
                                     a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
                                         i.icon.icon-gplus
-                    //- Footer :: Social Media share buttons :: Hide to the user (opacity: 0)
-                    .footer-socialmedia-btns
-                        .container
-                            ul.rrss.right.hover-anim
-                                li
-                                    a.twitter-follow-button(href='#{external.social_media_btns.twitter}', data-show-count='false')
-                                li
-                                    a.fb-share-button(href='#{external.facebook.url}', data-layout='button')
-                                li
-                                    script(src='//platform.linkedin.com/in.js', type='text/javascript').
-                                        lang: en_US
-                                    script(type='IN/Share')
-                                li
-                                    script(src='https://apis.google.com/js/platform.js', async='', defer='').
-                                        {lang: 'es'}
-                                    .g-plus(data-action='share', data-annotation='none')
-                                li
-                                    span.ig-follow(data-id='5479dee', data-handle='igfbdotcom', data-count='false', data-size='small', data-username='true')
-                                li
-                                    script(src='https://apis.google.com/js/platform.js')
-                                    .g-ytsubscribe(data-channel='GoogleDevelopers', data-layout='default', data-count='hidden')
                     //- Footer :: Partners links
                     .footer-bottom
                         .container
