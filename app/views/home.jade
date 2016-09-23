@@ -22,11 +22,11 @@ block content
             li
                 img(src='#{localConfig.base_path}/images/home/bg/bgpymes.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bgcoffeeshop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgcoffeeshop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
         .dippah.skew-right
 
     // REGISTER PANEL :: "15 days free trial" (DESKTOP - LAPTOP)
@@ -262,13 +262,13 @@ block content
             li
                 img(src='#{localConfig.base_path}/images/home/bg/bg_01.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_02.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_02.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_03.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_03.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_04.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_04.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_05.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_05.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
 
     // CLIENTS :: new testimonial area
     #about.about
@@ -311,6 +311,21 @@ block scripts
 
     script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
 
+    script(type='text/javascript').
+        $(function () {
+            setTimeout(function() {
+                $(".slides [data-src]").each(function() {
+                    var $this = $(this);
+                    $this.attr('src', $this.attr('data-src'));
+                });
+                // restart slider
+                $('.slider').slider({
+                    indicators: false,
+                    interval: 4000
+                });
+            }, 3000);
+        });
+
     // TYPED PLUGIN JS
     script(type='text/javascript').
         $(function () {
@@ -328,8 +343,8 @@ block scripts
         $(document).ready(function () {
             $('ul.tabs').tabs();
             $('.parallax').parallax();
-            $('.slider').slider({
-                indicators: false,
-                interval: 4000
-            });
         });
+        $('.slider').slider({
+            indicators: false,
+            interval: 4000
+        }).slider('pause');
