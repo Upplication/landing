@@ -65,8 +65,9 @@ footer.page-footer
                             .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.help}
                                 ul.footLinks
-                                    li
-                                        a(href='#{external.helpcenter.url}', title='#{external.helpcenter.anchor}') #{external.helpcenter.anchor}
+                                    // Temporaly disabled "Help Center" link
+                                        li
+                                            a(href='#{external.helpcenter.url}', title='#{external.helpcenter.anchor}') #{external.helpcenter.anchor}
                                     li
                                         a(href='#{external.tutorials.url}', title='#{external.tutorials.anchor}') #{external.tutorials.anchor}
                                     li
@@ -77,9 +78,9 @@ footer.page-footer
                                     li
                                         a(href='#tabs', title='#{external.features.anchor}') #{external.features.anchor}
                                     li
-                                        a(href='#about', title='#{external.create_apps.anchor}') #{external.create_apps.anchor}
+                                        a(href='#timeline', title='#{external.create_apps.anchor}') #{external.create_apps.anchor}
                                     li
-                                        a(href='#tabs', title='#{external.apps.anchor}') #{external.apps.anchor}
+                                        a(href='#about', title='#{external.apps.anchor}') #{external.apps.anchor}
                                     li
                                         a(href='#{external.pricing.url}', title='#{external.pricing.anchor}') #{external.pricing.anchor}
                             .col.l3.s12.footer-nav-col
@@ -92,11 +93,12 @@ footer.page-footer
                                     // li
                                         a(href='#{external.partners.url}', title='#{external.partners.anchor}') #{external.partners.anchor}
                                     li
-                                        a.modal-trigger(href='#hiring', title='#{external.hiring}', target='_blank') #{external.hiring}
-                                    li
                                         a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
-                                    // li
-                                        a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
+                                    li
+                                        a.modal-trigger(href='#hiring', title='#{external.hiring}', target='_blank') #{external.hiring}
+                                    // Temporaly disabled "Press Area" link
+                                        li
+                                            a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
                             .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.legal}
                                 ul.footLinks
