@@ -18,7 +18,6 @@ var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
 var revdel = require('gulp-rev-delete-original');
 var merge = require('merge-stream');
-var usemin = require('gulp-jade-usemin');
 var _ = require('lodash');
 
 var onesky = require('./gulp/onesky');
