@@ -778,7 +778,6 @@ a.unstyled {
   color: #fff;
   background-color: #fabe78;
   width: 380px;
-  background-image: url(@@config.base_path/images/cookie.png);
   background-position: 15px 15px;
   background-repeat: no-repeat;
   -webkit-transition: all,3s,ease-in-out;
@@ -790,7 +789,6 @@ a.unstyled {
 }
 
 #cookies p {
-  padding: 1.5em 1.5em 1.5em 6em;
   color: brown;
   position: relative;
 }
