@@ -336,6 +336,7 @@
     "company": "Perusahaan",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>Penggunaan Cookies</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/terms-aplicateca-indonesian/'>Penggunaan Cookies.</a>.",
+    "free_trial": "Coba gratis",
     "media": "Media",
     "partners": {
       "eu": {
@@ -378,7 +379,8 @@
         "url": "@@config.base_path/terms/#uso"
       }
     },
-    "try_it": "Coba <strong>gratis 15 hari</strong>!"
+    "try_it": "Coba gratis!",
+    "try_it_free": "Coba 15 hari dengan guru pribadi"
   },
   "form": {
     "call_to_action": "Build your own App now!",

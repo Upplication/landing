@@ -338,6 +338,7 @@
     "company": "Compañía",
     "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/#cookies-policy'>política de cookies</a>.",
     "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-aplicateca/'>política de cookies.</a>",
+    "free_trial": "Crear mi app gratis",
     "media": "Medios y redes",
     "partners": {
       "eu": {
@@ -380,7 +381,8 @@
         "url": "@@config.base_path/terminos/#uso"
       }
     },
-    "try_it": "¡Crea tu app, tienes <strong>15 días gratis</strong>!"
+    "try_it": "¡Crea tu aplicación ahora!",
+    "try_it_free": "15 días de prueba gratis con ayuda personalizada"
   },
   "form": {
     "call_to_action": "¡Crea ahora tu app gratis!",

@@ -5,7 +5,7 @@
     "_meta_title": "Cria a tua app da tua PME - Upplication",
     "_priority": "1.0",
     "_url": "/Criar-a-minha-app/",
-    "create_free": "Criar a minha app grátis",
+    "create_free": "Teste grátis",
     "how": {
       "app_ready": " <span>A tua App</span> lista ",
       "how_four": {
@@ -174,7 +174,7 @@
       },
       "title": "<span>Histórias de</span> sucesso"
     },
-    "try": "Cria a tua app, tens 15 dias grátis!",
+    "try": "Cria a tua app,<br/>tens 15 dias grátis!",
     "vodafone": {
       "logo": "Logotipo Vodafone"
     },

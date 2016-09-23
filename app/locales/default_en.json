@@ -338,6 +338,7 @@
     "company": "Compañía",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>cookies policy</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
+    "free_trial": "Free trial",
     "media": "Medios y redes",
     "partners": {
       "eu": {
@@ -380,7 +381,8 @@
         "url": "@@config.base_path/terms/#uso"
       }
     },
-    "try_it": "Try it <strong>free for 15 days</strong>!"
+    "try_it": "Create your App now!",
+    "try_it_free": "15 days free trial with professional support"
   },
   "form": {
     "call_to_action": "Build your own App now!",

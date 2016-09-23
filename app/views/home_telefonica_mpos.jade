@@ -41,6 +41,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/deprecated/main.css')
 
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/telefonica/telefonica.css')
+
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
         link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
@@ -166,26 +168,35 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     section.bg-alabaster.padding.clearfix.padding-top-3x.padding-bottom-2x.press
                         ul.acenter.margin-top-2x
                             li
-                                a(href="#{home.press.abc}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/abc.png", alt="ABC")
+                                a(href="#{ourclients.client5.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='#{ourclients.client5.alt}', title='#{ourclients.client5.title}')
                             li
-                                a(href="#{home.press.el_economista}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/eleconomista.png", alt="elEconomista")
+                                a(href="#{ourclients.client8.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/tve.png', alt='#{ourclients.client8.alt}', title='#{ourclients.client8.title}')
                             li
-                                a(href="#{home.press.agencia_efe}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/emprende.png", alt="EFE Emprende")
+                                a(href="#{ourclients.client4.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='#{ourclients.client4.alt}', title='#{ourclients.client4.title}')
                             li
-                                a(href="#{home.press.forbes}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/forbes.png", alt="Forbes")
+                                a(href="#{ourclients.client9.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/larazon.png', alt='#{ourclients.client9.alt}', title='#{ourclients.client9.title}')
                             li
-                                a(href="#{home.press.telefonica}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/telefonica.png", alt="Think Big Telefonica")
+                                a(href="#{ourclients.client10.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/expansion.png', alt='#{ourclients.client10.alt}', title='#{ourclients.client10.title}')
                             li
-                                a(href="#{home.press.ticbeat}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/ticbeat.png", alt="Ticbeat")
+                                a(href="#{ourclients.client2.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='#{ourclients.client2.alt}', title='#{ourclients.client2.title}')
                             li
-                                a(href="#{home.press.wwwhatsnew}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/wwwhatsnew.png", alt="wwwhatsnew")
+                                a(href="#{ourclients.client1.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
+                            li
+                                a(href="#{ourclients.client3.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='#{ourclients.client3.alt}', title='#{ourclients.client3.title}')
+                            li
+                                a(href="#{ourclients.client6.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='#{ourclients.client6.alt}', title='#{ourclients.client6.title}')
+                            li
+                                a(href="#{ourclients.client7.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='#{ourclients.client7.alt}', title='#{ourclients.client7.title}')
 
                     section.padding.clearfix
                         h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x !{home.testimonials.title}
@@ -209,9 +220,17 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     a(href="#{home.successful_showcase_restaurant.download.google_play_url}", target="_blank", title="#{home.successful_showcase_restaurant.download.google_play}") !{home.successful_showcase_restaurant.download.google_play}
                 #dark-layout
 
-                section.bg-alabaster.padding.clearfix.padding-top-4x.padding-bottom-4x.acenter
-                    h1.inline-block.no-margin #{home.try}
-                    a.wide.btn.bold.inline-block.triggers-signup.margin-left-2x.green-accent-btn(href="#", onclick="return false") #{home.create_free}
+                // Free Trial
+                .trial-block
+                    .container
+                        .trial-block-grids
+                            .trial-block-left
+                                h2 #{footer.try_it}
+                                h3 #{footer.try_it_free}
+                                span #{home.permanence}
+                            .trial-block-right
+                                a.price-btn.modal-trigger(href='#free-trial', title='#{footer.free_trial}') #{footer.free_trial}
+                            .clearfix
 
                 .footer-container.footer-container-tlf
                     section

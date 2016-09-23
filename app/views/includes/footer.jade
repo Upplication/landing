@@ -37,10 +37,15 @@
    .container
       .trial-block-grids
           .trial-block-left
-             h2 !{footer.try_it}
-             span #{home.permanence}
+             h2 #{footer.try_it}
+             h3 #{footer.try_it_free}
+             span
+                 i.icon.icon-asterisk
+                 | #{home.permanence}
           .trial-block-right
-             a.price-btn.modal-trigger(href='#free-trial', title='#{header.free_trial}') #{header.free_trial}
+              a.price-btn.modal-trigger(href='#free-trial', title='#{footer.free_trial}')
+                  i.icon.icon-rocket
+                  | #{footer.free_trial}
           .clearfix
 //- COSTUMERS SERVICES CONTACT AREA
 .customer-service
