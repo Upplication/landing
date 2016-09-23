@@ -14,10 +14,10 @@
         "publish_step3": "Recuerda: Desde tu <b>panel de control</b>, podrás controlar el número de <b>descargas de tu App</b>.",
         "publish_step4": "¿Comenzamos?"
       },
-      "how_main": "Crea tu aplicación en pocos minutos con ayuda personalizada",
+      "how_main": "Crea tu aplicación en pocos minutos y con ayuda personalizada",
       "how_one": {
         "reg_step1": "Regístrate",
-        "reg_step2": "¡Estás a 3 datos de que tu negocio haga historia!",
+        "reg_step2": "¡Estás a 3 clics de que tu negocio haga historia!",
         "reg_step3": "Introduce el <b>nombre de tu app</b>, <b>email</b> y <b>contraseña</b>.",
         "reg_step4": "Recuerda: Tienes <b>15 días</b> de <b>prueba gratis</b> con <b>ayuda personalizada</b>.",
         "reg_step5": "¿Comenzamos?",
@@ -25,11 +25,12 @@
       },
       "how_three": {
         "tutor_step1": "Tutor personal",
-        "tutor_step2": "Antes, durante y después de la publicación de tu App, <b>tendrás la ayuda de un Tutor</b> que te guiará tanto en la idea como en la creación de tu App, a través de nuestro <b>chat</b>, <b>email</b>, y <b>teléfono</b>, ¡tú eliges!"
+        "tutor_step2": "Antes, durante y después de la publicación de tu App, <b>tendrás la ayuda de un Tutor</b> que te guiará tanto en la idea como en la creación de tu aplicación, a través de nuestro <b>chat</b>, <b>email</b>, y <b>teléfono</b>, ¡tú eliges!"
       },
+
       "how_two": {
         "app_step1": "Crea tu App",
-        "app_step2": "¿Tienes <b>Página de negocio en Facebook</b>? Tan sencillo como introducir esa URL y probar nuestro <span>onboarding</b>... ¡hacemos magia!",
+        "app_step2": "¿Tienes <b>Página de negocio en Facebook</b>? Tan sencillo como introducir esa URL y probar nuestra <span>plataforma</b>... ¡Hacemos magia!",
         "app_step3": "Siempre podrás <b>personalizar tu App</b> con diferentes módulos y plantillas y enviar <b>notificaciones push a tus clientes</b>."
       }
     },
@@ -99,37 +100,37 @@
       },
       "business": "Aplicaciones para todo tipo de empresas",
       "custom": {
-        "cust_details1": "<span>Personal</span>: sube tu currículum, presentaciones, trabajos...",
-        "cust_details2": "<span>Música</span>: sube música y vídeos, fechas de conciertos, merchandising...",
-        "cust_details3": "<span>Eventos</span>: sube la agenda del evento, envía alertas push, introduce galerías...",
-        "cust_details4": "<span>Turismo</span>: Introduce mapas, recomienda lugares, sube ofertas gastronómicas...",
+        "cust_details1": "<span>Personal</span>: muestra tu currículum, presentaciones o trabajos para diferenciarte del resto.",
+        "cust_details2": "<span>Ocio</span>: sube música y vídeos, fechas de conciertos, merchandising y haz que todo el mundo se entere de lo que sucede.",
+        "cust_details3": "<span>Eventos</span>: incluye la agenda de tu evento, envía alertas push, introduce buenas imágenes y mantén informados a los asistentes antes, durante y después.",
+        "cust_details4": "<span>Turismo</span>: añade mapas, recomienda lugares o publica ofertas gastronómicas porque así ofrecerás una experiencia única.",
         "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de los que necesites"
       },
       "free_app": "Crear mi app Gratis",
       "personal": "Personalizadas",
       "rest": {
-        "details1": "Tus clientes podrán <span>reservar mesa</span> desde su móvil.",
-        "details2": "Realiza <span>envío a domicilio</span> de tus productos.",
-        "details3": "Muestra <span>cupones descuento</span> en la app.",
+        "details1": "Tus clientes podrán <span>reservar mesa</span> cómodamente desde su móvil.",
+        "details2": "Recibe <span>pedidos a domicilio</span> de tu aplicación.",
+        "details3": "Añade <span>cupones descuento</span> en tu app.",
         "details4": "Envía <span>alertas push</span> con ofertas exclusivas.",
-        "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>aporta valor a tu cliente</span>."
+        "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>fideliza a tus clientes</span>"
       },
       "restaurants": "Hostelería",
       "serv": "<em>Servicios</em> Profesionales",
       "serv_alt": "Servicios Profesionales",
       "services": {
-        "serv_details1": "Haz que tus clientes puedan <span>contratar tus servicios</span> en cualquier lugar.",
-        "serv_details2": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes",
-        "serv_details3": "Sube <span>vídeos y fotografías</span> que promocionen tus servicios.",
-        "serv_details4": "Envía ofertas exclusivas con las <span>alertas push</span>",
-        "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en el móvil"
+        "serv_details1": "Contratarán tus servicios en <span>cualquier lugar y a cualquier hora</span>, justo cuando lo necesitan.",
+        "serv_details2": "Envía ofertas exclusivas con las <span>alertas push</span>.",
+        "serv_details3": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes.",
+        "serv_details4": "<span>Promociona tus servicios</span> añadiendo vídeos y fotografías.",
+        "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en su móvil"
       },
       "shop": {
-        "shop_details1": "Integra la pasarela de pago en cuestión de minutos y <span>empieza a vender</span>",
-        "shop_details2": "Ofrece <span>productos exclusivos</span> y aporta más valor a tu cliente.",
-        "shop_details3": "<span>Envía alertas</span> push con las mejores ofertas.",
-        "shop_details4": "Haz que tus clientes lleven <span>tu negocio en el bolsillo</span>.",
-        "shop_intro": "Crea tu app y haz que tus clientes puedan <span>comprar tus productos desde el móvil</span>"
+        "shop_details1": "Ofrece <span>productos exclusivos</span> que sólo puedan comprar con tu applicación.",
+        "shop_details2": "Tu negocio <span>24h 365 días</span> en el bolsillo de tus clientes.",
+        "shop_details3": "<span>Envía alertas</span> push con ofertas exclusivas en tu app y les fidelizarás.",
+        "shop_details4": "Integra la <span>pasarela de pago</span> en cuestión de minutos y empieza a vender.",
+        "shop_intro": "Crea tu app y conseguirás que tus clientes <span>compren tus productos desde su móvil</span>"
       },
       "shops": "Tiendas"
     },
