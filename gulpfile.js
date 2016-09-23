@@ -17,6 +17,7 @@ var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
+var minifyInline = require('gulp-minify-inline');
 var revdel = require('gulp-rev-delete-original');
 var merge = require('merge-stream');
 var _ = require('lodash');
@@ -265,6 +266,7 @@ gulp.task('post', ['rev:scripts', 'rev:styles'], function() {
     if (gutil.env.type === 'production') {
         return gulp.src('./dist/**/*.html')
             .pipe(revReplace({manifest: gulp.src("./dist/rev-manifest-*.json")}))
+            .pipe(minifyInline())
             .pipe(gulp.dest('./dist/'));
     } else {
         gutil.log("Skipped",  gutil.colors.cyan("'post'"), "task when", gutil.colors.green("--type=production"), "not present");
