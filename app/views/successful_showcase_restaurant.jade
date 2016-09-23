@@ -18,18 +18,18 @@ block content
             h4.headTitles.text-center !{successful_showcase_restaurant.how.title}
             p !{successful_showcase_restaurant.how.subtitle}
         .about-grids.row(data-aos='zoom-in')
-            .col.m4.about-grid.about-grid1.animated.fadeInLeft
+            .col.m4.about-grid.about-grid1
                 .about-grid-info
                     p !{successful_showcase_restaurant.how.text1}
                 .about-grid-pic
                     .video-container
-                        iframe(width='560' height='315', src='https://www.youtube.com/embed/gmf326nQI9I', frameborder='0', allowfullscreen='')
-            .col.m4.about-grid.about-grid2.animated.fadeInUp
+                        .youtube-player(data-id='gmf326nQI9I')
+            .col.m4.about-grid.about-grid2
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/showcase/successful-showcase-serafina-dashboard.jpg', title='#{successful_showcase_restaurant.img.blocks_bg1}', alt='#{successful_showcase_restaurant.img.blocks_bg1}')
                 .about-grid-info
                     p !{successful_showcase_restaurant.how.text2}
-            .col.m4.about-grid.about-grid1.animated.fadeInRight
+            .col.m4.about-grid.about-grid1
                 .about-grid-info.resert-for-mobile
                     p !{successful_showcase_restaurant.how.text3}
                 .about-grid-pic
@@ -40,7 +40,7 @@ block content
         .col.s12.center-align
             h4.headTitles.text-center !{successful_showcase_restaurant.app.title}
         .about-grids.row
-            .col.m4.about-grid.about-grid1.animated.fadeInRight
+            .col.m4.about-grid.about-grid1
                 .about-grid-info(data-aos='zoom-in-right')
                     img(src='#{localConfig.base_path}/images/showcase/successful-showcase-serafina-owner.jpg', title='#{successful_showcase_restaurant.img.blocks_bg3}', alt='#{successful_showcase_restaurant.img.blocks_bg3}')
                     .about-owners
@@ -51,7 +51,7 @@ block content
     // APP DOWNLOAD
     .showcase-download
         .container
-            .row.features-grids.text-center.animated.zoomIn
+            .row.features-grids.text-center
                 .col.s12.m4.offset-m2.features-grid-apple(data-aos='fade-up', data-aos-duration="1500")
                     a.features-grid.centerImg.go-to-app-store(href='#{successful_showcase_restaurant.download.app_store_url}', target="_blank", title='#{successful_showcase_restaurant.img.app_store}')
                         img.img-responsive(src='#{localConfig.base_path}/images/showcase/apple-app-store.png', alt='#{successful_showcase_restaurant.img.app_store}', title='#{successful_showcase_restaurant.img.app_store}')
@@ -66,7 +66,7 @@ block content
     // (Three Layout) LAST TIPS
     .showcase-tips
         .container
-            .row.features-grids.text-center.animated.zoomIn
+            .row.features-grids.text-center
                 .col.s12.center-align
                     h4.headTitles.text-center !{successful_showcase_restaurant.tips.title}
                 .col.s12.m4.feature-tip(data-aos='fade-right')
@@ -90,14 +90,14 @@ block content
         .col.s12.center-align
             h4.headTitles.text-center !{successful_showcase_restaurant.samples.title}
         .about-grids.row
-            .col.m4.about-grid.about-grid1.animated.fadeInRight(data-aos='fade-up')
+            .col.m4.about-grid.about-grid1(data-aos='fade-up')
                 .about-grid-info
                     .video-container
-                        iframe(width='560' height='315', src='https://www.youtube.com/embed/pbWm6NaZfbY', frameborder='0', allowfullscreen='')
+                        .youtube-player(data-id='pbWm6NaZfbY')
                     a.btn-upp.showcase-btn(href="#{successful_showcase_restaurant.samples.sample2_url}", alt='#{successful_showcase_restaurant.samples.sample2}', title="#{successful_showcase_restaurant.samples.sample2}") #{successful_showcase_restaurant.samples.sample2}
                 .about-grid-pic
                     .video-container
-                        iframe(width='560' height='315', src='https://www.youtube.com/embed/LluyPqRVGC4', frameborder='0', allowfullscreen='')
+                        .youtube-player(data-id='LluyPqRVGC4')
                     a.btn-upp.showcase-btn(href="#{successful_showcase_restaurant.samples.sample1_url}", alt='#{successful_showcase_restaurant.samples.sample1}', title="#{successful_showcase_restaurant.samples.sample1}") #{successful_showcase_restaurant.samples.sample1}
             .clearfix
 block scripts
