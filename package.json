@@ -28,6 +28,7 @@
     "event-stream": "^3.3.3",
     "gulp": "^3.9.1",
     "gulp-bower": "0.0.13",
+    "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^4.1.0",
     "gulp-data": "^1.2.1",

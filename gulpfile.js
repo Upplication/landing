@@ -8,6 +8,7 @@ var revReplace = require('gulp-rev-replace');
 var connect = require('gulp-connect');
 var replace = require('gulp-replace-task');
 var uglify = require('gulp-uglify');
+var cleanCSS = require('gulp-clean-css');
 var rev = require('gulp-rev');
 var bower = require('gulp-bower');
 var del = require('del');
@@ -287,7 +288,7 @@ gulp.task('rev:scripts', ['scripts'], function() {
 gulp.task('rev:styles', ['styles'], function() {
     if (gutil.env.type === 'production') {
         return gulp.src('./dist/styles/**/*.css')
-            .pipe(uglify())
+            .pipe(cleanCSS())
             .pipe(rev())
             .pipe(revdel())
             .pipe(gulp.dest('./dist/styles'))
