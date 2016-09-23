@@ -6388,8 +6388,12 @@ section#showcase #showcase-items .showcase-item .info-container {
         margin-top: 1.5em;
     }
 
+    a.logo {
+        padding-top: 8px;
+    }
+
     a.logo img {
-        max-height: 4em;
+        max-height: 3.5em;
     }
 }
 

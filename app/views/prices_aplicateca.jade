@@ -42,7 +42,7 @@ block content
         div.container
             h2 #{prices_aplicateca.title}
 
-            div.plans
+            div.plans.prices-aplicateca
                 each plan in prices_aplicateca.plans
                     div.plan(class="#{plan.class_name}")
                         div.plan-header
@@ -70,24 +70,6 @@ block content
                                         span.feature-title !{feature.title}
 
                             a(class="btn #{plan.btn_class}", href="https://www.aplicateca.es/upplication") #{prices_aplicateca.free_trial}
-                div.clear
-
-            div.special-plans
-                each plan in prices_aplicateca.special_plans
-                    div.plan
-                        h3 #{plan.name}
-                        div.price
-                            span(class="price") #{plan.price}
-                            span(class="price-details")
-                                span(class="currency") #{prices_aplicateca.euro}
-                                span(class="period") #{prices_aplicateca.month}
-                                span(class="notice") #{prices_aplicateca.iva_included}
-                        ul
-                            each feature in plan.features
-                                li #{feature}
-                        a.btn.btn-grey(href="mailto:aplicateca@upplication.com") #{plan.btn_text}
-                        if plan.has_permanency
-                            span.acenter.font-size-9px.block.margin-top-2x #{prices_aplicateca.permanency}
                 div.clear
 
             div.clear
