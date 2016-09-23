@@ -758,7 +758,7 @@
     "_priority": "0.6",
     "_url": "/precios/",
     "rates": {
-      "all_push": "Notificaciones <strong>ilimitadas</strong>",
+      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
       "app_web": "App y WebApp",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
@@ -766,7 +766,7 @@
       "euro_year": "€ / año",
       "four_push": "<strong>4</strong> notificaciones push / mes",
       "icons": {
-        "all_push": "Notificaciones ilimitadas",
+        "all_push": "Notificaciones push ilimitadas",
         "bullhorn": "Publicidad Upplication",
         "four_push": "4 notificaciones push / mes",
         "no_bullhorn": "Sin publicidad Upplication",
