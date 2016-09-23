@@ -287,6 +287,7 @@ gulp.task('rev:scripts', ['scripts'], function() {
 gulp.task('rev:styles', ['styles'], function() {
     if (gutil.env.type === 'production') {
         return gulp.src('./dist/styles/**/*.css')
+            .pipe(uglify())
             .pipe(rev())
             .pipe(revdel())
             .pipe(gulp.dest('./dist/styles'))
