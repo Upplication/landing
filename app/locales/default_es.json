@@ -9,17 +9,17 @@
       "title": "<span>Conoce</span> nuestros departamentos",
       "develop": {
         "img": "¡Todos los frikis reunidos!",
-        "text": "Cordova, AngularJS, Java, CSS, UX… Nos encanta la tecnología y somos un poco freaks. Trabajamos con metodologías ágiles y estamos cambiando la forma en que las pymes del mundo crean sus apps móviles. Todos los días aprendemos algo nuevo.",
+        "text": "Cordova, AngularJS, Java, CSS, UX… Somos los que hemos desarrollado la plataforma más sencilla (y más bonita) para que puedas <b>crear una aplicación móvil sin conocimientos de informática</b>. Trabajamos con metodologías ágiles porque somos conscientes de la importancia de la <b>innovación en el mundo empresarial</b> y cada día nos esforzamos en aprender algo nuevo para mejorar tantos los procesos como la plataforma. ¡Nos encanta la tecnología y somos un poco (bastante) freaks!",
         "title": "Dpto. Desarrollo"
       },
       "marketing": {
         "img": "El trabajo duro de nuestros vendedores",
-        "text": "Lideramos el crecimiento del proyecto en cualquier rincón del mundo. Nuestro día a día está orientado a los datos y la analítica. Siempre pensando en cómo vender más y más rápido. Cada vez que tenemos un nuevo cliente hacemos sonar un bocina en nuestras oficinas.",
+        "text": "Objetivo: crecer, crecer y crecer. Ya <b>tenemos clientes en 78 países de todo el mundo</b> y lideramos el crecimiento del proyecto a través de acciones conjuntas de Marketing y Comunicación. Nuestro día a día está orientado a los datos y la analítica. Somos <b>expertos en Mobile</b> y también ofrecemos a nuestros clientes formación continua con <b>contenido en nuestro blog</b>, <b>cursos</b>, <b>eBooks</b>, <b>talleres</b>, etc.¡Cada vez que tenemos un nuevo cliente, hacemos sonar un bocina la oficina!",
         "title": "Dpto. Marketing"
       },
       "support": {
         "img": "Belén llamando a nuestros clientes con su mejor sonrisa",
-        "text": "Objetivo prioritario, que el cliente sea feliz. Hablamos todos los días con cientos de usuarios de más de 65 países del mundo. Somos muy cercanos y siempre tenemos una sonrisa en la boca. Nos encanta ayudarte para que tu experiencia con nosotros sea rentable.",
+        "text": "Objetivo: asesorarte antes, durante y después de la creación de tu aplicación móvil. Cada cliente es único y <b>te ofrecemos una ayuda personalizada porque somos expertos en creación y desarrollo de aplicaciones móviles</b>. Somos muy cercanos y tu opinión es muy importante para nosotros para mejorar nuestro producto y conseguir que tu experiencia con nosotros se convierta en algo rentable para tu empresa. ¡Y todo esto siempre con la mejor de las sonrisas en la boca!",
         "title": "Dpto. Soporte"
       }
     },
@@ -321,7 +321,7 @@
     },
     "tutorials": {
       "anchor": "Tutoriales",
-      "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+      "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
     "twitter": {
       "anchor": "Twitter",
@@ -338,6 +338,7 @@
     "company": "Compañía",
     "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/#cookies-policy'>política de cookies</a>.",
     "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-aplicateca/'>política de cookies.</a>",
+    "free_trial": "Crear mi app gratis",
     "media": "Medios y redes",
     "partners": {
       "eu": {
@@ -380,7 +381,8 @@
         "url": "@@config.base_path/terminos/#uso"
       }
     },
-    "try_it": "¡Crea tu app, tienes <strong>15 días gratis</strong>!"
+    "try_it": "¡Crea tu aplicación ahora!",
+    "try_it_free": "15 días de prueba gratis con ayuda personalizada"
   },
   "form": {
     "call_to_action": "¡Crea ahora tu app gratis!",
@@ -708,7 +710,7 @@
     "client2": {
       "alt": "Logotipo El Economista",
       "title": "Upplication en El Economista",
-      "url": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html"
+      "url": "http://www.eleconomista.es/emprendedores-pymes/noticias/6747454/05/15/La-transformacion-digital-y-la-innovacion-claves-para-la-competitividad-de-las-pymes-.html"
     },
     "client3": {
       "alt": "Logotipo Forbes",
@@ -718,12 +720,12 @@
     "client4": {
       "alt": "Logotipo EFE: Emprende",
       "title": "Upplication en EFE: Emprende, noticias sobre empresas y emprendedores",
-      "url": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/"
+      "url": "http://www.efeemprende.com/noticia/los-emprendedores-pueden-crear-propias-apps-sin-programar-upplication/"
     },
     "client5": {
       "alt": "Logotipo Telefónica",
-      "title": "Upplication en Blogthinkbig de Telefónica",
-      "url": "http://blogthinkbig.com/upplication-post-pc/"
+      "title": "Upplication en Open Future de Telefónica",
+      "url": "https://www.openfuture.org/es/new/fideliza-a-los-clientes-de-tu-startup-creando"
     },
     "client6": {
       "alt": "Logotipo TicBeat",
@@ -734,6 +736,21 @@
       "alt": "Logotipo wwwhat´s new",
       "title": "wwwhat´s new, noticias sobre tecnologías web y apps",
       "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+    },
+    "client8": {
+      "alt": "Logotipo TVE",
+      "title": "Reportaje en Zoom Net de TVE",
+      "url": "http://www.rtve.es/alacarta/videos/zoom-net/zoom-net-upplication-huawei-p9-uncharted-4/3571439/"
+    },
+    "client9": {
+      "alt": "Logotipo La Razón",
+      "title": "Entrevista en el diario La Razón",
+      "url": "http://www.larazon.es/damesuplementos/tueconomia/2016-09-11_TUE__/index.html#3"
+    },
+    "client10": {
+      "alt": "Logotipo Expansión",
+      "title": "Reportaje en el diario Expansión",
+      "url": "http://www.expansion.com/emprendedores-empleo/emprendedores/2016/01/15/56992402ca4741fa468b45d4.html?cid=SMBOSO22801&s_kw=twitter"
     }
   },
   "page_not_found": {
@@ -758,7 +775,7 @@
     "_priority": "0.6",
     "_url": "/precios/",
     "rates": {
-      "all_push": "Notificaciones <strong>ilimitadas</strong>",
+      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
       "app_web": "App y WebApp",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
@@ -766,7 +783,7 @@
       "euro_year": "€ / año",
       "four_push": "<strong>4</strong> notificaciones push / mes",
       "icons": {
-        "all_push": "Notificaciones ilimitadas",
+        "all_push": "Notificaciones push ilimitadas",
         "bullhorn": "Publicidad Upplication",
         "four_push": "4 notificaciones push / mes",
         "no_bullhorn": "Sin publicidad Upplication",

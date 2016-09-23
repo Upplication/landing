@@ -321,7 +321,7 @@
     },
     "tutorials": {
       "anchor": "Tutorials",
-      "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+      "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
     "twitter": {
       "anchor": "Twitter",
@@ -338,6 +338,7 @@
     "company": "Compañía",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>cookies policy</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
+    "free_trial": "Free trial",
     "media": "Medios y redes",
     "partners": {
       "eu": {
@@ -380,7 +381,8 @@
         "url": "@@config.base_path/terms/#uso"
       }
     },
-    "try_it": "Try it <strong>free for 15 days</strong>!"
+    "try_it": "Create your App now!",
+    "try_it_free": "15 days free trial with professional support"
   },
   "form": {
     "call_to_action": "Build your own App now!",
@@ -708,7 +710,7 @@
     "client2": {
       "alt": "El Economista logo",
       "title": "Upplication in El Economista",
-      "url": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html"
+      "url": "http://www.eleconomista.es/emprendedores-pymes/noticias/6747454/05/15/La-transformacion-digital-y-la-innovacion-claves-para-la-competitividad-de-las-pymes-.html"
     },
     "client3": {
       "alt": "Forbes logo",
@@ -718,12 +720,12 @@
     "client4": {
       "alt": "EFE: Emprende logo",
       "title": "Upplication in EFE: Emprende, business news",
-      "url": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/"
+      "url": "http://www.efeemprende.com/noticia/los-emprendedores-pueden-crear-propias-apps-sin-programar-upplication/"
     },
     "client5": {
       "alt": "Telefónica logo",
-      "title": "Upplication in Telefónica´s Blogthinkbig",
-      "url": "http://blogthinkbig.com/upplication-post-pc/"
+      "title": "Upplication in Telefónica´s Open Future",
+      "url": "https://www.openfuture.org/es/new/fideliza-a-los-clientes-de-tu-startup-creando"
     },
     "client6": {
       "alt": "TicBeat logo",
@@ -734,6 +736,21 @@
       "alt": "wwwhat´s new logo",
       "title": "wwwhat´s new, technology and business app news",
       "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+    },
+    "client8": {
+      "alt": "TVE logo",
+      "title": "TVE interview in Zoom Net show",
+      "url": "http://www.rtve.es/alacarta/videos/zoom-net/zoom-net-upplication-huawei-p9-uncharted-4/3571439/"
+    },
+    "client9": {
+      "alt": "La Razón logo",
+      "title": "Daily La Razón interview",
+      "url": "http://www.larazon.es/damesuplementos/tueconomia/2016-09-11_TUE__/index.html#3"
+    },
+    "client10": {
+      "alt": "Expansión logo",
+      "title": "Daily Expansión interview",
+      "url": "http://www.expansion.com/emprendedores-empleo/emprendedores/2016/01/15/56992402ca4741fa468b45d4.html?cid=SMBOSO22801&s_kw=twitter"
     }
   },
   "page_not_found": {
@@ -741,7 +758,7 @@
     "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
     "_meta_title": "404: Page not found in Upplication: the app creator",
     "_url": "/page-not-found/",
-    "advice1": "The adress (URL) is not correct.",
+    "advice1": "The address (URL) is not correct.",
     "advice2": "You have not internet conection.",
     "advice3": "The page is out-dated and has been removed.",
     "advice4": "The page does not exist in the linguistic version required.",
