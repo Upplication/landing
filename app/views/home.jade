@@ -284,11 +284,11 @@ block content
                             i.icon.icon-left
                 .about-grid-pic
                     .video-container
-                        iframe(width='560' height='315', src='https://www.youtube.com/embed/LluyPqRVGC4', frameborder='0', allowfullscreen='')
+                        .youtube-player(data-id='LluyPqRVGC4')
             .col.m4.about-grid.about-grid2(data-aos='fade-up')
                 .about-grid-pic
                     .video-container
-                        iframe(width='560' height='315', src='https://www.youtube.com/embed/pbWm6NaZfbY', frameborder='0', allowfullscreen='')
+                        .youtube-player(data-id='pbWm6NaZfbY')
                 .about-grid-info
                     h4 !{home.testimonials.client2.name}
                     p #{home.testimonials.client2.quote}
@@ -304,7 +304,7 @@ block content
                             i.icon.icon-left
                 .about-grid-pic
                     .video-container
-                        iframe(width='560' height='315', src='https://www.youtube.com/embed/gmf326nQI9I', frameborder='0', allowfullscreen='')
+                        .youtube-player(data-id='gmf326nQI9I')
             .clearfix
 
 block scripts
@@ -332,5 +332,4 @@ block scripts
                 indicators: false,
                 interval: 4000
             });
-            // end home
         });
