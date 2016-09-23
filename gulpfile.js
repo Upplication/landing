@@ -8,6 +8,7 @@ var revReplace = require('gulp-rev-replace');
 var connect = require('gulp-connect');
 var replace = require('gulp-replace-task');
 var uglify = require('gulp-uglify');
+var cleanCSS = require('gulp-clean-css');
 var rev = require('gulp-rev');
 var bower = require('gulp-bower');
 var del = require('del');
@@ -117,6 +118,72 @@ var routes = function () {
     return routing;
 }();
 
+gulp.task('vendor:js', ['bower'], function() {
+    var baseTask =
+        gulp.src([
+            './dist/bower_components/jquery/dist/jquery.min.js',
+            './dist/bower_components/materialize/dist/js/materialize.min.js',
+            './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js',
+            './dist/bower_components/aos/dist/aos.js'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('base.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/scripts/vendor'));
+
+    var vodafoneTask =
+        gulp.src([
+            './dist/bower_components/jquery/dist/jquery.min.js',
+            './dist/bower_components/materialize/dist/js/materialize.min.js'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('vodafone.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/scripts/vendor'));
+
+    var mposTask =
+        gulp.src([
+            './dist/bower_components/zepto/zepto.min.js',
+            './dist/bower_components/zeptojs/src/touch.js',
+            './dist/bower_components/magnific-popup/dist/jquery.magnific-popup.js'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('mpos.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/scripts/vendor'));
+
+    return merge([baseTask, vodafoneTask, mposTask]);
+});
+
+gulp.task('vendor:css', ['bower'], function() {
+    var baseTask =
+        gulp.src([
+            './dist/bower_components/upplication-icons/dist/upplication-icons.css',
+            './dist/bower_components/materialize/dist/css/materialize.min.css',
+            './dist/bower_components/bootstrap/dist/css/bootstrap.min.css',
+            './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.css',
+            './dist/bower_components/aos/dist/aos.css'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('base.css'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/styles/vendor'));
+
+    var vodafoneTask =
+        gulp.src([
+            './dist/bower_components/magnific-popup/dist/magnific-popup.css',
+            './dist/bower_components/upplication-icons/dist/upplication-icons.css',
+            './dist/bower_components/materialize/dist/css/materialize.min.css',
+            './dist/bower_components/bootstrap/dist/css/bootstrap.min.css'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('vodafone.css'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/styles/vendor'));
+
+    return merge([baseTask, vodafoneTask]);
+});
+
 gulp.task('templates', function() {
 
     var getLocale = function(file) {
@@ -221,6 +288,7 @@ gulp.task('rev:scripts', ['scripts'], function() {
 gulp.task('rev:styles', ['styles'], function() {
     if (gutil.env.type === 'production') {
         return gulp.src('./dist/styles/**/*.css')
+            .pipe(cleanCSS({processImport: false}))// not process import because a timeout error:
             .pipe(rev())
             .pipe(revdel())
             .pipe(gulp.dest('./dist/styles'))
@@ -335,6 +403,6 @@ gulp.task('sitemap', function () {
         .pipe(gulp.dest("dist"));
 });
 
-gulp.task('default', ['templates', 'styles', 'scripts', 'post', 'bower', 'copy:images', 'copy', 'sitemap', 'routing', 'connect', 'watch']);
-gulp.task('deploy', ['templates', 'styles', 'scripts', 'post', 'bower', 'copy:images', 'copy', 'sitemap', 'routing']);
+gulp.task('default', ['templates', 'styles', 'scripts', 'post', 'bower', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing', 'connect', 'watch']);
+gulp.task('deploy', ['templates', 'styles', 'scripts', 'post', 'bower', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing']);
 

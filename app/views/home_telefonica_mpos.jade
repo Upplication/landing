@@ -39,13 +39,13 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/deprecated/main.css')
 
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/telefonica/telefonica.css')
 
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
 
     body(id="#{_template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
@@ -246,11 +246,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             span#cookies-accept.close X
 
         include includes/mpos/signup
-        //-script(src='/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
 
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/mpos.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/mpos.js')
 
         script(type='text/javascript').

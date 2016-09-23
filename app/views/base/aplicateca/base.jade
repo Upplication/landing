@@ -44,8 +44,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
         link(rel="shortcut icon", href="#{localConfig.base_path}/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
-        
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
 
     body(id="#{_template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
@@ -66,9 +64,5 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                         p !{footer.cookies_aplicateca}
                             span#cookies-accept.close X
 
-        //-script(src='/bower_components/zeptojs/src/touch.js')
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
-
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')

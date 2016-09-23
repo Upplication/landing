@@ -4,6 +4,16 @@
 $(function () {
     'use strict';
 
+    // Display cookies announce
+    if (!getCookie("showed-cookies")) {
+        $("#cookies").addClass("show");
+    }
+
+    $("#cookies-accept").click(function() {
+        setCookie("showed-cookies", "true");
+        $("#cookies").removeClass('show');
+    });
+
     var Topic = function($){
         return {
             _observers: {},

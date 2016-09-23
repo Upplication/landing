@@ -56,12 +56,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-96x96.png', sizes='96x96')
         link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
         link(rel='manifest', href='#{localConfig.base_path}/images/favicon/manifest.json')
-        link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/upplication-icons.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/aos/dist/aos.css')
+
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/vendor/base.css')
 
         block css
 
@@ -150,14 +146,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             i#cookies-accept.icon.icon-cross
             p !{footer.cookies}
 
-        // vendor js
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/aos/dist/aos.js')
-        // endvendor
 
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
 
