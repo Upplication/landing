@@ -1,0 +1,110 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: JOBS OFFERS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import "../base/_common.less";
+
+
+
+.offer-jobs {
+  width: 100%;
+  max-width: 950px;
+  margin-top: 6em;
+
+  // top IMG
+  img {
+    vertical-align: middle;
+    width: 98%;
+    height: auto;
+  }
+
+  // General Paragraphs
+  .offer-jobs-text {
+    color: @black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+    // List styles
+    ul {
+      li {
+        padding-left: 15px;
+
+        &:before {
+          content: "\f111";
+          color: @light-lilac;
+          font-size: 8px !important;
+          position: relative;
+          bottom: 3px;
+          padding-right: 10px;
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          font-size: inherit;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+        }
+      }
+    }
+
+    // Specific Paragraphs
+    &.intro {
+      padding-top: 30px;
+    }
+
+    &.wewantyou {
+      font-weight: 400;
+
+      a {
+        color: @main-green;
+        font-weight: 500;
+
+        &:hover {
+          color: darken(@main-green, 10%);
+        }
+      }
+    }
+
+    &.cheers {
+      font-style: italic;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-align: center;
+      padding-top: 20px;
+
+      p {
+        color: @dark-lilac;
+
+        &:last-child {
+          color: @medium-lilac;
+        }
+      }
+    }
+  }
+}
+
+
+/* ... MEDIA QUERIES ... */
+
+@media only screen and (max-width: 420px) {
+  .offer-jobs {
+    .headTitles {
+      font-size: 1.5em;
+    }
+
+    ul {
+      li {
+        padding-left: 5px;
+      }
+    }
+
+    .offer-jobs-text {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+}

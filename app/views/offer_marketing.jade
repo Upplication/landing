@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = offer_marketing._meta_title
@@ -7,9 +7,7 @@ block vars
     - var cssClass = 'offer'
 
 block css
-    // build:css(app) /styles/offer.marketing.min.css
-    link(rel='stylesheet', href='/styles/css/offer/offer.css')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/offer/offer.css')
 
 block content
     script(type='text/javascript').
@@ -17,30 +15,30 @@ block content
 
     section.bottom-space
         .container.offer-jobs
-            h2.text-center.padTop50 #{external.hiring_marketing.anchor}
+            h4.headTitles.text-center.padTop50 #{external.hiring_marketing.anchor}
 
-            img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", title="#{external.hiring}", alt="#{external.hiring}")
+            img.full(src="#{localConfig.base_path}/images/offer/office_marketing.jpg", data-aos='fade-down', title="#{external.hiring}", alt="#{external.hiring}")
 
-            .intro
+            .intro.offer-jobs-text(data-aos='fade-right')
                 each intro, i in offer_marketing.introduction
                     p #{intro}
 
-            .technologies
+            .technologies.offer-jobs-text(data-aos='fade-left')
                 p #{offer_marketing.technologies.intro}
                 ul
                     each tech, i in offer_marketing.technologies.list
                         li #{tech}
                 p #{offer_marketing.technologies.note}
 
-            .weoffer_marketing
+            .weoffer_marketing.offer-jobs-text(data-aos='fade-right')
                 p #{offer_marketing.weoffer.intro}
                 ul
                     each weoffer, i in offer_marketing.weoffer.list
                         li #{weoffer}
 
-            .wewantyou
+            .wewantyou.offer-jobs-text(data-aos='fade-left')
                 p !{offer_marketing.wewanttomeetyou}
 
-            .cheers
+            .cheers.offer-jobs-text(data-aos='fade-up')
                 each cheer, i in offer_marketing.cheers
                     p #{cheer}

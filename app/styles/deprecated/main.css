@@ -778,7 +778,6 @@ a.unstyled {
   color: #fff;
   background-color: #fabe78;
   width: 380px;
-  background-image: url(@@config.base_path/images/cookie.png);
   background-position: 15px 15px;
   background-repeat: no-repeat;
   -webkit-transition: all,3s,ease-in-out;
@@ -790,7 +789,6 @@ a.unstyled {
 }
 
 #cookies p {
-  padding: 1.5em 1.5em 1.5em 6em;
   color: brown;
   position: relative;
 }
@@ -2771,7 +2769,7 @@ section#showcase #showcase-items .showcase-item .phone-container {
   float: right;
   height: 608px;
   width: 330px;
-  background: transparent url(/images/iphone6.png) center center;
+  background: transparent url(@@config.base_path/images/common/iphone6.png) center center;
   background-size: cover;
 }
 
@@ -3019,27 +3017,6 @@ section#showcase #showcase-items .showcase-item .phone-container iframe {
   background: #333;
   padding: 1.5em;
   margin-bottom: .5em;
-}
-
-.resource.resource--create-upp .resource__links {
-  background-position: 0 .3em;
-  background-size: 3em;
-  background-image: url(@@config.base_path/images/helpcenter-createupp.png);
-}
-
-.resource.resource--videos .resource__links {
-  background-position: 0 0;
-  background-image: url(@@config.base_path/images/helpcenter-videos.png);
-}
-
-.resource.resource--ebooks .resource__links {
-  background-image: url(@@config.base_path/images/helpcenter-ebooks.png);
-}
-
-.resource.resource--make-your-app .resource__links {
-  background-position: 0 .3em;
-  background-size: 3em;
-  background-image: url(@@config.base_path/images/helpcenter-makeyourapp.png);
 }
 
 .resource__title {
@@ -3917,7 +3894,7 @@ section#showcase #showcase-items .showcase-item .phone-container iframe {
 }
 
 #content.about section#video {
-  background: transparent url(/images/video_about_intro_bg.png) center center no-repeat;
+  background: transparent url(@@config.base_path/images/common/video_about_intro_bg.png) center center no-repeat;
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -5970,12 +5947,12 @@ a.btn-signup-tlf {
 }
 
 .footer-container-tlf {
-  background-color: #002d3e!important;
+  background-color: #002d3e;
   margin-bottom: -17px;
 }
 
 .logo-tlf {
-  background: url(/images/logo_tlf.png) left top no-repeat;
+  background: url(@@config.base_path/images/aplicateca/logo_tlf.png) left top no-repeat;
   width: 120px;
   background-size: contain;
   padding-top: 56px;
@@ -6031,7 +6008,7 @@ a.btn-signup-tlf {
   }
 
   header.tlf .logo-tlf {
-    background: url(/images/logo_tlf.png) left top no-repeat;
+    background: url(@@config.base_path/images/aplicateca/logo_tlf.png) left top no-repeat;
     width: 94px;
     background-size: contain;
     padding-top: 41px;
@@ -6324,3 +6301,106 @@ a.btn-signup-tlf {
 #content.terms .container h3 {
   margin-top: .5%;
 }
+
+/* ... APLICATECA :: NEW ONES! 2016 ... */
+
+/* Common Parts */
+.header-container,
+.footer-container,
+.header-container-tlf,
+.footer-container-tlf {
+  background-color: #00476e; /* Movistar main color */
+}
+
+/* Only for HOME page */
+
+.logo-tlf {
+    width: 250px;
+    background-position-y: 0;
+    background-size: 150px;
+}
+
+.bg-alabaster {
+    background-color: #e5f6ff;
+}
+
+#content.home .testimonials li img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+#content.home .testimonials li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #00476e;
+    margin-bottom: 20px;
+}
+
+#content.home .testimonials li a:hover {
+    color: #333;
+}
+
+#content.home .testimonials li a span {
+    font-weight: 600;
+}
+
+/* Only for TERMS pages */
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#content.terms {
+    margin-top: 6em;
+}
+
+section#showcase #showcase-items .showcase-item .info-container {
+    background-color: #00476e;
+    box-shadow: none;
+}
+
+#content.terms h1 {
+    color: #00476e; /* Movistar main color */
+}
+
+#content.terms .container h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#content.terms p {
+    color: #111;
+    text-align: justify;
+    line-height: 1.8em;
+}
+
+
+@media (min-width: 768px) {
+    .main-menu {
+        float: right;
+        margin-top: 1.5em;
+    }
+
+    a.logo {
+        padding-top: 8px;
+    }
+
+    a.logo img {
+        max-height: 3.5em;
+    }
+}
+
+
+
+
+
+
+
+

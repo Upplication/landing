@@ -1,0 +1,181 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: MATERIALIZE RESERTS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "_common.less";
+
+
+// LINKS
+a {
+  color: @black;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+// BOLD
+strong {
+  font-weight: 600;
+}
+
+
+// NAVS
+nav {
+  color: transparent;
+  background-color: transparent;
+  width: auto;
+  height: 0;
+  line-height: 0;
+
+  ul {
+    li:hover,
+    li.active {
+      background-color: rgba(0,0,0,0);
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: 0;
+    line-height: 0;
+  }
+}
+
+// VARIOUS
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.side-nav {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0),
+  0 0 0 0 rgba(0,0,0,0);
+}
+
+// TABS
+.tabs {
+  .tab {
+    a {
+      color: @main-green;
+      font-size: 18px;
+      font-weight: 600;
+
+      &:hover {
+        color: #009550;
+      }
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: @main-green;
+    will-change: left, right;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      position: relative;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-top: 10px solid @main-green;
+      bottom: 0;
+      z-index: 10;
+      will-change: left, right;
+      left: 45%;
+    }
+  }
+}
+
+// INPUTS
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+  margin: 0 0 25px 0;
+}
+
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #009550;
+  box-shadow: 0 1px 0 0 #009550;
+}
+
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #009550;
+}
+
+.input-field label.active {
+  width: 94.5%;
+}
+
+
+.input-field label {
+  font-weight: 500;
+}
+
+half,
+.btn:hover,
+.btn-large:hover,
+.btn-floating:hover {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0);
+  border-radius: 0;
+}
+
+.material-icons.check {
+  position: relative;
+  bottom: 3px;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: rgb(255, 255, 255) !important;
+}

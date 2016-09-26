@@ -29,12 +29,12 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:description', content='#{description}')
         meta(property='og:url', content='//upplication.com/')
         meta(property='og:site_name', content='Upplication')
-        meta(property='og:image', content='/images/upplication_rrss.png')
+        meta(property='og:image', content='#{localConfig.base_path}/images/common/upplication_rrss.png')
         meta(name="twitter:card", content="summary")
         meta(name="twitter:site", content="@upplication")
         meta(name="twitter:domain", content="Upplication")
         meta(name="twitter:creator", content="@upplication")
-        meta(name="twitter:image:src", content="/images/upplication_rrss.png")
+        meta(name="twitter:image:src", content="#{localConfig.base_path}/images/common/upplication_rrss.png")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
@@ -54,29 +54,11 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
         // end favicon
         link(rel="profile", href="//gmpg.org/xfn/11")
-        link(rel='stylesheet', href='#{localConfig.base_path}/fonts/style.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
 
-        link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
-
-        // build:css(app) /styles/ono.min.css
-        link(rel='stylesheet', href='/styles/css/ono/ono.css')
-        link(rel='stylesheet', href='/styles/css/ono/header_ono.css')
-        link(rel='stylesheet', href='/styles/css/ono/materialize-reserts.css')
-        link(rel='stylesheet', href='/styles/css/ono/common.css')
-        link(rel='stylesheet', href='/styles/css/ono/mediaqueries.css')
-        // endbuild
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/vendor/vodafone.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/ono/ono.css')
 
         meta(name='viewport', content='width=device-width, initial-scale=1')
-        // webfonts
-        link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
-        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
-        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
 
     body(id="#{_template}", data-lang="#{lang}")
         .outer-wrap
@@ -84,8 +66,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                 .header-container.bg-vodafone-red
                     header.container.padding-top.bg-vodafone-red
                         a.logo.margin-bottom(href='#{localConfig.base_path}')
-                            img(src="#{localConfig.base_path}/images/vodafone.png", title="#{home.vodafone.logo}", alt="#{home.vodafone.logo}")
-
+                            img(src="#{localConfig.base_path}/images/ono/vodafone.png", title="#{home.vodafone.logo}", alt="#{home.vodafone.logo}")
                         a.icon-list
                             span Menu
                         
@@ -110,129 +91,114 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             ul.tabs
                                 li.tab.col.s6.l3
                                     a.active(href='#host', title="#{home.samples.restaurants}")
-                                        i.fa.fa-cutlery
+                                        i.icon.icon-food
                                         span #{home.samples.restaurants}
                                 li.tab.col.s6.l3
                                     a(href='#tiendas', title="#{home.samples.shops}")
-                                        i.fa.fa-shopping-cart
+                                        i.icon.icon-ecommerce
                                         span #{home.samples.shops}
                                 li.tab.col.s6.l3
                                     a(href='#servprof', title="#{home.samples.serv_alt}")
-                                        i.fa.fa-wrench
+                                        i.icon.icon-laptop
                                         span !{home.samples.serv}
                                 li.tab.col.s6.l3
                                     a(href='#personal', title="#{home.samples.personal}")
-                                        i.fa.fa-cog
+                                        i.icon.icon-brush
                                         span #{home.samples.personal}
                         #host.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', title='#{home.samples.alt_tag.img_iphone}', alt='#{home.samples.alt_tag.img_iphone}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-hostelry.png', title='#{home.samples.alt_tag.img_iphone}', alt='#{home.samples.alt_tag.img_iphone}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.rest.rest_intro}
-                                    ul.uppOnFoot(type='circle')
+                                    ul.tabs-content-list(type='circle')
                                         li
                                             a(href='', title="#{home.samples.rest.details1}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.rest.details1}
                                         li
                                             a(href='', title="#{home.samples.rest.details2}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.rest.details2}
                                         li
                                             a(href='', title="#{home.samples.rest.details3}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.rest.details3}
                                         li
                                             a(href='', title="#{home.samples.rest.details4}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.rest.details4}
                         #tiendas.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', title='#{home.samples.alt_tag.img_nexus}', alt='#{home.samples.alt_tag.img_nexus}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-shop.png', title='#{home.samples.alt_tag.img_nexus}', alt='#{home.samples.alt_tag.img_nexus}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.shop.shop_intro}
                                         | .
-                                    ul.uppOnFoot(type='circle')
+                                    ul.tabs-content-list(type='circle')
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details1}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.shop.shop_details1}
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details2}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.shop.shop_details2}
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details3}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.shop.shop_details3}
                                         li
                                             a(href='#!', title="#{home.samples.shop.shop_details4}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.shop.shop_details4}
                         #servprof.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', title='#{home.samples.alt_tag.img_galaxy}', alt='#{home.samples.alt_tag.img_galaxy}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-porfessional-services.png', title='#{home.samples.alt_tag.img_galaxy}', alt='#{home.samples.alt_tag.img_galaxy}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.services.serv_intro}
-                                    ul.uppOnFoot(type='circle')
+                                    ul.tabs-content-list(type='circle')
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details1}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.services.serv_details1}
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details2}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.services.serv_details2}
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details3}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.services.serv_details3}
                                         li
                                             a(href='#!', title="#{home.samples.services.serv_details4}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.services.serv_details4}
                         #personal.col.s12
                             .row.padTop50
                                 .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', title='#{home.samples.alt_tag.img_xperia}', alt='#{home.samples.alt_tag.img_xperia}')
+                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-customize.png', title='#{home.samples.alt_tag.img_xperia}', alt='#{home.samples.alt_tag.img_xperia}')
                                 .col.s12.l7.margTop50.mobileText
                                     h5 !{home.samples.custom.cust_intro}
-                                    ul.uppOnFoot(type='circle')
+                                    ul.tabs-content-list(type='circle')
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details1}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.custom.cust_details1}
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details2}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.custom.cust_details2}
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details3}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.custom.cust_details3}
                                         li
                                             a(href='#!', title="#{home.samples.custom.cust_details4}")
-                                                i.fa.fa-check
+                                                i.icon.icon-ok
                                                 | !{home.samples.custom.cust_details4}
-        
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
 
-        // vendor js
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
-        // endvendor
-
-        // build:js(app) /scripts/ono.min.js
-        script(type="text/javascript", src='/scripts/ua.js')
-        script(type="text/javascript", src='/scripts/topic.js')
-        script(type="text/javascript", src='/scripts/scroll.js')
-        script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/v2/register.js')
-        script(type="text/javascript", src='/scripts/v2/lang.js')
-        // endbuild
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/vodafone.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')

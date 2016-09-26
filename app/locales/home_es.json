@@ -1,0 +1,237 @@
+{
+  "home": {
+    "_keywords": "app, aplicación, creador de apps, app para empresas, creador de apps online, crear app sin saber programar, crear app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
+    "_meta_title": "Upplication - La plataforma más sencilla para CREAR APLICACIONES online.",
+    "_priority": "1.0",
+    "_url": "/",
+    "create_free": "Prueba gratis",
+    "how": {
+      "app_ready": " <span>Tu App</span> lista ",
+      "how_four": {
+        "publish_step1": "Publicamos tu App",
+        "publish_step2": "¡Qué momentazo! Nosotros nos encargamos siempre de subir tu aplicación a los markets de <b>Apple (iOS)</b> y <b>Google (Android)</b>, para que tu App pueda usarse desde cualquier dispositivo.",
+        "publish_step3": "Recuerda: Desde tu <b>panel de control</b>, podrás controlar el número de <b>descargas de tu App</b>.",
+        "publish_step4": "¿Comenzamos?"
+      },
+      "how_main": "Crea tu aplicación en pocos minutos y con ayuda personalizada",
+      "how_one": {
+        "reg_step1": "Regístrate",
+        "reg_step2": "¡Estás a 3 clics de que tu negocio haga historia!",
+        "reg_step3": "Introduce el <b>nombre de tu app</b>, <b>email</b> y <b>contraseña</b>.",
+        "reg_step4": "Recuerda: Tienes <b>15 días</b> de <b>prueba gratis</b> con <b>ayuda personalizada</b>.",
+        "reg_step5": "¿Comenzamos?",
+        "reg_title": "Ir al onboarding de Upplication"
+      },
+      "how_three": {
+        "tutor_step1": "Tutor personal",
+        "tutor_step2": "Antes, durante y después de la publicación de tu App, <b>tendrás la ayuda de un Tutor</b> que te guiará tanto en la idea como en la creación de tu aplicación, a través de nuestro <b>chat</b>, <b>email</b>, y <b>teléfono</b>, ¡tú eliges!"
+      },
+
+      "how_two": {
+        "app_step1": "Crea tu App",
+        "app_step2": "¿Tienes <b>Página de negocio en Facebook</b>? Tan sencillo como introducir esa URL y probar nuestra <span>plataforma</b>... ¡Hacemos magia!",
+        "app_step3": "Siempre podrás <b>personalizar tu App</b> con diferentes módulos y plantillas y enviar <b>notificaciones push a tus clientes</b>."
+      }
+    },
+    "improve_sales": {
+      "points": [
+        "Mejora los ingresos de tu negocio",
+        "Vende desde los dispositivos móviles",
+        "Mejora la comunicación con tus clientes"
+      ],
+      "title": "Mejora tus ventas"
+    },
+    "multidevice": {
+      "android_alt": "Crea tu app con Android",
+      "devices_alt": "Crear app",
+      "html5_alt": "Crea tu app con HTML5",
+      "ios_alt": "Crea tu app con iOS",
+      "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
+      "title": "App y web multidispositivo"
+    },
+    "multidevises": {
+      "sub_title": "Válidas para cualquier dispositivo con sistema operativo Android o iOS",
+      "title": "Aplicaciones multiplataforma para iPhone y Android"
+    },
+    "optimize": {
+      "points": [
+        {
+          "desc": "Una app te permitirá estar siempre en el bolsillo de tu cliente. Fideliza, crea una relación larga y consigue mejorar tus ingresos.",
+          "icon": "customize",
+          "title": "Personalización"
+        },
+        {
+          "desc": "Te acompañamos en cada paso para la creación de tu app, para ello tendrás a una persona encargada de ayudarte en cada momento.",
+          "icon": "personal-tutor",
+          "title": "Tutor personal"
+        },
+        {
+          "desc": "Con Upplication podrás crear tu app para iOS, Android y la web responsive que deseas. Además nosotros las publicaremos en App Store y Google Play por ti.",
+          "icon": "multidevice",
+          "title": "Multidispositivo"
+        }
+      ],
+      "title": "Optimiza tu negocio"
+    },
+    "permanence": "Período de prueba sin compromiso de permanencia.",
+    "press": {
+      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
+      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
+      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
+      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
+      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+    },
+    "register_inline": {
+      "app_name": "Nombre de la app",
+      "call_to_action": "Probar gratis",
+      "email": "E-mail",
+      "password": "Contraseña",
+      "title": "Regístrate y empieza a crear tu primera app gratis"
+    },
+    "samples": {
+      "alt_tag": {
+        "img_galaxy": "App de Upplication funcionando en un Samsung Galaxy",
+        "img_iphone": "App de Upplication funcionando en un iPhone",
+        "img_nexus": "App de Upplication funcionando en un Nexus",
+        "img_xperia": "App de Upplication funcionando en un Sony Xperia"
+      },
+      "business": "Aplicaciones para todo tipo de empresas",
+      "custom": {
+        "cust_details1": "<span>Personal</span>: muestra tu currículum, presentaciones o trabajos para diferenciarte del resto.",
+        "cust_details2": "<span>Ocio</span>: sube música y vídeos, fechas de conciertos, merchandising y haz que todo el mundo se entere de lo que sucede.",
+        "cust_details3": "<span>Eventos</span>: incluye la agenda de tu evento, envía alertas push, introduce buenas imágenes y mantén informados a los asistentes antes, durante y después.",
+        "cust_details4": "<span>Turismo</span>: añade mapas, recomienda lugares o publica ofertas gastronómicas porque así ofrecerás una experiencia única.",
+        "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de los que necesites"
+      },
+      "free_app": "Crear mi app Gratis",
+      "personal": "Personalizadas",
+      "rest": {
+        "details1": "Tus clientes podrán <span>reservar mesa</span> cómodamente desde su móvil.",
+        "details2": "Recibe <span>pedidos a domicilio</span> de tu aplicación.",
+        "details3": "Añade <span>cupones descuento</span> en tu app.",
+        "details4": "Envía <span>alertas push</span> con ofertas exclusivas.",
+        "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>fideliza a tus clientes</span>"
+      },
+      "restaurants": "Hostelería",
+      "serv": "<em>Servicios</em> Profesionales",
+      "serv_alt": "Servicios Profesionales",
+      "services": {
+        "serv_details1": "Contratarán tus servicios en <span>cualquier lugar y a cualquier hora</span>, justo cuando lo necesitan.",
+        "serv_details2": "Envía ofertas exclusivas con las <span>alertas push</span>.",
+        "serv_details3": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes.",
+        "serv_details4": "<span>Promociona tus servicios</span> añadiendo vídeos y fotografías.",
+        "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en su móvil"
+      },
+      "shop": {
+        "shop_details1": "Ofrece <span>productos exclusivos</span> que sólo puedan comprar con tu applicación.",
+        "shop_details2": "Tu negocio <span>24h 365 días</span> en el bolsillo de tus clientes.",
+        "shop_details3": "<span>Envía alertas</span> push con ofertas exclusivas en tu app y les fidelizarás.",
+        "shop_details4": "Integra la <span>pasarela de pago</span> en cuestión de minutos y empieza a vender.",
+        "shop_intro": "Crea tu app y conseguirás que tus clientes <span>compren tus productos desde su móvil</span>"
+      },
+      "shops": "Tiendas"
+    },
+    "showcase": {
+      "title": "Estas son algunas de nuestras apps"
+    },
+    "slider": {
+      "appready": {
+        "": "¡ Tu App lista !",
+        "bg": "Creador de apps",
+        "title": "¡ Tu App lista !"
+      },
+      "bg": "Crea la app de tu pyme",
+      "intro1": "El creador de apps para ",
+      "intro2": "<span class=\"intro-2a\">La plataforma más sencilla para crear aplicaciones online.</span> <span class=\"intro-2b\">Sin programar, fácil y rápido.</span>",
+      "text": [
+        "emprendedores",
+        "hostelería",
+        "servicios",
+        "tiendas",
+        "ti"
+      ]
+    },
+    "support": {
+      "desc": "Todos y cada uno de los compañeros que formamos Upplication vamos a poner todo nuestro empeño en conseguir que obtengas la mejor experiencia de soporte técnico que esté en nuestras manos. Si tienes cualquier problema cuenta con nosotros.",
+      "title": "¡Estamos para ayudarte!"
+    },
+    "testimonials": {
+      "client1": {
+        "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+        "name": "Sandra y Paloma, <span>Asis & Gross</span>",
+        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
+      },
+      "client2": {
+        "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+        "name": "Pablo, <span>Fisiohogar</span>",
+        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
+      },
+      "client3": {
+        "quote": "Gracias a la app, hemos conseguido fidelizar de manera muy directa a nuestros clientes. Además, el equipo de Upplication te asesora, te guía, te recomienda. Mi negocio ha crecido muchísimo.",
+        "name": "Jesús, <span>Serafina Cocina Bar</span>",
+        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
+      },
+      "title": "<span>Casos de</span> éxito"
+    },
+    "try": "¡Crea tu aplicación ahora!<br/>15 días de prueba gratis con ayuda personalizada",
+    "vodafone": {
+      "logo": "Logotipo Vodafone"
+    },
+    "why": {
+      "grow": "<strong>Aumenta</strong> tus ventas",
+      "img": {
+        "grow": "Aumenta tus ventas",
+        "loyal": "Fideliza a tus clientes",
+        "others": "Diferénciate de la competencia"
+      },
+      "loyal": "<strong>Fideliza</strong> a tus clientes",
+      "others": "<strong>Diferénciate</strong> de la competencia"
+    },
+    "successful_showcase": {
+      "img": {
+        "blocks_bg4": "Aplicación móvil Asis & Gross."
+      },
+      "download" : {
+        "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+        "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
+        "google_play": "Disponible en Google Play para <span>Android</span>",
+        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
+      },
+      "samples": {
+        "title": "<span>Otros</span> casos de éxito",
+        "sample1": "Saber más sobre Asis & Gross",
+        "sample1_url": "@@config.base_path/asis-and-gross/",
+        "sample2": "Saber más sobre Fisiohogar",
+        "sample2_url": "@@config.base_path/fisiohogar/",
+        "sample3": "Saber más sobre Serafina cocina bar",
+        "sample3_url": "@@config.base_path/serafina-cocina-bar/"
+      }
+
+    },
+    "successful_showcase_services" : {
+      "img": {
+        "blocks_bg4": "Aplicación móvil de Fisiohogar."
+      },
+      "download" : {
+        "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+        "app_store_url": "https://itunes.apple.com/es/app/fisio-en-tu-movil/id874340902?mt=8",
+        "google_play": "Disponible en Google Play para <span>Android</span>",
+        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android3563"
+      }
+    },
+    "successful_showcase_restaurant" : {
+      "img": {
+        "blocks_bg4": "Aplicación móvil de Serafina."
+      },
+      "download" : {
+        "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
+        "app_store_url": "https://itunes.apple.com/es/app/serafina-cocina-bar/id1033235573?mt=8",
+        "google_play": "Disponible en Google Play para <span>Android</span>",
+        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android14000"
+      }
+    }
+  }
+}

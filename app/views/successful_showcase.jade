@@ -1,0 +1,107 @@
+extend base/v2/base
+
+block vars
+    - var title = successful_showcase._meta_title
+    - var description = successful_showcase._meta_description
+    - var keywords = successful_showcase._keywords
+    - var cssClass = 'successful_showcase'
+
+block css
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/showcase/showcase.css')
+
+block content
+
+    // SHOWCASE INTRO
+    .showcase-bg
+        img.responsive-img(src='#{localConfig.base_path}/images/showcase/successful-showcase-asis-gross-bg.jpg', title='#{successful_showcase.img.top_bg}', alt='#{successful_showcase.img.top_bg}')
+        .showcase-header.showcase-asis-gross
+    // QUOTE & VIDEO
+    #about.about.showcase-how
+        .col.s12.center-align
+            h4.headTitles.text-center !{successful_showcase.how.title}
+            p !{successful_showcase.how.subtitle}
+        .about-grids.row(data-aos='zoom-in')
+            .col.m4.about-grid.about-grid1
+                .about-grid-info
+                    p !{successful_showcase.how.text1}
+                .about-grid-pic
+                    .video-container
+                        .youtube-player(data-id='LluyPqRVGC4')
+            .col.m4.about-grid.about-grid2
+                .about-grid-pic
+                    img(src='#{localConfig.base_path}/images/showcase/successful-showcase-asis-gross-dashboard.jpg', title='#{successful_showcase.img.blocks_bg1}', alt='#{successful_showcase.img.blocks_bg1}')
+                .about-grid-info
+                    p !{successful_showcase.how.text2}
+            .col.m4.about-grid.about-grid1
+                .about-grid-info.resert-for-mobile
+                    p !{successful_showcase.how.text3}
+                .about-grid-pic
+                    img(src='#{localConfig.base_path}/images/showcase/successful-showcase-asis-gross-app.jpg', title='#{successful_showcase.img.blocks_bg2}', alt='#{successful_showcase.img.blocks_bg2}')
+            .clearfix
+    // APP PICS DETAILS
+    #about.about.showcase-app.container
+        .col.s12.center-align
+            h4.headTitles.text-center !{successful_showcase.app.title}
+        .about-grids.row
+            .col.m4.about-grid.about-grid1
+                .about-grid-info(data-aos='zoom-in-right')
+                    img(src='#{localConfig.base_path}/images/showcase/successful-showcase-asis-gross-owners.jpg', title='#{successful_showcase.img.blocks_bg3}', alt='#{successful_showcase.img.blocks_bg3}')
+                    .about-owners
+                        p !{successful_showcase.app.name}
+                .about-grid-pic(data-aos='zoom-in-left')
+                    img.materialboxed(data-caption='#{successful_showcase.img.blocks_bg4}', src='#{localConfig.base_path}/images/showcase/successful-showcase-asis-gross-app-sample.jpg', title='#{successful_showcase.img.blocks_bg4}', alt='#{successful_showcase.img.blocks_bg4}')
+            .clearfix
+    // APP DOWNLOAD
+    .showcase-download
+        .container
+            .row.features-grids.text-center
+                .col.s12.m4.offset-m2.features-grid-apple(data-aos='fade-up', data-aos-duration="1500")
+                    a.features-grid.centerImg.go-to-app-store(href='#{successful_showcase.download.app_store_url}', target="_blank", title='#{successful_showcase.img.app_store}')
+                        img.img-responsive(src='#{localConfig.base_path}/images/showcase/apple-app-store.png', alt='#{successful_showcase.img.app_store}', title='#{successful_showcase.img.app_store}')
+                        h5 !{successful_showcase.download.app_store}
+                            i.icon.icon-apple
+                .col.s12.m4.features-grid-android(data-aos='fade-down', data-aos-duration="2000")
+                    a.features-grid.centerImg.go-to-google-play(href='#{successful_showcase.download.google_play_url}', target="_blank", title='#{successful_showcase.img.google_play}')
+                        img.img-responsive(src='#{localConfig.base_path}/images/showcase/google-play-store.png', alt='#{successful_showcase.img.google_play}', title='#{successful_showcase.img.google_play}')
+                        h5 !{successful_showcase.download.google_play}
+                            i.icon.icon-android
+                .clearfix
+    // (Three Layout) LAST TIPS
+    .showcase-tips
+        .container
+            .row.features-grids.text-center
+                .col.s12.center-align
+                    h4.headTitles.text-center !{successful_showcase.tips.title}
+                .col.s12.m4.feature-tip(data-aos='fade-right')
+                    .features-grid.centerImg
+                        img.img-responsive(src='#{localConfig.base_path}/images/showcase/communication.svg', alt='#{successful_showcase.img.tips_icon1}', title='#{successful_showcase.img.tips_icon1}')
+                        h5 #{successful_showcase.tips.subtitle1}
+                        p !{successful_showcase.tips.text1}
+                .col.s12.m4.feature-tip(data-aos='zoom-in')
+                    .features-grid.centerImg
+                        img.img-responsive(src='#{localConfig.base_path}/images/showcase/customers-talk.svg', alt='#{successful_showcase.img.tips_icon2}', title='#{successful_showcase.img.tips_icon2}')
+                        h5 #{successful_showcase.tips.subtitle2}
+                        p !{successful_showcase.tips.text2}
+                .col.s12.m4.feature-tip(data-aos='fade-left')
+                    .features-grid.centerImg
+                        img.img-responsive(src='#{localConfig.base_path}/images/showcase/app-in-web.svg', alt='#{successful_showcase.img.tips_icon3}', title='#{successful_showcase.img.tips_icon3}')
+                        h5 #{successful_showcase.tips.subtitle3}
+                        p !{successful_showcase.tips.text3}
+                .clearfix
+    // Another Showcase Videos
+    #about.about.showcase-samples
+        .col.s12.center-align
+            h4.headTitles.text-center !{successful_showcase.samples.title}
+        .about-grids.row
+            .col.m4.about-grid.about-grid1(data-aos='fade-up')
+                .about-grid-info
+                    .video-container
+                        .youtube-player(data-id='pbWm6NaZfbY')
+                    a.btn-upp.showcase-btn(href="#{successful_showcase.samples.sample2_url}", alt='#{successful_showcase.samples.sample2}', title="#{successful_showcase.samples.sample2}") #{successful_showcase.samples.sample2}
+                .about-grid-pic
+                    .video-container
+                        .youtube-player(data-id='gmf326nQI9I')
+                    a.btn-upp.showcase-btn(href="#{successful_showcase.samples.sample3_url}", alt='#{successful_showcase.samples.sample3}', title="#{successful_showcase.samples.sample3}") #{successful_showcase.samples.sample3}
+            .clearfix
+
+block scripts

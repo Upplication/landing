@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = page_not_found._meta_title
@@ -7,9 +7,7 @@ block vars
     - var cssClass = 'page_not_found'
 
 block css
-    // build:css(app) /styles/404.min.css
-    link(rel='stylesheet', href='/styles/css/404/404.css')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/error/error.css')
 
 block content
 
@@ -25,16 +23,16 @@ block content
             .col.m8.offset-m2.s12
                 p.strong500.padTop30.padBot30 #{page_not_found.pre_advice}
         .row.not-found-suggestions
-            .col.s12.m3
+            .col.s12.m4.l3.each-suggestions(data-aos='zoom-out-right')
                 p.number.number-one
                 p #{page_not_found.advice1}
-            .col.s12.m3
+            .col.s12.m4.l3.each-suggestions(data-aos='zoom-out-left')
                 p.number.number-two
                 p #{page_not_found.advice2}
-            .col.s12.m3
+            .col.s12.m4.l3.each-suggestions(data-aos='zoom-out-right')
                 p.number.number-three
                 p #{page_not_found.advice3}
-             .col.s12.m3
+             .col.s12.m4.l3.each-suggestions(data-aos='zoom-out-left')
                 p.number.number-four
                 p #{page_not_found.advice4}
             .clearfix
