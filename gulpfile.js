@@ -262,7 +262,7 @@ gulp.task('scripts', function() {
     return merge(tasks);
 });
 
-gulp.task('post', ['rev:scripts', 'rev:styles'], function() {
+gulp.task('post', ['rev:scripts', 'rev:styles', 'templates'], function() {
     if (gutil.env.type === 'production') {
         return gulp.src('./dist/**/*.html')
             .pipe(revReplace({manifest: gulp.src("./dist/rev-manifest-*.json")}))
