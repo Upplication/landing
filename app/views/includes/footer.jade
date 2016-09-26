@@ -1,22 +1,31 @@
 //- CLIENTS CAROUSEL
-.clientSection
+.clients-section
     .container
-        #clientsCarousel
+        #clients-carousel
             .item
-                a(href='#{ourclients.client1.url}', target='_blank', title='#{ourclients.client1.title}')
-                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
+                a(href='#{ourclients.client5.url}', target='_blank', title='#{ourclients.client5.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='#{ourclients.client5.alt}', title='#{ourclients.client5.title}')
             .item
-                a(href='#{ourclients.client2.url}', target='_blank', title='#{ourclients.client2.title}')
-                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='#{ourclients.client2.alt}', title='#{ourclients.client2.title}')
-            .item
-                a(href='#{ourclients.client3.url}', target='_blank', title='#{ourclients.client3.title}')
-                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='#{ourclients.client3.alt}', title='#{ourclients.client3.title}')
+                a(href='#{ourclients.client8.url}', target='_blank', title='#{ourclients.client8.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/tve.png', alt='#{ourclients.client8.alt}', title='#{ourclients.client8.title}')
             .item
                 a(href='#{ourclients.client4.url}', target='_blank', title='#{ourclients.client4.title}')
                     img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='#{ourclients.client4.alt}', title='#{ourclients.client4.title}')
             .item
-                a(href='#{ourclients.client5.url}', target='_blank', title='#{ourclients.client5.title}')
-                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='#{ourclients.client5.alt}', title='#{ourclients.client5.title}')
+                a(href='#{ourclients.client9.url}', target='_blank', title='#{ourclients.client9.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/larazon.png', alt='#{ourclients.client9.alt}', title='#{ourclients.client9.title}')
+            .item
+                a(href='#{ourclients.client10.url}', target='_blank', title='#{ourclients.client10.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/expansion.png', alt='#{ourclients.client10.alt}', title='#{ourclients.client10.title}')
+            .item
+                a(href='#{ourclients.client2.url}', target='_blank', title='#{ourclients.client2.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='#{ourclients.client2.alt}', title='#{ourclients.client2.title}')
+            .item
+                a(href='#{ourclients.client1.url}', target='_blank', title='#{ourclients.client1.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
+            .item
+                a(href='#{ourclients.client3.url}', target='_blank', title='#{ourclients.client3.title}')
+                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='#{ourclients.client3.alt}', title='#{ourclients.client3.title}')
             .item
                 a(href='#{ourclients.client6.url}', target='_blank', title='#{ourclients.client6.title}')
                     img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='#{ourclients.client6.alt}', title='#{ourclients.client6.title}')
@@ -24,17 +33,22 @@
                 a(href='#{ourclients.client7.url}', target='_blank', title='#{ourclients.client7.title}')
                     img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='#{ourclients.client7.alt}', title='#{ourclients.client7.title}')
 //- 15 DAYS TRIAL BUTTOM
-.pricing-plan
+.trial-block
    .container
-      .pricing-plan-grids
-          .pricing-plan-left
-             h2 !{footer.try_it}
-             span #{home.permanence}
-          .pricing-plan-right
-             a.price-btn.modal-trigger(href='#pruebaGratis', title='#{header.free_trial}') #{header.free_trial}
+      .trial-block-grids
+          .trial-block-left
+             h2 #{footer.try_it}
+             h3 #{footer.try_it_free}
+             span
+                 i.icon.icon-asterisk
+                 | #{home.permanence}
+          .trial-block-right
+              a.price-btn.modal-trigger(href='#free-trial', title='#{footer.free_trial}')
+                  i.icon.icon-rocket
+                  | #{footer.free_trial}
           .clearfix
 //- COSTUMERS SERVICES CONTACT AREA
-.servCliente
+.customer-service
    .container
       .col.s12
          ul
@@ -53,27 +67,28 @@ footer.page-footer
                     //- Footer :: links compilation
                     .container.padTop50.padBot50
                         .row.hover-anim
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.help}
                                 ul.footLinks
-                                    li
-                                        a(href='#{external.helpcenter.url}', title='#{external.helpcenter.anchor}') #{external.helpcenter.anchor}
+                                    // Temporaly disabled "Help Center" link
+                                        li
+                                            a(href='#{external.helpcenter.url}', title='#{external.helpcenter.anchor}') #{external.helpcenter.anchor}
                                     li
                                         a(href='#{external.tutorials.url}', title='#{external.tutorials.anchor}') #{external.tutorials.anchor}
                                     li
                                         a(href='#{external.blog.url}', title='#{external.blog.title}', target='_blank',) #{external.blog.anchor}
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.uppl}
-                                ul.uppOnFoot.footLinks(type='circle')
+                                ul.tabs-content-list.footLinks(type='circle')
                                     li
                                         a(href='#tabs', title='#{external.features.anchor}') #{external.features.anchor}
                                     li
-                                        a(href='#about', title='#{external.create_apps.anchor}') #{external.create_apps.anchor}
+                                        a(href='#timeline', title='#{external.create_apps.anchor}') #{external.create_apps.anchor}
                                     li
-                                        a(href='#tabs', title='#{external.apps.anchor}') #{external.apps.anchor}
+                                        a(href='#about', title='#{external.apps.anchor}') #{external.apps.anchor}
                                     li
                                         a(href='#{external.pricing.url}', title='#{external.pricing.anchor}') #{external.pricing.anchor}
-                            .col.l3.s12.footCol
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.misc}
                                 ul.footLinks
                                     li
@@ -83,12 +98,13 @@ footer.page-footer
                                     // li
                                         a(href='#{external.partners.url}', title='#{external.partners.anchor}') #{external.partners.anchor}
                                     li
-                                        a.modal-trigger(href='#hiring', title='#{external.hiring}', target='_blank') #{external.hiring}
-                                    li
                                         a(href='#{external.breakfasts.url}', target='_blank', title='#{external.breakfasts.anchor}') #{external.breakfasts.anchor}
-                                    // li
-                                        a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
-                            .col.l3.s12.footCol
+                                    li
+                                        a.modal-trigger(href='#hiring', title='#{external.hiring}', target='_blank') #{external.hiring}
+                                    // Temporaly disabled "Press Area" link
+                                        li
+                                            a(href='#{external.media_kit.url}', title='#{external.media_kit.anchor}') #{external.media_kit.anchor}
+                            .col.l3.s12.footer-nav-col
                                 h6 #{external.titles.legal}
                                 ul.footLinks
                                     li
@@ -104,50 +120,29 @@ footer.page-footer
                     .footer-copyright
                         .container
                             span
-                                i.fa.fa-copyright
+                                i.icon.icon-copyright
                                 | #{footer.brand_copy}
-                            i.fa.fa-circle
+                            i.icon.icon-dot
                             em #{footer.signature}
                             ul.rrss.right.hover-anim
                                 li.facebook
                                     a(href='#{external.facebook.url}', target='_blank', title='#{external.facebook.anchor}')
-                                        i.fa.fa-facebook
+                                        i.icon.icon-facebook
                                 li.twitter
                                     a(href='#{external.twitter.url}', target='_blank', title='#{external.twitter.anchor}')
-                                        i.fa.fa-twitter
+                                        i.icon.icon-twitter
                                 li.instagram
                                     a(href='#{external.instagram.url}', target='_blank', title='#{external.instagram.anchor}')
-                                        i.fa.fa-instagram
+                                        i.icon.icon-instagram
                                 li.youtube
                                     a(href='#{external.youtube.url}', target='_blank', title='#{external.youtube.anchor}')
-                                        i.fa.fa-youtube-play
+                                        i.icon.icon-youtube
                                 li.linkedin
                                     a(href='#{external.linkedin.url}', target='_blank', title='#{external.linkedin.anchor}')
-                                        i.fa.fa-linkedin
+                                        i.icon.icon-linkedin
                                 li.google
                                     a(href='#{external.googleplus.url}', target='_blank', title='#{external.googleplus.anchor}')
-                                        i.fa.fa-google-plus
-                    //- Footer :: Social Media share buttons :: Hide to the user (opacity: 0)
-                    .footer-socialmedia-btns
-                        .container
-                            ul.rrss.right.hover-anim
-                                li
-                                    a.twitter-follow-button(href='#{external.social_media_btns.twitter}', data-show-count='false')
-                                li
-                                    a.fb-share-button(href='#{external.facebook.url}', data-layout='button')
-                                li
-                                    script(src='//platform.linkedin.com/in.js', type='text/javascript').
-                                        lang: en_US
-                                    script(type='IN/Share')
-                                li
-                                    script(src='https://apis.google.com/js/platform.js', async='', defer='').
-                                        {lang: 'es'}
-                                    .g-plus(data-action='share', data-annotation='none')
-                                li
-                                    span.ig-follow(data-id='5479dee', data-handle='igfbdotcom', data-count='false', data-size='small', data-username='true')
-                                li
-                                    script(src='https://apis.google.com/js/platform.js')
-                                    .g-ytsubscribe(data-channel='GoogleDevelopers', data-layout='default', data-count='hidden')
+                                        i.icon.icon-gplus
                     //- Footer :: Partners links
                     .footer-bottom
                         .container
@@ -164,3 +159,6 @@ footer.page-footer
                                 li
                                     a(rel='nofollow', href='#{footer.partners.wayra.url}', target='_blank', title='#{footer.partners.wayra.title}')
                                         img(src='#{localConfig.base_path}/images/home/icons/wayra.png', alt='#{footer.partners.wayra.title}', title='#{footer.partners.wayra.title}')
+                                 li
+                                     a(rel='nofollow', href='#{footer.partners.freepik.url}', target='_blank', title='#{footer.partners.freepik.title}')
+                                         img(src='#{localConfig.base_path}/images/home/icons/freepik.png', alt='#{footer.partners.freepik.title}', title='#{footer.partners.freepik.title}')

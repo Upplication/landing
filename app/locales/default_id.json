@@ -6,6 +6,7 @@
     "_priority": "0.8",
     "_url": "/about-us-indonesian/",
     "departments": {
+      "title": "<span>Meet</span> Our Departments",
       "develop": {
         "img": "All the freak ones!",
         "text": "Cordova, AngularJS, Java, CSS, UX…. We love technology and we’re a little obsessed with it. We work in a flexible and easy way and we are always changing the way in which SMEs in the world create their mobile application. We learn something new every day.",
@@ -16,15 +17,14 @@
         "text": "Our goal is to bring this project to every corner in the world. Our every day life is dedicated to data and analysis. Always thinking of how to sell more in less time. Every time we get a new client, we blow a horn in the office to celebrate.",
         "title": "Dept. of Marketing"
       },
-      "subtitle": "Meet",
       "support": {
         "img": "Belén is calling with his best smile",
         "text": "Our main objective is to make our costumers happy. Every day, we talk to hundreds of clients from more than 65 countries. We are very approachable and we always have a smile on our faces. We love to help, so that you have a pleasant and beneficial experience.",
         "title": "Dept. of Support"
-      },
-      "title": "Our Departments"
+      }
     },
     "team": {
+      "title": "<span>Meet</span> Our Team",
       "admin": {
         "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
         "name": "Noemí",
@@ -47,14 +47,6 @@
         "sentence": "I command too, uh!",
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
-      },
-      "communication": {
-        "linkedin": "https://www.linkedin.com/in/kelia-vidarte-ojeda-00b03a76",
-        "name": "Kelia",
-        "position": "Communication Assistant",
-        "sentence": "Gimme a bulhorn and U will see!",
-        "surname": "Vidarte Ojeda",
-        "twitter": "https://twitter.com/kelitraveler"
       },
       "community": {
         "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
@@ -121,7 +113,6 @@
           "twitter": "https://twitter.com/alcanizalv"
         }
       },
-      "subtitle": "Meet",
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
         "name": "Belén",
@@ -145,8 +136,7 @@
         },
         "surname": "Fernández Pérez",
         "twitter": "https://twitter.com/BeeleenFP"
-      },
-      "title": "Our Team"
+      }
     }
   },
   "aplicateca": {
@@ -231,7 +221,7 @@
     },
     "breakfasts": {
       "anchor": "Gabung dengan kami untuk sarapan",
-      "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
+      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase-indonesian/"
     },
     "company": {
       "anchor": "Upplication bio",
@@ -264,19 +254,19 @@
     "hiring": "We are hiring!",
     "hiring_backend": {
       "anchor": "Backend developer",
-      "url": "http://www.upplication.com/blog/empleo-backend-developer-para-upplication/"
+      "url": "@@config.base_path/offer-trainee-developer-indonesian/"
     },
     "hiring_developer": {
       "anchor": "Developer intern",
-      "url": "@@config.base_path/offer-trainee-developer/"
+      "url": "@@config.base_path/offer-trainee-developer-indonesian/"
     },
     "hiring_frontend": {
       "anchor": "Frontend developer",
-      "url": "http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+      "url": "@@config.base_path/offer-trainee-developer-indonesian/"
     },
     "hiring_marketing": {
       "anchor": "Marketing Internship",
-      "url": "@@config.base_path/offer-trainee-marketing/"
+      "url": "@@config.base_path/offer-trainee-marketing-indonesian/"
     },
     "instagram": {
       "anchor": "Instagram",
@@ -329,7 +319,7 @@
     },
     "tutorials": {
       "anchor": "Tutorial",
-      "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+      "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
     "twitter": {
       "anchor": "Twitter",
@@ -346,6 +336,7 @@
     "company": "Perusahaan",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>Penggunaan Cookies</a>.",
     "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/terms-aplicateca-indonesian/'>Penggunaan Cookies.</a>.",
+    "free_trial": "Coba gratis",
     "media": "Media",
     "partners": {
       "eu": {
@@ -363,6 +354,10 @@
       "wayra": {
         "title": "Wayra, Telefónica's startup accelerator",
         "url": "http://wayra.co/en"
+      },
+      "freepik": {
+        "title": "Freepik, free graphic resources for designers",
+        "url": "http://www.freepik.com/"
       }
     },
     "signature": "Dirancang dan dibangun di Madrid",
@@ -384,7 +379,8 @@
         "url": "@@config.base_path/terms/#uso"
       }
     },
-    "try_it": "Coba <strong>gratis 15 hari</strong>!"
+    "try_it": "Coba gratis!",
+    "try_it_free": "Coba 15 hari dengan guru pribadi"
   },
   "form": {
     "call_to_action": "Build your own App now!",
@@ -400,8 +396,7 @@
     "logo": {
       "title": "Upplication Logo",
       "title_xmas": "Upplication Xmas Logo",
-      "url": "@@config.base_path/images/home/icons/upplication.svg",
-      "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png"
+      "url": "@@config.base_path/generator-aplikasi/"
     },
     "menu": "menu",
     "nav": {
@@ -574,25 +569,26 @@
       "app_ready": " <span>Aplikasi</span> Anda siap ",
       "how_four": {
         "publish_step1": "Kami menerbitkan Aplikasi Anda",
-        "publish_step2": "<span>Kami akan menerbitkan aplikasi Anda</span> di semua App Store berbeda (Apple, Android).",
-        "publish_step3": "Aplikasi kami mendukung <span>banyak perangkat</span> (mobile, tablet, PC, Mac...)."
+        "publish_step2": "<b>Kami akan menerbitkan aplikasi Anda</b> di semua App Store berbeda (Apple, Android).",
+        "publish_step3": "Aplikasi kami mendukung <b>banyak perangkat</b> (mobile, tablet, PC, Mac...).",
+        "publish_step4": "Shall we start?"
       },
       "how_main": "Buat aplikasi Anda dengan mudah",
       "how_one": {
         "reg_step1": "Daftar",
         "reg_step2": "Daftar dalam tiga langkah mudah:",
-        "reg_step3": "nama aplikasi, e-mail dan password."
+        "reg_step3": "nama aplikasi, e-mail dan password.",
+        "reg_step5": "kami mulai",
+        "reg_title": "Pergi ke onboarding Upplication"
       },
       "how_three": {
         "tutor_step1": "Tutor pribadi",
-        "tutor_step2": "<span>Dukungan professional pelanggan</span> akan membantu Anda dengan seluruh tahapan perkembangan aplikasi Anda.",
-        "tutor_step3": "Tersedia melalui <span>obrolan</span>, <span>e-mail</span>, dan saluran <span>telepon</span>."
+        "tutor_step2": "<b>Dukungan professional pelanggan</b> akan membantu Anda dengan seluruh tahapan perkembangan aplikasi Anda. Tersedia melalui <b>obrolan</b>, <b>e-mail</b>, dan saluran <b>telepon</b>."
       },
       "how_two": {
         "app_step1": "Buat Aplikasi Anda",
-        "app_step2": "Akrab pengguna dan <span>dasbor</span> mudah digunakan.",
-        "app_step3": "Anda dapat menggunakan <span>modul dan pola</span> untuk menyesuaikan aplikasi Anda.",
-        "app_step4": "Control <span>jumlah unduhan</span> dan <span>pemberitahuan push</span> pada pelanggan Anda."
+        "app_step2": "Akrab pengguna dan <b>dasbor</b> mudah digunakan. Anda dapat menggunakan <b>modul dan pola</b> untuk menyesuaikan aplikasi Anda.",
+        "app_step3": "Control <b>jumlah unduhan</b> dan <b>pemberitahuan push</b> pada pelanggan Anda."
       }
     },
     "improve_sales": {
@@ -721,21 +717,21 @@
     },
     "testimonials": {
       "client1": {
-        "cite": "Layanan pelanggan melalui telepon dan daring sangat baik. Saya telah mendapat banyak pelanggan karena aplikasi saya.",
+        "quote": "Layanan pelanggan melalui telepon dan daring sangat baik. Saya telah mendapat banyak pelanggan karena aplikasi saya.",
         "name": "Ana, C,UP Pilihan Anda diutamakan",
         "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
       },
       "client2": {
-        "cite": "Pelanggan melakukan reservasi dan melihat menu dalam aplikasi saya. Saya mengelola pekerjaan bisnis harian saya dengan Upplication.",
+        "quote": "Pelanggan melakukan reservasi dan melihat menu dalam aplikasi saya. Saya mengelola pekerjaan bisnis harian saya dengan Upplication.",
         "name": "David, Trapatapa Bar",
         "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
       },
       "client3": {
-        "cite": "Ini alat yang paling akrab pengguna yang pernah saya coba. Mengelola aplikasi saya sangat mudah. Tambahan, Upplication terus berkembang tiap minggunya.",
+        "quote": "Ini alat yang paling akrab pengguna yang pernah saya coba. Mengelola aplikasi saya sangat mudah. Tambahan, Upplication terus berkembang tiap minggunya.",
         "name": "Gabriel, Moto Urban",
         "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
       },
-      "title": "Apa yang Klien kami katakan tentang kami?"
+      "title": "<span>Cerita-cerita</span> sukses"
     },
     "try": "Try it free for 15 days!",
     "vodafone": {
@@ -786,8 +782,6 @@
   "modal": {
     "button": {
       "email": "mailto:info@upplication.com",
-      "icon_email": "email",
-      "icon_telf": "phone",
       "support_mail": "info@upplication.com",
       "telephone": "+34 917 958 203",
       "telf": "tel:0034917958203"
@@ -904,7 +898,7 @@
     "client2": {
       "alt": "El Economista logo",
       "title": "Upplication in El Economista",
-      "url": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html"
+      "url": "http://www.eleconomista.es/emprendedores-pymes/noticias/6747454/05/15/La-transformacion-digital-y-la-innovacion-claves-para-la-competitividad-de-las-pymes-.html"
     },
     "client3": {
       "alt": "Forbes logo",
@@ -914,12 +908,12 @@
     "client4": {
       "alt": "EFE: Emprende logo",
       "title": "Upplication in EFE: Emprende, business news",
-      "url": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/"
+      "url": "http://www.efeemprende.com/noticia/los-emprendedores-pueden-crear-propias-apps-sin-programar-upplication/"
     },
     "client5": {
       "alt": "Telefónica logo",
-      "title": "Upplication in Telefónica´s Blogthinkbig",
-      "url": "http://blogthinkbig.com/upplication-post-pc/"
+      "title": "Upplication in Telefónica´s Open Future",
+      "url": "https://www.openfuture.org/es/new/fideliza-a-los-clientes-de-tu-startup-creando"
     },
     "client6": {
       "alt": "ABC logo",
@@ -930,14 +924,29 @@
       "alt": "wwwhat´s new logo",
       "title": "wwwhat´s new, technology and business app news",
       "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+    },
+    "client8": {
+      "alt": "TVE logo",
+      "title": "TVE interview in Zoom Net show",
+      "url": "http://www.rtve.es/alacarta/videos/zoom-net/zoom-net-upplication-huawei-p9-uncharted-4/3571439/"
+    },
+    "client9": {
+      "alt": "La Razón logo",
+      "title": "Daily La Razón interview",
+      "url": "http://www.larazon.es/damesuplementos/tueconomia/2016-09-11_TUE__/index.html#3"
+    },
+    "client10": {
+      "alt": "Expansión logo",
+      "title": "Daily Expansión interview",
+      "url": "http://www.expansion.com/emprendedores-empleo/emprendedores/2016/01/15/56992402ca4741fa468b45d4.html?cid=SMBOSO22801&s_kw=twitter"
     }
   },
   "page_not_found": {
     "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
     "_meta_title": "404: Page not found in Upplication: the app creator",
-    "_url": "/page-not-found-idonesian/",
-    "advice1": "The adress (URL) is not correct.",
+    "_url": "/page-not-found-indonesian/",
+    "advice1": "The address (URL) is not correct.",
     "advice2": "You have not internet conection.",
     "advice3": "The page is out-dated and has been removed.",
     "advice4": "The page does not exist in the linguistic version required.",
@@ -972,6 +981,11 @@
         "sign": "Cap air pada pola",
         "statistics": "Statistik di aplikasi Anda"
       },
+      "subtitles": {
+        "basic": "Selamat datang rencana.",
+        "professional": "Rencana peluncur bisnis.",
+        "create": "Kami membuat dan merancang aplikasi Anda."
+      },
       "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
       "monthly": "Paket bulanan",
       "no_bullhorn": "<strong>Tidak ada</strong> Iklan Upplication",
@@ -979,7 +993,8 @@
       "no_sign": "<strong>Tidak ada</strong> cap air pada pola",
       "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
       "premiun": "PREMIUM",
-      "proff": "PROFESIONAL",
+      "professional": "PROFESIONAL",
+      "create": "KAMI MEMBUAT APLIKASI ANDA",
       "rate_intro": "Paket harga",
       "rate_sub": "Semua paket harga termasuk:",
       "sign": "<strong>Cap air</strong> pada pola",
@@ -988,6 +1003,7 @@
       "sub2": "<span>Unggah otomatis ke semua App Stores,</span> <span>kami menerbitkan aplikasi Anda.</span>",
       "sub3": "Web responsif, mendukung banyak perangkat.",
       "sub4": "Tutor pribadi.",
+      "sub5": "Manejemen panel aplikasi anda.",
       "topsale": "Top sale",
       "unlimited": "TAK TERBATAS",
       "with_tax": "Sudah termasuk <strong>PPN</strong>.",

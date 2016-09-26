@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = terms._meta_title
@@ -7,9 +7,7 @@ block vars
     - var cssClass = 'terms'
 
 block css
-    // build:css(app) /styles/terms.min.css
-    link(rel='stylesheet', href='/styles/css/terms/terms.css')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/terms/terms.css')
 
 block content
 
@@ -17,26 +15,26 @@ block content
     .col.s12.text-center.legal
         #legal.about.scrollspy
             .about-grids
-                .container.animated.fadeIn
-                    .about-left-grids
-                        h4 !{terms.legal.title}
+                .container
+                    .terms-grid.about-left-grids
+                        h4.headTitles.head-terms !{terms.legal.title}
                         each paragraph in terms.legal.paragraphs
-                            p !{paragraph}
-                        h4#privacidad.scrollspy !{terms.privacy.title}
+                            p(data-aos='fade-up') !{paragraph}
+                        h4#privacidad.headTitles.head-terms.scrollspy !{terms.privacy.title}
                         each paragraph in terms.privacy.paragraphs
-                            p !{paragraph}
-                        h4#uso.scrollspy !{terms.general.title}
+                            p(data-aos='fade-up') !{paragraph}
+                        h4#uso.headTitles.head-terms.scrollspy !{terms.general.title}
                         each subsection in terms.general.subsections
                             h5 !{subsection.title}
                             each paragraph in subsection.paragraphs
-                                p !{paragraph}
-                        h4#cookies-policy.scrollspy !{terms.cookies.title}
+                                p(data-aos='fade-up') !{paragraph}
+                        h4#cookies-policy.headTitles.head-terms.scrollspy !{terms.cookies.title}
                         each subsections in terms.cookies.subsections
                             h5 !{subsections.title}
                             each paragraph in subsections.paragraphs
-                                p !{paragraph}
-                        h4#dashboard-policy.scrollspy !{terms.dashboard.title}
+                                p(data-aos='fade-up') !{paragraph}
+                        h4#dashboard-policy.headTitles.head-terms.scrollspy !{terms.dashboard.title}
                             each subsections in terms.dashboard.subsections
                                 h5 !{subsections.title}
                                 each paragraph in subsections.paragraphs
-                                    p !{paragraph}
+                                    p(data-aos='fade-up') !{paragraph}

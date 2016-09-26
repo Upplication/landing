@@ -33,7 +33,7 @@ This is a quick reference that aims to help you to learn how to add new language
 
 ## Configure environment
 
-The file config.json contains the definition of all the configuration needed by the project. This definitions are grouped by environment. You can activate one environemnt by calling the paramenter `env`. Example `grunt deploy --env=localhost` load all the vars defined in the localhost section. All this vars are available at:
+The file config.json contains the definition of all the configuration needed by the project. This definitions are grouped by environment. You can activate one environemnt by calling the paramenter `env`. Example `gulp deploy --env=localhost` load all the vars defined in the localhost section. All this vars are available at:
 
 * Jade templates by calling `#{localConfig.xxxx}`
 * Saas files by calling `@@config`. (#{localConfig.} cant be use because saas define his own vars in that way)
@@ -48,25 +48,27 @@ You can override this vars passing the concrete key as parameter with the prefix
 
 2. *Adding styles*:
 
-    - Create: `app/styles/css/[view_name]/[name].css`
-    - Add all the new css to the view with a 'usemin css block'. Example:
+    - Create a less file: `app/styles/less/[view_name]/[name].less`
+    - Add the new result css to the view. Example:
     ```
-    // build:css(app) /styles/[view_name].min.css
-    link(rel='stylesheet', href='/styles/css/[view_name]/first.css')
-    link(rel='stylesheet', href='/styles/css/[view_name]/second.css')
-    // endbuild
-    ```
-    With less:
-    - Create: `app/styles/less/[view_name]/[name].less`
-    - Add all the new css to the view with a 'usemin css block'. Example:
-    ```
-    // build:less(app) /styles/[view_name].min.css
-    link(rel='stylesheet', href='/styles/css/[view_name]/first.less')
-    link(rel='stylesheet', href='/styles/css/[view_name]/second.less')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/[view_name]/[name].css')
     ```
 
-3. *Add translations*:
+3. *Adding scripts*:
+
+    Scripts are concatenated by folder.
+    - Create multiple js files inside a folder:
+    ```
+    app/scripts/[folder]/1.js
+    app/scripts/[folder]/2.js
+    app/scripts/[folder]/3.js
+    ```
+    - Add the new result js to the view. Example:
+     ```
+    script(type="text/javascript", src='#{localConfig.base_path}/scripts/[folder].js')
+    ```
+
+4. *Add translations*:
 
     Update all: `app/locales/[names]_[country_lang].json` with:
 

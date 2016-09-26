@@ -4,17 +4,22 @@ var jade = require('gulp-jade');
 var data = require('gulp-data');
 var path = require('path');
 var through2 = require('through2');
-var usemin = require('gulp-usemin');
-var cleanCSS = require('gulp-clean-css');
+var revReplace = require('gulp-rev-replace');
 var connect = require('gulp-connect');
 var replace = require('gulp-replace-task');
 var uglify = require('gulp-uglify');
+var cleanCSS = require('gulp-clean-css');
 var rev = require('gulp-rev');
 var bower = require('gulp-bower');
 var del = require('del');
 var gutil = require('gulp-util');
 var less = require('gulp-less');
 var sourcemaps = require('gulp-sourcemaps');
+var imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
+var minifyInline = require('gulp-minify-inline');
+var revdel = require('gulp-rev-delete-original');
+var merge = require('merge-stream');
 var _ = require('lodash');
 
 var onesky = require('./gulp/onesky');
@@ -98,7 +103,7 @@ var routes = function () {
                             if (url === routing[viewKey][langKey]){
                                 gutil.log("Cant build Routes. The url:", gutil.colors.green(url),
                                     "in:", gutil.colors.green(view + "." + lang), "already exists in:",  gutil.colors.green(viewKey + "." + langKey));
-                                throw new Error("The url: " + url + "already exists in view: " + viewKey + " with the lang: " + langKey);
+                                throw new Error("The url: " + url + " already exists in view: " + viewKey + " with the lang: " + langKey);
                             }
                         }
                     }
@@ -113,6 +118,72 @@ var routes = function () {
     }
     return routing;
 }();
+
+gulp.task('vendor:js', ['bower'], function() {
+    var baseTask =
+        gulp.src([
+            './dist/bower_components/jquery/dist/jquery.min.js',
+            './dist/bower_components/materialize/dist/js/materialize.min.js',
+            './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js',
+            './dist/bower_components/aos/dist/aos.js'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('base.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/scripts/vendor'));
+
+    var vodafoneTask =
+        gulp.src([
+            './dist/bower_components/jquery/dist/jquery.min.js',
+            './dist/bower_components/materialize/dist/js/materialize.min.js'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('vodafone.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/scripts/vendor'));
+
+    var mposTask =
+        gulp.src([
+            './dist/bower_components/zepto/zepto.min.js',
+            './dist/bower_components/zeptojs/src/touch.js',
+            './dist/bower_components/magnific-popup/dist/jquery.magnific-popup.js'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('mpos.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/scripts/vendor'));
+
+    return merge([baseTask, vodafoneTask, mposTask]);
+});
+
+gulp.task('vendor:css', ['bower'], function() {
+    var baseTask =
+        gulp.src([
+            './dist/bower_components/upplication-icons/dist/upplication-icons.css',
+            './dist/bower_components/materialize/dist/css/materialize.min.css',
+            './dist/bower_components/bootstrap/dist/css/bootstrap.min.css',
+            './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.css',
+            './dist/bower_components/aos/dist/aos.css'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('base.css'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/styles/vendor'));
+
+    var vodafoneTask =
+        gulp.src([
+            './dist/bower_components/magnific-popup/dist/magnific-popup.css',
+            './dist/bower_components/upplication-icons/dist/upplication-icons.css',
+            './dist/bower_components/materialize/dist/css/materialize.min.css',
+            './dist/bower_components/bootstrap/dist/css/bootstrap.min.css'
+            ])
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat('vodafone.css'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest('./dist/styles/vendor'));
+
+    return merge([baseTask, vodafoneTask]);
+});
 
 gulp.task('templates', function() {
 
@@ -157,15 +228,6 @@ gulp.task('templates', function() {
             this.push(data);
             cb();
         }))
-        .pipe(usemin({
-            outputRelativePath: './',
-            js: (gutil.env.type === 'production' ? [uglify, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
-            css: (gutil.env.type === 'production' ? [cleanCSS, rev] : [sourcemaps.init, 'concat', sourcemaps.write]),
-            less: (gutil.env.type === 'production' ? [less, cleanCSS, rev] : [sourcemaps.init, less, 'concat', sourcemaps.write])
-        }))
-        /*
-         * try to replace in locales.json the @@config vars
-         */
         .pipe(replace({
             patterns: [{
                 json: envConfig
@@ -173,15 +235,103 @@ gulp.task('templates', function() {
             prefix: '@@config.'
         }))
         .pipe(gulp.dest('./dist/'))
-        .pipe(connect.reload());
+        .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
+});
 
+gulp.task('scripts', function() {
+
+    var stylesPath = "./app/scripts";
+
+    function getFolders(dir) {
+        return fs.readdirSync(dir)
+            .filter(function(file) {
+                return fs.statSync(path.join(dir, file)).isDirectory();
+            });
+    }
+
+    var folders = getFolders(stylesPath);
+    var tasks = folders.map(function(folder) {
+        return gulp.src(path.join(stylesPath, folder, '/**/*.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
+            .pipe(concat(folder + '.js'))
+            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+            .pipe(gulp.dest("./dist/scripts"))
+            .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop())
+    });
+
+    return merge(tasks);
+});
+
+gulp.task('post', ['rev:scripts', 'rev:styles'], function() {
+    if (gutil.env.type === 'production') {
+        return gulp.src('./dist/**/*.html')
+            .pipe(revReplace({manifest: gulp.src("./dist/rev-manifest-*.json")}))
+            .pipe(minifyInline())
+            .pipe(gulp.dest('./dist/'));
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'post'"), "task when", gutil.colors.green("--type=production"), "not present");
+    }
+});
+
+gulp.task('rev:scripts', ['scripts'], function() {
+    if (gutil.env.type === 'production') {
+        return gulp.src('./dist/scripts/**/*.js')
+            .pipe(uglify())
+            .pipe(rev())
+            .pipe(revdel())
+            .pipe(gulp.dest('./dist/scripts'))
+            .pipe(rev.manifest('rev-manifest-js.json'))
+            .pipe(gulp.dest("./dist"))
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'rev:scripts'"), "task when", gutil.colors.green("--type=production"), "not present");
+    }
+});
+
+gulp.task('rev:styles', ['styles'], function() {
+    if (gutil.env.type === 'production') {
+        return gulp.src('./dist/styles/**/*.css')
+            .pipe(cleanCSS({processImport: false}))// not process import because a timeout error:
+            .pipe(rev())
+            .pipe(revdel())
+            .pipe(gulp.dest('./dist/styles'))
+            .pipe(rev.manifest('rev-manifest-css.json'))
+            .pipe(gulp.dest("./dist"))
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'rev:styles'"), "task when", gutil.colors.green("--type=production"), "not present");
+    }
+});
+
+gulp.task('styles', function() {
+    var lessTask = gulp.src("./app/styles/less/**/[^_]*.less")
+        .pipe(gutil.env.type !== 'production' ?  sourcemaps.init() : gutil.noop())
+        .pipe(less())
+        .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
+        .pipe(replace({
+            patterns: [{
+                json: envConfig
+            }],
+            prefix: '@@config.'
+        }))
+        .pipe(gulp.dest("./dist/styles"))
+        .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
+
+    var cssTask =  gulp.src("./app/styles/**/*.css")
+        .pipe(replace({
+            patterns: [{
+                json: envConfig
+            }],
+            prefix: '@@config.'
+        }))
+        .pipe(gulp.dest("./dist/styles"));
+
+    return merge([lessTask, cssTask]);
 });
 
 gulp.task('bower', function() {
     return bower();
 });
 
-gulp.task('connect', function() {
+gulp.task('connect', ['templates'], function() {
     connect.server({
         root: 'dist',
         port: 9000,
@@ -194,7 +344,7 @@ gulp.task('onesky', function() {
     return gulp.src('./onesky.json')
         .pipe(onesky({
             projectId: '68574',
-            sourceFile: ['default.json','terms.json', 'aplicateca_terms.json']
+            sourceFile: ['default.json','terms.json', 'aplicateca_terms.json', 'home.json', 'successful.json']
         }))
         .pipe(gulp.dest('app/locales'))
 });
@@ -205,6 +355,7 @@ gulp.task('clean', function() {
 
 gulp.task('copy:images', function() {
     return gulp.src('./app/images/**',  { base: 'app' })
+        .pipe(gutil.env.type === 'production' ? imagemin() : gutil.noop())
         .pipe(gulp.dest('./dist/'));
 });
 
@@ -214,8 +365,15 @@ gulp.task('copy', function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['./app/**/*.jade', './app/styles/**/*.css', './app/styles/less/**/*.less', './app/**/*.js', './app/locales/*.json'], ['templates']);
-    gulp.watch(['./app/images/**'], ['copy:images']);
+    if (gutil.env.type !== 'production') {
+        gulp.watch(['./app/**/*.jade', './app/locales/*.json'], ['templates']);
+        gulp.watch(['./app/styles/**/*.css', './app/styles/less/**/*.less'], ['styles']);
+        gulp.watch(['./app/**/*.js'], ['scripts']);
+        gulp.watch(['./app/images/**'], ['copy:images']);
+    } else {
+        gutil.log("Skipped",  gutil.colors.cyan("'watch'"), "task when", gutil.colors.green("--type=production"));
+    }
+
 });
 
 /**
@@ -229,7 +387,6 @@ gulp.task('routing', function () {
                 path: './routing.json',
                 contents: new Buffer(JSON.stringify(routes, null, 4))
             });
-
             this.push(routeFile);
             callback();
         }))
@@ -242,14 +399,12 @@ gulp.task('routing', function () {
  * If you want to override the priority you must to set the _priority key
  */
 gulp.task('sitemap', function () {
-
     return gulp
         .src('./app/views/*.jade')
         .pipe(sitemap({basePath: envConfig.base_path}))
         .pipe(gulp.dest("dist"));
-
 });
 
-gulp.task('default', ['templates', 'bower', 'copy:images', 'copy', 'connect', 'sitemap', 'routing', 'watch']);
-gulp.task('deploy', ['templates', 'bower', 'copy:images', 'copy', 'sitemap', 'routing']);
+gulp.task('default', ['templates', 'styles', 'scripts', 'post', 'bower', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing', 'connect', 'watch']);
+gulp.task('deploy', ['templates', 'styles', 'scripts', 'post', 'bower', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing']);
 

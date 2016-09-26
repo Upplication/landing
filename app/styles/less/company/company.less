@@ -1,0 +1,221 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: COMPANY - index :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import "../base/_common.less";
+
+
+/* ... INTRO :: first text block ... */
+
+#intro {
+  padding-top: 6em;
+
+  .company-intro {
+    p {
+      margin-bottom: 0;
+      line-height: 30px;
+      color: @dark-lilac;
+      font-size: 18px;
+      font-weight: 400;
+
+      span {
+        font-weight: 500;
+      }
+
+      a {
+        font-weight: 500;
+        text-decoration: underline;
+
+        &:hover {
+          color: @dark-lilac;
+        }
+      }
+    }
+  }
+}
+
+/* ... MEDIA QUERIES (small smartphones) ... */
+@media all and (max-width: 480px) {
+  #intro {
+    // to reset margin
+    .container {
+      margin-bottom: 25px;
+      // Text adapted
+      .company-intro {
+        p {
+          .font-mobile;
+        }
+      }
+    }
+  }
+}
+
+
+/* ... TIMELINE (styles added in "common" component) ... */
+
+.timeline-section:not(#timeline) {
+  padding-top: 2em;
+
+  .timeline {
+    .timeline-panel {
+      padding: 0; // to resert all media queries
+
+      .timeline-heading {
+        .subheading {
+          margin-top: 0;
+          font-family: "Lato", serif;
+          font-size: 22px;
+          font-weight: 400;
+          text-align: right;
+          text-transform: none;
+          margin-bottom: 0;
+        }
+      }
+
+      .timeline-body > p {
+        padding-bottom: 0;
+        color: darken(@dark-lilac, 5%);
+        line-height: 28px;
+
+        a {
+          text-decoration: underline;
+          color: darken(@dark-lilac, 5%);
+
+          &:hover {
+            color: @darkest-lilac;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Media Queries :: TIMELINE (component) */
+
+// for Big devices
+@media (min-width:768px) {
+  .timeline-section:not(#timeline) {
+    .timeline > li {
+
+      &:not(.timeline-inverted) {
+        .timeline-panel {
+          &:after {
+            left: 100%;
+          }
+          .timeline-heading {
+            .subheading {
+              text-align: right;
+            }
+          }
+        }
+      }
+
+      &.timeline-inverted {
+        .timeline-panel {
+          &:before {
+            left: -12px;
+          }
+          .timeline-heading {
+            .subheading {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// for Small devices
+@media (max-width: 767px) {
+  .timeline-section:not(#timeline) {
+    .timeline > li {
+      .timeline-panel {
+        padding: 0 20px 0 100px;
+
+        .timeline-heading {
+          .subheading {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ... MEDIA QUERIES (small smartphones) ... */
+@media all and (max-width: 480px) {
+  // Text adapted in Timeline section
+  .timeline-section:not(#timeline) {
+    .timeline {
+      .timeline-panel {
+        .timeline-body > p {
+          .font-mobile;
+        }
+      }
+    }
+  }
+}
+
+
+/* ... WORLD MAP section ... */
+
+.worldmap-section {
+  width: 100%;
+  border-top: 1px solid @header-border;
+  margin-top: 0;
+
+  .worldmap-bg {
+    width: 70%;
+    .centered;
+  }
+}
+
+// Media Queries :: worldmap
+
+@media (max-width:1350px) {
+  .worldmap-section {
+    .worldmap-bg {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width:980px) {
+  .worldmap-section {
+    .worldmap-bg {
+      width: 95%;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .worldmap-section {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:667px) {
+  .worldmap-section {
+    .worldmap-bg {
+      width: 100%;
+    }
+  }
+}
+
+/* ... MEDIA QUERIES (small smartphones) ... */
+@media all and (max-width: 480px) {
+  // to reset margins & paddings
+  .worldmap-section {
+    .headTitles {
+      margin-top: 25px;
+    }
+    .headTitles + p {
+      padding: 0 20px;
+    }
+  }
+}

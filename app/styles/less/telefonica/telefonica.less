@@ -1,0 +1,119 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: COMMON :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import "../base/_variables.less";
+@import "../base/_mixins.less";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
+
+
+// Main Movistar color
+@movistar: #00476e;
+
+
+/* ... "Sucessful Showcase" :: Section... */
+
+#content.home {
+  .testimonials {
+    li {
+      a {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+/* ... "TRY IT FOR FREE 15 DAYS!" :: Section :: Footer Common in all pages... */
+
+.trial-block {
+  background: @white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 8em 0;
+
+  // Text Side
+  .trial-block-left {
+    float: left;
+    width: 70%;
+
+    h2 {
+      color: @movistar;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      font-size: 2.58em;
+      line-height: 35px;
+    }
+
+    h3 {
+      color: @movistar;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  }
+
+  // BTN side
+  .trial-block-right {
+    margin-top: 1.5em;
+    float: right;
+    text-align: left;
+    width: 30%;
+
+    a.price-btn {
+      background: @accept-btn;
+      color: @white;
+      padding: 1.3em 2.2em;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 18px;
+      letter-spacing: 0.02em;
+
+      &:hover {
+        background: @accept-btn-hover;
+      }
+    }
+  }
+}
+
+
+/* ... APLICATECA PRICES VIEW ... */
+
+.plans.prices-aplicateca {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+
+/* ... MEDIA QUERIES ... */
+
+@media screen and (max-width: 1399px) {
+  .trial-block {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .trial-block {
+    width: 90%;
+
+    .trial-block-left {
+      float: inherit;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .trial-block-right {
+      float: inherit;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

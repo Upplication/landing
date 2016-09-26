@@ -6,25 +6,25 @@
     "_priority": "0.8",
     "_url": "/nosotros/",
     "departments": {
+      "title": "<span>Conoce</span> nuestros departamentos",
       "develop": {
         "img": "¡Todos los frikis reunidos!",
-        "text": "Cordova, AngularJS, Java, CSS, UX… Nos encanta la tecnología y somos un poco freaks. Trabajamos con metodologías ágiles y estamos cambiando la forma en que las pymes del mundo crean sus apps móviles. Todos los días aprendemos algo nuevo.",
+        "text": "Cordova, AngularJS, Java, CSS, UX… Somos los que hemos desarrollado la plataforma más sencilla (y más bonita) para que puedas <b>crear una aplicación móvil sin conocimientos de informática</b>. Trabajamos con metodologías ágiles porque somos conscientes de la importancia de la <b>innovación en el mundo empresarial</b> y cada día nos esforzamos en aprender algo nuevo para mejorar tantos los procesos como la plataforma. ¡Nos encanta la tecnología y somos un poco (bastante) freaks!",
         "title": "Dpto. Desarrollo"
       },
       "marketing": {
         "img": "El trabajo duro de nuestros vendedores",
-        "text": "Lideramos el crecimiento del proyecto en cualquier rincón del mundo. Nuestro día a día está orientado a los datos y la analítica. Siempre pensando en cómo vender más y más rápido. Cada vez que tenemos un nuevo cliente hacemos sonar un bocina en nuestras oficinas.",
+        "text": "Objetivo: crecer, crecer y crecer. Ya <b>tenemos clientes en 78 países de todo el mundo</b> y lideramos el crecimiento del proyecto a través de acciones conjuntas de Marketing y Comunicación. Nuestro día a día está orientado a los datos y la analítica. Somos <b>expertos en Mobile</b> y también ofrecemos a nuestros clientes formación continua con <b>contenido en nuestro blog</b>, <b>cursos</b>, <b>eBooks</b>, <b>talleres</b>, etc.¡Cada vez que tenemos un nuevo cliente, hacemos sonar un bocina la oficina!",
         "title": "Dpto. Marketing"
       },
-      "subtitle": "Conoce",
       "support": {
         "img": "Belén llamando a nuestros clientes con su mejor sonrisa",
-        "text": "Objetivo prioritario, que el cliente sea feliz. Hablamos todos los días con cientos de usuarios de más de 65 países del mundo. Somos muy cercanos y siempre tenemos una sonrisa en la boca. Nos encanta ayudarte para que tu experiencia con nosotros sea rentable.",
+        "text": "Objetivo: asesorarte antes, durante y después de la creación de tu aplicación móvil. Cada cliente es único y <b>te ofrecemos una ayuda personalizada porque somos expertos en creación y desarrollo de aplicaciones móviles</b>. Somos muy cercanos y tu opinión es muy importante para nosotros para mejorar nuestro producto y conseguir que tu experiencia con nosotros se convierta en algo rentable para tu empresa. ¡Y todo esto siempre con la mejor de las sonrisas en la boca!",
         "title": "Dpto. Soporte"
-      },
-      "title": "nuestros departamentos"
+      }
     },
     "team": {
+      "title": "<span>Conoce a</span> nuestro equipo",
       "admin": {
         "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
         "name": "Noemí",
@@ -48,14 +48,6 @@
         "sentence": "Yo también mando, ¿eh?",
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
-      },
-      "communication": {
-        "linkedin": "https://www.linkedin.com/in/kelia-vidarte-ojeda-00b03a76",
-        "name": "Kelia",
-        "position": "Asistente de comunicación",
-        "sentence": "¡Dadme un megáfono y veréis!",
-        "surname": "Vidarte Ojeda",
-        "twitter": "https://twitter.com/kelitraveler"
       },
       "community": {
         "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
@@ -122,7 +114,6 @@
           "twitter": "https://twitter.com/alcanizalv"
         }
       },
-      "subtitle": "Conoce",
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
         "name": "Belén",
@@ -146,8 +137,7 @@
         },
         "surname": "Fernández Pérez",
         "twitter": "https://twitter.com/BeeleenFP"
-      },
-      "title": "a nuestro equipo"
+      }
     }
   },
   "aplicateca": {
@@ -231,8 +221,8 @@
       "url": "http://www.upplication.com/blog/"
     },
     "breakfasts": {
-      "anchor": "Desayunos Upplication",
-      "url": "http://upplication.com/blog/taller-crear-apps-madrid/"
+      "anchor": "Un caso de éxito",
+      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase/"
     },
     "company": {
       "anchor": "Upplication bio",
@@ -265,7 +255,7 @@
     "hiring": "¡Estamos contratando!",
     "hiring_backend": {
       "anchor": "Desarrollador Backend",
-      "url": "http://www.upplication.com/blog/empleo-backend-developer-para-upplication/"
+      "url": "@@config.base_path/oferta-practicas-developer/"
     },
     "hiring_developer": {
       "anchor": "Prácticas de desarrollador",
@@ -273,7 +263,7 @@
     },
     "hiring_frontend": {
       "anchor": "Desarrollador Frontend",
-      "url": "http://upplication.com/blog/empleo-madrid-buscamos-frontend-developer-y-backend-developer/"
+      "url": "@@config.base_path/oferta-practicas-developer/"
     },
     "hiring_marketing": {
       "anchor": "Prácticas de marketing",
@@ -331,7 +321,7 @@
     },
     "tutorials": {
       "anchor": "Tutoriales",
-      "url": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+      "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
     "twitter": {
       "anchor": "Twitter",
@@ -348,6 +338,7 @@
     "company": "Compañía",
     "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/#cookies-policy'>política de cookies</a>.",
     "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-aplicateca/'>política de cookies.</a>",
+    "free_trial": "Crear mi app gratis",
     "media": "Medios y redes",
     "partners": {
       "eu": {
@@ -365,6 +356,10 @@
       "wayra": {
         "title": "Wayra, acelerador de startups de Telefónica",
         "url": "http://wayra.co/en"
+      },
+      "freepik": {
+        "title": "Freepik, free graphic resources for designers",
+        "url": "http://www.freepik.com/"
       }
     },
     "signature": "Diseñado y desarrollado en Madrid",
@@ -386,7 +381,8 @@
         "url": "@@config.base_path/terminos/#uso"
       }
     },
-    "try_it": "¡Crea tu app, tienes <strong>15 días gratis</strong>!"
+    "try_it": "¡Crea tu aplicación ahora!",
+    "try_it_free": "15 días de prueba gratis con ayuda personalizada"
   },
   "form": {
     "call_to_action": "¡Crea ahora tu app gratis!",
@@ -402,8 +398,7 @@
     "logo": {
       "title": "Logotipo de Upplication",
       "title_xmas": "Upplication logo Navideño",
-      "url": "@@config.base_path/images/home/icons/upplication.svg",
-      "url_xmas": "@@config.base_path/images/home/icons/upplication_xmas.png"
+      "url": "@@config.base_path/"
     },
     "menu": "menu",
     "nav": {
@@ -412,7 +407,7 @@
       "how": "Cómo creo mi App",
       "info": {
         "about_us": {
-          "title": "sobre nosotros",
+          "title": "Sobre nosotros",
           "url": "@@config.base_path/nosotros/"
         },
         "company_bio": {
@@ -565,195 +560,6 @@
       "title": "Ven a nuestros desayunos"
     }
   },
-  "home": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_meta_title": "Crea la app de tu pyme - Upplication",
-    "_priority": "1.0",
-    "_url": "/",
-    "create_free": "Crear mi app gratis",
-    "how": {
-      "app_ready": " <span>Tu App</span> lista ",
-      "how_four": {
-        "publish_step1": "Publicamos tu App",
-        "publish_step2": "<span>Nosotros nos encargamos de subirte la app</span> a los diferentes markets (Apple, Android).",
-        "publish_step3": "Todas nuestras apps son <span>multidispositivo</span> (móvil, tablet, Pc, Mac...)."
-      },
-      "how_main": "Crea tu app fácilmente",
-      "how_one": {
-        "reg_step1": "Regístrate",
-        "reg_step2": "Regístrate en tres sencillos pasos:",
-        "reg_step3": "nombre de tu app, email y contraseña."
-      },
-      "how_three": {
-        "tutor_step1": "Tutor personal",
-        "tutor_step2": "<span>Soporte técnico profesional</span> para ayudarte en la idea y creación de tu App.",
-        "tutor_step3": "Disponible por <span>chat</span>, <span>email</span>, y <span>teléfono</span>."
-      },
-      "how_two": {
-        "app_step1": "Crea tu App",
-        "app_step2": "Panel de control <span>sencillo de usar</span>, intuitivo.",
-        "app_step3": "Usa <span>módulos y plantillas</span> para personalizar tu app.",
-        "app_step4": "Controla el <span>número de descargas</span> y envía <span>alertas push</span> a tus clientes."
-      }
-    },
-    "improve_sales": {
-      "points": [
-        "Mejora los ingresos de tu negocio",
-        "Vende desde los dispositivos móviles",
-        "Mejora la comunicación con tus clientes"
-      ],
-      "title": "Mejora tus ventas"
-    },
-    "multidevice": {
-      "android_alt": "Crea tu app con Android",
-      "devices_alt": "Crear app",
-      "html5_alt": "Crea tu app con HTML5",
-      "ios_alt": "Crea tu app con iOS",
-      "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
-      "title": "App y web multidispositivo"
-    },
-    "multidevises": {
-      "sub_title": "Válidas para cualquier dispositivo con cualquier sistema operativo",
-      "title": "Nuestras apps son multiplataforma"
-    },
-    "optimize": {
-      "points": [
-        {
-          "desc": "Una app te permitirá estar siempre en el bolsillo de tu cliente. Fideliza, crea una relación larga y consigue mejorar tus ingresos.",
-          "icon": "customize",
-          "title": "Personalización"
-        },
-        {
-          "desc": "Te acompañamos en cada paso para la creación de tu app, para ello tendrás a una persona encargada de ayudarte en cada momento.",
-          "icon": "personal-tutor",
-          "title": "Tutor personal"
-        },
-        {
-          "desc": "Con Upplication podrás crear tu app para iOS, Android y la web responsive que deseas. Además nosotros las publicaremos en App Store y Google Play por ti.",
-          "icon": "multidevice",
-          "title": "Multidispositivo"
-        }
-      ],
-      "title": "Optimiza tu negocio"
-    },
-    "permanence": "Período de prueba sin compromiso de permanencia.",
-    "press": {
-      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
-      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
-      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
-      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
-      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
-      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
-      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
-    },
-    "register_inline": {
-      "app_name": "Nombre de la app",
-      "call_to_action": "Probar gratis",
-      "email": "E-mail",
-      "password": "Contraseña",
-      "title": "Regístrate y empieza a crear tu primera app gratis"
-    },
-    "samples": {
-      "alt_tag": {
-        "img_galaxy": "App de Upplication funcionando en un Samsung Galaxy",
-        "img_iphone": "App de Upplication funcionando en un iPhone",
-        "img_nexus": "App de Upplication funcionando en un Nexus",
-        "img_xperia": "App de Upplication funcionando en un Sony Xperia"
-      },
-      "business": "Apps para todo tipo de negocios",
-      "custom": {
-        "cust_details1": "<span>Personal</span>: sube tu currículum, presentaciones, trabajos...",
-        "cust_details2": "<span>Música</span>: sube música y vídeos, fechas de conciertos, merchandising...",
-        "cust_details3": "<span>Eventos</span>: sube la agenda del evento, envía alertas push, introduce galerías...",
-        "cust_details4": "<span>Turismo</span>: Introduce mapas, recomienda lugares, sube ofertas gastronómicas...",
-        "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de los que necesites"
-      },
-      "free_app": "Crear mi app Gratis",
-      "personal": "Personalizadas",
-      "rest": {
-        "details1": "Tus clientes podrán <span>reservar mesa</span> desde su móvil.",
-        "details2": "Realiza <span>envío a domicilio</span> de tus productos.",
-        "details3": "Muestra <span>cupones descuento</span> en la app.",
-        "details4": "Envía <span>alertas push</span> con ofertas exclusivas.",
-        "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>aporta valor a tu cliente</span>."
-      },
-      "restaurants": "Hostelería",
-      "serv": "<em>Servicios</em> Profesionales",
-      "serv_alt": "Servicios Profesionales",
-      "services": {
-        "serv_details1": "Haz que tus clientes puedan <span>contratar tus servicios</span> en cualquier lugar.",
-        "serv_details2": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes",
-        "serv_details3": "Sube <span>vídeos y fotografías</span> que promocionen tus servicios.",
-        "serv_details4": "Envía ofertas exclusivas con las <span>alertas push</span>",
-        "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en el móvil"
-      },
-      "shop": {
-        "shop_details1": "Integra la pasarela de pago en cuestión de minutos y <span>empieza a vender</span>",
-        "shop_details2": "Ofrece <span>productos exclusivos</span> y aporta más valor a tu cliente.",
-        "shop_details3": "<span>Envía alertas</span> push con las mejores ofertas.",
-        "shop_details4": "Haz que tus clientes lleven <span>tu negocio en el bolsillo</span>.",
-        "shop_intro": "Crea tu app y haz que tus clientes puedan <span>comprar tus productos desde el móvil</span>"
-      },
-      "shops": "Tiendas"
-    },
-    "showcase": {
-      "title": "Estas son algunas de nuestras apps"
-    },
-    "slider": {
-      "appready": {
-        "": "¡ Tu App lista !",
-        "bg": "Creador de apps",
-        "title": "¡ Tu App lista !"
-      },
-      "bg": "Crea la app de tu pyme",
-      "intro1": "El creador de apps para ",
-      "intro2": "<span class=\"intro-2a\">Crea la app de tu negocio,</span> <span class=\"intro-2b\">sin programar, fácil y rápido.</span>",
-      "text": [
-        "emprendedores",
-        "hostelería",
-        "servicios",
-        "tiendas",
-        "ti"
-      ]
-    },
-    "support": {
-      "desc": "Todos y cada uno de los compañeros que formamos Upplication vamos a poner todo nuestro empeño en conseguir que obtengas la mejor experiencia de soporte técnico que esté en nuestras manos. Si tienes cualquier problema cuenta con nosotros.",
-      "title": "¡Estamos para ayudarte!"
-    },
-    "testimonials": {
-      "client1": {
-        "cite": "Excelente atención al cliente on-line y telefónica. Con mi app he conseguido fidelizar a muchos de mis clientes.",
-        "name": "Ana, C,UP Your choice on top",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
-      },
-      "client2": {
-        "cite": "Mis clientes reservan mesa y ven la carta de mi bar desde la app. Con Upplication gestiono el día a día de mi negocio en pocos minutos.",
-        "name": "David, Bar Trapatapa",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
-      },
-      "client3": {
-        "cite": "La herramienta más intuitiva que he probado. Gestionar mi app es muy sencillo. Además, Upplication no para de mejorar semana a semana.",
-        "name": "Gabriel, Moto Urban",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
-      },
-      "title": "¿Qué dicen de nuestras apps?"
-    },
-    "try": "¡Crea tu app, tienes 15 días gratis!",
-    "vodafone": {
-      "logo": "Logotipo Vodafone"
-    },
-    "why": {
-      "grow": "<strong>Aumenta</strong> tus ventas",
-      "img": {
-        "grow": "Aumenta tus ventas",
-        "loyal": "Fideliza a tus clientes",
-        "others": "Diferénciate de la competencia"
-      },
-      "loyal": "<strong>Fideliza</strong> a tus clientes",
-      "others": "<strong>Diferénciate</strong> de la competencia"
-    }
-  },
   "home_telefonica_mpos": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "Soporte y atención al cliente de Upplication, para crear app online, de Telefónica Upplication. Fácil, rápido y sin programar.",
@@ -788,8 +594,6 @@
   "modal": {
     "button": {
       "email": "mailto:info@upplication.com",
-      "icon_email": "email",
-      "icon_telf": "phone",
       "support_mail": "info@upplication.com",
       "telephone": "+34 917 958 203",
       "telf": "tel:0034917958203"
@@ -906,7 +710,7 @@
     "client2": {
       "alt": "Logotipo El Economista",
       "title": "Upplication en El Economista",
-      "url": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html"
+      "url": "http://www.eleconomista.es/emprendedores-pymes/noticias/6747454/05/15/La-transformacion-digital-y-la-innovacion-claves-para-la-competitividad-de-las-pymes-.html"
     },
     "client3": {
       "alt": "Logotipo Forbes",
@@ -916,12 +720,12 @@
     "client4": {
       "alt": "Logotipo EFE: Emprende",
       "title": "Upplication en EFE: Emprende, noticias sobre empresas y emprendedores",
-      "url": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/"
+      "url": "http://www.efeemprende.com/noticia/los-emprendedores-pueden-crear-propias-apps-sin-programar-upplication/"
     },
     "client5": {
       "alt": "Logotipo Telefónica",
-      "title": "Upplication en Blogthinkbig de Telefónica",
-      "url": "http://blogthinkbig.com/upplication-post-pc/"
+      "title": "Upplication en Open Future de Telefónica",
+      "url": "https://www.openfuture.org/es/new/fideliza-a-los-clientes-de-tu-startup-creando"
     },
     "client6": {
       "alt": "Logotipo TicBeat",
@@ -932,6 +736,21 @@
       "alt": "Logotipo wwwhat´s new",
       "title": "wwwhat´s new, noticias sobre tecnologías web y apps",
       "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+    },
+    "client8": {
+      "alt": "Logotipo TVE",
+      "title": "Reportaje en Zoom Net de TVE",
+      "url": "http://www.rtve.es/alacarta/videos/zoom-net/zoom-net-upplication-huawei-p9-uncharted-4/3571439/"
+    },
+    "client9": {
+      "alt": "Logotipo La Razón",
+      "title": "Entrevista en el diario La Razón",
+      "url": "http://www.larazon.es/damesuplementos/tueconomia/2016-09-11_TUE__/index.html#3"
+    },
+    "client10": {
+      "alt": "Logotipo Expansión",
+      "title": "Reportaje en el diario Expansión",
+      "url": "http://www.expansion.com/emprendedores-empleo/emprendedores/2016/01/15/56992402ca4741fa468b45d4.html?cid=SMBOSO22801&s_kw=twitter"
     }
   },
   "page_not_found": {
@@ -956,7 +775,7 @@
     "_priority": "0.6",
     "_url": "/precios/",
     "rates": {
-      "all_push": "Notificaciones <strong>ilimitadas</strong>",
+      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
       "app_web": "App y WebApp",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
@@ -964,7 +783,7 @@
       "euro_year": "€ / año",
       "four_push": "<strong>4</strong> notificaciones push / mes",
       "icons": {
-        "all_push": "Notificaciones ilimitadas",
+        "all_push": "Notificaciones push ilimitadas",
         "bullhorn": "Publicidad Upplication",
         "four_push": "4 notificaciones push / mes",
         "no_bullhorn": "Sin publicidad Upplication",
@@ -974,6 +793,11 @@
         "sign": "Firma en las plantillas",
         "statistics": "Estadísticas de tu app"
       },
+      "subtitles": {
+        "basic": "Plan para recién llegados.",
+        "professional": "Plan para poner tu negocio en órbita.",
+        "create": "Desarrollamos y diseñamos tu app."
+      },
       "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
       "monthly": "Plan Mensual",
       "no_bullhorn": "<strong>Sin</strong> publicidad Upplication",
@@ -981,7 +805,8 @@
       "no_sign": "<strong>Sin</strong> firma en las plantillas",
       "no_templates": "<strong>A medida</strong>, personalizada",
       "premiun": "PREMIUM",
-      "proff": "PROFESIONAL",
+      "professional": "PROFESIONAL",
+      "create": "CREAMOS TU APP",
       "rate_intro": "Planes de precios",
       "rate_sub": "Todos los planes incluyen:",
       "sign": "<strong>Firma</strong> en las plantillas",
@@ -990,6 +815,7 @@
       "sub2": "<span>Subida automática a los markets,</span> <span>nosotros subimos tu app.</span>",
       "sub3": "Web responsive multidispositivo.",
       "sub4": "Tutor personalizado.",
+      "sub5": "Panel de gestión de tu app.",
       "topsale": "Más demandado",
       "unlimited": "ILIMITADO",
       "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",

@@ -1,0 +1,115 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: TERMS - index :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import "../base/_common.less";
+
+.about-grids {
+  background-color: @white !important;
+}
+
+// Terms & Legal
+.terms-grid {
+  width: 100%;
+  float: left;
+  padding: 0 0 2em 0;
+  margin-top: 30px;
+
+  // Main titles
+  .headTitles {
+    margin: 2em 0 !important;
+  }
+
+  // Section subtitles with numbers
+  h5 {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    text-align: left;
+    color: @main-green;
+
+    span {
+      padding: 2px 8px 4px 8px;
+      background-color: @white;
+      border-radius: 50%;
+      border: 1px solid @main-green;
+      position: relative;
+      bottom: 2px;
+      margin-right: 10px;
+      color: @main-green;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  // Text blocks
+  p,
+  ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: @black;
+    line-height: 30px;
+    text-align: justify;
+  }
+  p {
+    span,
+    strong,
+    a {
+      font-weight: 400;
+    }
+
+    span {
+      color: @main-green;
+    }
+    strong {
+      color: @dark-lilac;
+    }
+    a {
+      color: @main-blue;
+      
+      &:hover {
+        color: darken(@main-blue, 15%);
+      }
+    }
+  }
+}
+
+/* Don�t show Register Form & Footer Terms links neither in some pages like microlandings */
+.register-form,
+.terms-micro-hidden {
+  display: none;
+}
+
+
+/* ... MEDIA QUERIES :: Terms & Legal ... */
+
+@media only screen and (min-width: 481px) {
+  // extra paddings
+  #legal {
+    .about-grids {
+      padding: 0 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .terms-grid {
+    // to reset Text default values
+    .headTitles {
+      font-size: 1.6em;
+      margin-bottom: .5em !important;
+    }
+
+    h5 {
+      font-size: 1.2em;
+    }
+
+    p, ul li {
+      .font-mobile;
+    }
+  }
+}

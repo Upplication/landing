@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = about_us._meta_title
@@ -7,92 +7,88 @@ block vars
     - var cssClass = 'about'
 
 block css
-    // build:css(app) /styles/about.min.css
-    link(rel='stylesheet', href='/styles/css/about/about.css')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/about/about.css')
 
 block content
     // MEET OUR TEAM
     .col.s12.center-align.team-header.padBot50.border-bottom
-        h4
-            span #{about_us.team.subtitle}
-            | #{about_us.team.title}
+        h4.headTitles.text-center !{about_us.team.title}
         #team.about
             .container
-                .row.bosses-area.animated.fadeInDown
-                    .col.s12.m6.center-align
+                .row.bosses-area
+                    .col.s12.m6.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.ceo.linkedin}', title='#{about_us.team.ceo.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.ceo.twitter}', title='#{about_us.team.ceo.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-boss.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.ceo.sentence}')
-                            i.fa.fa-star
+                            i.icon.icon-asterisk
                         .upp-boss-img.team-jose.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/jose_ceo_2.jpg', title='#{about_us.team.ceo.position}', alt='#{about_us.team.ceo.position}')
                         h5
                             strong #{about_us.team.ceo.name}
                             | #{about_us.team.ceo.surname}
                         p.team-work #{about_us.team.ceo.position}
-                    .col.s12.m6.center-align
+                    .col.s12.m6.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.cmo.linkedin}', title='#{about_us.team.cmo.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cmo.twitter}', title='#{about_us.team.cmo.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-boss.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.cmo.sentence}')
-                            i.fa.fa-star
+                            i.icon.icon-asterisk
                         .upp-boss-img.team-victor.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/victor_cmo_2.jpg', title='#{about_us.team.cmo.position}', alt='#{about_us.team.cmo.position}')
                         h5
                             strong #{about_us.team.cmo.name}
                             | #{about_us.team.cmo.surname}
                         p.team-work #{about_us.team.cmo.position}
-                .row.crew-area.animated.fadeIn
-                    .col.s12.m3.center-align
+                .row.crew-area
+                    .col.s12.m3.center-align(data-aos='zoom-in-right')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.cto.linkedin}', title='#{about_us.team.cto.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cto.twitter}', title='#{about_us.team.cto.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-dev.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.cto.sentence}')
-                            i.fa.fa-code
+                            i.icon.icon-code
                         .upp-team-img.team-arnaiz.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/javi_cto_2.jpg', title='#{about_us.team.cto.position}', alt='#{about_us.team.cto.position}')
                         h5
                             strong #{about_us.team.cto.name}
                             | #{about_us.team.cto.surname}
                         p.team-work #{about_us.team.cto.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.support.support_1.linkedin}', title='#{about_us.team.support.support_1.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.support.support_1.twitter}', title='#{about_us.team.support.support_1.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.support.support_1.sentence}')
-                            i.fa.fa-tty
+                            i.icon.icon-phone
                         .upp-team-img.team-belen.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/belen_support_2.jpg', title='#{about_us.team.support.support_1.position}', alt='#{about_us.team.support.support_1.position}')
                         h5
                             strong #{about_us.team.support.support_1.name}
                             | #{about_us.team.support.support_1.surname}
                         p.team-work #{about_us.team.support.support_1.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.backend_1.linkedin}', title='#{about_us.team.dev.backend_1.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.backend_1.twitter}', title='#{about_us.team.dev.backend_1.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-dev.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.dev.backend_1.sentence}')
-                            i.fa.fa-code
+                            i.icon.icon-code
                         .upp-team-img.team-gorka.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/gorka_dev_2.jpg', title='#{about_us.team.dev.backend_1.sentence.position}', alt='#{about_us.team.dev.backend_1.sentence.position}')
                         h5
                             strong #{about_us.team.dev.backend_1.name}
                             | #{about_us.team.dev.backend_1.surname}
                         p.team-work #{about_us.team.dev.backend_1.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-left')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.admin.linkedin}', title='#{about_us.team.admin.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.admin.twitter}', title='#{about_us.team.admin.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-dev.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.admin.sentence}')
-                            i.fa.fa-money
+                            i.icon.icon-money
                         .upp-team-img.team-noemi.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/noemi_account_2.jpg', title='#{about_us.team.admin.position}', alt='#{about_us.team.admin.position}')
                         h5
@@ -100,52 +96,52 @@ block content
                             | #{about_us.team.admin.surname}
                         p.team-work #{about_us.team.admin.position}
                     .clearfix
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-right')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.community.linkedin}', title='#{about_us.team.community.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.community.twitter}', title='#{about_us.team.community.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.community.sentence}')
-                            i.fa.fa-bullhorn
+                            i.icon.icon-megaphone
                         .upp-team-img.team-cris.circle.animate-hover
-                            img.hidden(src='#{localConfig.base_path}/images/about/cris_marketing_2.jpg', title='#{about_us.team.community.position}', alt='#{about_us.team.community.position}')
+                            img.hidden(src='#{localConfig.base_path}/images/about/cris_communication_2.jpg', title='#{about_us.team.community.position}', alt='#{about_us.team.community.position}')
                         h5
                             strong #{about_us.team.community.name}
                             | #{about_us.team.community.surname}
                         p.team-work #{about_us.team.community.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.design.linkedin}', title='#{about_us.team.design.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.design.twitter}', title='#{about_us.team.design.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-design.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.design.sentence}')
-                            i.fa.fa-paint-brush
+                            i.icon.icon-brush
                         .upp-team-img.team-jotaele.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/javi_design_2.jpg', title='#{about_us.team.design.position}', alt='#{about_us.team.design.position}')
                         h5
                             strong #{about_us.team.design.name}
                             | #{about_us.team.design.surname}
                         p.team-work #{about_us.team.design.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.backend_2.linkedin}', title='#{about_us.team.dev.backend_2.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.backend_2.twitter}', title='#{about_us.team.dev.backend_2.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-dev.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.dev.backend_2.sentence}')
-                            i.fa.fa-code
+                            i.icon.icon-code
                         .upp-team-img.team-marcos.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/marcos_dev_2.jpg', title='#{about_us.team.dev.backend_2.sentence.position}', alt='#{about_us.team.dev.backend_2.sentence.position}')
                         h5
                             strong #{about_us.team.dev.backend_2.name}
                             |  #{about_us.team.dev.backend_2.surname}
                         p.team-work #{about_us.team.dev.backend_2.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-left')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.sales.sales_2.linkedin}', title='#{about_us.team.sales.sales_2.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.sales.sales_2.twitter}', title='#{about_us.team.sales.sales_2.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-sales.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.sales.sales_2.sentence}')
-                            i.fa.fa-line-chart
+                            i.icon.icon-chart-line
                         .upp-team-img.team-alvaro.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/alvaro_sales_2.jpg', title='#{about_us.team.sales.sales_2.position}', alt='#{about_us.team.sales.sales_2.position}')
                         h5
@@ -153,35 +149,35 @@ block content
                             | #{about_us.team.sales.sales_2.surname}
                         p.team-work #{about_us.team.sales.sales_2.position}
                     .clearfix
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in-right')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.dev.frontend_1.linkedin}', title='#{about_us.team.dev.frontend_1.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.dev.frontend_1.twitter}', title='#{about_us.team.dev.frontend_1.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-dev.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.dev.frontend_1.sentence}')
-                            i.fa.fa-code
+                            i.icon.icon-code
                         .upp-team-img.team-juanjo.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/juanjo_dev_2.jpg', title='#{about_us.team.dev.frontend_1.position}', alt='#{about_us.team.dev.frontend_1.position}')
                         h5
                             strong #{about_us.team.dev.frontend_1.name}
                             | #{about_us.team.dev.frontend_1.surname}
                         p.team-work #{about_us.team.dev.frontend_1.position}
-                    .col.s12.m3.center-align
+                    .col.s12.m3.center-align(data-aos='zoom-in')
                         a.team-rrss.team-linkedin.animate-hover(href='#{about_us.team.support.support_2.linkedin}', title='#{about_us.team.support.support_2.linkedin}', target='_blank')
-                            i.fa.fa-linkedin
+                            i.icon.icon-linkedin
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.support.support_2.twitter}', title='#{about_us.team.support.support_2.twitter}', target='_blank')
-                            i.fa.fa-twitter
+                            i.icon.icon-twitter
                         a.team-job.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.support.support_2.sentence}')
-                            i.fa.fa-tty
+                            i.icon.icon-phone
                         .upp-team-img.team-margot.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/margot_support_2.jpg', title='#{about_us.team.support.support_2.position}', alt='#{about_us.team.support.support_2.position}')
                         h5
                             strong #{about_us.team.support.support_2.name}
                             | #{about_us.team.support.support_2.surname}
                         p.team-work #{about_us.team.support.support_2.position}
-                    .col.s12.m3.center-align
-                        a.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
-                            i.fa.fa-plus
+                    .col.s12.m3.center-align(data-aos='zoom-in')
+                        a.team-job.team-new.team-support.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.nextone.sentence}')
+                            i.icon.icon-plus
                         .upp-team-img.team-newfella.circle.animate-hover
                         h5 #{about_us.team.nextone.surname}
                         p.team-work #{about_us.team.nextone.position}
@@ -189,29 +185,24 @@ block content
     // DPTOS. INFO & PICS
     #about.about
         .col.s12.center-align.team-header
-            h4
-                span #{about_us.departments.subtitle}
-                | #{about_us.departments.title}
+            h4.headTitles.text-center !{about_us.departments.title}
         .about-grids.row
-            .col.m4.about-grid.about-grid1.animated.fadeInLeft
+            .col.m4.about-grid.about-grid1(data-aos='fade-down')
                 .about-grid-info
                     h4 #{about_us.departments.support.title}
-                    p
-                        | #{about_us.departments.support.text}
+                    p !{about_us.departments.support.text}
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_support.jpg', title='#{about_us.departments.support.img}', alt='#{about_us.departments.support.img}')
-            .col.m4.about-grid.about-grid2.animated.fadeInUp
+            .col.m4.about-grid.about-grid2(data-aos='fade-down')
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_sales.jpg', title='#{about_us.departments.marketing.img}', alt='#{about_us.departments.marketing.img}')
                 .about-grid-info
                     h4 #{about_us.departments.marketing.title}
-                    p
-                        | #{about_us.departments.marketing.text}
-            .col.m4.about-grid.about-grid1.animated.fadeInRight
+                    p !{about_us.departments.marketing.text}
+            .col.m4.about-grid.about-grid1(data-aos='fade-down')
                 .about-grid-info
                     h4 #{about_us.departments.develop.title}
-                    p
-                        | #{about_us.departments.develop.text}
+                    p !{about_us.departments.develop.text}
                 .about-grid-pic
                     img(src='#{localConfig.base_path}/images/about/upp_team_dev.jpg', title='#{about_us.departments.develop.img}', alt='#{about_us.departments.develop.img}')
             .clearfix

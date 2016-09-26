@@ -1,0 +1,331 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: PRICES :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import "../base/_common.less";
+
+
+#pricing {
+  &.pricing-tables {
+    padding: 6em 0 0 0;
+
+    .tabs .tab a {
+      letter-spacing: 0;
+    }
+  }
+
+  // Common FEATURES
+  .plans-head {
+    padding: 0;
+
+    .prices-common-features {
+      margin-top: 50px;
+      text-align: left;
+      font-size: 18px;
+      font-weight: 500;
+
+      p {
+        padding-bottom: 10px;
+      }
+
+      i {
+        font-size: 25px;
+        padding: 10px;
+        color: @main-green;
+        
+        &.icon-comment-empty {
+          top: 7px;
+        }
+      }
+    }
+  }
+
+  // Bottom TAX ADVISE
+  .tax {
+    padding-top: 10px;
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+
+      i {
+        font-size: 10px;
+        padding-right: 5px;
+        top: -3px;
+      }
+    }
+  }
+
+  // Best Seller Product badge
+  .best-seller {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    z-index: 200;
+    width: 45px;
+  }
+
+  /* ... PRICING Plan TABLES ... */
+
+  // Common styles in Pricing Plans Tables
+  .pricing-table-grid {
+    border: 1px solid @header-border;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+
+    // Plan Name
+    h3 {
+      text-align: center;
+      display: block;
+      margin: 0;
+      padding: 1.5em 0 0 0;
+      display: block;
+      color: @darkest-lilac;
+      text-transform: uppercase;
+      font-size: 1.5em;
+    }
+
+    // Plan Subtitle
+    h5 {
+      text-align: center;
+      font-size: .95em;
+      color: @dark-lilac;
+    }
+
+    // Plan image
+    img {
+      margin-top: 10px;
+      width: 100px;
+      height: auto;
+    }
+
+    // Plan Features List
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        text-align: center;
+        border-bottom: 1px solid @header-border;
+        font-size: 16px;
+
+        a,
+        span {
+          padding: .8em 1em;
+          display: block;
+          text-decoration: none;
+          text-align: left;
+          pointer-events: none;
+        }
+
+        span {
+          text-align: center;
+          padding: .5em 0;
+          background: @white;
+          font-size: 1.8em;
+          font-weight: 700;
+          -webkit-transition: 0.5s all;
+          -moz-transition: 0.5s all;
+          -ms-transition: 0.5s all;
+          -o-transition: 0.5s all;
+          transition: 0.5s all;
+
+          em {
+            font-style: normal;
+            font-size: 15px;
+            padding-left: 10px;
+          }
+        }
+
+        a {
+          max-width: 280px;
+          .ellipsis;
+          margin: 0 auto;
+
+          &:hover {
+            color: @main-green;
+          }
+
+          i {
+            padding-right: 10px;
+            color: @light-lilac;
+          }
+        }
+      }
+    }
+
+    // Trial BTN
+    a.order-btn {
+      padding: 1.5em 0;
+      display: block;
+      background-color: @light-lilac;
+      text-align: center;
+      font-family: 'Roboto Slab', serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: @darkest-lilac;
+
+      i {
+        opacity: 0;
+        position: relative;
+        top: 3px;
+        font-size: 16px;
+        color: @white;
+        margin-left: -20px;
+
+        &:before {
+          .rotate-180;
+        }
+      }
+
+      &:hover {
+        color: @white ;
+
+        i {
+          opacity: 1;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    // Not "Best Seller" Pricing Plan
+    &:not(.with-hover) {
+      &:hover {
+        border-color: @main-green;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+
+        span {
+          color: @main-green;
+        }
+
+        a.order-btn:hover {
+          background-color: @main-green;
+          color: @white;
+        }
+      }
+    }
+
+    // "Best Seller" Pricing Plan
+    &.with-hover {
+      border-color: @main-green;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05);
+
+      span {
+        color: @main-green;
+      }
+
+      a.order-btn {
+        background-color: @main-green;
+        color: @white;
+
+        &:hover {
+          background-color: lighten(@main-green, 5%);
+        }
+      }
+    }
+  }
+}
+
+
+#mensual,
+#anual {
+  margin-top: 3em;
+}
+
+
+/* ... Media Queries :: Pricing Plans view ... */
+@media only screen and (max-width: 1180px) {
+  #mensual,
+  #anual {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 100%;
+  }
+  #pricing {
+    .best-seller {
+      top: 25px;
+    }
+  }
+}
+
+
+@media (min-width: 699px) and (max-width: 991px) {
+  #pricing {
+    .mobile-prices {
+      width: 50%;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 698px) {
+  #pricing {
+    .mobile-prices {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #pricing {
+    .tabs .tab a {
+      font-size: 22px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 780px) {
+  #anual {
+    .col-xs-12:not(.mobile-prices) {
+      text-align: center;
+
+      .alert {
+        background-color: transparent;
+
+        .monthless {
+          padding: 15px;
+
+          i {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 480px) {
+  #pricing {
+    .tabs .tab a {
+      font-size: 22px;
+    }
+    .plans-head {
+      .prices-common-features {
+        font-size: 16px;
+        padding: 0;
+
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

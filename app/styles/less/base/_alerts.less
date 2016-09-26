@@ -1,0 +1,68 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: ALERTS :: (upplication, 2016)
+ ******************************************************
+  *****************************************************
+ */
+
+@import (reference) "_common.less";
+
+/* ... ALERTS ... */
+
+.alert {
+  padding: 0;
+  margin: 40px 0 0 0;
+  border: 0 solid transparent;
+  border-radius: 0;
+
+  span {
+    font-weight: 600;
+  }
+
+  i {
+    padding: 15px 20px;
+    background-color: #cbe6f4;
+    margin-right: 10px;
+  }
+}
+
+.alert-info {
+  color: @alert-info-font;
+  font-weight: 500;
+  background-color: @alert-info-bg;
+}
+
+
+/* ... Anual two month free ALERT :: Pricing Plans Section ... */
+
+#anual {
+  .alert {
+    min-height: 75px;
+
+    i {
+      margin-right: 0;
+      background-color: transparent;
+      font-size: 1.8em;
+      color: @alert-info-icon;
+      top: 13px;
+    }
+
+    .monthless {
+      font-size: 18px;
+      font-weight: 500;
+      vertical-align: -webkit-baseline-middle;
+    }
+  }
+}
+
+
+/* ... ERRORS ... */
+
+.error {
+  background-color: @alert-warning-bg;
+  padding: 6px 10px;
+  color: @alert-warning-font;
+  font-weight: 400;
+  width: 100%;
+}

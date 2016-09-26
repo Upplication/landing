@@ -29,22 +29,23 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         meta(property='og:description', content='#{description}')
         meta(property='og:url', content='http://upplication.com/')
         meta(property='og:site_name', content='Upplication')
-        meta(property='og:image', content='/images/upplication_rrss.png')
+        meta(property='og:image', content='#{localConfig.base_path}/images/common/upplication_rrss.png')
         meta(name="twitter:card", content="summary")
         meta(name="twitter:site", content="@upplication")
         meta(name="twitter:domain", content="Upplication")
         meta(name="twitter:creator", content="@upplication")
-        meta(name="twitter:image:src", content="/images/upplication_rrss.png")
+        meta(name="twitter:image:src", content="#{localConfig.base_path}/images/common/upplication_rrss.png")
         link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
-        // build:css(app) /styles/mpos.min.css
-        link(rel='stylesheet', href='/styles/deprecated/main.css')
-        // endbuild
+
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/deprecated/main.css')
+
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/telefonica/telefonica.css')
+
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
 
     body(id="#{_template}", data-lang="#{lang}")
         //data = langs = #{data}! = #{langs}!
@@ -60,8 +61,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
                 .header-container-tlf
-                    header.padding-top.tlf
-                        a.logo.margin-bottom(href='#{localConfig.base_path}')
+                    header.tlf.aplicateca-header
+                        a.logo(href='#{localConfig.base_path}')
                             .logo-tlf
                         a.icon-list
                             span Menu
@@ -83,7 +84,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     section#register
                         div
                             .mobile
-                                img(src="#{localConfig.base_path}/images/la-florette-mobile.png", alt="App móvil")
+                                img(src="#{localConfig.base_path}/images/aplicateca/la-florette-mobile.png", alt="App móvil")
                             .claim.padding-top-2x.margin-bottom-2x.width-90.center
                                 h1.uppercase.cwhite.acenter.bold #{register.claim}
                                 p.big.acenter #{register.arguments}
@@ -119,7 +120,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     | #{home.multidevice.text}
 
                             #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
-                                img.screenshot-devices(src='#{localConfig.base_path}/images/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
+                                img.screenshot-devices(src='#{localConfig.base_path}/images/aplicateca/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
 
                             ul.so-available
                                 li
@@ -167,58 +168,68 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     section.bg-alabaster.padding.clearfix.padding-top-3x.padding-bottom-2x.press
                         ul.acenter.margin-top-2x
                             li
-                                a(href="#{home.press.abc}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/abc.png", alt="ABC")
+                                a(href="#{ourclients.client5.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='#{ourclients.client5.alt}', title='#{ourclients.client5.title}')
                             li
-                                a(href="#{home.press.el_economista}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/eleconomista.png", alt="elEconomista")
+                                a(href="#{ourclients.client8.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/tve.png', alt='#{ourclients.client8.alt}', title='#{ourclients.client8.title}')
                             li
-                                a(href="#{home.press.agencia_efe}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/emprende.png", alt="EFE Emprende")
+                                a(href="#{ourclients.client4.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='#{ourclients.client4.alt}', title='#{ourclients.client4.title}')
                             li
-                                a(href="#{home.press.forbes}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/forbes.png", alt="Forbes")
+                                a(href="#{ourclients.client9.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/larazon.png', alt='#{ourclients.client9.alt}', title='#{ourclients.client9.title}')
                             li
-                                a(href="#{home.press.telefonica}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/telefonica.png", alt="Think Big Telefonica")
+                                a(href="#{ourclients.client10.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/expansion.png', alt='#{ourclients.client10.alt}', title='#{ourclients.client10.title}')
                             li
-                                a(href="#{home.press.ticbeat}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/ticbeat.png", alt="Ticbeat")
+                                a(href="#{ourclients.client2.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='#{ourclients.client2.alt}', title='#{ourclients.client2.title}')
                             li
-                                a(href="#{home.press.wwwhatsnew}", rel="nofollow")
-                                    img(src="#{localConfig.base_path}/images/press/wwwhatsnew.png", alt="wwwhatsnew")
+                                a(href="#{ourclients.client1.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
+                            li
+                                a(href="#{ourclients.client3.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='#{ourclients.client3.alt}', title='#{ourclients.client3.title}')
+                            li
+                                a(href="#{ourclients.client6.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='#{ourclients.client6.alt}', title='#{ourclients.client6.title}')
+                            li
+                                a(href="#{ourclients.client7.url}", rel="nofollow")
+                                    img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='#{ourclients.client7.alt}', title='#{ourclients.client7.title}')
 
                     section.padding.clearfix
-                        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.testimonials.title}
+                        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x !{home.testimonials.title}
                         ul.testimonials
                             li
                                 blockquote.clearfix
-                                    img(src="#{localConfig.base_path}/images/aplicateca/ana.jpeg", alt="Ana, C'UP Your choice on top")
-                                    p #{home.testimonials.client1.cite}
-                                    footer
-                                        cite - #{home.testimonials.client1.name}
+                                    img(src="#{localConfig.base_path}/images/showcase/asis-gross-logo.jpg", alt="#{home.successful_showcase.img.blocks_bg4}")
+                                    a(href="#{home.successful_showcase.download.app_store_url}", target="_blank", title="#{home.successful_showcase.download.app_store}") !{home.successful_showcase.download.app_store}
+                                    a(href="#{home.successful_showcase.download.google_play_url}", target="_blank", title="#{home.successful_showcase.download.google_play}") !{home.successful_showcase.download.google_play}
 
                             li
                                 blockquote.clearfix
-                                    img(src="#{localConfig.base_path}/images/aplicateca/david.jpeg", alt="David, Bar Trapatapa")
-                                    p #{home.testimonials.client2.cite}
-                                    footer
-                                        cite - #{home.testimonials.client2.name}
+                                    img(src="#{localConfig.base_path}/images/showcase/fisiohogar-logo.jpg", alt="#{home.successful_showcase_services.img.blocks_bg4}")
+                                    a(href="#{home.successful_showcase_services.download.app_store_url}", target="_blank", title="#{home.successful_showcase_services.download.app_store}") !{home.successful_showcase_services.download.app_store}
+                                    a(href="#{home.successful_showcase_services.download.google_play_url}", target="_blank", title="#{home.successful_showcase_services.download.google_play}") !{home.successful_showcase_services.download.google_play}
 
                             li
                                 blockquote.clearfix
-                                    img(src="#{localConfig.base_path}/images/aplicateca/gabriel.jpeg", alt="Gabriel, Moto Urban")
-                                    p #{home.testimonials.client3.cite}
-                                    footer
-                                        cite - #{home.testimonials.client3.name}
-
-                    script(type='text/javascript', src='//www.youtube.com/player_api')
-
+                                    img(src="#{localConfig.base_path}/images/showcase/serafina-logo.jpg", alt="#{home.successful_showcase_restaurant.img.blocks_bg4}")
+                                    a(href="#{home.successful_showcase_restaurant.download.app_store_url}", target="_blank", title="#{home.successful_showcase_restaurant.download.app_store}") !{home.successful_showcase_restaurant.download.app_store}
+                                    a(href="#{home.successful_showcase_restaurant.download.google_play_url}", target="_blank", title="#{home.successful_showcase_restaurant.download.google_play}") !{home.successful_showcase_restaurant.download.google_play}
                 #dark-layout
 
-                section.bg-alabaster.padding.clearfix.padding-top-4x.padding-bottom-4x.acenter
-                    h1.inline-block.no-margin #{home.try}
-                    a.wide.btn.bold.inline-block.triggers-signup.margin-left-2x.green-accent-btn(href="#", onclick="return false") #{home.create_free}
+                // Free Trial
+                .trial-block
+                    .container
+                        .trial-block-grids
+                            .trial-block-left
+                                h2 #{footer.try_it}
+                                h3 #{footer.try_it_free}
+                            .trial-block-right
+                                a.price-btn.modal-trigger(href='#free-trial', title='#{footer.free_trial}') #{footer.free_trial}
+                            .clearfix
 
                 .footer-container.footer-container-tlf
                     section
@@ -234,19 +245,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             span#cookies-accept.close X
 
         include includes/mpos/signup
-        //-script(src='/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zeptojs/src/touch.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/magnific-popup/dist/jquery.magnific-popup.js')
-        // bower:js
-        // endbower
 
-        // build:js(app) /scripts/mpos.min.js
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/mpos.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/mpos.js')
+
         script(type='text/javascript').
-            $("#seller-code").hide();
-            $("[name=customerType]").val("MPAY");
-        script(type="text/javascript", src='/scripts/ua.js')
-        script(type="text/javascript", src='/scripts/topic.js')
-        script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/mpos/app.js')
-        // endbuild
+                   $("#seller-code").hide();
+                   $("[name=customerType]").val("MPAY");

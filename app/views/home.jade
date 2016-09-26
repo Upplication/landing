@@ -1,4 +1,4 @@
-extends base/v2/base
+extend base/v2/base
 
 block vars
     - var title = home._meta_title
@@ -7,11 +7,10 @@ block vars
     - var cssClass = 'home'
 
 block css
-    // build:css(app) /styles/home.min.css
-    link(rel='stylesheet', href='/styles/css/home/home.css')
-    // endbuild
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/home/home.css')
 
 block content
+
     // SLIDER
     .slider.slides-to-mobile
         .mainHead
@@ -23,67 +22,35 @@ block content
             li
                 img(src='#{localConfig.base_path}/images/home/bg/bgpymes.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bgcoffeeshop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgcoffeeshop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bgrestaurant.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
-            li
-                img(src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
-            li
-                img(src='#{localConfig.base_path}/images/home/bg/bgdrinkingtea.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
         .dippah.skew-right
-    // FORM "TRY FREE 15 DAYS" (DESKTOP - LAPTOP)
-    .col-xs-12.col-md-5.right.formPhone.animated.fadeIn
-        .row.registerTop
-            form(name="register", action="/register", method="post").col.s12.formRegister
-                input(type="hidden", name="customerType", value="UPPLICATION")
-                p.error.general-error.display-none #{register.error.general}
-                .row.marBot10
-                    .input-field.col.s12
-                        input#app_name.validate(type='text', name='appName', required)
-                        label(for='app_name') #{form.input.name}
-                            p.error.display-none.register-appName-error
-                    .input-field.col.s12
-                        input#email.validate(type='email', name='email', required)
-                        label(for='email') #{form.input.email}
-                            p.error.display-none.register-email-error
-                    .input-field.col.s12
-                        input#password.validate(type='password', name='password', required)
-                        label(for='password') #{form.input.pass}
-                            p.error.display-none.register-password-error
-                .btnReg
-                    button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
-                        span #{form.call_to_action}
-                    p #{modal.footer.free}
-    // FORM "TRY FREE 15 DAYS" (MOBILE - TABLET)
-    .col-xs-10.col-xs-offset-1.formPhone-mobile.animated.fadeIn
-        a.price-btn.modal-trigger(href='#pruebaGratis', title='#{form.call_to_action}')
-            span #{form.call_to_action}
+
+    // REGISTER PANEL :: "15 days free trial" (DESKTOP - LAPTOP)
+    include includes/register
+
     // WHY (Intro Tips)
     .features.features-upp
         .container
-            .features-grids.text-center.animated.zoomIn
-                .col-md-4
-                    .features-grid.centerImg
+            .row.features-grids.text-center(data-aos='zoom-in')
+                .col.s12.m4
+                    .features-grid.center-img
                         img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.svg', alt='#{home.why.img.grow}', title='#{home.why.img.grow}')
-                        span.f-icon
-                        label
                         h3 !{home.why.grow}
-                .col-md-4
-                    .features-grid.centerImg
+                .col.s12.m4
+                    .features-grid.center-img
                         img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.svg', alt='#{home.why.img.loyal}', title='#{home.why.img.loyal}')
-                        span.f-icon1
-                        label
                         h3 !{home.why.loyal}
-                .col-md-4
-                    .features-grid.centerImg
+                .col.s12.m4
+                    .features-grid.center-img
                         img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.svg', alt='#{home.why.img.others}', title='#{home.why.img.others}')
-                        span.f-icon2
-                        label
                         h3 !{home.why.others}
                 .clearfix
-    // SAMPLES
+
+    // SHOWCASE (Samples)
     #tabs.container.scrollspy
         .row
             .plans-head.text-center
@@ -92,126 +59,126 @@ block content
             .row
                 .col.s12
                     ul.tabs
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a.active(href='#host', title='#{home.samples.restaurants}')
-                                i.fa.fa-cutlery
+                                i.icon.icon-food
                                 span #{home.samples.restaurants}
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a(href='#tiendas', title='#{home.samples.shops}')
-                                i.fa.fa-shopping-cart
+                                i.icon.icon-ecommerce
                                 span #{home.samples.shops}
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a(href='#servprof', title='#{home.samples.serv}')
-                                i.fa.fa-wrench
+                                i.icon.icon-laptop
                                 span !{home.samples.serv}
-                        li.tab.col.s6.l3
+                        li.tab.col.s3.m3.l3
                             a(href='#personal', title='#{home.samples.personal}')
-                                i.fa.fa-cog
+                                i.icon.icon-brush
                                 span #{home.samples.personal}
                 #host.col.s12
                     .row.padTop50
-                        .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/iphone.png', alt='#{home.samples.alt_tag.img_iphone}', title='#{home.samples.alt_tag.img_iphone}')
-                        .col.s12.l7.margTop50.mobileText
+                        .col.s12.l4.mobileImg(data-aos='fade-left')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-hostelry.png', alt='#{home.samples.alt_tag.img_iphone}', title='#{home.samples.alt_tag.img_iphone}')
+                        .col.s12.l7.margTop50.mobileText(data-aos='fade-right')
                             h5 !{home.samples.rest.rest_intro}
-                            ul.uppOnFoot(type='circle')
+                            ul.tabs-content-list(type='circle')
                                 li
                                     a(href='', title='#{home.samples.rest.details1}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.rest.details1}
                                 li
                                     a(href='', title='#{home.samples.rest.details2}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.rest.details2}
                                 li
                                     a(href='', title='#{home.samples.rest.details3}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.rest.details3}
                                 li
                                     a(href='', title='#{home.samples.rest.details4}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.rest.details4}
-                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
-                                i.left.fa.fa-cog.fa-spin
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#free-trial', title='#{home.samples.free_app}')
+                                i.icon.icon-rocket.left
                                 span #{home.samples.free_app}
                 #tiendas.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/nexus.png', alt='#{home.samples.alt_tag.img_nexus}', title='#{home.samples.alt_tag.img_nexus}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-shop.png', alt='#{home.samples.alt_tag.img_nexus}', title='#{home.samples.alt_tag.img_nexus}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.shop.shop_intro}
                                 | .
-                            ul.uppOnFoot(type='circle')
+                            ul.tabs-content-list(type='circle')
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details1}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.shop.shop_details1}
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details2}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.shop.shop_details2}
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details3}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.shop.shop_details3}
                                 li
                                     a(href='#!', title='#{home.samples.shop.shop_details4}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.shop.shop_details4}
-                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
-                                i.left.fa.fa-cog.fa-spin
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#free-trial', title='#{home.samples.free_app}')
+                                i.icon.icon-rocket.left
                                 span #{home.samples.free_app}
                 #servprof.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/galaxy.png', alt='#{home.samples.alt_tag.img_galaxy}', title='#{home.samples.alt_tag.img_galaxy}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-porfessional-services.png', alt='#{home.samples.alt_tag.img_galaxy}', title='#{home.samples.alt_tag.img_galaxy}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.services.serv_intro}
-                            ul.uppOnFoot(type='circle')
+                            ul.tabs-content-list(type='circle')
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details1}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.services.serv_details1}
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details2}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.services.serv_details2}
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details3}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.services.serv_details3}
                                 li
                                     a(href='#!', title='#{home.samples.services.serv_details4}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.services.serv_details4}
-                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
-                                i.left.fa.fa-cog.fa-spin
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#free-trial', title='#{home.samples.free_app}')
+                                i.icon.icon-rocket.left
                                 span #{home.samples.free_app}
                 #personal.col.s12
                     .row.padTop50
                         .col.s12.l4.mobileImg
-                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/sonyxperiaz3.png', alt='#{home.samples.alt_tag.img_xperia}', title='#{home.samples.alt_tag.img_xperia}')
+                            img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-customize.png', alt='#{home.samples.alt_tag.img_xperia}', title='#{home.samples.alt_tag.img_xperia}')
                         .col.s12.l7.margTop50.mobileText
                             h5 !{home.samples.custom.cust_intro}
-                            ul.uppOnFoot(type='circle')
+                            ul.tabs-content-list(type='circle')
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details1}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.custom.cust_details1}
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details2}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.custom.cust_details2}
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details3}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.custom.cust_details3}
                                 li
                                     a(href='#!', title='#{home.samples.custom.cust_details4}')
-                                        i.fa.fa-check
+                                        i.icon.icon-ok
                                         | !{home.samples.custom.cust_details4}
-                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#pruebaGratis', title='#{home.samples.free_app}')
-                                i.left.fa.fa-cog.fa-spin
+                            a.waves-effect.waves-light.btn-large.btn-upp.modal-trigger(href='#free-trial', title='#{home.samples.free_app}')
+                                i.icon.icon-rocket.left
                                 span #{home.samples.free_app}
     // Spacer with Grey Border
     .spacer-border-grey
@@ -223,57 +190,60 @@ block content
                 .plans-head.text-center.padTop30
                     h2.headTitles.noMargBot #{home.multidevises.title}
                     p #{home.multidevises.sub_title}
-            .row
+            .row(data-aos='zoom-in-down', data-aos-delay='400')
                 .multidevises-bg.marBot50
-                    img.responsive-img#image-test(src='#{localConfig.base_path}/images/home/bg/devises_bg.jpg', alt='#{home.multidevises.title}', title='#{home.multidevises.title}')
+                    img.responsive-img#image-test(src='#{localConfig.base_path}/images/home/bg/multidevise-bg.png', alt='#{home.multidevises.title}', title='#{home.multidevises.title}')
+
     // HOW I MADE MY OWN APP in 4 Steps
-    section#about.scrollspy
+    section#timeline.timeline-section.scrollspy
         .container
             .row
                 .plans-head.text-center
                     h2.headTitles #{home.how.how_main}
             .row
-                .col-lg-12
+                .col.l12
                     ul.timeline
                         li.step1
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/keyboard.png', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
-                            .timeline-panel
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/sign-up.svg', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
+                            .timeline-panel(data-aos='flip-up')
                                 .timeline-heading
                                     h4.subheading
                                         span 1
                                         | !{home.how.how_one.reg_step1}
                                 .timeline-body
                                     p.text-muted
-                                        span #{home.how.how_one.reg_step2}
-                                        | &nbsp;#{home.how.how_one.reg_step3}
-                        li.timeline-inverted.step2
+                                        span !{home.how.how_one.reg_step2}
+                                        | &nbsp; !{home.how.how_one.reg_step3}
+                                    p.text-muted !{home.how.how_one.reg_step4}
+                                    p.text-muted
+                                        a.modal-trigger(href='#free-trial', alt='#{home.how.how_one.reg_title}', title='#{home.how.how_one.reg_title}') #{home.how.how_one.reg_step5}
+                                            i.icon.icon-left
+                        li.timeline-inverted.step3
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/register.png', alt='#{home.how.how_two.app_step1}', title='#{home.how.how_two.app_step1}')
-                            .timeline-panel
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/personal-tutor.svg', alt='#{home.how.how_three.tutor_step1}', title='#{home.how.how_three.tutor_step1}')
+                            .timeline-panel(data-aos='flip-down')
                                 .timeline-heading
                                     h4.subheading
                                         span 2
+                                        | !{home.how.how_three.tutor_step1}
+                                .timeline-body
+                                    p.text-muted !{home.how.how_three.tutor_step2}
+                        li.step2
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/create-your-app.svg', alt='#{home.how.how_two.app_step1}', title='#{home.how.how_two.app_step1}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-heading
+                                    h4.subheading
+                                        span 3
                                         | !{home.how.how_two.app_step1}
                                 .timeline-body
                                     p.text-muted !{home.how.how_two.app_step2}
                                     p.text-muted !{home.how.how_two.app_step3}
-                                    p.text-muted !{home.how.how_two.app_step4}
-                        li.step3
-                            .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/light.png', alt='#{home.how.how_three.tutor_step1}', title='#{home.how.how_three.tutor_step1}')
-                            .timeline-panel
-                                .timeline-heading
-                                    h4.subheading
-                                        span 3
-                                        | !{home.how.how_three.tutor_step1}
-                                .timeline-body
-                                    p.text-muted !{home.how.how_three.tutor_step2}
-                                    p.text-muted !{home.how.how_three.tutor_step3}
                         li.timeline-inverted.step4
                             .timeline-image
-                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/icons/bullhorn.png', alt='#{home.how.how_four.publish_step1}', title='#{home.how.how_four.publish_step1}')
-                            .timeline-panel
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/home/timeline/we-publish-your-app.png', alt='#{home.how.how_four.publish_step1}', title='#{home.how.how_four.publish_step1}')
+                            .timeline-panel(data-aos='flip-down')
                                 .timeline-heading
                                     h4.subheading
                                         span 4
@@ -281,6 +251,9 @@ block content
                                 .timeline-body
                                     p.text-muted !{home.how.how_four.publish_step2}
                                     p.text-muted !{home.how.how_four.publish_step3}
+                                    p.text-muted
+                                        a.modal-trigger(href='#free-trial', alt='#{home.how.how_one.reg_title}', title='#{home.how.how_one.reg_title}') #{home.how.how_one.reg_step5}
+                                            i.icon.icon-left
     // SLIDER 2
     .slider.middle-page-slider
         .app-ready.center
@@ -289,43 +262,69 @@ block content
             li
                 img(src='#{localConfig.base_path}/images/home/bg/bg_01.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_02.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_02.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_03.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_03.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_04.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_04.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
             li
-                img(src='#{localConfig.base_path}/images/home/bg/bg_05.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
-    // CLIENTS
-    .clients
-        .container
-            // CLIENTS TESTIMONIALS
-            .c-testmonials
-                .text-center.marBot100
-                    h4.headTitles #{home.testimonials.title}
-                .c-testmonial-grid
-                    .c-testmonial-grid-info
-                        p
-                            span #{home.testimonials.client1.cite}
-                        a(href='#{home.testimonials.client1.url}', target='_blank', title='#{home.testimonials.client1.name}') - #{home.testimonials.client1.name}
-                    .c-testmonial-grid-pic
-                        img(src='#{localConfig.base_path}/images/home/clients/ana.png', alt='#{home.testimonials.client1.name}', title='#{home.testimonials.client1.name}')
-                .c-testmonial-grid
-                    .c-testmonial-grid-info
-                        p
-                            span #{home.testimonials.client2.cite}
-                        a(href='#{home.testimonials.client2.url}', target='_blank', title='#{home.testimonials.client2.name}') - #{home.testimonials.client2.name}
-                    .c-testmonial-grid-pic
-                        img(src='#{localConfig.base_path}/images/home/clients/david.png', alt='#{home.testimonials.client2.name}', title='#{home.testimonials.client2.name}')
-                .c-testmonial-grid
-                    .c-testmonial-grid-info
-                        p
-                            span #{home.testimonials.client3.cite}
-                        a(href='#{home.testimonials.client3.url}', target='_blank', title='#{home.testimonials.client3.name}') - #{home.testimonials.client3.name}
-                    .c-testmonial-grid-pic
-                        img(src='#{localConfig.base_path}/images/home/clients/gabriel.png', alt='#{home.testimonials.client3.name}', title='#{home.testimonials.client3.name}')
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_05.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
+
+    // CLIENTS :: new testimonial area
+    #about.about
+        .col.s12.center-align.team-header
+            h4.headTitles !{home.testimonials.title}
+        .about-grids.row
+            .col.m4.about-grid.about-grid1(data-aos='fade-down')
+                .about-grid-info
+                    h4 !{home.testimonials.client1.name}
+                    p #{home.testimonials.client1.quote}
+                    p.grid-link
+                        a(href="#{home.successful_showcase.samples.sample1_url}", alt='#{home.successful_showcase.samples.sample1}', title="#{home.successful_showcase.samples.sample1}") #{home.successful_showcase.samples.sample1}
+                            i.icon.icon-left
+                .about-grid-pic
+                    .video-container
+                        .youtube-player(data-id='LluyPqRVGC4')
+            .col.m4.about-grid.about-grid2(data-aos='fade-up')
+                .about-grid-pic
+                    .video-container
+                        .youtube-player(data-id='pbWm6NaZfbY')
+                .about-grid-info
+                    h4 !{home.testimonials.client2.name}
+                    p #{home.testimonials.client2.quote}
+                    p.grid-link
+                        a(href="#{home.successful_showcase.samples.sample2_url}", alt='#{home.successful_showcase.samples.sample2}', title="#{home.successful_showcase.samples.sample2}") #{home.successful_showcase.samples.sample2}
+                            i.icon.icon-left
+            .col.m4.about-grid.about-grid1(data-aos='fade-down')
+                .about-grid-info
+                    h4 !{home.testimonials.client3.name}
+                    p #{home.testimonials.client3.quote}
+                    p.grid-link
+                        a(href="#{home.successful_showcase.samples.sample3_url}", alt='#{home.successful_showcase.samples.sample3}', title="#{home.successful_showcase.samples.sample3}") #{home.successful_showcase.samples.sample3}
+                            i.icon.icon-left
+                .about-grid-pic
+                    .video-container
+                        .youtube-player(data-id='gmf326nQI9I')
+            .clearfix
 
 block scripts
+
+    script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
+
+    script(type='text/javascript').
+        $(function () {
+            setTimeout(function() {
+                $(".slides [data-src]").each(function() {
+                    var $this = $(this);
+                    $this.attr('src', $this.attr('data-src'));
+                });
+                // restart slider
+                $('.slider').slider({
+                    indicators: false,
+                    interval: 4000
+                });
+            }, 3000);
+        });
 
     // TYPED PLUGIN JS
     script(type='text/javascript').
@@ -344,35 +343,8 @@ block scripts
         $(document).ready(function () {
             $('ul.tabs').tabs();
             $('.parallax').parallax();
-            $('.slider').slider({
-                indicators: false,
-                interval: 4000
-            });
-            var options = [
-                {selector: '#tabs', offset: 300, callback: 'Materialize.showStaggeredList("#tabs")'},
-                {selector: '#about', offset: 300, callback: 'Materialize.showStaggeredList(".timeline")'},
-                {selector: '#pricing', offset: 300, callback: 'Materialize.showStaggeredList(".incluye")'},
-                {selector: '#multidevises', offset: 500, callback: 'Materialize.fadeInImage("#image-test")'},
-            ];
-            Materialize.scrollFire(options);
-            // Animate.css for web elements:
-            var $imgMove = $('.imgMove'),
-                    $imgFlash = $('.imgFlash');
-            $imgMove.mouseenter(function () {
-                $(this).addClass("animated");
-                $(this).addClass("pulse");
-            });
-            $imgMove.mouseleave(function () {
-                $(this).removeClass("animated");
-                $(this).removeClass("pulse");
-            });
-            $imgFlash.mouseenter(function () {
-                $(this).addClass("animated");
-                $(this).addClass("rubberBand");
-            });
-            $imgFlash.mouseleave(function () {
-                $(this).removeClass("animated");
-                $(this).removeClass("rubberBand");
-            });
-            // end home
         });
+        $('.slider').slider({
+            indicators: false,
+            interval: 4000
+        }).slider('pause');

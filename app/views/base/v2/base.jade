@@ -56,72 +56,28 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-96x96.png', sizes='96x96')
         link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
         link(rel='manifest', href='#{localConfig.base_path}/images/favicon/manifest.json')
-        link(href='//fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
 
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/fontawesome/css/font-awesome.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/animate.css/animate.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/materialize/dist/css/materialize.min.css', media='screen,projection')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/bootstrap/dist/css/bootstrap.min.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/vendor/base.css')
 
         block css
 
-        // build:css(app) /styles/base.min.css
-        link(rel='stylesheet', href='/styles/css/base/materialize-reserts.css')
-        link(rel='stylesheet', href='/styles/css/base/common.css')
-        link(rel='stylesheet', href='/styles/css/base/alerts.css')
-        link(rel='stylesheet', href='/styles/css/base/sliders.css')
-        link(rel='stylesheet', href='/styles/css/base/modals.css')
-        link(rel='stylesheet', href='/styles/css/base/header.css')
-        link(rel='stylesheet', href='/styles/css/base/footer.css')
-        link(rel='stylesheet', href='/styles/css/base/cookies.css')
-        link(rel='stylesheet', href='/styles/css/base/mediaqueries.css')
-        // endbuild
-
-        // webfonts
-        link(href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900', rel='stylesheet', type='text/css')
-        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic', rel='stylesheet', type='text/css')
-        link(href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700', rel='stylesheet', type='text/css')
-
     body
-        //- Facebook "share" button plugin
-        #fb-root
-        script.
-            (function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-
         //- MAIN HEADER
         #home.header
             #move-top.top-header
                 .container
                     .logo
-                        a(href='index.html')
-                            img(src='#{header.logo.url}', title='#{header.logo.title}')
+                        a(href='#{header.logo.url}', alt='#{header.logo.title}')
+                            img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{header.logo.title}')
                     nav.top-nav
-                        ul.top-nav.hide-ul
-                            li
-                                each language in langs.codes
-                                    if lang == language.language_country
-                                        a.lang-link(href="#", data-activates='dropdown-lang')
-                                            i.fa.fa-globe
-                                            | !{language.language_short_code}
-                                ul#dropdown-lang.dropdown-content.notshow
-                                    each lang in langs.codes
-                                        li
-                                            a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
-                            li
-                                a.hide-tab(href='#about', title='#{header.nav.how}') !{header.nav.how}
-                            li
+                        ul.top-nav-list.hide-ul
+                            li.how
+                                a.hide-tab(href='#timeline', title='#{header.nav.how}') !{header.nav.how}
+                            li.samples
                                 a.hide-tab(href='#tabs', title='#{header.nav.apps}') #{header.nav.apps}
-                            li
+                            li.blog
                                 a.hide-tab(href='#{external.blog.url}', target='_blank', title='#{external.blog.title}') #{external.blog.anchor}
-                            li
+                            li.more
                                 a.lang-link(href='#', data-activates='dropdown-terms')
                                     | !{header.nav.info.info}
                                 ul#dropdown-terms.dropdown-content.notshow
@@ -137,66 +93,69 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         a.modal-trigger(href='#hiring', title='#{header.nav.info.hiring}', target='_blank') #{header.nav.info.hiring}
                                     li
                                         a.hide-tab.lang-link(href="#{header.nav.info.terms.url}", title='#{header.nav.info.terms.title}') #{header.nav.info.terms.title}
-                            li.only-show-small-devises.phone-kerning
-                                a.modal-trigger(href='#allContact') #{header.telephone}
-                            li.only-show-small-devises
-                                a.modal-trigger(href='#pruebaGratis', title='') #{header.free_trial}
-                            li.enter-bold
+                            li.languages
+                                each language in langs.codes
+                                    if lang == language.language_country
+                                        a.lang-link(href="#", data-activates='dropdown-lang')
+                                            i.icon.icon-globe
+                                            | !{language.language_short_code}
+                                ul#dropdown-lang.dropdown-content.notshow
+                                    each lang in langs.codes
+                                        li
+                                            a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                            li.trial.only-show-small-devises.phone-kerning
+                                a.modal-trigger(href='#all-contact') #{header.telephone}
+                            li.trial.only-show-small-devises
+                                a.modal-trigger(href='#free-trial', title='') #{header.free_trial}
+                            li.enter-btn
                                 a.hide-tab(href="#{external.dashboard.url}")
-                                    i.fa.fa-lock
+                                    i.icon.icon-key
                                     | #{header.enter}
+                            li.contact-info
+                                .contact-info-grids
+                                    .contact-info-left
+                                        a.chat.modal-trigger(href='#free-trial') #{header.free_trial}
+                                    .contact-info-right
+                                        a.modal-trigger(href='#all-contact') #{header.telephone}
+                                        a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
+                        // Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
                             span
                             span
                             span
-                    .contact-info
-                        .contact-info-grids
-                            .contact-info-left
-                                a.chat.modal-trigger(href='#pruebaGratis') #{header.free_trial}
-                            .contact-info-right
-                                a.modal-trigger(href='#allContact') #{header.telephone}
-                                a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
-                            .clearfix
-                    .clearfix
+
         // MODAL :: FREE TRIAL
-        #pruebaGratis.modal.modal-upp
-            include ../../includes/modal-free.jade
+        #free-trial.modal.modal-upp
+            include ../../includes/modal-free
         // MODAL :: CONTACT
-        #allContact.modal.modal-upp
-            include ../../includes/modal-contact.jade
+        #all-contact.modal.modal-upp
+            include ../../includes/modal-contact
         // MODAL :: HIRING
         #hiring.modal.modal-upp
-            include ../../includes/modal-hiring.jade
+            include ../../includes/modal-hiring
 
         // CONTENT
         block content
 
         // CLIENTS, TRIAL, CONTACT and FOOTER
-        include ../../includes/footer.jade
+        include ../../includes/footer
+
+        // Cookies alert
         #cookies
-            i#cookies-accept.fa.fa-times.close
+            i#cookies-accept.icon.icon-cross
             p !{footer.cookies}
-        // vendor js
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/materialize/dist/js/materialize.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js')
-        // endvendor
 
-        // build:js(app) /scripts/app.v2.min.js
-        script(type="text/javascript", src='/scripts/ua.js')
-        script(type="text/javascript", src='/scripts/topic.js')
-        script(type="text/javascript", src='/scripts/scroll.js')
-        script(type="text/javascript", src='/scripts/v2/cookies.js')
-        script(type="text/javascript", src='/scripts/v2/register.js')
-        script(type="text/javascript", src='/scripts/v2/lang.js')
-        // endbuild
 
-        // smooth scrolling
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
+
+
+        // end scripts
         script(type='text/javascript').
             $(document).ready(function () {
-                $("#clientsCarousel").owlCarousel({
+                $("#clients-carousel").owlCarousel({
                     autoPlay: 3000, // Set AutoPlay to 3 seconds
                     items: 4,
                     itemsDesktop: [1199, 3],
@@ -204,14 +163,12 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 });
 
                 $('.scrollspy').scrollSpy();
-                //
 
-                $('.modal-trigger').leanModal({
-                    opacity: .7
-                });
+                $('.modal-trigger').leanModal({opacity: .7});
 
                 $(".button-collapse").sideNav();
 
+                $('.materialboxed').materialbox();
 
                 $('.social-share').click(function () {
                     $(".social-nav").toggleClass("social-show");
@@ -232,11 +189,12 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     }
                   );
             });
+
         // START MOBILE TOP NAVIGATION MENU
         script.
             $(function () {
                 var $pull = $('#pull');
-                menu = $('nav ul');
+                menu = $('.top-nav-list');
                 menuHeight = menu.height();
                 $pull.on('click', function (e) {
                     e.preventDefault();
@@ -262,7 +220,24 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 }
             });
 
-        // end scripts
+        // HEADER ANIMATION when you scrolling down or up
+        script.
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 250) {
+                    $(".top-header").addClass("thiny-top-header");
+                } else {
+                    $(".top-header").removeClass("thiny-top-header");
+                }
+            });
+
+        // AOS animations lib
+        script.
+            AOS.init({
+                once: true,
+            });
+
         block scripts
 
         include ../scripts-thirdparties
+        // end scripts

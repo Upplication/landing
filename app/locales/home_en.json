@@ -1,0 +1,211 @@
+{
+  "home": {
+    "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
+    "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
+    "_meta_title": "Upplication - Easiest Mobile app maker for Android and iOS",
+    "_priority": "1.0",
+    "_url": "/build-your-app/",
+    "create_free": "Create my app",
+    "how": {
+      "app_ready": " <span>Your App</span> is ready ",
+      "how_four": {
+        "publish_step1": "We publish your App",
+        "publish_step2": "<b>We will publish your app</b> at all the different App Stores (Apple, Android).",
+        "publish_step3": "Our apps are support <b>multiple devices</b> (mobile, tablet, Pc, Mac...).",
+        "publish_step4": "Shall we start?"
+      },
+      "how_main": "Create your App in a few minutes with professional support",
+      "how_one": {
+        "reg_step1": "Sign Up",
+        "reg_step2": "Only three steps far to make history!",
+        "reg_step3": "Enter: <b>app name</b>, <b>email</b> and <b>password</b>.",
+        "reg_step4": "Remember: You have <b>15 days free trial</b> with <b>professional tutor</b>.",
+        "reg_step5": "Shall we start?",
+        "reg_title": "Go to Upplication onboarding process"
+      },
+      "how_three": {
+        "tutor_step1": "Personal tutor",
+        "tutor_step2": "Before, during and after App be published, <b>a professional Tutor guides you</b> across the app build proccess by <b>chat</b>, <b>email</b> and <b>phone</b> channels."
+      },
+      "how_two": {
+        "app_step1": "Create your App",
+        "app_step2": "User friendly and <span> easy-to-use </span> dashboard.",
+        "app_step3": "You can use <span>modules and templates</span> to customize your app.",
+        "app_step4": "Control <span>the amount of downloads</span> and send <span>push notifications</span> to your customers."
+      }
+    },
+    "improve_sales": {
+      "points": [
+        "Rise the incomes of your business",
+        "Sell from mobile devices",
+        "Improve the communication with your clients"
+      ],
+      "title": "Improve your sales"
+    },
+    "multidevice": {
+      "android_alt": "Create your app with Android",
+      "devices_alt": "Create app",
+      "html5_alt": "Create your app with HTML5",
+      "ios_alt": "Create your app with iOS",
+      "text": "A website adapted for computers, tablets and smartphones is automatically created when you make a mobile app. ",
+      "title": "App and multi-device site"
+    },
+    "multidevises": {
+      "sub_title": "Web responsive, supports multiple devices running on iOS or Android",
+      "title": "Multidevices Apps for Apple or Android"
+    },
+    "optimize": {
+      "points": [
+        {
+          "desc": "An app allows you to be always in the pocket of your customer. Create a long relationship and improve your incomes.",
+          "icon": "customize",
+          "title": "Customization"
+        },
+        {
+          "desc": "We help you at each step to create your app, you will have a person in charge of helpinh you at any moment.",
+          "icon": "personal-tutor",
+          "title": "Personal tutor"
+        },
+        {
+          "desc": "With Upplication you will be able to create an iOS or Android app and a responsive web. We also publish your apps on Google Play and App Store for you.",
+          "icon": "multidevice",
+          "title": "Multidevice"
+        }
+      ],
+      "title": "Optimize your business"
+    },
+    "permanence": "Trial period with no obligation to stay.",
+    "press": {
+      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
+      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
+      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
+      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
+      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
+      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
+      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+    },
+    "register_inline": {
+      "app_name": "Name of the app",
+      "call_to_action": "Try it now",
+      "email": "Email",
+      "password": "Password",
+      "title": "Sign in and start your app for free"
+    },
+    "samples": {
+      "alt_tag": {
+        "img_galaxy": "Upplication App working on Samsung Galaxy",
+        "img_iphone": "Upplication App working on iPhone",
+        "img_nexus": "Upplication App working on Nexus",
+        "img_xperia": "Upplication App working on Sony Xperia"
+      },
+      "business": "Apps for all types of business",
+      "custom": {
+        "cust_details1": "<span>Personal</span>: Upload your resume, presentations, portfolio...",
+        "cust_details2": "<span>Music</span>: Upload music and videos, concert dates, merchandising...",
+        "cust_details3": "<span>Events</span>: Upload your event’s calendar, send push notifications, create galleries...",
+        "cust_details4": "<span>Tourism</span>: Add maps, recommend locations, upload restaurant offers...",
+        "cust_intro": "Create your <span>custom</span> mobile app, tailor-made to your needs"
+      },
+      "free_app": "Create my free app",
+      "personal": "Custom",
+      "rest": {
+        "details1": "Your customers will be able to  <span> make reservations </span> from their phone.",
+        "details2": "Offer <span>door-to-door delivery</span> at the touch of a button.",
+        "details3": "Show <span>discount coupons</span> on your app.",
+        "details4": "Send <span>push notifications</span> with exclusive offers.",
+        "rest_intro": "Create your restaurant’s Android and iPhone app and <span>add value for your customers</span>."
+      },
+      "restaurants": "Restaurants",
+      "serv": "Professional <em>Services</em>",
+      "serv_alt": "Professional Services",
+      "services": {
+        "serv_details1": "Enable your clients to <span> hire your services <span> anywhere.",
+        "serv_details2": "Show your <span> services schedule </span> in your customers’ phone.",
+        "serv_details3": "Upload <span>videos and pictures</span> to promote your services.",
+        "serv_details4": "Send exclusive offers with <span>push notifications</span>",
+        "serv_intro": "Create an <span>app for your services </span> and connect with your customer on their phone"
+      },
+      "shop": {
+        "shop_details1": "Integrate the payment gateway within minutes and <span>start selling</span>",
+        "shop_details2": "Offer <span>exclusive products</span> and add further value for your customers.",
+        "shop_details3": "<span>Send push notifications</span> with the best offers.",
+        "shop_details4": "Have your customers carrying <span> your business in their pocket.</span>",
+        "shop_intro": "Create a mobile app so your customers can <span> buy your products right from their phone.</span>"
+      },
+      "shops": "Shops"
+    },
+    "showcase": {
+      "title": "These are some of our apps"
+    },
+    "slider": {
+      "appready": {
+        "": "Your App Ready !",
+        "bg": "App generator",
+        "title": "Your App Ready !"
+      },
+      "bg": "Create the app for your business",
+      "intro1": "App generator for ",
+      "intro2": "<span class=\"intro-2a\">The easier online App creator.</span> <span class=\"intro-2b\">No coding required, fast and simple.</span>",
+      "text": [
+        "stores",
+        "restaurants",
+        "services",
+        "entrepreneurs",
+        "you"
+      ]
+    },
+    "support": {
+      "desc": "Each and every one of the partners who make Upplication will make every effort to get you get the best support experience in our hands. If you have any problems you can count on us.",
+      "title": "We are here to help you!"
+    },
+    "testimonials": {
+      "client1": {
+        "quote": "Excellent online and phone customer service. I have secured many customers thanks to my app.",
+        "name": "Ana, C,UP Your choice on top",
+        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
+      },
+      "client2": {
+        "quote": "Customers make reservations and see the menu in my app. I manage my daily business tasks with Upplication.",
+        "name": "David, Trapatapa Bar",
+        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
+      },
+      "client3": {
+        "quote": "It is the most user friendly tool I have ever tried. Managing my app is very easy. Additionally, Upplication keeps improving weekly.",
+        "name": "Gabriel, Moto Urban",
+        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
+      },
+      "title": "Success <span>stories</span>"
+    },
+    "try": "Create your App now! 15 days free trial with professional support",
+    "vodafone": {
+      "logo": "Vodafone logo"
+    },
+    "why": {
+      "grow": "<strong>Increase</strong> your sales",
+      "img": {
+        "grow": "Increase your sales",
+        "loyal": "Ensure customer's loyalty",
+        "others": "Differentiate from your competitors"
+      },
+      "loyal": "<strong>Ensure</strong> customer's loyalty",
+      "others": "<strong>Differentiate</strong> from your competitors"
+    },
+    "successful_showcase": {
+      "download" : {
+        "app_store": "Available on the iPhone & iPad at the <span>Apple Store</span>",
+        "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
+        "google_play": "Available at the Google Play for <span>Android</span>",
+        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
+      },
+      "samples": {
+        "title": "<span>Another</span> successful App showcases",
+        "sample1": "More about Asis & Gross",
+        "sample1_url": "@@config.base_path/asis-and-gross-sucessfull-showcase/",
+        "sample2": "More about Fisiohogar",
+        "sample2_url": "@@config.base_path/fisiohogar-sucessfull-showcase/",
+        "sample3": "More about Serafina cocina bar",
+        "sample3_url": "@@config.base_path/serafina-sucessfull-showcase/"
+      }
+    }
+  }
+}
