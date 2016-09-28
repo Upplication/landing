@@ -43,7 +43,7 @@
   }
 }
 
-/* ... "TRY IT FOR FREE 15 DAYS!" :: Footer Common in all pages... */
+/* ... "TRY IT FOR FREE 15 DAYS!" :: Footer Common in all pages ... */
 
 .trial-block {
   background: @white;
@@ -89,7 +89,7 @@
   .trial-block-right {
     margin-top: 1.5em;
     float: right;
-    text-align: left;
+    text-align: right;
     width: 30%;
 
     a.price-btn {
@@ -316,6 +316,18 @@ footer.page-footer {
       a.price-btn {
         padding: 1.3em 2.4em;
       }
+    }
+  }
+}
+
+
+@media (min-width: 981px) and (max-width: 1080px) {
+  .trial-block {
+    .trial-block-left {
+      width: 60%;
+    }
+    .trial-block-right {
+      width: 40%;
     }
   }
 }
