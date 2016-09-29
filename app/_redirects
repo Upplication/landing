@@ -18,7 +18,7 @@
 /crear-app-movil-*  /crear-app-movil/:splat 301
 
 # proxy the blog
-/blog/*  http://blog.upplication.com/:splat  200
+/blog/*  https://blog.upplication.com/:splat  200
 
 # proxy estudio-mobile-pymes
 /estudio-mobile-pymes-2016* http://microlanding.upplication.com/estudio-mobile-pymes-2016 200
