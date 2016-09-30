@@ -170,7 +170,7 @@
         "year": "Enero 2014"
       },
       "step3": {
-        "description": "En mayo de 2014 fuimos seleccionados por <span> Wayra (Telefónica) </span> entre más de 660 proyectos de toda España para su <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleración de startups</a>.",
+        "description": "En mayo de 2014 fuimos seleccionados por <span> Wayra (Telefónica) </span> entre más de 660 proyectos de toda España para su <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleración de startups</a>.",
         "pic": "Logotipo Wayra (Telefónica)",
         "year": "Mayo 2014"
       },
@@ -447,7 +447,7 @@
     "_priority": "0.7",
     "_url": "/centro-de-ayuda/",
     "advantages": {
-      "link": "http://upplication.com/blog/ventajas-app-negocio/",
+      "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
       "text": "Ventajas de tener una app",
       "title": "Ventajas de tener una app"
     },
@@ -484,27 +484,12 @@
             "title": "Descarga-Consigue una app de éxito"
           },
           {
-            "link": "http://upplication.com/blog/ventajas-app-negocio/",
+            "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
             "text": "Ventajas de tener una app",
             "title": "Ventajas de tener una app"
           }
         ],
         "title": "Ebooks e Infografias"
-      },
-      "makeyourapp": {
-        "links": [
-          {
-            "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
-            "text": "Hacemos el trabajo por tí",
-            "title": "Hacemos el trabajo por tí"
-          },
-          {
-            "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
-            "text": "Ven a nuestros desayunos",
-            "title": "Ven a nuestros desayunos"
-          }
-        ],
-        "title": "Te ayudamos a crear tu app"
       },
       "videos": {
         "links": [
@@ -555,7 +540,7 @@
       "title": "Hacemos el trabajo por ti"
     },
     "workshop": {
-      "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+      "link": "https://www.upplication.com/blog/taller-crear-apps-madrid/",
       "text": "Ven a nuestros desayunos",
       "title": "Ven a nuestros desayunos"
     }

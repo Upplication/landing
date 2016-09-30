@@ -168,7 +168,7 @@
         "year": "Janeiro 2014"
       },
       "step3": {
-        "description": "Em maio de 2014 fomos selecionados por <span> Wayra (Telefónica) </span> entre mais de 660 projetos de toda a Espanha para a sua  <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleração de startups</a>.",
+        "description": "Em maio de 2014 fomos selecionados por <span> Wayra (Telefónica) </span> entre mais de 660 projetos de toda a Espanha para a sua  <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleração de startups</a>.",
         "pic": "Logotipo Wayra (Telefónica)",
         "year": "Maio 2014"
       },
@@ -216,7 +216,7 @@
     "blog": {
       "anchor": "Blogue",
       "title": "Blogue da Upplication",
-      "url": "http://www.upplication.com/blog/"
+      "url": "https://www.upplication.com/blog/"
     },
     "breakfasts": {
       "anchor": "Sucesso app",
@@ -444,7 +444,7 @@
     "_priority": "0.7",
     "_url": "/centro-de-ajuda/",
     "advantages": {
-      "link": "http://upplication.com/blog/ventajas-app-negocio/",
+      "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
       "text": "Vantagens de ter uma app",
       "title": "Vantagens de ter uma app"
     },
@@ -481,27 +481,12 @@
             "title": "Descarga-Consegue uma app de êxito"
           },
           {
-            "link": "http://upplication.com/blog/ventajas-app-negocio/",
+            "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
             "text": "Vantagens de ter uma app",
             "title": "Vantagens de ter uma app"
           }
         ],
         "title": "Ebooks e Infografias"
-      },
-      "makeyourapp": {
-        "links": [
-          {
-            "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
-            "text": "Fazemos o trabalho por ti",
-            "title": "Fazemos o trabalho por ti"
-          },
-          {
-            "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
-            "text": "Vem aos nossos pequenos almoços",
-            "title": "Vem aos nossos pequenos almoços"
-          }
-        ],
-        "title": "Ajudamos-te a criar a tua app"
       },
       "videos": {
         "links": [
@@ -552,7 +537,7 @@
       "title": "Fazemos o trabalho por ti"
     },
     "workshop": {
-      "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+      "link": "https://www.upplication.com/blog/taller-crear-apps-madrid/",
       "text": "Vem aos nossos pequenos almoços",
       "title": "Vem aos nossos pequenos almoços"
     }
