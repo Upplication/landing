@@ -145,8 +145,7 @@ gulp.task('vendor:js', ['bower'], function() {
     var mposTask =
         gulp.src([
             './dist/bower_components/zepto/zepto.min.js',
-            './dist/bower_components/zeptojs/src/touch.js',
-            './dist/bower_components/magnific-popup/dist/jquery.magnific-popup.js'
+            './dist/bower_components/zeptojs/src/touch.js'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
             .pipe(concat('mpos.js'))

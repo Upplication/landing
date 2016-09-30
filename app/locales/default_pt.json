@@ -1003,7 +1003,7 @@
       "sub5": "Painel de gestão de seu aplicativo.",
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos os preços <strong>incluem IVA</strong>.",
+      "with_tax": "Todos os preços <strong>incluem IVA</strong>. <em>Nos criamos seu App</em> você tem 15 dias compromisso de permanência.",
       "yearly": "Plano Anual"
     }
   },
@@ -1016,19 +1016,19 @@
     "all_plans_include": {
       "list": [
         {
-          "icon": "icon-support",
+          "icon": "icon icon-comment-empty",
           "text": "Atenção ao cliente por telefone e chat"
         },
         {
-          "icon": "icon-markets",
+          "icon": "icon icon-upload",
           "text": "<span>Upload automático aos markets, </span><span class=\"bold\">nós fazemos o upload da tua app</span>"
         },
         {
-          "icon": "icon-web-responsive",
+          "icon": "icon icon-tablet",
           "text": "Web responsive multidispositivo"
         },
         {
-          "icon": "icon-tutor",
+          "icon": "icon icon-graduation-cap",
           "text": "Tutor personalizado"
         }
       ],
@@ -1069,23 +1069,28 @@
         "class_name": "plan-basic",
         "features": [
           {
-            "icon_class": "icon-ads",
+            "icon_class": "icon icon-megaphone",
             "title": "Publicidade Upplication"
           },
           {
-            "icon_class": "icon-signature",
+            "icon_class": "icon icon-pencil",
             "title": "Logo nas folhas de cálculo"
           },
           {
-            "icon_class": "icon-push",
+            "icon_class": "icon icon-paper-plane",
             "title": "<span class=\"bold\">Sem</span><span>alertas</span>"
           },
           {
-            "icon_class": "icon-stats",
+            "icon_class": "icon icon-chart-line",
             "title": "Estatísticas da tua app"
           }
         ],
         "name": "Básico",
+        "surname": "Plano de boas-vindas.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-copper.svg",
+          "title": "Upplication Básico plan"
+        },
         "price": "8,25",
         "price_dollars": "8,25",
         "price_yearly": "82,50",
@@ -1096,23 +1101,28 @@
         "class_name": "plano-profissional",
         "features": [
           {
-            "icon_class": "icon-ads",
+            "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">Sem</span><span> publicidade Upplication</span>"
           },
           {
-            "icon_class": "icon-signature",
+            "icon_class": "icon icon-pencil",
             "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de cálculo</span>"
           },
           {
-            "icon_class": "icon-push",
+            "icon_class": "icon icon-paper-plane",
             "title": "4 alertas / mês"
           },
           {
-            "icon_class": "icon-stats",
+            "icon_class": "icon icon-chart-line",
             "title": "Estatísticas da tua app"
           }
         ],
         "name": "Profissional",
+        "surname": "Plano de lançador de negócios.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-silver.svg",
+          "title": "Upplication Profissional plan"
+        },
         "price": "24,75",
         "price_dollars": "24,75",
         "price_yearly": "247,50",
@@ -1123,23 +1133,28 @@
         "class_name": "plano-premium",
         "features": [
           {
-            "icon_class": "icon-ads",
+            "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">Sem</span><span>publicidade Upplication</span>"
           },
           {
-            "icon_class": "icon-signature",
+            "icon_class": "icon icon-pencil",
             "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de cálculo</span>"
           },
           {
-            "icon_class": "icon-push",
+            "icon_class": "icon icon-paper-plane",
             "title": "Alertas ilimitadas"
           },
           {
-            "icon_class": "icon-stats",
+            "icon_class": "icon icon-chart-line",
             "title": "Estatísticas da tua app"
           }
         ],
-        "name": "Premium",
+        "name": "We create your App",
+        "surname": "Nós criar e projetar seu aplicativo.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "title": "Upplication We create your App plan"
+        },
         "price": "49,55",
         "price_dollars": "49,55",
         "price_yearly": "495,50",
