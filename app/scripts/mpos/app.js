@@ -169,20 +169,6 @@ $(function () {
                 $(this).find("input").prop("disabled", false);
                 submit.val(submit.data("text"));
                 submit.prop("disabled", false);
-
-                $.magnificPopup.open({
-                    items: {
-                        src: '#ajax-error-popup',
-                        type: 'inline'
-
-                    },
-                    callbacks: {
-                        close: function () {
-                            // Will fire when popup is closed
-                            $.magnificPopup.close();
-                        }
-                    }
-                });
             };
         };
 
@@ -318,22 +304,6 @@ $(function () {
         };
 
         $(".icon-list").on("click", toogleMenu);
-
-        // youtube are only present in one page
-        var youtubeVideo = $('#youtube-video');
-        if (youtubeVideo.length > 0 && typeof youtubeVideo.magnificPopup !== undefined) {
-            youtubeVideo.magnificPopup({
-                type: 'inline',
-                midClick: true
-            });
-        }
-
-        var ajaxErrorPopup = $('#ajax-error-popup');
-        if (ajaxErrorPopup.length > 0 && typeof ajaxErrorPopup.magnificPopup !== undefined) {
-            ajaxErrorPopup.magnificPopup({
-                type: 'inline'
-            });
-        }
     };
 
     var setupPricingPlan = function () {

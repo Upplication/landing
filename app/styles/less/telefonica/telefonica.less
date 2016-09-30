@@ -8,12 +8,483 @@
 
 @import "../base/_variables.less";
 @import "../base/_mixins.less";
+@import "_basement.less";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
 
 
 // Main Movistar color
-@movistar: #00476e;
+@telefonica: #00476e;
+@telefonica-hover: lighten(@telefonica, 10%);
+
+@main-green: @telefonica;
+@accept-btn-hover: @telefonica-hover;
+
+
+
+// Main Container with custom fonts
+.outer-wrap {
+  font-family: "Lato", sans-serif;
+}
+
+// MAIN HEADERS (SECTIONS)
+.headTitles {
+  padding-top: 1.5em;
+  color: @darkest-lilac;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+
+  span {
+    color: @medium-lilac;
+  }
+}
+
+/**
+ ****************************************************************
+ * MAIN TOP TEXT :: "_common.less" reset :: (upplication, 2016)
+ ****************************************************************
+ */
+
+#content.home {
+  #register {
+    .claim {
+      h1,
+      p {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+        font-weight: 600;
+      }
+    }
+    form {
+      background-color: @white;
+
+      .btn {
+        border-radius: 0;
+        line-height: .5em;
+      }
+
+      label {
+        width: 90%;
+        margin: 0 5%;
+
+        &:first-child {
+          input {
+            margin-top: 20px;
+          }
+        }
+      }
+
+      input[type=submit] {
+
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  #content.home {
+    #register {
+      .claim input[type=submit],
+      form input[type=submit] {
+        padding: 1em;
+        line-height: .2em;
+        width: 90%;
+        margin: 0 5%;
+        color: @white;
+      }
+    }
+  }
+}
+
+@media (max-width:767px) {
+  #content {
+    margin-top: 55px;
+  }
+}
+
+
+/**
+ ****************************************************************
+ * Telefonica Aplicateca PRICE View :: (upplication, 2016)
+ ****************************************************************
+ */
+
+#content.prices,
+#content.home {
+  section {
+    // Section HeadTitles
+    h2 {
+      font-size: 2.4em;
+      text-align: center;
+      line-height: 1.3em;
+      font-weight: 500;
+      padding: .5em 0;
+    }
+
+    // each of Pricing Plans
+    .plans {
+      &.prices-aplicateca {
+        width: 80%;
+        margin: 5% 10%;
+
+        .plan {
+          .plan-header {
+            // pricing plan TITLE
+            h3 {
+              color: @telefonica;
+              font-size: 18px;
+              padding: 1em 0 .3em 0;
+            }
+            // pricing plan SURNAME (claim)
+            p {
+              text-align: center;
+              padding-bottom: 10px;
+            }
+            // pricing plan IMG
+            img {
+              margin-top: 10px;
+              width: 100px;
+              height: auto;
+              position: relative;
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+              -moz-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+              -o-transform: translateX(-50%);
+              transform: translateX(-50%);
+            }
+            // pricing plan PRICE
+            div.price {
+              padding: 1em;
+
+              span {
+                &.price {
+                  font-size: 35px;
+                  font-weight: 500;
+                }
+                &.most-popular {
+                  padding: .8em 0;
+                }
+              }
+            }
+          }
+
+          // pricing plan Features LIST
+          .plan-features {
+            font-weight: 400;
+
+            .os-list {
+              padding-left: .3em;
+            }
+
+            .icon {
+              color: @medium-lilac;
+              position: relative;
+              top: 4px;
+              padding-right: 10px;
+            }
+          }
+
+          // pricing plan Upgrade BTN
+          a.btn {
+            background-color: @telefonica;
+            color: @white;
+
+            &:hover {
+              background-color: @telefonica-hover;
+              color: @white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1190px) {
+  .plans.prices-aplicateca {
+    width: 100%!important;
+    float: none!important;
+    margin: 5% 0 !important;
+  }
+}
+
+
+#all-plans-include {
+  .icon {
+    font-size: 18px;
+    color: @medium-lilac;
+    position: relative;
+    top: 4px;
+    padding-right: 10px;
+  }
+}
+
+
+
+/**
+ ****************************************************************
+ * Telefonica Aplicateca TERMS View :: (upplication, 2016)
+ ****************************************************************
+ */
+
+#content.terms {
+  // Aplicateca´s Terms TITLE
+  h5 {
+    color: @telefonica;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  // Aplicateca´s Terms SubTitle
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  // Aplicateca´s Terms TEXT
+  p {
+    color: #222;
+    text-align: justify;
+    line-height: 1.8em;
+  }
+}
+
+
+/**
+ ****************************************************************
+ * (components) Resets for Telefonica View :: (upplication, 2016)
+ ****************************************************************
+ */
+
+/* ... TABS :: "_common.less" reset ... */
+#tabs {
+  .tabs {
+    // each Tab (color resets)
+    .tab {
+      a {
+        color: @telefonica;
+
+        &:hover {
+          color: @telefonica-hover;
+        }
+      }
+    }
+    // each Tab underline (color resets)
+    .indicator {
+      background-color: @telefonica;
+
+      &:after {
+        border-top: 10px solid @telefonica;
+      }
+    }
+  }
+  // Heading Titles of each Tab section
+  h5 {
+    span {
+      color: @telefonica;
+      font-weight: 600;
+    }
+  }
+  // Content of each Tab
+  .tabs-content-list {
+    li {
+      a {
+        i {
+          color: @telefonica;
+        }
+      }
+    }
+  }
+  // BTN to launch register modal dialog
+  .btn-upp {
+    background-color: @telefonica;
+
+    &:hover {
+      background-color: @telefonica-hover;
+    }
+  }
+}
+
+
+/* ... THREE CARDS  GRID :: "_common.less" reset ... */
+.about-grids {
+  .about-grid {
+    .about-grid-info {
+      p.grid-link {
+        // links to showcases views hidden here!
+        display: none;
+      }
+    }
+
+    &.about-grid1 {
+      background-color: @telefonica;
+    }
+  }
+}
+
+
+/* ... "TRY IT FOR FREE 15 DAYS!" :: "_footer.less" reset ... */
+.trial-block {
+  .trial-block-left {
+    // Text with color default chenged
+    h2,
+    h3 {
+      color: @telefonica;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+  }
+  .trial-block-right {
+    a.price-btn {
+      background-color: @telefonica;
+
+      &:hover {
+        background-color: @telefonica-hover;
+      }
+    }
+  }
+}
+
+
+/* ... CLIENTS CAROUSEL :: "_footer.less" reset ... */
+.clients-section {
+  background: rgba(234, 255, 245, 1);
+  background: -webkit-linear-gradient(-45deg, rgba(0, 126, 195, 1) 0%, rgba(0, 93, 144, 0.2) 48%, rgba(0, 71, 110, 0.4) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(0, 126, 195, 1) 0%, rgba(0, 93, 144, 0.2) 48%, rgba(0, 71, 110, 0.4) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(0, 126, 195, 1) 0%, rgba(0, 93, 144, 0.2) 48%, rgba(0, 71, 110, 0.4) 100%);
+  background: linear-gradient(-45deg, rgba(0, 126, 195, 1) 0%, rgba(0, 93, 144, 0.2) 48%, rgba(0, 71, 110, 0.4) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ec3', endColorstr='#00476e', GradientType=1);
+  padding: 3em 0;
+  margin-top: 8em;
+}
+
+
+/**
+ ****************************************************************
+ * Telefonica Aplicateca FOOTER :: (upplication, 2016)
+ ****************************************************************
+ */
+.footer-container-tlf {
+  background-color: @telefonica;
+  margin-bottom: -17px;
+  padding-top: 1em;
+  color: @white;
+
+  a {
+    color: @white;
+    
+    &:hover {
+      color: lighten(@telefonica, 20%);
+    }
+  }
+}
+
+
+
+.about {
+  .headTitles {
+    margin: 0 0 2em 0;
+
+    span {
+      color: @darkest-lilac;
+    }
+  }
+}
+
+
+/**
+ ****************************************************************
+ * Telefonica Aplicateca HEADER :: (upplication, 2016)
+ ****************************************************************
+ */
+header {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  &.tlf {
+
+    .logo {
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+
+  &.telefonica-mpos {
+
+    .logo-tlf {
+      padding-top: 41px;
+      width: 140px;
+      height: 50px;
+      background-image: url("@@config.base_path/images/aplicateca/logo_tlf.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-position-y: 8px;
+    }
+
+    #sections {
+      float: left;
+
+      li.change-lang.change-lang-menu {
+        margin-top: 7px;
+      }
+
+      a.btn-signup-tlf {
+        margin-left: 10px;
+        border: 0;
+        padding: 6px 20px;
+        display: inline-block;
+        font-size: 1em!important;
+        text-transform: none!important;
+      }
+    }
+
+    .btn-signup {
+      position: relative;
+      top: 6px;
+      padding: 8px 15px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .main-menu .change-lang a {
+    margin-right: 5px;
+    padding: 0 10px;
+    display: inline-block;
+  }
+}
+
+@media (max-width:767px) {
+  header.tlf .login {
+    position: absolute;
+    color: @white;
+    top: 1.3em;
+    right: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: .02em;
+  }
+}
 
 
 /* ... "Sucessful Showcase" :: Section... */
@@ -29,91 +500,402 @@
 }
 
 
-/* ... "TRY IT FOR FREE 15 DAYS!" :: Section :: Footer Common in all pages... */
+/* ... APLICATECA :: HOME view ... */
 
-.trial-block {
-  background: @white;
-  width: 70%;
-  margin: 0 auto;
-  padding: 8em 0;
+// Main Container
+.outer-wrap {
+  background: #333;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  width: 100%;
+}
 
-  // Text Side
-  .trial-block-left {
-    float: left;
-    width: 70%;
 
-    h2 {
-      color: @movistar;
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      margin: 0;
-      padding: 0;
-      font-size: 2.58em;
-      line-height: 35px;
-    }
+// Main Top NAVBAR
+.nav-basement {
+  background: transparent;
+  display: block;
+  font-size: 1.05em;
+  position: fixed;
+  left: 0;
+  width: 200px;
+  z-index: 100;
+  -ms-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 
-    h3 {
-      color: @movistar;
-      font-size: 24px;
-      margin-top: 10px;
-    }
-  }
+  li {
+    padding: 1em;
+    border-bottom: 1px solid rgba(255,255,255,.2);
 
-  // BTN side
-  .trial-block-right {
-    margin-top: 1.5em;
-    float: right;
-    text-align: left;
-    width: 30%;
-
-    a.price-btn {
-      background: @accept-btn;
+    p {
       color: @white;
-      padding: 1.3em 2.2em;
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 18px;
-      letter-spacing: 0.02em;
-
-      &:hover {
-        background: @accept-btn-hover;
-      }
+      font-size: 1em;
     }
   }
 }
 
 
-/* ... APLICATECA PRICES VIEW ... */
-
-.plans.prices-aplicateca {
-  width: 80%;
-  margin: 5% 10%;
+// Main SubContainer
+#main-container {
+  min-height: 100%;
 }
 
+.slide-pannel {
+  background: @white;
+  display: block;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 120;
 
-/* ... MEDIA QUERIES ... */
-
-@media screen and (max-width: 1399px) {
-  .trial-block {
-    width: 90%;
+  &.effects {
+    height: 100%;
+    box-shadow: 2px 0 2px rgba(0,0,0,.3);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .trial-block {
-    width: 90%;
+/* ... Register Area ... */
+#register {
+  position: relative;
+  min-height: 450px;
+  background-image: url("@@config.base_path/images/aplicateca/header_desktop.jpeg");
+  background-size: cover;
+  background-position: center;
 
-    .trial-block-left {
-      float: inherit;
-      width: 100%;
-      text-align: center;
-      margin-bottom: 35px;
-    }
+  .announce {
+    width: 85%;
+    margin: 0 7.5%;
+    background-color: @black;
+    color: @white;
+  }
+}
 
-    .trial-block-right {
-      float: inherit;
-      text-align: center;
-      width: 100%;
+@media (max-width: 767px) {
+  #content.home #register form .btn {
+    line-height: 1.5em;
+  }
+}
+
+
+// common arrow
+.arrow-down-black {
+  position: relative;
+  margin-bottom: 1em;
+
+  &:after {
+    content: " ";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid @black;
+    bottom: -.75em;
+    left: 50%;
+    margin-left: -.5em;
+  }
+}
+
+.icon-list span {
+  display: none;
+}
+
+
+#main-container {
+  #dark-layout {
+    display: none;
+  }
+
+  &.slide-right {
+    #dark-layout {
+      background-color: rgba(0,0,0,.5);
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      display: block;
     }
+  }
+}
+
+
+a.btn-signup {
+  margin-left: 10px;
+  border: 0;
+  padding: 6px 30px;
+  display: inline-block;
+  font-size: 1em!important;
+  text-transform: none!important;
+  margin-top: -6px!important;
+}
+
+
+.nav-basement {
+  .change-lang-menu {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+
+/* ... APLICATECA :: COOKIES element ... */
+
+#cookies {
+  display: block;
+  font-size: .9em;
+  position: fixed;
+  bottom: -400px;
+  left: 0;
+  z-index: 8999;
+  color: #fff;
+  background-color: #fabe78;
+  width: 380px;
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+  -webkit-transition: all,3s,ease-in-out;
+  transition: all,3s,ease-in-out;
+
+  &.show {
+    bottom: 0;
+  }
+
+  p {
+    color: brown;
+    position: relative;
+
+    .close {
+      position: absolute;
+      display: block;
+      cursor: pointer;
+      top: 7px;
+      right: 0;
+      color: brown;
+    }
+  }
+}
+
+// Cookies Media Queries
+@media (max-width:480px) {
+  #cookies {
+    width: 100%;
+  }
+}
+
+
+
+
+/* ... MEDIA QUERIES ................................................. */
+
+// Media Queries :: Inputs & Container
+@media (max-width:480px) {
+  #main-container,
+  input {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+  #main-container,
+  input {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:767px) {
+  #main-container,
+  input {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:767px) {
+  #content {
+    margin-top: 55px;
+  }
+
+  .header-container {
+    position: fixed;
+    z-index: 6;
+  }
+
+  #main-container #dark-layout {
+    display: none;
+  }
+
+  #main-container.slide-right #dark-layout {
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+  }
+
+  .nav-basement-options a {
+    color: #fff;
+  }
+
+  header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+  }
+
+  header .login {
+    position: absolute;
+    color: #fff;
+    top: 1.3em;
+    right: 1.5em;
+    font-size: .9em;
+    font-weight: 400;
+  }
+
+  header a.logo {
+    text-align: center;
+    display: inline-block;
+    background: 0 0;
+  }
+
+  header a.logo img {
+    max-height: 2em;
+    margin: .3em;
+  }
+
+  header .icon-list {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: .6em .5em;
+    font-size: 1.8em;
+    background: 0 0;
+    border: 0;
+    color: #fff;
+  }
+
+  header .main-menu {
+    display: none;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+}
+
+@media (min-width:768px) {
+  .header-container {
+    min-height: 4.5em;
+    position: relative;
+  }
+
+  .header-container .login {
+    display: none;
+  }
+
+  a.logo {
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+  }
+
+  a.logo img {
+    padding-top: .5em;
+    max-height: 2.8em;
+  }
+
+  .icon-list {
+    display: none;
+  }
+
+  #sections li:first-child {
+    display: none;
+  }
+
+  #sections li.lang {
+    display: none;
+  }
+
+  .main-menu {
+    float: right;
+    margin-top: 1.1em;
+    margin-right: 1em;
+  }
+
+  .main-menu a {
+    color: #fff;
+    font-size: .9em;
+    font-weight: 400;
+  }
+
+  .main-menu ul,
+  .main-menu li {
+    display: inline-block;
+  }
+
+  .main-menu li {
+    margin-right: 1em;
+  }
+
+  .main-menu li:last-child {
+    margin-right: 0;
+  }
+
+  .main-menu .change-lang a {
+    margin-right: .25em;
+  }
+
+  .main-menu .change-lang a:after {
+    padding-left: .55em;
+    content: "/";
+    color: #fff;
+  }
+
+  .main-menu .change-lang a:last-child:after {
+    content: "";
+  }
+
+  .main-menu .login_btn a {
+    font-size: .95em;
+    border: 2px solid rgba(255,255,255,.3);
+    padding: 6px 17px;
+    -webkit-transition: border-color 200ms ease-in-out;
+    transition: border-color 200ms ease-in-out;
+  }
+
+  .main-menu .login_btn a:hover {
+    border-color: rgba(255,255,255,.5);
+  }
+
+  .btn {
+    display: inline-block;
+    line-height: 1em;
+    padding: 1em;
+  }
+}
+
+
+@media all and (max-width:830px) and (min-width:768px) {
+  .btn-signup {
+    padding: 6px 15px!important;
+  }
+
+  .change-lang a {
+    margin-right: 0!important;
+  }
+
+  .main-menu li.change-lang-menu {
+    margin-right: 0!important;
   }
 }

@@ -8,7 +8,9 @@ doctype
 //[if gt IE 8]><!
 html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
     //<![endif]
+
     block vars
+
     head
         include scripts
         meta(charset='utf-8')
@@ -40,17 +42,28 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
-        link(rel='stylesheet', href='#{localConfig.base_path}/styles/deprecated/main.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/upplication-icons.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/telefonica/telefonica.css')
 
         link(rel="shortcut icon", href="#{localConfig.base_path}/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
 
     body(id="#{_template}", data-lang="#{lang}")
+        
         //data = langs = #{data}! = #{langs}!
         nav.nav-basement
             ul.nav-basement-options.unstyled.margin-top.change-lang
                 include header-links
+
+            nav.nav-basement.color-tlf
+                ul.nav-basement-options.unstyled.margin-top.change-lang
+                    li.menu_txt
+                        p.uppercase.white #{header.menu}
+                    li.change-lang.change-lang-menu
+                        each lang in langs.codes
+                            a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                    li.login_btn
+                        a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
 
         .outer-wrap
 
@@ -60,6 +73,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
                 #content(class="#{cssClass}")
                     block content
+
                 .footer-container
                     #cookies
                         p !{footer.cookies_aplicateca}
