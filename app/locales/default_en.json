@@ -171,7 +171,7 @@
         "year": "In January 2014"
       },
       "step3": {
-        "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"http://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>.",
+        "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>.",
         "pic": "Wayra logo",
         "year": "On May 2014"
       },
@@ -447,7 +447,7 @@
     "_priority": "0.7",
     "_url": "/help-center/",
     "advantages": {
-      "link": "http://upplication.com/blog/ventajas-app-negocio/",
+      "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
       "text": "Advantages of having an app",
       "title": "Advantages of having an app"
     },
@@ -479,32 +479,17 @@
       "ebooks": {
         "links": [
           {
-            "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
+            "link": "http://www.upplication.com/como-conseguir-app-exito-rapido/",
             "text": "Download-Get a successful app",
             "title": "Download-Get a successful app"
           },
           {
-            "link": "http://upplication.com/blog/ventajas-app-negocio/",
+            "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
             "text": "Advantages of having an app",
             "title": "Advantages of having an app"
           }
         ],
         "title": "Ebooks & Infographics"
-      },
-      "makeyourapp": {
-        "links": [
-          {
-            "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
-            "text": "We do the work for you",
-            "title": "We do the work for you"
-          },
-          {
-            "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
-            "text": "Go to our breakfasts",
-            "title": "Go to our breakfasts"
-          }
-        ],
-        "title": "We help you make your app"
       },
       "videos": {
         "links": [
@@ -555,7 +540,7 @@
       "title": "We do the work for you"
     },
     "workshop": {
-      "link": "http://upplication.com/blog/taller-crear-apps-madrid/",
+      "link": "https://www.upplication.com/blog/taller-crear-apps-madrid/",
       "text": "Go to our breakfasts",
       "title": "Go to our breakfasts"
     }
