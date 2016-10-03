@@ -138,9 +138,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                 a.customer-service__email(href="#{home_telefonica_mpos.contact.customer_service.email.link}", title="#{home_telefonica_mpos.contact.customer_service.email.title}")  #{home_telefonica_mpos.contact.customer_service.email.text}
                     hr.clear
 
-                    #cookies
-                        p !{footer.cookies}
-                            span#cookies-accept.close X
+                // Cookies (default one + telefonica´s style added)
+                #cookies
+                    p !{footer.cookies}
+                        i.icon.icon-cross#cookies-accept.close
 
         include includes/mpos/signup
 
