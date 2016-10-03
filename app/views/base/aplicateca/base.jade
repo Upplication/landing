@@ -75,9 +75,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     block content
 
                 .footer-container
-                    #cookies
-                        p !{footer.cookies_aplicateca}
-                            span#cookies-accept.close X
+                // Cookies (default one + telefonica´s style added)
+                #cookies
+                    p !{footer.cookies_aplicateca}
+                        i.icon.icon-cross#cookies-accept.close
 
         script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')

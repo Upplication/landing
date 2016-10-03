@@ -8,6 +8,7 @@
 
 @import "../base/_variables.less";
 @import "../base/_mixins.less";
+@import "../base/_cookies.less";
 @import "_basement.less";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
@@ -63,6 +64,7 @@
       .btn {
         border-radius: 0;
         line-height: .5em;
+        margin-bottom: 20px;
       }
 
       label {
@@ -203,11 +205,21 @@
   }
 }
 
-@media (max-width: 1190px) {
+@media all and (max-width: 1190px) {
   .plans.prices-aplicateca {
     width: 100%!important;
     float: none!important;
     margin: 5% 0 !important;
+  }
+}
+
+@media all and (max-width: 425px) {
+  #content.prices {
+    section {
+      .container {
+        padding: 0;
+      }
+    }
   }
 }
 
@@ -648,38 +660,30 @@ a.btn-signup {
 }
 
 
-/* ... APLICATECA :: COOKIES element ... */
+/* ... TELEFONICA´S aplicateca & mpos :: COOKIES (common element resets) ... */
 
 #cookies {
-  display: block;
-  font-size: .9em;
-  position: fixed;
-  bottom: -400px;
-  left: 0;
-  z-index: 8999;
-  color: #fff;
-  background-color: #fabe78;
-  width: 380px;
-  background-position: 15px 15px;
-  background-repeat: no-repeat;
-  -webkit-transition: all,3s,ease-in-out;
-  transition: all,3s,ease-in-out;
+  padding: 15px 20px;
+  background-color: rgba(0, 71, 110, 0.7);
+  border-top: 1px solid @telefonica;
+  color: @white;
 
-  &.show {
-    bottom: 0;
+  i {
+    top: 2px;
   }
 
   p {
-    color: brown;
-    position: relative;
+    font-weight: 400;
 
-    .close {
-      position: absolute;
-      display: block;
-      cursor: pointer;
-      top: 7px;
-      right: 0;
-      color: brown;
+    a {
+      font-weight: 600;
+      color: white;
+      text-decoration: underline;
+
+      &:hover {
+        color: @telefonica;
+        text-decoration: inherit;
+      }
     }
   }
 }
