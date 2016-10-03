@@ -43,6 +43,17 @@
   }
 }
 
+// TEXT SELECTED COLOR :: "_common.less" reset
+::selection {
+  background: @telefonica;
+  color: @white;
+}
+
+::-moz-selection {
+  background: @telefonica;
+  color: @white;
+}
+
 /**
  ****************************************************************
  * MAIN TOP TEXT :: "_common.less" reset :: (upplication, 2016)
@@ -270,12 +281,23 @@
 
 
 /**
- ****************************************************************
- * (components) Resets for Telefonica View :: (upplication, 2016)
- ****************************************************************
+ ***************************************************************************
+ * (components) Resets for all Telefonica´s Views :: (upplication, 2016)
+ ***************************************************************************
  */
 
-/* ... TABS :: "_common.less" reset ... */
+/* ... Main title Headers ... */
+.about {
+  .headTitles {
+    margin: 0 0 2em 0;
+
+    span {
+      color: @darkest-lilac;
+    }
+  }
+}
+
+/* ... TABS (app samples) :: "_common.less" reset ... */
 #tabs {
   .tabs {
     // each Tab (color resets)
@@ -325,7 +347,7 @@
 }
 
 
-/* ... THREE CARDS  GRID :: "_common.less" reset ... */
+/* ... THREE CARDS GRID (succesful showcases) :: "_common.less" reset ... */
 .about-grids {
   .about-grid {
     .about-grid-info {
@@ -342,7 +364,7 @@
 }
 
 
-/* ... "TRY IT FOR FREE 15 DAYS!" :: "_footer.less" reset ... */
+/* ... "TRY IT FOR FREE 15 DAYS!" (prefooter block) :: "_footer.less" reset ... */
 .trial-block {
   .trial-block-left {
     // Text with color default chenged
@@ -366,7 +388,7 @@
 }
 
 
-/* ... CLIENTS CAROUSEL :: "_footer.less" reset ... */
+/* ... CLIENTS CAROUSEL (prefooter block) :: "_footer.less" reset ... */
 .clients-section {
   background: rgba(234, 255, 245, 1);
   background: -webkit-linear-gradient(-45deg, rgba(0, 126, 195, 1) 0%, rgba(0, 93, 144, 0.2) 48%, rgba(0, 71, 110, 0.4) 100%);
@@ -379,9 +401,137 @@
 }
 
 
+/* ... COOKIES bottom advise :: "_cookies.less" (common element resets) ... */
+#cookies {
+  padding: 15px 20px;
+  background-color: rgba(0, 71, 110, 0.7);
+  border-top: 1px solid @telefonica;
+  color: @white;
+
+  i {
+    top: 2px;
+  }
+
+  p {
+    font-weight: 400;
+
+    a {
+      font-weight: 600;
+      color: white;
+      text-decoration: underline;
+
+      &:hover {
+        color: @telefonica;
+        text-decoration: inherit;
+      }
+    }
+  }
+}
+
+// Cookies Media Queries
+@media (max-width:480px) {
+  #cookies {
+    width: 100%;
+  }
+}
+
+/* ... "FREE TRIAL" MODAL dialog :: "_modals.less" (common element resets) ... */
+.modal.modal-upp {
+  /* ... to close modal dialog ... */
+  a.modal-action.modal-close {
+    color: @white;
+    &:hover {
+      color: @light-lilac;
+    }
+  }
+
+  &#free-trial.modal {
+    .modal-content {
+      // Header (modal dialog content)
+      h3 {
+        background-color: @telefonica;
+        color: @white;
+        &:after {
+          border-top: 15px solid @telefonica;
+        }
+
+        span {
+          color: @white;
+        }
+      }
+
+      form {
+        button {
+          background-color: @telefonica;
+          &:hover {
+            background-color: @telefonica-hover;
+          }
+        }
+      }
+    }
+
+    .modal-terms {
+      ul {
+        li {
+          a:hover {
+            color: @telefonica;
+          }
+        }
+      }
+    }
+  }
+}
+
+.lean-modal {
+  z-index: -999 !important;
+}
+
+// Inputs animation effect
+.input-field {
+  input {
+    &.valid + label {
+      color: @telefonica !important;
+    }
+
+  }
+}
+
+
+/* ... to MATERIALIZE :: "_materialize-reserts.less" (common element resets) ... */
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid @telefonica;
+  box-shadow: 0 1px 0 0 @telefonica;
+}
+
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: @telefonica;
+}
+
+
+
 /**
  ****************************************************************
- * Telefonica Aplicateca FOOTER :: (upplication, 2016)
+ * Telefonica´s Aplicateca FOOTER :: (upplication, 2016)
  ****************************************************************
  */
 .footer-container-tlf {
@@ -401,20 +551,9 @@
 
 
 
-.about {
-  .headTitles {
-    margin: 0 0 2em 0;
-
-    span {
-      color: @darkest-lilac;
-    }
-  }
-}
-
-
 /**
  ****************************************************************
- * Telefonica Aplicateca HEADER :: (upplication, 2016)
+ * Telefonica´s Aplicateca HEADER :: (upplication, 2016)
  ****************************************************************
  */
 header {
@@ -561,7 +700,7 @@ header {
   overflow: hidden;
   position: relative;
   width: 100%;
-  z-index: 120;
+  z-index: 1004;
 
   &.effects {
     height: 100%;
@@ -660,40 +799,7 @@ a.btn-signup {
 }
 
 
-/* ... TELEFONICA´S aplicateca & mpos :: COOKIES (common element resets) ... */
 
-#cookies {
-  padding: 15px 20px;
-  background-color: rgba(0, 71, 110, 0.7);
-  border-top: 1px solid @telefonica;
-  color: @white;
-
-  i {
-    top: 2px;
-  }
-
-  p {
-    font-weight: 400;
-
-    a {
-      font-weight: 600;
-      color: white;
-      text-decoration: underline;
-
-      &:hover {
-        color: @telefonica;
-        text-decoration: inherit;
-      }
-    }
-  }
-}
-
-// Cookies Media Queries
-@media (max-width:480px) {
-  #cookies {
-    width: 100%;
-  }
-}
 
 
 
