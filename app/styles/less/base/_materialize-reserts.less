@@ -68,44 +68,6 @@ nav,
   0 0 0 0 rgba(0,0,0,0);
 }
 
-// TABS
-.tabs {
-  .tab {
-    a {
-      color: @main-green;
-      font-size: 18px;
-      font-weight: 600;
-
-      &:hover {
-        color: #009550;
-      }
-    }
-  }
-
-  .indicator {
-    position: absolute;
-    bottom: 0;
-    height: 2px;
-    background-color: @main-green;
-    will-change: left, right;
-
-    &:after {
-      content: '';
-      display: block;
-      width: 0;
-      height: 0;
-      position: relative;
-      border-right: 10px solid transparent;
-      border-left: 10px solid transparent;
-      border-top: 10px solid @main-green;
-      bottom: 0;
-      z-index: 10;
-      will-change: left, right;
-      left: 45%;
-    }
-  }
-}
-
 // INPUTS
 input[type=text],
 input[type=password],
