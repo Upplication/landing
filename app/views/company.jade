@@ -93,11 +93,3 @@ block content
                 h4.headTitles.noMargBot !{company.worldmap.title}
                 p !{company.worldmap.sub_title}
             img.responsive-img.padTop50#image-test(src='#{localConfig.base_path}/images/company/worldmap.jpg', data-aos='zoom-in-down', data-aos-delay='800', title='#{company.worldmap.worldmap_img}', alt='#{company.worldmap.worldmap_img}')
-
-block scripts
-
-    // CUSTOM JS
-    script(type='text/javascript').
-        $(document).ready(function () {
-            $('ul.tabs').tabs();
-        });

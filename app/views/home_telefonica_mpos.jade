@@ -54,7 +54,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     p.uppercase.white #{header.menu}
                 li.change-lang.change-lang-menu
                     each lang in langs.codes
-                        a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                        a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                 li.login_btn
                     a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
 
@@ -137,16 +137,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                 span
                                 a.customer-service__email(href="#{home_telefonica_mpos.contact.customer_service.email.link}", title="#{home_telefonica_mpos.contact.customer_service.email.title}")  #{home_telefonica_mpos.contact.customer_service.email.text}
                     hr.clear
-
                 // Cookies (default one + telefonica´s style added)
                 #cookies
                     p !{footer.cookies}
                         i.icon.icon-cross#cookies-accept.close
-
-        include includes/mpos/signup
-
-        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/mpos.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/scripts/mpos.js')
 
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
@@ -160,39 +154,11 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                     itemsDesktop: [1199, 3],
                     itemsDesktopSmall: [979, 3]
                 });
-
-                $('.modal-trigger').leanModal({opacity: .7});
-
-                $(".button-collapse").sideNav();
-
-                $('.social-share').click(function () {
-                    $(".social-nav").toggleClass("social-show");
-                });
-
-                $('#cookies-accept').click(function () {
-                    $("#habla_window_div").addClass("bottomFix");
-                });
-
-                $('.lang-link').click(function () {
-                    $("#dropdown-lang").toggleClass("notshow");
-                });
-
-                $('.lang-link').dropdown({
-                            inDuration: 300,
-                            outDuration: 225,
-                            constrain_width: false,
-                            gutter: 0,
-                            belowOrigin: false,
-                            alignment: 'left'
-                        }
-                );
             });
 
         // AOS animations lib
         script.
-            AOS.init({
-                once: true,
-            });
+            AOS.init({ once: true });
 
         script(type='text/javascript').
                    $("#seller-code").hide();

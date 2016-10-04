@@ -155,7 +155,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
 
-
         // end scripts
         script(type='text/javascript').
             $(document).ready(function () {
@@ -168,18 +167,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
 
                 $('.scrollspy').scrollSpy();
 
-                $('.modal-trigger').leanModal({opacity: .7});
-
-                $(".button-collapse").sideNav();
-
                 $('.materialboxed').materialbox();
 
-                $('.social-share').click(function () {
-                    $(".social-nav").toggleClass("social-show");
-                });
-                $('#cookies-accept').click(function () {
-                    $("#habla_window_div").addClass("bottomFix");
-                });
                 $('.lang-link').click(function () {
                    $("#dropdown-lang").toggleClass("notshow");
                 });
@@ -192,11 +181,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                       alignment: 'left'
                     }
                   );
-            });
 
-        // START MOBILE TOP NAVIGATION MENU
-        script.
-            $(function () {
+                // navbar
                 var $pull = $('#pull');
                 menu = $('.top-nav-list');
                 menuHeight = menu.height();
@@ -222,24 +208,19 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         $("#pull").toggleClass("open");
                     });
                 }
-            });
 
-        // HEADER ANIMATION when you scrolling down or up
-        script.
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll >= 250) {
-                    $(".top-header").addClass("thiny-top-header");
-                } else {
-                    $(".top-header").removeClass("thiny-top-header");
-                }
+                // header resize when scroll
+                $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+                    if (scroll >= 250) {
+                        $(".top-header").addClass("thiny-top-header");
+                    } else {
+                        $(".top-header").removeClass("thiny-top-header");
+                    }
+                });
             });
-
-        // AOS animations lib
-        script.
-            AOS.init({
-                once: true,
-            });
+            // init animations
+            AOS.init({once: true});
 
         block scripts
 

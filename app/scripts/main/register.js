@@ -234,5 +234,6 @@ $(function () {
 
     setup();
     setupUTMTracking();
-
+    // configure modal register
+    $('.modal-trigger').leanModal({opacity: .7});
 });
