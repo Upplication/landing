@@ -142,17 +142,8 @@ gulp.task('vendor:js', ['bower'], function() {
             .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
             .pipe(gulp.dest('./dist/scripts/vendor'));
 
-    var mposTask =
-        gulp.src([
-            './dist/bower_components/zepto/zepto.min.js',
-            './dist/bower_components/zeptojs/src/touch.js'
-            ])
-            .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
-            .pipe(concat('mpos.js'))
-            .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
-            .pipe(gulp.dest('./dist/scripts/vendor'));
 
-    return merge([baseTask, vodafoneTask, mposTask]);
+    return merge([baseTask, vodafoneTask]);
 });
 
 gulp.task('vendor:css', ['bower'], function() {

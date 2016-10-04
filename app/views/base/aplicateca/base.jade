@@ -12,7 +12,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
     block vars
 
     head
-        include scripts
+        include ../scripts
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         
@@ -69,16 +69,27 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
             #main-container.slide-pannel.effects
                 .header-container
-                    include header
+                    header.aplicateca-header
+                        a.logo
+                            img(src="#{localConfig.base_path}/images/aplicateca/logo_tlf.svg", alt="#{header.logo.title}", title="#{header.logo.title}")
+
+                        a.icon-list
+                            span Menu
+                        nav.main-menu.uppercase.unstyled
+
+                            ul#sections
+                                include header-links
+
+                        a.login.unstyled(href="#{aplicateca.pricing_aplicateca.url}", title="#{aplicateca.pricing_aplicateca.anchor}") #{aplicateca.pricing_aplicateca.anchor}
 
                 #content(class="#{cssClass}")
                     block content
 
                 .footer-container
-                // Cookies (default one + telefonica´s style added)
+                // Cookies (default one + telefonicaï¿½s style added)
                 #cookies
                     p !{footer.cookies_aplicateca}
                         i.icon.icon-cross#cookies-accept.close
 
-        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/zepto/zepto.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
