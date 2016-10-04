@@ -626,14 +626,22 @@ header {
 }
 
 @media (max-width:767px) {
-  header.tlf .login {
-    position: absolute;
-    color: @white;
-    top: 1.3em;
-    right: 1.5em;
-    font-size: 1.2em;
-    font-weight: 600;
-    letter-spacing: .02em;
+  header,
+  header.tlf {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: @telefonica;
+
+    .login {
+      position: absolute;
+      color: @white;
+      top: 1.3em;
+      right: 1.5em;
+      font-size: 1.2em;
+      font-weight: 600;
+      letter-spacing: .02em;
+    }
   }
 }
 
@@ -854,22 +862,6 @@ a.btn-signup {
 
   .nav-basement-options a {
     color: #fff;
-  }
-
-  header {
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    background-color: #333;
-  }
-
-  header .login {
-    position: absolute;
-    color: #fff;
-    top: 1.3em;
-    right: 1.5em;
-    font-size: .9em;
-    font-weight: 400;
   }
 
   header a.logo {
