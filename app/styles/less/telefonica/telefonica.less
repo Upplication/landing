@@ -8,8 +8,23 @@
 
 @import "../base/_variables.less";
 @import "../base/_mixins.less";
+// Materialize lib resets
+@import "../base/_materialize-reserts.less";
+// special section blocks
+@import "../base/_samples.less";
+@import "../base/_multidevices.less";
+@import "../base/_showcases.less";
+@import "../base/_youtube-player.less";
+// all Modals dialogs
+@import "../base/_modals.less";
+// bottom cookies advise
 @import "../base/_cookies.less";
+// all blocks in Footer:
+@import "../base/_trial.less";
+@import "../base/_clients.less";
+// only for Telefonica (it goes to deprecated)
 @import "_basement.less";
+
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
 
@@ -293,55 +308,6 @@
 
     span {
       color: @darkest-lilac;
-    }
-  }
-}
-
-/* ... TABS (app samples) :: "_common.less" reset ... */
-#tabs {
-  .tabs {
-    // each Tab (color resets)
-    .tab {
-      a {
-        color: @telefonica;
-
-        &:hover {
-          color: @telefonica-hover;
-        }
-      }
-    }
-    // each Tab underline (color resets)
-    .indicator {
-      background-color: @telefonica;
-
-      &:after {
-        border-top: 10px solid @telefonica;
-      }
-    }
-  }
-  // Heading Titles of each Tab section
-  h5 {
-    span {
-      color: @telefonica;
-      font-weight: 600;
-    }
-  }
-  // Content of each Tab
-  .tabs-content-list {
-    li {
-      a {
-        i {
-          color: @telefonica;
-        }
-      }
-    }
-  }
-  // BTN to launch register modal dialog
-  .btn-upp {
-    background-color: @telefonica;
-
-    &:hover {
-      background-color: @telefonica-hover;
     }
   }
 }
@@ -999,5 +965,259 @@ a.btn-signup {
 
   .main-menu li.change-lang-menu {
     margin-right: 0!important;
+  }
+}
+
+/* ... GENERAL FONTS ... */
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  background: @white;
+}
+
+/* ... ANIMATIONS ... */
+
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+.hover-anim,
+.hover-anim li {
+  -webkit-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.total-fix {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ... TRANSFORMS ... */
+
+.skew-right {
+  -webkit-transform: skew(0deg, -3deg);
+  -ms-transform: skew(0deg, -3deg);
+  transform: skew(0deg, -3deg);
+}
+
+.skew-left {
+  -webkit-transform: skew(0deg, 3deg);
+  -ms-transform: skew(0deg, 3deg);
+  transform: skew(0deg, 3deg);
+}
+
+/* ... to Fix Upplication Icons position ... */
+
+i.icon {
+  position: relative;
+  top: 2px;
+  font-weight: 100;
+}
+
+/* ... to CENTER Blocks ... */
+
+.centered {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* ... to CENTER Images ... */
+
+.centerImg img,
+.center-img img {
+  .centered;
+}
+
+/* ... to add BOX SHADOW ... */
+
+.box-shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+
+/* ... TEXT SELECTED COLOR ... */
+
+::selection {
+  background: @main-green;
+  color: @white;
+}
+
+::-moz-selection {
+  background: @main-green;
+  color: @white;
+}
+
+/* ... to add Shadow Hover Effect in images ... */
+
+img.materialboxed:hover {
+  .box-shadow;
+  .anim-all-250;
+}
+
+/* ... MAIN HEADERS (SECTIONS) ... */
+
+.headTitles,
+h4.headTitles,
+h2.headTitles {
+  color: @darkest-lilac;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 1em 0;
+  padding: 0.5em;
+
+  span {
+    color: @medium-lilac;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .headTitles,
+  h4.headTitles,
+  h2.headTitles {
+    font-size: 1.8em;
+    margin: 0;
+  }
+}
+
+h4:not(.head-terms).headTitles + p,
+.plans-head p {
+  color: @medium-lilac;
+  line-height: 1em;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 1.2em;
+}
+
+.headTitles.noMargBot {
+  margin-bottom: 0;
+}
+
+/* ... PADDING ... */
+
+.sect100 {
+  padding: 100px 0;
+}
+
+.padTop50 {
+  padding-top: 50px;
+}
+
+.padTop30 {
+  padding-top: 30px;
+}
+
+.padBot10 {
+  padding-bottom: 10px;
+}
+
+.padBot30 {
+  padding-bottom: 30px;
+}
+
+.padBot50 {
+  padding-bottom: 50px;
+}
+
+/* ... MARGIN ... */
+
+.margTop30 {
+  margin-top: 30px;
+}
+
+.marBot50 {
+  margin-bottom: 50px;
+}
+
+.marBot10 {
+  margin-bottom: 10px;
+}
+
+.marBot100 {
+  margin-bottom: 100px;
+}
+
+/* ... UPP MAIN BUTTON ... */
+
+a.btn-upp,
+button.btn-upp {
+  background-color: @accept-btn;
+  color: @white;
+  border-radius: 0;
+}
+
+a.btn-upp:hover,
+button.btn-upp:hover {
+  background-color: @accept-btn-hover;
+  color: @white;
+}
+
+/* ... to add Block styles... */
+
+.block-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+
+/* ... FONT WEIGHTS ... */
+
+.strong500 {
+  font-weight: 500 !important;
+}
+
+/* ... BORDERS ... */
+
+.display-none {
+  display: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid @bg-lilac-light;
+}
+
+/* ... BORDER DIV ... */
+
+.spacer-border-grey {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid @bg-lilac-light;
+}
+
+
+/* ... DIAGONAL BLOCK LAYOUT to Home & Microlandings views ... */
+
+.dippah {
+  position: relative;
+  bottom: 47px;
+  z-index: 100;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .dippah {
+    display: none;
   }
 }

@@ -13,8 +13,54 @@
   &.pricing-tables {
     padding: 6em 0 0 0;
 
-    .tabs .tab a {
-      letter-spacing: 0;
+    // each Tab navlink
+    .tabs {
+      line-height: 70px;
+
+      // each Tab
+      .tab {
+        text-transform: inherit;
+
+        a {
+          color: @main-green;
+          font-weight: 600;
+          letter-spacing: 0;
+          font-size: 25px;
+          line-height: 25px;
+
+          &:hover {
+            color: @accept-btn-hover;
+          }
+
+          em {
+            font-style: normal;
+          }
+        }
+      }
+
+      // each Tab underline
+      .indicator {
+        position: absolute;
+        bottom: 8px;
+        height: 2px;
+        background-color: @main-green;
+        will-change: left, right;
+
+        &:after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 0;
+          position: relative;
+          border-right: 10px solid transparent;
+          border-left: 10px solid transparent;
+          border-top: 10px solid @main-green;
+          bottom: 0;
+          z-index: 10;
+          will-change: left, right;
+          left: 45%;
+        }
+      }
     }
   }
 
