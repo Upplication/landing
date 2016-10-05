@@ -162,7 +162,6 @@ gulp.task('vendor:css', ['bower'], function() {
 
     var vodafoneTask =
         gulp.src([
-            './dist/bower_components/magnific-popup/dist/magnific-popup.css',
             './dist/bower_components/upplication-icons/dist/upplication-icons.css',
             './dist/bower_components/materialize/dist/css/materialize.min.css',
             './dist/bower_components/bootstrap/dist/css/bootstrap.min.css'
@@ -292,7 +291,7 @@ gulp.task('rev:styles', ['styles'], function() {
 });
 
 gulp.task('styles', function() {
-    var lessTask = gulp.src("./app/styles/less/**/[^_]*.less")
+    return gulp.src("./app/styles/less/**/[^_]*.less")
         .pipe(gutil.env.type !== 'production' ?  sourcemaps.init() : gutil.noop())
         .pipe(less())
         .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
@@ -304,17 +303,6 @@ gulp.task('styles', function() {
         }))
         .pipe(gulp.dest("./dist/styles"))
         .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
-
-    var cssTask =  gulp.src("./app/styles/**/*.css")
-        .pipe(replace({
-            patterns: [{
-                json: envConfig
-            }],
-            prefix: '@@config.'
-        }))
-        .pipe(gulp.dest("./dist/styles"));
-
-    return merge([lessTask, cssTask]);
 });
 
 gulp.task('bower', function() {
@@ -357,7 +345,7 @@ gulp.task('copy', function() {
 gulp.task('watch', function () {
     if (gutil.env.type !== 'production') {
         gulp.watch(['./app/**/*.jade', './app/locales/*.json'], ['templates']);
-        gulp.watch(['./app/styles/**/*.css', './app/styles/less/**/*.less'], ['styles']);
+        gulp.watch(['./app/styles/less/**/*.less'], ['styles']);
         gulp.watch(['./app/**/*.js'], ['scripts']);
         gulp.watch(['./app/images/**'], ['copy:images']);
     } else {
