@@ -47,17 +47,9 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
     body(id="#{_template}", data-lang="#{lang}")
 
-        //data = langs = #{data}! = #{langs}!
-        nav.nav-basement.color-tlf
-            ul.nav-basement-options.unstyled.margin-top.change-lang
-                li.change-lang.change-lang-menu
-                    each lang in langs.codes
-                        a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
-                li.login_btn
-                    a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
-
         .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
+
                 // MPOS specific Header (not Aplicateca´s one!)
                 .header-container-tlf
                     header.tlf.telefonica-mpos
