@@ -7,21 +7,87 @@
  */
 
 @import "../base/_samples.less";
-@import "_common.less";
-@import "_variables.less";
 @import "_header-ono.less";
-@import "_materialize-reserts.less";
-@import "_mediaqueries.less";
+@import "../base/_materialize-reserts.less";
+@import "../base/_mediaqueries.less";
+
+
+/* ... Colors ... */
+
+// Vodafone main color
+@vodafone:  #e60000;
+@vodafone-hover: darken(@vodafone, 8%);
 
 @main-green: @vodafone;
 @accept-btn-hover: @vodafone-hover;
 
+@white: #ffffff;
+@darkest-lilac: #1e1f26;
+
+/* ... GENERAL FONTS ... */
+
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
 
+html,
+body {
+  font-size: 100%;
+  background: @white;
+}
 
 // Main Caontainer with custom fonts
 .outer-wrap {
   font-family: "Lato", sans-serif;
+}
+
+/* ... TEXT SELECTED COLOR ... */
+
+/* Safari */
+::selection {
+  color: @white;
+  background: @vodafone;
+}
+/* Firefox */
+::-moz-selection {
+  color: @white;
+  background: @vodafone;
+}
+
+/* ... ANIMATIONS ... */
+
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+
+/* ... MAIN HEADERS (SECTIONS) ... */
+
+.plans-head {
+  padding: 0;
+
+  .headTitles {
+    font-family: "Raleway", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+    &.noMargBot {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* ... MARGIN & PADDING ... */
+
+.padTop50 {
+  padding-top: 50px;
+}
+
+/* ... Materialize reset ... */
+
+.input-field i.prefix.active {
+  color: @vodafone !important;
 }
 
 
@@ -55,8 +121,7 @@
   }
 }
 
-
-/* HEIGHT */
+// HEIGHT
 
 @media only screen and (max-height: 667px) {
   .plans-head {
