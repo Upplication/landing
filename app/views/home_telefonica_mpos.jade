@@ -46,11 +46,10 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="profile", href="http://gmpg.org/xfn/11")
 
     body(id="#{_template}", data-lang="#{lang}")
+
         //data = langs = #{data}! = #{langs}!
         nav.nav-basement.color-tlf
             ul.nav-basement-options.unstyled.margin-top.change-lang
-                li.menu_txt
-                    p.uppercase.white #{header.menu}
                 li.change-lang.change-lang-menu
                     each lang in langs.codes
                         a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
@@ -59,6 +58,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
 
         .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
+                // MPOS specific Header (not Aplicateca´s one!)
                 .header-container-tlf
                     header.tlf.telefonica-mpos
                         a.logo(href='#{localConfig.base_path}')
@@ -67,15 +67,12 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             span Menu
                         nav.main-menu.uppercase.unstyled
                             ul#sections
-                                li.menu_txt
-                                    p.uppercase.white #{header.menu}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
                                         a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
                             a.btn-signup.green-accent-btn.triggers-signup.bold.modal-trigger(href="#free-trial", onclick="return false;") #{header.free_trial}
-                        a.login.unstyled(href="#{external.dashboard.url}") #{external.dashboard.anchor}
 
                 #content(class="#{cssClass}")
                     script(type='text/javascript').

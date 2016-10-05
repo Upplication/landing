@@ -368,12 +368,14 @@
   .contact-info-left {
     float: right;
     top: 9px;
+    width: 100%;
   }
 
   .contact-info-right {
     display: none;
   }
 }
+
 
 @media only screen and (max-width: 1200px) {
   .top-header {
@@ -383,6 +385,10 @@
           li.contact-info {
             .contact-info-grids {
               min-width: inherit;
+
+              .contact-info-left {
+                width: 100%;
+              }
             }
           }
         }
