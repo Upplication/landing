@@ -144,6 +144,11 @@
       "anchor": "Harga",
       "title": "Upplication prices in Aplicateca",
       "url": "@@config.base_path/prices-aplicateca/"
+    },
+    "terms_aplicateca": {
+      "anchor": "Legal",
+      "title": "Upplication legal terms in Aplicateca",
+      "url": "@@config.base_path/terms-aplicateca-indonesian/"
     }
   },
   "company": {
@@ -1006,7 +1011,7 @@
       "sub5": "Manejemen panel aplikasi anda.",
       "topsale": "Top sale",
       "unlimited": "TAK TERBATAS",
-      "with_tax": "Sudah termasuk <strong>PPN</strong>. <em>Kami membuat aplikasi anda</em> anda memiliki 15 hari komitmen untuk tetap.",
+      "with_tax": "Sudah termasuk <strong>PPN</strong>. <em>Kami membuat aplikasi anda</em> anda memiliki 6 bulan komitmen untuk tetap.",
       "yearly": "Paket tahunan"
     }
   },

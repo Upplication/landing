@@ -24,10 +24,10 @@
 @import "../base/_clients.less";
 // only for Telefonica (it goes to deprecated)
 @import "_basement.less";
+@import "_header-telefonica.less";
 
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
-
+/* ... Colors ... */
 
 // Main Movistar color
 @telefonica: #00476e;
@@ -36,12 +36,27 @@
 @main-green: @telefonica;
 @accept-btn-hover: @telefonica-hover;
 
+/* ... GENERAL FONTS ... */
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:100,200,300,400,500,600,700,800,900|Roboto+Slab:100,400,700);
 
 // Main Container with custom fonts
 .outer-wrap {
   font-family: "Lato", sans-serif;
 }
+
+/* ... TEXT SELECTED COLOR ... */
+
+::selection {
+  background: @telefonica;
+  color: @white;
+}
+
+::-moz-selection {
+  background: @telefonica;
+  color: @white;
+}
+
 
 // MAIN HEADERS (SECTIONS)
 .headTitles {
@@ -58,16 +73,6 @@
   }
 }
 
-// TEXT SELECTED COLOR :: "_common.less" reset
-::selection {
-  background: @telefonica;
-  color: @white;
-}
-
-::-moz-selection {
-  background: @telefonica;
-  color: @white;
-}
 
 /**
  ****************************************************************
@@ -126,9 +131,31 @@
   }
 }
 
-@media (max-width:767px) {
+
+/**
+ ****************************************************************
+ * Telefonica CONTENT main block :: (upplication, 2016)
+ ****************************************************************
+ */
+
+@media (max-width: 479px) {
   #content {
-    margin-top: 55px;
+    // Home views (mpos)
+    &.home {
+      margin-top: 145px;
+    }
+    // Price Plans & Terms views (Aplicateca)
+    &.prices,
+    &.terms {
+      margin-top: 140px;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  // common for all Telefonica views
+  #content {
+    margin-top: 100px;
   }
 }
 
@@ -517,99 +544,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 
 
-/**
- ****************************************************************
- * Telefonica´s Aplicateca HEADER :: (upplication, 2016)
- ****************************************************************
- */
-header {
-  *zoom: 1;
-  max-width: 71em;
-  _width: 71em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  &.tlf {
-
-    .logo {
-      cursor: default;
-      pointer-events: none;
-    }
-  }
-
-  &.telefonica-mpos {
-
-    .logo-tlf {
-      padding-top: 41px;
-      width: 140px;
-      height: 50px;
-      background-image: url("@@config.base_path/images/aplicateca/logo_tlf.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: left top;
-      background-position-y: 8px;
-    }
-
-    #sections {
-      float: left;
-
-      li.change-lang.change-lang-menu {
-        margin-top: 7px;
-      }
-
-      a.btn-signup-tlf {
-        margin-left: 10px;
-        border: 0;
-        padding: 6px 20px;
-        display: inline-block;
-        font-size: 1em!important;
-        text-transform: none!important;
-      }
-    }
-
-    .btn-signup {
-      position: relative;
-      top: 6px;
-      padding: 8px 15px;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .main-menu .change-lang a {
-    margin-right: 5px;
-    padding: 0 10px;
-    display: inline-block;
-  }
-}
-
-@media (max-width:767px) {
-  header,
-  header.tlf {
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    background-color: @telefonica;
-
-    .login {
-      position: absolute;
-      color: @white;
-      top: 1.3em;
-      right: 1.5em;
-      font-size: 1.2em;
-      font-weight: 600;
-      letter-spacing: .02em;
-    }
-  }
-}
 
 
 /* ... "Sucessful Showcase" :: Section... */
@@ -803,9 +737,6 @@ a.btn-signup {
 }
 
 @media (max-width:767px) {
-  #content {
-    margin-top: 55px;
-  }
 
   .header-container {
     position: fixed;
@@ -830,17 +761,6 @@ a.btn-signup {
     color: #fff;
   }
 
-  header a.logo {
-    text-align: center;
-    display: inline-block;
-    background: 0 0;
-  }
-
-  header a.logo img {
-    max-height: 2em;
-    margin: .3em;
-  }
-
   header .icon-list {
     margin: 0;
     position: absolute;
@@ -851,10 +771,6 @@ a.btn-signup {
     background: 0 0;
     border: 0;
     color: #fff;
-  }
-
-  header .main-menu {
-    display: none;
   }
 
   header a {
@@ -872,39 +788,12 @@ a.btn-signup {
     display: none;
   }
 
-  a.logo {
-    float: left;
-    text-align: left;
-    padding-left: 1em;
-  }
-
-  a.logo img {
-    padding-top: .5em;
-    max-height: 2.8em;
-  }
-
   .icon-list {
-    display: none;
-  }
-
-  #sections li:first-child {
     display: none;
   }
 
   #sections li.lang {
     display: none;
-  }
-
-  .main-menu {
-    float: right;
-    margin-top: 1.1em;
-    margin-right: 1em;
-  }
-
-  .main-menu a {
-    color: #fff;
-    font-size: .9em;
-    font-weight: 400;
   }
 
   .main-menu ul,
@@ -922,16 +811,6 @@ a.btn-signup {
 
   .main-menu .change-lang a {
     margin-right: .25em;
-  }
-
-  .main-menu .change-lang a:after {
-    padding-left: .55em;
-    content: "/";
-    color: #fff;
-  }
-
-  .main-menu .change-lang a:last-child:after {
-    content: "";
   }
 
   .main-menu .login_btn a {
@@ -953,20 +832,6 @@ a.btn-signup {
   }
 }
 
-
-@media all and (max-width:830px) and (min-width:768px) {
-  .btn-signup {
-    padding: 6px 15px!important;
-  }
-
-  .change-lang a {
-    margin-right: 0!important;
-  }
-
-  .main-menu li.change-lang-menu {
-    margin-right: 0!important;
-  }
-}
 
 /* ... GENERAL FONTS ... */
 
@@ -1220,4 +1085,12 @@ button.btn-upp:hover {
   .dippah {
     display: none;
   }
+}
+
+
+
+// WE NEED MAKE THIS DEPRECATED:
+
+.width-90 {
+  width: 90%;
 }

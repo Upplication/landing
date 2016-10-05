@@ -143,6 +143,11 @@
       "anchor": "Preços",
       "title": "Preços de Upplication em Aplicateca",
       "url": "@@config.base_path/precios-aplicateca/"
+    },
+    "terms_aplicateca": {
+      "anchor": "Legal",
+      "title": "Condições legais de Upplication em Aplicateca",
+      "url": "@@config.base_path/termos-aplicateca/"
     }
   },
   "company": {
@@ -1003,7 +1008,7 @@
       "sub5": "Painel de gestão de seu aplicativo.",
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos os preços <strong>incluem IVA</strong>. <em>Nos criamos seu App</em> você tem 15 dias compromisso de permanência.",
+      "with_tax": "Todos os preços <strong>incluem IVA</strong>. <em>Nos criamos seu App</em> você tem 6 meses compromisso de permanência.",
       "yearly": "Plano Anual"
     }
   },
@@ -1149,7 +1154,7 @@
             "title": "Estatísticas da tua app"
           }
         ],
-        "name": "We create your App",
+        "name": "Nós criamos seu app",
         "surname": "Nós criar e projetar seu aplicativo.",
         "img": {
           "src": "@@config.base_path/images/home/icons/rocket-gold.svg",

@@ -145,6 +145,11 @@
       "anchor": "Precios",
       "title": "Precios de Upplication en Aplicateca",
       "url": "@@config.base_path/precios-aplicateca/"
+    },
+    "terms_aplicateca": {
+      "anchor": "Legal",
+      "title": "Términos legales de Upplication en Aplicateca",
+      "url": "@@config.base_path/terminos-aplicateca/"
     }
   },
   "company": {
@@ -818,7 +823,7 @@
       "sub5": "Panel de gestión de tu app.",
       "topsale": "Más demandado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos los precios <strong>incluyen IVA</strong>. <em>Creamos tu App</em> tiene un periodo de permanencia de 3 meses",
+      "with_tax": "Todos los precios <strong>incluyen IVA</strong>. <em>Creamos tu App</em> tiene un periodo de permanencia de 6 meses",
       "yearly": "Plan Anual"
     }
   },

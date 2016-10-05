@@ -146,6 +146,11 @@
       "anchor": "Pricing",
       "title": "Upplication prices in Aplicateca",
       "url": "@@config.base_path/prices-aplicateca/"
+    },
+    "terms_aplicateca": {
+      "anchor": "Legal",
+      "title": "Upplication legal terms in Aplicateca",
+      "url": "@@config.base_path/terms-aplicateca/"
     }
   },
   "company": {
@@ -818,7 +823,7 @@
       "sub5": "Management panel your App.",
       "topsale": "Top sale",
       "unlimited": "UNLIMITED",
-      "with_tax": "<strong>VAT included</strong> in all prices. <em>We create your App</em> have a 3 mounths commitment of permanence",
+      "with_tax": "<strong>VAT included</strong> in all prices. <em>We create your App</em> have a 6 mounths commitment of permanence",
       "yearly": "Annual plan"
     }
   },
