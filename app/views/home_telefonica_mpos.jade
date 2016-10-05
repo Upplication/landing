@@ -61,7 +61,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             ul#sections
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
-                                        a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                                        a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
                             a.btn-signup.green-accent-btn.triggers-signup.bold.modal-trigger(href="#free-trial", onclick="return false;") #{header.free_trial}
@@ -137,7 +137,6 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                         i.icon.icon-cross#cookies-accept.close
 
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
 
         script(type='text/javascript').
