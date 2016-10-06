@@ -39,60 +39,47 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/magnific-popup/dist/magnific-popup.css')
-        link(rel='stylesheet', href='#{localConfig.base_path}/styles/deprecated/main.css')
-
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/vendor/base.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/telefonica/telefonica.css')
 
         link(rel="shortcut icon", href="http://upplication.com/favicon.ico")
         link(rel="profile", href="http://gmpg.org/xfn/11")
 
     body(id="#{_template}", data-lang="#{lang}")
-        //data = langs = #{data}! = #{langs}!
-        nav.nav-basement.color-tlf
-            ul.nav-basement-options.unstyled.margin-top.change-lang
-                li.menu_txt
-                    p.uppercase.white #{header.menu}
-                li.change-lang.change-lang-menu
-                    each lang in langs.codes
-                        a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
-                li.login_btn
-                    a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
+
         .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
+
+                // MPOS specific Header (not Aplicateca´s one!)
                 .header-container-tlf
-                    header.tlf.aplicateca-header
+                    header.tlf.telefonica-mpos
                         a.logo(href='#{localConfig.base_path}')
                             .logo-tlf
                         a.icon-list
                             span Menu
                         nav.main-menu.uppercase.unstyled
                             ul#sections
-                                li.menu_txt
-                                    p.uppercase.white #{header.menu}
                                 li.change-lang.change-lang-menu
                                     each lang in langs.codes
-                                        a(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
+                                        a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
-                            a.btn-signup.green-accent-btn.triggers-signup.bold(href="#", onclick="return false;") #{header.free_trial}
-                        a.login.unstyled(href="#{external.dashboard.url}") #{external.dashboard.anchor}
+                            a.btn-signup.green-accent-btn.triggers-signup.bold.modal-trigger(href="#free-trial", onclick="return false;") #{header.free_trial}
 
                 #content(class="#{cssClass}")
                     script(type='text/javascript').
                         $UPP.url = "#{home_telefonica_mpos._url}";
+
                     section#register
                         div
                             .mobile
                                 img(src="#{localConfig.base_path}/images/aplicateca/la-florette-mobile.png", alt="App móvil")
                             .claim.padding-top-2x.margin-bottom-2x.width-90.center
-                                h1.uppercase.cwhite.acenter.bold #{register.claim}
+                                h1.uppercase.acenter.bold #{register.claim}
                                 p.big.acenter #{register.arguments}
-                            .video-container.acenter.margin-bottom-3x
-                                a#youtube-video.unstyled.icon-play.mfp-iframe(href="http://www.youtube.com/watch?v=_9Xknb3xz7o")
                             article
                                 form(name="register", action="/register", method="post")
-                                    div.announce.bg-cblack.acenter.btn.arrow-down-black
+                                    div.announce.acenter.btn.arrow-down-black
                                         | #{register.announce}
                                     input(type="hidden", name="customerType", value="MPAY")
                                     label(for="appName")
@@ -111,125 +98,29 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     p.tos.acenter.italic !{register.accept_terms}
                                         a(href="#{external.tos.url}") #{register.terms}
 
-                    section#multidevice.bg-alabaster.padding.clearfix
-                        .margin-bottom-2x.margin-top-2x
+                // SAMPLES :: app showcases
+                include includes/samples
 
-                            .width-55.left
-                                h1.acenter #{home.multidevice.title}
-                                p.acenter.center
-                                    | #{home.multidevice.text}
+                // Spacer with Grey Border
+                .spacer-border-grey
 
-                            #devices.margin-top-3x.margin-bottom-3x.acenter.width-45
-                                img.screenshot-devices(src='#{localConfig.base_path}/images/aplicateca/apps-para-todos-los-dispositivos.png', alt="#{home.multidevice.devices_alt}")
+                // MULTIDEVISES APPS
+                include includes/multidevices
 
-                            ul.so-available
-                                li
-                                    a.icon-html5(title="#{home.multidevice.html5_alt}")
-                                li
-                                    a.icon-apple(title="#{home.multidevice.ios_alt}")
-                                li
-                                    a.icon-android(title="#{home.multidevice.android_alt}")
+                // CLIENTS :: new testimonial area
+                include includes/showcases
 
-                    section#showcase.min-bottom-space.min-top-space.padding.clearfix
-                        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x #{home.showcase.title}
-                        div.container
-                            button.slider-btn.prev-btn.home-slider
-                                span(class="icon-arrow-left")
-                            button.slider-btn.next-btn.home-slider
-                                span(class="icon-arrow-right")
-
-                            div#showcase-items.clearfix
-                                each category, i in showcase.categories
-                                    div(class=i === 0 ? "showcase-item clearfix" : "showcase-item clearfix hidden", data-category="#{category.name}")
-                                        div.info-container
-                                            h2 #{category.title}
-                                            p #{category.description}
-
-                                            ul.features
-                                                each feature in category.features
-                                                    li
-                                                        span.plus-icon +
-                                                        span #{feature}
-
-                                            ul.operating-systems
-                                                li
-                                                    a(href="#{category.url}", target="_blank")
-                                                        span.icon-html5
-                                                li
-                                                    a(href="#{category.url}", target="_blank", class="no-pointer-events")
-                                                        span.icon-ios
-                                                li
-                                                    a(href="#{category.url}", target="_blank", class="no-pointer-events")
-                                                        span.icon-android
-
-                                        div.phone-container.small
-                                            img(src="/images/sample_apps/#{category.name}.png", alt="#{category.title}")
-
-                    section.bg-alabaster.padding.clearfix.padding-top-3x.padding-bottom-2x.press
-                        ul.acenter.margin-top-2x
-                            li
-                                a(href="#{ourclients.client5.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/telefonica.png', alt='#{ourclients.client5.alt}', title='#{ourclients.client5.title}')
-                            li
-                                a(href="#{ourclients.client8.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/tve.png', alt='#{ourclients.client8.alt}', title='#{ourclients.client8.title}')
-                            li
-                                a(href="#{ourclients.client4.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/emprende.png', alt='#{ourclients.client4.alt}', title='#{ourclients.client4.title}')
-                            li
-                                a(href="#{ourclients.client9.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/larazon.png', alt='#{ourclients.client9.alt}', title='#{ourclients.client9.title}')
-                            li
-                                a(href="#{ourclients.client10.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/expansion.png', alt='#{ourclients.client10.alt}', title='#{ourclients.client10.title}')
-                            li
-                                a(href="#{ourclients.client2.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/eleconomista.png', alt='#{ourclients.client2.alt}', title='#{ourclients.client2.title}')
-                            li
-                                a(href="#{ourclients.client1.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/abc.png', alt='#{ourclients.client1.alt}', title='#{ourclients.client1.title}')
-                            li
-                                a(href="#{ourclients.client3.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/forbes.png', alt='#{ourclients.client3.alt}', title='#{ourclients.client3.title}')
-                            li
-                                a(href="#{ourclients.client6.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/ticbeat.png', alt='#{ourclients.client6.alt}', title='#{ourclients.client6.title}')
-                            li
-                                a(href="#{ourclients.client7.url}", rel="nofollow")
-                                    img(src='#{localConfig.base_path}/images/home/clients/wwwhatsnew.png', alt='#{ourclients.client7.alt}', title='#{ourclients.client7.title}')
-
-                    section.padding.clearfix
-                        h1.width-80.center.acenter.mine-shaft.margin-bottom-3x.margin-top-2x !{home.testimonials.title}
-                        ul.testimonials
-                            li
-                                blockquote.clearfix
-                                    img(src="#{localConfig.base_path}/images/showcase/asis-gross-logo.jpg", alt="#{home.successful_showcase.img.blocks_bg4}")
-                                    a(href="#{home.successful_showcase.download.app_store_url}", target="_blank", title="#{home.successful_showcase.download.app_store}") !{home.successful_showcase.download.app_store}
-                                    a(href="#{home.successful_showcase.download.google_play_url}", target="_blank", title="#{home.successful_showcase.download.google_play}") !{home.successful_showcase.download.google_play}
-
-                            li
-                                blockquote.clearfix
-                                    img(src="#{localConfig.base_path}/images/showcase/fisiohogar-logo.jpg", alt="#{home.successful_showcase_services.img.blocks_bg4}")
-                                    a(href="#{home.successful_showcase_services.download.app_store_url}", target="_blank", title="#{home.successful_showcase_services.download.app_store}") !{home.successful_showcase_services.download.app_store}
-                                    a(href="#{home.successful_showcase_services.download.google_play_url}", target="_blank", title="#{home.successful_showcase_services.download.google_play}") !{home.successful_showcase_services.download.google_play}
-
-                            li
-                                blockquote.clearfix
-                                    img(src="#{localConfig.base_path}/images/showcase/serafina-logo.jpg", alt="#{home.successful_showcase_restaurant.img.blocks_bg4}")
-                                    a(href="#{home.successful_showcase_restaurant.download.app_store_url}", target="_blank", title="#{home.successful_showcase_restaurant.download.app_store}") !{home.successful_showcase_restaurant.download.app_store}
-                                    a(href="#{home.successful_showcase_restaurant.download.google_play_url}", target="_blank", title="#{home.successful_showcase_restaurant.download.google_play}") !{home.successful_showcase_restaurant.download.google_play}
                 #dark-layout
 
-                // Free Trial
-                .trial-block
-                    .container
-                        .trial-block-grids
-                            .trial-block-left
-                                h2 #{footer.try_it}
-                                h3 #{footer.try_it_free}
-                            .trial-block-right
-                                a.price-btn.modal-trigger(href='#free-trial', title='#{footer.free_trial}') #{footer.free_trial}
-                            .clearfix
+                // CLIENTS :: "owl" carousel
+                include includes/clients
+
+                // TRIAL
+                include includes/trial
+
+                // MODAL :: FREE TRIAL
+                #free-trial.modal.modal-upp
+                    include includes/modal-free
 
                 .footer-container.footer-container-tlf
                     section
@@ -237,17 +128,30 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                             .g-plusone.vertical-align-middle
                             .customer-service__text.inline-block.vertical-align-top.padding-4px #{home_telefonica_mpos.contact.customer_service.text}
                             .customer-service__links.inline-block.vertical-align-top.padding-4px
-                                span -
+                                span
                                 a.customer-service__email(href="#{home_telefonica_mpos.contact.customer_service.email.link}", title="#{home_telefonica_mpos.contact.customer_service.email.title}")  #{home_telefonica_mpos.contact.customer_service.email.text}
                     hr.clear
-                    #cookies
-                        p !{footer.cookies}
-                            span#cookies-accept.close X
+                // Cookies (default one + telefonica´s style added)
+                #cookies
+                    p !{footer.cookies}
+                        i.icon.icon-cross#cookies-accept.close
 
-        include includes/mpos/signup
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
 
-        script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/mpos.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/scripts/mpos.js')
+        script(type='text/javascript').
+            $(document).ready(function () {
+                $("#clients-carousel").owlCarousel({
+                    autoPlay: 3000, // Set AutoPlay to 3 seconds
+                    items: 4,
+                    itemsDesktop: [1199, 3],
+                    itemsDesktopSmall: [979, 3]
+                });
+            });
+
+        // AOS animations lib
+        script.
+            AOS.init({ once: true });
 
         script(type='text/javascript').
                    $("#seller-code").hide();

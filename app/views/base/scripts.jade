@@ -25,7 +25,7 @@ script(type="text/javascript").
   ajax.error[6] = "#{register.error.num6}";
   ajax.error[10] = "#{register.error.num10}";
 
-script(type="text/javascript", src='/scripts/header.js')
+script(type="text/javascript", src='#{localConfig.base_path}/scripts/header.js')
 
 script(type='text/javascript').
   checkLanguage("#{lang}", !{JSON.stringify(routing)}, "#{_template}");

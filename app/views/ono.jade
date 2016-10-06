@@ -63,8 +63,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
     body(id="#{_template}", data-lang="#{lang}")
         .outer-wrap
             #main-container.slide-pannel.effects
-                .header-container.bg-vodafone-red
-                    header.container.padding-top.bg-vodafone-red
+                .header-container
+                    header.container.padding-top
                         a.logo.margin-bottom(href='#{localConfig.base_path}')
                             img(src="#{localConfig.base_path}/images/ono/vodafone.png", title="#{home.vodafone.logo}", alt="#{home.vodafone.logo}")
                         a.icon-list
@@ -80,125 +80,8 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                 li.login_btn
                                     a(href='#{external.nubo.url}') #{external.nubo.anchor}
 
-            // SAMPLES
-            #tabs.container.scrollspy
-                .row
-                    .text-center
-                        h4.headTitles #{home.samples.business}
-                .section
-                    .row
-                        .col.s12
-                            ul.tabs
-                                li.tab.col.s6.l3
-                                    a.active(href='#host', title="#{home.samples.restaurants}")
-                                        i.icon.icon-food
-                                        span #{home.samples.restaurants}
-                                li.tab.col.s6.l3
-                                    a(href='#tiendas', title="#{home.samples.shops}")
-                                        i.icon.icon-ecommerce
-                                        span #{home.samples.shops}
-                                li.tab.col.s6.l3
-                                    a(href='#servprof', title="#{home.samples.serv_alt}")
-                                        i.icon.icon-laptop
-                                        span !{home.samples.serv}
-                                li.tab.col.s6.l3
-                                    a(href='#personal', title="#{home.samples.personal}")
-                                        i.icon.icon-brush
-                                        span #{home.samples.personal}
-                        #host.col.s12
-                            .row.padTop50
-                                .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-hostelry.png', title='#{home.samples.alt_tag.img_iphone}', alt='#{home.samples.alt_tag.img_iphone}')
-                                .col.s12.l7.margTop50.mobileText
-                                    h5 !{home.samples.rest.rest_intro}
-                                    ul.tabs-content-list(type='circle')
-                                        li
-                                            a(href='', title="#{home.samples.rest.details1}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.rest.details1}
-                                        li
-                                            a(href='', title="#{home.samples.rest.details2}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.rest.details2}
-                                        li
-                                            a(href='', title="#{home.samples.rest.details3}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.rest.details3}
-                                        li
-                                            a(href='', title="#{home.samples.rest.details4}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.rest.details4}
-                        #tiendas.col.s12
-                            .row.padTop50
-                                .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-shop.png', title='#{home.samples.alt_tag.img_nexus}', alt='#{home.samples.alt_tag.img_nexus}')
-                                .col.s12.l7.margTop50.mobileText
-                                    h5 !{home.samples.shop.shop_intro}
-                                        | .
-                                    ul.tabs-content-list(type='circle')
-                                        li
-                                            a(href='#!', title="#{home.samples.shop.shop_details1}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.shop.shop_details1}
-                                        li
-                                            a(href='#!', title="#{home.samples.shop.shop_details2}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.shop.shop_details2}
-                                        li
-                                            a(href='#!', title="#{home.samples.shop.shop_details3}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.shop.shop_details3}
-                                        li
-                                            a(href='#!', title="#{home.samples.shop.shop_details4}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.shop.shop_details4}
-                        #servprof.col.s12
-                            .row.padTop50
-                                .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-porfessional-services.png', title='#{home.samples.alt_tag.img_galaxy}', alt='#{home.samples.alt_tag.img_galaxy}')
-                                .col.s12.l7.margTop50.mobileText
-                                    h5 !{home.samples.services.serv_intro}
-                                    ul.tabs-content-list(type='circle')
-                                        li
-                                            a(href='#!', title="#{home.samples.services.serv_details1}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.services.serv_details1}
-                                        li
-                                            a(href='#!', title="#{home.samples.services.serv_details2}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.services.serv_details2}
-                                        li
-                                            a(href='#!', title="#{home.samples.services.serv_details3}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.services.serv_details3}
-                                        li
-                                            a(href='#!', title="#{home.samples.services.serv_details4}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.services.serv_details4}
-                        #personal.col.s12
-                            .row.padTop50
-                                .col.s12.l4.mobileImg
-                                    img.responsive-img.imgMove(src='#{localConfig.base_path}/images/home/bg/app-showcase-customize.png', title='#{home.samples.alt_tag.img_xperia}', alt='#{home.samples.alt_tag.img_xperia}')
-                                .col.s12.l7.margTop50.mobileText
-                                    h5 !{home.samples.custom.cust_intro}
-                                    ul.tabs-content-list(type='circle')
-                                        li
-                                            a(href='#!', title="#{home.samples.custom.cust_details1}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.custom.cust_details1}
-                                        li
-                                            a(href='#!', title="#{home.samples.custom.cust_details2}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.custom.cust_details2}
-                                        li
-                                            a(href='#!', title="#{home.samples.custom.cust_details3}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.custom.cust_details3}
-                                        li
-                                            a(href='#!', title="#{home.samples.custom.cust_details4}")
-                                                i.icon.icon-ok
-                                                | !{home.samples.custom.cust_details4}
+            // SAMPLES :: app showcases
+            include includes/samples
 
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/vodafone.js')
-        script(type="text/javascript", src='#{localConfig.base_path}/scripts/shared.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')

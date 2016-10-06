@@ -1,0 +1,299 @@
+/**
+ ***************************************************************************
+ * Telefonica´s Aplicateca & mpos views common HEADER :: (upplication, 2016)
+ ***************************************************************************
+ */
+
+header {
+  *zoom: 1;
+  max-width: 71em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  a.logo {
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  /* ... only Aplicateca views (not MPOS ones!) ... */
+  &.aplicateca-header {
+
+    // Movistar (Aplicateca) LOGO
+    a.logo {
+      padding-top: 10px;
+
+      img {
+        max-height: 3.2em;
+      }
+    }
+  }
+
+  /* ... only MPOS views (not Aplicateca ones!) ... */
+  &.telefonica-mpos {
+
+    // Telefonica LOGO
+    a.logo {
+      .logo-tlf {
+        margin-top: 8px;
+        width: 140px;
+        height: 50px;
+        background-image: url("@@config.base_path/images/aplicateca/logo_tlf.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-position-y: 8px;
+      }
+    }
+
+    #sections {
+      float: left;
+    }
+
+    .main-menu {
+      li.change-lang {
+        margin-top: 8px;
+      }
+
+      a.btn-signup-tlf {
+        margin-left: 10px;
+        border: 0;
+        padding: 6px 20px;
+        display: inline-block;
+        font-size: 1em!important;
+        text-transform: none!important;
+      }
+    }
+
+    .btn-signup {
+      position: relative;
+      top: 6px;
+      padding: 8px 15px;
+    }
+  }
+}
+
+
+/**
+ ***************************************************************************
+ * MEDIA QUERIES  ::  Telefonica´s Aplicateca & mpos views common HEADER
+ ***************************************************************************
+ */
+
+/* ... media queries VERY SMALL DEVICES ................................................ */
+
+@media (max-width: 479px) {
+  header {
+    /* ... only Aplicateca views (not MPOS ones!) ... */
+    &.aplicateca-header {
+      .main-menu {
+        li.login_btn {
+          display: block;
+          width: 100%;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    /* ... only MPOS views (not Aplicateca ones!) ... */
+    &.telefonica-mpos {
+      .btn-signup {
+        float: none;
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+}
+
+/* ... media queries SMALL DEVICES ................................................ */
+
+@media (max-width:767px) {
+  header,
+  header.tlf {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: @telefonica;
+
+    .login {
+      position: absolute;
+      color: @white;
+      top: 1.3em;
+      right: 1.5em;
+      font-size: 1.2em;
+      font-weight: 600;
+      letter-spacing: .02em;
+    }
+  }
+
+  header {
+
+    #sections {
+      margin-bottom: 10px;
+    }
+
+    .main-menu {
+      margin-top: 4em;
+      display: inline;
+
+      li, a {
+        display: inline-block;
+      }
+
+      li {
+        a {
+          color: @white;
+          font-weight: 400;
+          letter-spacing: .02em;
+          padding-right: 8px;
+        }
+
+        // Change language subMenu
+        &.change-lang {
+          a {
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+
+    /* ... only Aplicateca views (not MPOS ones!) ... */
+    &.aplicateca-header {
+
+      // Movistar (Aplicateca) LOGO
+      a.logo {
+        padding-top: 10px;
+        display: block;
+        width: 100%;
+
+        img {
+          max-height: 3.2em;
+          .centered;
+        }
+      }
+    }
+
+    /* ... only MPOS views (not Aplicateca ones!) ... */
+    &.telefonica-mpos {
+      padding: 0;
+
+      #sections {
+        margin-top: 10px;
+        padding-left: 1em;
+      }
+
+      .main-menu {
+        li.change-lang {
+          margin-top: 0;
+        }
+      }
+
+      // Telefonica LOGO
+      a.logo {
+        display: block;
+        width: 100%;
+
+        .logo-tlf {
+          .centered;
+        }
+      }
+
+      // Telefonica Register Modal BTN launcher
+      .btn-signup {
+        position: inherit;
+        top: 0;
+        margin-top: 4px !important;
+        float: right;
+        min-width: 25%;
+      }
+    }
+  }
+}
+
+/* ... media queries BIG DEVICES ................................................ */
+
+@media (min-width:768px) {
+  header {
+    // common for both types of Telefonica´s view (Aplicatecas & MPOS ones!)
+    .main-menu {
+      float: right;
+      margin-right: 1em;
+
+      li {
+        a {
+          color: @white;
+          font-size: 1em;
+          font-weight: 400;
+
+          &:hover {
+            background-color: transparent;
+            color: lighten(@telefonica, 30%);
+            .anim-all-250;
+          }
+
+          &.active {
+            font-weight: 600;
+          }
+        }
+
+        &.change-lang {
+          margin: 0;
+
+          a {
+            padding: 0;
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    // only MPOS views (not Aplicateca ones!)
+    &.telefonica-mpos {
+      .main-menu {
+        margin-top: 1em;
+
+        li.change-lang {
+          a {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+
+    // only Aplicateca views (not MPOS ones!)
+    &.aplicateca-header {
+      .main-menu {
+        margin-top: 1.5em;
+
+        li.change-lang {
+          a {
+            margin-right: 5px;
+            text-transform: capitalize;
+
+            &:after {
+              content: "/";
+              padding-left: .55em;
+            }
+
+            &:hover {
+              &:after {
+                color: @white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

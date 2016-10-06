@@ -6,10 +6,10 @@ block vars
     - var cssClass = 'terms'
 block content
     section
-        h2 #{terms_aplicateca.sections.title}
+        h4.headTitles #{terms_aplicateca.sections.title}
         div.container.margin
             each section in terms_aplicateca.sections.sections
-                h1 #{section.title}
+                h5 #{section.title}
                 each ch in section.children
                     if typeof ch != 'object'
                         p #{ch}

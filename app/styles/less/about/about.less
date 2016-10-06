@@ -7,6 +7,7 @@
  */
 
 @import "../base/_common.less";
+@import "../base/_showcases.less";
 
 
 // Bckgrnd cover img mixin
@@ -364,12 +365,12 @@
   }
 }
 
-/* HEIGHT */
+/* ... Media Queries :: Three Cards video-image layout :: WIDTH */
 
-@media only screen and (max-height: 667px) {
-  #about {
-    padding-top: 0;
+@media only screen and (max-width : 801px) {
+  #team .about-grids .col.m4.about-grid {
+    width: 100% !important;
   }
 }
 
-// (.about-grids) component on "common.less"
+// (.about-grids) component on "_showcases.less"

@@ -46,9 +46,7 @@ nav {
 
 @media only screen and (min-width: 601px) {
   nav,
-  nav .nav-wrapper i,
-  nav a.button-collapse,
-  nav a.button-collapse i {
+  nav .nav-wrapper i {
     height: 0;
     line-height: 0;
   }
@@ -68,44 +66,6 @@ nav,
 .side-nav {
   box-shadow: 0 0 0 0 rgba(0,0,0,0),
   0 0 0 0 rgba(0,0,0,0);
-}
-
-// TABS
-.tabs {
-  .tab {
-    a {
-      color: @main-green;
-      font-size: 18px;
-      font-weight: 600;
-
-      &:hover {
-        color: #009550;
-      }
-    }
-  }
-
-  .indicator {
-    position: absolute;
-    bottom: 0;
-    height: 2px;
-    background-color: @main-green;
-    will-change: left, right;
-
-    &:after {
-      content: '';
-      display: block;
-      width: 0;
-      height: 0;
-      position: relative;
-      border-right: 10px solid transparent;
-      border-left: 10px solid transparent;
-      border-top: 10px solid @main-green;
-      bottom: 0;
-      z-index: 10;
-      will-change: left, right;
-      left: 45%;
-    }
-  }
 }
 
 // INPUTS
@@ -134,8 +94,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #009550;
-  box-shadow: 0 1px 0 0 #009550;
+  border-bottom: 1px solid @main-green;
+  box-shadow: 0 1px 0 0 @main-green;
 }
 
 input[type=text]:focus:not([readonly]) + label,
@@ -149,7 +109,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #009550;
+  color: @main-green;
 }
 
 .input-field label.active {

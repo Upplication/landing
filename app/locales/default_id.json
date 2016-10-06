@@ -107,7 +107,7 @@
         "sales_2": {
           "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
           "name": "Álvaro",
-          "position": "Sales Manager",
+          "position": "Marketing Manager",
           "sentence": "Money never sleeps",
           "surname": "Alcañiz Rubio",
           "twitter": "https://twitter.com/alcanizalv"
@@ -144,6 +144,11 @@
       "anchor": "Harga",
       "title": "Upplication prices in Aplicateca",
       "url": "@@config.base_path/prices-aplicateca/"
+    },
+    "terms_aplicateca": {
+      "anchor": "Legal",
+      "title": "Upplication legal terms in Aplicateca",
+      "url": "@@config.base_path/terms-aplicateca-indonesian/"
     }
   },
   "company": {
@@ -991,7 +996,7 @@
       "sub5": "Manejemen panel aplikasi anda.",
       "topsale": "Top sale",
       "unlimited": "TAK TERBATAS",
-      "with_tax": "Sudah termasuk <strong>PPN</strong>.",
+      "with_tax": "Sudah termasuk <strong>PPN</strong>. <em>Kami membuat aplikasi anda</em> anda memiliki 6 bulan komitmen untuk tetap.",
       "yearly": "Paket tahunan"
     }
   },
@@ -1004,19 +1009,19 @@
     "all_plans_include": {
       "list": [
         {
-          "icon": "icon-support",
+          "icon": "icon icon-comment-empty",
           "text": "Customer support by phone and chat"
         },
         {
-          "icon": "icon-markets",
+          "icon": "icon icon-upload",
           "text": "<span>Automatic upload to markets, </span><span class=\"bold\">we upload your app</span>"
         },
         {
-          "icon": "icon-web-responsive",
+          "icon": "icon icon-tablet",
           "text": "Multidevice responsive web"
         },
         {
-          "icon": "icon-tutor",
+          "icon": "icon icon-graduation-cap",
           "text": "Customized tutor"
         }
       ],
@@ -1057,23 +1062,28 @@
         "class_name": "plan-basic",
         "features": [
           {
-            "icon_class": "icon-ads",
+            "icon_class": "icon icon-megaphone",
             "title": "Upplication ads"
           },
           {
-            "icon_class": "icon-signature",
+            "icon_class": "icon icon-pencil",
             "title": "Signature on templates"
           },
           {
-            "icon_class": "icon-push",
+            "icon_class": "icon icon-paper-plane",
             "title": "<span class=\"bold\">No</span><span>alerts</span>"
           },
           {
-            "icon_class": "icon-stats",
+            "icon_class": "icon icon-chart-line",
             "title": "Statistics of your app"
           }
         ],
-        "name": "Basic",
+        "name": "Dasar",
+        "surname": "Selamat datang rencana.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-copper.svg",
+          "title": "Upplication Basic plan"
+        },
         "price": "8.25",
         "price_dollars": "8.25",
         "price_yearly": "82.50",
@@ -1084,23 +1094,28 @@
         "class_name": "plan-professional",
         "features": [
           {
-            "icon_class": "icon-ads",
+            "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">No</span><span> upplication ads</span>"
           },
           {
-            "icon_class": "icon-signature",
+            "icon_class": "icon icon-pencil",
             "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
           },
           {
-            "icon_class": "icon-push",
+            "icon_class": "icon icon-paper-plane",
             "title": "4 alerts / month"
           },
           {
-            "icon_class": "icon-stats",
+            "icon_class": "icon icon-chart-line",
             "title": "Statistics of your app"
           }
         ],
-        "name": "Professional",
+        "name": "Profesional",
+        "surname": "Rencana peluncur bisnis.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-silver.svg",
+          "title": "Upplication Professional plan"
+        },
         "price": "24.75",
         "price_dollars": "24.75",
         "price_yearly": "247.50",
@@ -1111,23 +1126,28 @@
         "class_name": "plan-premium",
         "features": [
           {
-            "icon_class": "icon-ads",
+            "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">No</span><span>publicidad Upplication</span>"
           },
           {
-            "icon_class": "icon-signature",
+            "icon_class": "icon icon-pencil",
             "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
           },
           {
-            "icon_class": "icon-push",
+            "icon_class": "icon icon-paper-plane",
             "title": "Unlimited alerts"
           },
           {
-            "icon_class": "icon-stats",
+            "icon_class": "icon icon-chart-line",
             "title": "Statistics of your app"
           }
         ],
-        "name": "Premium",
+        "name": "Kami membuat aplikasi anda",
+        "surname": "Kami membuat dan merancang aplikasi anda.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "title": "Upplication We create your App plan"
+        },
         "price": "49.55",
         "price_dollars": "49.55",
         "price_yearly": "495.50",

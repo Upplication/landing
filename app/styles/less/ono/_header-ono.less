@@ -116,8 +116,12 @@ summary {
 
 /* HEADER ONO VODAFONE */
 
+.slide-pannel.effects {
+  background-color: @vodafone;
+}
+
 .bg-vodafone-red {
-  background-color: #e60000;
+  background-color: @vodafone;
 }
 
 .uppercase {
@@ -209,7 +213,14 @@ a.logo img {
   float: right;
 }
 
-/* MEDIA QUERIES :: HEADER ONO PAGE */
+
+/* ... MEDIA QUERIES :: HEADER ONO PAGE ... */
+
+@media (max-width:599px) {
+  .main-menu .change-lang a {
+    padding: 0 5px;
+  }
+}
 
 @media (max-width:520px) {
   .main-menu li {
@@ -218,12 +229,6 @@ a.logo img {
 }
 
 @media (max-width:480px) {
-  .main-menu .change-lang a {
-    padding: 0 5px !important;
-  }
-}
-
-@media (max-width:405px) {
   .main-menu .change-lang {
     display: none;
   }

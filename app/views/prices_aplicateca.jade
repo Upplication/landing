@@ -7,7 +7,7 @@ block vars
     - var cssClass = 'prices'
 
 block content
-    section#plans.bottom-space.darky
+    section#plans.bottom-space
         script(type='text/javascript').
             $UPP.url = "#{prices_aplicateca._url}";
             $UPP.month = "#{prices_aplicateca.month}";
@@ -40,13 +40,15 @@ block content
             ];
 
         div.container
-            h2 #{prices_aplicateca.title}
+            h4.headTitles #{prices_aplicateca.title}
 
             div.plans.prices-aplicateca
                 each plan in prices_aplicateca.plans
                     div.plan(class="#{plan.class_name}")
                         div.plan-header
                             h3 #{plan.name}
+                            p #{plan.surname}
+                            img(src='#{plan.img.src}', alt='#{plan.img.title}', title='#{plan.img.title}')
                             div.price
                                 span(class="price") #{plan.price}
                                 span(class="price-details")
@@ -57,19 +59,15 @@ block content
                                 span.most-popular #{prices_aplicateca.most_popular_plan}
 
                         div.plan-features
-                            div.os-list
-                                span.icon-ios
-                                span.icon-android
-                                span.icon-laptop
                             span.os-list #{prices_aplicateca.os_list}
 
                             ul
                                 each feature in plan.features
                                     li
-                                        span(class="#{feature.icon_class}")
+                                        i(class="#{feature.icon_class}")
                                         span.feature-title !{feature.title}
 
-                            a(class="btn #{plan.btn_class}", href="https://www.aplicateca.es/upplication") #{prices_aplicateca.free_trial}
+                        a(class="btn #{plan.btn_class}", href="https://www.aplicateca.es/upplication") #{prices_aplicateca.free_trial}
                 div.clear
 
             div.clear
@@ -80,7 +78,7 @@ block content
                         h2 #{prices_aplicateca.custom_app.title}
                         h3 #{prices_aplicateca.custom_app.subtitle}
                     div
-                        a.btn.btn-grey(href="mailto:aplicateca@upplication.com") #{prices_aplicateca.custom_app.btn}
+                        a.btn.btn-green(href="mailto:aplicateca@upplication.com") #{prices_aplicateca.custom_app.btn}
 
     section#all-plans-include.bottom-space
         div.container
@@ -89,5 +87,5 @@ block content
             ul.plans-features
                 each feature in prices_aplicateca.all_plans_include.list
                     li
-                        span(class="#{feature.icon}")
+                        i(class="#{feature.icon}")
                         span !{feature.text}
