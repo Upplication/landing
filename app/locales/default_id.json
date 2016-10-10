@@ -1010,22 +1010,22 @@
       "list": [
         {
           "icon": "icon icon-comment-empty",
-          "text": "Customer support by phone and chat"
+          "text": "Dukungan pelanggan melalui e-mail, obrolan, dan telepon."
         },
         {
           "icon": "icon icon-upload",
-          "text": "<span>Automatic upload to markets, </span><span class=\"bold\">we upload your app</span>"
+          "text": "Unggah otomatis ke semua App Stores, kami menerbitkan aplikasi Anda."
         },
         {
           "icon": "icon icon-tablet",
-          "text": "Multidevice responsive web"
+          "text": "Web responsif, mendukung banyak perangkat."
         },
         {
           "icon": "icon icon-graduation-cap",
-          "text": "Customized tutor"
+          "text": "Tutor pribadi."
         }
       ],
-      "title": "All plans include"
+      "title": "Semua paket harga termasuk"
     },
     "contact": {
       "customer_service": {
@@ -1043,39 +1043,43 @@
       }
     },
     "custom_app": {
-      "btn": "Build your own app with us",
-      "subtitle": "Contact us and we will explain you how we do it.",
-      "title": "We make your 'made-to-measure' app"
+      "subtitle": "Kami akan menjelaskan bagaimana kita melakukannya",
+      "title": "Membangun aplikasi Anda sendiri dengan kami",
+      "btn": "mailto:aplicateca@upplication.com",
+      "copy": "Menulis kami"
     },
     "dollar": "$",
     "euro": "€",
-    "free_trial": "Free trial",
-    "iva_included": "VAT not inc.",
-    "month": "month",
-    "monthly": "Monthly",
-    "most_popular_plan": "Most popular plan",
-    "os_list": "Android / iPhone / iPad / Web",
-    "permanency": "* This plan has a 3 months permanency",
+    "free_trial": "Coba gratis",
+    "iva_included": "tidak ada pajak",
+    "month": "bulan",
+    "monthly": "Bulanan",
+    "most_popular_plan": "Kebanyakan rencana populer",
+    "permanency": "* Keabadian 3 bulan",
     "plans": [
       {
         "btn_class": "btn-grey",
         "class_name": "plan-basic",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
-            "title": "Upplication ads"
+            "title": "Iklan Upplication"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "Signature on templates"
+            "title": "Cap air pada pola"
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "<span class=\"bold\">No</span><span>alerts</span>"
+            "title": "<span class=\"bold\">Tidak ada</span><span>pemberitahuan push</span>"
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Statistics of your app"
+            "title": "Statistik di aplikasi Anda"
           }
         ],
         "name": "Dasar",
@@ -1094,20 +1098,24 @@
         "class_name": "plan-professional",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">No</span><span> upplication ads</span>"
+            "title": "<span class=\"bold\">Tidak ada</span><span> Iklan Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
+            "title": "<span class=\"bold\">Tidak ada</span><span>cap air pada pola</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "4 alerts / month"
+            "title": "4 pemberitahuan push / bulan"
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Statistics of your app"
+            "title": "Statistik di aplikasi Anda"
           }
         ],
         "name": "Profesional",
@@ -1126,32 +1134,76 @@
         "class_name": "plan-premium",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">No</span><span>publicidad Upplication</span>"
+            "title": "<span class=\"bold\">Tidak ada</span><span> Iklan Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
+            "title": "<span class=\"bold\">Tidak ada</span><span>cap air pada pola</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "Unlimited alerts"
+            "title": "Pemberitahuan push tak terbatas"
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Statistics of your app"
+            "title": "Statistik di aplikasi Anda"
           }
         ],
-        "name": "Kami membuat aplikasi anda",
-        "surname": "Kami membuat dan merancang aplikasi anda.",
+        "name": "Premium",
+        "surname": "Dimasukkan ke dalam orbit",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "title": "Plan Premium de Upplication"
+        },
+        "price": "49,55",
+        "price_dollars": "49,55",
+        "price_yearly": "495,50",
+        "price_yearly_dollars": "495,50"
+      },
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-create",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-ok",
+            "title": "<span class=\"bold\">Premium Plan</span><span>dan</span>"
+          },
+          {
+            "icon_class": "icon icon-cog",
+            "title": "<span class=\"bold\">kita buat</span><span>aplikasi Anda</span>"
+          },
+          {
+            "icon_class": "icon icon-ccw",
+            "title": "<span class=\"bold\">3</span><span>meningkatkan per tahun</span>"
+          },
+          {
+            "icon_class": "icon icon-graduation-cap",
+            "title": "<span class=\"bold\">Marketing Apps</span><span>kursus gratis</span>"
+          },
+          {
+            "icon_class": "icon icon-certificate",
+            "title": "<span class=\"bold\">stiker</span><span>untuk bisnis Anda</span>"
+          }
+        ],
+        "name": "Kita lakukan",
+        "surname": "Kami membuat aplikasi anda.",
         "img": {
           "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
-          "title": "Upplication We create your App plan"
+          "title": "Upplication kita lakukan aplikasi Anda"
         },
-        "price": "49.55",
-        "price_dollars": "49.55",
-        "price_yearly": "495.50",
-        "price_yearly_dollars": "495.50"
+        "price": "79,90",
+        "price_dollars": "79,90",
+        "price_yearly": "799,00",
+        "price_yearly_dollars": "799,00"
       }
     ],
     "special_plans": [
@@ -1170,16 +1222,16 @@
         "price_yearly_dollars": "2479.00"
       }
     ],
-    "title": "Pricing plans",
-    "year": "year",
-    "yearly": "Yearly"
+    "title": "Paket harga",
+    "year": "tahun",
+    "yearly": "Tahunan"
   },
   "register": {
     "accept_terms": "Dengan mengklik tombol \"Coba Gratis\" Anda setuju dengan syarat dan ketentuan kami",
     "announce": "Anda dapat mengubahnya nanti",
     "app_name": "Nama Aplikasi",
     "arguments": "Buat Aplikasi Anda sendiri, untuk bisnis Anda. Mudah, tanpa coding, dan cepat, dalam beberapa menit.",
-    "call_to_action": "Try it now",
+    "call_to_action": "Coba gratis",
     "claim": "Aplikasi Anda, bisnis Anda",
     "email": "Email",
     "error": {
