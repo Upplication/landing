@@ -1040,9 +1040,15 @@
       }
     },
     "custom_app": {
-      "btn": "Contacta connosco",
       "subtitle": "Contacta connosco e explicamos-te como o fazemos.",
-      "title": "Cria a tua app connosco"
+      "title": "Cria a tua app connosco",
+      "btn": [
+        {
+          "name": "Contacta connosco",
+          "url": "mailto:aplicateca@upplication.com",
+          "title": "aplicateca@upplication.com"
+        }
+      ]
     },
     "dollar": "$",
     "euro": "€",
