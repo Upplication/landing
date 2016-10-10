@@ -40,6 +40,8 @@ block content
             ];
 
         div.container
+
+            // PRICING PLANS TABLES:
             h4.headTitles #{prices_aplicateca.title}
 
             div.plans.prices-aplicateca
@@ -59,8 +61,6 @@ block content
                                 span.most-popular #{prices_aplicateca.most_popular_plan}
 
                         div.plan-features
-                            span.os-list #{prices_aplicateca.os_list}
-
                             ul
                                 each feature in plan.features
                                     li
@@ -72,14 +72,22 @@ block content
 
             div.clear
 
+            // Exceptions text
+            div.prices-aplicateca-exceptions
+                p #{prices_aplicateca.permanency}
+
+            // "Contact Us" Block
             div.custom-app
                 div
                     div
                         h2 #{prices_aplicateca.custom_app.title}
                         h3 #{prices_aplicateca.custom_app.subtitle}
                     div
-                        a.btn.btn-green(href="mailto:aplicateca@upplication.com") #{prices_aplicateca.custom_app.btn}
+                        a.btn.btn-green(href='#{prices_aplicateca.custom_app.btn}', title='#{prices_aplicateca.custom_app.subtitle}')
+                            i.icon.icon-mail
+                            | #{prices_aplicateca.custom_app.copy}
 
+    // All pricing plans common Features
     section#all-plans-include.bottom-space
         div.container
             h2 #{prices_aplicateca.all_plans_include.title}

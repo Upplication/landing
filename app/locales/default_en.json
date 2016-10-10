@@ -855,9 +855,10 @@
       }
     },
     "custom_app": {
-      "btn": "Build your own app with us",
       "subtitle": "Contact us and we will explain you how we do it.",
-      "title": "We make your 'made-to-measure' app"
+      "title": "Build your own app with us",
+      "btn": "mailto:aplicateca@upplication.com",
+      "copy": "Email Us!"
     },
     "dollar": "$",
     "euro": "€",
@@ -866,13 +867,16 @@
     "month": "month",
     "monthly": "Monthly",
     "most_popular_plan": "Most popular plan",
-    "os_list": "Android / iPhone / iPad / Web",
-    "permanency": "* This plan has a 3 months permanency",
+    "permanency": "* This plan has a 3 months permanency.",
     "plans": [
       {
         "btn_class": "btn-grey",
         "class_name": "plan-basic",
         "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
           {
             "icon_class": "icon icon-megaphone",
             "title": "Upplication ads"
@@ -883,7 +887,7 @@
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "<span class=\"bold\">No</span><span>alerts</span>"
+            "title": "<span class=\"bold\">No</span><span>push notifications</span>"
           },
           {
             "icon_class": "icon icon-chart-line",
@@ -906,6 +910,10 @@
         "class_name": "plan-professional",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">No</span><span> upplication ads</span>"
           },
@@ -915,7 +923,7 @@
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "4 alerts / month"
+            "title": "4 push notifications / month"
           },
           {
             "icon_class": "icon icon-chart-line",
@@ -938,20 +946,64 @@
         "class_name": "plan-premium",
         "features": [
           {
-            "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">No</span><span>publicidad Upplication</span>"
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
           },
           {
-            "icon_class": "icon icon-pencil",
+            "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">No</span><span>signature on templates</span>"
           },
           {
+            "icon_class": "icon icon-pencil",
+            "title": "<span class=\"bold\">Unlimited</span><span>push notifications</span>"
+          },
+          {
             "icon_class": "icon icon-paper-plane",
-            "title": "Unlimited alerts"
+            "title": "Alertas ilimitadas"
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Statistics of your app"
+            "title": "Estadísticas de tu app"
+          }
+        ],
+        "name": "Premium",
+        "surname": "To put your business in orbit",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "title": "Plan Premium de Upplication"
+        },
+        "price": "49,55",
+        "price_dollars": "49,55",
+        "price_yearly": "495,50",
+        "price_yearly_dollars": "495,50"
+      },
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-create",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-ok",
+            "title": "<span class=\"bold\">Premium Plan</span><span>and:</span>"
+          },
+          {
+            "icon_class": "icon icon-cog",
+            "title": "<span class=\"bold\">We create</span><span>your app</span>"
+          },
+          {
+            "icon_class": "icon icon-ccw",
+            "title": "<span class=\"bold\">3</span><span>upgrades per year</span>"
+          },
+          {
+            "icon_class": "icon icon-graduation-cap",
+            "title": "<span class=\"bold\">Marketing Apps</span><span>free course</span>"
+          },
+          {
+            "icon_class": "icon icon-certificate",
+            "title": "<span class=\"bold\">Sticker</span><span>for your workplace</span>"
           }
         ],
         "name": "We create your App",
@@ -960,10 +1012,10 @@
           "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Upplication We create your App plan"
         },
-        "price": "49.55",
-        "price_dollars": "49.55",
-        "price_yearly": "495.50",
-        "price_yearly_dollars": "495.50"
+        "price": "79,90",
+        "price_dollars": "79,90",
+        "price_yearly": "799,00",
+        "price_yearly_dollars": "799,00"
       }
     ],
     "special_plans": [
