@@ -855,9 +855,9 @@
       }
     },
     "custom_app": {
-      "btn": "Crea tu app con nosotros",
+      "btn": "Contacta con nosotros",
       "subtitle": "Contacta con nosotros y te explicamos cómo lo hacemos.",
-      "title": "Te hacemos tu app a medida"
+      "title": "Crea tu app con nosotros"
     },
     "dollar": "$",
     "euro": "€",
@@ -866,13 +866,16 @@
     "month": "mes",
     "monthly": "Mensual",
     "most_popular_plan": "El plan más popular",
-    "os_list": "Android / iPhone / iPad / Web",
-    "permanency": "* Plan sujeto a 3 meses de permanencia",
+    "permanency": "* Plan sujeto a 3 meses de permanencia.",
     "plans": [
       {
         "btn_class": "btn-grey",
         "class_name": "plan-basic",
         "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
           {
             "icon_class": "icon icon-megaphone",
             "title": "Publicidad Upplication"
@@ -883,7 +886,7 @@
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "<span class=\"bold\">Sin</span><span>alertas</span>"
+            "title": "<span class=\"bold\">Sin</span><span>Notificaciones push</span>"
           },
           {
             "icon_class": "icon icon-chart-line",
@@ -906,6 +909,10 @@
         "class_name": "plan-professional",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">Sin</span><span> publicidad Upplication</span>"
           },
@@ -915,7 +922,7 @@
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "4 alertas / mes"
+            "title": "4 notificaciones push / mes"
           },
           {
             "icon_class": "icon icon-chart-line",
@@ -923,7 +930,7 @@
           }
         ],
         "name": "Profesional",
-        "surname": "Plan para poner tu negocio en órbita.",
+        "surname": "Plan para que tu empresa despegue.",
         "img": {
           "src": "@@config.base_path/images/home/icons/rocket-silver.svg",
           "title": "Plan Profesional de Upplication"
@@ -938,6 +945,10 @@
         "class_name": "plan-premium",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">Sin</span><span>publicidad Upplication</span>"
           },
@@ -947,23 +958,63 @@
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "Alertas ilimitadas"
+            "title": "Notificaciones push ilimitadas"
           },
           {
             "icon_class": "icon icon-chart-line",
             "title": "Estadísticas de tu app"
           }
         ],
-        "name": "Creamos tu App",
-        "surname": "Desarrollamos y diseñamos tu app.",
+        "name": "Premium",
+        "surname": "Plan para poner tu negocio en órbita.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
-          "title": "Plan Creamos tu App de Upplication"
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
         "price_dollars": "49,55",
         "price_yearly": "495,50",
         "price_yearly_dollars": "495,50"
+      },
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-create",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-ok",
+            "title": "<span class=\"bold\">Plan Premium</span><span>y ademas:</span>"
+          },
+          {
+            "icon_class": "icon icon-cog",
+            "title": "<span class=\"bold\">Hacemos</span><span>nosotros tu app</span>"
+          },
+          {
+            "icon_class": "icon icon-ccw",
+            "title": "<span class=\"bold\">3</span><span>cambios al año</span>"
+          },
+          {
+            "icon_class": "icon icon-graduation-cap",
+            "title": "<span class=\"bold\">Curso</span><span>de Marketing Apps</span>"
+          },
+          {
+            "icon_class": "icon icon-certificate",
+            "title": "<span class=\"bold\">Pegatina</span><span>para tu local</span>"
+          }
+        ],
+        "name": "Hacemos tu App",
+        "surname": "Desarrollamos y diseñamos tu app.*",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "title": "Plan Hacemos tu App de Upplication"
+        },
+        "price": "79,90",
+        "price_dollars": "79,90",
+        "price_yearly": "799,00",
+        "price_yearly_dollars": "799,00"
       }
     ],
     "special_plans": [

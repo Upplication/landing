@@ -1040,9 +1040,9 @@
       }
     },
     "custom_app": {
-      "btn": "Cria a tua app connosco",
+      "btn": "Contacta connosco",
       "subtitle": "Contacta connosco e explicamos-te como o fazemos.",
-      "title": "Fazemos-te a tua app à medida"
+      "title": "Cria a tua app connosco"
     },
     "dollar": "$",
     "euro": "€",
@@ -1051,13 +1051,16 @@
     "month": "mês",
     "monthly": "Mensal",
     "most_popular_plan": "O plano mais popular",
-    "os_list": "Android / iPhone / iPad / Web",
-    "permanency": "* Plano sujeito a 3 meses de permanência",
+    "permanency": "* Plano sujeito a 3 meses de permanência.",
     "plans": [
       {
         "btn_class": "btn-grey",
         "class_name": "plan-basic",
         "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
           {
             "icon_class": "icon icon-megaphone",
             "title": "Publicidade Upplication"
@@ -1091,6 +1094,10 @@
         "class_name": "plano-profissional",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
             "title": "<span class=\"bold\">Sem</span><span> publicidade Upplication</span>"
           },
@@ -1120,15 +1127,19 @@
       },
       {
         "btn_class": "btn-grey",
-        "class_name": "plano-premium",
+        "class_name": "plan-premium",
         "features": [
           {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">Sem</span><span>publicidade Upplication</span>"
+            "title": "<span class=\"bold\">Sin</span><span>publicidad Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de cálculo</span>"
+            "title": "<span class=\"bold\">Sin</span><span>firma en las plantillas</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
@@ -1136,7 +1147,47 @@
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Estatísticas da tua app"
+            "title": "Estadísticas de tu app"
+          }
+        ],
+        "name": "Premium",
+        "surname": "Colocar em órbita seu negócio",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "title": "Plan Premium de Upplication"
+        },
+        "price": "49,55",
+        "price_dollars": "49,55",
+        "price_yearly": "495,50",
+        "price_yearly_dollars": "495,50"
+      },
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-create",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-ok",
+            "title": "<span class=\"bold\">Premium Plan</span><span>and:</span>"
+          },
+          {
+            "icon_class": "icon icon-cog",
+            "title": "<span class=\"bold\">We create</span><span>your app</span>"
+          },
+          {
+            "icon_class": "icon icon-ccw",
+            "title": "<span class=\"bold\">3</span><span>upgrades per year</span>"
+          },
+          {
+            "icon_class": "icon icon-graduation-cap",
+            "title": "<span class=\"bold\">Marketing Apps</span><span>free course</span>"
+          },
+          {
+            "icon_class": "icon icon-certificate",
+            "title": "<span class=\"bold\">Sticker</span><span>for your workplace</span>"
           }
         ],
         "name": "Nós criamos seu app",
@@ -1145,10 +1196,10 @@
           "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Upplication We create your App plan"
         },
-        "price": "49,55",
-        "price_dollars": "49,55",
-        "price_yearly": "495,50",
-        "price_yearly_dollars": "495,50"
+        "price": "79,90",
+        "price_dollars": "79,90",
+        "price_yearly": "799,00",
+        "price_yearly_dollars": "799,00"
       }
     ],
     "special_plans": [
