@@ -857,13 +857,8 @@
     "custom_app": {
       "subtitle": "Contacta con nosotros y te explicamos cómo lo hacemos.",
       "title": "Crea tu app con nosotros",
-      "btn": [
-        {
-          "name": "Contacta con nosotros",
-          "url": "mailto:aplicateca@upplication.com",
-          "title": "aplicateca@upplication.com dirección de eamil"
-        }
-      ]
+      "btn": "mailto:aplicateca@upplication.com",
+      "copy": "Escríbenos"
     },
     "dollar": "$",
     "euro": "€",

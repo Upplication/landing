@@ -857,13 +857,8 @@
     "custom_app": {
       "subtitle": "Contact us and we will explain you how we do it.",
       "title": "Build your own app with us",
-      "btn": [
-        {
-          "name": "Contact us",
-          "url": "mailto:aplicateca@upplication.com",
-          "title": "aplicateca@upplication.com email adress"
-        }
-      ]
+      "btn": "mailto:aplicateca@upplication.com",
+      "copy": "Email Us!"
     },
     "dollar": "$",
     "euro": "€",
