@@ -104,11 +104,77 @@
         },
         "5": {
           "children": [
+            {
+              "title": "PLAN BÁSICO",
+              "children": [
+                "Aspectos funcionales:",
+                "- App móvil Android y iOS. Los sistema operativos en los que se desarrollarán tus apps serán Android de Google y iOS de Apple.",
+                "- Web multidispositivo (pc, tablet, smartphone). Web válida para los dispositivos: smartphone, tablet y PC. Es accesible y se ajusta visual y funcionalmente a cada una de estas pantallas.",
+                "- Subida a los markets. Upplication se encarga de subir tus apps a los markets de Google Play y App Store. La decisión final siempre depende de Google o iOS, ellos son los que filtran que aplicaciones sí y cuáles no entran en sus markets Google Play Store o App Store. Upplication sólo se encarga de realizar la petición de aceptación a Google o iOS y de facilitarle el contenido necesario. En el caso de Apple, las apps se subirán al market privado.",
+                "- Publicidad Upplication. La aplicación lleva publicidad de Upplication y/o de terceros.",
+                "- Firma en las plantillas. La aplicación lleva firma de Upplication en la plantilla.",
+                "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
+                "- Notificaciones push. El dashboard no permitirá enviar notificaciones push.",
+                "PRECIO: Pago mensual: 8,25 € al mes IVA no inc."
+              ]
+            },
+            {
+              "title": "PLAN PROFESIONAL",
+              "children": [
+                "Aspectos funcionales:",
+                "- App móvil Android y iOS. Los sistema operativos en los que se desarrollarán tus apps serán Android de Google y iOS de Apple.",
+                "- Web multidispositivo (pc, tablet, smartphone). Web válida para los dispositivos: smartphone, tablet y PC. Es accesible y se ajusta visual y funcionalmente a cada una de estas pantallas.",
+                "- Subida a los markets. Upplication se encarga de subir tus apps a los markets de Google Play y App Store. La decisión final siempre depende de Google o iOS, ellos son los que filtran que aplicaciones sí y cuáles no entran en sus markets Google Play Store o App Store. Upplication sólo se encarga de realizar la petición de aceptación a Google o iOS y de facilitarle el contenido necesario.",
+                "- Sin publicidad Upplication. La aplicación no lleva publicidad de Upplication y/o de terceros.",
+                "- Sin firma en las plantillas. La aplicación no lleva firma de Upplication en la plantilla.",
+                "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
+                "- Notificaciones push. El dashboard permitirá enviar 4 notificaciones push al mes.",
+                "PRECIO: Pago mensual: 24,75€ € al mes IVA no inc."
+              ]
+            },
+            {
+              "title": "PLAN PREMIUM",
+              "children": [
+                "Aspectos funcionales:",
+                "- App móvil Android y iOS. Los sistema operativos en los que se desarrollarán tus apps serán Android de Google y iOS de Apple.",
+                "- Web multidispositivo (pc, tablet, smartphone). Web válida para los dispositivos: smartphone, tablet y PC. Es accesible y se ajusta visual y funcionalmente a cada una de estas pantallas.",
+                "- Subida a los markets. Upplication se encarga de subir tus apps a los markets de Google Play y App Store. La decisión final siempre depende de Google o iOS, ellos son los que filtran que aplicaciones sí y cuáles no entran en sus markets Google Play Store o App Store. Upplication solo se encarga de realizar la petición de aceptación a Google o iOS y de facilitarle el contenido necesario.",
+                "- Sin publicidad Upplication. La aplicación no lleva publicidad de Upplication y/o de terceros.",
+                "- Sin firma en las plantillas. La aplicación no lleva firma de Upplication en la plantilla.",
+                "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
+                "- Notificaciones push. El dashboard permitirá enviar notificaciones push ilimitadas.",
+                "PRECIO: Pago mensual: 49,55€ al mes IVA no inc."
+              ]
+            },
+            {
+              "title": "PLAN HACEMOS TU APP",
+              "children": [
+                "Aspectos funcionales:",
+                "- App móvil Android y iOS. Los sistema operativos en los que se desarrollarán tus apps serán Android de Google y iOS de Apple.",
+                "- Web multidispositivo (pc, tablet, smartphone). Web válida para los dispositivos: smartphone, tablet y PC. Es accesible y se ajusta visual y funcionalmente a cada una de estas pantallas.",
+                "- Subida a los markets. Upplication se encarga de subir tus apps a los markets de Google Play y App Store. La decisión final siempre depende de Google o iOS, ellos son los que filtran que aplicaciones sí y cuáles no entran en sus markets Google Play Store o App Store. Upplication solo se encarga de realizar la petición de aceptación a Google o iOS y de facilitarle el contenido necesario.",
+                "- Sin publicidad Upplication. La aplicación no lleva publicidad de Upplication y/o de terceros.",
+                "- Sin firma en las plantillas. La aplicación no lleva firma de Upplication en la plantilla.",
+                "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
+                "- Notificaciones push. El dashboard permitirá enviar notificaciones push ilimitadas.",
+                "- Atención al cliente personalizada. Llámanos y te ayudaremos a crear una aplicación de alta calidad. Estaremos a tu disposición en el teléfono al número 810 512 370 (coste de la llamada variará en función del operador ajustándose a la tarifa ordinaria nacional) de Lunes a Viernes de 10:00h a 18:00h. hora en España.",
+                "- Desarrollo y diseño personalizado en 3 semanas. Un miembro del equipo de diseño de Upplication se encargará de que tu app sea perfecta, para eso es importante que rellenes de manera obligatoria dos formularios con el contenido que necesitas mostrar en tu app. Hasta que ambos formularios no sean rellenados Upplication no comenzará a crear tu app.",
+                "- Tres cambios al año. Este servicio permite únicamente tres modificaciones de contenido al año tras la publicación en los markets. Pueden realizarse de forma consecutiva o espaciados a lo largo de los 12 meses. Para solicitar un cambio en tu app debes escribirnos a la dirección soporte.telefonica@upplication.com o llamar al número 810 512 370 (coste de la llamada variará en función del operador ajustándose a la tarifa ordinaria nacional).",
+                "- Curso Marketing App para pymes. Upplication pone  a tu disposición un curso para aprender a mejorar tu empresa y aumentar tus ventas usando la app móvil de tu negocio. Este curso consta de siete lecciones dividas en tres bloques y tiene una duración aproximada de 10 días. El envío del temario se realizará vía mail.",
+                "- Pegatina de tu app para tu local.",
+                "PRECIO: Pago mensual: 79,90€ al mes IVA no inc. (Este servicio está sujeto a 3 meses de permanencia.)"
+              ]
+            }
+          ],
+          "title": "CONDICIONES PARTICULARES"
+        },
+        "6": {
+          "children": [
             "Las condiciones particulares del contrato estarán constituidas por la definición que se proporciona en la página web de UPPLICATION del Plan que contrate el Cliente."
           ],
           "title": "SOBRE EL CONTENIDO DEL CONTRATO"
         },
-        "6": {
+        "7": {
           "children": {
             "0": "Dado que los productos que ofrece UPPLICATION incluyen que el Cliente podrá utilizarlos en sus relaciones, personales o comerciales, con terceros, en la utilización que pueda realizar de los productos contratados con UPPLICATION, el Cliente se compromete a respetar los siguientes principios:",
             "1": "a) La salvaguarda del orden público, la investigación penal, la seguridad pública y la defensa nacional.",
@@ -122,13 +188,13 @@
           },
           "title": "COMPROMISOS GENERALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION"
         },
-        "7": {
+        "8": {
           "children": [
             "El uso que el Cliente haga de los productos contratados con UPPLICATION puede dar lugar a que el cliente acuerde compromisos de carácter civil, mercantil o administrativo frente a terceros y/o Administraciones públicas. El Cliente es consciente de que UPPLICATION no es parte de esos posibles compromisos ni puede verse afectada directa o indirectamente por los mismos. El Cliente adoptará, en su caso, las medidas necesarias para mantener a UPPLICATION al margen e indemne de cualquier responsabilidad derivada de aquéllos."
           ],
           "title": "COMPROMISOS CONTRACTUALES FRENTE A TERCEROS DEL USUARIO DE UPPLICATION"
         },
-        "8": {
+        "9": {
           "children": {
             "0": "Debido a la naturaleza abierta de esta página web y debido a que los productos que se ofrecen consisten en aplicaciones electrónicas que se distribuyen a través de las redes generales de comunicación, existe la posibilidad de que se produzcan errores en el almacenaje y transmisión de información digital, así como riesgos de ataques o alteraciones fraudulentas por parte de terceros. En consecuencia, no podemos garantizar la precisión y seguridad de la información transmitida u obtenida tanto por medio de esta página web como la que se suministre para dar cumplimiento a los Contratos que Vd. pueda celebrar.",
             "1": "Con el alcance que permita la ley, excluimos todas las garantías, salvo aquéllas que no puedan ser legítimamente excluidas frente a los consumidores y usuarios.",
@@ -143,7 +209,7 @@
           },
           "title": "EXONERACIÓN DE RESPONSABILIDAD"
         },
-        "9": {
+        "10": {
           "children": {
             "0": "Los productos y servicios ofrecidos por UPPLICATION contienen software original cuyo autor es UPPLICATION SOFTWARE TECHNOLIGIES, S.L., a los efectos del art. 96 del Real Decreto Legislativo 1/1996 que aprueba la Ley de Propiedad Intelectual. También gozan de dicha protección las versiones sucesivas y los programas derivados, así como la documentación técnica y los manuales e instrucciones de uso de los distintos productos.",
             "1": "Usted podrá hacer uso de dicho material únicamente en la forma en que se lo autoricemos expresamente nosotros y en ningún caso está autorizado a considerarse licenciatario ni a divulgarlo ni a transmitirlo a terceros. Tampoco está autorizado a reproducirlo, ni total ni parcialmente, ni aún de forma transitoria, ni a introducir ninguna modificación distinta a las que estén previstas en el propio producto de forma ordinaria.",
@@ -151,13 +217,13 @@
           },
           "title": "PROPIEDAD INTELECTUAL E INDUSTRIAL"
         },
-        "10": {
+        "11": {
           "children": [
             "En el caso de que nuestra página web contenga links o enlaces a otras páginas web y materiales de terceros, dichos links se facilitan únicamente a efectos informativos, sin que nosotros tengamos control alguno sobre el contenido de dichas páginas web o materiales. Por lo tanto, no aceptamos responsabilidad alguna por cualquier daño, perjuicio o pérdida derivados de su uso."
           ],
           "title": "LINKS DESDE NUESTRA PÁGINA WEB"
         },
-        "11": {
+        "12": {
           "children": [
             "A efectos contractuales, Vd. consiente en usar el correo electrónico que facilita en el proceso de contratación como medio de comunicación a efectos contractuales y reconoce que tanto el contrato como la notificación, información y demás comunicaciones que le enviemos de forma electrónica cumplen con los requisitos legales de ser por escrito. Esta condición no afectará a sus derechos irrenunciables reconocidos por ley.",
             "Para probar que la notificación ha sido hecha, será suficiente con probar que el correo electrónico fue enviado a la dirección de correo especificada por Vd. en el proceso de contratación aunque no conste la recepción.",
@@ -165,7 +231,7 @@
           ],
           "title": "COMUNICACIONES POR ESCRITO"
         },
-        "12": {
+        "13": {
           "children": [
             "El Contrato es vinculante tanto para usted como para nosotros.",
             "Usted no podrá transmitir, ceder, gravar o de cualquier otro modo transferir el Contrato o alguno de los derechos u obligaciones derivados del mismo a ningún tercero sin haber obtenido nuestro consentimiento previo por escrito.",
@@ -173,7 +239,7 @@
           ],
           "title": "CESIÓN DE DERECHOS Y OBLIGACIONES"
         },
-        "13": {
+        "14": {
           "children": [
             "Aunque contamos con importantes medidas de seguridad, debemos advertirle de que no seremos responsables de cualquier daño o pérdida resultante de un ataque de denegación de servicio, virus o cualquier otro programa o material tecnológicamente perjudicial o dañino que pueda afectar a su ordenador, equipo informático, datos o materiales como consecuencia del uso de esta página web, del uso de los productos que Vd. adquiera o de la descarga de contenidos de la misma o a los que la misma redireccione.",
             "Usted no debe realizar un uso indebido de esta página web mediante la introducción intencionada en la misma de virus, troyanos, gusanos, bombas lógicas o cualquier otro programa o material tecnológicamente perjudicial, dañino o que altere el contenido, bien modificándolo, bien redireccionándolo. Usted no tratará de tener acceso no autorizado a esta página web, al servidor en que dicha página se encuentra alojada o a cualquier servidor, ordenador o base de datos relacionada con nuestra página web o con las empresas que subcontratemos. Vd. se compromete a no atacar esta página web a través de un ataque de denegación de servicio o de un ataque de denegación de servicio distribuido.",
@@ -181,7 +247,7 @@
           ],
           "title": "VIRUS, PIRATERÍA Y OTROS ATAQUES INFORMÁTICOS"
         },
-        "14": {
+        "15": {
           "children": {
             "0": "No seremos responsables por ningún incumplimiento o retraso en el cumplimiento de alguna de las obligaciones que asumamos al amparo de un Contrato, cuya causa se deba a acontecimientos que están fuera de nuestro control razonable (\"Causa de Fuerza Mayor\").",
             "1": "Las Causas de Fuerza Mayor incluirán cualquier acto, acontecimiento, falta de ejercicio, omisión o accidente que, entre otros y sin carácter limitativo, se enumeran a continuación:",
@@ -194,7 +260,7 @@
           },
           "title": "OTROS ACONTECIMIENTOS FUERA DE NUESTRO CONTROL"
         },
-        "15": {
+        "16": {
           "children": {
             "0": "El Cliente podrá contratar los productos con las duraciones temporales y condiciones particulares aplicables a cada uno de los planes que se ofrecen.",
             "1": "Durante el tiempo en que esté en vigor el Plan que haya contratado, UPPLICATION estará obligada a dar soporte a los servicios que incluye el producto durante el periodo que en cada caso se indica según la modalidad escogida.",
@@ -210,7 +276,7 @@
           },
           "title": "DURACIÓN, RESOLUCIÓN Y EXTINCIÓN DEL CONTRATO"
         },
-        "16": {
+        "17": {
           "title": "RENUNCIA",
           "children": {
             "0": "La falta de requerimiento por nuestra parte del cumplimiento estricto por su parte de alguna de las obligaciones asumidas por Vd. en virtud de un Contrato o de las presentes Condiciones, o la falta de ejercicio por nuestra parte de los derechos o acciones que nos pudiesen corresponder en virtud de dicho Contrato o de las Condiciones, no supondrá renuncia ni limitación alguna en relación con dichos derechos o acciones ni le exonerará a Vd. de cumplir con tales obligaciones.",
@@ -218,27 +284,27 @@
             "2": "Ninguna renuncia por nuestra parte a alguna de las presentes Condiciones o a los derechos o acciones derivados del contrato surtirá efecto, a no ser que se establezca expresamente que es una renuncia y se le comunique a usted por escrito."
           }
         },
-        "17": {
+        "18": {
           "children": [
             "Si alguna de las presentes Condiciones o alguna disposición de un Contrato fuesen declaradas nulas y / o sin efecto por resolución firme o de carácter cautelar por parte de una autoridad competente, los restantes términos y condiciones permanecerán en vigor, sin que queden afectados por dicha declaración de nulidad."
           ],
           "title": "NULIDAD PARCIAL"
         },
-        "18": {
+        "19": {
           "children": [
             "Las presentes Condiciones, conjuntamente con las derivadas del Contrato en los términos que se le exponen a lo largo del procedimiento de contratación, constituyen el acuerdo íntegro existente entre usted y nosotros en relación con el Contrato y sustituyen a cualquier otro pacto, acuerdo o promesa anterior convenida entre usted y nosotros verbalmente o por escrito.",
             "Vd. y nosotros reconocemos haber consentido la celebración del Contrato sin haber confiado en ninguna declaración o promesa hecha por la otra parte o que pudiera inferirse de cualquier declaración o escrito en las negociaciones entabladas por los dos antes de dicho Contrato, salvo aquello que figura expresamente mencionado en las presentes Condiciones y en las condiciones particulares del Plan o Planes contratados."
           ],
           "title": "ACUERDO COMPLETO"
         },
-        "19": {
+        "20": {
           "children": {
             "0": "Tenemos derecho a revisar y modificar las presentes Condiciones en cualquier momento.",
             "1": "En cualquier caso, las Condiciones del Contrato que Vd. suscriba serán las que estén vigentes en el momento de su suscripción, salvo que por ley o decisión de autoridades públicas debamos hacer cambios con carácter retroactivo. En este caso los posibles cambios afectarán también a los pedidos que usted hubiera hecho previamente."
           },
           "title": "NUESTRO DERECHO A MODIFICAR ESTAS CONDICIONES"
         },
-        "20": {
+        "21": {
           "children": [
             "El uso de nuestra página web y los contratos de adquisición de productos a través de la misma se regirán por la legislación española.",
             "Cualquier controversia que surja o guarde relación con el uso de la página web o con dichos contratos será sometida a la jurisdicción de los juzgados y tribunales de Madrid capital, España."
