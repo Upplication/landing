@@ -951,11 +951,11 @@
     "_url": "/preços/",
     "rates": {
       "all_push": "Notificações push <strong>ilimitadas</strong>",
-      "app_web": "App e WebApp",
+      "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
-      "euro_month": "€ / mês",
-      "euro_year": "€ / ano",
+      "euro_month": "€ / mês *",
+      "euro_year": "€ / ano *",
       "four_push": "<strong>4</strong> notificações push / mês",
       "icons": {
         "all_push": "Notificações push ilimitadas",
@@ -966,7 +966,12 @@
         "no_sign": "Sem logo nas folhas de cálculo",
         "no_templates": "À medida, personalizada",
         "sign": "Logo nas folhas de cálculo",
-        "statistics": "Estadísticas da tua app"
+        "statistics": "Estadísticas da tua app",
+        "more": "Premium Plan e também:",
+        "wecreate": "Nós criamos seu app",
+        "changes": "3 atualizações por ano",
+        "course": "Marketing Apps curso gratuito",
+        "sticker": "Adesivo para você negócio"
       },
       "subtitles": {
         "basic": "Plano de boas-vindas.",
@@ -986,6 +991,12 @@
       "rate_sub": "Todos os planos incluem:",
       "sign": "<strong>Logo</strong> nas folhas de cálculo",
       "statistics": "<strong>Estadísticas</strong> da tua app",
+      "more": "<strong>Premium</strong> plano e também:",
+      "wecreate": "<strong>Nós criamos</strong> seu app **",
+      "changes": "<strong>3 atualizações</strong> por ano",
+      "course": "Marketing Apps <strong>curso gratuito</strong>",
+      "sticker": "<strong>Adesivo</strong> para você negócio",
+      "all_push": "Notificações push <strong>ilimitadas</strong>",
       "sub1": "Atenção ao cliente por telefone e chat.",
       "sub2": "<span>Upload automático aos markets,</span> <span>nós fazemos o upload da tua app.</span>",
       "sub3": "Web responsive multidispositivo.",
@@ -1136,19 +1147,19 @@
           },
           {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">Sin</span><span>publicidad Upplication</span>"
+            "title": "<span class=\"bold\">Sem</span><span> publicidade Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Sin</span><span>firma en las plantillas</span>"
+            "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de cálculo</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "Alertas ilimitadas"
+            "title": "Alertas sem limite"
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Estadísticas de tu app"
+            "title": "Estatísticas da tua app"
           }
         ],
         "name": "Premium",
@@ -1172,23 +1183,23 @@
           },
           {
             "icon_class": "icon icon-ok",
-            "title": "<span class=\"bold\">Premium Plan</span><span>and:</span>"
+            "title": "<span class=\"bold\">Premium Plan</span><span>e:</span>"
           },
           {
             "icon_class": "icon icon-cog",
-            "title": "<span class=\"bold\">We create</span><span>your app</span>"
+            "title": "<span class=\"bold\">Nós criamos</span><span>seu app</span>"
           },
           {
             "icon_class": "icon icon-ccw",
-            "title": "<span class=\"bold\">3</span><span>upgrades per year</span>"
+            "title": "<span class=\"bold\">3</span><span>atualizações por ano</span>"
           },
           {
             "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Marketing Apps</span><span>free course</span>"
+            "title": "<span class=\"bold\">Marketing Apps</span><span>curso gratuito</span>"
           },
           {
             "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">Sticker</span><span>for your workplace</span>"
+            "title": "<span class=\"bold\">Adesivo</span><span>para você negócio</span>"
           }
         ],
         "name": "Nós criamos seu app",

@@ -114,17 +114,17 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#', title='#{prices.rates.icons.statistics}')
-                                            i.icon.icon-chart-line
-                                            | !{prices.rates.statistics}
+                                        a(href='#', title='#{prices.rates.icons.more}')
+                                            i.icon.icon-ok
+                                            | !{prices.rates.more}
                                     li
-                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
-                                            i.icon.icon-megaphone
-                                            | !{prices.rates.no_bullhorn}
+                                        a(href='#', title='#{prices.rates.icons.wecreate}')
+                                            i.icon.icon-cog
+                                            | !{prices.rates.wecreate}
                                     li
-                                        a(href='#', title='#{prices.rates.icons.no_sign}')
-                                            i.icon.icon-pencil
-                                            | !{prices.rates.no_sign}
+                                        a(href='#', title='#{prices.rates.icons.course}')
+                                            i.icon.icon-graduation-cap
+                                            | !{prices.rates.course}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
@@ -214,17 +214,17 @@ block content
                                         //- MIXIN Use
                                         +webapp
                                     li
-                                        a(href='#', title='#{prices.rates.icons.statistics}')
-                                            i.icon.icon-chart-line
-                                            | !{prices.rates.statistics}
+                                        a(href='#', title='#{prices.rates.icons.more}')
+                                            i.icon.icon-ok
+                                            | !{prices.rates.more}
                                     li
-                                        a(href='#', title='#{prices.rates.icons.no_bullhorn}')
-                                            i.icon.icon-megaphone
-                                            | !{prices.rates.no_bullhorn}
+                                        a(href='#', title='#{prices.rates.icons.wecreate}')
+                                            i.icon.icon-cog
+                                            | !{prices.rates.wecreate}
                                     li
-                                        a(href='#', title='#{prices.rates.icons.no_sign}')
-                                            i.icon.icon-pencil
-                                            | !{prices.rates.no_sign}
+                                        a(href='#', title='#{prices.rates.icons.changes}')
+                                            i.icon.icon-graduation-cap
+                                            | !{prices.rates.course}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
@@ -238,10 +238,15 @@ block content
                                 span.monthless
                                     i.icon.icon-money
                                     | !{prices.rates.monthless}
-                .col-xs-12.tax.center
+                .col-xs-12.col-md-8.col-md-offset-2.tax
                     p
                         i.icon.icon-asterisk
                         | !{prices.rates.with_tax}
+                    p
+                        i.icon.icon-asterisk
+                        i.icon.icon-asterisk
+                        | !{prices.rates.changes}.
+                        | !{prices.rates.sticker}
 
                 // Common Features for all plans
                 .plans-head.text-center
