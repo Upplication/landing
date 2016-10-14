@@ -78,7 +78,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li.blog
                                 a.hide-tab(href='#{external.blog.url}', target='_blank', title='#{external.blog.title}') #{external.blog.anchor}
                             li.more
-                                a.lang-link(href='#', data-activates='dropdown-terms')
+                                a.lang-link(href='#{routing[_template][lang]}#', data-activates='dropdown-terms')
                                     | !{header.nav.info.info}
                                 ul#dropdown-terms.dropdown-content.notshow
                                     li
@@ -96,7 +96,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li.languages
                                 each language in langs.codes
                                     if lang == language.language_country
-                                        a.lang-link(href="#", data-activates='dropdown-lang')
+                                        a.lang-link(href="#{routing[_template][lang]}#", data-activates='dropdown-lang')
                                             i.icon.icon-globe
                                             | !{language.language_short_code}
                                 ul#dropdown-lang.dropdown-content.notshow

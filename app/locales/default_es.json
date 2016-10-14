@@ -766,11 +766,11 @@
     "_url": "/precios/",
     "rates": {
       "all_push": "Notificaciones push <strong>ilimitadas</strong>",
-      "app_web": "App y WebApp",
+      "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
-      "euro_month": "€ / mes",
-      "euro_year": "€ / año",
+      "euro_month": "€ / mes *",
+      "euro_year": "€ / año *",
       "four_push": "<strong>4</strong> notificaciones push / mes",
       "icons": {
         "all_push": "Notificaciones push ilimitadas",
@@ -781,7 +781,12 @@
         "no_sign": "Sin firma en las plantillas",
         "no_templates": "A medida, personalizada",
         "sign": "Firma en las plantillas",
-        "statistics": "Estadísticas de tu app"
+        "statistics": "Estadísticas de tu app",
+        "more": "Plan Profesional y además:",
+        "wecreate": "Nosotros hacemos tu app",
+        "changes": "3 cambios al año",
+        "course": "Curso de Marketing Apps",
+        "sticker": "Sticker for your workplace"
       },
       "subtitles": {
         "basic": "Plan para recién llegados.",
@@ -801,6 +806,12 @@
       "rate_sub": "Todos los planes incluyen:",
       "sign": "<strong>Firma</strong> en las plantillas",
       "statistics": "<strong>Estadísticas</strong> de tu app",
+      "more": "Plan <strong>Profesional</strong> y además:",
+      "wecreate": "Nosotros <strong>hacemos tu app</strong> **",
+      "changes": "<strong>3 cambios</strong> al año",
+      "course": "<strong>Curso</strong> de Marketing Apps",
+      "sticker": "<strong>Pegatina</strong> para tu local",
+      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
       "sub1": "Atención al cliente por teléfono y chat.",
       "sub2": "<span>Subida automática a los markets,</span> <span>nosotros subimos tu app.</span>",
       "sub3": "Web responsive multidispositivo.",

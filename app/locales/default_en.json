@@ -766,11 +766,11 @@
     "_url": "/prices/",
     "rates": {
       "all_push": "<strong>Unlimited</strong> push alerts",
-      "app_web": "App and WebApp",
+      "app_web": "Android / iOS / Web",
       "basic": "BASIC",
       "bullhorn": "Upplication <strong>Ads</strong>",
-      "euro_month": "€ / month",
-      "euro_year": "€ / year",
+      "euro_month": "€ / month *",
+      "euro_year": "€ / year *",
       "four_push": "<strong>4</strong> push alerts / month",
       "icons": {
         "all_push": "Unlimited push alerts",
@@ -781,7 +781,12 @@
         "no_sign": "No watermark on templates",
         "no_templates": "Custom App, personalized",
         "sign": "Watermark on templates",
-        "statistics": "Statistics of your app"
+        "statistics": "Statistics of your app",
+        "more": "All Professional features and:",
+        "wecreate": "We create your App",
+        "changes": "3 upgrades per year",
+        "course": "Marketing Apps free course",
+        "sticker": "Pegatina para tu local"
       },
       "subtitles": {
         "basic": "Starter Plan.",
@@ -801,6 +806,12 @@
       "rate_sub": "All pricing plans include:",
       "sign": "<strong>Watermark</strong> on templates",
       "statistics": "<strong>Statistics</strong> of your app",
+      "more": "All <strong>Professional</strong> features and:",
+      "wecreate": "<strong>We create</strong> your App **",
+      "changes": "<strong>3 upgrades</strong> per year",
+      "course": "Marketing Apps <strong>free course</strong>",
+      "sticker": "<strong>Sticker</strong> for your workplace",
+      "all_push": "<strong>Unlimited</strong> push alerts",
       "sub1": "Customer support by e-mail, chat, and phone.",
       "sub2": "<span>Automatic upload to all App Stores,</span> <span>we publish your app.</span>",
       "sub3": "Web responsive, supports multiple devices.",
