@@ -538,8 +538,7 @@
       // main top navbar dropdowns
       #dropdown-lang,
       #dropdown-terms {
-        margin-top: 51px;
-        margin-left: -6px;
+        margin-top: 10px;
         border: none;
 
         li {
@@ -559,8 +558,16 @@
         }
       }
 
-      #dropdown-lang.notshow {
-        display: none !important;
+      #dropdown-terms {
+        margin-left: 4%;
+      }
+
+      #dropdown-lang {
+        margin-left: 6%;
+
+        &.notshow {
+          display: none !important;
+        }
       }
     }
   }
@@ -587,21 +594,10 @@
           }
         }
       }
-
-      #dropdown-terms {
-        margin-left: 50px;
-
-        li {
-          border: none;
-
-          &:last-child {
-            border: none;
-          }
-        }
-      }
     }
   }
 }
+
 
 // MEDIA QUERIES :: Smartphone :: PORTRAIT
 @media only screen and (max-width : 320px) {
@@ -621,7 +617,7 @@
             }
 
             a {
-
+              max-width: inherit;
             }
           }
         }
@@ -629,13 +625,15 @@
 
       #dropdown-lang,
       #dropdown-terms {
+        margin-left: 0;
+
         li {
           border: none;
-        }
-      }
 
-      #dropdown-terms {
-        margin-left: -38px;
+          a {
+            text-align: center;
+          }
+        }
       }
     }
   }
