@@ -977,9 +977,9 @@
         "sticker": "Stiker untuk bisnis Anda"
       },
       "subtitles": {
-        "basic": "Selamat datang rencana.",
-        "professional": "Rencana peluncur bisnis.",
-        "create": "Kami membuat dan merancang aplikasi Anda."
+        "basic": "Selamat datang rencana",
+        "professional": "Rencana peluncur bisnis",
+        "premium": "Dimasukkan ke dalam orbit**"
       },
       "monthless": "Semua paket tahunan termasuk <strong>potongan dua bulan</strong>. Bayar sepuluh bulan dan terima dua belas bulan.",
       "monthly": "Paket bulanan",
@@ -989,14 +989,11 @@
       "no_templates": "<strong>Aplikasi Custom</strong>, terindividualisasi",
       "premiun": "PREMIUM",
       "professional": "PROFESIONAL",
-      "create": "KAMI MEMBUAT",
       "rate_intro": "Paket harga",
       "rate_sub": "Semua paket harga termasuk:",
       "sign": "<strong>Cap air</strong> pada pola",
       "statistics": "<strong>Statistik</strong> di aplikasi Anda",
       "more": "<strong>Premium</strong> Plan dan",
-      "wecreate": "<strong>kita buat</strong> aplikasi Anda **",
-      "changes": "<strong>3 meningkatkan</strong> per tahun",
       "course": "Marketing Apps <strong>kursus gratis</strong>",
       "sticker": "<strong>Stiker</strong> untuk bisnis Anda",
       "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
@@ -1007,7 +1004,8 @@
       "sub5": "Manejemen panel aplikasi anda.",
       "topsale": "Top sale",
       "unlimited": "TAK TERBATAS",
-      "with_tax": "Sudah termasuk <strong>PPN</strong>. <em>Kami membuat aplikasi anda</em> anda memiliki 6 bulan komitmen untuk tetap.",
+      "with_tax": "Sudah termasuk <strong>PPN</strong>.",
+      "permanence": "<em>Premium</em> anda memiliki 6 bulan komitmen untuk tetap.",
       "yearly": "Paket tahunan"
     }
   },
@@ -1168,7 +1166,7 @@
         "name": "Premium",
         "surname": "Dimasukkan ke dalam orbit",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -1208,7 +1206,7 @@
         "name": "Kita lakukan",
         "surname": "Kami membuat aplikasi anda.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Upplication kita lakukan aplikasi Anda"
         },
         "price": "79,90",

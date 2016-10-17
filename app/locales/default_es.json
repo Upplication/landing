@@ -786,12 +786,12 @@
         "wecreate": "Nosotros hacemos tu app",
         "changes": "3 cambios al año",
         "course": "Curso de Marketing Apps",
-        "sticker": "Sticker for your workplace"
+        "sticker": "Pegatina para tu local"
       },
       "subtitles": {
-        "basic": "Plan para recién llegados.",
-        "professional": "Plan para poner tu negocio en órbita.",
-        "create": "Desarrollamos y diseñamos tu app."
+        "basic": "Plan para recién llegados",
+        "professional": "Plan para que tu empresa despegue",
+        "premium": "Plan para poner tu negocio en órbita**"
       },
       "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
       "monthly": "Plan Mensual",
@@ -799,16 +799,13 @@
       "no_push": "<strong>Sin</strong> notificaciones push",
       "no_sign": "<strong>Sin</strong> firma en las plantillas",
       "no_templates": "<strong>A medida</strong>, personalizada",
-      "premiun": "PREMIUM",
+      "premium": "PREMIUM",
       "professional": "PROFESIONAL",
-      "create": "CREAMOS TU APP",
       "rate_intro": "Planes de precios",
       "rate_sub": "Todos los planes incluyen:",
       "sign": "<strong>Firma</strong> en las plantillas",
       "statistics": "<strong>Estadísticas</strong> de tu app",
       "more": "Plan <strong>Profesional</strong> y además:",
-      "wecreate": "Nosotros <strong>hacemos tu app</strong> **",
-      "changes": "<strong>3 cambios</strong> al año",
       "course": "<strong>Curso</strong> de Marketing Apps",
       "sticker": "<strong>Pegatina</strong> para tu local",
       "all_push": "Notificaciones push <strong>ilimitadas</strong>",
@@ -819,7 +816,8 @@
       "sub5": "Panel de gestión de tu app.",
       "topsale": "Más demandado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos los precios <strong>incluyen IVA</strong>. <em>Creamos tu App</em> tiene un periodo de permanencia de 6 meses",
+      "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
+      "permanence": "El plan <em>Premium</em> tiene un periodo de permanencia de 6 meses.",
       "yearly": "Plan Anual"
     }
   },
@@ -980,7 +978,7 @@
         "name": "Premium",
         "surname": "Plan para poner tu negocio en órbita.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -1020,7 +1018,7 @@
         "name": "Hacemos tu App",
         "surname": "Desarrollamos y diseñamos tu app.*",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Plan Hacemos tu App de Upplication"
         },
         "price": "79,90",

@@ -974,9 +974,9 @@
         "sticker": "Adesivo para você negócio"
       },
       "subtitles": {
-        "basic": "Plano de boas-vindas.",
-        "professional": "Plano de lançador de negócios.",
-        "create": "Nós criar e projetar seu aplicativo."
+        "basic": "Plano de boas-vindas",
+        "professional": "Plano de lançador de negócios",
+        "premium": "Colocar em órbita seu negócio**"
       },
       "monthless": "Com o Plano Anual <strong>pouparás dois meses</strong>. Paga dez meses em vez de doze.",
       "monthly": "Plano Mensal",
@@ -986,14 +986,11 @@
       "no_templates": "<strong>À medida</strong>, personalizada",
       "premiun": "PREMIUM",
       "professional": "PROFISSIONAL",
-      "create": "NOS CRIAMOS SEU APP",
       "rate_intro": "Planos de preços",
       "rate_sub": "Todos os planos incluem:",
       "sign": "<strong>Logo</strong> nas folhas de cálculo",
       "statistics": "<strong>Estadísticas</strong> da tua app",
       "more": "<strong>Premium</strong> plano e também:",
-      "wecreate": "<strong>Nós criamos</strong> seu app **",
-      "changes": "<strong>3 atualizações</strong> por ano",
       "course": "Marketing Apps <strong>curso gratuito</strong>",
       "sticker": "<strong>Adesivo</strong> para você negócio",
       "all_push": "Notificações push <strong>ilimitadas</strong>",
@@ -1004,7 +1001,8 @@
       "sub5": "Painel de gestão de seu aplicativo.",
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos os preços <strong>incluem IVA</strong>. <em>Nos criamos seu App</em> você tem 6 meses compromisso de permanência.",
+      "with_tax": "Todos os preços <strong>incluem IVA</strong>.",
+      "permanence": "<em>Premium</em> você tem 6 meses compromisso de permanência.",
       "yearly": "Plano Anual"
     }
   },
@@ -1165,7 +1163,7 @@
         "name": "Premium",
         "surname": "Colocar em órbita seu negócio",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -1205,7 +1203,7 @@
         "name": "Nós criamos seu app",
         "surname": "Nós criar e projetar seu aplicativo.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Upplication We create your App plan"
         },
         "price": "79,90",

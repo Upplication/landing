@@ -102,8 +102,8 @@ block content
                                     i.icon.icon-left.hover-anim
                         .col-xs-12.col-md-4.mobile-prices(data-aos='flip-right')
                             .pricing-table-grid.pricing-table-custom.center-img
-                                h3 #{prices.rates.create}
-                                h5 #{prices.rates.subtitles.create}
+                                h3 #{prices.rates.premium}
+                                h5 #{prices.rates.subtitles.premium}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-gold.svg', alt='#{prices.rates.subtitles.create}', title='#{prices.rates.subtitles.create}')
                                 ul
                                     li
@@ -118,13 +118,13 @@ block content
                                             i.icon.icon-ok
                                             | !{prices.rates.more}
                                     li
-                                        a(href='#', title='#{prices.rates.icons.wecreate}')
-                                            i.icon.icon-cog
-                                            | !{prices.rates.wecreate}
-                                    li
                                         a(href='#', title='#{prices.rates.icons.course}')
                                             i.icon.icon-graduation-cap
                                             | !{prices.rates.course}
+                                    li
+                                        a(href='#', title='#{prices.rates.icons.sticker}')
+                                            i.icon.icon-certificate
+                                            | !{prices.rates.sticker}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
@@ -202,8 +202,8 @@ block content
                                     i.icon.icon-left.hover-anim
                         .col-xs-12.col-md-4.mobile-prices(data-aos='flip-right')
                             .pricing-table-grid.pricing-table-custom.center-img
-                                h3 #{prices.rates.create}
-                                h5 #{prices.rates.subtitles.create}
+                                h3 #{prices.rates.premium}
+                                h5 #{prices.rates.subtitles.premium}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-gold.svg', alt='#{prices.rates.subtitles.create}', title='#{prices.rates.subtitles.create}')
                                 ul
                                     li
@@ -218,13 +218,13 @@ block content
                                             i.icon.icon-ok
                                             | !{prices.rates.more}
                                     li
-                                        a(href='#', title='#{prices.rates.icons.wecreate}')
-                                            i.icon.icon-cog
-                                            | !{prices.rates.wecreate}
-                                    li
-                                        a(href='#', title='#{prices.rates.icons.changes}')
+                                        a(href='#', title='#{prices.rates.icons.course}')
                                             i.icon.icon-graduation-cap
                                             | !{prices.rates.course}
+                                    li
+                                        a(href='#', title='#{prices.rates.icons.sticker}')
+                                            i.icon.icon-certificate
+                                            | !{prices.rates.sticker}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
                                             i.icon.icon-paper-plane
@@ -238,15 +238,14 @@ block content
                                 span.monthless
                                     i.icon.icon-money
                                     | !{prices.rates.monthless}
-                .col-xs-12.col-md-8.col-md-offset-2.tax
+                .col-xs-12.col-md-8.col-md-offset-3.tax
                     p
                         i.icon.icon-asterisk
                         | !{prices.rates.with_tax}
                     p
                         i.icon.icon-asterisk
                         i.icon.icon-asterisk
-                        | !{prices.rates.changes}.
-                        | !{prices.rates.sticker}
+                        | !{prices.rates.permanence}
 
                 // Common Features for all plans
                 .plans-head.text-center

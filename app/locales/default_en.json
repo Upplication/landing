@@ -786,12 +786,12 @@
         "wecreate": "We create your App",
         "changes": "3 upgrades per year",
         "course": "Marketing Apps free course",
-        "sticker": "Pegatina para tu local"
+        "sticker": "Sticker for your workplace"
       },
       "subtitles": {
-        "basic": "Starter Plan.",
-        "professional": "Business launcher Plan.",
-        "create": "We create & design your App."
+        "basic": "Starter Plan",
+        "professional": "Business launcher Plan",
+        "premium": "To put your business in orbit**"
       },
       "monthless": "All annual plans include a <strong> two-month discount</strong>. Pay for ten months and receive twelve.",
       "monthly": "Monthly plan",
@@ -801,14 +801,11 @@
       "no_templates": "<strong>Custom App</strong>, personalized",
       "premiun": "PREMIUM",
       "professional": "PROFFESIONAL",
-      "create": "WE CREATE YOUR APP",
       "rate_intro": "Pricing plans",
       "rate_sub": "All pricing plans include:",
       "sign": "<strong>Watermark</strong> on templates",
       "statistics": "<strong>Statistics</strong> of your app",
       "more": "All <strong>Professional</strong> features and:",
-      "wecreate": "<strong>We create</strong> your App **",
-      "changes": "<strong>3 upgrades</strong> per year",
       "course": "Marketing Apps <strong>free course</strong>",
       "sticker": "<strong>Sticker</strong> for your workplace",
       "all_push": "<strong>Unlimited</strong> push alerts",
@@ -819,7 +816,8 @@
       "sub5": "Management panel your App.",
       "topsale": "Top sale",
       "unlimited": "UNLIMITED",
-      "with_tax": "<strong>VAT included</strong> in all prices. <em>We create your App</em> have a 6 mounths commitment of permanence",
+      "with_tax": "<strong>VAT included</strong> in all prices.",
+      "permanence": "<em>Premium</em> Plan have a 6 mounths commitment of permanence.",
       "yearly": "Annual plan"
     }
   },
@@ -980,7 +978,7 @@
         "name": "Premium",
         "surname": "To put your business in orbit",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -1020,7 +1018,7 @@
         "name": "We create your App",
         "surname": "We create & design your App.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Upplication We create your App plan"
         },
         "price": "79,90",
