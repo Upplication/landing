@@ -158,24 +158,6 @@
       "desc": "Todos y cada uno de los compañeros que formamos Upplication vamos a poner todo nuestro empeño en conseguir que obtengas la mejor experiencia de soporte técnico que esté en nuestras manos. Si tienes cualquier problema cuenta con nosotros.",
       "title": "¡Estamos para ayudarte!"
     },
-    "testimonials": {
-      "client1": {
-        "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
-        "name": "Sandra y Paloma, <span>Asis & Gross</span>",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
-      },
-      "client2": {
-        "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
-        "name": "Pablo, <span>Fisiohogar</span>",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
-      },
-      "client3": {
-        "quote": "Gracias a la app, hemos conseguido fidelizar de manera muy directa a nuestros clientes. Además, el equipo de Upplication te asesora, te guía, te recomienda. Mi negocio ha crecido muchísimo.",
-        "name": "Jesús, <span>Serafina Cocina Bar</span>",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
-      },
-      "title": "<span>Casos de</span> éxito"
-    },
     "try": "¡Crea tu aplicación ahora!<br/>15 días de prueba gratis con ayuda personalizada",
     "vodafone": {
       "logo": "Logotipo Vodafone"
@@ -189,49 +171,6 @@
       },
       "loyal": "<strong>Fideliza</strong> a tus clientes",
       "others": "<strong>Diferénciate</strong> de la competencia"
-    },
-    "successful_showcase": {
-      "img": {
-        "blocks_bg4": "Aplicación móvil Asis & Gross."
-      },
-      "download" : {
-        "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
-        "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
-        "google_play": "Disponible en Google Play para <span>Android</span>",
-        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
-      },
-      "samples": {
-        "title": "<span>Otros</span> casos de éxito",
-        "sample1": "Saber más sobre Asis & Gross",
-        "sample1_url": "@@config.base_path/asis-and-gross/",
-        "sample2": "Saber más sobre Fisiohogar",
-        "sample2_url": "@@config.base_path/fisiohogar/",
-        "sample3": "Saber más sobre Serafina cocina bar",
-        "sample3_url": "@@config.base_path/serafina-cocina-bar/"
-      }
-
-    },
-    "successful_showcase_services" : {
-      "img": {
-        "blocks_bg4": "Aplicación móvil de Fisiohogar."
-      },
-      "download" : {
-        "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
-        "app_store_url": "https://itunes.apple.com/es/app/fisio-en-tu-movil/id874340902?mt=8",
-        "google_play": "Disponible en Google Play para <span>Android</span>",
-        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android3563"
-      }
-    },
-    "successful_showcase_restaurant" : {
-      "img": {
-        "blocks_bg4": "Aplicación móvil de Serafina."
-      },
-      "download" : {
-        "app_store": "Disponible para iPhone e iPad en <span>Apple Store</span>",
-        "app_store_url": "https://itunes.apple.com/es/app/serafina-cocina-bar/id1033235573?mt=8",
-        "google_play": "Disponible en Google Play para <span>Android</span>",
-        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android14000"
-      }
     }
   }
 }

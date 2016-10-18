@@ -1,0 +1,36 @@
+// -CLIENTS :: new testimonial area
+#about.about
+    .col.s12.center-align.team-header
+        h4.headTitles !{testimonials.title}
+    .about-grids.row
+        .col.m4.about-grid.about-grid1(data-aos='fade-down')
+            .about-grid-info
+                h4 !{testimonials.client1.name}
+                p #{testimonials.client1.quote}
+                p.grid-link
+                    a(href="#{testimonials.client1.url}", alt='#{testimonials.client1.more}', title="#{testimonials.client1.more}") #{testimonials.client1.more}
+                        i.icon.icon-left
+            .about-grid-pic
+                .video-container
+                    .youtube-player(data-id='LluyPqRVGC4')
+        .col.m4.about-grid.about-grid2(data-aos='fade-up')
+            .about-grid-pic
+                .video-container
+                    .youtube-player(data-id='pbWm6NaZfbY')
+            .about-grid-info
+                h4 !{testimonials.client2.name}
+                p #{testimonials.client2.quote}
+                p.grid-link
+                    a(href="#{testimonials.client2.url}", alt='#{testimonials.client2.more}', title="#{testimonials.client2.more}") #{testimonials.client2.more}
+                        i.icon.icon-left
+        .col.m4.about-grid.about-grid1(data-aos='fade-down')
+            .about-grid-info
+                h4 !{testimonials.client3.name}
+                p #{testimonials.client3.quote}
+                p.grid-link
+                    a(href="#{testimonials.client3.url}", target="_blank", alt='#{testimonials.client3.more}', title="#{testimonials.client3.more}") #{testimonials.client3.more}
+                        i.icon.icon-left
+            .about-grid-pic
+                .video-container
+                    .youtube-player(data-id='NyRm-ttbKeM')
+        .clearfix
