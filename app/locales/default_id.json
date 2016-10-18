@@ -757,6 +757,27 @@
   "icons": {
     "check": "done"
   },
+  "testimonials": {
+    "client1": {
+      "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+      "name": "Sandra dan Paloma, <span>Asis & Gross</span>",
+      "more": "Lebih tentang Asis & Gross",
+      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase-id/"
+    },
+    "client2": {
+      "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+      "name": "Pablo, <span>Fisiohogar</span>",
+      "more": "Lebih tentang Fisiohogar",
+      "url": "@@config.base_path/fisiohogar-sucessfull-showcase-id/"
+    },
+    "client3": {
+      "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+      "name": "Menemukan <span>Facebook onboarding</span>",
+      "more": "Lebih tentang Facebook onboarding",
+      "url": "https://youtu.be/NyRm-ttbKeM"
+    },
+    "title": "<span>Cerita-cerita</span> sukses"
+  },
   "internal_server_error": {
     "_keywords": "error, 500, error 500, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "500 internal server error in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
