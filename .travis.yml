@@ -8,7 +8,7 @@ before_install:
 before_script:
   - chmod a+x ./netlify_deploy.sh
 script:
-  - if [ "$TRAVIS_BRANCH" == "develop" ]; then gulp deploy --env=landing.dev.upplication.com --config.base_path=//landing.dev.upplication.com; fi
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then gulp deploy --env=upplication.com --type=production; fi
+  - if [[ "$TRAVIS_BRANCH" == "develop" && "$TRAVIS_PULL_REQUEST" == "false" ]]; then gulp deploy --env=landing.dev.upplication.com --config.base_path=//landing.dev.upplication.com; fi
+  - if [[ "$TRAVIS_BRANCH" == "master" && "$TRAVIS_PULL_REQUEST" == "false" ]]; then gulp deploy --env=upplication.com --type=production; fi
 after_success:
   - ./netlify_deploy.sh

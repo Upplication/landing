@@ -756,6 +756,27 @@
   "icons": {
     "check": "done"
   },
+  "testimonials": {
+    "client1": {
+      "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+      "name": "Sandra e Paloma, <span>Asis & Gross</span>",
+      "more": "Mais sobre Asis & Gross",
+      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
+    },
+    "client2": {
+      "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+      "name": "Pablo, <span>Fisiohogar</span>",
+      "more": "Mais sobre Fisiohogar",
+      "url": "@@config.base_path/fisiohogar-caso-bem-sucedido/"
+    },
+    "client3": {
+      "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+      "name": "Descobrir <span>Facebook onboarding</span>",
+      "more": "Mais sobre Facebook onboarding",
+      "url": "https://youtu.be/NyRm-ttbKeM"
+    },
+    "title": "<span>Histórias de</span> sucesso"
+  },
   "internal_server_error": {
     "_keywords": "erro, 500, erro 500, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "500 erro interno do servidor em Upplication - criador de apps online fácil de utilizar, rápido e sem conhecimentos de programação.",
@@ -951,11 +972,11 @@
     "_url": "/preços/",
     "rates": {
       "all_push": "Notificações push <strong>ilimitadas</strong>",
-      "app_web": "App e WebApp",
+      "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
-      "euro_month": "€ / mês",
-      "euro_year": "€ / ano",
+      "euro_month": "€ / mês *",
+      "euro_year": "€ / ano *",
       "four_push": "<strong>4</strong> notificações push / mês",
       "icons": {
         "all_push": "Notificações push ilimitadas",
@@ -966,12 +987,17 @@
         "no_sign": "Sem logo nas folhas de cálculo",
         "no_templates": "À medida, personalizada",
         "sign": "Logo nas folhas de cálculo",
-        "statistics": "Estadísticas da tua app"
+        "statistics": "Estadísticas da tua app",
+        "more": "Premium Plan e também:",
+        "wecreate": "Nós criamos seu app",
+        "changes": "3 atualizações por ano",
+        "course": "Marketing Apps curso gratuito",
+        "sticker": "Adesivo para você negócio"
       },
       "subtitles": {
-        "basic": "Plano de boas-vindas.",
-        "professional": "Plano de lançador de negócios.",
-        "create": "Nós criar e projetar seu aplicativo."
+        "basic": "Plano de boas-vindas",
+        "professional": "Plano de lançador de negócios",
+        "premium": "Colocar em órbita seu negócio**"
       },
       "monthless": "Com o Plano Anual <strong>pouparás dois meses</strong>. Paga dez meses em vez de doze.",
       "monthly": "Plano Mensal",
@@ -981,11 +1007,14 @@
       "no_templates": "<strong>À medida</strong>, personalizada",
       "premiun": "PREMIUM",
       "professional": "PROFISSIONAL",
-      "create": "NOS CRIAMOS SEU APP",
       "rate_intro": "Planos de preços",
       "rate_sub": "Todos os planos incluem:",
       "sign": "<strong>Logo</strong> nas folhas de cálculo",
       "statistics": "<strong>Estadísticas</strong> da tua app",
+      "more": "<strong>Premium</strong> plano e também:",
+      "course": "Marketing Apps <strong>curso gratuito</strong>",
+      "sticker": "<strong>Adesivo</strong> para você negócio",
+      "all_push": "Notificações push <strong>ilimitadas</strong>",
       "sub1": "Atenção ao cliente por telefone e chat.",
       "sub2": "<span>Upload automático aos markets,</span> <span>nós fazemos o upload da tua app.</span>",
       "sub3": "Web responsive multidispositivo.",
@@ -993,7 +1022,8 @@
       "sub5": "Painel de gestão de seu aplicativo.",
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos os preços <strong>incluem IVA</strong>. <em>Nos criamos seu App</em> você tem 6 meses compromisso de permanência.",
+      "with_tax": "Todos os preços <strong>incluem IVA</strong>.",
+      "permanence": "<em>Premium</em> você tem 6 meses compromisso de permanência.",
       "yearly": "Plano Anual"
     }
   },
@@ -1136,25 +1166,25 @@
           },
           {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">Sin</span><span>publicidad Upplication</span>"
+            "title": "<span class=\"bold\">Sem</span><span> publicidade Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Sin</span><span>firma en las plantillas</span>"
+            "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de cálculo</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "Alertas ilimitadas"
+            "title": "Alertas sem limite"
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Estadísticas de tu app"
+            "title": "Estatísticas da tua app"
           }
         ],
         "name": "Premium",
         "surname": "Colocar em órbita seu negócio",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -1172,29 +1202,29 @@
           },
           {
             "icon_class": "icon icon-ok",
-            "title": "<span class=\"bold\">Premium Plan</span><span>and:</span>"
+            "title": "<span class=\"bold\">Premium Plan</span><span>e:</span>"
           },
           {
             "icon_class": "icon icon-cog",
-            "title": "<span class=\"bold\">We create</span><span>your app</span>"
+            "title": "<span class=\"bold\">Nós criamos</span><span>seu app</span>"
           },
           {
             "icon_class": "icon icon-ccw",
-            "title": "<span class=\"bold\">3</span><span>upgrades per year</span>"
+            "title": "<span class=\"bold\">3</span><span>atualizações por ano</span>"
           },
           {
             "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Marketing Apps</span><span>free course</span>"
+            "title": "<span class=\"bold\">Marketing Apps</span><span>curso gratuito</span>"
           },
           {
             "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">Sticker</span><span>for your workplace</span>"
+            "title": "<span class=\"bold\">Adesivo</span><span>para você negócio</span>"
           }
         ],
         "name": "Nós criamos seu app",
         "surname": "Nós criar e projetar seu aplicativo.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Upplication We create your App plan"
         },
         "price": "79,90",

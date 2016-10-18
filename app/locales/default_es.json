@@ -569,6 +569,27 @@
   "icons": {
     "check": "done"
   },
+  "testimonials": {
+    "client1": {
+      "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+      "name": "Sandra y Paloma, <span>Asis & Gross</span>",
+      "more": "Saber más sobre Asis & Gross",
+      "url": "@@config.base_path/asis-and-gross/"
+    },
+    "client2": {
+      "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+      "name": "Pablo, <span>Fisiohogar</span>",
+      "more": "Saber más sobre Fisiohogar",
+      "url": "@@config.base_path/fisiohogar/"
+    },
+    "client3": {
+      "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+      "name": "¡Descubre <span>Facebook onboarding</span>!",
+      "more": "Saber más sobre Facebook onboarding",
+      "url": "https://youtu.be/NyRm-ttbKeM"
+    },
+    "title": "<span>Casos de</span> éxito"
+  },
   "internal_server_error": {
     "_keywords": "error, 500, error 500, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "500 error interno del servidor en Upplication - creador de apps online fácil de usar, rápido y sin conocimientos de programación.",
@@ -766,11 +787,11 @@
     "_url": "/precios/",
     "rates": {
       "all_push": "Notificaciones push <strong>ilimitadas</strong>",
-      "app_web": "App y WebApp",
+      "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
-      "euro_month": "€ / mes",
-      "euro_year": "€ / año",
+      "euro_month": "€ / mes *",
+      "euro_year": "€ / año *",
       "four_push": "<strong>4</strong> notificaciones push / mes",
       "icons": {
         "all_push": "Notificaciones push ilimitadas",
@@ -781,12 +802,17 @@
         "no_sign": "Sin firma en las plantillas",
         "no_templates": "A medida, personalizada",
         "sign": "Firma en las plantillas",
-        "statistics": "Estadísticas de tu app"
+        "statistics": "Estadísticas de tu app",
+        "more": "Plan Profesional y además:",
+        "wecreate": "Nosotros hacemos tu app",
+        "changes": "3 cambios al año",
+        "course": "Curso de Marketing Apps",
+        "sticker": "Pegatina para tu local"
       },
       "subtitles": {
-        "basic": "Plan para recién llegados.",
-        "professional": "Plan para poner tu negocio en órbita.",
-        "create": "Desarrollamos y diseñamos tu app."
+        "basic": "Plan para recién llegados",
+        "professional": "Plan para que tu empresa despegue",
+        "premium": "Plan para poner tu negocio en órbita**"
       },
       "monthless": "Con el Plan Anual te <strong>ahorrarás dos meses</strong>. Paga diez meses en vez de doce.",
       "monthly": "Plan Mensual",
@@ -794,13 +820,16 @@
       "no_push": "<strong>Sin</strong> notificaciones push",
       "no_sign": "<strong>Sin</strong> firma en las plantillas",
       "no_templates": "<strong>A medida</strong>, personalizada",
-      "premiun": "PREMIUM",
+      "premium": "PREMIUM",
       "professional": "PROFESIONAL",
-      "create": "CREAMOS TU APP",
       "rate_intro": "Planes de precios",
       "rate_sub": "Todos los planes incluyen:",
       "sign": "<strong>Firma</strong> en las plantillas",
       "statistics": "<strong>Estadísticas</strong> de tu app",
+      "more": "Plan <strong>Profesional</strong> y además:",
+      "course": "<strong>Curso</strong> de Marketing Apps",
+      "sticker": "<strong>Pegatina</strong> para tu local",
+      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
       "sub1": "Atención al cliente por teléfono y chat.",
       "sub2": "<span>Subida automática a los markets,</span> <span>nosotros subimos tu app.</span>",
       "sub3": "Web responsive multidispositivo.",
@@ -808,7 +837,8 @@
       "sub5": "Panel de gestión de tu app.",
       "topsale": "Más demandado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos los precios <strong>incluyen IVA</strong>. <em>Creamos tu App</em> tiene un periodo de permanencia de 6 meses",
+      "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
+      "permanence": "El plan <em>Premium</em> tiene un periodo de permanencia de 6 meses.",
       "yearly": "Plan Anual"
     }
   },
@@ -969,7 +999,7 @@
         "name": "Premium",
         "surname": "Plan para poner tu negocio en órbita.",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -1009,7 +1039,7 @@
         "name": "Hacemos tu App",
         "surname": "Desarrollamos y diseñamos tu app.*",
         "img": {
-          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Plan Hacemos tu App de Upplication"
         },
         "price": "79,90",
