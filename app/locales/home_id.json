@@ -158,19 +158,16 @@
     },
     "testimonials": {
       "client1": {
-        "quote": "Layanan pelanggan melalui telepon dan daring sangat baik. Saya telah mendapat banyak pelanggan karena aplikasi saya.",
-        "name": "Ana, C,UP Pilihan Anda diutamakan",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
+        "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+        "name": "Sandra dan Paloma, <span>Asis & Gross</span>"
       },
       "client2": {
-        "quote": "Pelanggan melakukan reservasi dan melihat menu dalam aplikasi saya. Saya mengelola pekerjaan bisnis harian saya dengan Upplication.",
-        "name": "David, Trapatapa Bar",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
+        "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+        "name": "Pablo, <span>Fisiohogar</span>"
       },
       "client3": {
-        "quote": "Ini alat yang paling akrab pengguna yang pernah saya coba. Mengelola aplikasi saya sangat mudah. Tambahan, Upplication terus berkembang tiap minggunya.",
-        "name": "Gabriel, Moto Urban",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
+        "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+        "name": "Menemukan <span>Facebook onboarding</span>"
       },
       "title": "<span>Cerita-cerita</span> sukses"
     },

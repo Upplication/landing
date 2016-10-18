@@ -160,19 +160,16 @@
     },
     "testimonials": {
       "client1": {
-        "quote": "Excellent online and phone customer service. I have secured many customers thanks to my app.",
-        "name": "Ana, C,UP Your choice on top",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
+        "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+        "name": "Sandra & Paloma, <span>Asis & Gross</span>"
       },
       "client2": {
-        "quote": "Customers make reservations and see the menu in my app. I manage my daily business tasks with Upplication.",
-        "name": "David, Trapatapa Bar",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
+        "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+        "name": "Pablo, <span>Fisiohogar</span>"
       },
       "client3": {
-        "quote": "It is the most user friendly tool I have ever tried. Managing my app is very easy. Additionally, Upplication keeps improving weekly.",
-        "name": "Gabriel, Moto Urban",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
+        "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+        "name": "Discover <span>Facebook onboarding</span>!"
       },
       "title": "Success <span>stories</span>"
     },
@@ -189,23 +186,6 @@
       },
       "loyal": "<strong>Ensure</strong> customer's loyalty",
       "others": "<strong>Differentiate</strong> from your competitors"
-    },
-    "successful_showcase": {
-      "download" : {
-        "app_store": "Available on the iPhone & iPad at the <span>Apple Store</span>",
-        "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
-        "google_play": "Available at the Google Play for <span>Android</span>",
-        "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
-      },
-      "samples": {
-        "title": "<span>Another</span> successful App showcases",
-        "sample1": "More about Asis & Gross",
-        "sample1_url": "@@config.base_path/asis-and-gross-sucessfull-showcase/",
-        "sample2": "More about Fisiohogar",
-        "sample2_url": "@@config.base_path/fisiohogar-sucessfull-showcase/",
-        "sample3": "More about Serafina cocina bar",
-        "sample3_url": "@@config.base_path/serafina-sucessfull-showcase/"
-      }
     }
   }
 }

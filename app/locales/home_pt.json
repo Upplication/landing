@@ -158,19 +158,16 @@
     },
     "testimonials": {
       "client1": {
-        "quote": "Excelente atenção ao cliente online e telefónica. Com a minha app consegui fidelizar muitos dos meus clientes.",
-        "name": "Ana, C, UP Your choice on top",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
+        "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+        "name": "Sandra e Paloma, <span>Asis & Gross</span>"
       },
       "client2": {
-        "quote": "Os meus clientes reservam mesa e veem a ementa do meu bar a partir da app. Com Upplication giro o dia a dia do meu negócio em poucos minutos.",
-        "name": "David, Bar Trapatapa",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
+        "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+        "name": "Pablo, <span>Fisiohogar</span>"
       },
       "client3": {
-        "quote": "A ferramenta mais intuitiva que experimentei. Gerir a minha app é muito simples. Além disso, Upplication não pára de melhorar semana a semana.",
-        "name": "Gabriel, Moto Urban",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
+        "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+        "name": "Descobrir <span>Facebook onboarding</span>"
       },
       "title": "<span>Histórias de</span> sucesso"
     },
