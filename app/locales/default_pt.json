@@ -1264,14 +1264,13 @@
       "general": "Erro geral",
       "num1": "Espetacular! Acabaste o registo",
       "num10": "O e-mail ou o nome da app estão por preencher",
+      "num11": "Nome do aplicativo não é correto, tente remover caracteres especiais",
       "num2": "Erro ao criar a app, por favor entra em contacto connosco",
       "num3": "Este e-mail já está registado",
       "num4": "Esse nome de app já foi escolhido",
       "num5": "O código seller não está correto",
       "num6": "Nome da app e e-mail já registados",
-      "num7": "O nome da app já foi escolhido e o código seller não é correto",
-      "num8": "O e-mail já está registado e o código seller não é correto",
-      "num9": "O nome da app, o e-mail e código seller não são corretos"
+      "num7": "O nome da app já foi escolhido e o código seller não é correto"
     },
     "loading": "Carregando...",
     "password": "Senha",

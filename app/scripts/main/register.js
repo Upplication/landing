@@ -120,6 +120,15 @@ $(function () {
                             //SOME_PARAMETER_NULL_ERROR
                             error.general = ajax.error[10];
                             break;
+                        case 11:
+                            //NAME_INVALID_ERROR
+                            error.appName = ajax.error[11];
+                            break;
+                        case 12:
+                            //NAME_INVALID_AND_DUPLICATED_EMAIL_ERROR
+                            error.appName = ajax.error[11];
+                            error.email = ajax.error[3];
+                            break;
                     }
 
                     fn(this, error);
