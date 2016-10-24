@@ -1268,14 +1268,13 @@
       "general": "Kesalahan umum",
       "num1": "Keren! Registrasi selesai",
       "num10": "Tolong lengkapi bagian nama aplikasi dan akun e-mail lagi",
+      "num11": "Nama aplikasi tidak valid, mencoba menghapus karakter khusus",
       "num2": "Terjadi kesalahan saat membuat aplikasi Anda, silakan hubungi kami",
       "num3": "Akun email ini telah terdaftar di Upplication",
       "num4": "Nama aplikasi sudah digunakan",
       "num5": "Kode penjual salah",
       "num6": "Nama aplikasi dan akun sudah digunakan",
-      "num7": "Nama aplikasi sudah digunakan dan kode penjual salah",
-      "num8": "Akun E-mail sudah digunakan dank ode penjual salah",
-      "num9": "Nama aplikasi, akun e-mail dan kode penjual salah"
+      "num7": "Nama aplikasi sudah digunakan dan kode penjual salah"
     },
     "loading": "Memuat...",
     "password": "Password",
