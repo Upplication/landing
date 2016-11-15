@@ -2,12 +2,11 @@
   "name": "landing-upplication",
   "version": "3.5.5",
   "dependencies": {
-    "bootstrap": "~3.1.1",
     "jquery": "~2.1.4",
     "materialize": "~0.97.0",
     "owlcarousel": "1.3.2",
     "typed.js": "~1.1.1",
-    "upplication-icons": "upplication/icons#~1.0.2",
+    "upplication-icons": "upplication/icons#~1.0.11",
     "aos": "^2.1.0"
   }
 }
