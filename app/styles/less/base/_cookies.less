@@ -27,17 +27,21 @@
 
   i {
     float: left;
-    padding-right: 15px;
     top: 0;
     cursor: pointer;
+    .anim-all-250;
 
     &:hover {
-      opacity: .5;
+      color: @darkest-lilac;
+      top: -2px;
+      .rotate-180;
     }
   }
 
   p {
     margin: 0 0 10px;
+    position: relative;
+    left: 10px;
 
     a {
       font-weight: 600;
