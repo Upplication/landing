@@ -193,12 +193,14 @@ button.btn-upp {
   background-color: @accept-btn;
   color: @white;
   border-radius: 0;
-}
 
-a.btn-upp:hover,
-button.btn-upp:hover {
-  background-color: @accept-btn-hover;
-  color: @white;
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    background-color: @accept-btn-hover;
+    color: @white;
+  }
 }
 
 /* ... to add Block styles... */
