@@ -17,7 +17,6 @@
   background-position: center center;
 }
 
-
 /* ... Head TITLE ... */
 .team-header {
   margin-top: 8em;
@@ -219,9 +218,15 @@
       font-size: 26px;
     }
 
+    // chairmen job-position icon
     .team-job {
+      padding: 14px 6px 4px 6px;
       top: 50px;
       right: 150px;
+
+      i:before {
+        font-size: 1.6em;
+      }
     }
 
     .team-rrss {
@@ -251,12 +256,19 @@
       font-size: 23px;
       padding: 4px 7px 5px 6px;
 
+      // all departments employees
       &.team-dev,
       &.team-sales,
       &.team-support,
       &.team-design {
         top: 40px;
         right: 110px;
+      }
+
+      // last one: for hiring
+      &.team-new {
+        padding: 4px 8px 4px 8px;
+        right: 62px;
       }
     }
 
@@ -272,12 +284,6 @@
         top: 150px;
         left: 92px;
       }
-    }
-
-    a.team-new {
-      padding: 4px 8px 4px 8px;
-      top: 40px;
-      right: 62px;
     }
   }
 }
