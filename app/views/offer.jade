@@ -27,14 +27,18 @@ block content
                 p #{offer.technologies.intro}
                 ul
                     each tech, i in offer.technologies.list
-                        li #{tech}
+                        li
+                            i.icon.icon-dot
+                            | #{tech}
                 p #{offer.technologies.note}
 
             .weoffer.offer-jobs-text(data-aos='fade-right')
                 p #{offer.weoffer.intro}
                 ul
                     each weoffer, i in offer.weoffer.list
-                        li #{weoffer}
+                        li
+                            i.icon.icon-dot
+                            | #{weoffer}
 
             .wewantyou.offer-jobs-text(data-aos='fade-left')
                 p !{offer.wewanttomeetyou}
