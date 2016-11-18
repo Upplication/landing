@@ -114,14 +114,14 @@
         "rest_intro": "Ciptakan aplikasi Android dan iPhone <span>restoran</span> Anda dan tambahkan nilai untuk pelanggan Anda"
       },
       "restaurants": "perhotelan",
-      "serv": "<em>Jasa</em> Profesional",
+      "serv": "Jasa",
       "serv_alt": "Jasa Profesional",
       "services": {
         "serv_details1": "Memungkinkan klien Anda <span>menyewa jasa Anda</span> dimana saja.",
         "serv_details2": "Tunjukkan <span>jadwal layana</span>n Anda di ponsel pelanggan Anda.",
         "serv_details3": "Unggah <span>video dan gambar</span> untuk mempromosikan jasa Anda.",
         "serv_details4": "Kirim penawaran eksklusif dengan <span>pemberitahuan pesan push</span>.",
-        "serv_intro": "Ciptakan suatu <span>aplikasi untuk jasa Anda</span> dan hubungkan dengan pelanggan Anda di ponsel mereka"
+        "serv_intro": "Ciptakan suatu <span>aplikasi untuk jasa profesional Anda</span> dan hubungkan dengan pelanggan Anda di ponsel mereka"
       },
       "shop": {
         "shop_details1": "Integrasikan gerbang pembayaran dalam hitungan menit dan <span>mulai menjual</span>.",

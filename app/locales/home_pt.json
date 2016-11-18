@@ -114,14 +114,14 @@
         "rest_intro": "Cria a app Android e iPhone do teu restaurante e <span>aporta valor ao teu cliente</span>."
       },
       "restaurants": "Hotelaria",
-      "serv": "<em>Serviços</em> Profissionais",
+      "serv": "Serviços",
       "serv_alt": "Serviços Profissionais",
       "services": {
         "serv_details1": "Faz com que os teus clientes possam <span>contratar os teus serviços</span> em qualquer lugar.",
         "serv_details2": "Mostra os <span>horários dos teus serviços</span> no telemóvel dos teus clientes",
         "serv_details3": "Faz upload de <span>vídeos e fotografias</span> que promovem os teus serviços.",
         "serv_details4": "Envia ofertas exclusivas com os <span>alertas push</span>",
-        "serv_intro": "Cria a <span>app dos teus serviços</span> e conecta com o teu cliente no telemóvel"
+        "serv_intro": "Cria a <span>app dos teus serviços profissionais</span> e conecta com o teu cliente no telemóvel"
       },
       "shop": {
         "shop_details1": "Integra a passarela de pagamento em questão de minutos e <span>começa a vender</span>",

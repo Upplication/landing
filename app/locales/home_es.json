@@ -116,14 +116,14 @@
         "rest_intro": "Crea la app Android y iPhone de tu restaurante y <span>fideliza a tus clientes</span>"
       },
       "restaurants": "Hostelería",
-      "serv": "<em>Servicios</em> Profesionales",
+      "serv": "Servicios",
       "serv_alt": "Servicios Profesionales",
       "services": {
         "serv_details1": "Contratarán tus servicios en <span>cualquier lugar y a cualquier hora</span>, justo cuando lo necesitan.",
         "serv_details2": "Envía ofertas exclusivas con las <span>alertas push</span>.",
         "serv_details3": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes.",
         "serv_details4": "<span>Promociona tus servicios</span> añadiendo vídeos y fotografías.",
-        "serv_intro": "Crea la <span>app de tus servicios</span> y conecta con tu cliente en su móvil"
+        "serv_intro": "Crea la <span>app de tus servicios profesionales</span> y conecta con tu cliente en su móvil"
       },
       "shop": {
         "shop_details1": "Ofrece <span>productos exclusivos</span> que sólo puedan comprar con tu applicación.",
