@@ -245,6 +245,13 @@ $(function () {
     setupUTMTracking();
 
     // configure modal register (if exists)
-    if ($.fn.leanModal)
-        $('.modal-trigger').leanModal({opacity: .7});
+    if ($.fn.modal)
+        $('.modal').modal({
+            opacity: .7,
+            dismissible: true,
+            in_duration: 300,
+            out_duration: 200,
+            starting_top: '4%',
+            ending_top: '10%'
+        });
 });

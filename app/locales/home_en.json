@@ -116,14 +116,14 @@
         "rest_intro": "Create your restaurant’s Android and iPhone app and <span>add value for your customers</span>."
       },
       "restaurants": "Restaurants",
-      "serv": "Professional <em>Services</em>",
+      "serv": "Services",
       "serv_alt": "Professional Services",
       "services": {
         "serv_details1": "Enable your clients to <span> hire your services <span> anywhere.",
         "serv_details2": "Show your <span> services schedule </span> in your customers’ phone.",
         "serv_details3": "Upload <span>videos and pictures</span> to promote your services.",
         "serv_details4": "Send exclusive offers with <span>push notifications</span>",
-        "serv_intro": "Create an <span>app for your services </span> and connect with your customer on their phone"
+        "serv_intro": "Create an <span>app for your professional services</span> and connect with your customer on their phone"
       },
       "shop": {
         "shop_details1": "Integrate the payment gateway within minutes and <span>start selling</span>",

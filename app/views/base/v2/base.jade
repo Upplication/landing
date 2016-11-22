@@ -41,22 +41,16 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             link(rel='canonical', href="https:#{routing[_template][lang]}")
         else
             link(rel='canonical', href="#{routing[_template][lang]}")
-        // Favicon
-        link(rel='apple-touch-icon', sizes='57x57', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-57x57.png')
-        link(rel='apple-touch-icon', sizes='60x60', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-60x60.png')
-        link(rel='apple-touch-icon', sizes='72x72', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-72x72.png')
-        link(rel='apple-touch-icon', sizes='76x76', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-76x76.png')
-        link(rel='apple-touch-icon', sizes='114x114', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-114x114.png')
-        link(rel='apple-touch-icon', sizes='120x120', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-120x120.png')
-        link(rel='apple-touch-icon', sizes='144x144', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-144x144.png')
-        link(rel='apple-touch-icon', sizes='152x152', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-152x152.png')
-        link(rel='apple-touch-icon', sizes='180x180', href='#{localConfig.base_path}/images/favicon/apple-touch-icon-180x180.png')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-32x32.png', sizes='32x32')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/android-chrome-192x192.png', sizes='192x192')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-96x96.png', sizes='96x96')
-        link(rel='icon', type='image/png', href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes='16x16')
-        link(rel='manifest', href='#{localConfig.base_path}/images/favicon/manifest.json')
 
+        //- FAVICON
+        link(rel="apple-touch-icon", sizes="180x180", href='#{localConfig.base_path}/images/favicon/apple-touch-icon.png')
+        link(rel="icon", type="image/png", href='#{localConfig.base_path}/images/favicon/favicon-32x32.png', sizes="32x32")
+        link(rel="icon", type="image/png", href='#{localConfig.base_path}/images/favicon/favicon-16x16.png', sizes="16x16")
+        link(rel="manifest", href='#{localConfig.base_path}/images/favicon/manifest.json')
+        link(rel="mask-icon", href='#{localConfig.base_path}/images/favicon/safari-pinned-tab.svg', color="#00c86b")
+        meta(name="theme-color", content="#ffffff")
+
+        //- CSS files
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/vendor/base.css')
 
         block css
@@ -90,7 +84,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     li
                                         a.hide-tab.lang-link(href="#{header.nav.info.prices.url}", title='#{header.nav.info.prices.title}') #{header.nav.info.prices.title}
                                     li
-                                        a.modal-trigger(href='#hiring', title='#{header.nav.info.hiring}', target='_blank') #{header.nav.info.hiring}
+                                        a(href='#hiring', title='#{header.nav.info.hiring}', target='_blank') #{header.nav.info.hiring}
                                     li
                                         a.hide-tab.lang-link(href="#{header.nav.info.terms.url}", title='#{header.nav.info.terms.title}') #{header.nav.info.terms.title}
                             li.languages
@@ -104,9 +98,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         li
                                             a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
                             li.trial.only-show-small-devises.phone-kerning
-                                a.modal-trigger(href='#all-contact') #{header.telephone}
+                                a(href='#all-contact') #{header.telephone}
                             li.trial.only-show-small-devises
-                                a.modal-trigger(href='#free-trial', title='') #{header.free_trial}
+                                a(href='#free-trial', title='') #{header.free_trial}
                             li.enter-btn
                                 a.hide-tab(href="#{external.dashboard.url}")
                                     i.icon.icon-key
@@ -114,38 +108,38 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li.contact-info
                                 .contact-info-grids
                                     .contact-info-left
-                                        a.chat.modal-trigger(href='#free-trial') #{header.free_trial}
+                                        a.chat(href='#free-trial') #{header.free_trial}
                                     .contact-info-right
-                                        a.modal-trigger(href='#all-contact') #{header.telephone}
+                                        a(href='#all-contact') #{header.telephone}
                                         a.support(href='#{help_center.customer_service.email.link}', title='#{help_center.customer_service.email.alt_tag}') #{help_center.customer_service.email.title}
-                        // Three animated bars for drop down main navbar in mobile
+                        //- Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
                             span
                             span
                             span
 
-        // MODAL :: FREE TRIAL
+        //- MODAL :: FREE TRIAL
         #free-trial.modal.modal-upp
             include ../../includes/modal-free
-        // MODAL :: CONTACT
+        //- MODAL :: CONTACT
         #all-contact.modal.modal-upp
             include ../../includes/modal-contact
-        // MODAL :: HIRING
+        //- MODAL :: HIRING
         #hiring.modal.modal-upp
             include ../../includes/modal-hiring
 
-        // CONTENT
+        //- CONTENT
         block content
 
-        // CLIENTS :: "owl" carousel
+        //- CLIENTS :: "owl" carousel
         include ../../includes/clients
-        // TRIAL
+        //- TRIAL
         include ../../includes/trial
-        // FOOTER :: Contact, links list and Copyright
+        //- FOOTER :: Contact, links list and Copyright
         include ../../includes/footer
 
-        // Cookies alert
+        //- Cookies alert
         #cookies
             i#cookies-accept.icon.icon-cross
             p !{footer.cookies}
@@ -154,11 +148,11 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
 
-        // end scripts
+        //- end scripts
         script(type='text/javascript').
             $(document).ready(function () {
                 $("#clients-carousel").owlCarousel({
-                    autoPlay: 3000, // Set AutoPlay to 3 seconds
+                    autoPlay: 3000, //- Set AutoPlay to 3 seconds
                     items: 4,
                     itemsDesktop: [1199, 3],
                     itemsDesktopSmall: [979, 3]
@@ -181,7 +175,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     }
                   );
 
-                // navbar
+                //- navbar
                 var $pull = $('#pull');
                 menu = $('.top-nav-list');
                 menuHeight = menu.height();
@@ -208,7 +202,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     });
                 }
 
-                // header resize when scroll
+                //- header resize when scroll
                 $(window).scroll(function () {
                     var scroll = $(window).scrollTop();
                     if (scroll >= 250) {
@@ -218,10 +212,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     }
                 });
             });
-            // init animations
+            //- init animations
             AOS.init({once: true});
 
         block scripts
 
         include ../scripts-thirdparties
-        // end scripts
+        //- end scripts

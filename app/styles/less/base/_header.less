@@ -495,7 +495,7 @@
         a {
           img {
             width: 160px;
-            top: 7px;
+            top: 0;
             padding-top: 0;
           }
         }
@@ -506,10 +506,12 @@
         margin-top: 59px;
 
         .top-nav-list {
+          position: absolute;
+          float: left;
+          width: 100%;
           display: none;
           height: auto;
           margin: 0;
-          float: inherit;
           background-color: @header-bg;
           border-bottom: 1px solid @header-border;
 
@@ -568,6 +570,19 @@
 
         &.notshow {
           display: none !important;
+        }
+      }
+    }
+  }
+
+  // to reset main Logo position when you scroll down
+  .top-header.thiny-top-header {
+    .container {
+      .logo {
+        a {
+          img {
+            top: 7px;
+          }
         }
       }
     }
