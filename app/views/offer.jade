@@ -15,7 +15,7 @@ block content
 
     section.bottom-space
         .container.offer-jobs
-            h4.headTitles.text-center.padTop50 #{external.hiring_developer.anchor}
+            h4.headTitles.center-align.padTop50 #{external.hiring_developer.anchor}
 
             img.full(src="#{localConfig.base_path}/images/offer/office_dev.jpg", data-aos='fade-down', title="#{external.hiring}", alt="#{external.hiring}")
 
@@ -27,14 +27,18 @@ block content
                 p #{offer.technologies.intro}
                 ul
                     each tech, i in offer.technologies.list
-                        li #{tech}
+                        li
+                            i.icon.icon-dot
+                            | #{tech}
                 p #{offer.technologies.note}
 
             .weoffer.offer-jobs-text(data-aos='fade-right')
                 p #{offer.weoffer.intro}
                 ul
                     each weoffer, i in offer.weoffer.list
-                        li #{weoffer}
+                        li
+                            i.icon.icon-dot
+                            | #{weoffer}
 
             .wewantyou.offer-jobs-text(data-aos='fade-left')
                 p !{offer.wewanttomeetyou}

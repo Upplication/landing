@@ -151,7 +151,6 @@ gulp.task('vendor:css', ['bower'], function() {
         gulp.src([
             './dist/bower_components/upplication-icons/dist/upplication-icons.css',
             './dist/bower_components/materialize/dist/css/materialize.min.css',
-            './dist/bower_components/bootstrap/dist/css/bootstrap.min.css',
             './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.css',
             './dist/bower_components/aos/dist/aos.css'
             ])
@@ -163,8 +162,7 @@ gulp.task('vendor:css', ['bower'], function() {
     var vodafoneTask =
         gulp.src([
             './dist/bower_components/upplication-icons/dist/upplication-icons.css',
-            './dist/bower_components/materialize/dist/css/materialize.min.css',
-            './dist/bower_components/bootstrap/dist/css/bootstrap.min.css'
+            './dist/bower_components/materialize/dist/css/materialize.min.css'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
             .pipe(concat('vodafone.css'))

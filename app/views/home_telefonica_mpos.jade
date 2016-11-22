@@ -64,7 +64,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                         a.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_short_code}
                                 li.login_btn
                                     a(href='#{external.dashboard.url}') #{external.dashboard.anchor}
-                            a.btn-signup.green-accent-btn.triggers-signup.bold.modal-trigger(href="#free-trial", onclick="return false;") #{header.free_trial}
+                            a.btn-signup.green-accent-btn.triggers-signup.bold(href="#free-trial", onclick="return false;") #{header.free_trial}
 
                 #content(class="#{cssClass}")
                     script(type='text/javascript').

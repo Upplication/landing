@@ -6,6 +6,8 @@
   *****************************************************
  */
 
+// to add typical Bootstrap classes & pseudoelements
+@import "_elements.less";
 // main top header
 @import "_header.less";
 // error and alert messages
@@ -186,17 +188,22 @@ h4:not(.head-terms).headTitles + p,
 
 /* ... UPP MAIN BUTTON ... */
 
-a.btn-upp,
-button.btn-upp {
+.btn-upp {
   background-color: @accept-btn;
   color: @white;
   border-radius: 0;
-}
 
-a.btn-upp:hover,
-button.btn-upp:hover {
-  background-color: @accept-btn-hover;
-  color: @white;
+  &:hover,
+  &:focus {
+    background-color: @accept-btn-hover;
+    color: @white;
+  }
+
+  &:active,
+  &:visited {
+    background-color: @accept-btn;
+    color: @white;
+  }
 }
 
 /* ... to add Block styles... */

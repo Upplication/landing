@@ -12,7 +12,7 @@ block css
 block content
     // MEET OUR TEAM
     .col.s12.center-align.team-header.padBot50.border-bottom
-        h4.headTitles.text-center !{about_us.team.title}
+        h4.headTitles.center-align !{about_us.team.title}
         #team.about
             .container
                 .row.bosses-area
@@ -22,7 +22,7 @@ block content
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.ceo.twitter}', title='#{about_us.team.ceo.twitter}', target='_blank')
                             i.icon.icon-twitter
                         a.team-job.team-boss.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.ceo.sentence}')
-                            i.icon.icon-asterisk
+                            i.icon.icon-crown
                         .upp-boss-img.team-jose.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/jose_ceo_2.jpg', title='#{about_us.team.ceo.position}', alt='#{about_us.team.ceo.position}')
                         h5
@@ -35,7 +35,7 @@ block content
                         a.team-rrss.team-twitter.animate-hover(href='#{about_us.team.cmo.twitter}', title='#{about_us.team.cmo.twitter}', target='_blank')
                             i.icon.icon-twitter
                         a.team-job.team-boss.animate-hover.tooltipped(data-position='top', data-delay='50', data-tooltip='#{about_us.team.cmo.sentence}')
-                            i.icon.icon-asterisk
+                            i.icon.icon-crown
                         .upp-boss-img.team-victor.circle.animate-hover
                             img.hidden(src='#{localConfig.base_path}/images/about/victor_cmo_2.jpg', title='#{about_us.team.cmo.position}', alt='#{about_us.team.cmo.position}')
                         h5
@@ -185,7 +185,7 @@ block content
     // DPTOS. INFO & PICS
     #about.about
         .col.s12.center-align.team-header
-            h4.headTitles.text-center !{about_us.departments.title}
+            h4.headTitles.center-align !{about_us.departments.title}
         .about-grids.row
             .col.m4.about-grid.about-grid1(data-aos='fade-down')
                 .about-grid-info
