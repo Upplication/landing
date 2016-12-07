@@ -1,4 +1,6 @@
 # robotstxt.org
 
 User-agent: *
+Disallow: /blog/wp-admin
+Disallow: /blog/wp-includes
 Sitemap: http://www.upplication.com/sitemap.xml

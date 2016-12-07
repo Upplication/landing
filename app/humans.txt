@@ -1,4 +1,4 @@
-# http://upplication.com/humans.txt
+# https://www.upplication.com/humans.txt
 
 /* TEAM */
     Developer: Raul Jiménez
