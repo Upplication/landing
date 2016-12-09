@@ -229,7 +229,7 @@
     },
     "company": {
       "anchor": "Upplication bio",
-      "url": "@@config.base_path/bio-da-empresa/"
+      "url": "@@config.base_path/bio-do-companhia/"
     },
     "create_apps": {
       "anchor": "Criamos a tua app",
@@ -414,7 +414,7 @@
         },
         "company_bio": {
           "title": "Biografia",
-          "url": "@@config.base_path/bio-da-empresa/"
+          "url": "@@config.base_path/bio-do-companhia/"
         },
         "helpcenter": {
           "title": "Centro de Ajuda",
