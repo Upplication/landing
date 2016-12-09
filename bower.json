@@ -1,6 +1,6 @@
 {
   "name": "landing-upplication",
-  "version": "3.5.10",
+  "version": "3.5.11",
   "dependencies": {
     "jquery": "~2.1.4",
     "materialize": "~0.97.8",
