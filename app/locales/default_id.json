@@ -26,7 +26,7 @@
     "team": {
       "title": "<span>Meet</span> Our Team",
       "admin": {
-        "linkedin": "https://www.linkedin.com/in/noemidiazsanz",
+        "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
         "name": "Noemí",
         "position": "Admin Manager",
         "sentence": "Accounts Keeper",
@@ -762,7 +762,7 @@
       "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
       "name": "Sandra dan Paloma, <span>Asis & Gross</span>",
       "more": "Lebih tentang Asis & Gross",
-      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase-id/"
+      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase-indonesian/"
     },
     "client2": {
       "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
