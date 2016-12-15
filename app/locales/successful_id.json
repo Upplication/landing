@@ -45,7 +45,7 @@
     "samples": {
       "title": "<span>Another</span> successful App showcases",
       "sample1": "Lebih tentang Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross-sucessfull-showcase-id/",
+      "sample1_url": "@@config.base_path/asis-and-gross-sucessfull-showcase-indonesian/",
       "sample2": "Lebih tentang Fisiohogar",
       "sample2_url": "@@config.base_path/fisiohogar-sucessfull-showcase-id/",
       "sample3": "Lebih tentang Facebook onboarding",
