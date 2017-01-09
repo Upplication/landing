@@ -279,5 +279,28 @@ h4:not(.head-terms).headTitles + p,
   }
 }
 
+/* ... ANIMATIONS on icons in Desktop and Big screens devises ... */
 
+@media only screen and (min-width: 768px) {
+  // Rocket icon with "smooth flight" animation (_mixins.less)
+  a,
+  button {
+    &:hover {
+      .icon.icon-rocket {
+        .smooth-flight;
+      }
+    }
+  }
 
+  .trial-block {
+    .trial-block-right {
+      a.price-btn {
+        &:hover {
+          .icon.icon-rocket {
+            .smooth-flight;
+          }
+        }
+      }
+    }
+  }
+}
