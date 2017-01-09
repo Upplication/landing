@@ -254,6 +254,14 @@
       "anchor": "Google Plus",
       "url": "https://plus.google.com/+Upplication?prsrc=5"
     },
+    "vimeo": {
+      "anchor": "Vimeo",
+      "url": "https://vimeo.com/upplication/"
+    },
+    "github": {
+      "anchor": "Github",
+      "url": "https://github.com/Upplication"
+    },
     "helpcenter": {
       "anchor": "Help Center",
       "url": "@@config.base_path/help-center/"
@@ -338,7 +346,7 @@
     }
   },
   "footer": {
-    "brand_copy": "Upplication 2016",
+    "brand_copy": "Upplication 2017",
     "community": "Comunidad",
     "company": "Compañía",
     "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>cookies policy</a>.",

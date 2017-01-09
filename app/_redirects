@@ -1,18 +1,26 @@
 # seo redirects
-/showcase   /build-your-app/
-/showcase/  /build-your-app/
 
-/inspirate  /
-/inspirate/ /
+/showcase/ /build-your-app/ 301
+/inspirate/ / 301
+/home_tlf/ /telefonica/ 301
+/team/ /about-us/ 301
+/pricing/ /prices/ 301
+/equipo/ /nosotros/ 301
+/tipos-marketing-movil/ /blog/tipos-marketing-movil/ 301
+/logo-upplication/ /blog/logo-upplication/ 301
+
+/category/apps/ /blog/aplicaciones-movil/ 301
+/category/plantillas/ /blog/dia-a-dia/ 301
 
 /blog/autor/equipo-upplication/ /nosotros/ 301
+/blog/blog-corporativo/ /blog/ 301
+/blog/autor/equipo-upplication/page/2/ /blog/autor/upplication-team/ 301
 
-/condicioneslegalesmovistar-upplication/  /terminos-aplicateca/
-/termsandconditionsmovistar-upplication/  /terms-aplicateca/
-/termsandconditionsmovistar-upplication-indonesian/  /terms-aplicateca-indonesian/
-/condiçõeslegaismovistar-upplication/   /termos-aplicateca/
+/condicioneslegalesmovistar-upplication/ /terminos-aplicateca/ 301
+/termsandconditionsmovistar-upplication/ /terms-aplicateca/ 301
+/termsandconditionsmovistar-upplication-indonesian/ /terms-aplicateca-indonesian/ 301
+/condiçõeslegaismovistar-upplication/ /termos-aplicateca/ 301
 
-/home_tlf/  /telefonica/
 
 # microlandings migrated to instapage
 /crear-app-movil-*  /crear-app-movil/:splat 301

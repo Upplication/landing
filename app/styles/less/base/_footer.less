@@ -65,13 +65,13 @@ footer.page-footer {
   margin: 0;
   background-color: @light-lilac;
 
-  // Xmas BG decoration
+  /* // for Xmas BG decoration
   .container.padTop50.padBot50 {
     background-image: url("@@config.base_path/images/home/bg/footer-xmas-bg.png");
     background-repeat: no-repeat;
     background-position: bottom left;
   }
-  // end of Xmas BG decoration
+  // end of Xmas BG decoration */
 
   h6 {
     font-family: 'Lato', sans-serif;
@@ -135,27 +135,38 @@ footer.page-footer {
     ul.rrss.right {
       float: right;
       margin: 0;
+      line-height: 50px;
+      max-height: 50px;
 
       li {
-        padding: 0 18px;
+        padding: 0 15px;
         display: inline-block;
         font-size: 10px;
         margin-right: -2px !important;
         margin-left: -2px !important;
 
         &:first-child {
-          padding: 0 21px;
+          padding: 0 18px;
         }
 
         &.facebook:hover { background-color: @facebook; }
         &.twitter:hover { background-color: @twitter; }
         &.instagram:hover { background-color: @instagram; }
+        &.vimeo:hover { background-color: @vimeo-alt; }
         &.youtube:hover { background-color: @youtube; }
         &.linkedin:hover { background-color: @linkedin; }
+        &.github:hover { background-color: @github; }
         &.google {
-          padding-right: 18px !important;
+          padding-right: 15px !important;
+          line-height: 45px;
 
           &:hover { background-color: @google-plus; }
+
+          a {
+            font-size: 26px;
+            position: relative;
+            top: 4px;
+          }
         }
 
         a {
@@ -371,19 +382,6 @@ footer.page-footer {
           display: block;
           padding-right: 0;
           padding-bottom: 10px;
-        }
-      }
-    }
-  }
-}
-
-
-@media only screen and (max-width: 350px) {
-  footer.page-footer {
-    .footer-copyright {
-      ul.rrss.right {
-        li {
-          padding: 23px 15px;
         }
       }
     }
