@@ -135,6 +135,8 @@ footer.page-footer {
     ul.rrss.right {
       float: right;
       margin: 0;
+      line-height: 50px;
+      max-height: 50px;
 
       li {
         padding: 0 18px;
@@ -154,8 +156,15 @@ footer.page-footer {
         &.linkedin:hover { background-color: @linkedin; }
         &.google {
           padding-right: 18px !important;
+          line-height: 45px;
 
           &:hover { background-color: @google-plus; }
+
+          a {
+            font-size: 26px;
+            position: relative;
+            top: 4px;
+          }
         }
 
         a {
