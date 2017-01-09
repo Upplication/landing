@@ -94,6 +94,25 @@ i.icon {
   color: @white;
 }
 
+::-webkit-selection {
+  background: @main-green;
+  color: @white;
+}
+
+/* ... CUSTOM SCROLL BAR ... */
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: @light-lilac;
+}
+
+::-webkit-scrollbar-thumb {
+  background: @dark-lilac;
+  border: 0px none @white;
+  border-radius: 10px;
+}
+
 /* ... to add Shadow Hover Effect in images ... */
 
 img.materialboxed:hover {
