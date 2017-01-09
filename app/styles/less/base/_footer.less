@@ -139,23 +139,25 @@ footer.page-footer {
       max-height: 50px;
 
       li {
-        padding: 0 18px;
+        padding: 0 15px;
         display: inline-block;
         font-size: 10px;
         margin-right: -2px !important;
         margin-left: -2px !important;
 
         &:first-child {
-          padding: 0 21px;
+          padding: 0 18px;
         }
 
         &.facebook:hover { background-color: @facebook; }
         &.twitter:hover { background-color: @twitter; }
         &.instagram:hover { background-color: @instagram; }
+        &.vimeo:hover { background-color: @vimeo-alt; }
         &.youtube:hover { background-color: @youtube; }
         &.linkedin:hover { background-color: @linkedin; }
+        &.github:hover { background-color: @github; }
         &.google {
-          padding-right: 18px !important;
+          padding-right: 15px !important;
           line-height: 45px;
 
           &:hover { background-color: @google-plus; }
@@ -380,19 +382,6 @@ footer.page-footer {
           display: block;
           padding-right: 0;
           padding-bottom: 10px;
-        }
-      }
-    }
-  }
-}
-
-
-@media only screen and (max-width: 350px) {
-  footer.page-footer {
-    .footer-copyright {
-      ul.rrss.right {
-        li {
-          padding: 23px 15px;
         }
       }
     }

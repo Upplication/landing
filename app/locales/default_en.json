@@ -254,6 +254,14 @@
       "anchor": "Google Plus",
       "url": "https://plus.google.com/+Upplication?prsrc=5"
     },
+    "vimeo": {
+      "anchor": "Vimeo",
+      "url": "https://vimeo.com/upplication/"
+    },
+    "github": {
+      "anchor": "Github",
+      "url": "https://github.com/Upplication"
+    },
     "helpcenter": {
       "anchor": "Help Center",
       "url": "@@config.base_path/help-center/"
