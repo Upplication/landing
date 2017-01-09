@@ -94,6 +94,25 @@ i.icon {
   color: @white;
 }
 
+::-webkit-selection {
+  background: @main-green;
+  color: @white;
+}
+
+/* ... CUSTOM SCROLL BAR ... */
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: @light-lilac;
+}
+
+::-webkit-scrollbar-thumb {
+  background: @dark-lilac;
+  border: 0px none @white;
+  border-radius: 10px;
+}
+
 /* ... to add Shadow Hover Effect in images ... */
 
 img.materialboxed:hover {
@@ -260,5 +279,28 @@ h4:not(.head-terms).headTitles + p,
   }
 }
 
+/* ... ANIMATIONS on icons in Desktop and Big screens devises ... */
 
+@media only screen and (min-width: 768px) {
+  // Rocket icon with "smooth flight" animation (_mixins.less)
+  a,
+  button {
+    &:hover {
+      .icon.icon-rocket {
+        .smooth-flight;
+      }
+    }
+  }
 
+  .trial-block {
+    .trial-block-right {
+      a.price-btn {
+        &:hover {
+          .icon.icon-rocket {
+            .smooth-flight;
+          }
+        }
+      }
+    }
+  }
+}

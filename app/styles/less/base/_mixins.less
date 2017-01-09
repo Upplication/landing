@@ -62,7 +62,7 @@
   transition: all 300ms;
 }
 
-// Infinite Spin Loop
+// Infinite SPIN LOOP (icon-ccw) animation
 
 .anim-spin {
   -webkit-animation: anim-spin 1s infinite;
@@ -88,6 +88,117 @@
     -webkit-transform: rotate(359deg);
   }
 }
+
+// SMOOTH FLIGHT (icon-rocket) up and down animation
+
+.smooth-flight {
+  -webkit-animation: smooth-flight 1s infinite;
+  -moz-animation: smooth-flight 1s infinite;
+  -ms-animation: smooth-flight 1s infinite;
+  -o-animation: smooth-flight 1s infinite;
+  animation: smooth-flight 1s infinite;
+}
+
+@keyframes smooth-flight {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-8px);
+  }
+  75% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes smooth-flight {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-8px);
+  }
+  75% {
+    -webkit-transform: translateY(8px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes smooth-flight {
+  0% {
+    -moz-transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-8px);
+  }
+  75% {
+    -moz-transform: translateY(8px);
+  }
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+
+// SMOOTH FLIGHT (icon-rocket) left and right opacity animation
+
+.in-out-move {
+  -webkit-animation: in-out-move 1s infinite;
+  -moz-animation: in-out-move 1s infinite;
+  -ms-animation: in-out-move 1s infinite;
+  -o-animation: in-out-move 1s infinite;
+  animation: in-out-move 1s infinite;
+}
+
+@keyframes in-out-move {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes in-out-move {
+  0% {
+    -webkit-transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes in-out-move {
+  0% {
+    -moz-transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -wmoz-transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
 
 /* ... ROTATES ... */
 
