@@ -8,6 +8,9 @@
 /equipo/ /nosotros/ 301
 /tipos-marketing-movil/ /blog/tipos-marketing-movil/ 301
 /logo-upplication/ /blog/logo-upplication/ 301
+/ventajas-marketing-movil/ /blog/ventajas-marketing-movil/ 301
+/web-multidispositivo-aplicacion-movil/ /blog/web-multidispositivo-aplicacion-movil/ 301
+/mobile-world-congress-upplication/ /blog/mobile-world-congress-upplication/ 301
 
 /category/apps/ /blog/aplicaciones-movil/ 301
 /category/plantillas/ /blog/dia-a-dia/ 301
@@ -20,7 +23,8 @@
 /termsandconditionsmovistar-upplication/ /terms-aplicateca/ 301
 /termsandconditionsmovistar-upplication-indonesian/ /terms-aplicateca-indonesian/ 301
 /condiçõeslegaismovistar-upplication/ /termos-aplicateca/ 301
-
+/build-app-mobile-terms/ /terms/ 301
+/politica-subida-apps-app-store/ /terminos/ 301
 
 # microlandings migrated to instapage
 /crear-app-movil-*  /crear-app-movil/:splat 301
