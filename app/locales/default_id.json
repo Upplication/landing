@@ -267,7 +267,7 @@
     "hiring": "We are hiring!",
     "hiring_backend": {
       "anchor": "Backend developer",
-      "url": "@@config.base_path/offer-trainee-developer-indonesian/"
+      "url": "http://backend.upplication.com/"
     },
     "hiring_developer": {
       "anchor": "Developer intern",

@@ -268,7 +268,7 @@
     "hiring": "¡Estamos contratando!",
     "hiring_backend": {
       "anchor": "Desarrollador Backend",
-      "url": "@@config.base_path/oferta-practicas-developer/"
+      "url": "http://backend.upplication.com/"
     },
     "hiring_developer": {
       "anchor": "Prácticas de desarrollador",
