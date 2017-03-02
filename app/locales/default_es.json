@@ -268,7 +268,7 @@
     "hiring": "¡Estamos contratando!",
     "hiring_backend": {
       "anchor": "Desarrollador Backend",
-      "url": "@@config.base_path/oferta-practicas-developer/"
+      "url": "http://backend.upplication.com/"
     },
     "hiring_developer": {
       "anchor": "Prácticas de desarrollador",
@@ -429,7 +429,7 @@
         },
         "helpcenter": {
           "title": "Centro de Ayuda",
-          "url": "@@config.base_path/centro-de-ayuda/"
+          "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "hiring": "Contratamos",
         "info": "Más...",
