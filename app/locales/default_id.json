@@ -426,8 +426,8 @@
           "url": "@@config.base_path/company-bio-indonesian/"
         },
         "helpcenter": {
-          "title": "Help Center",
-          "url": "@@config.base_path/help-center-indonesian/"
+          "title": "Pusat Bantuan",
+          "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "hiring": "Hiring Area",
         "info": "More...",
