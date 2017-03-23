@@ -791,8 +791,8 @@
       "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
-      "euro_month": "€ / mês *",
-      "euro_year": "€ / ano *",
+      "per_month": "/ mês *",
+      "per_year": "/ ano *",
       "four_push": "<strong>4</strong> notificações push / mês",
       "icons": {
         "all_push": "Notificações push ilimitadas",

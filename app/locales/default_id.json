@@ -794,8 +794,8 @@
       "app_web": "Android / iOS / Web",
       "basic": "DASAR",
       "bullhorn": "<strong>Iklan</strong> Upplication",
-      "euro_month": "€ / bulan *",
-      "euro_year": "€ / tahun *",
+      "per_month": "/ bulan *",
+      "per_year": "/ tahun *",
       "four_push": "<strong>4</strong> pemberitahuan push / bulan",
       "icons": {
         "all_push": "Pemberitahuan push tak terbatas",
