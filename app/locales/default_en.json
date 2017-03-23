@@ -794,8 +794,8 @@
       "app_web": "Android / iOS / Web",
       "basic": "BASIC",
       "bullhorn": "Upplication <strong>Ads</strong>",
-      "euro_month": "€ / month *",
-      "euro_year": "€ / year *",
+      "per_month": "/ month *",
+      "per_year": "/ year *",
       "four_push": "<strong>4</strong> push alerts / month",
       "icons": {
         "all_push": "Unlimited push alerts",

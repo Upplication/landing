@@ -210,6 +210,24 @@
             color: @light-lilac;
           }
         }
+
+        &.price-container {
+          .currency-image:after {
+            display: inline-block;
+          }
+
+          &.price-currency-eur .currency-image:after {
+            content: '€';
+          }
+
+          &.price-currency-usd .currency-image:after {
+            content: '$';
+          }
+
+          &.price-currency-mxn .currency-image:after {
+            content: '$MXN';
+          }
+        }
       }
     }
 
@@ -299,6 +317,30 @@
   margin-top: 3em;
 }
 
+// PRICE CURRENCY SWITCHER (JS) BEHAVIOUR
+//// EUR
+.pricing-tables.selected-currency-eur .price-container.price-currency-eur { display: inherit; }
+.pricing-tables.selected-currency-eur .price-container:not(.price-currency-eur) { display: none; }
+//// USD
+.pricing-tables.selected-currency-usd .price-container.price-currency-usd { display: inherit; }
+.pricing-tables.selected-currency-usd .price-container:not(.price-currency-usd) { display: none; }
+//// MXN
+.pricing-tables.selected-currency-mxn .price-container.price-currency-mxn { display: inherit; }
+.pricing-tables.selected-currency-mxn .price-container:not(.price-currency-mxn) { display: none; }
+
+// Show default currency based on lang page
+// Eur will be the default
+html .price-container:not(.price-currency-eur) { display: none; }
+html .price-container.price-currency-eur { display: inherit; }
+// If lang is english, show USD $
+html[lang=en] .price-container:not(.price-currency-usd) { display: none; }
+html[lang=en] .price-container.price-currency-usd { display: inherit; }
+// If the lang is bahasa, show USD$
+html[lang=id] .price-container:not(.price-currency-usd) { display: none; }
+html[lang=id] .price-container.price-currency-usd { display: inherit; }
+// If lang is es-MX, show MEX$
+html[lang=es-MX] .price-container:not(.price-currency-mxn) { display: none; }
+html[lang=es-MX] .price-container.price-currency-mxn { display: inherit; }
 
 /* ... Media Queries :: Pricing Plans view ... */
 @media only screen and (max-width: 1180px) {
