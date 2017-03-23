@@ -4,7 +4,7 @@
     "_meta_description": "Upplication® App builder, your own online app. 15 days free trial. Create the app for your business, no coding required, fast and simple. Android and iOS app",
     "_meta_title": "Upplication - Easiest Mobile app maker for Android and iOS",
     "_priority": "1.0",
-    "_url": "/build-your-app/",
+    "_url": "/en/",
     "create_free": "Create my app",
     "how": {
       "app_ready": " <span>Your App</span> is ready ",
@@ -30,8 +30,7 @@
       "how_two": {
         "app_step1": "Create your App",
         "app_step2": "User friendly and <span> easy-to-use </span> dashboard.",
-        "app_step3": "You can use <span>modules and templates</span> to customize your app.",
-        "app_step4": "Control <span>the amount of downloads</span> and send <span>push notifications</span> to your customers."
+        "app_step3": "You can use <span>modules and templates</span> to customize your app."
       }
     },
     "improve_sales": {

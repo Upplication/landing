@@ -4,7 +4,7 @@
     "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_meta_title": "Upplication team, the app creator for your business",
     "_priority": "0.8",
-    "_url": "/about-us/",
+    "_url": "/en/about-us/",
     "departments": {
       "title": "<span>Meet</span> Our Departments",
       "develop": {
@@ -17,7 +17,6 @@
         "text": "Our goal is to bring this project to every corner in the world. Our every day life is dedicated to data and analysis. Always thinking of how to sell more in less time. Every time we get a new client, we blow a horn in the office to celebrate.",
         "title": "Dept. of Marketing"
       },
-      "subtitle": "Meet",
       "support": {
         "img": "Belén is calling with his best smile",
         "text": "Our main objective is to make our costumers happy. Every day, we talk to hundreds of clients from more than 65 countries. We are very approachable and we always have a smile on our faces. We love to help, so that you have a pleasant and beneficial experience.",
@@ -114,7 +113,6 @@
           "twitter": "https://twitter.com/alcanizalv"
         }
       },
-      "subtitle": "Meet",
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
         "name": "Belén",
@@ -145,12 +143,12 @@
     "pricing_aplicateca": {
       "anchor": "Pricing",
       "title": "Upplication prices in Aplicateca",
-      "url": "@@config.base_path/prices-aplicateca/"
+      "url": "@@config.base_path/en/prices-aplicateca/"
     },
     "terms_aplicateca": {
       "anchor": "Legal",
       "title": "Upplication legal terms in Aplicateca",
-      "url": "@@config.base_path/terms-aplicateca/"
+      "url": "@@config.base_path/en/terms-aplicateca/"
     }
   },
   "company": {
@@ -158,7 +156,7 @@
     "_meta_description": "Upplication Bio and international expansion. We are an online app creator for Android and iOS devices. No programing skills needed. Build in a few minutes!",
     "_meta_title": "Upplication Bio, the app creator",
     "_priority": "0.9",
-    "_url": "/company-bio/",
+    "_url": "/en/company-bio/",
     "intro": {
       "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and stand out from the competitors</span>.",
       "maintitle": "<span>What is</span> Upplication <span>?</span>"
@@ -210,7 +208,7 @@
   "external": {
     "about": {
       "anchor": "About Us",
-      "url": "@@config.base_path/about-us/"
+      "url": "@@config.base_path/en/about-us/"
     },
     "aplicateca": {
       "anchor": "Login",
@@ -219,7 +217,7 @@
     },
     "apps": {
       "anchor": "Sample Apps",
-      "url": "@@config.base_path/showcase/"
+      "url": "@@config.base_path/en/showcase/"
     },
     "blog": {
       "anchor": "Blog",
@@ -228,15 +226,14 @@
     },
     "breakfasts": {
       "anchor": "A sucessful showcase!",
-      "url": "@@config.base_path/asis-and-gross/"
+      "url": "@@config.base_path/en/asis-and-gross/"
     },
     "company": {
       "anchor": "Upplication bio",
-      "url": "@@config.base_path/company-bio/"
+      "url": "@@config.base_path/en/company-bio/"
     },
     "create_apps": {
-      "anchor": "We create your app",
-      "url": "/we-can-make-your-app/"
+      "anchor": "We create your app"
     },
     "dashboard": {
       "anchor": "Login",
@@ -247,8 +244,7 @@
       "url": "http://www.facebook.com/Upplication"
     },
     "features": {
-      "anchor": "Features",
-      "url": "/features/"
+      "anchor": "Features"
     },
     "googleplus": {
       "anchor": "Google Plus",
@@ -264,7 +260,7 @@
     },
     "helpcenter": {
       "anchor": "Help Center",
-      "url": "@@config.base_path/help-center/"
+      "url": "@@config.base_path/en/help-center/"
     },
     "hiring": "We are hiring!",
     "hiring_backend": {
@@ -273,15 +269,15 @@
     },
     "hiring_developer": {
       "anchor": "Developer intern",
-      "url": "@@config.base_path/offer-trainee-developer/"
+      "url": "@@config.base_path/en/offer-trainee-developer/"
     },
     "hiring_frontend": {
       "anchor": "Frontend developer",
-      "url": "@@config.base_path/offer-trainee-developer/"
+      "url": "@@config.base_path/en/offer-trainee-developer/"
     },
     "hiring_marketing": {
       "anchor": "Marketing Internship",
-      "url": "@@config.base_path/offer-trainee-marketing/"
+      "url": "@@config.base_path/en/offer-trainee-marketing/"
     },
     "instagram": {
       "anchor": "Instagram",
@@ -289,7 +285,7 @@
     },
     "jobs": {
       "anchor": "We are hiring!",
-      "url": "@@config.base_path/jobs/"
+      "url": "@@config.base_path/en/jobs/"
     },
     "linkedin": {
       "anchor": "Linkedin",
@@ -309,11 +305,11 @@
     },
     "pricing": {
       "anchor": "Pricing",
-      "url": "@@config.base_path/prices/"
+      "url": "@@config.base_path/en/prices/"
     },
     "pricing_aplicateca": {
       "anchor": "Pricing",
-      "url": "@@config.base_path/prices-aplicateca/"
+      "url": "@@config.base_path/en/prices-aplicateca/"
     },
     "social_media_btns": {
       "twitter": "https://twitter.com/upplicationENG"
@@ -330,7 +326,7 @@
     },
     "tos": {
       "anchor": "Terms and Conditions",
-      "url": "@@config.base_path/terms/"
+      "url": "@@config.base_path/en/terms/"
     },
     "tutorials": {
       "anchor": "Tutorials",
@@ -349,8 +345,8 @@
     "brand_copy": "Upplication 2017",
     "community": "Comunidad",
     "company": "Compañía",
-    "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>cookies policy</a>.",
-    "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
+    "cookies": "If you close this window, you accept our <a href='@@config.base_path/en/terms/#cookies-policy'>cookies policy</a>.",
+    "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/en/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
     "free_trial": "Free trial",
     "media": "Medios y redes",
     "partners": {
@@ -379,19 +375,19 @@
     "tos": {
       "cookies": {
         "title": "Use of Cookies",
-        "url": "@@config.base_path/terms/#cookies-policy"
+        "url": "@@config.base_path/en/terms/#cookies-policy"
       },
       "legal": {
         "title": "Terms of Use",
-        "url": "@@config.base_path/terms/"
+        "url": "@@config.base_path/en/terms/"
       },
       "privacy": {
         "title": "Privacy Policy",
-        "url": "@@config.base_path/terms/#privacidad"
+        "url": "@@config.base_path/en/terms/#privacidad"
       },
       "terms_of_use": {
         "title": "General Conditions of Use",
-        "url": "@@config.base_path/terms/#uso"
+        "url": "@@config.base_path/en/terms/#uso"
       }
     },
     "try_it": "Create your App now!",
@@ -411,7 +407,7 @@
     "logo": {
       "title": "Upplication Logo",
       "title_xmas": "Upplication Xmas Logo",
-      "url": "@@config.base_path/build-your-app/"
+      "url": "@@config.base_path/en/"
     },
     "menu": "menu",
     "nav": {
@@ -421,11 +417,11 @@
       "info": {
         "about_us": {
           "title": "About Us",
-          "url": "@@config.base_path/about-us/"
+          "url": "@@config.base_path/en/about-us/"
         },
         "company_bio": {
           "title": "Company Bio",
-          "url": "@@config.base_path/company-bio/"
+          "url": "@@config.base_path/en/company-bio/"
         },
         "helpcenter": {
           "title": "Help Center",
@@ -435,11 +431,11 @@
         "info": "More...",
         "prices": {
           "title": "Prices",
-          "url": "@@config.base_path/prices/"
+          "url": "@@config.base_path/en/prices/"
         },
         "terms": {
           "title": "Legal terms",
-          "url": "@@config.base_path/terms/"
+          "url": "@@config.base_path/en/terms/"
         }
       },
       "legal": {
@@ -458,7 +454,7 @@
     "_meta_description": "Upplication Help Center: the online app creator. Info about how to create your own app, app samples, videotutorials, support info...",
     "_meta_title": "help center of Upplication, the app creator",
     "_priority": "0.7",
-    "_url": "/help-center/",
+    "_url": "/en/help-center/",
     "advantages": {
       "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
       "text": "Advantages of having an app",
@@ -562,7 +558,7 @@
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "Support and customer service of Telefónica Upplication. It is easy, without coding, and quick, in few minutes.",
     "_meta_title": "Customer service and support of Telefónica Upplication",
-    "_url": "/telefonica-en/",
+    "_url": "/en/telefonica/",
     "contact": {
       "customer_service": {
         "email": {
@@ -582,13 +578,13 @@
       "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
       "name": "Sandra & Paloma, <span>Asis & Gross</span>",
       "more": "More about Asis & Gross",
-      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase/"
+      "url": "@@config.base_path/en/asis-and-gross-sucessfull-showcase/"
     },
     "client2": {
       "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
       "name": "Pablo, <span>Fisiohogar</span>",
       "more": "More about Fisiohogar",
-      "url": "@@config.base_path/fisiohogar-sucessfull-showcase/"
+      "url": "@@config.base_path/en/fisiohogar-sucessfull-showcase/"
     },
     "client3": {
       "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
@@ -602,7 +598,7 @@
     "_keywords": "error, 500, error 500, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "500 internal server error in Upplication: the app creator for Android e iOS devices. No programing skills needed. Build in a few minutes!",
     "_meta_title": "500: internal server error in Upplication: the app creator",
-    "_url": "/internal-server-error/",
+    "_url": "/en/internal-server-error/",
     "pre_advice": "It was an error on our server. Sorry for the inconvenience, we will solve soon",
     "subtitle1": "error!",
     "subtitle2": "Internal Server",
@@ -636,7 +632,7 @@
     "_meta_description": "Trainee frontender or backender developer job offer in Upplication: the online app creator for you and your business.",
     "_meta_title": "Trainee developer job offer - Upplication: app creator",
     "_priority": "0.4",
-    "_url": "/offer-trainee-developer/",
+    "_url": "/en/offer-trainee-developer/",
     "cheers": [
       "Best regards!",
       "Javier Arnáiz"
@@ -677,7 +673,7 @@
     "_meta_description": "Trainee marketing and salesman job offer in Upplication: the online app creator. It is easy, without coding and quick, just in few minutes!",
     "_meta_title": "Trainee marketing job offer - Upplication: app creator",
     "_priority": "0.4",
-    "_url": "/offer-trainee-marketing/",
+    "_url": "/en/offer-trainee-marketing/",
     "cheers": [
       "Best Regards!",
       "Upplication team"
@@ -717,7 +713,7 @@
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "Upplication: app online creator in Ono Vodafone. 15 days free trial.",
     "_meta_title": "App samples made with Vodafone Upplication",
-    "_url": "/vodafone-examples/",
+    "_url": "/en/vodafone-examples/",
     "title": "Vodafone examples"
   },
   "ourclients": {
@@ -776,7 +772,7 @@
     "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
     "_meta_title": "404: Page not found in Upplication: the app creator",
-    "_url": "/page-not-found/",
+    "_url": "/en/page-not-found/",
     "advice1": "The address (URL) is not correct.",
     "advice2": "You have not internet conection.",
     "advice3": "The page is out-dated and has been removed.",
@@ -792,7 +788,7 @@
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_meta_title": "Crea la app de tu pyme - Upplication",
     "_priority": "0.6",
-    "_url": "/prices/",
+    "_url": "/en/prices/",
     "rates": {
       "all_push": "<strong>Unlimited</strong> push alerts",
       "app_web": "Android / iOS / Web",
@@ -855,7 +851,7 @@
     "_meta_description": "Upplication to do apps yourself, for you or your business in Movistar Aplicateca. It is easy, without coding, and quick, in few minutes.",
     "_meta_title": "Upplication Pricing plans in Movistar Aplicateca",
     "_priority": "0.6",
-    "_url": "/prices-aplicateca/",
+    "_url": "/en/prices-aplicateca/",
     "all_plans_include": {
       "list": [
         {
