@@ -843,7 +843,8 @@
       "unlimited": "UNLIMITED",
       "with_tax": "<strong>VAT included</strong> in all prices.",
       "permanence": "<em>Premium</em> Plan have a 6 mounths commitment of permanence.",
-      "yearly": "Annual plan"
+      "yearly": "Annual plan",
+      "choose_currency": "Choose currency:"
     }
   },
   "prices_aplicateca": {

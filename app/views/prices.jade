@@ -70,16 +70,18 @@ block content
                                     | #{register.call_to_action}
                                     i.icon.icon-left.hover-anim
                         .col.s12.m4.mobile-prices(data-aos='flip-left')
-                            img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
+                            img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badge_winner.svg', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover.center-img
                                 h3 #{prices.rates.professional}
                                 h5 #{prices.rates.subtitles.professional}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-silver.svg', alt='#{prices.rates.subtitles.professional}', title='#{prices.rates.subtitles.professional}')
                                 ul
-                                    li
+                                    li.price-container.price-currency-eur
                                         span
-                                            | 29,95
-                                            em #{prices.rates.per_month}
+                                            span.price 29,95
+                                            em
+                                                em.currency-image
+                                                em #{prices.rates.per_month}
                                     li
                                         //- MIXIN Use
                                         +webapp
@@ -108,10 +110,12 @@ block content
                                 h5 #{prices.rates.subtitles.premium}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-gold.svg', alt='#{prices.rates.subtitles.create}', title='#{prices.rates.subtitles.create}')
                                 ul
-                                    li
+                                    li.price-container.price-currency-eur
                                         span
-                                            | 59,95
-                                            em #{prices.rates.per_month}
+                                            span.price 59,95
+                                            em
+                                                em.currency-image
+                                                em #{prices.rates.per_month}
                                     li
                                         //- MIXIN Use
                                         +webapp
@@ -143,10 +147,12 @@ block content
                                 h5 #{prices.rates.subtitles.basic}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-copper.svg', alt='#{prices.rates.subtitles.basic}', title='#{prices.rates.subtitles.basic}')
                                 ul
-                                    li
+                                    li.price-container.price-currency-eur
                                         span
-                                            | 99,50
-                                            em #{prices.rates.per_year}
+                                            span.price 99,50
+                                            em
+                                                em.currency-image
+                                                em #{prices.rates.per_year}
                                     li
                                         //- MIXIN Use
                                         +webapp
@@ -170,16 +176,18 @@ block content
                                     | #{register.call_to_action}
                                     i.icon.icon-left.hover-anim
                         .col.s12.m4.mobile-prices(data-aos='flip-left')
-                            img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badgeWinner.png', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
+                            img.responsive-img.best-seller(src='#{localConfig.base_path}/images/home/icons/badge_winner.svg', title='#{prices.rates.topsale}', alt='#{prices.rates.topsale}')
                             .pricing-table-grid.with-hover.center-img
                                 h3 #{prices.rates.professional}
                                 h5 #{prices.rates.subtitles.professional}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-silver.svg', alt='#{prices.rates.subtitles.professional}', title='#{prices.rates.subtitles.professional}')
                                 ul
-                                    li
+                                    li.price-container.price-currency-eur
                                         span
-                                            | 299,50
-                                            em #{prices.rates.per_year}
+                                            span.price 299,50
+                                            em
+                                                em.currency-image
+                                                em #{prices.rates.per_year}
                                     li
                                         //- MIXIN Use
                                         +webapp
@@ -208,10 +216,12 @@ block content
                                 h5 #{prices.rates.subtitles.premium}
                                 img(src='#{localConfig.base_path}/images/home/icons/rocket-gold.svg', alt='#{prices.rates.subtitles.create}', title='#{prices.rates.subtitles.create}')
                                 ul
-                                    li
+                                    li.price-container.price-currency-eur
                                         span
-                                            | 599,50
-                                            em #{prices.rates.per_year}
+                                            span.price 599,50
+                                            em
+                                                em.currency-image
+                                                em #{prices.rates.per_year}
                                     li
                                         //- MIXIN Use
                                         +webapp
@@ -241,7 +251,8 @@ block content
                                     i.icon.icon-money
                                     | !{prices.rates.monthless}
                 .row
-                    .col.s12.m8.offset-m3.tax
+                    .col.s12.m8.offset-m3.tax.currency-selector
+                        span #{prices.rates.choose_currency}
                         a(data-currency="EUR") EUR
                         a(data-currency="USD") USD
                         a(data-currency="MXN") MXN
