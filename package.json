@@ -2,6 +2,10 @@
   "name": "landing-upplication",
   "version": "3.6.6",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "gulp deploy"
+  },
   "contributors": [
     {
       "name": "Raul Jiménez",
