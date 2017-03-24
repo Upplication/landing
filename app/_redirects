@@ -1,35 +1,107 @@
 # seo redirects
 
-/showcase/ /build-your-app/ 301
+/es/ / 301
+
+/showcase/ /en/build-your-app/ 301
 /inspirate/ / 301
-/home_tlf/ /telefonica/ 301
-/team/ /about-us/ 301
-/pricing/ /prices/ 301
-/equipo/ /nosotros/ 301
+/home_tlf/ /es/telefonica/ 301
+/team/ /en/about-us/ 301
+/pricing/ /en/prices/ 301
+/equipo/ /es/nosotros/ 301
 /tipos-marketing-movil/ /blog/tipos-marketing-movil/ 301
 /logo-upplication/ /blog/logo-upplication/ 301
 /ventajas-marketing-movil/ /blog/ventajas-marketing-movil/ 301
 /web-multidispositivo-aplicacion-movil/ /blog/web-multidispositivo-aplicacion-movil/ 301
 /mobile-world-congress-upplication/ /blog/mobile-world-congress-upplication/ 301
 
-/ejemplos-vodafone/ /asis-and-gross/ 301
-/vodafone-examples/ /asis-and-gross-sucessfull-showcase/ 301
-/exemplos-vodafone/ /asis-and-gross-caso-bem-sucedido/ 301
-/vodafone-examples-indonesian/ /asis-and-gross-sucessfull-showcase-indonesian/ 301
+/ejemplos-vodafone/ /es/asis-and-gross/ 301
+/vodafone-examples/ /en/asis-and-gross-sucessfull-showcase/ 301
+/exemplos-vodafone/ /pt/asis-and-gross-caso-bem-sucedido/ 301
+/vodafone-examples-indonesian/ /id/asis-and-gross-sucessfull-showcase/ 301
 
 /category/apps/ /blog/aplicaciones-movil/ 301
 /category/plantillas/ /blog/dia-a-dia/ 301
 
-/blog/autor/equipo-upplication/ /nosotros/ 301
+/blog/autor/equipo-upplication/ /es/nosotros/ 301
 /blog/blog-corporativo/ /blog/ 301
 /blog/autor/equipo-upplication/page/2/ /blog/autor/upplication-team/ 301
 
-/condicioneslegalesmovistar-upplication/ /terminos-aplicateca/ 301
-/termsandconditionsmovistar-upplication/ /terms-aplicateca/ 301
-/termsandconditionsmovistar-upplication-indonesian/ /terms-aplicateca-indonesian/ 301
-/condiçõeslegaismovistar-upplication/ /termos-aplicateca/ 301
-/build-app-mobile-terms/ /terms/ 301
-/politica-subida-apps-app-store/ /terminos/ 301
+/condicioneslegalesmovistar-upplication/ /es/terminos-aplicateca/ 301
+/termsandconditionsmovistar-upplication/ /en/terms-aplicateca/ 301
+/termsandconditionsmovistar-upplication-indonesian/ /id/terms-aplicateca/ 301
+/condiçõeslegaismovistar-upplication/ /pt/termos-aplicateca/ 301
+/build-app-mobile-terms/ /en/terms/ 301
+/politica-subida-apps-app-store/ /es/terminos/ 301
+
+# SEO redirect:
+/nosotros/ /es/nosotros/ 301
+/about-us/ /en/about-us/ 301
+/nós/ /pt/nós/ 301
+/about-us-indonesian/ /id/about-us/ 301
+
+/bio-de-empresa/ /es/bio-de-empresa/ 301
+/company-bio/ /en/company-bio/ 301
+/bio-do-companhia/ /pt/bio-do-companhia/ 301
+/company-bio-indonesian/ /id/company-bio/ 301
+
+/centro-de-ayuda/ /es/centro-de-ayuda/ 301
+/help-center/ /en/help-center/ 301
+/centro-de-ajuda/ /pt/centro-de-ajuda/ 301
+/help-center-indonesian/ /id/help-center/ 301
+
+/build-your-app/ /en/ 301
+/Criar-a-minha-app/ /pt/ 301
+/generator-aplikasi/ /id/ 301
+
+/telefonica/ /es/telefonica/ 301
+/telefonica-en/ /en/telefonica/ 301
+/telefonica-pt/ /pt/telefonica/ 301
+/telefonica-id/ /id/telefonica/ 301
+
+/oferta-practicas-developer/ /es/oferta-practicas-developer/ 301
+/offer-trainee-developer/ /en/offer-trainee-developer/ 301
+/oferta-estágio-developer/ /pt/oferta-estágio-developer/ 301
+/offer-trainee-developer-indonesian/ /id/offer-trainee-developer/ 301
+
+/oferta-practicas-marketing/ /es/oferta-practicas-marketing/ 301
+/offer-trainee-marketing/ /en/offer-trainee-marketing/ 301
+/oferta-estágio-marketing/ /pt/oferta-estágio-marketing/ 301
+/offer-trainee-marketing-indonesian/ /id/offer-trainee-marketing/ 301
+
+/ejemplos-vodafone/ /es/ejemplos-vodafone/ 301
+/vodafone-examples/ /en/vodafone-examples/ 301
+/exemplos-vodafone/ /pt/exemplos-vodafone/ 301
+/vodafone-examples-indonesian/ /id/vodafone-examples/ 301
+
+/precios/ /es/precios/ 301
+/prices/ /en/prices/ 301
+/preços/ /pt/preços/ 301
+/prices-indonesian/ /id/prices/ 301
+
+/precios-aplicateca/ /es/precios-aplicateca/ 301
+/prices-aplicateca/ /en/prices-aplicateca/ 301
+/preços-aplicateca/ /pt/preços-aplicateca/ 301
+/prices-aplicateca-indonesian/ /id/prices-aplicateca/ 301
+
+/asis-and-gross/ /es/asis-and-gross/ 301
+/asis-and-gross-sucessfull-showcase/ /en/asis-and-gross-sucessfull-showcase/ 301
+/asis-and-gross-caso-bem-sucedido/ /pt/asis-and-gross-caso-bem-sucedido/ 301
+/asis-and-gross-sucessfull-showcase-indonesian/ /id/asis-and-gross-sucessfull-showcase/ 301
+
+/fisiohogar/ /es/fisiohogar/ 301
+/fisiohogar-sucessfull-showcase/ /en/fisiohogar-sucessfull-showcase/ 301
+/fisiohogar-caso-bem-sucedido/ /pt/fisiohogar-caso-bem-sucedido/ 301
+/fisiohogar-sucessfull-showcase-id/ /id/fisiohogar-sucessfull-showcase/ 301
+
+/terminos/ /es/terminos/ 301
+/terms/ /en/terms/ 301
+/termos/ /pt/termos/ 301
+/terms-indonesian/ /id/terms/ 301
+
+/terminos-aplicateca/ /es/terminos-aplicateca/ 301
+/terms-aplicateca/ /en/terms-aplicateca/ 301
+/termos-aplicateca/ /pt/termos-aplicateca/ 301
+/terms-aplicateca-indonesian/ /id/terms-aplicateca/ 301
 
 # microlandings migrated to instapage
 /crear-app-movil-*  /crear-app-movil/:splat 301
