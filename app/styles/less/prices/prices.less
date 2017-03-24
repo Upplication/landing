@@ -109,6 +109,54 @@
         top: -3px;
       }
     }
+    // Currency Selector
+    &.currency-selector {
+      margin-top: 30px;
+      padding-left: 40px;
+
+      span {
+        position: relative;
+        bottom: 2px;
+      }
+
+      a {
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: 600;
+        color: @dark-lilac;
+        cursor: pointer;
+
+        &::before {
+          display: inline-block;
+          margin-right: 5px;
+          padding: 0 10px;
+          background-color: @bg-lilac-light;
+          .border-radius(50%);
+          color: @darkest-lilac;
+          font-weight: 400;
+        }
+
+        &[data-currency="EUR"]::before {
+          content: '€';
+        }
+        &[data-currency="USD"]::before {
+          content: '$';
+        }
+        &[data-currency="MXN"]::before {
+          content: '$';
+        }
+
+        &:hover {
+          .anim(all, 150ms, ease);
+          color: @darkest-lilac;
+
+          &::before {
+            background-color: @main-green;
+            color: @white;
+          }
+        }
+      }
+    }
   }
 
   // Best Seller Product badge
@@ -212,8 +260,23 @@
         }
 
         &.price-container {
-          .currency-image:after {
-            display: inline-block;
+
+          & > span {
+            span, em {
+              display: inline-block;
+              padding: 0;
+            }
+            span {
+              font-size: 30px;
+            }
+          }
+
+          .currency-image {
+            padding: 0 5px;
+
+            &:after {
+              display: inline-block;
+            }
           }
 
           &.price-currency-eur .currency-image:after {
@@ -227,6 +290,8 @@
           &.price-currency-mxn .currency-image:after {
             content: '$MXN';
           }
+
+
         }
       }
     }
@@ -359,6 +424,14 @@ html[lang=es-MX] .price-container.price-currency-mxn { display: inherit; }
       width: 50%;
       margin-bottom: 25px;
     }
+  }
+}
+
+@media (max-width: 699px) {
+  #pricing .tax.currency-selector span {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
   }
 }
 

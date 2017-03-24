@@ -840,7 +840,8 @@
       "unlimited": "ILIMITADO",
       "with_tax": "Todos os preços <strong>incluem IVA</strong>.",
       "permanence": "<em>Premium</em> você tem 6 meses compromisso de permanência.",
-      "yearly": "Plano Anual"
+      "yearly": "Plano Anual",
+      "choose_currency": "Escolha a moeda:"
     }
   },
   "prices_aplicateca": {

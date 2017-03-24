@@ -843,7 +843,8 @@
       "unlimited": "TAK TERBATAS",
       "with_tax": "Sudah termasuk <strong>PPN</strong>.",
       "permanence": "<em>Premium</em> anda memiliki 6 bulan komitmen untuk tetap.",
-      "yearly": "Paket tahunan"
+      "yearly": "Paket tahunan",
+      "choose_currency": "Pilih mata uang:"
     }
   },
   "prices_aplicateca": {
