@@ -1,47 +1,60 @@
+# Upplication Landing
 [![Build Status](https://travis-ci.org/Upplication/landing.svg?branch=develop)](https://travis-ci.org/Upplication/landing)
 
-INSTALLATION
---------
-Clone this repo and install the dependencies:
+```
+$ git clone git@github.com:Upplication/landing.git
+$ npm install
+$ npm start
+```
 
-* [nodejs](http://nodejs.org/)
+## Requirements
+* [node](http://nodejs.org/)
+* [npm](https://docs.npmjs.com/)
+
+Also, it's recomendend (but not mandatory) installing
 * [bower](http://bower.io/) `npm install -g bower`
 * [gulp-cli](http://gulpjs.com/) `npm install -g gulp-cli`
-* Install node dependencies -- `npm install`
 
-DEVELOPMENT
---------
-`gulp`
+## Installation
+```
+$ git clone git@github.com:Upplication/landing.git
+$ npm install
+```
 
-Starts development environment:
-* Watch changes in css, jade, js ... folders and compiles if it is necessary
-* Browser live's reload 
+## Running
+```
+$ npm start
+```
 
-DEPLOYMENT
---------
-`gulp deploy --type=production`
+Starts a local development environment which:
+* Is accesible at http://localhost:9000.
+* Watches changes in css, jade, js ... folders and compiles if it is necessary.
+* Browser lives reload.
+
+## Deployment
+```
+$ npm run deploy --type=production
+```
+
+Builds the project with optimization for distribution.
 
 If you are going to upload the project to a folder different than root (/), you can use a parameter called `config.base_path` with the destination root path. Example `grunt deploy --config.base_path=/new` to make the static files points to the proper path.
 
-Builds the project:
-Optimization for distribution.
-
-
-DOCUMENTATION
---------
+## Documentation
 This is a quick reference that aims to help you to learn how to add new languages and views on this project.
 
-## Configure environment
+### Configure environment
 
-The file config.json contains the definition of all the configuration needed by the project. This definitions are grouped by environment. You can activate one environemnt by calling the paramenter `env`. Example `gulp deploy --env=localhost` load all the vars defined in the localhost section. All this vars are available at:
+The file `config.json` contains the definition of all the configuration needed by the project. This definitions are grouped by environment. You can activate one environemnt by calling the paramenter `env`. Example `npm run deploy -- --env=localhost` load all the vars defined in the localhost section. All this vars are available at:
 
 * Jade templates by calling `#{localConfig.xxxx}`
 * Saas files by calling `@@config`. (#{localConfig.} cant be use because saas define his own vars in that way)
 * Jade i18n files by calling `@@config`.
 
-You can override this vars passing the concrete key as parameter with the prefix `config.`. Example `gulp deploy --env=localhost --config.token_manager=1337 --type=production` load all the vars defined in the localhost section and override the token_manager var with the value `1337`
+You can override this vars passing the concrete key as parameter with the prefix `config.`. Example `npm run deploy -- --env=localhost --config.token_manager=1337 --type=production` load all the vars defined in the localhost section and override the token_manager var with the value `1337`
 
-## Add a new view
+### Add a new view
+
 1. *Adding template*: Create:
 
     `app/views/[view_name].jade`
@@ -89,12 +102,12 @@ Notes:
 * All variables starting with "_" are mandatory
 * You can split the translations as many files as you want, only respects the naming: [name]_[language_code]-[country-code]*.json
 
-## Add a new language
-1. *Add language*: 
+### Add a new language
+1. *Add language*:
 
     Update: `app/locales/languages.json` adding the new language
 
-2. *Add the translation file*: 
+2. *Add the translation file*:
 
     Create: `app/locales/[custom_name]_[language_code]-[country_code]*.json`
 
