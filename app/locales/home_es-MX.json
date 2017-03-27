@@ -1,0 +1,54 @@
+{
+  "home": {
+    "_keywords": "app, aplicación, creador de apps, aplicativos para empresas, creador de apps online, crear app sin programar, crear app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_meta_description": "Creador de aplicaciones para empresas. Sin programar, fácil y en pocos minutos. Para iPhone y Android. Prueba GRATIS durante 15 días. Tutor personalizado.",
+    "_meta_title": "Upplication - La plataforma más sencilla para CREAR APLICACIONES online.",
+    "_priority": "1.0",
+    "_url": "/mx/",
+    "slider" : {
+      "appready": {
+        "": "¡Tu App publicada!",
+        "title": "¡Tu App publicada!"
+      }
+    },
+    "try": "¡Crea tu aplicación ahora!<br/>15 días de prueba gratis con un tutor personal",
+    "improve_sales": {
+      "title": "Aumenta tus ventas"
+    },
+    "how": {
+      "app_ready": " <span>Tu App</span> publicada",
+      "how_one": {
+        "reg_step4": "Recuerda: Tienes <b>15 días</b> de <b>prueba gratis</b> y <b>el asesoramiento de un tutor personal</b>."
+      },
+      "how_two": {
+        "app_step2": "¿Tienes <b>Página de negocio en Facebook</b>? Tan sencillo como introducir esa URL (enlace) y probar nuestra <span>plataforma</b>... ¡Hacemos magia!"
+      },
+      "how_four": {
+        "publish_step2": "Nosotros nos encargamos siempre de subir tu aplicación a los markets de <b>Apple (iOS)</b> y <b>Google (Android)</b>, para que tu App pueda usarse desde cualquier dispositivo."
+      }
+    },
+    "optimize": {
+      "points": [{
+          "desc": "Una app te permitirá estar siempre en el bolsillo de tu cliente. Fideliza, crea una relación de confianza y aumentarás tus ingresos."
+        },{
+          "desc": "Te acompañamos en todo momento para la creación de tu app. Tendrás a una persona experta que será la encargada de ayudarte en cada paso."
+        },{
+          "desc": "Con Upplication podrás crear tu app para iOS, Android y la web responsive que deseas. Además nosotros siempre nos encargaremos de publicarlas en App Store y Google Play."
+        }
+      ]
+    },
+    "samples": {
+      "free_app": "Crear mi app GRATIS",
+      "custom": {
+        "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de lo que necesites"
+      },
+      "rest":{
+        "rest_intro": "Crea la app Android y iPhone de tu restaurante porque <span>fidelizarás a tus clientes</span>",
+        "details2": "Recibe <span>pedidos a domicilio</span> desde tu aplicación."
+      },
+      "shop": {
+        "shop_details1": "Ofrece <span>productos exclusivos</span> que solo puedan comprar con tu aplicación."
+      }
+    }
+  }
+}
