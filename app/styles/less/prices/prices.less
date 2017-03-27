@@ -129,7 +129,7 @@
         &::before {
           display: inline-block;
           margin-right: 5px;
-          padding: 0 10px;
+          padding: 0 9px;
           background-color: @bg-lilac-light;
           .border-radius(50%);
           color: @darkest-lilac;
@@ -173,11 +173,7 @@
   // Common styles in Pricing Plans Tables
   .pricing-table-grid {
     border: 1px solid @header-border;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    transition: 0.5s all;
+    .anim(all, .5s, ease);
 
     // Plan Name
     h3 {
@@ -231,11 +227,11 @@
           background: @white;
           font-size: 1.8em;
           font-weight: 700;
-          -webkit-transition: 0.5s all;
-          -moz-transition: 0.5s all;
-          -ms-transition: 0.5s all;
-          -o-transition: 0.5s all;
-          transition: 0.5s all;
+          .anim(all, .5s, ease);
+
+          &:not(.price) {
+            .anim-info-opacity(.3s);
+          }
 
           em {
             font-style: normal;
@@ -291,7 +287,48 @@
             content: '$MXN';
           }
 
+          // special container showns meanwhite currency is loading (if there was an API request delay)
+          &.price-loading {
+            //.loader():
+            display: block;
+            padding: 8px 0;
+            background: rgba(255,255,255,.8);
+            z-index: 99999;
+            -webkit-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+            transform-origin: 0 0;
+            pointer-events: none;
+            .anim-info-opacity(.3s);
 
+            span:not(.price) {
+              display: block;
+              visibility: visible;
+              width: 50px;
+              height: 50px;
+              position: relative;
+              border: 5px solid transparent;
+              border-top: 5px solid @main-green;
+              border-bottom: 5px solid @main-green;
+              .border-radius(50%);
+              .animation-infinite(1.3s);
+
+              span.price,
+              em {
+                display: none;
+              }
+            }
+            // to enable "upp-spin" animation
+            @keyframes upp-spin {
+              0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+              }
+              100% {
+                -webkit-transform: rotate(359deg);
+                transform: rotate(359deg);
+              }
+            }
+          }
         }
       }
     }
@@ -316,7 +353,7 @@
         margin-left: -20px;
 
         &:before {
-          .rotate-180;
+          .rotate(180deg);
         }
       }
 
