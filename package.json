@@ -22,6 +22,10 @@
     {
       "name": "Javier Lorenzo",
       "email": "javier.lorenzo@upplication.com"
+    },
+    {
+      "name": "Juan José Herrero Barbosa",
+      "email": "juan.herrero@upplication.com"
     }
   ],
   "devDependencies": {
