@@ -30,13 +30,6 @@ jQuery(document).ready(function($) {
      */
     var CURRENCY_SYMBOLS = [ 'USD', 'MXN' ]
 
-    function IpGeolocationService() {}
-
-    IpGeolocationService.prototype.getInfo = function(cb) {
-        var url = "http://ip-api.com/json"
-        $.getJSON(url, cb)
-    }
-
     /**
      * Provides currency rates information via an async HTTP API.
      * @param {CurrencyCode} [conf.base] - ISO Symbol of the currency base for
@@ -323,7 +316,6 @@ jQuery(document).ready(function($) {
             base: CURRENCY_BASE,
             symbols: CURRENCY_SYMBOLS
         })
-        var geolocationService = new IpGeolocationService()
 
         var priceContainers = initializePriceContainers()
         if (priceContainers.length <= 0) // If no price containers, do nothing
@@ -331,10 +323,6 @@ jQuery(document).ready(function($) {
         // Retrieve conversion rates and update price containers
         currencyService.getRates(function(data) {
             updatePriceContainers(priceContainers, data)
-        })
-        // Retrieve client info by its current IP
-        geolocationService.getInfo(function(data) {
-            $('html').attr('country', data.countryCode)
         })
         initializeCurrencySelectors()
     }
