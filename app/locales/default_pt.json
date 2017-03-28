@@ -839,6 +839,7 @@
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
       "with_tax": "Todos os preços <strong>incluem IVA</strong>.",
+      "exchange_rate": "Esta conversão de moeda é uma aproximação. O pagamento final será feito em <strong>euros</strong> o seu banco será responsável pelo cálculo da taxa de câmbio final.",
       "permanence": "<em>Premium</em> você tem 6 meses compromisso de permanência.",
       "yearly": "Plano Anual",
       "choose_currency": "Escolha a moeda:"

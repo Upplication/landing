@@ -844,6 +844,7 @@
       "topsale": "Más demandado",
       "unlimited": "ILIMITADO",
       "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
+      "exchange_rate": "Esta conversión de moneda es una aproximación. El cobro final se realizará en <strong>euros</strong> y será tu banco el encargado de calcular la tasa de cambio final.",
       "permanence": "El plan <em>Premium</em> tiene un periodo de permanencia de 6 meses.",
       "yearly": "Plan Anual",
       "choose_currency": "Elegir moneda:"

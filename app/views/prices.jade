@@ -252,14 +252,21 @@ block content
                                     | !{prices.rates.monthless}
                 .row
                     .col.s12.m8.offset-m3.tax.currency-selector
-                        span #{prices.rates.choose_currency}
-                        a(data-currency="EUR") EUR
-                        a(data-currency="USD") USD
-                        a(data-currency="MXN") MXN
+                        p
+                            i.icon.icon-asterisk
+                            i.icon.icon-info
+                            | #{prices.rates.choose_currency}
+                            a(data-currency="EUR") EUR
+                            a(data-currency="USD") USD
+                            a(data-currency="MXN") MXN
                     .col.s12.m8.offset-m3.tax
                         p
                             i.icon.icon-asterisk
                             | !{prices.rates.with_tax}
+
+                        p
+                            i.icon.icon-info
+                            | !{prices.rates.exchange_rate}
                         p
                             i.icon.icon-asterisk
                             i.icon.icon-asterisk
