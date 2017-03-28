@@ -69,8 +69,9 @@ var setCookie = function (name, value) {
  * the browser lang is used.
  *
  * http://www.w3schools.com/tags/ref_language_codes.asp
+ * https://www.w3schools.com/tags/ref_country_codes.asp
  *
- * @param current_lang the current page lang in format like 'es_ES' or 'en_EN'
+ * @param current_lang the current page lang in format like 'es-ES' or 'en-EN'
  * @param routing a map with the views and langs available
  * @param view the current page view
  */
@@ -83,6 +84,7 @@ var checkLanguage = function (current_lang, routing, view) {
     log("current lang : " + current_lang);
     log("lang cookie : " + langCookie);
     log("browser lang : " + browserLang);
+    log("current location : " + window.location);
 
     if (!browserLang ||
             // see: https://perishablepress.com/list-all-user-agents-top-search-engines/
@@ -93,23 +95,23 @@ var checkLanguage = function (current_lang, routing, view) {
         return;
     }
 
-    if (langCookie) {
-        //CHECK IF CURRENT LANG != LANG COOKIE
-        if (langCookie.substring(0, 2) !== current_lang.substring(0, 2)) {
-            //Redirect to lang cookie version
-            location = routing[view][langCookie];
-            log("Location in cookie -> " + location);
-            log("Routing -> ");
-            log(routing);
+    var userLang = langCookie || browserLang;
+
+    if (userLang !== current_lang) {
+        //Redirect to lang cookie version
+        location = routing[view][userLang];
+        // if not found full concrete website, use the language part only
+        if (!location && userLang.substring(0, 2) !== current_lang.substring(0, 2)) {
+            location = routing[view][userLang.substring(0, 2)];
         }
-    } else {
-        // CHECK BROWSER PREFERENCES
-        if (browserLang !== current_lang.substring(0, 2)) {
-            log("Updating lang to the browser lang: " + browserLang);
+
+        if (!langCookie) {
             setCookie("upp_language", browserLang);
-            location = routing[view][browserLang];
-            log("Location in cookie -> " + location);
         }
+
+        log("Location -> " + location);
+        log("Routing -> ");
+        log(routing);
     }
 
     if (location) {
