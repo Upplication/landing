@@ -842,6 +842,7 @@
       "topsale": "Top sale",
       "unlimited": "UNLIMITED",
       "with_tax": "<strong>VAT included</strong> in all prices.",
+      "exchange_rate": "This currency conversion is an approximation. The final charge will be made in <strong>euros</strong> and your bank will be responsible for calculating this final exchange rate.",
       "permanence": "<em>Premium</em> Plan have a 6 mounths commitment of permanence.",
       "yearly": "Annual plan",
       "choose_currency": "Choose currency:"
