@@ -4,7 +4,7 @@
     "_meta_description": "Upplication es un creador de apps online para ti o para tu empresa. Prueba GRATIS durante 15 días, sin necesidad de programación y en cuestión de minutos. Para Android e iOS",
     "_meta_title": "Equipo de Upplication: creador de apps",
     "_priority": "0.8",
-    "_url": "/nosotros/",
+    "_url": "/es/nosotros/",
     "departments": {
       "title": "<span>Conoce</span> nuestros departamentos",
       "develop": {
@@ -144,12 +144,12 @@
     "pricing_aplicateca": {
       "anchor": "Precios",
       "title": "Precios de Upplication en Aplicateca",
-      "url": "@@config.base_path/precios-aplicateca/"
+      "url": "@@config.base_path/es/precios-aplicateca/"
     },
     "terms_aplicateca": {
       "anchor": "Legal",
       "title": "Términos legales de Upplication en Aplicateca",
-      "url": "@@config.base_path/terminos-aplicateca/"
+      "url": "@@config.base_path/es/terminos-aplicateca/"
     }
   },
   "company": {
@@ -157,7 +157,7 @@
     "_meta_description": "Biografía y expansión internacional de Upplication: creador de apps móvil online sin necesidad de programación, en cuestión de minutos, para Android e iOS",
     "_meta_title": "Biografía de Upplication: creador de apps",
     "_priority": "0.9",
-    "_url": "/bio-de-empresa/",
+    "_url": "/es/bio-de-empresa/",
     "intro": {
       "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>es un servicio útil, completo y totalmente personalizado de marketing móvil </span> y para ayudar a las pymes a crear un <span> nuevo canal de comunicación </span> aportándoles soluciones, ideas y herramientas con las que puedan conseguir lo que para nosotros es lo realmente importante: <span> fidelizar a sus clientes, incrementar sus ventas y diferenciarse de la competencia</span>.",
       "maintitle": "<span>¿Qué es</span> Upplication<span>?</span>"
@@ -209,7 +209,7 @@
   "external": {
     "about": {
       "anchor": "¿Quienes somos?",
-      "url": "@@config.base_path/nosotros/"
+      "url": "@@config.base_path/es/nosotros/"
     },
     "aplicateca": {
       "anchor": "Entrar",
@@ -218,7 +218,7 @@
     },
     "apps": {
       "anchor": "Ejemplos de apps",
-      "url": "@@config.base_path/inspirate"
+      "url": "@@config.base_path/es/inspirate"
     },
     "blog": {
       "anchor": "Blog",
@@ -227,15 +227,14 @@
     },
     "breakfasts": {
       "anchor": "Un caso de éxito",
-      "url": "@@config.base_path/asis-and-gross-sucessfull-showcase/"
+      "url": "@@config.base_path/es/asis-and-gross-sucessfull-showcase/"
     },
     "company": {
       "anchor": "Upplication bio",
-      "url": "@@config.base_path/bio-de-empresa/"
+      "url": "@@config.base_path/es/bio-de-empresa/"
     },
     "create_apps": {
-      "anchor": "Creamos tu app",
-      "url": "/hacemos-el-trabajo-por-ti/"
+      "anchor": "Creamos tu app"
     },
     "dashboard": {
       "anchor": "Entrar",
@@ -246,8 +245,7 @@
       "url": "http://www.facebook.com/Upplication"
     },
     "features": {
-      "anchor": "Características",
-      "url": "/caracteristicas/"
+      "anchor": "Características"
     },
     "googleplus": {
       "anchor": "Google Plus",
@@ -263,7 +261,7 @@
     },
     "helpcenter": {
       "anchor": "Centro de ayuda",
-      "url": "@@config.base_path/centro-de-ayuda/"
+      "url": "@@config.base_path/es/centro-de-ayuda/"
     },
     "hiring": "¡Estamos contratando!",
     "hiring_backend": {
@@ -272,15 +270,15 @@
     },
     "hiring_developer": {
       "anchor": "Prácticas de desarrollador",
-      "url": "@@config.base_path/oferta-practicas-developer/"
+      "url": "@@config.base_path/es/oferta-practicas-developer/"
     },
     "hiring_frontend": {
       "anchor": "Desarrollador Frontend",
-      "url": "@@config.base_path/oferta-practicas-developer/"
+      "url": "@@config.base_path/es/oferta-practicas-developer/"
     },
     "hiring_marketing": {
       "anchor": "Prácticas de marketing",
-      "url": "@@config.base_path/oferta-practicas-marketing/"
+      "url": "@@config.base_path/es/oferta-practicas-marketing/"
     },
     "instagram": {
       "anchor": "Instagram",
@@ -288,7 +286,7 @@
     },
     "jobs": {
       "anchor": "¡Estamos contratando!",
-      "url": "@@config.base_path/trabajos/"
+      "url": "@@config.base_path/es/trabajos/"
     },
     "linkedin": {
       "anchor": "Linkedin",
@@ -308,11 +306,11 @@
     },
     "pricing": {
       "anchor": "Precios",
-      "url": "@@config.base_path/precios/"
+      "url": "@@config.base_path/es/precios/"
     },
     "pricing_aplicateca": {
       "anchor": "Precios",
-      "url": "@@config.base_path/precios-aplicateca/"
+      "url": "@@config.base_path/es/precios-aplicateca/"
     },
     "social_media_btns": {
       "facebook": "",
@@ -320,7 +318,7 @@
     },
     "team": {
       "anchor": "Equipo",
-      "url": "@@config.base_path/equipo/"
+      "url": "@@config.base_path/es/equipo/"
     },
     "titles": {
       "help": "Ayuda:",
@@ -330,7 +328,7 @@
     },
     "tos": {
       "anchor": "Condiciones legales",
-      "url": "@@config.base_path/terminos/"
+      "url": "@@config.base_path/es/terminos/"
     },
     "tutorials": {
       "anchor": "Tutoriales",
@@ -349,8 +347,8 @@
     "brand_copy": "Upplication 2017",
     "community": "Comunidad",
     "company": "Compañía",
-    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos/#cookies-policy'>política de cookies</a>.",
-    "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/terminos-aplicateca/'>política de cookies.</a>",
+    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/es/terminos/#cookies-policy'>política de cookies</a>.",
+    "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/es/terminos-aplicateca/'>política de cookies.</a>",
     "free_trial": "Crear mi app gratis",
     "media": "Medios y redes",
     "partners": {
@@ -379,19 +377,19 @@
     "tos": {
       "cookies": {
         "title": "Uso de Cookies",
-        "url": "@@config.base_path/terminos/#cookies-policy"
+        "url": "@@config.base_path/es/terminos/#cookies-policy"
       },
       "legal": {
         "title": "Términos Legales",
-        "url": "@@config.base_path/terminos/"
+        "url": "@@config.base_path/es/terminos/"
       },
       "privacy": {
         "title": "Política de Privacidad",
-        "url": "@@config.base_path/terminos/#privacidad"
+        "url": "@@config.base_path/es/terminos/#privacidad"
       },
       "terms_of_use": {
         "title": "Condiciones de uso",
-        "url": "@@config.base_path/terminos/#uso"
+        "url": "@@config.base_path/es/terminos/#uso"
       }
     },
     "try_it": "¡Crea tu aplicación ahora!",
@@ -421,11 +419,11 @@
       "info": {
         "about_us": {
           "title": "Sobre nosotros",
-          "url": "@@config.base_path/nosotros/"
+          "url": "@@config.base_path/es/nosotros/"
         },
         "company_bio": {
           "title": "Biografía",
-          "url": "@@config.base_path/bio-de-empresa/"
+          "url": "@@config.base_path/es/bio-de-empresa/"
         },
         "helpcenter": {
           "title": "Centro de Ayuda",
@@ -435,11 +433,11 @@
         "info": "Más...",
         "prices": {
           "title": "Precios",
-          "url": "@@config.base_path/precios/"
+          "url": "@@config.base_path/es/precios/"
         },
         "terms": {
           "title": "Aviso Legal",
-          "url": "@@config.base_path/terminos/"
+          "url": "@@config.base_path/es/terminos/"
         }
       },
       "legal": {
@@ -458,7 +456,7 @@
     "_meta_description": "Centro de ayuda de Upplication, el creador de apps online. Encontrarás ejemplos de uso, videotutoriales, datos de contacto del soporte técnico...",
     "_meta_title": "Centro de ayuda de Upplication: creador de apps",
     "_priority": "0.7",
-    "_url": "/centro-de-ayuda/",
+    "_url": "/es/centro-de-ayuda/",
     "advantages": {
       "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
       "text": "Ventajas de tener una app",
@@ -562,7 +560,7 @@
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "Soporte y atención al cliente de Upplication, para crear app online, de Telefónica Upplication. Fácil, rápido y sin programar.",
     "_meta_title": "Servicio de atención al cliente y soporte de Telefónica Upplication",
-    "_url": "/telefonica/",
+    "_url": "/es/telefonica/",
     "contact": {
       "customer_service": {
         "email": {
@@ -582,13 +580,13 @@
       "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
       "name": "Sandra y Paloma, <span>Asis & Gross</span>",
       "more": "Saber más sobre Asis & Gross",
-      "url": "@@config.base_path/asis-and-gross/"
+      "url": "@@config.base_path/es/asis-and-gross/"
     },
     "client2": {
       "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
       "name": "Pablo, <span>Fisiohogar</span>",
       "more": "Saber más sobre Fisiohogar",
-      "url": "@@config.base_path/fisiohogar/"
+      "url": "@@config.base_path/es/fisiohogar/"
     },
     "client3": {
       "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
@@ -602,7 +600,7 @@
     "_keywords": "error, 500, error 500, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "500 error interno del servidor en Upplication - creador de apps online fácil de usar, rápido y sin conocimientos de programación.",
     "_meta_title": "500: error interno del servidor en Upplication - creador de apps",
-    "_url": "/error-interno-del-servidor/",
+    "_url": "/es/error-interno-del-servidor/",
     "pre_advice": "Se ha producido un error con nuestro servidor. Disculpen las molestias, lo solucionaremos muy pronto.",
     "subtitle1": "Error",
     "subtitle2": "interno del servidor",
@@ -636,7 +634,7 @@
     "_meta_description": "Oferta de prácticas para desarrollador backender o frontender para Upplication, el creador de app online para ti o tu negocio.",
     "_meta_title": "Prácticas de desarrollador en Upplication: creador de apps",
     "_priority": "0.4",
-    "_url": "/oferta-practicas-developer/",
+    "_url": "/es/oferta-practicas-developer/",
     "cheers": [
       "¡Un saludo!",
       "Javier Arnáiz"
@@ -677,7 +675,7 @@
     "_meta_description": "Oferta de prácticas de marketing y ventas para Upplication, el creador de app online para android e iOS, fácil, rápido y sin programar.",
     "_meta_title": "Prácticas de marketing en Upplication: creador de apps",
     "_priority": "0.4",
-    "_url": "/oferta-practicas-marketing/",
+    "_url": "/es/oferta-practicas-marketing/",
     "cheers": [
       "¡Un saludo!",
       "Equipo Upplication"
@@ -717,7 +715,7 @@
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "Upplication: crear online tu propia app móvil a través de Ono Vodafone. Prueba tu app gratis 15 días",
     "_meta_title": "Apps creadas con Vodafone Upplication",
-    "_url": "/ejemplos-vodafone/",
+    "_url": "/es/ejemplos-vodafone/",
     "title": "Ejemplos Vodafone"
   },
   "ourclients": {
@@ -776,7 +774,7 @@
     "_keywords": "error, 404, error 404, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "404 Página no encontrada en Upplication - creador de apps online. Prueba 15 días gratis.",
     "_meta_title": "404: Página no encontrada en Upplication - creador de apps",
-    "_url": "/pagina-no-encontrada/",
+    "_url": "/es/pagina-no-encontrada/",
     "advice1": "Que haya tecleado incorrectamente la dirección URL.",
     "advice2": "Que haya perdido su conexión a internet.",
     "advice3": "Que la página esté obsoleta y haya sido eliminada.",
@@ -792,7 +790,7 @@
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_meta_title": "Crea la app de tu pyme - Upplication",
     "_priority": "0.6",
-    "_url": "/precios/",
+    "_url": "/es/precios/",
     "rates": {
       "all_push": "Notificaciones push <strong>ilimitadas</strong>",
       "app_web": "Android / iOS / Web",
@@ -855,7 +853,7 @@
     "_meta_description": "Upplication para crear online tu propia app móvil para Android e iOS a través de Aplicateca de Movistar.",
     "_meta_title": "Precios de Upplication para Movistar Aplicateca",
     "_priority": "0.6",
-    "_url": "/precios-aplicateca/",
+    "_url": "/es/precios-aplicateca/",
     "all_plans_include": {
       "list": [
         {
