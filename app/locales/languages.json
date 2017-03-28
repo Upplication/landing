@@ -24,6 +24,12 @@
       "language_country" : "id",
       "language_short_code": "Bah",
       "home": "/generator-aplikasi"
+    },
+    {
+      "language_name": "México",
+      "language_country" : "es-MX",
+      "language_short_code": "Mex",
+      "home": "/mx/"
     }
   ]
 }

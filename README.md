@@ -70,7 +70,7 @@ You can override this vars passing the concrete key as parameter with the prefix
 
 4. *Add translations*:
 
-    Update all: `app/locales/[names]_[country_lang].json` with:
+    Update all: `app/locales/[names]_[language_code]-[country-code].json` with:
 
     - Add a new object in the root with the name of the file added to the view without the extension [view_name]
     - Add the following keys to the object:
@@ -87,7 +87,7 @@ Notes:
 * You don't need to follow this process in order to link external resources (blog, youtube videos, etc.) using the language file.
 * Do not overwrite any other URL (you can check the languages files or the auto-generated routing.json file)
 * All variables starting with "_" are mandatory
-* You can split the translations as many files as you want, only respects the naming: [name]_[country_lang].json
+* You can split the translations as many files as you want, only respects the naming: [name]_[language_code]-[country-code]*.json
 
 ## Add a new language
 1. *Add language*: 
@@ -96,6 +96,9 @@ Notes:
 
 2. *Add the translation file*: 
 
-    Create: `app/locales/[custom_name]_[country_language].json`
+    Create: `app/locales/[custom_name]_[language_code]-[country_code]*.json`
 
-Country language list: http://www.w3schools.com/tags/ref_language_codes.asp
+Language code list: http://www.w3schools.com/tags/ref_language_codes.asp
+Country code list: https://www.w3schools.com/tags/ref_country_codes.asp (optional)
+
+\* country code is optional.
