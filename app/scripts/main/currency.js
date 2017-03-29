@@ -259,7 +259,10 @@ jQuery(document).ready(function($) {
         }
 
         $currencyChangers.on('click', function(ev) {
-            var currencyCode = ev.target.getAttribute('data-currency').toLowerCase()
+            var $target = $(ev.target)
+            var currencyCode = $target.data('currency').toLowerCase()
+            $currencyChangers.removeClass('active')
+            $target.addClass('active')
             removeSelectedCurrencyClassName()
             setSelectedCurrencyClassName(currencyCode)
         })
