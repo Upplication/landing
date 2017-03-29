@@ -129,9 +129,7 @@ jQuery(document).ready(function($) {
      * @return {Number|null}
      */
     PriceContainer.prototype.getPrice = function() {
-        var price = this.$price.text()
-        /** @todo: Decimal/hundreds symbols should be properly handled here */
-        price = price.replace(/,/g, '.')
+        var price = this.$price.data('price')
         return Number(price) || null
     }
 
@@ -145,8 +143,21 @@ jQuery(document).ready(function($) {
     PriceContainer.prototype.setPrice = function(price) {
         var className = PriceContainer.PRICE_NOT_YET_AVAILABLE
         this.$element.toggleClass(className, price === null)
-        /** @todo: Decimal/hundreds symbols should be properly handled here */
-        this.$price.text(price)
+        if (price !== null) {
+            price = Number(price)
+            this.$price.data('price', price)
+            this.updatePriceView()
+        }
+    }
+
+    PriceContainer.prototype.updatePriceView = function() {
+        var price = this.$price.data('price')
+        var locale = $('html').attr('lang')
+        this.$price.text(price.toLocaleString(locale, {
+            minimumFractionDigits: 2, // Decimal positions
+            maximumFractionDigits: 2,
+            useGrouping: false, // Hundreds separator
+        }))
     }
 
     /**
