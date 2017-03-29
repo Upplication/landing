@@ -11,19 +11,25 @@
       "language_name": "English",
       "language_country" : "en",
       "language_short_code": "Eng",
-      "home": "/build-your-app"
+      "home": "/en/"
     },
     {
       "language_name": "Portuguese",
       "language_country" : "pt",
       "language_short_code": "Port",
-      "home": "/criar-app"
+      "home": "/pt/"
     },
     {
       "language_name": "Bahasa",
       "language_country" : "id",
       "language_short_code": "Bah",
-      "home": "/generator-aplikasi"
+      "home": "/id/"
+    },
+    {
+      "language_name": "México",
+      "language_country" : "es-MX",
+      "language_short_code": "Mex",
+      "home": "/mx/"
     }
   ]
 }

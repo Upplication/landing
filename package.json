@@ -1,7 +1,11 @@
 {
   "name": "landing-upplication",
-  "version": "3.6.6",
+  "version": "3.7.0",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "gulp deploy"
+  },
   "contributors": [
     {
       "name": "Raul Jiménez",
@@ -18,6 +22,10 @@
     {
       "name": "Javier Lorenzo",
       "email": "javier.lorenzo@upplication.com"
+    },
+    {
+      "name": "Juan José Herrero Barbosa",
+      "email": "juan.herrero@upplication.com"
     }
   ],
   "devDependencies": {

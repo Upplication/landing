@@ -4,7 +4,7 @@
     "_meta_description": "Upplication é um criador de apps online para ti ou para a tua empresa. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação e em questão de minutos. Para Android e iOS",
     "_meta_title": "Equipa de Upplication: criador de apps",
     "_priority": "0.8",
-    "_url": "/nós/",
+    "_url": "/pt/nós/",
     "departments": {
       "title": "<span>Conhece</span> os nossos departamentos",
       "develop": {
@@ -142,12 +142,12 @@
     "pricing_aplicateca": {
       "anchor": "Preços",
       "title": "Preços de Upplication em Aplicateca",
-      "url": "@@config.base_path/precios-aplicateca/"
+      "url": "@@config.base_path/pt/precios-aplicateca/"
     },
     "terms_aplicateca": {
       "anchor": "Legal",
       "title": "Condições legais de Upplication em Aplicateca",
-      "url": "@@config.base_path/termos-aplicateca/"
+      "url": "@@config.base_path/pt/termos-aplicateca/"
     }
   },
   "company": {
@@ -155,7 +155,7 @@
     "_meta_description": "Biografia e expansão internacional da Upplication: criador de apps móvel online sem necessidade de programação, em questão de minutos, para Android e iOS",
     "_meta_title": "Biografia da Upplication: criador de apps",
     "_priority": "0.9",
-    "_url": "/bio-do-companhia/",
+    "_url": "/pt/bio-do-companhia/",
     "intro": {
       "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>é um serviço útil, completo e totalmente personalizado de marketing móvel </span> e para ajudar às PME a criar um <span> novo canal de comunicação </span> aportando-lhes soluções, ideias e ferramentas com as quais podem conseguir o que para nós é o realmente importante: <span> fidelizar os seus clientes, aumentar as suas vendas e diferenciar-se da concorrência</span>.",
       "maintitle": "<span>¿O que é</span> Upplication<span>?</span>"
@@ -207,7 +207,7 @@
   "external": {
     "about": {
       "anchor": "Quem somos?",
-      "url": "@@config.base_path/nós/"
+      "url": "@@config.base_path/pt/nós/"
     },
     "aplicateca": {
       "anchor": "Entrar",
@@ -216,7 +216,7 @@
     },
     "apps": {
       "anchor": "Exemplos de apps",
-      "url": "@@config.base_path/inspirate"
+      "url": "@@config.base_path/pt/inspirate/"
     },
     "blog": {
       "anchor": "Blogue",
@@ -225,15 +225,14 @@
     },
     "breakfasts": {
       "anchor": "Sucesso app",
-      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
+      "url": "@@config.base_path/pt/asis-and-gross-caso-bem-sucedido/"
     },
     "company": {
       "anchor": "Upplication bio",
-      "url": "@@config.base_path/bio-do-companhia/"
+      "url": "@@config.base_path/pt/bio-do-companhia/"
     },
     "create_apps": {
-      "anchor": "Criamos a tua app",
-      "url": "/fazemos-o-trabalho-por-ti/"
+      "anchor": "Criamos a tua app"
     },
     "dashboard": {
       "anchor": "Entrar",
@@ -244,8 +243,7 @@
       "url": "http://www.facebook.com/Upplication"
     },
     "features": {
-      "anchor": "Características",
-      "url": "/características/"
+      "anchor": "Características"
     },
     "googleplus": {
       "anchor": "Google Plus",
@@ -261,7 +259,7 @@
     },
     "helpcenter": {
       "anchor": "Centro de ajuda",
-      "url": "@@config.base_path/centro-de-ajuda/"
+      "url": "@@config.base_path/pt/centro-de-ajuda/"
     },
     "hiring": "Estamos a contratar!",
     "hiring_backend": {
@@ -270,15 +268,15 @@
     },
     "hiring_developer": {
       "anchor": "Estágio de desenvolvedor",
-      "url": "@@config.base_path/oferta-estágio-developer/"
+      "url": "@@config.base_path/pt/oferta-estágio-developer/"
     },
     "hiring_frontend": {
       "anchor": "Desenvolvedor Frontend",
-      "url": "@@config.base_path/oferta-estágio-developer/"
+      "url": "@@config.base_path/pt/oferta-estágio-developer/"
     },
     "hiring_marketing": {
       "anchor": "Estágio de marketing",
-      "url": "@@config.base_path/oferta-estágio-marketing/"
+      "url": "@@config.base_path/pt/oferta-estágio-marketing/"
     },
     "instagram": {
       "anchor": "Instagram",
@@ -286,7 +284,7 @@
     },
     "jobs": {
       "anchor": "Estamos a contratar!",
-      "url": "@@config.base_path/trabalhos/"
+      "url": "@@config.base_path/pt/trabalhos/"
     },
     "linkedin": {
       "anchor": "Linkedin",
@@ -306,18 +304,18 @@
     },
     "pricing": {
       "anchor": "Preços",
-      "url": "@@config.base_path/preços/"
+      "url": "@@config.base_path/pt/preços/"
     },
     "pricing_aplicateca": {
       "anchor": "Preços",
-      "url": "@@config.base_path/preços-aplicateca/"
+      "url": "@@config.base_path/pt/preços-aplicateca/"
     },
     "social_media_btns": {
       "twitter": "https://twitter.com/upplication"
     },
     "team": {
       "anchor": "Equipa",
-      "url": "@@config.base_path/equipa/"
+      "url": "@@config.base_path/pt/equipa/"
     },
     "titles": {
       "help": "Ajuda:",
@@ -327,7 +325,7 @@
     },
     "tos": {
       "anchor": "Condições legais",
-      "url": "@@config.base_path/termos/"
+      "url": "@@config.base_path/pt/termos/"
     },
     "tutorials": {
       "anchor": "Tutoriais",
@@ -376,19 +374,19 @@
     "tos": {
       "cookies": {
         "title": "Utilização de Cookies",
-        "url": "@@config.base_path/termos/#cookies-policy"
+        "url": "@@config.base_path/pt/termos/#cookies-policy"
       },
       "legal": {
         "title": "Termos Legais",
-        "url": "@@config.base_path/termos/"
+        "url": "@@config.base_path/pt/termos/"
       },
       "privacy": {
         "title": "Política de Privacidade",
-        "url": "@@config.base_path/termos/#privacidade"
+        "url": "@@config.base_path/pt/termos/#privacidade"
       },
       "terms_of_use": {
         "title": "Condições de utilização",
-        "url": "@@config.base_path/termos/#utilização"
+        "url": "@@config.base_path/pt/termos/#utilização"
       }
     },
     "try_it": "Cria a tua app!",
@@ -408,7 +406,7 @@
     "logo": {
       "title": "Logotipo da Upplication",
       "title_xmas": "Upplication logo de Natal",
-      "url": "@@config.base_path/Criar-a-minha-app/"
+      "url": "@@config.base_path/pt/"
     },
     "menu": "menu",
     "nav": {
@@ -418,11 +416,11 @@
       "info": {
         "about_us": {
           "title": "sobre nós",
-          "url": "@@config.base_path/nós/"
+          "url": "@@config.base_path/pt/nós/"
         },
         "company_bio": {
           "title": "Biografia",
-          "url": "@@config.base_path/bio-do-companhia/"
+          "url": "@@config.base_path/pt/bio-do-companhia/"
         },
         "helpcenter": {
           "title": "Centro de Ajuda",
@@ -432,11 +430,11 @@
         "info": "Mais...",
         "prices": {
           "title": "Preços",
-          "url": "@@config.base_path/preços/"
+          "url": "@@config.base_path/pt/preços/"
         },
         "terms": {
           "title": "Aviso Legal",
-          "url": "@@config.base_path/termos/"
+          "url": "@@config.base_path/pt/termos/"
         }
       },
       "legal": {
@@ -455,7 +453,7 @@
     "_meta_description": "Centro de ajuda de Upplication, o criador de apps online. Encontrarás exemplos de utilização, vídeo tutoriais, dados de contacto do suporte técnico...",
     "_meta_title": "Centro de ajuda de Upplication: criador de apps",
     "_priority": "0.7",
-    "_url": "/centro-de-ajuda/",
+    "_url": "/pt/centro-de-ajuda/",
     "advantages": {
       "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
       "text": "Vantagens de ter uma app",
@@ -555,201 +553,11 @@
       "title": "Vem aos nossos pequenos almoços"
     }
   },
-  "home": {
-    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Upplication® Criar app, a tua própria app móvel online. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
-    "_meta_title": "Cria a tua app da tua PME - Upplication",
-    "_priority": "1.0",
-    "_url": "/Criar-a-minha-app/",
-    "create_free": "Criar a minha app grátis",
-    "how": {
-      "app_ready": " <span>A tua App</span> lista ",
-      "how_four": {
-        "publish_step1": "Publicamos a tua App",
-        "publish_step2": "<b>Nós encarregamo-nos de fazer upload da app</b> aos diferentes markets (Apple, Android).",
-        "publish_step3": "Todas as nossas apps são  <b>multidispositivo</b> (telemóvel, tablet, Pc, Mac...).",
-        "publish_step4": "Shall we start?"
-      },
-      "how_main": "Cria a tua app facilmente",
-      "how_one": {
-        "reg_step1": "Regista-te",
-        "reg_step2": "Regista-te em três passos simples:",
-        "reg_step3": "nome da tua app, email e senha.",
-        "reg_step5": "Começámos",
-        "reg_title": "Ir ao onboarding Upplication"
-      },
-      "how_three": {
-        "tutor_step1": "Tutor pessoal",
-        "tutor_step2": "<b>Suporte técnico profissional</b> para te ajudar na ideia e na criação da tua App. Disponível por <b>chat</b>, <b>email</b>, e <b>telefone</b>."
-      },
-      "how_two": {
-        "app_step1": "Cria a tua App",
-        "app_step2": "Painel de controlo <b>simples de utilizar</b>, intuitivo. Utiliza <b>módulos e folhas de cálculo</b> para personalizara tua app.",
-        "app_step3": "Controla o <b>número de descargas</b> e envia <b>alertas push</b> aos teus clientes."
-      }
-    },
-    "improve_sales": {
-      "points": [
-        "Melhora os rendimentos do teu negócio",
-        "Vende a partir dos dispositivos móveis",
-        "Melhora a comunicação com os teus clientes"
-      ],
-      "title": "Melhora as tuas vendas"
-    },
-    "multidevice": {
-      "android_alt": "Cria a tua app com Android",
-      "devices_alt": "Criar app",
-      "html5_alt": "Cria a tua app com HTML5",
-      "ios_alt": "Cria a tua app com iOS",
-      "text": "Ao criar uma app móvel cria-se automaticamente uma web visível em computadores, tablets e smartphones, funcional em dispositivos Android e iOS.",
-      "title": "App e web multidispositivo"
-    },
-    "multidevises": {
-      "sub_title": "Válidas para qualquer dispositivo com qualquer sistema operativo",
-      "title": "As nossas apps são multiplataforma"
-    },
-    "optimize": {
-      "points": [
-        {
-          "desc": "Uma app irá permitir-te estar sempre no bolso do teu cliente. Fideliza, cria uma relação longa e consegue melhorar os teus rendimentos.",
-          "icon": "customize",
-          "title": "Personalização"
-        },
-        {
-          "desc": "Acompanhamos-te em cada passo para a criação da tua app, para isso terás a uma pessoa encarregada de te ajudar em cada momento.",
-          "icon": "pessoal-tutor",
-          "title": "Tutor pessoal"
-        },
-        {
-          "desc": "Com Upplication poderás criar a tua app para iOS, Android e a web responsive que desejas. Além disso nós iremos publicá-la em App Store e Google Play por ti.",
-          "icon": "multidevice",
-          "title": "Multidispositivo"
-        }
-      ],
-      "title": "Otimiza o teu negócio"
-    },
-    "permanence": "Período experimental sem compromisso de permanência",
-    "press": {
-      "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
-      "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
-      "el_economista": "http://www.eleconomista.es/interstitial/volver/consejo/emprendedores-innova/noticias/5498091/01/14/Upplication-permite-crear-una-aplicacion-movil-por-menos-de-5-euros-al-mes.html",
-      "forbes": "http://www.forbesmagazine.es/actualidad-noticia/upplication-crea-app-tu-negocio-5-minutos_635.html",
-      "telefonica": "http://blogthinkbig.com/upplication-post-pc/",
-      "ticbeat": "http://pymes.ticbeat.com/servicios-crear-app-de-tu-negocio-sin-programar/",
-      "wwwhatsnew": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
-    },
-    "register_inline": {
-      "app_name": "Nome da app",
-      "call_to_action": "Experimentar grátis",
-      "email": "E-mail",
-      "password": "Senha",
-      "title": "Regista-te e começa a criar a tua primeira app grátis"
-    },
-    "samples": {
-      "alt_tag": {
-        "img_galaxy": "App de Upplication a funcionar num Samsung Galaxy",
-        "img_iphone": "App de Upplication a funcionar num iPhone",
-        "img_nexus": "App de Upplication a funcionar num Nexus",
-        "img_xperia": "App de Upplication a funcionar num Sony Xperia"
-      },
-      "business": "Apps para todo o tipo de negócios",
-      "custom": {
-        "cust_details1": "<span>Pessoal</span>: faz upload do teu curriculum, apresentações, trabalhos...",
-        "cust_details2": "<span>Música</span>: faz upload de música e vídeos, datas de concertos, merchandising...",
-        "cust_details3": "<span>Eventos</span>: faz upload  da agenda do evento, envia alertas push, introduz galerias...",
-        "cust_details4": "<span>Turismo</span>: Introduz mapas, recomenda lugares, faz upload de promoções gastronómicas...",
-        "cust_intro": "Cria a tua app móvel <span>personalizada</span>, feita à medida do que necessitas"
-      },
-      "free_app": "Criar a minha app Grátis",
-      "personal": "Personalizadas",
-      "rest": {
-        "details1": "Os teus clientes poderão <span>reservar mesa</span> a partir do telemóvel.",
-        "details2": "Realiza <span>envio ao domicílio</span> dos teus produtos.",
-        "details3": "Mostra <span>talões desconto</span> na app.",
-        "details4": "Envia <span>alertas push</span> com ofertas exclusivas.",
-        "rest_intro": "Cria a app Android e iPhone do teu restaurante e <span>aporta valor ao teu cliente</span>."
-      },
-      "restaurants": "Hotelaria",
-      "serv": "<em>Serviços</em> Profissionais",
-      "serv_alt": "Serviços Profissionais",
-      "services": {
-        "serv_details1": "Faz com que os teus clientes possam <span>contratar os teus serviços</span> em qualquer lugar.",
-        "serv_details2": "Mostra os <span>horários dos teus serviços</span> no telemóvel dos teus clientes",
-        "serv_details3": "Faz upload de <span>vídeos e fotografias</span> que promovem os teus serviços.",
-        "serv_details4": "Envia ofertas exclusivas com os <span>alertas push</span>",
-        "serv_intro": "Cria a <span>app dos teus serviços</span> e conecta com o teu cliente no telemóvel"
-      },
-      "shop": {
-        "shop_details1": "Integra a passarela de pagamento em questão de minutos e <span>começa a vender</span>",
-        "shop_details2": "Oferece <span>produtos exclusivos</span> e aporta mais valor ao teu cliente.",
-        "shop_details3": "<span>Envia alertas</span> push com as melhores ofertas.",
-        "shop_details4": "Faz com que os teus clientes levem <span>o teu negócio no bolso</span>.",
-        "shop_intro": "Cria a tua app e faz com que os teus clientes possam <span>comprar os teus produtos a partir do telemóvel</span>"
-      },
-      "shops": "Lojas"
-    },
-    "showcase": {
-      "title": "Estas são algumas das nossas apps"
-    },
-    "slider": {
-      "appready": {
-        "": "A tua App pronta!",
-        "bg": "Criador de apps",
-        "title": "A tua App pronta!"
-      },
-      "bg": "Cria a app da tua PME",
-      "intro1": "O criador de apps para ",
-      "intro2": "<span class=\"intro-2a\">Cria a app do teu negócio,</span> <span class=\"intro-2b\">sem programar, fácil e rápido.</span>",
-      "text": [
-        "empreendedores",
-        "hotelaria",
-        "serviços",
-        "lojas",
-        "ti"
-      ]
-    },
-    "support": {
-      "desc": "Todos e cada um dos colegas que formamos Upplication vamos colocar todo o nosso empenho em conseguir que obtenhas a melhor experiência de suporte técnico que esteja nas nossas mãos. Se tens qualquer problema conta connosco.",
-      "title": "Estamos para te ajudar!"
-    },
-    "testimonials": {
-      "client1": {
-        "quote": "Excelente atenção ao cliente online e telefónica. Com a minha app consegui fidelizar muitos dos meus clientes.",
-        "name": "Ana, C, UP Your choice on top",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android1734"
-      },
-      "client2": {
-        "quote": "Os meus clientes reservam mesa e veem a ementa do meu bar a partir da app. Com Upplication giro o dia a dia do meu negócio em poucos minutos.",
-        "name": "David, Bar Trapatapa",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android767"
-      },
-      "client3": {
-        "quote": "A ferramenta mais intuitiva que experimentei. Gerir a minha app é muito simples. Além disso, Upplication não pára de melhorar semana a semana.",
-        "name": "Gabriel, Moto Urban",
-        "url": "https://play.google.com/store/apps/details?id=es.upplication.android596"
-      },
-      "title": "<span>Histórias de</span> sucesso"
-    },
-    "try": "Cria a tua app, tens 15 dias grátis!",
-    "vodafone": {
-      "logo": "Logotipo Vodafone"
-    },
-    "why": {
-      "grow": "<strong>Aumenta</strong> as tuas vendas",
-      "img": {
-        "grow": "Aumenta as tuas vendas",
-        "loyal": "Fideliza os teus clientes",
-        "others": "Diferencia-te da concorrência"
-      },
-      "loyal": "<strong>Fideliza</strong> os teus clientes",
-      "others": "<strong>Diferencia-te</strong> da concorrência"
-    }
-  },
   "home_telefonica_mpos": {
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "Suporte e atenção ao cliente de Upplication, para criar app online, da Telefónica Upplication. Fácil, rápido e sem programar.",
     "_meta_title": "Serviço de atenção e suporte da Telefónica Upplication",
-    "_url": "/telefonica-pt/",
+    "_url": "/pt/telefonica/",
     "contact": {
       "customer_service": {
         "email": {
@@ -769,13 +577,13 @@
       "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
       "name": "Sandra e Paloma, <span>Asis & Gross</span>",
       "more": "Mais sobre Asis & Gross",
-      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
+      "url": "@@config.base_path/pt/asis-and-gross-caso-bem-sucedido/"
     },
     "client2": {
       "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
       "name": "Pablo, <span>Fisiohogar</span>",
       "more": "Mais sobre Fisiohogar",
-      "url": "@@config.base_path/fisiohogar-caso-bem-sucedido/"
+      "url": "@@config.base_path/pt/fisiohogar-caso-bem-sucedido/"
     },
     "client3": {
       "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
@@ -789,7 +597,7 @@
     "_keywords": "erro, 500, erro 500, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "500 erro interno do servidor em Upplication - criador de apps online fácil de utilizar, rápido e sem conhecimentos de programação.",
     "_meta_title": "500: erro interno do servidor em Upplication - criador de apps",
-    "_url": "/erro-interno-do-servidor/",
+    "_url": "/pt/erro-interno-do-servidor/",
     "pre_advice": "Produziu-se um erro com o nosso servidor. Desculpem o incómodo causado, brevemente será solucionado.",
     "subtitle1": "Erro",
     "subtitle2": "interno do servidor",
@@ -822,7 +630,7 @@
     "_meta_description": "Oferta de estágio para desenvolvedor ou backender ou frontender para Upplication, o criador de app online para ti ou para o teu negócio.",
     "_meta_title": "Estágio de desenvolvedor em Upplication: criador de apps",
     "_priority": "0.4",
-    "_url": "/oferta-estágio-developer/",
+    "_url": "/pt/oferta-estágio-developer/",
     "cheers": [
       "Cumprimentos!",
       "Javier Arnáiz"
@@ -863,7 +671,7 @@
     "_meta_description": "Oferta de estágio de marketing e vendas para Upplication, o criador de app online para android e iOS, fácil, rápido e sem programar.",
     "_meta_title": "Estágio de marketing em Upplication: criador de apps",
     "_priority": "0.4",
-    "_url": "/oferta-estágio-marketing/",
+    "_url": "/pt/oferta-estágio-marketing/",
     "cheers": [
       "Cumprimentos!",
       "Equipa Upplication"
@@ -903,7 +711,7 @@
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "Upplication: criar online a tua própria app móvel através da Ono Vodafone. Experimenta a tua app grátis durante 15 dias",
     "_meta_title": "Apps criadas com Vodafone Upplication",
-    "_url": "/exemplos-vodafone/",
+    "_url": "/pt/exemplos-vodafone/",
     "title": "Exemplos Vodafone"
   },
   "ourclients": {
@@ -962,7 +770,7 @@
     "_keywords": "erro, 404, erro 404, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "404 Página não encontrada em Upplication - criador de apps online. Experimenta durante 15 dias grátis.",
     "_meta_title": "404: Página não encontrada em Upplication - criador de apps",
-    "_url": "/página-não-encontrada/",
+    "_url": "/pt/página-não-encontrada/",
     "advice1": "Que tenha digitado incorretamente a direção  URL.",
     "advice2": "Que tenha perdido a sua ligação à internet.",
     "advice3": "Que a página esteja obsoleta e tenha sido eliminada.",
@@ -977,14 +785,14 @@
     "_meta_description": "Upplication® Criar app, a tua própria app móvel online. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
     "_meta_title": "Cria a app da tua PME - Upplication",
     "_priority": "0.6",
-    "_url": "/preços/",
+    "_url": "/pt/preços/",
     "rates": {
       "all_push": "Notificações push <strong>ilimitadas</strong>",
       "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
-      "euro_month": "€ / mês *",
-      "euro_year": "€ / ano *",
+      "per_month": "/ mês *",
+      "per_year": "/ ano *",
       "four_push": "<strong>4</strong> notificações push / mês",
       "icons": {
         "all_push": "Notificações push ilimitadas",
@@ -1031,8 +839,10 @@
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
       "with_tax": "Todos os preços <strong>incluem IVA</strong>.",
+      "exchange_rate": "Esta conversão de moeda é uma aproximação. O pagamento final será feito em <strong>euros</strong> o seu banco será responsável pelo cálculo da taxa de câmbio final.",
       "permanence": "<em>Premium</em> você tem 6 meses compromisso de permanência.",
-      "yearly": "Plano Anual"
+      "yearly": "Plano Anual",
+      "choose_currency": "Escolha a moeda:"
     }
   },
   "prices_aplicateca": {
@@ -1040,7 +850,7 @@
     "_meta_description": "Upplication para criar online a tua própria app móvel para Android e iOS através de Aplicateca da Movistar.",
     "_meta_title": "Preços de Upplication para Movistar Aplicateca",
     "_priority": "0.6",
-    "_url": "/preços-aplicateca/",
+    "_url": "/pt/preços-aplicateca/",
     "all_plans_include": {
       "list": [
         {

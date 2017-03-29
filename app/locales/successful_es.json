@@ -3,7 +3,7 @@
     "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil",
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_meta_title": "Upplication: Asis & Gross",
-    "_url": "/asis-and-gross/",
+    "_url": "/es/asis-and-gross/",
     "img": {
       "top_bg": "Proceso creativo de Sandra y Paloma.",
       "blocks_bg1": "Sandra y Paloma usando el dashboard de Upplication.",
@@ -45,9 +45,9 @@
     "samples": {
       "title": "<span>Otros</span> casos de éxito",
       "sample1": "Saber más sobre Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross/",
+      "sample1_url": "@@config.base_path/es/asis-and-gross/",
       "sample2": "Saber más sobre Fisiohogar",
-      "sample2_url": "@@config.base_path/fisiohogar/",
+      "sample2_url": "@@config.base_path/es/fisiohogar/",
       "sample3": "Saber más sobre Facebook onboarding",
       "sample3_url": "https://youtu.be/NyRm-ttbKeM"
     }
@@ -56,7 +56,7 @@
     "_keywords": "crear app, crear app tienda, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app móvil",
     "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
     "_meta_title": "Upplication: Fisiohogar, fisioterapia a domicilio",
-    "_url": "/fisiohogar/",
+    "_url": "/es/fisiohogar/",
     "img": {
       "top_bg": "Fisioterapeuta manos a la obra.",
       "blocks_bg1": "Pablo Herrera enviando una notificación push.",
@@ -99,9 +99,9 @@
     "samples": {
       "title": "<span>Otros</span> casos de éxito",
       "sample1": "Saber más sobre Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross/",
+      "sample1_url": "@@config.base_path/es/asis-and-gross/",
       "sample2": "Saber más sobre Fisiohogar",
-      "sample2_url": "@@config.base_path/fisiohogar/",
+      "sample2_url": "@@config.base_path/es/fisiohogar/",
       "sample3": "Saber más sobre Facebook onboarding",
       "sample3_url": "https://youtu.be/NyRm-ttbKeM"
     }

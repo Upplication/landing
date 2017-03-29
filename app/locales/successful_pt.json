@@ -3,7 +3,7 @@
     "_keywords": "criar app, criar app loja, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "Upplication é um criador de apps online para ti ou para a tua empresa. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação e em questão de minutos. Para Android e iOS",
     "_meta_title": "Upplication: Asis & Gross",
-    "_url": "/asis-and-gross-caso-bem-sucedido/",
+    "_url": "/pt/asis-and-gross-caso-bem-sucedido/",
     "img": {
       "top_bg": "Sandra & Paloma´s creative process.",
       "blocks_bg1": "Sandra y Paloma using Upplication dashboard.",
@@ -45,9 +45,9 @@
     "samples": {
       "title": "<span>Another</span> successful App showcases",
       "sample1": "Mais sobre Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/",
+      "sample1_url": "@@config.base_path/pt/asis-and-gross-caso-bem-sucedido/",
       "sample2": "Mais sobre Fisiohogar",
-      "sample2_url": "@@config.base_path/fisiohogar-caso-bem-sucedido/",
+      "sample2_url": "@@config.base_path/pt/fisiohogar-caso-bem-sucedido/",
       "sample3": "Mais sobre Facebook onboarding",
       "sample3_url": "https://youtu.be/NyRm-ttbKeM"
     }
@@ -56,7 +56,7 @@
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_meta_title": "Upplication: Fisiohogar, delivery fhysiotherapist",
-    "_url": "/fisiohogar-caso-bem-sucedido/",
+    "_url": "/pt/fisiohogar-caso-bem-sucedido/",
     "img": {
       "top_bg": "Fhysiotherapist working...",
       "blocks_bg1": "Pablo Herrera sending a push notification.",
@@ -99,9 +99,9 @@
     "samples": {
       "title": "<span>Another</span> successful App showcases",
       "sample1": "Mais sobre Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/",
+      "sample1_url": "@@config.base_path/pt/asis-and-gross-caso-bem-sucedido/",
       "sample2": "Mais sobre Fisiohogar",
-      "sample2_url": "@@config.base_path/fisiohogar-caso-bem-sucedido/",
+      "sample2_url": "@@config.base_path/pt/fisiohogar-caso-bem-sucedido/",
       "sample3": "Mais sobre Facebook onboarding",
       "sample3_url": "https://youtu.be/NyRm-ttbKeM"
     }

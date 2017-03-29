@@ -36,7 +36,7 @@
   .container {
 
     padding-top: 10px;
-    .anim-all-300;
+    .anim(all, 300ms, ease);
 
     // Right Side Main LOGO
     .logo {
@@ -52,7 +52,7 @@
           height: 55px;
           position: relative;
           top: -4px;
-          .anim-all-300;
+          .anim(all, 300ms, ease);
         }
 
         // logo img animation hover effect
@@ -93,7 +93,7 @@
             position: relative;
             max-width: 210px;
             .ellipsis;
-            .anim-all-150;
+            .anim(all, 150ms, ease-in);
 
             &:hover {
               background-color: transparent;
@@ -126,7 +126,7 @@
                 color: @accept-btn-hover;
 
                 i {
-                  .in-out-move;
+                  .animate(in-out-move, 1s, infinite);
                 }
               }
             }
@@ -136,7 +136,7 @@
           &.contact-info {
 
             a {
-              .anim-all-150;
+              .anim(all, 150ms, ease-in);
             }
 
             .contact-info-grids {
@@ -253,8 +253,8 @@
       background: @main-green;
       opacity: 1;
       left: 0;
-      .rotate-0;
-      .anim-all-250;
+      .rotate(0);
+      .anim(all, 250ms, ease-in-out);
 
       &:nth-child(1) {
         top: 0;
@@ -290,7 +290,7 @@
         }
         &:nth-child(2),
         &:nth-child(3) {
-          .rotate-45;
+          .rotate(45deg);
         }
         &:nth-child(4) {
           top: 10px;
