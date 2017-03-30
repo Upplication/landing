@@ -292,7 +292,6 @@
           // special container showns meanwhite currency is loading (if there was an API request delay)
           &.price-loading {
             //.loader():
-            display: block;
             padding: 8px 0;
             background: rgba(255,255,255,.8);
             z-index: 99999;
@@ -423,28 +422,28 @@
 
 // PRICE CURRENCY SWITCHER (JS) BEHAVIOUR
 //// EUR
-.pricing-tables.selected-currency-eur .price-container.price-currency-eur { display: inherit; }
+.pricing-tables.selected-currency-eur .price-container.price-currency-eur { display: block; }
 .pricing-tables.selected-currency-eur .price-container:not(.price-currency-eur) { display: none; }
 //// USD
-.pricing-tables.selected-currency-usd .price-container.price-currency-usd { display: inherit; }
+.pricing-tables.selected-currency-usd .price-container.price-currency-usd { display: block; }
 .pricing-tables.selected-currency-usd .price-container:not(.price-currency-usd) { display: none; }
 //// MXN
-.pricing-tables.selected-currency-mxn .price-container.price-currency-mxn { display: inherit; }
+.pricing-tables.selected-currency-mxn .price-container.price-currency-mxn { display: block; }
 .pricing-tables.selected-currency-mxn .price-container:not(.price-currency-mxn) { display: none; }
 
 // Show default currency based on lang page
 // Eur will be the default
 html .price-container:not(.price-currency-eur) { display: none; }
-html .price-container.price-currency-eur { display: inherit; }
+html .price-container.price-currency-eur { display: block; }
 // If lang is english, show USD $
 html[lang=en] .price-container:not(.price-currency-usd) { display: none; }
-html[lang=en] .price-container.price-currency-usd { display: inherit; }
+html[lang=en] .price-container.price-currency-usd { display: block; }
 // If the lang is bahasa, show USD$
 html[lang=id] .price-container:not(.price-currency-usd) { display: none; }
-html[lang=id] .price-container.price-currency-usd { display: inherit; }
+html[lang=id] .price-container.price-currency-usd { display: block; }
 // If lang is es-MX, show MEX$
 html[lang=es-MX] .price-container:not(.price-currency-mxn) { display: none; }
-html[lang=es-MX] .price-container.price-currency-mxn { display: inherit; }
+html[lang=es-MX] .price-container.price-currency-mxn { display: block; }
 
 /* ... Media Queries :: Pricing Plans view ... */
 @media only screen and (max-width: 1180px) {
