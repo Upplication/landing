@@ -251,7 +251,10 @@ gulp.task('scripts', function() {
 
 gulp.task('post', ['rev:scripts', 'rev:styles', 'templates'], function() {
     if (gutil.env.type === 'production') {
-        return gulp.src('./dist/**/*.html')
+        return gulp.src([
+                '!./dist/bower_components/**/*',
+                './dist/**/*.html'
+            ])
             .pipe(revReplace({manifest: gulp.src("./dist/rev-manifest-*.json")}))
             .pipe(minifyInline())
             .pipe(gulp.dest('./dist/'));
