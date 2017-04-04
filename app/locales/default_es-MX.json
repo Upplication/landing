@@ -21,12 +21,24 @@
       }
     }
   },
+  "header": {
+    "telephone": "+52(55)41616024"
+  },
   "help_center": {
     "_keywords": "centro de ayuda, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "Centro de ayuda de Upplication, el creador de apps online. Encontrarás ejemplos de uso, videotutoriales, datos de contacto del soporte técnico...",
     "_meta_title": "Centro de ayuda de Upplication: creador de apps",
     "_priority": "0.7",
-    "_url": "/mx/centro-de-ayuda/"
+    "_url": "/mx/centro-de-ayuda/",
+    "customer_service": {
+      "phone": {
+        "alt_tag": "Llamar a soporte técnico de Upplication",
+        "link": "tel:005541616024",
+        "text": "telf: +52 (55)41616024",
+        "text_tel": "<span>+52 (55)41616024</span>",
+        "title": "(55)41616024"
+      }
+    }
   },
   "home_telefonica_mpos": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
@@ -83,5 +95,11 @@
     "_meta_title": "Precios de Upplication para Movistar Aplicateca",
     "_priority": "0.6",
     "_url": "/mx/precios-aplicateca/"
+  },
+  "modal": {
+    "button": {
+      "telephone": "+52 (55)41616024",
+      "telf": "tel:0034917958203"
+    }
   }
 }
