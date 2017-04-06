@@ -358,9 +358,9 @@
         "title": "Mixpanel mobile analytics",
         "url": "https://mixpanel.com/"
       },
-      "telefonica": {
-        "title": "Telefónica, telecommunications company",
-        "url": "http://info.telefonica.es/portada/index.html"
+      "mobusi": {
+        "title": "Mobusi, technology media company",
+        "url": "https://www.mobusi.com/"
       },
       "wayra": {
         "title": "Wayra, Telefónica's startup accelerator",
@@ -825,7 +825,7 @@
       "no_sign": "<strong>No</strong> watermark on templates",
       "no_templates": "<strong>Custom App</strong>, personalized",
       "premiun": "PREMIUM",
-      "professional": "PROFFESIONAL",
+      "professional": "PROFESSIONAL",
       "rate_intro": "Pricing plans",
       "rate_sub": "All pricing plans include:",
       "sign": "<strong>Watermark</strong> on templates",
