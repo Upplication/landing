@@ -448,17 +448,7 @@
     "support_mail": "<a href='mailto:soporte@upplication.com'>suporte@upplication.com</a>",
     "telephone": "+34 917 958 203"
   },
-  "help_center": {
-    "_keywords": "centro de ajuda, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Centro de ajuda de Upplication, o criador de apps online. Encontrarás exemplos de utilização, vídeo tutoriais, dados de contacto do suporte técnico...",
-    "_meta_title": "Centro de ajuda de Upplication: criador de apps",
-    "_priority": "0.7",
-    "_url": "/pt/centro-de-ajuda/",
-    "advantages": {
-      "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
-      "text": "Vantagens de ter uma app",
-      "title": "Vantagens de ter uma app"
-    },
+  "common": {
     "customer_service": {
       "email": {
         "alt_tag": "Enviar email a Upplication",
@@ -476,6 +466,13 @@
       "schedule": "(Horário de atenção ao cliente de segunda-feira a sexta-feira das 10 às 18h GTM+1)",
       "text": "Atenção ao cliente",
       "text2": "Serviço de atenção ao cliente"
+    }
+  },
+  "help_center": {
+    "advantages": {
+      "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
+      "text": "Vantagens de ter uma app",
+      "title": "Vantagens de ter uma app"
     },
     "knowledgebase": {
       "link": "https://upplication.uservoice.com/knowledgebase",
