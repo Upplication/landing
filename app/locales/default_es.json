@@ -73,6 +73,16 @@
         "surname": "Lorenzo Fernández",
         "twitter": "https://twitter.com/jalofernandez"
       },
+      "content": {
+        "manager": {
+          "linkedin": "https://www.linkedin.com/in/luciapalmaescobales/",
+          "name": "Lucía",
+          "position": "Responsable de contenido",
+          "sentence": "Tu cuéntame que yo lo escribo",
+          "surname": "Palma Escobales",
+          "twitter": "https://twitter.com/luciliuliu"
+        }
+      },
       "dev": {
         "backend_1": {
           "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
@@ -89,6 +99,14 @@
           "sentence": "#estoyCansao...",
           "surname": "Rojas Martín",
           "twitter": "https://twitter.com/Mrk992"
+        },
+        "backend_3": {
+          "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
+          "name": "Clara",
+          "position": "Desarrolladora",
+          "sentence": "Code girl power!",
+          "surname": "Antolín García",
+          "twitter": "https://twitter.com/ClaraAntolin"
         },
         "frontend_1": {
           "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
