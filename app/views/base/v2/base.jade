@@ -151,11 +151,27 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         //- end scripts
         script(type='text/javascript').
             $(document).ready(function () {
-                $("#clients-carousel").owlCarousel({
-                    autoPlay: 3000, //- Set AutoPlay to 3 seconds
-                    items: 4,
-                    itemsDesktop: [1199, 3],
-                    itemsDesktopSmall: [979, 3]
+                //- Typical "Our clients" footer carousel
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    autoplaySpeed: 2000,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        768: {
+                            items: 3
+                        },
+                        1080: {
+                            items: 4
+                        }
+                    }
                 });
 
                 $('.scrollspy').scrollSpy();

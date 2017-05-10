@@ -72,6 +72,16 @@
         "surname": "Lorenzo Fernández",
         "twitter": "https://twitter.com/jalofernandez"
       },
+      "content": {
+        "manager": {
+          "linkedin": "https://www.linkedin.com/in/luciapalmaescobales/",
+          "name": "Lucía",
+          "position": "Content manager",
+          "sentence": "You tell me and I write it!",
+          "surname": "Palma Escobales",
+          "twitter": "https://twitter.com/luciliuliu"
+        }
+      },
       "dev": {
         "backend_1": {
           "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
@@ -88,6 +98,14 @@
           "sentence": "I´m tired...",
           "surname": "Rojas Martín",
           "twitter": "https://twitter.com/Mrk992"
+        },
+        "backend_3": {
+          "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
+          "name": "Clara",
+          "position": "Developer",
+          "sentence": "Code girl power!",
+          "surname": "Antolín García",
+          "twitter": "https://twitter.com/ClaraAntolin"
         },
         "frontend_1": {
           "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
@@ -467,88 +485,6 @@
       "schedule": "(Customer service hours Monday-Friday 10h-18h GMT+1)",
       "text": "Customer service",
       "text2": "Customer service"
-    }
-  },
-  "help_center": {
-    "advantages": {
-      "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
-      "text": "Advantages of having an app",
-      "title": "Advantages of having an app"
-    },
-    "knowledgebase": {
-      "link": "https://upplication.uservoice.com/knowledgebase",
-      "text": "FAQ",
-      "title": "FAQ"
-    },
-    "name": "Help center",
-    "resources": {
-      "ebooks": {
-        "links": [
-          {
-            "link": "https://www.upplication.com/como-conseguir-app-exito-rapido/",
-            "text": "Download-Get a successful app",
-            "title": "Download-Get a successful app"
-          },
-          {
-            "link": "https://www.upplication.com/blog/ventajas-app-negocio/",
-            "text": "Advantages of having an app",
-            "title": "Advantages of having an app"
-          }
-        ],
-        "title": "Ebooks & Infographics"
-      },
-      "videos": {
-        "links": [
-          {
-            "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-            "text": "Tutorials",
-            "title": "Tutorials"
-          },
-          {
-            "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-            "text": "Our videos",
-            "title": "Our videos"
-          }
-        ],
-        "title": "Videos"
-      }
-    },
-    "section": {
-      "ebooks": "eBooks & Infographics",
-      "help": "We help you make your app",
-      "upp": "You create Upplication",
-      "video": "Videos"
-    },
-    "sucess": {
-      "link": "http://upplication.com/como-conseguir-app-exito-rapido/",
-      "text": "Download-Get a successful app",
-      "title": "Download-Get a successful app"
-    },
-    "title": "Help center",
-    "uservoice": {
-      "link": "https://upplication.uservoice.com/",
-      "text": "User community",
-      "title": "User community"
-    },
-    "video_1": {
-      "link": "http://www.youtube.com/watch?v=zet6nvJIFrs&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-      "text": "Tutorials",
-      "title": "Tutorials"
-    },
-    "video_2": {
-      "link": "https://www.youtube.com/watch?v=6I-bTSn-8so&list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no",
-      "text": "Our videos",
-      "title": "Our videos"
-    },
-    "wedoit": {
-      "link": "http://upplication.com/hacemos-el-trabajo-por-ti/",
-      "text": "We do the work for you",
-      "title": "We do the work for you"
-    },
-    "workshop": {
-      "link": "https://www.upplication.com/blog/taller-crear-apps-madrid/",
-      "text": "Go to our breakfasts",
-      "title": "Go to our breakfasts"
     }
   },
   "home_telefonica_mpos": {
