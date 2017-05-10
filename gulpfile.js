@@ -124,7 +124,7 @@ gulp.task('vendor:js', ['bower'], function() {
         gulp.src([
             './dist/bower_components/jquery/dist/jquery.min.js',
             './dist/bower_components/materialize/dist/js/materialize.min.js',
-            './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.min.js',
+            './dist/bower_components/owl.carousel/dist/owl.carousel.min.js',
             './dist/bower_components/aos/dist/aos.js'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
@@ -151,7 +151,7 @@ gulp.task('vendor:css', ['bower'], function() {
         gulp.src([
             './dist/bower_components/upplication-icons/dist/upplication-icons.css',
             './dist/bower_components/materialize/dist/css/materialize.min.css',
-            './dist/bower_components/owlcarousel/owl-carousel/owl.carousel.css',
+            './dist/bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
             './dist/bower_components/aos/dist/aos.css'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
