@@ -153,12 +153,22 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
             $(document).ready(function () {
                 //- Typical "Our clients" footer carousel
                 $('.owl-carousel').owlCarousel({
-                    items: 4,
                     loop: true,
                     margin: 10,
                     autoplay: true,
-                    autoplayTimeout: 1000,
-                    autoplayHoverPause: true
+                    autoplayHoverPause: true,
+                    autoplaySpeed: 2000,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 4
+                        }
+                    }
                 });
 
                 $('.scrollspy').scrollSpy();
