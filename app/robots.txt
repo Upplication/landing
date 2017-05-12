@@ -6,4 +6,7 @@ Allow: /blog/wp-includes/css
 Disallow: /blog/wp-admin
 Disallow: /blog/wp-includes
 
+Sitemap: https://www.upplication.com/sitemap.xml
+Sitemap: https://www.upplication.com/blog/sitemap.xml
 Sitemap: http://www.upplication.com/sitemap.xml
+Sitemap: http://www.upplication.com/blog/sitemap.xml
