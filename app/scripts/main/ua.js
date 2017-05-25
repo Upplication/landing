@@ -73,6 +73,7 @@ var upplication = function ($, document, window) {
         track: track,
         /**
          * identify a concrete user
+         * https://segment.com/docs/integrations/mixpanel/#identify
          * @param userId unique id
          * @param traits A dictionary of traits you know about the user, like their email or name. You can read more about traits in the identify reference.
          */

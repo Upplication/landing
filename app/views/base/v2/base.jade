@@ -29,6 +29,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         meta(name='google-site-verification', content='#{localConfig.webmaster_token}')
 
         include ../scripts
+        include ../tagmanager-head
         include ../newrelic
 
         each lang in langs.codes
@@ -56,6 +57,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         block css
 
     body
+        include ../tagmanager-body
         //- MAIN HEADER
         #home.header
             #move-top.top-header
