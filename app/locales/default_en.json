@@ -291,7 +291,7 @@
     },
     "hiring_frontend": {
       "anchor": "Frontend developer",
-      "url": "@@config.base_path/en/offer-trainee-developer/"
+      "url": "http://frontend.upplication.com/"
     },
     "hiring_marketing": {
       "anchor": "Marketing Internship",
@@ -600,47 +600,6 @@
       ]
     },
     "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!"
-  },
-  "offer_marketing": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Trainee marketing and salesman job offer in Upplication: the online app creator. It is easy, without coding and quick, just in few minutes!",
-    "_meta_title": "Trainee marketing job offer - Upplication: app creator",
-    "_priority": "0.4",
-    "_url": "/en/offer-trainee-marketing/",
-    "cheers": [
-      "Best Regards!",
-      "Upplication team"
-    ],
-    "introduction": [
-      "Upplication is a tool that allows any SME create an application, in just a few steps, without the need to have any technological experience nor the need to call support. And also for a price that adapts to any budget (starting from 5€/month).",
-      "Actually, we have a presence in 46 countries, and we have created more than 10.000 apps in the 10 months that we have been in the market."
-    ],
-    "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
-    "technologies": {
-      "intro": "We are looking for an intern that will join our Marketing department, and that fulfills the following requirements:",
-      "list": [
-        "We are looking for someone with a degree - or someone near the end of one – that is passionate for marketing.",
-        "Knows how to use editing and designing tools.",
-        "Adept writing skills.",
-        "Is interested in Digital Marketing and E-commerce.",
-        "Preferably someone with experience with journalism and content writing.",
-        "Someone that is proactive, with an initiative, and wants to be involved with the company and its projects.",
-        "Organized (detail oriented).",
-        "Hard working and ambitious – we are looking for a young professional that will take ownership of the Upplication project."
-      ],
-      "note": "We are not looking for an expert, that is why these internships exist, and that is why we are looking for someone with incentive and motivation. We are looking someone that wants to work for something more than just a salary. Someone that wants to do something big.",
-      "requirements": "REQUIREMENTS"
-    },
-    "weoffer": {
-      "intro": "To start, your job will be:",
-      "list": [
-        "Help the clients with the formulation of the app.",
-        "Help with the development of new marketing projects.",
-        "Support other departments (Social Media, E-commerce, etc.).",
-        "Since the intern is involved with the marketing department, depending on the results, there could be an added bonus in salary."
-      ]
-    },
-    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!"
   },
   "ono": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
