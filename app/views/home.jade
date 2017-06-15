@@ -171,7 +171,9 @@ block scripts
 
     // CUSTOM JS
     script(type='text/javascript').
-        $('.slider').slider({
-            indicators: false,
-            interval: 4000
-        }).slider('pause');
+        $(document).ready(function () {
+            $('.slider').slider({
+                indicators: false,
+                interval: 4000
+            }).slider('pause');
+        });
