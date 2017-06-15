@@ -50,7 +50,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         .outer-wrap.color-tlf
             #main-container.slide-pannel.effects
 
-                // MPOS specific Header (not Aplicateca´s one!)
+                //- MPOS specific Header (not Aplicateca´s one!)
                 .header-container-tlf
                     header.tlf.telefonica-mpos
                         a.logo(href='#{localConfig.base_path}')
@@ -85,40 +85,40 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                     label(for="appName")
                                         input(type="text", name="appName", placeholder="#{register.app_name}", required="required", minlength="3", maxlength="32", pattern="^[a-zA-Z]{1}[a-zA-Z0-9 ]{2,}", title="#{register.warning.name}")
                                         p.error.display-none
-                                            // El nombre de la app ya está registrado
+                                            //- El nombre de la app ya está registrado
                                     label(for="email")
                                         input(type="email", name="email", placeholder="#{register.email}", required="required")
                                         p.error.display-none
-                                            // El email ya está registrado
+                                            //- El email ya está registrado
                                     label(for="password")
                                         input(type="password", name="password", placeholder="#{register.password}", required="required", title="#{register.warning.password}", pattern=".{8,}")
                                         p.error.display-none
-                                            // La contraseña debe contener al menos 6 caracteres
+                                            //- La contraseña debe contener al menos 6 caracteres
                                     input.green-accent-btn.big.btn.margin-bottom.uppercase.bold(type="submit", value="#{register.call_to_action}", data-loading="#{register.loading}", data-text="#{register.call_to_action}")
                                     p.tos.acenter.italic !{register.accept_terms}
                                         a(href="#{external.tos.url}") #{register.terms}
 
-                // SAMPLES :: app showcases
+                //- SAMPLES :: app showcases
                 include includes/samples
 
-                // Spacer with Grey Border
+                //- Spacer with Grey Border
                 .spacer-border-grey
 
-                // MULTIDEVISES APPS
+                //- MULTIDEVISES APPS
                 include includes/multidevices
 
-                // CLIENTS :: new testimonial area
+                //- CLIENTS :: new testimonial area
                 include includes/testimonials
 
                 #dark-layout
 
-                // CLIENTS :: "owl" carousel
+                //- CLIENTS :: "owl" carousel
                 include includes/clients
 
-                // TRIAL
+                //- TRIAL
                 include includes/trial
 
-                // MODAL :: FREE TRIAL
+                //- MODAL :: FREE TRIAL
                 #free-trial.modal.modal-upp
                     include includes/modal-free
 
@@ -131,7 +131,7 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
                                 span
                                 a.customer-service__email(href="#{home_telefonica_mpos.contact.customer_service.email.link}", title="#{home_telefonica_mpos.contact.customer_service.email.title}")  #{home_telefonica_mpos.contact.customer_service.email.text}
                     hr.clear
-                // Cookies (default one + telefonica´s style added)
+                //- Cookies (default one + telefonica´s style added)
                 #cookies
                     p !{footer.cookies}
                         i.icon.icon-cross#cookies-accept.close
@@ -142,14 +142,14 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         script(type='text/javascript').
             $(document).ready(function () {
                 $("#clients-carousel").owlCarousel({
-                    autoPlay: 3000, // Set AutoPlay to 3 seconds
+                    autoPlay: 3000, //- Set AutoPlay to 3 seconds
                     items: 4,
                     itemsDesktop: [1199, 3],
                     itemsDesktopSmall: [979, 3]
                 });
             });
 
-        // AOS animations lib
+        //- AOS animations lib
         script.
             AOS.init({ once: true });
 
