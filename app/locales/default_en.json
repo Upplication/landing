@@ -176,7 +176,7 @@
     "_priority": "0.9",
     "_url": "/en/company-bio/",
     "intro": {
-      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and stand out from the competitors</span>.",
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> is the easier online app creator with no coding required as a key to help small and medium business creating a new communication channel that provides solutions, ideas and tools to achieve what we truly believe is important: building customer loyalty, increase sales, and stand out from the competitors.",
       "maintitle": "<span>What is</span> Upplication <span>?</span>"
     },
     "timeline": {
@@ -184,7 +184,7 @@
       "step1": {
         "description": "<span> We launch Upplication </span> for all kind of small business. Anyone can make his own app easily without programming knowledge.",
         "pic": "We launch Upplication",
-        "year": "On October 2013"
+        "year": "In October 2013"
       },
       "step2": {
         "description": "We closed our <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> first round of investments </a> by European Business Angels (investors), with 277.000€. This investment is what helped us <span> internationalize ourselves </span>, leading us to Latinoamerica.",
@@ -194,27 +194,42 @@
       "step3": {
         "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>.",
         "pic": "Wayra logo",
-        "year": "On May 2014"
+        "year": "In May 2014"
       },
       "step4": {
         "description": "We have reached a <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> trade integration agreement with Vodafone </a> completing its plan of supporting and assisting SMEs grow.",
         "pic": "Vodafone logo",
-        "year": "On October 2014"
+        "year": "In October 2014"
       },
       "step5": {
         "description": "We already had <span> clients in 75 different countries </span>, reaching one of our goals: <span>International growthl</span>.",
         "pic": "International growthl",
-        "year": "On May 2015"
+        "year": "In May 2015"
       },
       "step6": {
         "description": "We closed our <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> second round of investments with 1.1 million euros </a>; mostly led by <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, - who come form a Spanish origin - with Business Angels).",
         "pic": "Second round of investments",
-        "year": "On November 2015"
+        "year": "In November 2015"
       },
       "step7": {
         "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience.",
         "pic": "Telefónica logo",
-        "year": "On December 2015"
+        "year": "In December 2015"
+      },
+      "step8": {
+        "description": "We reached and help <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 users in 78 countries around the world</a>, and we are still growing!",
+        "pic": "International growthl",
+        "year": "In June 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Mobusi acquires Upplication</a>, in this way, both companies reinforcing their commitment for the digital business through mobile devices and through web pages, SMS and App.",
+        "pic": "Mobusi logo",
+        "year": "In March 2017"
+      },
+      "step10": {
+        "description": "We landed officially in México, in our continued effort with our internationalization strategy. We are committed in a country where apps have become an essential engine of a new kind of economy able to create employment.",
+        "pic": "Mexico flag",
+        "year": "In April 2017"
       }
     },
     "worldmap": {
@@ -291,7 +306,7 @@
     },
     "hiring_frontend": {
       "anchor": "Frontend developer",
-      "url": "@@config.base_path/en/offer-trainee-developer/"
+      "url": "http://frontend.upplication.com/"
     },
     "hiring_marketing": {
       "anchor": "Marketing Internship",
@@ -600,47 +615,6 @@
       ]
     },
     "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!"
-  },
-  "offer_marketing": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Trainee marketing and salesman job offer in Upplication: the online app creator. It is easy, without coding and quick, just in few minutes!",
-    "_meta_title": "Trainee marketing job offer - Upplication: app creator",
-    "_priority": "0.4",
-    "_url": "/en/offer-trainee-marketing/",
-    "cheers": [
-      "Best Regards!",
-      "Upplication team"
-    ],
-    "introduction": [
-      "Upplication is a tool that allows any SME create an application, in just a few steps, without the need to have any technological experience nor the need to call support. And also for a price that adapts to any budget (starting from 5€/month).",
-      "Actually, we have a presence in 46 countries, and we have created more than 10.000 apps in the 10 months that we have been in the market."
-    ],
-    "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
-    "technologies": {
-      "intro": "We are looking for an intern that will join our Marketing department, and that fulfills the following requirements:",
-      "list": [
-        "We are looking for someone with a degree - or someone near the end of one – that is passionate for marketing.",
-        "Knows how to use editing and designing tools.",
-        "Adept writing skills.",
-        "Is interested in Digital Marketing and E-commerce.",
-        "Preferably someone with experience with journalism and content writing.",
-        "Someone that is proactive, with an initiative, and wants to be involved with the company and its projects.",
-        "Organized (detail oriented).",
-        "Hard working and ambitious – we are looking for a young professional that will take ownership of the Upplication project."
-      ],
-      "note": "We are not looking for an expert, that is why these internships exist, and that is why we are looking for someone with incentive and motivation. We are looking someone that wants to work for something more than just a salary. Someone that wants to do something big.",
-      "requirements": "REQUIREMENTS"
-    },
-    "weoffer": {
-      "intro": "To start, your job will be:",
-      "list": [
-        "Help the clients with the formulation of the app.",
-        "Help with the development of new marketing projects.",
-        "Support other departments (Social Media, E-commerce, etc.).",
-        "Since the intern is involved with the marketing department, depending on the results, there could be an added bonus in salary."
-      ]
-    },
-    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!"
   },
   "ono": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
