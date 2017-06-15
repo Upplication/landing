@@ -177,7 +177,7 @@
     "_priority": "0.9",
     "_url": "/es/bio-de-empresa/",
     "intro": {
-      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>es un servicio útil, completo y totalmente personalizado de marketing móvil </span> y para ayudar a las pymes a crear un <span> nuevo canal de comunicación </span> aportándoles soluciones, ideas y herramientas con las que puedan conseguir lo que para nosotros es lo realmente importante: <span> fidelizar a sus clientes, incrementar sus ventas y diferenciarse de la competencia</span>.",
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> es la plataforma de creación de aplicaciones móviles más sencilla para ayudar a pymes, emprendedores y negocios locales a crear un nuevo canal de comunicación aportándoles soluciones, ideas y herramientas con las que puedan conseguir lo que para nosotros es lo realmente importante: fidelizar a sus clientes, incrementar sus ventas y diferenciarse de la competencia.",
       "maintitle": "<span>¿Qué es</span> Upplication<span>?</span>"
     },
     "timeline": {
@@ -216,6 +216,21 @@
         "description": "Alcanzamos un <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acuerdo de Integración comercial con Telefónica España </a> con el que continuaremos aportando nuestro conocimiento y experiencia para impulsar a las pymes.",
         "pic": "Logotipo Telefónica",
         "year": "Diciembre 2015"
+      },
+      "step8": {
+        "description": "Alcanzamos la cifra de <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 usuarios en 78 países de todo el mundo</a>, ¡y seguimos creciendo!",
+        "pic": "Expansión internacional",
+        "year": "Junio 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Upplication es adquirido por mobusi</a>, de esta forma, ambas empresas refuerzan su apuesta por el negocio digital a través de dispositivos móviles y a través de webs, SMS o apps.",
+        "pic": "Logotipo Mobusi",
+        "year": "Marzo 2017"
+      },
+      "step10": {
+        "description": "Aterrizamos oficialmente en México, continuando con nuestro trabajo de internacionalización. Apostamos por un país en el que las apps se han convertido ya un gran generador de empleo y motor de la economía.",
+        "pic": "Bandera de México",
+        "year": "Abril 2017"
       }
     },
     "worldmap": {
@@ -292,7 +307,7 @@
     },
     "hiring_frontend": {
       "anchor": "Desarrollador Frontend",
-      "url": "@@config.base_path/es/oferta-practicas-developer/"
+      "url": "http://frontend.upplication.com/"
     },
     "hiring_marketing": {
       "anchor": "Prácticas de marketing",
@@ -602,47 +617,6 @@
       ]
     },
     "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí."
-  },
-  "offer_marketing": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Oferta de prácticas de marketing y ventas para Upplication, el creador de app online para android e iOS, fácil, rápido y sin programar.",
-    "_meta_title": "Prácticas de marketing en Upplication: creador de apps",
-    "_priority": "0.4",
-    "_url": "/es/oferta-practicas-marketing/",
-    "cheers": [
-      "¡Un saludo!",
-      "Equipo Upplication"
-    ],
-    "introduction": [
-      "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
-      "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
-    ],
-    "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
-    "technologies": {
-      "intro": "Buscamos un becario para el departamento de Marketing de Contenidos que cumpla con los siguientes requisitos:",
-      "list": [
-        "Buscamos Titulados universitarios o universitarios en últimos cursos con gran pasión por marketing.",
-        "Buen manejo de herramientas de edición y diseño.",
-        "Gran capacidad de redacción.",
-        "Interesado en los sectores del Marketing Digital y el Ecommerce.",
-        "Preferiblemente persona con conocimientos de periodismo o experiencia en redacción de contenidos.",
-        "Persona proactiva, con iniciativa e implicación con la empresa y los distintos proyectos.",
-        "Persona Organizada (orientada al detalle).",
-        "Gran capacidad de trabajo y ambición, buscamos a un joven profesional que tome el proyecto Upplication como propio."
-      ],
-      "note": "No buscamos un experto, para eso están estas prácticas, pero si buscamos personas con motivación e iniciativa, que quiera trabajar por algo más que un simple sueldo. Por hacer algo grande y bueno.",
-      "requirements": "REQUISITOS"
-    },
-    "weoffer": {
-      "intro": "Para empezar, tus funciones serán:",
-      "list": [
-        "Ayuda en la creación de apps para clientes.",
-        "Apoyo en el desarrollo de diferentes proyectos de marketing.",
-        "Apoyo a otros departamentos (Social Media, Ecommerce, Comercial, etc).",
-        "Dada la implicación directa del becario con el departamento comercial, se entregará una remuneración variable en función de resultados."
-      ]
-    },
-    "wewanttomeetyou": "Para que podamos conocerte envíanos un correo a <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> con tu CV y una breve introducción sobre ti, tu trabajo y lo que puedes aportar a Upplication. Prometemos contestar, sí o sí."
   },
   "ono": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",

@@ -196,6 +196,21 @@
         "description": "Alcançamos um <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acordo de Integração comercial com Telefónica Espanha </a> com o qual continuaremos a aportar o nosso conhecimento e experiência para impulsionar as PME.",
         "pic": "Logotipo Telefónica",
         "year": "Dezembro 2015"
+      },
+      "step8": {
+        "description": "Alcanzamos la cifra de <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 usuarios en 78 países de todo el mundo</a>, ¡y seguimos creciendo!",
+        "pic": "Expansión internacional",
+        "year": "Junio 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Upplication es adquirido por mobusi</a>, de esta forma, ambas empresas refuerzan su apuesta por el negocio digital a través de dispositivos móviles y a través de webs, SMS o apps.",
+        "pic": "Logotipo Mobusi",
+        "year": "Marzo 2017"
+      },
+      "step10": {
+        "description": "Aterrizamos oficialmente en México, continuando con nuestro trabajo de internacionalización. Apostamos por un país en el que las apps se han convertido ya un gran generador de empleo y motor de la economía.",
+        "pic": "Bandera de México",
+        "year": "Abril 2017"
       }
     },
     "worldmap": {
@@ -272,7 +287,7 @@
     },
     "hiring_frontend": {
       "anchor": "Desenvolvedor Frontend",
-      "url": "@@config.base_path/pt/oferta-estágio-developer/"
+      "url": "http://frontend.upplication.com/"
     },
     "hiring_marketing": {
       "anchor": "Estágio de marketing",
@@ -580,47 +595,6 @@
       ]
     },
     "wewanttomeetyou": "Para que possamos conhecer-te envia-nos um email para <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> com o teu CV e uma breve introdução sobre ti, o teu trabalho e com o que podes contribuir para a Upplication. Prometemos responder, sim ou sim."
-  },
-  "offer_marketing": {
-    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Oferta de estágio de marketing e vendas para Upplication, o criador de app online para android e iOS, fácil, rápido e sem programar.",
-    "_meta_title": "Estágio de marketing em Upplication: criador de apps",
-    "_priority": "0.4",
-    "_url": "/pt/oferta-estágio-marketing/",
-    "cheers": [
-      "Cumprimentos!",
-      "Equipa Upplication"
-    ],
-    "introduction": [
-      "Upplication é uma ferramenta que permite a qualquer PME criar uma app em poucos passos, sem necessidade de conhecimentos técnicos nem ligar a ninguém, e por um preço que se adapta à sua capacidade de investimento (a partir de 5€/mês).",
-      "Atualmente estamos presentes em 46 países e criámos mais de 10.000 apps nos 10 meses que estamos no mercado."
-    ],
-    "lifestyle": "Se queres ganhar a vida como desenvolvedor e gostas das tecnologias móveis, gostaríamos de nos conhecermos e falássemos sobre o projeto e a nossa maneira de entender o trabalho. Se vemos que tudo encaixa, faremos todo o possível para que estejas na nossa equipa.",
-    "technologies": {
-      "intro": "Procuramos um estagiário para o departamento de Marketing de Conteúdos que cumpra com os seguintes requisitos:",
-      "list": [
-        "Procuramos licenciados ou universitários nos últimos anos com grande paixão pelo marketing.",
-        "Boa manipulação de ferramentas de edição e desenho.",
-        "Grande capacidade de redação.",
-        "Interessado nos setores do Marketing Digital e do Ecommerce.",
-        "Preferivelmente pessoa com conhecimentos de jornalismo ou experiência em redação de conteúdos.",
-        "Pessoa pró-ativa, com iniciativa e comprometimento com a empresa e os distintos projetos.",
-        "Pessoa Organizada (orientada para o pormenor).",
-        "Grande capacidade de trabalho e ambição, procuramos um jovem profissional que apanhe o  projeto Upplication como próprio."
-      ],
-      "note": "Não procuramos um especialista, o estágio serve para isso, mas sim procuramos pessoas com motivação e iniciativa, que queira trabalhar por algo mais que um simples ordenado. Por fazer algo grande e bom.",
-      "requirements": "REQUISITOS"
-    },
-    "weoffer": {
-      "intro": "Para começar, as tuas funções serão:",
-      "list": [
-        "Ajuda na criação de apps para clientes.",
-        "Apoio no desenvolvimento de diferentes projetos de marketing.",
-        "Apoio a outros departamentos (Social Media, Ecommerce, Comercial, etc).",
-        "Dado o envolvimento direto do estagiário com o departamento comercial, será entregue uma remuneração variável em função dos resultados."
-      ]
-    },
-    "wewanttomeetyou": "Para que possamos conhecer-te envia-nos um email para <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> com o teu CV e uma breve introdução sobre ti, o teu trabalho e com o que podes contribuir para a Upplication. Prometemos responder, sim ou sim."
   },
   "ono": {
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",

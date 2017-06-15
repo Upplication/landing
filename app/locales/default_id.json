@@ -176,7 +176,7 @@
     "_priority": "0.9",
     "_url": "/id/company-bio/",
     "intro": {
-      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and be different from the competitors</span>.",
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> is the easier online app creator with no coding required as a key to help small and medium business creating a new communication channel that provides solutions, ideas and tools to achieve what we truly believe is important: building customer loyalty, increase sales, and stand out from the competitors.",
       "maintitle": "<span>What is</span> Upplication <span>?</span>"
     },
     "timeline": {
@@ -215,6 +215,21 @@
         "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience.",
         "pic": "Telefónica logo",
         "year": "On December 2015"
+      },
+      "step8": {
+        "description": "We reached and help <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 users in 78 countries around the world</a>, and we are still growing!",
+        "pic": "International growthl",
+        "year": "In June 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Mobusi acquires Upplication</a>, in this way, both companies reinforcing their commitment for the digital business through mobile devices and through web pages, SMS and App.",
+        "pic": "Mobusi logo",
+        "year": "In March 2017"
+      },
+      "step10": {
+        "description": "We landed officially in México, in our continued effort with our internationalization strategy. We are committed in a country where apps have become an essential engine of a new kind of economy able to create employment.",
+        "pic": "Mexico flag",
+        "year": "In April 2017"
       }
     },
     "worldmap": {
@@ -291,7 +306,7 @@
     },
     "hiring_frontend": {
       "anchor": "Frontend developer",
-      "url": "@@config.base_path/id/offer-trainee-developer/"
+      "url": "http://frontend.upplication.com/"
     },
     "hiring_marketing": {
       "anchor": "Marketing Internship",
@@ -682,47 +697,6 @@
       ]
     },
     "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!"
-  },
-  "offer_marketing": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Trainee marketing and salesman job offer in Upplication: the online app creator. It is easy, without coding and quick, just in few minutes!",
-    "_meta_title": "Trainee marketing job offer - Upplication: app creator",
-    "_priority": "0.4",
-    "_url": "/id/offer-trainee-marketing/",
-    "cheers": [
-      "Best Regards!",
-      "Upplication team"
-    ],
-    "introduction": [
-      "Upplication es una herramienta que permite a cualquier pyme crearse una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes).",
-      "Actualmente tenemos presencia en 46 países y hemos creado más de 10.000 apps en los 10 meses que llevamos en el mercado."
-    ],
-    "lifestyle": "Si quieres ganarte la vida como desarrollador y te gustan las tecnologías móviles, nos gustaría que nos conociéramos y habláramos sobre el proyecto y nuestra forma de entender el trabajo. Si vemos que todo cuadra, haremos todo lo posible para que estés en nuestro equipo.",
-    "technologies": {
-      "intro": "We are looking for an intern that will join our Marketing department, and that fulfills the following requirements:",
-      "list": [
-        "We are looking for someone with a degree - or someone near the end of one – that is passionate for marketing.",
-        "Knows how to use editing and designing tools.",
-        "Adept writing skills.",
-        "Is interested in Digital Marketing and E-commerce.",
-        "Preferably someone with experience with journalism and content writing.",
-        "Someone that is proactive, with an initiative, and wants to be involved with the company and its projects.",
-        "Organized (detail oriented).",
-        "Hard working and ambitious – we are looking for a young professional that will take ownership of the Upplication project."
-      ],
-      "note": "We are not looking for an expert, that is why these internships exist, and that is why we are looking for someone with incentive and motivation. We are looking someone that wants to work for something more than just a salary. Someone that wants to do something big.",
-      "requirements": "REQUIREMENTS"
-    },
-    "weoffer": {
-      "intro": "To start, your job will be:",
-      "list": [
-        "Help the clients with the formulation of the app.",
-        "Help with the development of new marketing projects.",
-        "Support other departments (Social Media, E-commerce, etc.).",
-        "Since the intern is involved with the marketing department, depending on the results, there could be an added bonus in salary."
-      ]
-    },
-    "wewanttomeetyou": "Send us an email so we can get to know you, at <a href=\"mailto:info@upplication.com\"> info@upplication.com </a> Please attach your CV and a short paragraph about you, your work and how you can improve Upplication. We promise we will email you back!"
   },
   "ono": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",

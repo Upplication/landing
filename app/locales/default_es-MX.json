@@ -18,6 +18,21 @@
       },
       "step7": {
         "description": "Alcanzamos un <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acuerdo de Integración comercial con Telefónica España </a> con el que continuaremos aportando nuestro conocimiento y experiencia para impulsar a las pymes en su transformación digital."
+      },
+      "step8": {
+        "description": "Alcanzamos la cifra de <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 usuarios en 78 países de todo el mundo</a>, ¡y seguimos creciendo!",
+        "pic": "Expansión internacional",
+        "year": "Junio 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Upplication es adquirido por mobusi</a>, de esta forma, ambas empresas refuerzan su apuesta por el negocio digital a través de dispositivos móviles y a través de webs, SMS o apps.",
+        "pic": "Logotipo Mobusi",
+        "year": "Marzo 2017"
+      },
+      "step10": {
+        "description": "Aterrizamos oficialmente en México, continuando con nuestro trabajo de internacionalización. Apostamos por un país en el que las apps se han convertido ya un gran generador de empleo y motor de la economía.",
+        "pic": "Bandera de México",
+        "year": "Abril 2017"
       }
     }
   },
@@ -54,16 +69,6 @@
     "_meta_title": "Prácticas de desarrollador en Upplication: creador de apps",
     "_priority": "0.4",
     "_url": "/mx/oferta-practicas-developer/"
-  },
-  "offer_marketing": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Oferta de prácticas de marketing y ventas para Upplication, el creador de app online para android e iOS, fácil, rápido y sin programar.",
-    "_meta_title": "Prácticas de marketing en Upplication: creador de apps",
-    "_priority": "0.4",
-    "_url": "/mx/oferta-practicas-marketing/",
-    "introduction": [
-      "Upplication es una herramienta que permite a cualquier pyme crear una app en pocos pasos, sin necesidad de conocimientos técnicos ni llamar a nadie, y por un precio que se adapta a su capacidad de inversión (desde 5€/mes)."
-    ]
   },
   "ono": {
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
