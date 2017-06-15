@@ -6,7 +6,7 @@
 script(type="text/javascript").
   window.$UPP = window.$UPP || {};
   $UPP.localConfig = !{JSON.stringify(localConfig)};
-  // Fix for IE
+  //- Fix for IE
   if (!window.location.origin) {
     window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
   }
@@ -16,7 +16,7 @@ script(type="text/javascript").
   var BASE_PATH = "#{localConfig.base_path}";
   var DASHBOARD_PATH = "#{localConfig.dashboard_base_path}";
   document.write('<base href="' + base + '" />');
-  // Javascript Error messages
+  //- Javascript Error messages
   var ajax = {"error": []};
   ajax.error[2] = "#{register.error.num2}";
   ajax.error[3] = "#{register.error.num3}";
