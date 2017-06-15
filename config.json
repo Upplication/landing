@@ -1,7 +1,7 @@
 { 
   "upplication.com": {
     "tagmanager_token": "GTM-PPJS3G",
-    "webmaster_token": "juFFMSMoqmlI8iFOJJs3EE2tObAcgyeywGbfKBrTXrU",
+    "webmaster_token": "129jFPaChS0aAgL4dXgc1-1LuQuxiEtBybMQsjzXy98",
     "base_path": "//www.upplication.com",
     "dashboard_base_path": "//dashboard.upplication.com",
     "newrelic": {

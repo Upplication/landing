@@ -1,4 +1,4 @@
-// REGISTER PANEL :: "15 days free trial" (DESKTOP - LAPTOP)
+//- REGISTER PANEL :: "15 days free trial" (DESKTOP - LAPTOP)
 .register-form.right(data-aos='fade-up')
     .row.register-top
         form(name="register", action="/register", method="post").col.s12.register-form-block
@@ -21,7 +21,7 @@
                 button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                     span #{form.call_to_action}
                 p #{modal.footer.free}
-// REGISTER PANEL :: "15 days free trial" (MOBILE - TABLET)
+//- REGISTER PANEL :: "15 days free trial" (MOBILE - TABLET)
 .row.register-form-mobile(data-aos='fade-up')
     a.col.s10.offset-s1.price-btn.btn-green(href='#free-trial', title='#{header.free_trial}')
         span #{form.call_to_action}
