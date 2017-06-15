@@ -176,7 +176,7 @@
     "_priority": "0.9",
     "_url": "/id/company-bio/",
     "intro": {
-      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and be different from the competitors</span>.",
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> is the easier online app creator with no coding required as a key to help small and medium business creating a new communication channel that provides solutions, ideas and tools to achieve what we truly believe is important: building customer loyalty, increase sales, and stand out from the competitors.",
       "maintitle": "<span>What is</span> Upplication <span>?</span>"
     },
     "timeline": {
@@ -215,6 +215,21 @@
         "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience.",
         "pic": "Telefónica logo",
         "year": "On December 2015"
+      },
+      "step8": {
+        "description": "We reached and help 30.000 users in <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 users in 78 countries around the world</a>, and we are still growing!",
+        "pic": "International growthl",
+        "year": "In June 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Mobusi acquires Upplication</a>, in this way, both companies reinforcing their commitment for the digital business through mobile devices and through web pages, SMS and App.",
+        "pic": "Mobusi logo",
+        "year": "In March 2017"
+      },
+      "step10": {
+        "description": "We landed officially in México, in our continued effort with our internationalization strategy. We are committed in a country where apps have become an essential engine of a new kind of economy able to create employment.",
+        "pic": "Mexico flag",
+        "year": "In April 2017"
       }
     },
     "worldmap": {

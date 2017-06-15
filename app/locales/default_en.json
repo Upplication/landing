@@ -176,7 +176,7 @@
     "_priority": "0.9",
     "_url": "/en/company-bio/",
     "intro": {
-      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>is an useful, complete, and totally personalized service </span>. It is also to help small and medium enterprises find a new communication channel that provides solutions, ideas and tools in which they will be able to achieve what we truly believe is important: <span> building costumer loyalty, increase sales, and stand out from the competitors</span>.",
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> is the easier online app creator with no coding required as a key to help small and medium business creating a new communication channel that provides solutions, ideas and tools to achieve what we truly believe is important: building customer loyalty, increase sales, and stand out from the competitors.",
       "maintitle": "<span>What is</span> Upplication <span>?</span>"
     },
     "timeline": {
@@ -184,7 +184,7 @@
       "step1": {
         "description": "<span> We launch Upplication </span> for all kind of small business. Anyone can make his own app easily without programming knowledge.",
         "pic": "We launch Upplication",
-        "year": "On October 2013"
+        "year": "In October 2013"
       },
       "step2": {
         "description": "We closed our <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> first round of investments </a> by European Business Angels (investors), with 277.000€. This investment is what helped us <span> internationalize ourselves </span>, leading us to Latinoamerica.",
@@ -194,27 +194,42 @@
       "step3": {
         "description": "We were selected from a pot of 660 startups from all over Spain by <span> Wayra (Telefónica) </span> to his <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Startups Raising Program</a>.",
         "pic": "Wayra logo",
-        "year": "On May 2014"
+        "year": "In May 2014"
       },
       "step4": {
         "description": "We have reached a <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> trade integration agreement with Vodafone </a> completing its plan of supporting and assisting SMEs grow.",
         "pic": "Vodafone logo",
-        "year": "On October 2014"
+        "year": "In October 2014"
       },
       "step5": {
         "description": "We already had <span> clients in 75 different countries </span>, reaching one of our goals: <span>International growthl</span>.",
         "pic": "International growthl",
-        "year": "On May 2015"
+        "year": "In May 2015"
       },
       "step6": {
         "description": "We closed our <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> second round of investments with 1.1 million euros </a>; mostly led by <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, - who come form a Spanish origin - with Business Angels).",
         "pic": "Second round of investments",
-        "year": "On November 2015"
+        "year": "In November 2015"
       },
       "step7": {
         "description": "We have reached a <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> trade integration agreement with Telefonica Spain </a>, in which we will keep receiving support from, teaching us their knowledge and experience.",
         "pic": "Telefónica logo",
-        "year": "On December 2015"
+        "year": "In December 2015"
+      },
+      "step8": {
+        "description": "We reached and help 30.000 users in <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 users in 78 countries around the world</a>, and we are still growing!",
+        "pic": "International growthl",
+        "year": "In June 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Mobusi acquires Upplication</a>, in this way, both companies reinforcing their commitment for the digital business through mobile devices and through web pages, SMS and App.",
+        "pic": "Mobusi logo",
+        "year": "In March 2017"
+      },
+      "step10": {
+        "description": "We landed officially in México, in our continued effort with our internationalization strategy. We are committed in a country where apps have become an essential engine of a new kind of economy able to create employment.",
+        "pic": "Mexico flag",
+        "year": "In April 2017"
       }
     },
     "worldmap": {
