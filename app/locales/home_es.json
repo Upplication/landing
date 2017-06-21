@@ -42,14 +42,6 @@
       ],
       "title": "Mejora tus ventas"
     },
-    "multidevice": {
-      "android_alt": "Crea tu app con Android",
-      "devices_alt": "Crear app",
-      "html5_alt": "Crea tu app con HTML5",
-      "ios_alt": "Crea tu app con iOS",
-      "text": "Al crear una app móvil se crea automáticamente una web visible en ordenadores, tablets y smartphones, funcional en dispositivos Android e iOS.",
-      "title": "App y web multidispositivo"
-    },
     "multidevices": {
       "sub_title": "Válidas para cualquier dispositivo con sistema operativo Android o iOS",
       "title": "Aplicaciones multiplataforma para iPhone y Android"
