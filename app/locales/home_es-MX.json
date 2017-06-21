@@ -1,53 +1,75 @@
 {
   "home": {
-    "_keywords": "app, aplicación, creador de apps, aplicativos para empresas, creador de apps online, crear app sin programar, crear app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Creador de aplicaciones para empresas. Sin programar, fácil y en pocos minutos. Para iPhone y Android. Prueba GRATIS durante 15 días. Tutor personalizado.",
-    "_meta_title": "Upplication - La plataforma más sencilla para CREAR APLICACIONES online.",
+    "_keywords": "app, aplicación, creador de apps, aplicativos para empresas, creador de apps online, crear app sin programar, crear app, crear app Android, crear app iPhone, crear aplicacion, crear aplicativo en línea, crear app móvil",
+    "_meta_description": "Creador de aplicativos para empresas. Sin programar, fácil y en pocos minutos. Para iPhone y Android. Prueba GRATIS durante 15 días. Tutor personalizado.",
+    "_meta_title": "Upplication - La plataforma más sencilla para CREAR APLICATIVOS en línea.",
     "_priority": "1.0",
     "_url": "/mx/",
     "slider" : {
+      "intro2": "<span class='intro-2a'>La plataforma más sencilla para crear aplicativos en línea.</span> <span class='intro-2b'>Sin programar, fácil y rápido.</span>",
       "appready": {
         "": "¡Tu App publicada!",
         "title": "¡Tu App publicada!"
       }
     },
-    "try": "¡Crea tu aplicación ahora!<br/>15 días de prueba gratis con un tutor personal",
+    "try": "¡Crea tu aplicativo ahora!<br/>15 días de prueba gratis con un tutor personal",
     "improve_sales": {
       "title": "Aumenta tus ventas"
     },
     "how": {
       "app_ready": " <span>Tu App</span> publicada",
       "how_one": {
+        "reg_step2": "¡Estás a 3 clicks de que tu negocio sea todo un éxito!",
         "reg_step4": "Recuerda: Tienes <b>15 días</b> de <b>prueba gratis</b> y <b>el asesoramiento de un tutor personal</b>."
       },
       "how_two": {
         "app_step2": "¿Tienes <b>Página de negocio en Facebook</b>? Tan sencillo como introducir esa URL (enlace) y probar nuestra <span>plataforma</b>... ¡Hacemos magia!"
       },
       "how_four": {
-        "publish_step2": "Nosotros nos encargamos siempre de subir tu aplicación a los markets de <b>Apple (iOS)</b> y <b>Google (Android)</b>, para que tu App pueda usarse desde cualquier dispositivo."
+        "publish_step2": "Nosotros nos encargamos siempre de publicar tu aplicación a los markets de <b>Apple (iOS)</b> y <b>Google (Android)</b>, para que tu App pueda usarse desde cualquier dispositivo."
       }
+    },
+    "improve_sales": {
+      "points": [
+        "Mejora los ingresos de tu negocio",
+        "Vende en todo Latinoamérica desde los celulares",
+        "Mejora la comunicación con tus clientes"
+      ],
+      "title": "Aumenta tus ventas"
     },
     "optimize": {
       "points": [{
-          "desc": "Una app te permitirá estar siempre en el bolsillo de tu cliente. Fideliza, crea una relación de confianza y aumentarás tus ingresos."
+          "desc": "Un aplicativo te permitirá estar 24h en el bolsillo de tu cliente. Fideliza, crea una relación de confianza y aumentarás tus ingresos."
         },{
           "desc": "Te acompañamos en todo momento para la creación de tu app. Tendrás a una persona experta que será la encargada de ayudarte en cada paso."
         },{
-          "desc": "Con Upplication podrás crear tu app para iOS, Android y la web responsive que deseas. Además nosotros siempre nos encargaremos de publicarlas en App Store y Google Play."
+          "desc": "Con Upplication podrás crear tu aplicativo para iOS, Android y la web responsive que deseas. Además nosotros siempre nos encargaremos de publicarlas en App Store y Google Play."
         }
       ]
     },
     "samples": {
-      "free_app": "Crear mi app GRATIS",
+      "business": "Aplicaciones para todo tipo de negocios",
+      "free_app": "Crear mi aplicativo GRATIS",
       "custom": {
         "cust_intro": "Crea tu app móvil <span>personalizada</span>, hecha a la medida de lo que necesites"
       },
       "rest":{
-        "rest_intro": "Crea la app Android y iPhone de tu restaurante porque <span>fidelizarás a tus clientes</span>",
-        "details2": "Recibe <span>pedidos a domicilio</span> desde tu aplicación."
+        "rest_intro": "Crea el aplicativo Android y iPhone de tu restaurante porque <span>fidelizarás a tus clientes</span>",
+        "details1": "Tus clientes podrán <span>reservar mesa</span> cómodamente desde su celular.",
+        "details2": "Recibe <span>pedidos a domicilio</span> desde tu aplicativo.",
+        "details3": "Añade <span>cupones descuento</span> en tu aplicativo.",
+        "details4": "Envía <span>notificaciones push</span> con ofertas exclusivas."
+      },
+      "services": {
+        "serv_details2": "Muestra los <span>horarios de tus servicios</span> en el celular de tus clientes.",
+        "serv_details3": "Muestra los <span>horarios de tus servicios</span> en el móvil de tus clientes.",
+        "serv_intro": "Crea la <span>app de tus servicios profesionales</span> y conecta con tu cliente en su celular."
       },
       "shop": {
-        "shop_details1": "Ofrece <span>productos exclusivos</span> que solo puedan comprar con tu aplicación."
+        "shop_intro": "Crea tu aplicativo y conseguirás que tus clientes <span>compren tus productos desde su celular</span>",
+        "shop_details1": "Ofrece <span>productos exclusivos</span> que solo puedan comprar con tu aplicativo.",
+        "shop_details3": "<span>Envía notificaciones</span> push con ofertas exclusivas en tu aplicativo y les fidelizarás.",
+        "shop_details4": "Integra la <span>pasarela de pago</span> y en cuestión de minutos y comenzarás a vender en todo Latinoamérica."
       }
     }
   }
