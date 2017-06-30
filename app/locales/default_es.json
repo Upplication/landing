@@ -499,8 +499,7 @@
         "text_tel": "<span>917 958 203</span>",
         "title": "917 958 203"
       },
-      "schedule": "(Horario de atención al cliente de lunes a viernes de 10 a 18h GTM+1)",
-      "text": "Atención al cliente",
+      "schedule": "L-V 10-18h / Verano: L-V 8-15h",
       "text2": "Servicio de atención al cliente"
     }
   },
