@@ -4,7 +4,7 @@
       .col.s12
          ul
             li
-               a(title='#{common.customer_service.text2}') #{common.customer_service.text2}
+               span #{common.customer_service.text2}
             li.tel.hover-anim
                a(href='#{common.customer_service.phone.link}', title='#{common.customer_service.phone.alt_tag}')
                   i.icon-phone
@@ -13,6 +13,9 @@
                a(href='#{common.customer_service.email.link}', title='#{common.customer_service.email.alt_tag}')
                   i.icon-envelope
                   | #{common.customer_service.email.title}
+            li
+               span #{common.customer_service.schedule}
+
 //- FOOTER
 footer.page-footer
     //- Footer :: links compilation
