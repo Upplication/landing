@@ -60,18 +60,19 @@
 /* ... FOOTER :: Footer Common in all pages... */
 
 footer.page-footer {
-  margin-top: 20px;
   padding-top: 20px;
   margin: 0;
   background-color: @light-lilac;
 
-  /* // for Xmas BG decoration
+  /*
+  // for Xmas BG decoration
   .container.padTop50.padBot50 {
     background-image: url("@@config.base_path/images/home/bg/footer-xmas-bg.png");
     background-repeat: no-repeat;
     background-position: bottom left;
   }
-  // end of Xmas BG decoration */
+  // end of Xmas BG decoration
+  */
 
   h6 {
     font-family: 'Lato', sans-serif;
@@ -123,12 +124,21 @@ footer.page-footer {
       position: relative;
       top: 0;
       bottom: 1px;
-      color: #ffffff;
+      color: @white;
     }
 
-    em {
+    em,
+    a {
       font-style: normal;
       font-size: 14px;
+      color: @white;
+    }
+
+    a {
+      padding-left: 8px;
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     // Social Media external links linst
@@ -205,6 +215,13 @@ footer.page-footer {
 
         &:hover {
           opacity: 1;
+        }
+
+        &.fibonad {
+          a img {
+            width: 150px;
+            height: 43px;
+          }
         }
       }
     }

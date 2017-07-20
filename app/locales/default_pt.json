@@ -357,6 +357,7 @@
   },
   "footer": {
     "brand_copy": "Upplication 2017",
+    "byfibonad": "by Fibonad",
     "community": "Sociedade",
     "company": "Empresa",
     "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/terminos/#cookies-policy'>política de cookies</a>.",
@@ -372,9 +373,9 @@
         "title": "Mixpainel, análise móvel",
         "url": "https://mixpanel.com/"
       },
-      "mobusi": {
-        "title": "Mobusi, technology media company",
-        "url": "https://www.mobusi.com/"
+      "fibonad": {
+        "title": "Fibonad, a global advertising media company",
+        "url": "https://www.fibonad.com/"
       },
       "wayra": {
         "title": "Wayra, acelerador de startups da Telefónica",
