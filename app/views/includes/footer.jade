@@ -76,6 +76,7 @@ footer.page-footer
             span
                 i.icon.icon-copyright
                 | #{footer.brand_copy}
+            a(rel='nofollow', href='#{footer.partners.fibonad.url}', target='_blank', title='#{footer.partners.fibonad.title}') #{footer.byfibonad}
             i.icon.icon-dot
             em #{footer.signature}
             ul.rrss.right.hover-anim
@@ -113,9 +114,9 @@ footer.page-footer
                 li
                     a(rel='nofollow', href='#{footer.partners.mixpanel.url}', target='_blank', title='#{footer.partners.mixpanel.title}')
                        img(src='#{localConfig.base_path}/images/home/icons/badge_light.png', alt='#{footer.partners.mixpanel.title}', title='#{footer.partners.mixpanel.title}')
-                li
-                    a(rel='nofollow', href='#{footer.partners.mobusi.url}', target='_blank', title='#{footer.partners.mobusi.title}')
-                        img(src='#{localConfig.base_path}/images/home/icons/mobusi.svg', alt='#{footer.partners.mobusi.title}', title='#{footer.partners.mobusi.title}')
+                li.fibonad
+                    a(rel='nofollow', href='#{footer.partners.fibonad.url}', target='_blank', title='#{footer.partners.fibonad.title}')
+                        img(src='#{localConfig.base_path}/images/home/icons/fibonad.svg', alt='#{footer.partners.fibonad.title}', title='#{footer.partners.fibonad.title}')
                 li
                     a(rel='nofollow', href='#{footer.partners.wayra.url}', target='_blank', title='#{footer.partners.wayra.title}')
                         img(src='#{localConfig.base_path}/images/home/icons/wayra.png', alt='#{footer.partners.wayra.title}', title='#{footer.partners.wayra.title}')
