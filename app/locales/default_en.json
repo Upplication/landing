@@ -697,7 +697,7 @@
     "_priority": "0.6",
     "_url": "/en/prices/",
     "rates": {
-      "all_push": "<strong>Unlimited</strong> push alerts",
+      "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push alerts",
       "app_web": "Android / iOS / Web",
       "basic": "BASIC",
       "bullhorn": "Upplication <strong>Ads</strong>",
@@ -705,7 +705,7 @@
       "per_year": "/ year *",
       "four_push": "<strong>4</strong> push alerts / month",
       "icons": {
-        "all_push": "Unlimited push alerts",
+        "all_push": "Unlimited and customized push",
         "bullhorn": "Upplication Ads",
         "four_push": "4 push alerts / month",
         "no_bullhorn": "No Upplication Ads",
@@ -740,7 +740,7 @@
       "more": "All <strong>Professional</strong> features and:",
       "course": "Marketing Apps <strong>free course</strong>",
       "sticker": "<strong>Sticker</strong> for your workplace",
-      "all_push": "<strong>Unlimited</strong> push alerts",
+      "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push alerts",
       "sub1": "Customer support by e-mail, chat, and phone.",
       "sub2": "<span>Automatic upload to all App Stores,</span> <span>we publish your app.</span>",
       "sub3": "Web responsive, supports multiple devices.",
@@ -898,7 +898,7 @@
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Unlimited</span><span>push notifications</span>"
+            "title": "<span class=\"bold\">Unlimited</span> and <span>customized</span><span>push</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
