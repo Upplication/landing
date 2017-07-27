@@ -696,7 +696,7 @@
     "_priority": "0.6",
     "_url": "/id/prices/",
     "rates": {
-      "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
+      "all_push": "Pemberitahuan push <strong>tak terbatas</strong> dan <strong>tersegmentasi</strong>",
       "app_web": "Android / iOS / Web",
       "basic": "DASAR",
       "bullhorn": "<strong>Iklan</strong> Upplication",
@@ -739,7 +739,7 @@
       "more": "<strong>Premium</strong> Plan dan",
       "course": "Marketing Apps <strong>kursus gratis</strong>",
       "sticker": "<strong>Stiker</strong> untuk bisnis Anda",
-      "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
+      "all_push": "Pemberitahuan push <strong>tak terbatas</strong> dan <strong>tersegmentasi</strong>",
       "sub1": "Dukungan pelanggan melalui e-mail, obrolan, dan telepon.",
       "sub2": "<span>Unggah otomatis ke semua App Stores,</span> <span>kami menerbitkan aplikasi Anda.</span>",
       "sub3": "Web responsif, mendukung banyak perangkat.",
