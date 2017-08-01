@@ -241,7 +241,7 @@
   },
   "external": {
     "about": {
-      "anchor": "¿Quienes somos?",
+      "anchor": "¿Quiénes somos?",
       "url": "@@config.base_path/es/nosotros/"
     },
     "aplicateca": {
@@ -699,7 +699,7 @@
     "_priority": "0.6",
     "_url": "/es/precios/",
     "rates": {
-      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
+      "all_push": "Push <strong>ilimitadas</strong> y <strong>segmentadas</strong>",
       "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
@@ -707,7 +707,7 @@
       "per_year": "/ año *",
       "four_push": "<strong>4</strong> notificaciones push / mes",
       "icons": {
-        "all_push": "Notificaciones push ilimitadas",
+        "all_push": "Push ilimitadas y segmentadas",
         "bullhorn": "Publicidad Upplication",
         "four_push": "4 notificaciones push / mes",
         "no_bullhorn": "Sin publicidad Upplication",
@@ -742,7 +742,7 @@
       "more": "Plan <strong>Profesional</strong> y además:",
       "course": "<strong>Curso</strong> de Marketing Apps",
       "sticker": "<strong>Pegatina</strong> para tu local",
-      "all_push": "Notificaciones push <strong>ilimitadas</strong>",
+      "all_push": "Push <strong>ilimitadas</strong> y <strong>segmentadas</strong>",
       "sub1": "Atención al cliente por teléfono y chat.",
       "sub2": "<span>Subida automática a los markets,</span> <span>nosotros subimos tu app.</span>",
       "sub3": "Web responsive multidispositivo.",
@@ -903,8 +903,8 @@
             "title": "<span class=\"bold\">Sin</span><span>firma en las plantillas</span>"
           },
           {
-            "icon_class": "icon icon-paper-plane",
-            "title": "Notificaciones push ilimitadas"
+            "icon_class": "icon icon-paper-plane-alt",
+            "title": "Push ilimitadas y segmentadas"
           },
           {
             "icon_class": "icon icon-chart-line",
