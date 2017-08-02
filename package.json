@@ -1,6 +1,6 @@
 {
   "name": "landing-upplication",
-  "version": "3.8.5",
+  "version": "3.8.6",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "scripts": {
     "start": "gulp",
@@ -18,6 +18,10 @@
     {
       "name": "Juan José Herrero Barbosa",
       "email": "juan.herrero@upplication.com"
+    },
+    {
+      "name": "Marcos Rojas Martin",
+      "email": "markis992@gmail.com"
     },
     {
       "name": "Raul Jiménez",
