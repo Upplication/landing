@@ -48,14 +48,6 @@
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
       },
-      "community": {
-        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
-        "name": "Cristina",
-        "position": "Communication Manager",
-        "sentence": "Best followers catcher",
-        "surname": "Díaz Gallego",
-        "twitter": "https://twitter.com/MissRe_"
-      },
       "cto": {
         "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
         "name": "Javier",
@@ -91,14 +83,6 @@
           "surname": "Jimeno Garrachón",
           "twitter": "https://twitter.com/gorkajg"
         },
-        "backend_2": {
-          "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
-          "name": "Marcos",
-          "position": "Developer",
-          "sentence": "I´m tired...",
-          "surname": "Rojas Martín",
-          "twitter": "https://twitter.com/Mrk992"
-        },
         "backend_3": {
           "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
           "name": "Clara",
@@ -120,16 +104,6 @@
         "position": "Be part of our team",
         "sentence": "New fella in da hood",
         "surname": "Are you the next one?"
-      },
-      "sales": {
-        "sales_2": {
-          "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
-          "name": "Álvaro",
-          "position": "Marketing Manager",
-          "sentence": "Money never sleeps",
-          "surname": "Alcañiz Rubio",
-          "twitter": "https://twitter.com/alcanizalv"
-        }
       },
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
