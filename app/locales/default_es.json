@@ -49,14 +49,6 @@
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
       },
-      "community": {
-        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
-        "name": "Cristina",
-        "position": "Responsable de comunicación",
-        "sentence": "La mejor captadora de followers",
-        "surname": "Díaz Gallego",
-        "twitter": "https://twitter.com/MissRe_"
-      },
       "cto": {
         "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
         "name": "Javier",
@@ -92,14 +84,6 @@
           "surname": "Jimeno Garrachón",
           "twitter": "https://twitter.com/gorkajg"
         },
-        "backend_2": {
-          "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
-          "name": "Marcos",
-          "position": "Desarrollador",
-          "sentence": "#estoyCansao...",
-          "surname": "Rojas Martín",
-          "twitter": "https://twitter.com/Mrk992"
-        },
         "backend_3": {
           "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
           "name": "Clara",
@@ -121,16 +105,6 @@
         "position": "Sé parte de nuestro equipo",
         "sentence": "Tipo nuevo en el vecindario",
         "surname": "¿Eres el siguiente?"
-      },
-      "sales": {
-        "sales_2": {
-          "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
-          "name": "Álvaro",
-          "position": "Marketing Manager",
-          "sentence": "El dinero nunca duerme",
-          "surname": "Alcañiz Rubio",
-          "twitter": "https://twitter.com/alcanizalv"
-        }
       },
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
@@ -396,7 +370,7 @@
       },
       "fibonad": {
         "title": "Fibonad, a global advertising media company",
-        "url": "https://www.fibonad.com/"
+        "url": "http://www.fibonad.com/"
       },
       "wayra": {
         "title": "Wayra, acelerador de startups de Telefónica",
@@ -743,11 +717,11 @@
       "course": "<strong>Curso</strong> de Marketing Apps",
       "sticker": "<strong>Pegatina</strong> para tu local",
       "all_push": "Push <strong>ilimitadas</strong> y <strong>segmentadas</strong>",
-      "sub1": "Atención al cliente por teléfono y chat.",
-      "sub2": "<span>Subida automática a los markets,</span> <span>nosotros subimos tu app.</span>",
-      "sub3": "Web responsive multidispositivo.",
-      "sub4": "Tutor personalizado.",
-      "sub5": "Panel de gestión de tu app.",
+      "sub1": "<b>Atención al cliente</b> por teléfono y chat.",
+      "sub2": "<span>Subida automática a los markets,</span> <span><b>nosotros subimos tu app</b>.</span>",
+      "sub3": "<b>Web responsive</b> multidispositivo.",
+      "sub4": "<b>Tutor</b> personalizado.",
+      "sub5": "<b>Panel de gestión</b> de tu app.",
       "topsale": "Más demandado",
       "unlimited": "ILIMITADO",
       "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
