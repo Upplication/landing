@@ -48,14 +48,6 @@
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
       },
-      "community": {
-        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
-        "name": "Cristina",
-        "position": "Communication Manager",
-        "sentence": "Best followers catcher",
-        "surname": "Díaz Gallego",
-        "twitter": "https://twitter.com/MissRe_"
-      },
       "cto": {
         "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
         "name": "Javier",
@@ -91,14 +83,6 @@
           "surname": "Jimeno Garrachón",
           "twitter": "https://twitter.com/gorkajg"
         },
-        "backend_2": {
-          "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
-          "name": "Marcos",
-          "position": "Developer",
-          "sentence": "I´m tired...",
-          "surname": "Rojas Martín",
-          "twitter": "https://twitter.com/Mrk992"
-        },
         "backend_3": {
           "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
           "name": "Clara",
@@ -120,16 +104,6 @@
         "position": "Be part of our team",
         "sentence": "New fella in da hood",
         "surname": "Are you the next one?"
-      },
-      "sales": {
-        "sales_2": {
-          "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
-          "name": "Álvaro",
-          "position": "Marketing Manager",
-          "sentence": "Money never sleeps",
-          "surname": "Alcañiz Rubio",
-          "twitter": "https://twitter.com/alcanizalv"
-        }
       },
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
@@ -394,7 +368,7 @@
       },
       "fibonad": {
         "title": "Fibonad, a global advertising media company",
-        "url": "https://www.fibonad.com/"
+        "url": "http://www.fibonad.com/"
       },
       "wayra": {
         "title": "Wayra, Telefónica's startup accelerator",
@@ -696,7 +670,7 @@
     "_priority": "0.6",
     "_url": "/id/prices/",
     "rates": {
-      "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
+      "all_push": "Pemberitahuan push <strong>tak terbatas</strong> dan <strong>tersegmentasi</strong>",
       "app_web": "Android / iOS / Web",
       "basic": "DASAR",
       "bullhorn": "<strong>Iklan</strong> Upplication",
@@ -739,12 +713,12 @@
       "more": "<strong>Premium</strong> Plan dan",
       "course": "Marketing Apps <strong>kursus gratis</strong>",
       "sticker": "<strong>Stiker</strong> untuk bisnis Anda",
-      "all_push": "Pemberitahuan push <strong>tak terbatas</strong>",
-      "sub1": "Dukungan pelanggan melalui e-mail, obrolan, dan telepon.",
-      "sub2": "<span>Unggah otomatis ke semua App Stores,</span> <span>kami menerbitkan aplikasi Anda.</span>",
-      "sub3": "Web responsif, mendukung banyak perangkat.",
-      "sub4": "Tutor pribadi.",
-      "sub5": "Manejemen panel aplikasi anda.",
+      "all_push": "Pemberitahuan push <strong>tak terbatas</strong> dan <strong>tersegmentasi</strong>",
+      "sub1": "<b>Dukungan pelanggan</b> melalui e-mail, obrolan, dan telepon.",
+      "sub2": "<span>Unggah otomatis ke semua App Stores,</span> <span><b>kami menerbitkan aplikasi Anda</b>.</span>",
+      "sub3": "<b>Web responsif</b>, mendukung banyak perangkat.",
+      "sub4": "<b>Tutor</b> pribadi.",
+      "sub5": "<b>Manejemen panel</b> aplikasi anda.",
       "topsale": "Top sale",
       "unlimited": "TAK TERBATAS",
       "with_tax": "Sudah termasuk <strong>PPN</strong>.",

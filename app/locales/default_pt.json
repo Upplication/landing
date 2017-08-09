@@ -47,14 +47,6 @@
         "sentence": "Eu também mando, eh?",
         "twitter": "https://twitter.com/rodadofrutos"
       },
-      "community": {
-        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
-        "name": "Cristina",
-        "position": "Responsável de comunicação",
-        "sentence": "A melhor captadora de followers",
-        "surname": "Díaz Gallego",
-        "twitter": "https://twitter.com/MissRe_"
-      },
       "cto": {
         "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
         "name": "Javier",
@@ -80,14 +72,6 @@
           "surname": "Jimeno Garrachón",
           "twitter": "https://twitter.com/gorkajg"
         },
-        "backend_2": {
-          "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
-          "name": "Marcos",
-          "position": "Desenvolvedor",
-          "sentence": "#estouCansado...",
-          "surname": "Rojas Martín",
-          "twitter": "https://twitter.com/Mrk992"
-        },
         "frontend_1": {
           "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
           "name": "Juan José",
@@ -101,16 +85,6 @@
         "position": "Sê parte da nossa equipa",
         "sentence": "Tipo novo na vizinhança",
         "surname": "És o seguinte?"
-      },
-      "sales": {
-        "sales_2": {
-          "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
-          "name": "Álvaro",
-          "position": "Marketing Manager",
-          "sentence": "O dinheiro nunca dorme",
-          "surname": "Alcañiz Rubio",
-          "twitter": "https://twitter.com/alcanizalv"
-        }
       },
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
@@ -375,7 +349,7 @@
       },
       "fibonad": {
         "title": "Fibonad, a global advertising media company",
-        "url": "https://www.fibonad.com/"
+        "url": "http://www.fibonad.com/"
       },
       "wayra": {
         "title": "Wayra, acelerador de startups da Telefónica",
@@ -676,7 +650,7 @@
     "_priority": "0.6",
     "_url": "/pt/preços/",
     "rates": {
-      "all_push": "Notificações push <strong>ilimitadas</strong>",
+      "all_push": "Notificações push <strong>ilimitadas</strong> e <strong>segmentado</strong>",
       "app_web": "Android / iOS / Web",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
@@ -719,12 +693,12 @@
       "more": "<strong>Premium</strong> plano e também:",
       "course": "Marketing Apps <strong>curso gratuito</strong>",
       "sticker": "<strong>Adesivo</strong> para você negócio",
-      "all_push": "Notificações push <strong>ilimitadas</strong>",
-      "sub1": "Atenção ao cliente por telefone e chat.",
-      "sub2": "<span>Upload automático aos markets,</span> <span>nós fazemos o upload da tua app.</span>",
-      "sub3": "Web responsive multidispositivo.",
-      "sub4": "Tutor personalizado.",
-      "sub5": "Painel de gestão de seu aplicativo.",
+      "all_push": "Notificações push <strong>ilimitadas</strong> e <strong>segmentado</strong>",
+      "sub1": "<b>Atenção ao cliente</b> por telefone e chat.",
+      "sub2": "<span>Upload automático aos markets,</span> <span><b>nós fazemos o upload da tua app</b>.</span>",
+      "sub3": "<b>Web responsive</b> multidispositivo.",
+      "sub4": "<b>Tutor</b> personalizado.",
+      "sub5": "<b>Painel de gestão</b> de seu aplicativo.",
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
       "with_tax": "Todos os preços <strong>incluem IVA</strong>.",

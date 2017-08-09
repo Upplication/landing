@@ -64,7 +64,7 @@
     }
   }
 
-  // Common FEATURES
+  // Common FEATURES in all Pricing Plans
   .plans-head {
     padding: 0;
 
@@ -74,17 +74,46 @@
       font-size: 18px;
       font-weight: 500;
 
+      // title
       p {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        text-align: center;
       }
 
-      i {
-        font-size: 25px;
-        padding: 10px;
-        color: @main-green;
-        
-        &.icon-comment-empty {
-          top: 7px;
+     // Features list
+      ul {
+        li {
+          display: inline-block;
+          width: ~"calc(20% - 10px)";
+          padding: 10px 5px;
+          text-align: center;
+          font-size: 15px;
+          vertical-align: text-top;
+          // responsive behaviour
+          @media screen and (max-width: 1080px) {
+            width: ~"calc(25% - 10px)";
+          }
+          @media screen and (max-width: 920px) {
+            width: ~"calc(33.3333% - 10px)";
+          }
+          @media screen and (max-width: 667px) {
+            width: ~"calc(50% - 20px)";
+            padding: 10px;
+          }
+          @media screen and (max-width: 420px) {
+            width: ~"calc(100% - 20px)";
+          }
+
+          b {
+            font-weight: 600;
+          }
+
+          img {
+            display: block;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 15px auto;
+          }
         }
       }
     }
@@ -212,7 +241,7 @@
         list-style: none;
         text-align: center;
         border-bottom: 1px solid @header-border;
-        font-size: 16px;
+        font-size: 15px;
 
         a,
         span {

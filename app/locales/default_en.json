@@ -48,14 +48,6 @@
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
       },
-      "community": {
-        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego",
-        "name": "Cristina",
-        "position": "Communications Manager",
-        "sentence": "Best followers catcher",
-        "surname": "Díaz Gallego",
-        "twitter": "https://twitter.com/MissRe_"
-      },
       "cto": {
         "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
         "name": "Javier",
@@ -91,14 +83,6 @@
           "surname": "Jimeno Garrachón",
           "twitter": "https://twitter.com/gorkajg"
         },
-        "backend_2": {
-          "linkedin": "https://www.linkedin.com/in/marcos-rojas-martin-4754184a",
-          "name": "Marcos",
-          "position": "Developer",
-          "sentence": "I´m tired...",
-          "surname": "Rojas Martín",
-          "twitter": "https://twitter.com/Mrk992"
-        },
         "backend_3": {
           "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
           "name": "Clara",
@@ -120,16 +104,6 @@
         "position": "Be part of our Team",
         "sentence": "New fella in da hood",
         "surname": "Are you the next one?"
-      },
-      "sales": {
-        "sales_2": {
-          "linkedin": "https://www.linkedin.com/in/alvaroalcanizrubio",
-          "name": "Álvaro",
-          "position": "Marketing Manager",
-          "sentence": "Money never sleeps",
-          "surname": "Alcañiz Rubio",
-          "twitter": "https://twitter.com/alcanizalv"
-        }
       },
       "support": {
         "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
@@ -394,7 +368,7 @@
       },
       "fibonad": {
         "title": "Fibonad, a global advertising media company",
-        "url": "https://www.fibonad.com/"
+        "url": "http://www.fibonad.com/"
       },
       "wayra": {
         "title": "Wayra, Telefónica's startup accelerator",
@@ -697,7 +671,7 @@
     "_priority": "0.6",
     "_url": "/en/prices/",
     "rates": {
-      "all_push": "<strong>Unlimited</strong> push alerts",
+      "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push",
       "app_web": "Android / iOS / Web",
       "basic": "BASIC",
       "bullhorn": "Upplication <strong>Ads</strong>",
@@ -705,7 +679,7 @@
       "per_year": "/ year *",
       "four_push": "<strong>4</strong> push alerts / month",
       "icons": {
-        "all_push": "Unlimited push alerts",
+        "all_push": "Unlimited and customized push",
         "bullhorn": "Upplication Ads",
         "four_push": "4 push alerts / month",
         "no_bullhorn": "No Upplication Ads",
@@ -740,12 +714,12 @@
       "more": "All <strong>Professional</strong> features and:",
       "course": "Marketing Apps <strong>free course</strong>",
       "sticker": "<strong>Sticker</strong> for your workplace",
-      "all_push": "<strong>Unlimited</strong> push alerts",
-      "sub1": "Customer support by e-mail, chat, and phone.",
-      "sub2": "<span>Automatic upload to all App Stores,</span> <span>we publish your app.</span>",
-      "sub3": "Web responsive, supports multiple devices.",
-      "sub4": "Personal tutor.",
-      "sub5": "Management panel your App.",
+      "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push",
+      "sub1": "<b>Customer support</b> by e-mail, chat, and phone.",
+      "sub2": "<span>Automatic upload to all App Stores,</span> <span><b>we publish your app</b>.</span>",
+      "sub3": "<b>Web responsive</b>, supports multiple devices.",
+      "sub4": "Personal <b>tutor</b>.",
+      "sub5": "<b>Management panel</b> for your App.",
       "topsale": "Top sale",
       "unlimited": "UNLIMITED",
       "with_tax": "<strong>VAT included</strong> in all prices.",
@@ -898,7 +872,7 @@
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Unlimited</span><span>push notifications</span>"
+            "title": "<span class=\"bold\">Unlimited</span> and <span>customized</span><span>push</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",

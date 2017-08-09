@@ -133,7 +133,7 @@ block content
                                             | !{prices.rates.sticker}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
-                                            i.icon.icon-paper-plane
+                                            i.icon.icon-paper-plane-alt
                                             | !{prices.rates.all_push}
                                 a.order-btn(href='#free-trial', title='#{register.call_to_action}')
                                     | #{register.call_to_action}
@@ -239,7 +239,7 @@ block content
                                             | !{prices.rates.sticker}
                                     li
                                         a(href='#', title='#{prices.rates.icons.all_push}')
-                                            i.icon.icon-paper-plane
+                                            i.icon.icon-paper-plane-alt
                                             | !{prices.rates.all_push}
                                 a.order-btn(href='#free-trial', title='#{register.call_to_action}')
                                     | #{register.call_to_action}
@@ -275,24 +275,24 @@ block content
                 //- Common Features for all plans
                 .plans-head.center-align
                     .row
-                        .col.s12.m8.offset-m3.prices-common-features(data-aos='zoom-in')
+                        .col.s12.m10.offset-m1.prices-common-features(data-aos='zoom-in')
                             p #{prices.rates.rate_sub}
                             ul
                                 li
-                                    i.icon.icon-comment-empty
-                                    | #{prices.rates.sub1}
+                                    img(src='#{localConfig.base_path}/images/home/icons/upp_circle-claim_support-girl.svg', title='#{prices.rates.sub1}', alt='#{prices.rates.sub1}')
+                                    | !{prices.rates.sub1}
                                 li
-                                    i.icon.icon-upload
+                                    img(src='#{localConfig.base_path}/images/home/icons/upp_circle-claim_markets-upload.svg', title='#{prices.rates.sub2}', alt='#{prices.rates.sub2}')
                                     | !{prices.rates.sub2}
                                 li
-                                    i.icon.icon-tablet
-                                    | #{prices.rates.sub3}
+                                    img(src='#{localConfig.base_path}/images/home/icons/upp_circle-claim_multidevice.svg', title='#{prices.rates.sub3}', alt='#{prices.rates.sub3}')
+                                    | !{prices.rates.sub3}
                                 li
-                                    i.icon.icon-graduation-cap
-                                    | #{prices.rates.sub4}
+                                    img(src='#{localConfig.base_path}/images/home/icons/upp_circle-claim_tutor-boy.svg', title='#{prices.rates.sub4}', alt='#{prices.rates.sub4}')
+                                    | !{prices.rates.sub4}
                                 li
-                                    i.icon.icon-cog
-                                    | #{prices.rates.sub5}
+                                    img(src='#{localConfig.base_path}/images/home/icons/upp_circle-claim_dashboard.svg', title='#{prices.rates.sub5}', alt='#{prices.rates.sub5}')
+                                    | !{prices.rates.sub5}
                         .clearfix
 
 block scripts
