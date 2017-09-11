@@ -3,7 +3,7 @@
     "_keywords": "criar app, criar app loja, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "Upplication \u00e9 um criador de apps online para ti ou para a tua empresa. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o e em quest\u00e3o de minutos. Para Android e iOS",
     "_meta_title": "Upplication: Asis & Gross",
-    "_url": "/asis-and-gross-caso-bem-sucedido/",
+    "_url": "/pt/asis-and-gross/",
     "img": {
       "top_bg": "Sandra & Paloma\u00b4s creative process.",
       "blocks_bg1": "Sandra y Paloma using Upplication dashboard.",
@@ -38,16 +38,16 @@
     },
     "download": {
       "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
-      "app_store_url": "https://itunes.apple.com/es/app/asis-gross/id1151475047?mt=8",
+      "app_store_url": "https://itunes.apple.com/pt/app/asis-gross/id1151475047?mt=8",
       "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android21574"
     },
     "samples": {
       "title": "<span>Another</span> successful App showcases",
       "sample1": "Mais sobre Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/",
+      "sample1_url": "@@config.base_path/pt/asis-and-gross/",
       "sample2": "Mais sobre Fisiohogar",
-      "sample2_url": "@@config.base_path/fisiohogar-caso-bem-sucedido/",
+      "sample2_url": "@@config.base_path/pt/fisiohogar/",
       "sample3": "Mais sobre Facebook onboarding",
       "sample3_url": "https://youtu.be/NyRm-ttbKeM"
     }
@@ -56,7 +56,7 @@
     "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
     "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
     "_meta_title": "Upplication: Fisiohogar, delivery fhysiotherapist",
-    "_url": "/fisiohogar-caso-bem-sucedido/",
+    "_url": "/pt/fisiohogar/",
     "img": {
       "top_bg": "Fhysiotherapist working...",
       "blocks_bg1": "Pablo Herrera sending a push notification.",
@@ -92,16 +92,16 @@
     },
     "download": {
       "app_store": "Available in iPhone & iPad on the <span>Apple Store</span>",
-      "app_store_url": "https://itunes.apple.com/es/app/fisio-en-tu-movil/id874340902?mt=8",
+      "app_store_url": "https://itunes.apple.com/pt/app/fisio-en-tu-movil/id874340902?mt=8",
       "google_play": "Available on the Google Play for <span>Android</span>",
       "google_play_url": "https://play.google.com/store/apps/details?id=es.upplication.android3563"
     },
     "samples": {
       "title": "<span>Another</span> successful App showcases",
       "sample1": "Mais sobre Asis & Gross",
-      "sample1_url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/",
+      "sample1_url": "@@config.base_path/pt/asis-and-gross/",
       "sample2": "Mais sobre Fisiohogar",
-      "sample2_url": "@@config.base_path/fisiohogar-caso-bem-sucedido/",
+      "sample2_url": "@@config.base_path/pt/fisiohogar/",
       "sample3": "Mais sobre Facebook onboarding",
       "sample3_url": "https://youtu.be/NyRm-ttbKeM"
     }

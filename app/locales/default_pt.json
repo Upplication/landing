@@ -4,7 +4,7 @@
     "_meta_description": "Upplication \u00e9 um criador de apps online para ti ou para a tua empresa. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o e em quest\u00e3o de minutos. Para Android e iOS",
     "_meta_title": "Equipa de Upplication: criador de apps",
     "_priority": "0.8",
-    "_url": "/n\u00f3s/",
+    "_url": "/pt/n\u00f3s/",
     "departments": {
       "title": "<span>Conhece</span> os nossos departamentos",
       "develop": {
@@ -48,9 +48,6 @@
         "sentence": "Eu tamb\u00e9m mando, eh?",
         "surname": "Rodado Frutos",
         "twitter": "https://twitter.com/rodadofrutos"
-      },
-      "community": {
-        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego"
       },
       "cto": {
         "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
@@ -139,12 +136,12 @@
     "pricing_aplicateca": {
       "anchor": "Pre\u00e7os",
       "title": "Pre\u00e7os de Upplication em Aplicateca",
-      "url": "@@config.base_path/precios-aplicateca/"
+      "url": "@@config.base_path/pt/pre\u00e7os-aplicateca/"
     },
     "terms_aplicateca": {
       "anchor": "Legal",
       "title": "Condi\u00e7\u00f5es legais de Upplication em Aplicateca",
-      "url": "@@config.base_path/termos-aplicateca/"
+      "url": "@@config.base_path/pt/termos-aplicateca/"
     }
   },
   "company": {
@@ -152,7 +149,7 @@
     "_meta_description": "Biografia e expans\u00e3o internacional da Upplication: criador de apps m\u00f3vel online sem necessidade de programa\u00e7\u00e3o, em quest\u00e3o de minutos, para Android e iOS",
     "_meta_title": "Biografia da Upplication: criador de apps",
     "_priority": "0.9",
-    "_url": "/bio-do-companhia/",
+    "_url": "/pt/bio-do-companhia/",
     "intro": {
       "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>\u00e9 um servi\u00e7o \u00fatil, completo e totalmente personalizado de marketing m\u00f3vel </span> e para ajudar \u00e0s PME a criar um <span> novo canal de comunica\u00e7\u00e3o </span> aportando-lhes solu\u00e7\u00f5es, ideias e ferramentas com as quais podem conseguir o que para n\u00f3s \u00e9 o realmente importante: <span> fidelizar os seus clientes, aumentar as suas vendas e diferenciar-se da concorr\u00eancia</span>.",
       "maintitle": "<span>\u00bfO que \u00e9</span> Upplication<span>?</span>"
@@ -175,7 +172,7 @@
         "year": "Maio 2014"
       },
       "step4": {
-        "description": "Alcan\u00e7amos um <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Vodafone </a> completando o seu Plano de solu\u00e7\u00f5es para empresas apoiando e ajudando as PME no seu crescimento.",
+        "description": "Alcan\u00e7amos um <a href=\"http://www.vodafone.es/empresas/pt/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Vodafone </a> completando o seu Plano de solu\u00e7\u00f5es para empresas apoiando e ajudando as PME no seu crescimento.",
         "pic": "Logotipo Vodafone",
         "year": "Outubro 2014"
       },
@@ -190,7 +187,7 @@
         "year": "Novembro 2015"
       },
       "step7": {
-        "description": "Alcan\u00e7amos um <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Telef\u00f3nica Espanha </a> com o qual continuaremos a aportar o nosso conhecimento e experi\u00eancia para impulsionar as PME.",
+        "description": "Alcan\u00e7amos um <a href=\"http://www.telefonica.com/pt/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Telef\u00f3nica Espanha </a> com o qual continuaremos a aportar o nosso conhecimento e experi\u00eancia para impulsionar as PME.",
         "pic": "Logotipo Telef\u00f3nica",
         "year": "Dezembro 2015"
       },
@@ -219,7 +216,7 @@
   "external": {
     "about": {
       "anchor": "Quem somos?",
-      "url": "@@config.base_path/n\u00f3s/"
+      "url": "@@config.base_path/pt/n\u00f3s/"
     },
     "aplicateca": {
       "anchor": "Entrar",
@@ -228,7 +225,7 @@
     },
     "apps": {
       "anchor": "Exemplos de apps",
-      "url": "@@config.base_path/inspirate"
+      "url": "@@config.base_path/pt/inspirate"
     },
     "blog": {
       "anchor": "Blogue",
@@ -237,11 +234,11 @@
     },
     "breakfasts": {
       "anchor": "Sucesso app",
-      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
+      "url": "@@config.base_path/pt/asis-and-gross/"
     },
     "company": {
       "anchor": "Upplication bio",
-      "url": "@@config.base_path/bio-do-companhia/"
+      "url": "@@config.base_path/pt/bio-do-companhia/"
     },
     "create_apps": {
       "anchor": "Criamos a tua app"
@@ -271,7 +268,7 @@
     },
     "helpcenter": {
       "anchor": "Centro de ajuda",
-      "url": "@@config.base_path/centro-de-ajuda/"
+      "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
     "hiring": "Estamos a contratar!",
     "hiring_backend": {
@@ -280,15 +277,15 @@
     },
     "hiring_developer": {
       "anchor": "Est\u00e1gio de desenvolvedor",
-      "url": "@@config.base_path/oferta-est\u00e1gio-developer/"
+      "url": "@@config.base_path/pt/oferta-est\u00e1gio-developer/"
     },
     "hiring_frontend": {
       "anchor": "Desenvolvedor Frontend",
-      "url": "@@config.base_path/oferta-est\u00e1gio-developer/"
+      "url": "http://frontend.upplication.com/"
     },
     "hiring_marketing": {
       "anchor": "Est\u00e1gio de marketing",
-      "url": "@@config.base_path/oferta-est\u00e1gio-marketing/"
+      "url": "@@config.base_path/pt/oferta-est\u00e1gio-marketing/"
     },
     "instagram": {
       "anchor": "Instagram",
@@ -296,7 +293,7 @@
     },
     "jobs": {
       "anchor": "Estamos a contratar!",
-      "url": "@@config.base_path/trabalhos/"
+      "url": "@@config.base_path/pt/trabalhos/"
     },
     "linkedin": {
       "anchor": "Linkedin",
@@ -316,11 +313,11 @@
     },
     "pricing": {
       "anchor": "Pre\u00e7os",
-      "url": "@@config.base_path/pre\u00e7os/"
+      "url": "@@config.base_path/pt/pre\u00e7os/"
     },
     "pricing_aplicateca": {
       "anchor": "Pre\u00e7os",
-      "url": "@@config.base_path/pre\u00e7os-aplicateca/"
+      "url": "@@config.base_path/pt/pre\u00e7os-aplicateca/"
     },
     "social_media_btns": {
       "facebook": "",
@@ -328,7 +325,7 @@
     },
     "team": {
       "anchor": "Equipa",
-      "url": "@@config.base_path/equipa/"
+      "url": "@@config.base_path/pt/equipa/"
     },
     "titles": {
       "help": "Ajuda:",
@@ -338,7 +335,7 @@
     },
     "tos": {
       "anchor": "Condi\u00e7\u00f5es legais",
-      "url": "@@config.base_path/termos/"
+      "url": "@@config.base_path/pt/termos/"
     },
     "tutorials": {
       "anchor": "Tutoriais",
@@ -358,14 +355,14 @@
     "byfibonad": "by Fibonad",
     "community": "Sociedade",
     "company": "Empresa",
-    "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/terminos/#cookies-policy'>pol\u00edtica de cookies</a>.",
-    "cookies_aplicateca": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/termos-aplicateca/'>pol\u00edtica de cookies.</a>",
+    "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/pt/termos/#cookies-policy'>pol\u00edtica de cookies</a>.",
+    "cookies_aplicateca": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/pt/termos-aplicateca/'>pol\u00edtica de cookies.</a>",
     "free_trial": "Experimente gr\u00e1tis",
     "media": "Meios e redes",
     "partners": {
       "eu": {
         "title": "UE fondo de desenvolvimento regional",
-        "url": "http://ec.europa.eu/regional_policy/es/funding/erdf/"
+        "url": "http://ec.europa.eu/regional_policy/pt/funding/erdf/"
       },
       "mixpanel": {
         "title": "Mixpainel, an\u00e1lise m\u00f3vel",
@@ -388,19 +385,19 @@
     "tos": {
       "cookies": {
         "title": "Utiliza\u00e7\u00e3o de Cookies",
-        "url": "@@config.base_path/termos/#cookies-policy"
+        "url": "@@config.base_path/pt/termos/#cookies-policy"
       },
       "legal": {
         "title": "Termos Legais",
-        "url": "@@config.base_path/termos/"
+        "url": "@@config.base_path/pt/termos/"
       },
       "privacy": {
         "title": "Pol\u00edtica de Privacidade",
-        "url": "@@config.base_path/termos/#privacidade"
+        "url": "@@config.base_path/pt/termos/#privacidad"
       },
       "terms_of_use": {
         "title": "Condi\u00e7\u00f5es de utiliza\u00e7\u00e3o",
-        "url": "@@config.base_path/termos/#utiliza\u00e7\u00e3o"
+        "url": "@@config.base_path/pt/termos/#uso"
       }
     },
     "try_it": "Cria a tua app!",
@@ -420,7 +417,7 @@
     "logo": {
       "title": "Logotipo da Upplication",
       "title_xmas": "Upplication logo de Natal",
-      "url": "@@config.base_path/Criar-a-minha-app/"
+      "url": "@@config.base_path/pt/"
     },
     "menu": "menu",
     "nav": {
@@ -430,11 +427,11 @@
       "info": {
         "about_us": {
           "title": "sobre n\u00f3s",
-          "url": "@@config.base_path/n\u00f3s/"
+          "url": "@@config.base_path/pt/n\u00f3s/"
         },
         "company_bio": {
           "title": "Biografia",
-          "url": "@@config.base_path/bio-do-companhia/"
+          "url": "@@config.base_path/pt/bio-do-companhia/"
         },
         "helpcenter": {
           "title": "Centro de Ajuda",
@@ -444,11 +441,11 @@
         "info": "Mais...",
         "prices": {
           "title": "Pre\u00e7os",
-          "url": "@@config.base_path/pre\u00e7os/"
+          "url": "@@config.base_path/pt/pre\u00e7os/"
         },
         "terms": {
           "title": "Aviso Legal",
-          "url": "@@config.base_path/termos/"
+          "url": "@@config.base_path/pt/termos/"
         }
       },
       "legal": {
@@ -485,7 +482,7 @@
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "Suporte e aten\u00e7\u00e3o ao cliente de Upplication, para criar app online, da Telef\u00f3nica Upplication. F\u00e1cil, r\u00e1pido e sem programar.",
     "_meta_title": "Servi\u00e7o de aten\u00e7\u00e3o e suporte da Telef\u00f3nica Upplication",
-    "_url": "/telefonica-pt/",
+    "_url": "/pt/telefonica/",
     "contact": {
       "customer_service": {
         "email": {
@@ -505,13 +502,13 @@
       "quote": "Precis\u00e1vamos de um canal que nos aproximasse de nossos clientes para comunicar nossos novos produtos e ter uma vitrine 24h 365 dias e Upplication que encontramos muito \u00fatil e simples.",
       "name": "Sandra e Paloma, <span>Asis & Gross</span>",
       "more": "Mais sobre Asis & Gross",
-      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
+      "url": "@@config.base_path/pt/asis-and-gross/"
     },
     "client2": {
       "quote": "A id\u00e9ia de criar um aplicativo \u00e9 mais \u00f3bvia: os clientes t\u00eam o fisio no bolso por 24 horas. Al\u00e9m disso, optamos pela Upplication por seu pre\u00e7o e sua simplicidade de uso.",
       "name": "Pablo, <span>Fisiohogar</span>",
       "more": "Mais sobre Fisiohogar",
-      "url": "@@config.base_path/fisiohogar-caso-bem-sucedido/"
+      "url": "@@config.base_path/pt/fisiohogar/"
     },
     "client3": {
       "quote": "Agora \u00e9 ainda mais f\u00e1cil criar aplicativos com o Upplication, voc\u00ea n\u00e3o precisa programar nada, apenas o link da sua P\u00e1gina de Neg\u00f3cios do Facebook e voc\u00ea ter\u00e1 a aplica\u00e7\u00e3o m\u00f3vel da sua empresa!",
@@ -525,7 +522,7 @@
     "_keywords": "erro, 500, erro 500, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "500 erro interno do servidor em Upplication - criador de apps online f\u00e1cil de utilizar, r\u00e1pido e sem conhecimentos de programa\u00e7\u00e3o.",
     "_meta_title": "500: erro interno do servidor em Upplication - criador de apps",
-    "_url": "/erro-interno-do-servidor/",
+    "_url": "/pt/erro-interno-do-servidor/",
     "pre_advice": "Produziu-se um erro com o nosso servidor. Desculpem o inc\u00f3modo causado, brevemente ser\u00e1 solucionado.",
     "subtitle1": "Erro",
     "subtitle2": "interno do servidor",
@@ -559,7 +556,7 @@
     "_meta_description": "Oferta de est\u00e1gio para desenvolvedor ou backender ou frontender para Upplication, o criador de app online para ti ou para o teu neg\u00f3cio.",
     "_meta_title": "Est\u00e1gio de desenvolvedor em Upplication: criador de apps",
     "_priority": "0.4",
-    "_url": "/oferta-est\u00e1gio-developer/",
+    "_url": "/pt/oferta-est\u00e1gio-developer/",
     "cheers": [
       "Cumprimentos!",
       "Javier Arn\u00e1iz"
@@ -599,7 +596,7 @@
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "Upplication: criar online a tua pr\u00f3pria app m\u00f3vel atrav\u00e9s da Ono Vodafone. Experimenta a tua app gr\u00e1tis durante 15 dias",
     "_meta_title": "Apps criadas com Vodafone Upplication",
-    "_url": "/exemplos-vodafone/",
+    "_url": "/pt/exemplos-vodafone/",
     "title": "Exemplos Vodafone"
   },
   "ourclients": {
@@ -626,7 +623,7 @@
     "client5": {
       "alt": "Logotipo Telef\u00f3nica",
       "title": "Upplication em Open Future da Telef\u00f3nica",
-      "url": "https://www.openfuture.org/es/new/fideliza-a-los-clientes-de-tu-startup-creando"
+      "url": "https://www.openfuture.org/pt/new/fideliza-a-los-clientes-de-tu-startup-creando"
     },
     "client6": {
       "alt": "Logotipo TicBeat",
@@ -658,7 +655,7 @@
     "_keywords": "erro, 404, erro 404, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "404 P\u00e1gina n\u00e3o encontrada em Upplication - criador de apps online. Experimenta durante 15 dias gr\u00e1tis.",
     "_meta_title": "404: P\u00e1gina n\u00e3o encontrada em Upplication - criador de apps",
-    "_url": "/p\u00e1gina-n\u00e3o-encontrada/",
+    "_url": "/pt/p\u00e1gina-n\u00e3o-encontrada/",
     "advice1": "Que tenha digitado incorretamente a dire\u00e7\u00e3o  URL.",
     "advice2": "Que tenha perdido a sua liga\u00e7\u00e3o \u00e0 internet.",
     "advice3": "Que a p\u00e1gina esteja obsoleta e tenha sido eliminada.",
@@ -674,7 +671,7 @@
     "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pria app m\u00f3vel online. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
     "_meta_title": "Cria a app da tua PME - Upplication",
     "_priority": "0.6",
-    "_url": "/pre\u00e7os/",
+    "_url": "/pt/pre\u00e7os/",
     "rates": {
       "all_push": "Notifica\u00e7\u00f5es push <strong>ilimitadas</strong>",
       "app_web": "Android / iOS / Web",
@@ -738,7 +735,7 @@
     "_meta_description": "Upplication para criar online a tua pr\u00f3pria app m\u00f3vel para Android e iOS atrav\u00e9s de Aplicateca da Movistar.",
     "_meta_title": "Pre\u00e7os de Upplication para Movistar Aplicateca",
     "_priority": "0.6",
-    "_url": "/pre\u00e7os-aplicateca/",
+    "_url": "/pt/pre\u00e7os-aplicateca/",
     "all_plans_include": {
       "list": [
         {
