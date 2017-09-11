@@ -4,9 +4,9 @@
     "_meta_description": "Upplication \u00e9 um criador de apps online para ti ou para a tua empresa. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o e em quest\u00e3o de minutos. Para Android e iOS",
     "_meta_title": "Equipa de Upplication: criador de apps",
     "_priority": "0.8",
-    "_url": "\/n\u00f3s\/",
+    "_url": "/n\u00f3s/",
     "departments": {
-      "title": "<span>Conhece<\/span> os nossos departamentos",
+      "title": "<span>Conhece</span> os nossos departamentos",
       "develop": {
         "img": "Todos os frikis reunidos!",
         "text": "Cordova, AngularJS, Java, CSS, UX\u2026 Adoramos a tecnologia e somos um pouco freaks. Trabalhamos com metodologias \u00e1geis e estamos a mudar a forma nas quais as PME do mundo criam as suas apps m\u00f3veis. Todos os dias aprendemos algo novo.",
@@ -24,9 +24,9 @@
       }
     },
     "team": {
-      "title": "<span>Conhece<\/span> a nossa equipa",
+      "title": "<span>Conhece</span> a nossa equipa",
       "admin": {
-        "linkedin": "https:\/\/es.linkedin.com\/in\/noemidiazadministrativa",
+        "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
         "name": "Noem\u00ed",
         "position": "Administra\u00e7\u00e3o",
         "sentence": "Guardi\u00e3 das divisas",
@@ -34,74 +34,74 @@
         "twitter": ""
       },
       "ceo": {
-        "linkedin": "https:\/\/es.linkedin.com\/in\/joseluisvds",
+        "linkedin": "https://es.linkedin.com/in/joseluisvds",
         "name": "Jos\u00e9 Luis",
         "position": "Co-fundador e CEO",
         "sentence": "Eu mando!",
         "surname": "Vega de Seoane Barona",
-        "twitter": "https:\/\/twitter.com\/joseluisVdS"
+        "twitter": "https://twitter.com/joseluisVdS"
       },
       "cmo": {
-        "linkedin": "https:\/\/www.linkedin.com\/in\/victorrodadofrutos",
+        "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
         "name": "V\u00edctor",
         "position": "Co-fundador e CMO",
         "sentence": "Eu tamb\u00e9m mando, eh?",
         "surname": "Rodado Frutos",
-        "twitter": "https:\/\/twitter.com\/rodadofrutos"
+        "twitter": "https://twitter.com/rodadofrutos"
       },
       "community": {
-        "linkedin": "https:\/\/www.linkedin.com\/in\/cristinadiazgallego"
+        "linkedin": "https://www.linkedin.com/in/cristinadiazgallego"
       },
       "cto": {
-        "linkedin": "https:\/\/www.linkedin.com\/in\/javierarnaizgonzalez",
+        "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
         "name": "Javier",
         "position": "CTO",
         "sentence": "Guru da tecnologia",
         "surname": "Arn\u00e1iz Gonz\u00e1lez",
-        "twitter": "https:\/\/twitter.com\/arnaix"
+        "twitter": "https://twitter.com/arnaix"
       },
       "design": {
-        "linkedin": "https:\/\/www.linkedin.com\/in\/javierlorenzofernandez",
+        "linkedin": "https://www.linkedin.com/in/javierlorenzofernandez",
         "name": "Javier",
         "position": "Arte e Desenho",
         "sentence": "Vermelho \u00e9 uma cor...",
         "surname": "Lorenzo Fern\u00e1ndez",
-        "twitter": "https:\/\/twitter.com\/jalofernandez"
+        "twitter": "https://twitter.com/jalofernandez"
       },
       "content": {
         "manager": {
-          "linkedin": "https:\/\/www.linkedin.com\/in\/luciapalmaescobales\/",
+          "linkedin": "https://www.linkedin.com/in/luciapalmaescobales/",
           "name": "Luc\u00eda",
           "position": "Respons\u00e1vel do conte\u00fado",
           "sentence": "Tu conta-me que eu escrevo",
           "surname": "Palma Escobales",
-          "twitter": "https:\/\/twitter.com\/luciliuliu"
+          "twitter": "https://twitter.com/luciliuliu"
         }
       },
       "dev": {
         "backend_1": {
-          "linkedin": "https:\/\/www.linkedin.com\/in\/gorka-jimeno-99345397",
+          "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
           "name": "Gorka",
           "position": "Desenvolvedor",
           "sentence": "Ctrl + F",
           "surname": "Jimeno Garrach\u00f3n",
-          "twitter": "https:\/\/twitter.com\/gorkajg"
+          "twitter": "https://twitter.com/gorkajg"
         },
         "backend_3": {
-          "linkedin": "https:\/\/www.linkedin.com\/in\/clara-antol\u00edn-garc\u00eda-61008070",
+          "linkedin": "https://www.linkedin.com/in/clara-antol\u00edn-garc\u00eda-61008070",
           "name": "Clara",
           "position": "Desenvolvedora",
           "sentence": "Code girl power!",
           "surname": "Antol\u00edn Garc\u00eda",
-          "twitter": "https:\/\/twitter.com\/ClaraAntolin"
+          "twitter": "https://twitter.com/ClaraAntolin"
         },
         "frontend_1": {
-          "linkedin": "https:\/\/www.linkedin.com\/in\/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+          "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
           "name": "Juan Jos\u00e9",
           "position": "Desenvolvedor",
           "sentence": "Java n\u00e3o \u00e9 s\u00f3 uma personagem de Star Wars",
           "surname": "Herrero Barbosa",
-          "twitter": "https:\/\/twitter.com\/dark_xuan"
+          "twitter": "https://twitter.com/dark_xuan"
         }
       },
       "nextone": {
@@ -110,28 +110,28 @@
         "surname": "\u00c9s o seguinte?"
       },
       "support": {
-        "linkedin": "https:\/\/www.linkedin.com\/in\/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
+        "linkedin": "https://www.linkedin.com/in/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
         "name": "Bel\u00e9n",
         "position": "Aten\u00e7\u00e3o ao cliente",
         "sentence": "A minha prioridade \u00e9s tu",
         "support_1": {
-          "linkedin": "https:\/\/www.linkedin.com\/in\/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
+          "linkedin": "https://www.linkedin.com/in/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
           "name": "Bel\u00e9n",
           "position": "Aten\u00e7\u00e3o ao cliente",
           "sentence": "A minha prioridade \u00e9s tu",
           "surname": "Fern\u00e1ndez P\u00e9rez",
-          "twitter": "https:\/\/twitter.com\/BeeleenFP"
+          "twitter": "https://twitter.com/BeeleenFP"
         },
         "support_2": {
-          "linkedin": "https:\/\/www.linkedin.com\/in\/margot-cap\u00f3",
+          "linkedin": "https://www.linkedin.com/in/margot-cap\u00f3",
           "name": "Margot",
           "position": "Aten\u00e7\u00e3o ao cliente",
           "sentence": "Ajuda todo terreno",
           "surname": "Cap\u00f3 Barroso",
-          "twitter": "https:\/\/twitter.com\/Margot_cb"
+          "twitter": "https://twitter.com/Margot_cb"
         },
         "surname": "Fern\u00e1ndez P\u00e9rez",
-        "twitter": "https:\/\/twitter.com\/BeeleenFP"
+        "twitter": "https://twitter.com/BeeleenFP"
       }
     }
   },
@@ -139,12 +139,12 @@
     "pricing_aplicateca": {
       "anchor": "Pre\u00e7os",
       "title": "Pre\u00e7os de Upplication em Aplicateca",
-      "url": "@@config.base_path\/precios-aplicateca\/"
+      "url": "@@config.base_path/precios-aplicateca/"
     },
     "terms_aplicateca": {
       "anchor": "Legal",
       "title": "Condi\u00e7\u00f5es legais de Upplication em Aplicateca",
-      "url": "@@config.base_path\/termos-aplicateca\/"
+      "url": "@@config.base_path/termos-aplicateca/"
     }
   },
   "company": {
@@ -152,55 +152,55 @@
     "_meta_description": "Biografia e expans\u00e3o internacional da Upplication: criador de apps m\u00f3vel online sem necessidade de programa\u00e7\u00e3o, em quest\u00e3o de minutos, para Android e iOS",
     "_meta_title": "Biografia da Upplication: criador de apps",
     "_priority": "0.9",
-    "_url": "\/bio-do-companhia\/",
+    "_url": "/bio-do-companhia/",
     "intro": {
-      "description": "<a href=\"https:\/\/www.youtube.com\/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication<\/a> <span>\u00e9 um servi\u00e7o \u00fatil, completo e totalmente personalizado de marketing m\u00f3vel <\/span> e para ajudar \u00e0s PME a criar um <span> novo canal de comunica\u00e7\u00e3o <\/span> aportando-lhes solu\u00e7\u00f5es, ideias e ferramentas com as quais podem conseguir o que para n\u00f3s \u00e9 o realmente importante: <span> fidelizar os seus clientes, aumentar as suas vendas e diferenciar-se da concorr\u00eancia<\/span>.",
-      "maintitle": "<span>\u00bfO que \u00e9<\/span> Upplication<span>?<\/span>"
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> <span>\u00e9 um servi\u00e7o \u00fatil, completo e totalmente personalizado de marketing m\u00f3vel </span> e para ajudar \u00e0s PME a criar um <span> novo canal de comunica\u00e7\u00e3o </span> aportando-lhes solu\u00e7\u00f5es, ideias e ferramentas com as quais podem conseguir o que para n\u00f3s \u00e9 o realmente importante: <span> fidelizar os seus clientes, aumentar as suas vendas e diferenciar-se da concorr\u00eancia</span>.",
+      "maintitle": "<span>\u00bfO que \u00e9</span> Upplication<span>?</span>"
     },
     "timeline": {
-      "maintitle": "<span>A nossa<\/span> biografia",
+      "maintitle": "<span>A nossa</span> biografia",
       "step1": {
-        "description": "<span> Lan\u00e7amos Upplication <\/span> para que qualquer propriet\u00e1rio de neg\u00f3cio pudesse criar a sua aplica\u00e7\u00e3o m\u00f3vel de maneira simples e sem nenhum conhecimento de programa\u00e7\u00e3o, um servi\u00e7o que habitualmente estava fora do seu alcance devido ao seu custo elevado.",
+        "description": "<span> Lan\u00e7amos Upplication </span> para que qualquer propriet\u00e1rio de neg\u00f3cio pudesse criar a sua aplica\u00e7\u00e3o m\u00f3vel de maneira simples e sem nenhum conhecimento de programa\u00e7\u00e3o, um servi\u00e7o que habitualmente estava fora do seu alcance devido ao seu custo elevado.",
         "pic": "Lan\u00e7amos Upplication",
         "year": "Outubro 2013"
       },
       "step2": {
-        "description": "Fechamos a nossa <a href=\"https:\/\/www.eureka-experts.com\/news\/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> primeira ronda de financiamento de 277.000\u20ac <\/a> procedentes de Business angels europeus, o que nos permitiu iniciar a fase de <span> internacionaliza\u00e7\u00e3o <\/span> chegando \u00e0 Am\u00e9rica Latina.",
+        "description": "Fechamos a nossa <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> primeira ronda de financiamento de 277.000\u20ac </a> procedentes de Business angels europeus, o que nos permitiu iniciar a fase de <span> internacionaliza\u00e7\u00e3o </span> chegando \u00e0 Am\u00e9rica Latina.",
         "pic": "Primeira ronda de financiamento",
         "year": "Janeiro 2014"
       },
       "step3": {
-        "description": "Em maio de 2014 fomos selecionados por <span> Wayra (Telef\u00f3nica) <\/span> entre mais de 660 projetos de toda a Espanha para a sua  <a href=\"https:\/\/www.upplication.com\/blog\/wayra-espana-2014\/\" target=\"_blank\">Programa de acelera\u00e7\u00e3o de startups<\/a>.",
+        "description": "Em maio de 2014 fomos selecionados por <span> Wayra (Telef\u00f3nica) </span> entre mais de 660 projetos de toda a Espanha para a sua  <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de acelera\u00e7\u00e3o de startups</a>.",
         "pic": "Logotipo Wayra (Telef\u00f3nica)",
         "year": "Maio 2014"
       },
       "step4": {
-        "description": "Alcan\u00e7amos um <a href=\"http:\/\/www.vodafone.es\/empresas\/es\/descubre-vodafone\/sectores\/comercio\/\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Vodafone <\/a> completando o seu Plano de solu\u00e7\u00f5es para empresas apoiando e ajudando as PME no seu crescimento.",
+        "description": "Alcan\u00e7amos um <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Vodafone </a> completando o seu Plano de solu\u00e7\u00f5es para empresas apoiando e ajudando as PME no seu crescimento.",
         "pic": "Logotipo Vodafone",
         "year": "Outubro 2014"
       },
       "step5": {
-        "description": "J\u00e1 temos <span> clientes em 75 pa\u00edses do mundo seguindo <\/span>um dos nossos principais objetivos: a <span> expans\u00e3o internacional<\/span>.",
+        "description": "J\u00e1 temos <span> clientes em 75 pa\u00edses do mundo seguindo </span>um dos nossos principais objetivos: a <span> expans\u00e3o internacional</span>.",
         "pic": "Expans\u00e3o internacional",
         "year": "Maio 2015"
       },
       "step6": {
-        "description": "Fechamos a nossa <a href=\"http:\/\/novobrief.com\/upplication-funding\/\" target=\"_blank\"> segunda ronda de financiamento de 1.1 Milh\u00f5es de \u20ac <\/a> liderada pelo fundo de investimento <a href=\"http:\/\/corpgn.com\/\" target=\"_blank\"> Corporation Global <\/a>, de origem espanhola, e na qual tamb\u00e9m participaram um grupo de destacados Business Angels.",
+        "description": "Fechamos a nossa <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> segunda ronda de financiamento de 1.1 Milh\u00f5es de \u20ac </a> liderada pelo fundo de investimento <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, de origem espanhola, e na qual tamb\u00e9m participaram um grupo de destacados Business Angels.",
         "pic": "Segunda ronda de financiamento",
         "year": "Novembro 2015"
       },
       "step7": {
-        "description": "Alcan\u00e7amos um <a href=\"http:\/\/www.telefonica.com\/es\/business_solutions\/html\/sme\/home.shtml\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Telef\u00f3nica Espanha <\/a> com o qual continuaremos a aportar o nosso conhecimento e experi\u00eancia para impulsionar as PME.",
+        "description": "Alcan\u00e7amos um <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acordo de Integra\u00e7\u00e3o comercial com Telef\u00f3nica Espanha </a> com o qual continuaremos a aportar o nosso conhecimento e experi\u00eancia para impulsionar as PME.",
         "pic": "Logotipo Telef\u00f3nica",
         "year": "Dezembro 2015"
       },
       "step8": {
-        "description": "Alcan\u00e7\u00e1mos a cifra de <a href=\"https:\/\/blog.upplication.com\/ya-estamos-en-78-paises\/\" target=\"_blank\">30.000 utilizadores em 78 pa\u00edses de todo o mundo<\/a>, e continuamos a crescer!",
+        "description": "Alcan\u00e7\u00e1mos a cifra de <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 utilizadores em 78 pa\u00edses de todo o mundo</a>, e continuamos a crescer!",
         "pic": "Expans\u00e3o internacional",
         "year": "Junho 2016"
       },
       "step9": {
-        "description": "<a href=\"https:\/\/blog.upplication.com\/mobusi-adquiere-upplication\/\" target=\"_blank\">Upplication \u00e9 adquirido por mobusi<\/a>, desta forma, ambas as empresas refor\u00e7am a sua aposta pelo neg\u00f3cio digital atrav\u00e9s de dispositivos m\u00f3veis e atrav\u00e9s de webs, SMS ou apps.",
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Upplication \u00e9 adquirido por mobusi</a>, desta forma, ambas as empresas refor\u00e7am a sua aposta pelo neg\u00f3cio digital atrav\u00e9s de dispositivos m\u00f3veis e atrav\u00e9s de webs, SMS ou apps.",
         "pic": "Logotipo Mobusi",
         "year": "Mar\u00e7o 2017"
       },
@@ -211,124 +211,124 @@
       }
     },
     "worldmap": {
-      "sub_title": "Ajudando a crescer a mais de <span> 30.000 PME <\/span> em todo o mundo",
-      "title": "<span>Somos<\/span> internacionais",
+      "sub_title": "Ajudando a crescer a mais de <span> 30.000 PME </span> em todo o mundo",
+      "title": "<span>Somos</span> internacionais",
       "worldmap_img": "Mapa de expans\u00e3o internacional de Upplication"
     }
   },
   "external": {
     "about": {
       "anchor": "Quem somos?",
-      "url": "@@config.base_path\/n\u00f3s\/"
+      "url": "@@config.base_path/n\u00f3s/"
     },
     "aplicateca": {
       "anchor": "Entrar",
       "title": "Entrar em Aplicateca da Telef\u00f3nica",
-      "url": "http:\/\/www.aplicateca.es\/upplication"
+      "url": "http://www.aplicateca.es/upplication"
     },
     "apps": {
       "anchor": "Exemplos de apps",
-      "url": "@@config.base_path\/inspirate"
+      "url": "@@config.base_path/inspirate"
     },
     "blog": {
       "anchor": "Blogue",
       "title": "Blogue da Upplication",
-      "url": "https:\/\/www.upplication.com\/blog\/"
+      "url": "https://www.upplication.com/blog/"
     },
     "breakfasts": {
       "anchor": "Sucesso app",
-      "url": "@@config.base_path\/asis-and-gross-caso-bem-sucedido\/"
+      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
     },
     "company": {
       "anchor": "Upplication bio",
-      "url": "@@config.base_path\/bio-do-companhia\/"
+      "url": "@@config.base_path/bio-do-companhia/"
     },
     "create_apps": {
       "anchor": "Criamos a tua app"
     },
     "dashboard": {
       "anchor": "Entrar",
-      "url": "@@config.dashboard_base_path\/web"
+      "url": "@@config.dashboard_base_path/web"
     },
     "facebook": {
       "anchor": "Facebook",
-      "url": "http:\/\/www.facebook.com\/Upplication"
+      "url": "http://www.facebook.com/Upplication"
     },
     "features": {
       "anchor": "Caracter\u00edsticas"
     },
     "googleplus": {
       "anchor": "Google Plus",
-      "url": "https:\/\/plus.google.com\/+Upplication?prsrc=5"
+      "url": "https://plus.google.com/+Upplication?prsrc=5"
     },
     "vimeo": {
       "anchor": "Vimeo",
-      "url": "https:\/\/vimeo.com\/upplication\/"
+      "url": "https://vimeo.com/upplication/"
     },
     "github": {
       "anchor": "Github",
-      "url": "https:\/\/github.com\/Upplication"
+      "url": "https://github.com/Upplication"
     },
     "helpcenter": {
       "anchor": "Centro de ajuda",
-      "url": "@@config.base_path\/centro-de-ajuda\/"
+      "url": "@@config.base_path/centro-de-ajuda/"
     },
     "hiring": "Estamos a contratar!",
     "hiring_backend": {
       "anchor": "Desenvolvedor Backend",
-      "url": "http:\/\/backend.upplication.com\/"
+      "url": "http://backend.upplication.com/"
     },
     "hiring_developer": {
       "anchor": "Est\u00e1gio de desenvolvedor",
-      "url": "@@config.base_path\/oferta-est\u00e1gio-developer\/"
+      "url": "@@config.base_path/oferta-est\u00e1gio-developer/"
     },
     "hiring_frontend": {
       "anchor": "Desenvolvedor Frontend",
-      "url": "@@config.base_path\/oferta-est\u00e1gio-developer\/"
+      "url": "@@config.base_path/oferta-est\u00e1gio-developer/"
     },
     "hiring_marketing": {
       "anchor": "Est\u00e1gio de marketing",
-      "url": "@@config.base_path\/oferta-est\u00e1gio-marketing\/"
+      "url": "@@config.base_path/oferta-est\u00e1gio-marketing/"
     },
     "instagram": {
       "anchor": "Instagram",
-      "url": "http:\/\/www.instagram.com\/upplication"
+      "url": "http://www.instagram.com/upplication"
     },
     "jobs": {
       "anchor": "Estamos a contratar!",
-      "url": "@@config.base_path\/trabalhos\/"
+      "url": "@@config.base_path/trabalhos/"
     },
     "linkedin": {
       "anchor": "Linkedin",
-      "url": "http:\/\/www.linkedin.com\/company\/upplication"
+      "url": "http://www.linkedin.com/company/upplication"
     },
     "media_kit": {
       "anchor": "Imprensa",
-      "url": "https:\/\/www.dropbox.com\/s\/sy2f0quvuq7nk9n\/Mediakit.zip"
+      "url": "https://www.dropbox.com/s/sy2f0quvuq7nk9n/Mediakit.zip"
     },
     "nubo": {
       "anchor": "NUBO",
-      "url": "http:\/\/www.ono.es\/microsite-nubo\/nubo-upplication\/"
+      "url": "http://www.ono.es/microsite-nubo/nubo-upplication/"
     },
     "partners": {
       "anchor": "Torna-te distribuidor",
-      "url": "http:\/\/www.upplication.com\/distribuidores\/conviertete-en-distribuidor-de-apps.html"
+      "url": "http://www.upplication.com/distribuidores/conviertete-en-distribuidor-de-apps.html"
     },
     "pricing": {
       "anchor": "Pre\u00e7os",
-      "url": "@@config.base_path\/pre\u00e7os\/"
+      "url": "@@config.base_path/pre\u00e7os/"
     },
     "pricing_aplicateca": {
       "anchor": "Pre\u00e7os",
-      "url": "@@config.base_path\/pre\u00e7os-aplicateca\/"
+      "url": "@@config.base_path/pre\u00e7os-aplicateca/"
     },
     "social_media_btns": {
       "facebook": "",
-      "twitter": "https:\/\/twitter.com\/upplication"
+      "twitter": "https://twitter.com/upplication"
     },
     "team": {
       "anchor": "Equipa",
-      "url": "@@config.base_path\/equipa\/"
+      "url": "@@config.base_path/equipa/"
     },
     "titles": {
       "help": "Ajuda:",
@@ -338,19 +338,19 @@
     },
     "tos": {
       "anchor": "Condi\u00e7\u00f5es legais",
-      "url": "@@config.base_path\/termos\/"
+      "url": "@@config.base_path/termos/"
     },
     "tutorials": {
       "anchor": "Tutoriais",
-      "url": "https:\/\/www.youtube.com\/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+      "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
     "twitter": {
       "anchor": "Twitter",
-      "url": "http:\/\/www.twitter.com\/upplication"
+      "url": "http://www.twitter.com/upplication"
     },
     "youtube": {
       "anchor": "Youtube",
-      "url": "http:\/\/youtube.com\/upplication"
+      "url": "http://youtube.com/upplication"
     }
   },
   "footer": {
@@ -358,49 +358,49 @@
     "byfibonad": "by Fibonad",
     "community": "Sociedade",
     "company": "Empresa",
-    "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path\/terminos\/#cookies-policy'>pol\u00edtica de cookies<\/a>.",
-    "cookies_aplicateca": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path\/termos-aplicateca\/'>pol\u00edtica de cookies.<\/a>",
+    "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/terminos/#cookies-policy'>pol\u00edtica de cookies</a>.",
+    "cookies_aplicateca": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/termos-aplicateca/'>pol\u00edtica de cookies.</a>",
     "free_trial": "Experimente gr\u00e1tis",
     "media": "Meios e redes",
     "partners": {
       "eu": {
         "title": "UE fondo de desenvolvimento regional",
-        "url": "http:\/\/ec.europa.eu\/regional_policy\/es\/funding\/erdf\/"
+        "url": "http://ec.europa.eu/regional_policy/es/funding/erdf/"
       },
       "mixpanel": {
         "title": "Mixpainel, an\u00e1lise m\u00f3vel",
-        "url": "https:\/\/mixpanel.com\/"
+        "url": "https://mixpanel.com/"
       },
       "fibonad": {
         "title": "Fibonad, a global advertising media company",
-        "url": "http:\/\/www.fibonad.com\/"
+        "url": "http://www.fibonad.com/"
       },
       "wayra": {
         "title": "Wayra, acelerador de startups da Telef\u00f3nica",
-        "url": "http:\/\/wayra.co\/en"
+        "url": "http://wayra.co/en"
       },
       "freepik": {
         "title": "Freepik, free graphic resources for designers",
-        "url": "http:\/\/www.freepik.com\/"
+        "url": "http://www.freepik.com/"
       }
     },
     "signature": "Desenhado e desenvolvido em Madrid",
     "tos": {
       "cookies": {
         "title": "Utiliza\u00e7\u00e3o de Cookies",
-        "url": "@@config.base_path\/termos\/#cookies-policy"
+        "url": "@@config.base_path/termos/#cookies-policy"
       },
       "legal": {
         "title": "Termos Legais",
-        "url": "@@config.base_path\/termos\/"
+        "url": "@@config.base_path/termos/"
       },
       "privacy": {
         "title": "Pol\u00edtica de Privacidade",
-        "url": "@@config.base_path\/termos\/#privacidade"
+        "url": "@@config.base_path/termos/#privacidade"
       },
       "terms_of_use": {
         "title": "Condi\u00e7\u00f5es de utiliza\u00e7\u00e3o",
-        "url": "@@config.base_path\/termos\/#utiliza\u00e7\u00e3o"
+        "url": "@@config.base_path/termos/#utiliza\u00e7\u00e3o"
       }
     },
     "try_it": "Cria a tua app!",
@@ -420,7 +420,7 @@
     "logo": {
       "title": "Logotipo da Upplication",
       "title_xmas": "Upplication logo de Natal",
-      "url": "@@config.base_path\/Criar-a-minha-app\/"
+      "url": "@@config.base_path/Criar-a-minha-app/"
     },
     "menu": "menu",
     "nav": {
@@ -430,25 +430,25 @@
       "info": {
         "about_us": {
           "title": "sobre n\u00f3s",
-          "url": "@@config.base_path\/n\u00f3s\/"
+          "url": "@@config.base_path/n\u00f3s/"
         },
         "company_bio": {
           "title": "Biografia",
-          "url": "@@config.base_path\/bio-do-companhia\/"
+          "url": "@@config.base_path/bio-do-companhia/"
         },
         "helpcenter": {
           "title": "Centro de Ajuda",
-          "url": "https:\/\/www.youtube.com\/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
+          "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
         },
         "hiring": "Contratamos",
         "info": "Mais...",
         "prices": {
           "title": "Pre\u00e7os",
-          "url": "@@config.base_path\/pre\u00e7os\/"
+          "url": "@@config.base_path/pre\u00e7os/"
         },
         "terms": {
           "title": "Aviso Legal",
-          "url": "@@config.base_path\/termos\/"
+          "url": "@@config.base_path/termos/"
         }
       },
       "legal": {
@@ -459,7 +459,7 @@
       },
       "prices": "Pre\u00e7os"
     },
-    "support_mail": "<a href='mailto:soporte@upplication.com'>suporte@upplication.com<\/a>",
+    "support_mail": "<a href='mailto:soporte@upplication.com'>suporte@upplication.com</a>",
     "telephone": "+34 917 958 203"
   },
   "common": {
@@ -474,10 +474,10 @@
         "alt_tag": "Ligar para o suporte t\u00e9cnico de Upplication",
         "link": "tel:917958203",
         "text": "telf: 917 958 203",
-        "text_tel": "<span>917 958 203<\/span>",
+        "text_tel": "<span>917 958 203</span>",
         "title": "917 958 203"
       },
-      "schedule": "Seg-Sex 10-18h \/  Ver\u00e3o: Seg-Sex 8-15h",
+      "schedule": "Seg-Sex 10-18h /  Ver\u00e3o: Seg-Sex 8-15h",
       "text2": "Servi\u00e7o de atendimento ao cliente"
     }
   },
@@ -485,7 +485,7 @@
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "Suporte e aten\u00e7\u00e3o ao cliente de Upplication, para criar app online, da Telef\u00f3nica Upplication. F\u00e1cil, r\u00e1pido e sem programar.",
     "_meta_title": "Servi\u00e7o de aten\u00e7\u00e3o e suporte da Telef\u00f3nica Upplication",
-    "_url": "\/telefonica-pt\/",
+    "_url": "/telefonica-pt/",
     "contact": {
       "customer_service": {
         "email": {
@@ -503,34 +503,34 @@
   "testimonials": {
     "client1": {
       "quote": "Precis\u00e1vamos de um canal que nos aproximasse de nossos clientes para comunicar nossos novos produtos e ter uma vitrine 24h 365 dias e Upplication que encontramos muito \u00fatil e simples.",
-      "name": "Sandra e Paloma, <span>Asis & Gross<\/span>",
+      "name": "Sandra e Paloma, <span>Asis & Gross</span>",
       "more": "Mais sobre Asis & Gross",
-      "url": "@@config.base_path\/asis-and-gross-caso-bem-sucedido\/"
+      "url": "@@config.base_path/asis-and-gross-caso-bem-sucedido/"
     },
     "client2": {
       "quote": "A id\u00e9ia de criar um aplicativo \u00e9 mais \u00f3bvia: os clientes t\u00eam o fisio no bolso por 24 horas. Al\u00e9m disso, optamos pela Upplication por seu pre\u00e7o e sua simplicidade de uso.",
-      "name": "Pablo, <span>Fisiohogar<\/span>",
+      "name": "Pablo, <span>Fisiohogar</span>",
       "more": "Mais sobre Fisiohogar",
-      "url": "@@config.base_path\/fisiohogar-caso-bem-sucedido\/"
+      "url": "@@config.base_path/fisiohogar-caso-bem-sucedido/"
     },
     "client3": {
       "quote": "Agora \u00e9 ainda mais f\u00e1cil criar aplicativos com o Upplication, voc\u00ea n\u00e3o precisa programar nada, apenas o link da sua P\u00e1gina de Neg\u00f3cios do Facebook e voc\u00ea ter\u00e1 a aplica\u00e7\u00e3o m\u00f3vel da sua empresa!",
-      "name": "Descobrir <span>Facebook onboarding<\/span>",
+      "name": "Descobrir <span>Facebook onboarding</span>",
       "more": "Mais sobre Facebook onboarding",
-      "url": "https:\/\/youtu.be\/NyRm-ttbKeM"
+      "url": "https://youtu.be/NyRm-ttbKeM"
     },
-    "title": "<span>Hist\u00f3rias de<\/span> sucesso"
+    "title": "<span>Hist\u00f3rias de</span> sucesso"
   },
   "internal_server_error": {
     "_keywords": "erro, 500, erro 500, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "500 erro interno do servidor em Upplication - criador de apps online f\u00e1cil de utilizar, r\u00e1pido e sem conhecimentos de programa\u00e7\u00e3o.",
     "_meta_title": "500: erro interno do servidor em Upplication - criador de apps",
-    "_url": "\/erro-interno-do-servidor\/",
+    "_url": "/erro-interno-do-servidor/",
     "pre_advice": "Produziu-se um erro com o nosso servidor. Desculpem o inc\u00f3modo causado, brevemente ser\u00e1 solucionado.",
     "subtitle1": "Erro",
     "subtitle2": "interno do servidor",
     "subtitle3": "Erro interno do servidor",
-    "suggestion": "Desloque-se atrav\u00e9s do nosso menu de navega\u00e7\u00e3o superior para outra p\u00e1gina dentro da nossa web ou clique <a href=\"@@config.base_path\/\">aqui para voltar ao In\u00edcio<\/a>.",
+    "suggestion": "Desloque-se atrav\u00e9s do nosso menu de navega\u00e7\u00e3o superior para outra p\u00e1gina dentro da nossa web ou clique <a href=\"@@config.base_path/\">aqui para voltar ao In\u00edcio</a>.",
     "title": "500"
   },
   "modal": {
@@ -548,9 +548,9 @@
     },
     "head": {
       "close": "Fechar esta janela modal",
-      "contact_modal": "<span>Contacta<\/span> connosco",
-      "hiring_modal": "Estamos <span>a contratar<\/span>",
-      "register_modal": "Regista-te <span>gr\u00e1tis<\/span> e experimenta <span>15 dias<\/span>"
+      "contact_modal": "<span>Contacta</span> connosco",
+      "hiring_modal": "Estamos <span>a contratar</span>",
+      "register_modal": "Regista-te <span>gr\u00e1tis</span> e experimenta <span>15 dias</span>"
     },
     "picture_hiring_modal": "Temos fome de contratar!"
   },
@@ -559,7 +559,7 @@
     "_meta_description": "Oferta de est\u00e1gio para desenvolvedor ou backender ou frontender para Upplication, o criador de app online para ti ou para o teu neg\u00f3cio.",
     "_meta_title": "Est\u00e1gio de desenvolvedor em Upplication: criador de apps",
     "_priority": "0.4",
-    "_url": "\/oferta-est\u00e1gio-developer\/",
+    "_url": "/oferta-est\u00e1gio-developer/",
     "cheers": [
       "Cumprimentos!",
       "Javier Arn\u00e1iz"
@@ -593,72 +593,72 @@
         "Uns 100 \u20ac para que, pelo menos, n\u00e3o te custe dinheiro vir para a Upplication."
       ]
     },
-    "wewanttomeetyou": "Para que possamos conhecer-te envia-nos um email para <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com <\/a> com o teu CV e uma breve introdu\u00e7\u00e3o sobre ti, o teu trabalho e com o que podes contribuir para a Upplication. Prometemos responder, sim ou sim."
+    "wewanttomeetyou": "Para que possamos conhecer-te envia-nos um email para <a href=\"mailto:javier.arnaiz@upplication.com\"> javier.arnaiz@upplication.com </a> com o teu CV e uma breve introdu\u00e7\u00e3o sobre ti, o teu trabalho e com o que podes contribuir para a Upplication. Prometemos responder, sim ou sim."
   },
   "ono": {
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "Upplication: criar online a tua pr\u00f3pria app m\u00f3vel atrav\u00e9s da Ono Vodafone. Experimenta a tua app gr\u00e1tis durante 15 dias",
     "_meta_title": "Apps criadas com Vodafone Upplication",
-    "_url": "\/exemplos-vodafone\/",
+    "_url": "/exemplos-vodafone/",
     "title": "Exemplos Vodafone"
   },
   "ourclients": {
     "client1": {
       "alt": "Logotipo ABC",
       "title": "Upplication no jornal ABC",
-      "url": "http:\/\/www.abc.es\/tecnologia\/moviles-aplicaciones\/20140315\/abci-upplication-wordpress-creacion-201403141400.html"
+      "url": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html"
     },
     "client2": {
       "alt": "Logotipo El Economista",
       "title": "Upplication em El Economista",
-      "url": "http:\/\/www.eleconomista.es\/emprendedores-pymes\/noticias\/6747454\/05\/15\/La-transformacion-digital-y-la-innovacion-claves-para-la-competitividad-de-las-pymes-.html"
+      "url": "http://www.eleconomista.es/emprendedores-pymes/noticias/6747454/05/15/La-transformacion-digital-y-la-innovacion-claves-para-la-competitividad-de-las-pymes-.html"
     },
     "client3": {
       "alt": "Logotipo Forbes",
       "title": "Forbes, revista sobre neg\u00f3cios e as finan\u00e7as",
-      "url": "http:\/\/www.forbes.es\/"
+      "url": "http://www.forbes.es/"
     },
     "client4": {
       "alt": "Logotipo EFE: Empreende",
       "title": "Upplication em EFE: Empreende, not\u00edcias sobre empresas e empreendedores",
-      "url": "http:\/\/www.efeemprende.com\/noticia\/los-emprendedores-pueden-crear-propias-apps-sin-programar-upplication\/"
+      "url": "http://www.efeemprende.com/noticia/los-emprendedores-pueden-crear-propias-apps-sin-programar-upplication/"
     },
     "client5": {
       "alt": "Logotipo Telef\u00f3nica",
       "title": "Upplication em Open Future da Telef\u00f3nica",
-      "url": "https:\/\/www.openfuture.org\/es\/new\/fideliza-a-los-clientes-de-tu-startup-creando"
+      "url": "https://www.openfuture.org/es/new/fideliza-a-los-clientes-de-tu-startup-creando"
     },
     "client6": {
       "alt": "Logotipo TicBeat",
       "title": "TicBeat, not\u00edcias de tecnologia e empresa",
-      "url": "http:\/\/www.ticbeat.com\/pymes\/servicios-crear-app-de-tu-negocio-sin-programar\/"
+      "url": "http://www.ticbeat.com/pymes/servicios-crear-app-de-tu-negocio-sin-programar/"
     },
     "client7": {
       "alt": "Logotipo wwwhat\u00b4s new",
       "title": "wwwhat\u00b4s new, not\u00edcias sobre tecnologias web e apps",
-      "url": "http:\/\/wwwhatsnew.com\/2013\/10\/21\/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
+      "url": "http://wwwhatsnew.com/2013/10/21/upplication-para-crear-apps-de-comercio-electronico-sin-saber-programar"
     },
     "client8": {
       "alt": "TVE logo",
       "title": "TVE interview in Zoom Net show",
-      "url": "http:\/\/www.rtve.es\/alacarta\/videos\/zoom-net\/zoom-net-upplication-huawei-p9-uncharted-4\/3571439\/"
+      "url": "http://www.rtve.es/alacarta/videos/zoom-net/zoom-net-upplication-huawei-p9-uncharted-4/3571439/"
     },
     "client9": {
       "alt": "La Raz\u00f3n logo",
       "title": "Daily La Raz\u00f3n interview",
-      "url": "http:\/\/www.larazon.es\/damesuplementos\/tueconomia\/2016-09-11_TUE__\/index.html#3"
+      "url": "http://www.larazon.es/damesuplementos/tueconomia/2016-09-11_TUE__/index.html#3"
     },
     "client10": {
       "alt": "Expansi\u00f3n logo",
       "title": "Daily Expansi\u00f3n interview",
-      "url": "http:\/\/www.expansion.com\/emprendedores-empleo\/emprendedores\/2016\/01\/15\/56992402ca4741fa468b45d4.html?cid=SMBOSO22801&s_kw=twitter"
+      "url": "http://www.expansion.com/emprendedores-empleo/emprendedores/2016/01/15/56992402ca4741fa468b45d4.html?cid=SMBOSO22801&s_kw=twitter"
     }
   },
   "page_not_found": {
     "_keywords": "erro, 404, erro 404, suporte, ajuda para criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
     "_meta_description": "404 P\u00e1gina n\u00e3o encontrada em Upplication - criador de apps online. Experimenta durante 15 dias gr\u00e1tis.",
     "_meta_title": "404: P\u00e1gina n\u00e3o encontrada em Upplication - criador de apps",
-    "_url": "\/p\u00e1gina-n\u00e3o-encontrada\/",
+    "_url": "/p\u00e1gina-n\u00e3o-encontrada/",
     "advice1": "Que tenha digitado incorretamente a dire\u00e7\u00e3o  URL.",
     "advice2": "Que tenha perdido a sua liga\u00e7\u00e3o \u00e0 internet.",
     "advice3": "Que a p\u00e1gina esteja obsoleta e tenha sido eliminada.",
@@ -666,7 +666,7 @@
     "pre_advice": "Parece que a p\u00e1gina que procuras n\u00e3o existe. Lamentamos. Poderia ser por alguma destas causas:",
     "subtitle1": "P\u00e1gina",
     "subtitle2": "n\u00e3o encontrada",
-    "suggestion": "Desloque-se atrav\u00e9s do nosso menu de navega\u00e7\u00e3o superior para outra p\u00e1gina dentro da nossa web ou clique <a href=\"@@config.base_path\/\">aqui para voltar ao In\u00edcio<\/a>.",
+    "suggestion": "Desloque-se atrav\u00e9s do nosso menu de navega\u00e7\u00e3o superior para outra p\u00e1gina dentro da nossa web ou clique <a href=\"@@config.base_path/\">aqui para voltar ao In\u00edcio</a>.",
     "title": "404"
   },
   "prices": {
@@ -674,19 +674,19 @@
     "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pria app m\u00f3vel online. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
     "_meta_title": "Cria a app da tua PME - Upplication",
     "_priority": "0.6",
-    "_url": "\/pre\u00e7os\/",
+    "_url": "/pre\u00e7os/",
     "rates": {
-      "all_push": "Notifica\u00e7\u00f5es push <strong>ilimitadas<\/strong>",
-      "app_web": "Android \/ iOS \/ Web",
+      "all_push": "Notifica\u00e7\u00f5es push <strong>ilimitadas</strong>",
+      "app_web": "Android / iOS / Web",
       "basic": "B\u00c1SICO",
-      "bullhorn": "<strong>Publicidade<\/strong> Upplication",
-      "per_month": "\/ m\u00eas *",
-      "per_year": "\/ ano *",
-      "four_push": "<strong>4<\/strong> notifica\u00e7\u00f5es push \/ m\u00eas",
+      "bullhorn": "<strong>Publicidade</strong> Upplication",
+      "per_month": "/ m\u00eas *",
+      "per_year": "/ ano *",
+      "four_push": "<strong>4</strong> notifica\u00e7\u00f5es push / m\u00eas",
       "icons": {
         "all_push": "Notifica\u00e7\u00f5es push ilimitadas",
         "bullhorn": "Publicidade Upplication",
-        "four_push": "4 notifica\u00e7\u00f5es push \/ m\u00eas",
+        "four_push": "4 notifica\u00e7\u00f5es push / m\u00eas",
         "no_bullhorn": "Sem publicidade Upplication",
         "no_push": "Sem notifica\u00e7\u00f5es push",
         "no_sign": "Sem logo nas folhas de c\u00e1lculo",
@@ -704,31 +704,31 @@
         "professional": "Plano de lan\u00e7ador de neg\u00f3cios",
         "premium": "Colocar em \u00f3rbita seu neg\u00f3cio**"
       },
-      "monthless": "Com o Plano Anual <strong>poupar\u00e1s dois meses<\/strong>. Paga dez meses em vez de doze.",
+      "monthless": "Com o Plano Anual <strong>poupar\u00e1s dois meses</strong>. Paga dez meses em vez de doze.",
       "monthly": "Plano Mensal",
-      "no_bullhorn": "<strong>Sem<\/strong> publicidade Upplication",
-      "no_push": "<strong>Sem<\/strong> notifica\u00e7\u00f5es push",
-      "no_sign": "<strong>Sem<\/strong> logo nas folhas de c\u00e1lculo",
-      "no_templates": "<strong>\u00c0 medida<\/strong>, personalizada",
+      "no_bullhorn": "<strong>Sem</strong> publicidade Upplication",
+      "no_push": "<strong>Sem</strong> notifica\u00e7\u00f5es push",
+      "no_sign": "<strong>Sem</strong> logo nas folhas de c\u00e1lculo",
+      "no_templates": "<strong>\u00c0 medida</strong>, personalizada",
       "premium": "PREMIUM",
       "professional": "PROFISSIONAL",
       "rate_intro": "Planos de pre\u00e7os",
       "rate_sub": "Todos os planos incluem:",
-      "sign": "<strong>Logo<\/strong> nas folhas de c\u00e1lculo",
-      "statistics": "<strong>Estad\u00edsticas<\/strong> da tua app",
-      "more": "<strong>Premium<\/strong> plano e tamb\u00e9m:",
-      "course": "Marketing Apps <strong>curso gratuito<\/strong>",
-      "sticker": "<strong>Adesivo<\/strong> para voc\u00ea neg\u00f3cio",
-      "sub1": "<b>Aten\u00e7\u00e3o ao cliente<\/b> por telefone e chat.",
-      "sub2": "<span>Upload autom\u00e1tico aos markets,<\/span> <span><b>n\u00f3s fazemos o upload da tua app<\/b>.<\/span>",
-      "sub3": "<b>Web responsive<\/b> multidispositivo.",
-      "sub4": "<b>Tutor<\/b> personalizado.",
-      "sub5": "<b>Painel de gest\u00e3o<\/b> de seu aplicativo.",
+      "sign": "<strong>Logo</strong> nas folhas de c\u00e1lculo",
+      "statistics": "<strong>Estad\u00edsticas</strong> da tua app",
+      "more": "<strong>Premium</strong> plano e tamb\u00e9m:",
+      "course": "Marketing Apps <strong>curso gratuito</strong>",
+      "sticker": "<strong>Adesivo</strong> para voc\u00ea neg\u00f3cio",
+      "sub1": "<b>Aten\u00e7\u00e3o ao cliente</b> por telefone e chat.",
+      "sub2": "<span>Upload autom\u00e1tico aos markets,</span> <span><b>n\u00f3s fazemos o upload da tua app</b>.</span>",
+      "sub3": "<b>Web responsive</b> multidispositivo.",
+      "sub4": "<b>Tutor</b> personalizado.",
+      "sub5": "<b>Painel de gest\u00e3o</b> de seu aplicativo.",
       "topsale": "Mais procurado",
       "unlimited": "ILIMITADO",
-      "with_tax": "Todos os pre\u00e7os <strong>incluem IVA<\/strong>.",
-      "exchange_rate": "Esta convers\u00e3o de moeda \u00e9 uma aproxima\u00e7\u00e3o. A cobran\u00e7a final ser\u00e1 realizada em <strong>euros<\/strong> e ser\u00e1 o teu banco o encarregado de calcular a taxa de c\u00e2mbio final.",
-      "permanence": "<em>Premium<\/em> voc\u00ea tem 6 meses compromisso de perman\u00eancia.",
+      "with_tax": "Todos os pre\u00e7os <strong>incluem IVA</strong>.",
+      "exchange_rate": "Esta convers\u00e3o de moeda \u00e9 uma aproxima\u00e7\u00e3o. A cobran\u00e7a final ser\u00e1 realizada em <strong>euros</strong> e ser\u00e1 o teu banco o encarregado de calcular a taxa de c\u00e2mbio final.",
+      "permanence": "<em>Premium</em> voc\u00ea tem 6 meses compromisso de perman\u00eancia.",
       "yearly": "Plano Anual",
       "choose_currency": "Escolher moeda:"
     }
@@ -738,7 +738,7 @@
     "_meta_description": "Upplication para criar online a tua pr\u00f3pria app m\u00f3vel para Android e iOS atrav\u00e9s de Aplicateca da Movistar.",
     "_meta_title": "Pre\u00e7os de Upplication para Movistar Aplicateca",
     "_priority": "0.6",
-    "_url": "\/pre\u00e7os-aplicateca\/",
+    "_url": "/pre\u00e7os-aplicateca/",
     "all_plans_include": {
       "list": [
         {
@@ -747,7 +747,7 @@
         },
         {
           "icon": "icon icon-upload",
-          "text": "<span>Upload autom\u00e1tico aos markets, <\/span><span class=\"bold\">n\u00f3s fazemos o upload da tua app<\/span>"
+          "text": "<span>Upload autom\u00e1tico aos markets, </span><span class=\"bold\">n\u00f3s fazemos o upload da tua app</span>"
         },
         {
           "icon": "icon icon-tablet",
@@ -796,7 +796,7 @@
         "features": [
           {
             "icon_class": "icon icon-tablet",
-            "title": "Android \/ iOS (iPhone) \/ Web"
+            "title": "Android / iOS (iPhone) / Web"
           },
           {
             "icon_class": "icon icon-megaphone",
@@ -808,7 +808,7 @@
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "<span class=\"bold\">Sem<\/span><span>alertas<\/span>"
+            "title": "<span class=\"bold\">Sem</span><span>alertas</span>"
           },
           {
             "icon_class": "icon icon-chart-line",
@@ -818,7 +818,7 @@
         "name": "B\u00e1sico",
         "surname": "Plano de boas-vindas.",
         "img": {
-          "src": "@@config.base_path\/images\/home\/icons\/rocket-copper.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-copper.svg",
           "title": "Upplication B\u00e1sico plan"
         },
         "price": "8,25",
@@ -832,19 +832,19 @@
         "features": [
           {
             "icon_class": "icon icon-tablet",
-            "title": "Android \/ iOS (iPhone) \/ Web"
+            "title": "Android / iOS (iPhone) / Web"
           },
           {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">Sem<\/span><span> publicidade Upplication<\/span>"
+            "title": "<span class=\"bold\">Sem</span><span> publicidade Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Sem<\/span><span>logo nas folhas de c\u00e1lculo<\/span>"
+            "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de c\u00e1lculo</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
-            "title": "4 alertas \/ m\u00eas"
+            "title": "4 alertas / m\u00eas"
           },
           {
             "icon_class": "icon icon-chart-line",
@@ -854,7 +854,7 @@
         "name": "Profissional",
         "surname": "Plano de lan\u00e7ador de neg\u00f3cios.",
         "img": {
-          "src": "@@config.base_path\/images\/home\/icons\/rocket-silver.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-silver.svg",
           "title": "Upplication Profissional plan"
         },
         "price": "24,75",
@@ -868,15 +868,15 @@
         "features": [
           {
             "icon_class": "icon icon-tablet",
-            "title": "Android \/ iOS (iPhone) \/ Web"
+            "title": "Android / iOS (iPhone) / Web"
           },
           {
             "icon_class": "icon icon-megaphone",
-            "title": "<span class=\"bold\">Sem<\/span><span> publicidade Upplication<\/span>"
+            "title": "<span class=\"bold\">Sem</span><span> publicidade Upplication</span>"
           },
           {
             "icon_class": "icon icon-pencil",
-            "title": "<span class=\"bold\">Sem<\/span><span>logo nas folhas de c\u00e1lculo<\/span>"
+            "title": "<span class=\"bold\">Sem</span><span>logo nas folhas de c\u00e1lculo</span>"
           },
           {
             "icon_class": "icon icon-paper-plane",
@@ -890,7 +890,7 @@
         "name": "Premium",
         "surname": "Colocar em \u00f3rbita seu neg\u00f3cio",
         "img": {
-          "src": "@@config.base_path\/images\/home\/icons\/rocket-gold.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
           "title": "Plan Premium de Upplication"
         },
         "price": "49,55",
@@ -904,33 +904,33 @@
         "features": [
           {
             "icon_class": "icon icon-tablet",
-            "title": "Android \/ iOS (iPhone) \/ Web"
+            "title": "Android / iOS (iPhone) / Web"
           },
           {
             "icon_class": "icon icon-ok",
-            "title": "<span class=\"bold\">Premium Plan<\/span><span>e:<\/span>"
+            "title": "<span class=\"bold\">Premium Plan</span><span>e:</span>"
           },
           {
             "icon_class": "icon icon-cog",
-            "title": "<span class=\"bold\">N\u00f3s criamos<\/span><span>seu app<\/span>"
+            "title": "<span class=\"bold\">N\u00f3s criamos</span><span>seu app</span>"
           },
           {
             "icon_class": "icon icon-ccw",
-            "title": "<span class=\"bold\">3<\/span><span>atualiza\u00e7\u00f5es por ano<\/span>"
+            "title": "<span class=\"bold\">3</span><span>atualiza\u00e7\u00f5es por ano</span>"
           },
           {
             "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Marketing Apps<\/span><span>curso gratuito<\/span>"
+            "title": "<span class=\"bold\">Marketing Apps</span><span>curso gratuito</span>"
           },
           {
             "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">Adesivo<\/span><span>para voc\u00ea neg\u00f3cio<\/span>"
+            "title": "<span class=\"bold\">Adesivo</span><span>para voc\u00ea neg\u00f3cio</span>"
           }
         ],
         "name": "N\u00f3s criamos seu app",
         "surname": "N\u00f3s criar e projetar seu aplicativo.",
         "img": {
-          "src": "@@config.base_path\/images\/home\/icons\/rocket-blue.svg",
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
           "title": "Upplication We create your App plan"
         },
         "price": "79,90",
@@ -985,7 +985,7 @@
     "try_it": "Experimenta-o gr\u00e1tis, tens 15 dias",
     "warning": {
       "ajax": "Uuups..., houve um problema",
-      "ajax_msg": "O registo n\u00e3o se p\u00f4de completar, por favor tenta novamente ou escreve-nos para <a href='mailto:soporte@upplication.com'>soporte@upplication.com<\/a>",
+      "ajax_msg": "O registo n\u00e3o se p\u00f4de completar, por favor tenta novamente ou escreve-nos para <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
       "name": "O nome da tua app tem de ter entre 3 e 32 caracteres e n\u00e3o pode come\u00e7ar por um n\u00famero",
       "password": "O tamanho m\u00ednimo para a senha \u00e9 de 8 caracteres."
     }
@@ -995,7 +995,7 @@
     "dont_have_a_code": "N\u00e3o tenho um c\u00f3digo seller",
     "have_a_code": "Tens um c\u00f3digo seller?",
     "seller_code": "C\u00f3digo seller",
-    "signup_free": "Regista-te <span class=\"bold\">gr\u00e1tis<\/span> e experimenta durante 15 dias",
+    "signup_free": "Regista-te <span class=\"bold\">gr\u00e1tis</span> e experimenta durante 15 dias",
     "submit": "Criar a minha app gr\u00e1tis",
     "warning_seller": "Preenche o c\u00f3digo seller"
   }
