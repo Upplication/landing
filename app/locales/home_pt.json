@@ -1,70 +1,71 @@
 {
   "home": {
-    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
-    "_meta_description": "Upplication® Criar app, a tua própria app móvel online. Experimenta GRÁTIS durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
+    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+    "_meta_description": "Upplication\u00ae Criar app, a tua pr\u00f3pria app m\u00f3vel online. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o em quest\u00e3o de minutos. A tua app para Android e iOS",
     "_meta_title": "Cria a tua app da tua PME - Upplication",
     "_priority": "1.0",
     "_url": "/pt/",
-    "create_free": "Teste grátis",
+    "create_free": "Teste gr\u00e1tis",
     "how": {
       "app_ready": " <span>A tua App</span> lista ",
       "how_four": {
         "publish_step1": "Publicamos a tua App",
-        "publish_step2": "<b>Nós encarregamo-nos de fazer upload da app</b> aos diferentes markets (Apple, Android).",
-        "publish_step3": "Todas as nossas apps são  <b>multidispositivo</b> (telemóvel, tablet, Pc, Mac...).",
+        "publish_step2": "<b>N\u00f3s encarregamo-nos de fazer upload da app</b> aos diferentes markets (Apple, Android).",
+        "publish_step3": "Todas as nossas apps s\u00e3o  <b>multidispositivo</b> (telem\u00f3vel, tablet, Pc, Mac...).",
         "publish_step4": "Shall we start?"
       },
       "how_main": "Cria a tua app facilmente",
       "how_one": {
         "reg_step1": "Regista-te",
-        "reg_step2": "Regista-te em três passos simples:",
+        "reg_step2": "Regista-te em tr\u00eas passos simples:",
         "reg_step3": "nome da tua app, email e senha.",
-        "reg_step5": "Começámos",
+        "reg_step4": "Recorda: Tens <b>15 dias</b> de <b>prova gr\u00e1tis</b> com <b>ajuda personalizada</b>.",
+        "reg_step5": "Come\u00e7\u00e1mos",
         "reg_title": "Ir ao onboarding Upplication"
       },
       "how_three": {
         "tutor_step1": "Tutor pessoal",
-        "tutor_step2": "<b>Suporte técnico profissional</b> para te ajudar na ideia e na criação da tua App. Disponível por <b>chat</b>, <b>email</b>, e <b>telefone</b>."
+        "tutor_step2": "<b>Suporte t\u00e9cnico profissional</b> para te ajudar na ideia e na cria\u00e7\u00e3o da tua App. Dispon\u00edvel por <b>chat</b>, <b>email</b>, e <b>telefone</b>."
       },
       "how_two": {
         "app_step1": "Cria a tua App",
-        "app_step2": "Painel de controlo <b>simples de utilizar</b>, intuitivo. Utiliza <b>módulos e folhas de cálculo</b> para personalizara tua app.",
-        "app_step3": "Controla o <b>número de descargas</b> e envia <b>alertas push</b> aos teus clientes."
+        "app_step2": "Painel de controlo <b>simples de utilizar</b>, intuitivo. Utiliza <b>m\u00f3dulos e folhas de c\u00e1lculo</b> para personalizara tua app.",
+        "app_step3": "Controla o <b>n\u00famero de descargas</b> e envia <b>alertas push</b> aos teus clientes."
       }
     },
     "improve_sales": {
       "points": [
-        "Melhora os rendimentos do teu negócio",
-        "Vende a partir dos dispositivos móveis",
-        "Melhora a comunicação com os teus clientes"
+        "Melhora os rendimentos do teu neg\u00f3cio",
+        "Vende a partir dos dispositivos m\u00f3veis",
+        "Melhora a comunica\u00e7\u00e3o com os teus clientes"
       ],
       "title": "Melhora as tuas vendas"
     },
     "multidevices": {
-      "sub_title": "Válidas para qualquer dispositivo com qualquer sistema operativo",
-      "title": "As nossas apps são multiplataforma"
+      "sub_title": "V\u00e1lidas para qualquer dispositivo com qualquer sistema operativo",
+      "title": "As nossas apps s\u00e3o multiplataforma"
     },
     "optimize": {
       "points": [
         {
-          "desc": "Uma app irá permitir-te estar sempre no bolso do teu cliente. Fideliza, cria uma relação longa e consegue melhorar os teus rendimentos.",
+          "desc": "Uma app ir\u00e1 permitir-te estar sempre no bolso do teu cliente. Fideliza, cria uma rela\u00e7\u00e3o longa e consegue melhorar os teus rendimentos.",
           "icon": "customize",
-          "title": "Personalização"
+          "title": "Personaliza\u00e7\u00e3o"
         },
         {
-          "desc": "Acompanhamos-te em cada passo para a criação da tua app, para isso terás a uma pessoa encarregada de te ajudar em cada momento.",
+          "desc": "Acompanhamos-te em cada passo para a cria\u00e7\u00e3o da tua app, para isso ter\u00e1s a uma pessoa encarregada de te ajudar em cada momento.",
           "icon": "pessoal-tutor",
           "title": "Tutor pessoal"
         },
         {
-          "desc": "Com Upplication poderás criar a tua app para iOS, Android e a web responsive que desejas. Além disso nós iremos publicá-la em App Store e Google Play por ti.",
+          "desc": "Com Upplication poder\u00e1s criar a tua app para iOS, Android e a web responsive que desejas. Al\u00e9m disso n\u00f3s iremos public\u00e1-la em App Store e Google Play por ti.",
           "icon": "multidevice",
           "title": "Multidispositivo"
         }
       ],
-      "title": "Otimiza o teu negócio"
+      "title": "Otimiza o teu neg\u00f3cio"
     },
-    "permanence": "Período experimental sem compromisso de permanência",
+    "permanence": "Per\u00edodo experimental sem compromisso de perman\u00eancia",
     "press": {
       "abc": "http://www.abc.es/tecnologia/moviles-aplicaciones/20140315/abci-upplication-wordpress-creacion-201403141400.html",
       "agencia_efe": "http://www.efeempresas.com/noticia/nace-upplication-startup-permite-crear-propia-aplicacion-movil-efeempresas/",
@@ -76,10 +77,10 @@
     },
     "register_inline": {
       "app_name": "Nome da app",
-      "call_to_action": "Experimentar grátis",
+      "call_to_action": "Experimentar gr\u00e1tis",
       "email": "E-mail",
       "password": "Senha",
-      "title": "Regista-te e começa a criar a tua primeira app grátis"
+      "title": "Regista-te e come\u00e7a a criar a tua primeira app gr\u00e1tis"
     },
     "samples": {
       "alt_tag": {
@@ -88,44 +89,44 @@
         "img_nexus": "App de Upplication a funcionar num Nexus",
         "img_xperia": "App de Upplication a funcionar num Sony Xperia"
       },
-      "business": "Apps para todo o tipo de negócios",
+      "business": "Apps para todo o tipo de neg\u00f3cios",
       "custom": {
-        "cust_details1": "<span>Pessoal</span>: faz upload do teu curriculum, apresentações, trabalhos...",
-        "cust_details2": "<span>Música</span>: faz upload de música e vídeos, datas de concertos, merchandising...",
+        "cust_details1": "<span>Pessoal</span>: faz upload do teu curriculum, apresenta\u00e7\u00f5es, trabalhos...",
+        "cust_details2": "<span>M\u00fasica</span>: faz upload de m\u00fasica e v\u00eddeos, datas de concertos, merchandising...",
         "cust_details3": "<span>Eventos</span>: faz upload  da agenda do evento, envia alertas push, introduz galerias...",
-        "cust_details4": "<span>Turismo</span>: Introduz mapas, recomenda lugares, faz upload de promoções gastronómicas...",
-        "cust_intro": "Cria a tua app móvel <span>personalizada</span>, feita à medida do que necessitas"
+        "cust_details4": "<span>Turismo</span>: Introduz mapas, recomenda lugares, faz upload de promo\u00e7\u00f5es gastron\u00f3micas...",
+        "cust_intro": "Cria a tua app m\u00f3vel <span>personalizada</span>, feita \u00e0 medida do que necessitas"
       },
-      "free_app": "Criar a minha app Grátis",
+      "free_app": "Criar a minha app Gr\u00e1tis",
       "personal": "Personalizadas",
       "rest": {
-        "details1": "Os teus clientes poderão <span>reservar mesa</span> a partir do telemóvel.",
-        "details2": "Realiza <span>envio ao domicílio</span> dos teus produtos.",
-        "details3": "Mostra <span>talões desconto</span> na app.",
+        "details1": "Os teus clientes poder\u00e3o <span>reservar mesa</span> a partir do telem\u00f3vel.",
+        "details2": "Realiza <span>envio ao domic\u00edlio</span> dos teus produtos.",
+        "details3": "Mostra <span>tal\u00f5es desconto</span> na app.",
         "details4": "Envia <span>alertas push</span> com ofertas exclusivas.",
         "rest_intro": "Cria a app Android e iPhone do teu restaurante e <span>aporta valor ao teu cliente</span>."
       },
       "restaurants": "Hotelaria",
-      "serv": "Serviços",
-      "serv_alt": "Serviços Profissionais",
+      "serv": "Servi\u00e7os",
+      "serv_alt": "Servi\u00e7os Profissionais",
       "services": {
-        "serv_details1": "Faz com que os teus clientes possam <span>contratar os teus serviços</span> em qualquer lugar.",
-        "serv_details2": "Mostra os <span>horários dos teus serviços</span> no telemóvel dos teus clientes",
-        "serv_details3": "Faz upload de <span>vídeos e fotografias</span> que promovem os teus serviços.",
+        "serv_details1": "Faz com que os teus clientes possam <span>contratar os teus servi\u00e7os</span> em qualquer lugar.",
+        "serv_details2": "Mostra os <span>hor\u00e1rios dos teus servi\u00e7os</span> no telem\u00f3vel dos teus clientes",
+        "serv_details3": "Faz upload de <span>v\u00eddeos e fotografias</span> que promovem os teus servi\u00e7os.",
         "serv_details4": "Envia ofertas exclusivas com os <span>alertas push</span>",
-        "serv_intro": "Cria a <span>app dos teus serviços profissionais</span> e conecta com o teu cliente no telemóvel"
+        "serv_intro": "Cria a <span>app dos teus servi\u00e7os profissionais</span> e conecta com o teu cliente no telem\u00f3vel"
       },
       "shop": {
-        "shop_details1": "Integra a passarela de pagamento em questão de minutos e <span>começa a vender</span>",
+        "shop_details1": "Integra a passarela de pagamento em quest\u00e3o de minutos e <span>come\u00e7a a vender</span>",
         "shop_details2": "Oferece <span>produtos exclusivos</span> e aporta mais valor ao teu cliente.",
         "shop_details3": "<span>Envia alertas</span> push com as melhores ofertas.",
-        "shop_details4": "Faz com que os teus clientes levem <span>o teu negócio no bolso</span>.",
-        "shop_intro": "Cria a tua app e faz com que os teus clientes possam <span>comprar os teus produtos a partir do telemóvel</span>"
+        "shop_details4": "Faz com que os teus clientes levem <span>o teu neg\u00f3cio no bolso</span>.",
+        "shop_intro": "Cria a tua app e faz com que os teus clientes possam <span>comprar os teus produtos a partir do telem\u00f3vel</span>"
       },
       "shops": "Lojas"
     },
     "showcase": {
-      "title": "Estas são algumas das nossas apps"
+      "title": "Estas s\u00e3o algumas das nossas apps"
     },
     "slider": {
       "appready": {
@@ -135,20 +136,20 @@
       },
       "bg": "Cria a app da tua PME",
       "intro1": "O criador de apps para ",
-      "intro2": "<span class=\"intro-2a\">Cria a app do teu negócio,</span> <span class=\"intro-2b\">sem programar, fácil e rápido.</span>",
+      "intro2": "<span class=\"intro-2a\">Cria a app do teu neg\u00f3cio,</span> <span class=\"intro-2b\">sem programar, f\u00e1cil e r\u00e1pido.</span>",
       "text": [
         "empreendedores",
         "hotelaria",
-        "serviços",
+        "servi\u00e7os",
         "lojas",
         "ti"
       ]
     },
     "support": {
-      "desc": "Todos e cada um dos colegas que formamos Upplication vamos colocar todo o nosso empenho em conseguir que obtenhas a melhor experiência de suporte técnico que esteja nas nossas mãos. Se tens qualquer problema conta connosco.",
+      "desc": "Todos e cada um dos colegas que formamos Upplication vamos colocar todo o nosso empenho em conseguir que obtenhas a melhor experi\u00eancia de suporte t\u00e9cnico que esteja nas nossas m\u00e3os. Se tens qualquer problema conta connosco.",
       "title": "Estamos para te ajudar!"
     },
-    "try": "Cria a tua app,<br/>tens 15 dias grátis!",
+    "try": "Cria a tua app,<br/>tens 15 dias gr\u00e1tis!",
     "vodafone": {
       "logo": "Logotipo Vodafone"
     },
@@ -157,10 +158,10 @@
       "img": {
         "grow": "Aumenta as tuas vendas",
         "loyal": "Fideliza os teus clientes",
-        "others": "Diferencia-te da concorrência"
+        "others": "Diferencia-te da concorr\u00eancia"
       },
       "loyal": "<strong>Fideliza</strong> os teus clientes",
-      "others": "<strong>Diferencia-te</strong> da concorrência"
+      "others": "<strong>Diferencia-te</strong> da concorr\u00eancia"
     }
   }
 }
