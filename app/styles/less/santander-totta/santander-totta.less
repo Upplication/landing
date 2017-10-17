@@ -119,15 +119,6 @@
 @santander-bg: #f5f5f5;
 
 
-// overwrite Common Values "Santander Totta"
-// --------------------------------------------
-@media only screen and (min-width: 993px) {
-  .container {
-    width: 70%; // 92% in "Upplication"
-  }
-}
-
-
 // main HEADER in "Santander Totta"
 // --------------------------------
 .top-header {
@@ -493,6 +484,12 @@
             padding-left: 5px;
             padding-bottom: 5px;
           }
+          // Error messages of each input
+          .error {
+            position: relative;
+            left: -15px;
+            top: 15px;
+          }
         }
       }
 
@@ -541,6 +538,11 @@
       }
     }
   }
+}
+
+//
+.register-form-mobile a {
+  display: none !important;
 }
 
 // (common) "features" sections
@@ -641,6 +643,11 @@
         padding-right: 10px;
         .main-text(20px, 300);
         color: @santander-main-text;
+        // Responsive behaviour
+        @media (max-width: 601px) {
+          width: 100%;
+          padding: 0 25px;
+        }
 
         b {
           color: @santander;
@@ -665,8 +672,13 @@
       // margin: 0 -10px;
       text-align: left;
       // Responsive behaviour ("materialize" overwrites)
-      @media (min-width: 601px) {
+      @media (min-width: 601px) and (max-width: 768px) {
+        width: 33.3333%;
+        margin-bottom: 20px;
+      }
+      @media (min-width: 769px) {
         width: 20%;
+        margin-bottom: 0;
       }
 
       img {
@@ -695,6 +707,16 @@
           }
         }
       }
+      // Responsive behaviour
+      @media (max-width: 600px) {
+        img {
+          margin: 0 auto;
+        }
+        h3,
+        ul.tips {
+          text-align: center;
+        }
+      }
     }
   }
 }
@@ -721,6 +743,12 @@
   top: 70px;
 
   .col {
+    // to overwrite "materialize" default values
+    @media only screen and (max-width: 768px) {
+      width: 100% !important;
+      margin-bottom: 50px;
+    }
+
     img {
       width: 60px;
       height: 60px;
@@ -806,5 +834,46 @@
         }
       }
     }
+  }
+}
+
+// RESPONSIVE BEHAVIOUR (media queries)
+// overwrite Common Values "Santander Totta"
+// --------------------------------------------
+@media only screen and (min-width: 1451px) {
+  .container {
+    width: 70%; // 92% in "Upplication"
+  }
+}
+@media (min-width: 1271px) and (max-width: 1450px) {
+  .container {
+    width: 80%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 10%;
+  }
+}
+@media (min-width: 1121px) and (max-width: 1270px) {
+  .container {
+    width: 90%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 5%;
+  }
+}
+@media (min-width: 1081px) and (max-width: 1120px) {
+  .container {
+    width: 95%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 2.5%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+  .container {
+    width: 100%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 0;
   }
 }
