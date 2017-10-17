@@ -968,6 +968,7 @@
       "num1": "Cool! Registration completed",
       "num10": "Please complete the app name and e-mail account fields again",
       "num11": "App name is not valid, try removing special characters",
+      "num13": "The license code is invalid",
       "num2": "Error creating your app, please contact us",
       "num3": "This email account is already registered in Upplication",
       "num4": "App name already in use",
