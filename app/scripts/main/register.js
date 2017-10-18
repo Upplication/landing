@@ -129,6 +129,10 @@ $(function () {
                             error.appName = ajax.error[11];
                             error.email = ajax.error[3];
                             break;
+                        case 13:
+                            //LICENSE_INVALID_ERROR
+                            error.license = ajax.error[13];
+                            break;
                     }
 
                     fn(this, error);
@@ -190,7 +194,9 @@ $(function () {
                 success: registerSuccessCallback(function (form, error) {
                     var $emailError = $(form).find(".register-email-error"),
                         $appNameError = $(form).find(".register-appName-error"),
-                        $sellerError = $(form).find(".register-seller-error");
+                        $sellerError = $(form).find(".register-seller-error"),
+                        $licenseError = $(form).find(".register-license-error");
+
 
                     if (error.email) {
                         $emailError.text(error.email);
@@ -208,6 +214,12 @@ $(function () {
                         $sellerError.text(error.seller);
                         $sellerError.show();
                         $(form).find('input[name=seller]').addClass("error");
+                    }
+
+                    if (error.license) {
+                        $licenseError.text(error.license);
+                        $licenseError.show();
+                        $(form).find('input[name=license]').addClass("error");
                     }
 
                     if (error.general) {

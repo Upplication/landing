@@ -969,6 +969,7 @@
       "num1": "Espetacular! Acabaste o registo",
       "num10": "O e-mail ou o nome da app est\u00e3o por preencher",
       "num11": "Nome do aplicativo n\u00e3o \u00e9 correto, tente remover caracteres especiais",
+      "num13": "The license code is invalid",
       "num2": "Erro ao criar a app, por favor entra em contacto connosco",
       "num3": "Este e-mail j\u00e1 est\u00e1 registado",
       "num4": "Esse nome de app j\u00e1 foi escolhido",
@@ -995,5 +996,97 @@
     "signup_free": "Regista-te <span class=\"bold\">gr\u00e1tis</span> e experimenta durante 15 dias",
     "submit": "Criar a minha app gr\u00e1tis",
     "warning_seller": "Preenche o c\u00f3digo seller"
+  },
+  "santander_totta": {
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_meta_description": "Upplication es un creador de apps online para ti o para tu empresa. Prueba GRATIS durante 15 días, sin necesidad de programación y en cuestión de minutos. Para Android e iOS",
+    "_meta_title": "Equipo de Upplication: creador de apps",
+    "_priority": "0.8",
+    "_url": "/pt/santandertotta/",
+    "home": {
+      "logo": {
+        "url": "@@config.base_path/pt/santandertotta/",
+        "title": "Santander Totta logotipo"
+      },
+      "touchbizz": {
+        "logo": {
+          "url": "@@config.base_path/pt/santandertotta/",
+          "title": "SmartBizz logo"
+        }
+      },
+      "teledemo": {
+        "btn": "Tente demo",
+        "title": "Solicite teledemo"
+      },
+      "slider": {
+        "img_01": "Hipster barbudo",
+        "intro1": "Com uma app o seu negócio vai ficar",
+        "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, <b>criámos o SmartBizz</b>.",
+        "text": [
+          "mais smart",
+          "mais smart",
+          "mais smart",
+          "mais smart",
+          "mais smart"
+        ],
+        "advice": {
+          "quote": "Preço exclusivo para clientes Banco Santander Totta",
+          "price": {
+            "intro": "Por apenas",
+            "price": "7",
+            "currency": "€",
+            "date": "Més",
+            "more": "Descubra mais",
+            "link": "aquí"
+          }
+        }
+      },
+      "form": {
+        "input": {
+          "code": "Código de validação"
+        },
+        "footer": {
+          "copy": "touchbizz by"
+        }
+      },
+      "business": {
+        "touchbizz": "Santander Totta SmartBizz",
+        "restaurants": "Restaurantes",
+        "shops": "Lojas online",
+        "health": "Saúde",
+        "services": "Serviços",
+        "hostelry": "Hoteleria",
+        "tips": {
+          "restaurants": "<li>Ementas</li> <li>Reservas</li> <li>Take Away</li> <li>Alerta de promoções (descontos)</li>",
+          "shops": "<li>Apresentação de producto</li> <li>Venda online</li> <li>Pagamentos online</li> <li>Alerta de promoções(descontos)</li>",
+          "health": "<li>Horários de atendimento</li> <li>Gestão de tempos de espera</li> <li>Especialidades</li> <li>Pagamentos online</li>",
+          "services": "<li>Condições dos serviços prestados</li> <li>Ofertas exclusivas</li> <li>Contratação e pagamentos online</li> <li>Horários e promoções</li>",
+          "hostelry": "<li>Reservas e disponibilidade</li> <li>Apresentação de serviços</li> <li>Pagamento online</li> <li>Alerta de promoções (descontos)</li>"
+        }
+      },
+      "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, <b>no SmartBizz do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
+      "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupaçao será a relação com os seus clientes e nada mais. O <b>SmartBizz</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para actualizar o seu negócio.",
+      "pricing": {
+        "btn": "Contratar agora",
+        "basic": {
+          "alt": "Plano de preços básico",
+          "title": "Básico",
+          "claim": "Plano de boas-vindas",
+          "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Més</li>"
+        },
+        "profisional": {
+          "alt": "Plano de preços profisional",
+          "title": "Profisional",
+          "claim": "Plano de lançador de negócios",
+          "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Més</li>"
+        },
+        "premium": {
+          "alt": "Plano de preços premium",
+          "title": "Premium",
+          "claim": "Colocar em órbita seu negócio",
+          "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Més</li>"
+        }
+      }
+    }
   }
 }

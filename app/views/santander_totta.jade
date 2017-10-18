@@ -1,0 +1,180 @@
+extend santander-totta/base/touchbizz
+
+block vars
+    - var title = santander_totta._meta_title
+    - var description = santander_totta._meta_description
+    - var keywords = santander_totta._keywords
+    - var cssClass = 'santander_totta'
+
+block css
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/santander-totta/santander-totta.css')
+
+block content
+
+    //- SLIDER
+    .slider.slides-to-mobile
+        ul.slides
+            li
+                img(src='#{localConfig.base_path}/images/santander-totta//slider/hipster.jpg', alt='#{santander_totta.home.slider.img_01}', title='#{santander_totta.home.slider.img_01}')
+        //- todo: add a few more images for this main slider
+            li
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgcoffeeshop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+            li
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgservices.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+            li
+                img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
+
+    //- MAIN CLAIM & REGISTER FORM (over top Slider)
+    .register-area.container
+        .main-clain-on-head(data-aos='fade-down-right')
+            h2 #{santander_totta.home.slider.intro1}
+                .typed-effect
+                    span.element
+            h1 !{santander_totta.home.slider.intro2}
+            //- advice quotes about price, business types...
+            .advice
+                .price-since
+                    div
+                        span #{santander_totta.home.slider.advice.price.intro}
+                        span #{santander_totta.home.slider.advice.price.price}
+                        span #{santander_totta.home.slider.advice.price.currency}
+                        span
+                            | #{santander_totta.home.slider.advice.price.date}
+                            i.icon.icon-asterisk
+                    .price-advice
+                        | #{santander_totta.home.slider.advice.price.more}
+                        a #{santander_totta.home.slider.advice.price.link}
+                .business-types
+                    div
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/smartbizz.png', title='#{santander_totta.home.business.touchbizz}', alt='#{santander_totta.home.business.touchbizz}')
+                        // span #{santander_totta.home.slider.advice.business.touchbizz}
+                    div
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.home.business.restaurants}', alt='#{santander_totta.home.business.restaurants}')
+                        span #{santander_totta.home.business.restaurants}
+                    div
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.home.business.shops}', alt='#{santander_totta.home.business.shops}')
+                        span #{santander_totta.home.business.shops}
+                    div
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.home.business.health}', alt='#{santander_totta.home.business.health}')
+                        span #{santander_totta.home.business.health}
+                    div
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.home.business.services}', alt='#{santander_totta.home.business.services}')
+                        span #{santander_totta.home.business.services}
+                    div
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.home.business.hostelry}', alt='#{santander_totta.home.business.hostelry}')
+                        span #{santander_totta.home.business.hostelry}
+                p.advice-quote
+                    i.icon.icon-asterisk
+                    | #{santander_totta.home.slider.advice.quote}
+
+        //- REGISTER panel :: "15 days free trial" (desktop - laptop)
+        include santander-totta/includes/register
+
+    //- CLAIM just below Sider (main Claim)
+    .features.main-claim-totta
+        .container(data-aos='fade-right')
+            div
+                span
+                span
+                span
+                span
+                .claim-wrapper
+                    img(src='#{localConfig.base_path}/images/santander-totta/business/smartbizz.png', title='#{santander_totta.home.business.touchbizz}', alt='#{santander_totta.home.business.touchbizz}')
+                    p !{santander_totta.home.claim}
+
+    //- BUSINESS TYPES (samples and his tips)
+    .features.features-totta
+        .container
+            .row.features-grids.center-align(data-aos='zoom-in')
+                .col.s12
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.home.business.restaurants}', alt='#{santander_totta.home.business.restaurants}')
+                    h3 #{santander_totta.home.business.restaurants}
+                    ul.tips !{santander_totta.home.business.tips.restaurants}
+                .col.s12
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.home.business.shops}', alt='#{santander_totta.home.business.shops}')
+                    h3 #{santander_totta.home.business.shops}
+                    ul.tips !{santander_totta.home.business.tips.shops}
+                .col.s12
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.home.business.health}', alt='#{santander_totta.home.business.health}')
+                    h3 #{santander_totta.home.business.health}
+                    ul.tips !{santander_totta.home.business.tips.health}
+                .col.s12
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.home.business.services}', alt='#{santander_totta.home.business.services}')
+                    h3 #{santander_totta.home.business.services}
+                    ul.tips !{santander_totta.home.business.tips.services}
+                .col.s12
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.home.business.hostelry}', alt='#{santander_totta.home.business.hostelry}')
+                    h3 #{santander_totta.home.business.hostelry}
+                    ul.tips !{santander_totta.home.business.tips.hostelry}
+                .clearfix
+
+    //- EXPLAIN (extended Claim)
+    .features.expanded-claim-totta
+        .container(data-aos='fade-left')
+            p !{santander_totta.home.explain}
+
+    //- PRICING PLANS (info & calls to action)
+    .features.pricing-plans-totta
+        .container
+            .row.features-grids.center-align(data-aos='zoom-in')
+                .col.s12.m4
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-grey.svg', title='#{santander_totta.home.pricing.basic.alt}', alt='#{santander_totta.home.pricing.basic.alt}')
+                    h3 #{santander_totta.home.pricing.basic.title}
+                    h5 #{santander_totta.home.pricing.basic.claim}
+                    .price-plan-detail
+                        ul !{santander_totta.home.pricing.basic.price}
+                        a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
+                .col.s12.m4
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-blue.svg', title='#{santander_totta.home.pricing.profisional.alt}', alt='#{santander_totta.home.pricing.profisional.alt}')
+                    h3 #{santander_totta.home.pricing.profisional.title}
+                    h5 #{santander_totta.home.pricing.profisional.claim}
+                    .price-plan-detail
+                        ul !{santander_totta.home.pricing.profisional.price}
+                        a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
+                .col.s12.m4
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-gold.svg', title='#{santander_totta.home.pricing.premium.alt}', alt='#{santander_totta.home.pricing.premium.alt}')
+                    h3 #{santander_totta.home.pricing.premium.title}
+                    h5 #{santander_totta.home.pricing.premium.claim}
+                    .price-plan-detail
+                        ul !{santander_totta.home.pricing.premium.price}
+                        a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
+
+block scripts
+
+    //- to load iframes with delay
+    script(type='text/javascript').
+        $(function () {
+            setTimeout(function() {
+                $(".slides [data-src]").each(function() {
+                    var $this = $(this);
+                    $this.attr('src', $this.attr('data-src'));
+                });
+                //- restart slider
+                $('.slider').slider({
+                    indicators: false,
+                    interval: 4000
+                });
+            }, 3000);
+        });
+
+    //- TYPED PLUGIN JS
+    script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
+    script(type='text/javascript').
+        $(function () {
+            $(".element").typed({
+                strings: !{JSON.stringify(santander_totta.home.slider.text)},
+                typeSpeed: 100,
+                startDelay: 200,
+                backDelay: 2500,
+                loop: true
+            });
+        });
+
+    //- CUSTOM JS
+    script(type='text/javascript').
+        $(document).ready(function () {
+            $('.slider').slider({
+                indicators: false,
+                interval: 4000
+            }).slider('pause');
+        });

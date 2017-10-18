@@ -1,0 +1,988 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: SANTANDER TOTTA :: (upplication, 2017)
+ ******************************************************
+  *****************************************************
+ */
+
+@import "../base/_common.less";
+// Slider and main claim top first block
+@import "../base/_main-claim.less";
+@import "../base/_sliders.less";
+// special section blocks
+@import "../base/_samples.less";
+@import "../base/_multidevices.less";
+@import "../base/_timeline.less";
+@import "../base/_showcases.less";
+@import "../base/_youtube-player.less";
+
+
+// main Text mixin with default values (overwrite default ones!)
+.main-text(@size: 15px, @weight: 300) {
+  font-family: "Roboto", sans-serif;
+  font-size: @size;
+  letter-spacing: .02em;
+  font-weight: @weight;
+}
+
+
+/* ... TYPED SLIDER PLUGIN ... */
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* ... (component) :: THREE CARDS GRID layout .... */
+
+// to resert default styles
+.about {
+  border-top: none;
+  padding-bottom: 0;
+
+  .headTitles {
+    margin: 3em 0;
+
+    span {
+      padding-right: 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .headTitles,
+  h4.headTitles,
+  h2.headTitles {
+    font-size: 1.5em;
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
+/* HEIGHT */
+
+@media only screen and (max-height: 667px) {
+  .plans-head {
+    padding: 0;
+  }
+}
+
+
+
+
+/**
+ ******************************************************
+ *      SANTANDER TOTTA new styles!
+ ******************************************************
+ */
+
+// (common) "Upplication" color vars goes to "Santander" corporative ones!
+@main-green: @santander;
+@accept-btn: @santander;
+@accept-btn-hover: lighten(@santander, 5%);
+@santander-main-text: #303030;
+@santander-light-text: lighten(@santander-main-text, 30%);
+@dark-lilac: @santander-main-text;
+@santander-bg: #f5f5f5;
+
+
+// main HEADER in "Santander Totta"
+// --------------------------------
+.top-header {
+  height: 135px;
+  background-color: transparent;
+  border: none;
+
+  // 0. Overwrite default values:
+  .container {
+    @media (min-width: 769px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .logo {
+      width: 50px;
+    }
+    .top-nav {
+      width: ~"calc(100% - 50px)";
+
+      .top-nav-list {
+        width: 100%;
+        // responsive behaviour
+        // (carefully cause erase this code will affect to mobile dorpdown top menu)
+        @media (min-width: 768px) {
+          display: inline-block;
+        }
+
+        li {
+          &.how, &.samples, &.blog, &.more {
+            display: none;
+          }
+          /*
+          &.contact-info {
+            .contact-info-grids {
+              min-width: inherit;
+              .contact-info-left {
+                width: 100%;
+              }
+            }
+          }
+          */
+          a {
+            max-width: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  // 1. "Santander" premain navbar Top Header
+  .santander-totta {
+    width: 100%;
+    height: 55px;
+    background-color: @santander;
+    .anim(height, 0.3s, ease);
+
+    .container .logo a img {
+      width: 200px;
+      height: 30px;
+      top: 0;
+    }
+  }
+
+  // 2. "SmartBizz" main navbar Top Header
+  .touchbizz {
+    width: 100%;
+    height: 80px;
+    background-color: @header-bg;
+    border-bottom: 1px solid @header-border;
+    .anim(height, 0.3s, ease);
+
+    .container .logo a img {
+      width: 50px;
+      height: 50px;
+      top: 5px;
+    }
+  }
+
+  /* ... Main Header shrink when you scrolls down ... */
+  &.thiny-top-header {
+    height: 90px;
+
+    .santander-totta {
+      height: 30px;
+
+      .container .logo a img {
+        width: 150px;
+        height: 24px;
+      }
+    }
+    .touchbizz {
+      height: 60px;
+
+      .container .logo a img {
+        width: 40px;
+        height: 40px;
+        top: 10px;
+      }
+    }
+  }
+}
+
+// Responsive behaviour HEADER
+@media (max-width: 768px) {
+  .top-header {
+    .touchbizz {
+      height: 65px;
+    }
+    .santander-totta .container .logo a img {
+      top: 10px;
+    }
+    nav a#pull {
+      top: 75px;
+      right: 25px;
+    }
+    // Small header when user scroll down
+    &.thiny-top-header {
+      .santander-totta .container .logo a img {
+        top: 0;
+      }
+      nav a#pull {
+        top: 47px;
+      }
+    }
+  }
+}
+
+// SLIDER and his Content in "Santander Totta"
+// -------------------------------------------
+.slider {
+  height: 600px !important;
+  background-color: transparent !important;
+  top: 120px;
+}
+
+// Register & Claim AREA in "Santander Totta"
+// ------------------------------------------
+.register-area {
+  position: absolute;
+  left: 15%; // 100% - 70% (".container" width) / 2
+  top: 165px;
+  .flex();
+  align-items: flex-end;
+
+  .main-clain-on-head,
+  .register-form {
+    position: relative;
+    top: initial;
+    bottom: initial;
+    right: initial !important; // IMP to overwrite default values
+    left: initial;
+    display: inline-block;
+  }
+
+  .main-clain-on-head {
+    width: ~"calc(100% - 400px)";
+    margin-right: 50px;
+  }
+
+  .register-form {
+    width: 350px;
+  }
+}
+
+// main CLAIM (slider Text) in "Santander Totta"
+// ---------------------------------------------
+.main-clain-on-head {
+  max-width: 600px;
+  padding: 0;
+
+  h1, h2 {
+    margin: 10px;
+    padding: 0;
+    text-shadow: none;
+  }
+
+  // 1. main Claim
+  h2 {
+    background: transparent;
+    font-size: 3em;
+    text-transform: inherit;
+    // animation text like computer writing
+    .typed-effect {
+      display: block;
+    }
+    // to remove default BG corners
+    &::after,
+    &::before {
+      display: none;
+    }
+  }
+
+  // 2. Claim quote
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: .8;
+
+    b {
+      opacity: 1;
+    }
+
+    span {
+      background-color: transparent;
+      // to remove default BG corners
+      &.intro-2a::before,
+      &.intro-2b::after {
+        display: none;
+      }
+    }
+  }
+
+  // 3. Price & Business type box just below Main Claim
+  .advice {
+    width: 100%;
+    .flex();
+    margin-top: 40px;
+    text-shadow: none;
+
+    .price-since {
+      width: 25%;
+      min-height: 50px;
+      background-color: @santander-bg;
+      border-top-left-radius: 2px;
+      color: @santander-main-text;
+
+      span {
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        &:nth-child(1) {
+          display: block;
+          font-size: 12px;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+          color: @santander;
+          font-weight: 800;
+        }
+        &:nth-child(2) {
+          font-size: 60px;
+          bottom: 20px;
+          left: 24px;
+        }
+        &:nth-child(3) {
+          font-size: 35px;
+          bottom: 40px;
+          left: 30px;
+        }
+        &:nth-child(4) {
+          font-size: 18px;
+          bottom: 20px;
+          left: -3px;
+        }
+        // "asterisk" Icon
+        i {
+          font-size: 8px;
+          color: @santander;
+          position: absolute;
+          right: -9px;
+        }
+      }
+
+      div:not(.price-advice) {
+        padding: 15px 20px;
+        max-height: 85px;
+      }
+      .price-advice {
+        padding: 10px;
+        font-size: 12px;
+        color: @santander-light-text;
+        text-align: center;
+        cursor: pointer;
+        a {
+          padding-left: 3px;
+          color: @santander;
+          text-decoration: none;
+          &:hover {
+            color: @accept-btn-hover;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .business-types {
+      width: 75%;
+      min-height: 123px; // imp!
+      background-color: @white;
+      border-top-right-radius: 2px;
+      padding: 25px 20px 5px;
+      .flex();
+      align-items: flex-start;
+
+      div {
+        width: ~"calc(16.6666% - 10px)";
+        height: ~"calc(16.6666% - 10px)";
+        min-width: 55px;
+        min-height: 55px;
+        display: inline-block;
+        margin: 0 5px;
+        text-align: center;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        span {
+          .main-text(8px, 600);
+          color: @santander-light-text;
+          position: relative;
+          bottom: 5px;
+        }
+      }
+    }
+
+    .advice-quote {
+      width: 100%;
+      margin: 0;
+      padding: 5px 0 10px;
+      background-color: rgba(0,0,0,0.3);
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      font-size: 14px;
+      text-align: center;
+      text-shadow: none;
+
+      i {
+        color: @santander;
+        font-size: 8px;
+        top: -4px;
+        right: 3px;
+      }
+    }
+  }
+}
+
+// REGISTER (slider form) in "Santander Totta"
+// -------------------------------------------
+.register-form {
+  background-color: @white;
+  .border-radius(2px);
+
+  .register-top {
+    .register-form-block {
+      padding: 20px 30px 10px 30px !important;
+
+      .input-field {
+        margin-top: 0;
+        padding: 0;
+
+        input {
+          width: ~"calc(100% - 15px)";
+          padding-left: 15px;
+          background-color: @santander-bg;
+          border: none;
+          // validation variations
+          &.valid + label {
+            color: #00c86b !important;
+          }
+        }
+        label {
+          padding-left: 10px;
+          &.active {
+            padding-left: 5px;
+            padding-bottom: 5px;
+          }
+          // Error messages of each input
+          .error {
+            position: relative;
+            left: -16px;
+            top: -12px;
+            z-index: 10;
+          }
+        }
+      }
+
+      .marBot10 {
+        padding: 0;
+        margin: 0;
+      }
+
+      .register-form-btn {
+        button.btn-upp {
+          .border-radius(2px);
+        }
+        p {
+          font-size: 12px;
+          color: @santander-main-text;
+        }
+      }
+    }
+
+    // footer copy and "Upplication by Fibonad" logotype
+    .touchbizz-by {
+      .flex();
+
+      span {
+        width: 42%;
+        text-align: right;
+        font-size: 12px;
+        color: @santander-main-text;
+        position: relative;
+        bottom: 2px;
+        right: 10px;
+      }
+
+      a {
+        width: 58%;
+        img {
+          width: 120px;
+          height: 38px;
+          .anim(all, 150ms, ease);
+        }
+        &:hover {
+          img {
+            .scale(.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+//
+.register-form-mobile a {
+  display: none !important;
+}
+
+// (common) "features" sections
+.features {
+  padding: 4em 0 5em 0;
+  position: relative;
+  // REsponsive behaviour
+  @media all and (max-width: 768px) {
+    padding: 3em 0 1em 0;
+  }
+}
+
+// "Main Claim" FEATURE in "Santander Totta"
+// -----------------------------------------
+.main-claim-totta {
+  padding: 2em 0 2em 0;
+  top: 120px;
+  background-color: @santander-bg;
+
+  div {
+    position: relative;
+
+    // Corners decoration details
+    span {
+      position: absolute;
+      &::after,
+      &::before {
+        content: "";
+        display: block;
+        background-color: #6c5549;
+      }
+      &:nth-child(1) {
+        &::after {
+          width: 8px;
+          height: 15px;
+        }
+        &::before {
+          width: 22px;
+          height: 8px;
+        }
+      }
+      &:nth-child(2) {
+        bottom: 0;
+        &::after {
+          width: 22px;
+          height: 8px;
+        }
+        &::before {
+          width: 8px;
+          height: 15px;
+        }
+      }
+      &:nth-child(3) {
+        right: 0;
+        &::after,
+        &::before {
+          background-color: @santander;
+        }
+        &::after {
+          width: 8px;
+          height: 15px;
+          position: relative;
+          left: 14px;
+        }
+        &::before {
+          width: 22px;
+          height: 8px;
+        }
+      }
+      &:nth-child(4) {
+        right: 0;
+        bottom: 0;
+        &::after {
+          width: 22px;
+          height: 8px;
+        }
+        &::before {
+          width: 8px;
+          height: 15px;
+          position: relative;
+          left: 14px;
+        }
+      }
+    }
+
+    // main CLAIM and IMG
+    .claim-wrapper {
+      .flex();
+
+      img {
+        width: 110px;
+        height: 110px;
+        margin: 25px;
+      }
+
+      p {
+        width: ~"calc(100% - 160px)";
+        padding-right: 10px;
+        .main-text(20px, 300);
+        color: @santander-main-text;
+        // Responsive behaviour
+        @media (max-width: 601px) {
+          width: 100%;
+          padding: 0 25px;
+        }
+
+        b {
+          color: @santander;
+        }
+      }
+    }
+  }
+}
+
+// "Business Type" FEATURES in "Santander Totta"
+// ---------------------------------------------
+.features-totta {
+  position: relative;
+  top: 120px;
+
+  .row {
+    &.features-grids {
+      margin-bottom: 50px;
+    }
+
+    .col.s12 {
+      // margin: 0 -10px;
+      text-align: left;
+      // Responsive behaviour ("materialize" overwrites)
+      @media (min-width: 601px) and (max-width: 768px) {
+        width: 33.3333%;
+        margin-bottom: 20px;
+        min-height: 250px;
+      }
+      @media (min-width: 769px) {
+        width: 20%;
+        margin-bottom: 0;
+      }
+      @media (max-width: 601px) {
+        margin-bottom: 30px;
+      }
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+
+      h3 {
+        margin: 15px 0 10px;
+        .main-text(18px, 600);
+        color: @santander;
+      }
+
+      ul.tips {
+        li {
+          padding: 2px 0;
+          .main-text(12px, 400);
+          &::before {
+            content: '\ea4e';
+            font-family: 'upplication-icons';
+            font-size: 10px;
+            font-style: normal;
+            display: inline-block;
+            color: @santander;
+            padding-right: 5px;
+          }
+        }
+      }
+      // Responsive behaviour
+      @media (max-width: 600px) {
+        img {
+          margin: 0 auto;
+        }
+        h3,
+        ul.tips {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// "Expanded Claim" FEATURE in "Santander Totta"
+// ---------------------------------------------
+.expanded-claim-totta {
+  padding: 3em 0 4em 0; // overwriten default values
+  top: 50px;
+  background-color: @santander;
+
+  p {
+    max-width: 760px;
+    margin: 0 auto;
+    .main-text(20px, 300);
+    color: @white;
+    text-align: center;
+  }
+}
+
+// PRICING PLANS in "Santander Totta"
+// ----------------------------------
+.pricing-plans-totta {
+  top: 70px;
+
+  .col {
+    // to overwrite "materialize" default values
+    @media only screen and (max-width: 768px) {
+      width: 100% !important;
+      margin-bottom: 50px;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      .centered;
+    }
+    // Title
+    h3 {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      .main-text(26px, 600);
+      letter-spacing: 0;
+      color: @santander;
+    }
+    // SubTitle
+    h5 {
+      margin-top: 0;
+      margin-bottom: 25px;
+      .main-text(15px, 400);
+      color: @santander-main-text;
+    }
+    // Price per month
+    .price-plan-detail {
+      max-width: 200px;
+      min-height: 115px;
+      margin: 0 auto;
+      background-color: #eee;
+      .border-radius(2px);
+
+      ul {
+        display: block;
+        padding-top: 10px;
+
+        li {
+          display: inline-block;
+          &:nth-child(1),
+          &:nth-child(2) {
+            font-weight: 800;
+          }
+          &:nth-child(1),
+          &:nth-child(3) {
+            font-size: 30px;
+            letter-spacing: -0.02em;
+            color: @santander;
+          }
+          &:nth-child(2) {
+            font-size: 22px;
+            color: @santander;
+            position: relative;
+            bottom: 6px;
+          }
+          &:nth-child(4) {
+            font-size: 18px;
+            font-weight: 600;
+            color: @santander-main-text;
+            &::after {
+              content: '\ea0a';
+              font-family: 'upplication-icons';
+              font-size: 8px;
+              font-style: normal;
+              display: inline-block;
+              color: @santander;
+              position: relative;
+              bottom: 8px;
+              left: 3px;
+            }
+          }
+        }
+      }
+      // Call to Action
+      a {
+        display: block;
+        width: 180px;
+        margin: 0 auto;
+        padding: 10px;
+        .border-radius(2px);
+        background-color: @santander;
+        .main-text(12px, 400);
+        color: @white;
+        text-decoration: none;
+        .anim(all, 150ms, ease);
+        &:hover {
+          background-color: @accept-btn-hover;
+        }
+      }
+    }
+  }
+}
+
+// RESPONSIVE BEHAVIOUR (media queries)
+// overwrite Common Values "Santander Totta"
+// --------------------------------------------
+@media only screen and (min-width: 1451px) {
+  .container {
+    width: 70%; // 92% in "Upplication"
+  }
+}
+@media (min-width: 1271px) and (max-width: 1450px) {
+  .container {
+    width: 80%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 10%;
+  }
+}
+@media (min-width: 1121px) and (max-width: 1270px) {
+  .container {
+    width: 90%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 5%;
+  }
+}
+@media (min-width: 1081px) and (max-width: 1120px) {
+  .container {
+    width: 95%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 2.5%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+  .container {
+    width: 100%; // 92% in "Upplication"
+  }
+  .register-area {
+    left: 0;
+  }
+}
+
+// main CLAIM (responsive behaviour)
+@media (max-width: 1006px) {
+  .main-clain-on-head {
+    .advice {
+      .price-since {
+        width: 30%;
+        min-height: 200px;
+      }
+      .business-types {
+        width: 70%;
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .main-clain-on-head {
+    .advice {
+      .price-since,
+      .business-types {
+        width: 50%;
+      }
+      .price-since {
+        span {
+          &:nth-child(2) {
+            left: 80px;
+          }
+          &:nth-child(3) {
+            left: 85px;
+          }
+          &:nth-child(4) {
+            left: 53px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// General Layout change (responsive behaviour)
+@media (max-width: 906px) {
+  .slider {
+    max-height: 300px;
+  }
+  .register-area {
+    position: relative;
+    top: -150px;
+
+    .main-clain-on-head {
+      width: 100%;
+      margin-right: 0;
+      h1 {
+        max-width: 100%;
+      }
+    }
+    .register-form {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .main-claim-totta,
+  .expanded-claim-totta {
+    top: -120px;
+  }
+  .features-totta,
+  .pricing-plans-totta {
+    top: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-area {
+    left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-clain-on-head {
+    .advice {
+      .price-since,
+      .business-types {
+        width: 100%;
+        min-height: inherit;
+      }
+      .price-since {
+        span {
+          &:nth-child(1) {
+            text-align: left;
+            padding-left: 80px;
+          }
+        }
+      }
+      .price-advice {
+        text-align: left;
+        padding-left: 100px;
+      }
+    }
+  }
+}

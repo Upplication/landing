@@ -234,6 +234,16 @@
   line-height: 0;
 }
 
+// to apply FLEXBOX layout with some dafault values
+.flex(@wrap: wrap, @content: center) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: @wrap;
+  justify-content: @content;
+  align-items: center;
+  align-content: center;
+}
+
 /* ... to CENTER Blocks ... */
 
 .centered {
