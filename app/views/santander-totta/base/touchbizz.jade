@@ -105,10 +105,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                         each lang in langs.codes
                                             li
                                                 a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
-                                li.trial.only-show-small-devises.phone-kerning
-                                    a(href='#all-contact') #{header.telephone}
-                                li.trial.only-show-small-devises
-                                    a(href='#free-trial', title='') #{header.free_trial}
                                 li.enter-btn
                                     a.hide-tab(href="#{external.dashboard.url}")
                                         i.icon.icon-key
@@ -127,17 +123,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         //- MODAL :: FREE TRIAL
         #free-trial.modal.modal-upp
             include ../includes/modal-free
-        //- MODAL :: CONTACT
-            #all-contact.modal.modal-upp
-                include ../../includes/modal-contact
 
         //- CONTENT
         block content
-
-        //- TRIAL
-            include ../../includes/trial
-        //- FOOTER :: Contact, links list and Copyright
-            include ../../includes/footer
 
         //- Cookies alert
         #cookies

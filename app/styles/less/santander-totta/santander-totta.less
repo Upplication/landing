@@ -119,6 +119,17 @@
 @santander-bg: #f5f5f5;
 
 
+// (common) COOKIES advise in "Santander Totta"
+// --------------------------------------------
+#cookies {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid @santander-main-text;
+
+  p a:hover {
+    color: @santander;
+  }
+}
+
 // main HEADER in "Santander Totta"
 // --------------------------------
 .top-header {
@@ -144,23 +155,33 @@
         // responsive behaviour
         // (carefully cause erase this code will affect to mobile dorpdown top menu)
         @media (min-width: 768px) {
-          display: inline-block;
+          display: flex;
+          justify-content: flex-end;
         }
 
+        // each top main navbar items!!
         li {
-          &.how, &.samples, &.blog, &.more {
+          &.how, &.samples, &.blog, &.more, &.languages {
             display: none;
           }
-          /*
           &.contact-info {
             .contact-info-grids {
               min-width: inherit;
               .contact-info-left {
                 width: 100%;
+                //
+                @media only screen and (max-width: 980px) {
+                  .chat {
+                    display: inherit;
+                  }
+                }
               }
             }
+            //
+            @media only screen and (max-width: 875px) {
+              display: inherit;
+            }
           }
-          */
           a {
             max-width: inherit;
           }
@@ -276,6 +297,7 @@
 
   .main-clain-on-head {
     width: ~"calc(100% - 400px)";
+    max-width: inherit;
     margin-right: 50px;
   }
 
@@ -414,6 +436,10 @@
       padding: 25px 20px 5px;
       .flex();
       align-items: flex-start;
+      //
+      @media (min-width: 1007px) {
+        max-height: 123px;
+      }
 
       div {
         width: ~"calc(16.6666% - 10px)";
