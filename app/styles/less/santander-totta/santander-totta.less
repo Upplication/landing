@@ -117,7 +117,16 @@
 @santander-light-text: lighten(@santander-main-text, 30%);
 @dark-lilac: @santander-main-text;
 @santander-bg: #f5f5f5;
+@santander-grey: #eee;
 
+// (common) CUSTOM SCROLL BAR in "Santander Totta"
+// -----------------------------------------------
+::-webkit-scrollbar {
+  background: @santander-grey;
+}
+::-webkit-scrollbar-thumb {
+  background: @santander-main-text;
+}
 
 // (common) COOKIES advise in "Santander Totta"
 // --------------------------------------------
@@ -810,7 +819,7 @@
       max-width: 200px;
       min-height: 115px;
       margin: 0 auto;
-      background-color: #eee;
+      background-color: @santander-grey;
       .border-radius(2px);
 
       ul {
