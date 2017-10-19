@@ -222,7 +222,7 @@
     .anim(height, 0.3s, ease);
 
     .container .logo a img {
-      width: 50px;
+      width: 39px;
       height: 50px;
       top: 5px;
     }
@@ -244,7 +244,7 @@
       height: 60px;
 
       .container .logo a img {
-        width: 40px;
+        width: 31px;
         height: 40px;
         top: 10px;
       }
@@ -458,6 +458,11 @@
         display: inline-block;
         margin: 0 5px;
         text-align: center;
+        // Responsive behaviour
+        @media (min-width: 1280px) {
+          max-width: 65px;
+          max-height: 65px;
+        }
 
         img {
           width: 100%;
@@ -674,7 +679,7 @@
       .flex();
 
       img {
-        width: 110px;
+        width: 86px;
         height: 110px;
         margin: 25px;
       }
