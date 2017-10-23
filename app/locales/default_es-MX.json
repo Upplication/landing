@@ -1,41 +1,4 @@
 {
-  "about_us": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Upplication es un creador de apps online para ti o para tu empresa. Prueba GRATIS durante 15 días, sin necesidad de programación y en cuestión de minutos. Para Android e iOS",
-    "_meta_title": "Equipo de Upplication: creador de apps",
-    "_priority": "0.8",
-    "_url": "/mx/nosotros/"
-  },
-  "company": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Biografía y expansión internacional de Upplication: creador de apps móvil online sin necesidad de programación, en cuestión de minutos, para Android e iOS",
-    "_meta_title": "Biografía de Upplication: creador de apps",
-    "_priority": "0.9",
-    "_url": "/mx/bio-de-empresa/",
-    "timeline": {
-      "step1": {
-        "description": "<span> Lanzamos Upplication </span> para que cualquier propietario de negocio pudiera crear una aplicación móvil de manera sencilla y sin ningún conocimiento de programación, un servicio que habitualmente estaba fuera de su alcance debido a su elevado coste."
-      },
-      "step7": {
-        "description": "Alcanzamos un <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acuerdo de Integración comercial con Telefónica España </a> con el que continuaremos aportando nuestro conocimiento y experiencia para impulsar a las pymes en su transformación digital."
-      },
-      "step8": {
-        "description": "Alcanzamos la cifra de <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 usuarios en 78 países de todo el mundo</a>, ¡y seguimos creciendo!",
-        "pic": "Expansión internacional",
-        "year": "Junio 2016"
-      },
-      "step9": {
-        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Upplication es adquirido por mobusi</a>, de esta forma, ambas empresas refuerzan su apuesta por el negocio digital a través de dispositivos móviles y a través de webs, SMS o apps.",
-        "pic": "Logotipo Mobusi",
-        "year": "Marzo 2017"
-      },
-      "step10": {
-        "description": "Aterrizamos oficialmente en México, continuando con nuestro trabajo de internacionalización. Apostamos por un país en el que las apps se han convertido ya un gran generador de empleo y motor de la economía.",
-        "pic": "Bandera de México",
-        "year": "Abril 2017"
-      }
-    }
-  },
   "header": {
     "telephone": "+52(55)41616024"
   },
@@ -49,55 +12,6 @@
         "title": "(55)41616024"
       }
     }
-  },
-  "home_telefonica_mpos": {
-    "_keywords": "crear app, como crear tu aplicativo, crear app Android, crear app iPhone, crear aplicativo, crear app en línea, crear aplicativo móvil",
-    "_meta_description": "Soporte y atención al cliente de Upplication, para crear app online, de Telefónica Upplication. Fácil, rápido y sin programar.",
-    "_meta_title": "Servicio de atención al cliente y soporte de Telefónica Upplication",
-    "_url": "/mx/telefonica/"
-  },
-  "internal_server_error": {
-    "_keywords": "error, 500, error 500, soporte, ayuda para crear app, como crear tu aplicativo, crear app Android, crear app iPhone, crear aplicación, crear app en línea, crear app móvil",
-    "_meta_description": "500 error interno del servidor en Upplication - creador de apps online fácil de usar, rápido y sin conocimientos de programación.",
-    "_meta_title": "500: error interno del servidor en Upplication - creador de aplicativos",
-    "_url": "/mx/error-interno-del-servidor/",
-    "suggestion": "Desplázate por nuestro menú de navegación superior a otra página dentro de nuestra web o haz clic <a href=\"@@config.base_path/\">aquí para volver al Inicio</a>."
-  },
-  "offer": {
-    "_keywords": "crear app, cómo crear tu aplicativo, crear app Android, crear app iPhone, crear aplicación, crear app en línea, crear aplicativo móvil",
-    "_meta_description": "Oferta de prácticas para desarrollador backender o frontender para Upplication, el creador de app online para ti o tu negocio.",
-    "_meta_title": "Prácticas de desarrollador en Upplication: creador de apps",
-    "_priority": "0.4",
-    "_url": "/mx/oferta-practicas-developer/"
-  },
-  "ono": {
-    "_keywords": "crear app, cómo crear un aplicativo, crear app Android, crear app iPhone, crear aplicativo, crear app en línea, crear aplicativo móvil",
-    "_meta_description": "Upplication: crear online tu propia app móvil a través de Ono Vodafone. Prueba tu app gratis 15 días",
-    "_meta_title": "Apps creadas con Vodafone Upplication",
-    "_url": "/mx/ejemplos-vodafone/"
-  },
-  "page_not_found": {
-    "_keywords": "error, 404, error 404, soporte, ayuda para crear aplicativo, cómo crear un aplicativo, crear aplicativo Android, crear aplicativo iPhone, crear aplicativo, crear app en línea, crear aplicativo móvil",
-    "_meta_description": "Upplication® Crear app, tu propio aplicativo móvil en línea. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu aplicativo para Android e iOS",
-    "_meta_title": " 404: Página no encontrada en Upplication - creador de aplicativos",
-    "_url": "/mx/pagina-no-encontrada/"
-  },
-  "prices": {
-    "_keywords": "crear aplicativo, cómo crear un aplicativo, crear app Android, crear app iPhone, crear aplicación, crear app en línea, crear app móvil",
-    "_meta_description": "Upplication® Crear app, tu propia app móvil online. Prueba GRATIS durante 15 días, sin necesidad de programación en cuestión de minutos. Tu app para Android e iOS",
-    "_meta_title": "Crea la app de tu pyme - Upplication",
-    "_priority": "0.6",
-    "_url": "/mx/precios/",
-    "rates": {
-      "sub2": "<span>Subida automática a los markets,</span> <span>nosotros publicamos tu app.</span>"
-    }
-  },
-  "prices_aplicateca": {
-    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
-    "_meta_description": "Upplication para crear online tu propia app móvil para Android e iOS a través de Aplicateca de Movistar.",
-    "_meta_title": "Precios de Upplication para Movistar Aplicateca",
-    "_priority": "0.6",
-    "_url": "/mx/precios-aplicateca/"
   },
   "modal": {
     "button": {

@@ -1,0 +1,17 @@
+{
+  "page_not_found": {
+    "_keywords": "error, 404, error 404, soporte, ayuda para crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_meta_description": "404 Página no encontrada en Upplication - creador de apps online. Prueba 15 días gratis.",
+    "_meta_title": "404: Página no encontrada en Upplication - creador de apps",
+    "_url": "/es/pagina-no-encontrada/",
+    "advice1": "Que haya tecleado incorrectamente la dirección URL.",
+    "advice2": "Que haya perdido su conexión a internet.",
+    "advice3": "Que la página esté obsoleta y haya sido eliminada.",
+    "advice4": "Que la página no exista en el idioma que solicita.",
+    "pre_advice": "Parece que la página que buscas no existe. Lo sentimos. Podría ser por alguna de estas causas:",
+    "subtitle1": "Página",
+    "subtitle2": "no encontrada",
+    "suggestion": "Desplácese a través de nuestro menú de navegación superior a otra página dentro de nuestra web o pinche <a href=\"@@config.base_path/\">aquí para volver al Inicio</a>.",
+    "title": "404"
+  }
+}

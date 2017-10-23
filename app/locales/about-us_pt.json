@@ -1,0 +1,135 @@
+{
+  "about_us": {
+    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+    "_meta_description": "Upplication \u00e9 um criador de apps online para ti ou para a tua empresa. Experimenta GR\u00c1TIS durante 15 dias, sem necessidade de programa\u00e7\u00e3o e em quest\u00e3o de minutos. Para Android e iOS",
+    "_meta_title": "Equipa de Upplication: criador de apps",
+    "_priority": "0.8",
+    "_url": "/pt/n\u00f3s/",
+    "departments": {
+      "title": "<span>Conhece</span> os nossos departamentos",
+      "develop": {
+        "img": "Todos os frikis reunidos!",
+        "text": "Cordova, AngularJS, Java, CSS, UX\u2026 Adoramos a tecnologia e somos um pouco freaks. Trabalhamos com metodologias \u00e1geis e estamos a mudar a forma nas quais as PME do mundo criam as suas apps m\u00f3veis. Todos os dias aprendemos algo novo.",
+        "title": "Dept. Desenvolvimento"
+      },
+      "marketing": {
+        "img": "O trabalho duro dos nossos vendedores",
+        "text": "Lideramos o crescimento do projeto em qualquer canto do mundo. O nosso dia-a-dia est\u00e1 orientado para os dados e para a an\u00e1lise. Sempre a pensar em como vender mais e mais r\u00e1pido. Cada vez que temos um novo cliente fazemos soar a buzina nos nossos escrit\u00f3rios.",
+        "title": "Dept. Marketing"
+      },
+      "support": {
+        "img": "A Bel\u00e9n a ligar aos nossos clientes com o seu melhor sorriso",
+        "text": "Objetivo priorit\u00e1rio que o cliente seja feliz. Falamos todos os dias com centenas de utilizadores de mais de 65 pa\u00edses do mundo. Somos muito pr\u00f3ximos e temos sempre um sorriso nos l\u00e1bios. Adoramos ajudar-te para que a tua experi\u00eancia seja rent\u00e1vel connosco.",
+        "title": "Dept. Suporte"
+      }
+    },
+    "team": {
+      "title": "<span>Conhece</span> a nossa equipa",
+      "admin": {
+        "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
+        "name": "Noem\u00ed",
+        "position": "Administra\u00e7\u00e3o",
+        "sentence": "Guardi\u00e3 das divisas",
+        "surname": "D\u00edaz Sanz",
+        "twitter": ""
+      },
+      "ceo": {
+        "linkedin": "https://es.linkedin.com/in/joseluisvds",
+        "name": "Jos\u00e9 Luis",
+        "position": "Co-fundador e CEO",
+        "sentence": "Eu mando!",
+        "surname": "Vega de Seoane Barona",
+        "twitter": "https://twitter.com/joseluisVdS"
+      },
+      "cmo": {
+        "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
+        "name": "V\u00edctor",
+        "position": "Co-fundador e CMO",
+        "sentence": "Eu tamb\u00e9m mando, eh?",
+        "surname": "Rodado Frutos",
+        "twitter": "https://twitter.com/rodadofrutos"
+      },
+      "cto": {
+        "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
+        "name": "Javier",
+        "position": "CTO",
+        "sentence": "Guru da tecnologia",
+        "surname": "Arn\u00e1iz Gonz\u00e1lez",
+        "twitter": "https://twitter.com/arnaix"
+      },
+      "design": {
+        "linkedin": "https://www.linkedin.com/in/javierlorenzofernandez",
+        "name": "Javier",
+        "position": "Arte e Desenho",
+        "sentence": "Vermelho \u00e9 uma cor...",
+        "surname": "Lorenzo Fern\u00e1ndez",
+        "twitter": "https://twitter.com/jalofernandez"
+      },
+      "content": {
+        "manager": {
+          "linkedin": "https://www.linkedin.com/in/luciapalmaescobales/",
+          "name": "Luc\u00eda",
+          "position": "Respons\u00e1vel do conte\u00fado",
+          "sentence": "Tu conta-me que eu escrevo",
+          "surname": "Palma Escobales",
+          "twitter": "https://twitter.com/luciliuliu"
+        }
+      },
+      "dev": {
+        "backend_1": {
+          "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
+          "name": "Gorka",
+          "position": "Desenvolvedor",
+          "sentence": "Ctrl + F",
+          "surname": "Jimeno Garrach\u00f3n",
+          "twitter": "https://twitter.com/gorkajg"
+        },
+        "backend_3": {
+          "linkedin": "https://www.linkedin.com/in/clara-antol\u00edn-garc\u00eda-61008070",
+          "name": "Clara",
+          "position": "Desenvolvedora",
+          "sentence": "Code girl power!",
+          "surname": "Antol\u00edn Garc\u00eda",
+          "twitter": "https://twitter.com/ClaraAntolin"
+        },
+        "frontend_1": {
+          "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+          "name": "Juan Jos\u00e9",
+          "position": "Desenvolvedor",
+          "sentence": "Java n\u00e3o \u00e9 s\u00f3 uma personagem de Star Wars",
+          "surname": "Herrero Barbosa",
+          "twitter": "https://twitter.com/dark_xuan"
+        }
+      },
+      "nextone": {
+        "position": "S\u00ea parte da nossa equipa",
+        "sentence": "Tipo novo na vizinhan\u00e7a",
+        "surname": "\u00c9s o seguinte?"
+      },
+      "support": {
+        "linkedin": "https://www.linkedin.com/in/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
+        "name": "Bel\u00e9n",
+        "position": "Aten\u00e7\u00e3o ao cliente",
+        "sentence": "A minha prioridade \u00e9s tu",
+        "support_1": {
+          "linkedin": "https://www.linkedin.com/in/bel\u00e9n-fern\u00e1ndez-p\u00e9rez-64948a85",
+          "name": "Bel\u00e9n",
+          "position": "Aten\u00e7\u00e3o ao cliente",
+          "sentence": "A minha prioridade \u00e9s tu",
+          "surname": "Fern\u00e1ndez P\u00e9rez",
+          "twitter": "https://twitter.com/BeeleenFP"
+        },
+        "support_2": {
+          "linkedin": "https://www.linkedin.com/in/margot-cap\u00f3",
+          "name": "Margot",
+          "position": "Aten\u00e7\u00e3o ao cliente",
+          "sentence": "Ajuda todo terreno",
+          "surname": "Cap\u00f3 Barroso",
+          "twitter": "https://twitter.com/Margot_cb"
+        },
+        "surname": "Fern\u00e1ndez P\u00e9rez",
+        "twitter": "https://twitter.com/BeeleenFP"
+      }
+    }
+  }
+}
