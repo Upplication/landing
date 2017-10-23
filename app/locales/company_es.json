@@ -1,0 +1,71 @@
+{
+  "company": {
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_meta_description": "Biografía y expansión internacional de Upplication: creador de apps móvil online sin necesidad de programación, en cuestión de minutos, para Android e iOS",
+    "_meta_title": "Biografía de Upplication: creador de apps",
+    "_priority": "0.9",
+    "_url": "/es/bio-de-empresa/",
+    "intro": {
+      "description": "<a href=\"https://www.youtube.com/watch?v=baU1nnAxRYI\" target=\"_blank\">Upplication</a> es la plataforma de creación de aplicaciones móviles más sencilla para ayudar a pymes, emprendedores y negocios locales a crear un nuevo canal de comunicación aportándoles soluciones, ideas y herramientas con las que puedan conseguir lo que para nosotros es lo realmente importante: fidelizar a sus clientes, incrementar sus ventas y diferenciarse de la competencia.",
+      "maintitle": "<span>¿Qué es</span> Upplication<span>?</span>"
+    },
+    "timeline": {
+      "maintitle": "<span>Nuestra</span> biografía",
+      "step1": {
+        "description": "<span> Lanzamos Upplication </span> para que cualquier propietario de negocio pudiera crear su aplicación móvil de manera sencilla y sin ningún conocimiento de programación, un servicio que habitualmente estaba fuera de su alcance debido a su elevado coste.",
+        "pic": "Lanzamos Upplication",
+        "year": "Octubre 2013"
+      },
+      "step2": {
+        "description": "Cerramos nuestra <a href=\"https://www.eureka-experts.com/news/upplication-llega-a-latinoamerica-posicionandose-como-uno-de-los-principales-creadores-de-apps-del-mundo\" target=\"_blank\"> primera ronda de financiación de 277.000€ </a> procedentes de Business angels europeos, lo que nos permitió iniciar la fase de <span> internacionalización </span> llegando a Latinoamérica.",
+        "pic": "Primera ronda de financiación",
+        "year": "Enero 2014"
+      },
+      "step3": {
+        "description": "En mayo de 2014 fuimos seleccionados por <span> Wayra (Telefónica) </span> entre más de 660 proyectos de toda España para su <a href=\"https://www.upplication.com/blog/wayra-espana-2014/\" target=\"_blank\">Programa de aceleración de startups</a>.",
+        "pic": "Logotipo Wayra (Telefónica)",
+        "year": "Mayo 2014"
+      },
+      "step4": {
+        "description": "Alcanzamos un <a href=\"http://www.vodafone.es/empresas/es/descubre-vodafone/sectores/comercio/\" target=\"_blank\"> acuerdo de Integración comercial con Vodafone </a> completando su Plan de soluciones para empresas apoyando y ayudando a las pymes en su crecimiento.",
+        "pic": "Logotipo Vodafone",
+        "year": "Octubre 2014"
+      },
+      "step5": {
+        "description": "Ya tenemos <span> clientes en 75 países del mundo siguiendo </span>uno de nuestros principales objetivos: la <span> expansión internacional</span>.",
+        "pic": "Expansión internacional",
+        "year": "Mayo 2015"
+      },
+      "step6": {
+        "description": "Cerramos nuestra <a href=\"http://novobrief.com/upplication-funding/\" target=\"_blank\"> segunda ronda de financiación de 1.1 Millones de € </a> liderada por el fondo de inversión <a href=\"http://corpgn.com/\" target=\"_blank\"> Corporation Global </a>, de origen español, y en la que también participaron un grupo de destacados Business Angels.",
+        "pic": "Segunda ronda de financiación",
+        "year": "Noviembre 2015"
+      },
+      "step7": {
+        "description": "Alcanzamos un <a href=\"http://www.telefonica.com/es/business_solutions/html/sme/home.shtml\" target=\"_blank\"> acuerdo de Integración comercial con Telefónica España </a> con el que continuaremos aportando nuestro conocimiento y experiencia para impulsar a las pymes.",
+        "pic": "Logotipo Telefónica",
+        "year": "Diciembre 2015"
+      },
+      "step8": {
+        "description": "Alcanzamos la cifra de <a href=\"https://blog.upplication.com/ya-estamos-en-78-paises/\" target=\"_blank\">30.000 usuarios en 78 países de todo el mundo</a>, ¡y seguimos creciendo!",
+        "pic": "Expansión internacional",
+        "year": "Junio 2016"
+      },
+      "step9": {
+        "description": "<a href=\"https://blog.upplication.com/mobusi-adquiere-upplication/\" target=\"_blank\">Upplication es adquirido por Mobusi by Fibonad</a>, de esta forma, ambas empresas refuerzan su apuesta por el negocio digital a través de dispositivos móviles y a través de webs, SMS o apps.",
+        "pic": "Logotipo Mobusi",
+        "year": "Marzo 2017"
+      },
+      "step10": {
+        "description": "Aterrizamos oficialmente en México, continuando con nuestro trabajo de internacionalización. Apostamos por un país en el que las apps se han convertido ya un gran generador de empleo y motor de la economía.",
+        "pic": "Bandera de México",
+        "year": "Abril 2017"
+      }
+    },
+    "worldmap": {
+      "sub_title": "Ayudando a crecer a más de <span> 30.000 pymes </span> en todo el mundo",
+      "title": "<span>Somos</span> internacionales",
+      "worldmap_img": "Mapa de expansión internacional de Upplication"
+    }
+  }
+}

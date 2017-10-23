@@ -1,0 +1,134 @@
+{
+  "about_us": {
+    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "Upplication is an online app builder to do apps yourself, for your business. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Upplication team, the app creator for your business",
+    "_priority": "0.8",
+    "_url": "/id/about-us/",
+    "departments": {
+      "title": "<span>Meet</span> Our Departments",
+      "develop": {
+        "img": "All the freak ones!",
+        "text": "Cordova, AngularJS, Java, CSS, UX…. We love technology and we’re a little obsessed with it. We work in a flexible and easy way and we are always changing the way in which SMEs in the world create their mobile application. We learn something new every day.",
+        "title": "Dept. of Develop"
+      },
+      "marketing": {
+        "img": "Salesman working hard",
+        "text": "Our goal is to bring this project to every corner in the world. Our every day life is dedicated to data and analysis. Always thinking of how to sell more in less time. Every time we get a new client, we blow a horn in the office to celebrate.",
+        "title": "Dept. of Marketing"
+      },
+      "support": {
+        "img": "Belén is calling with his best smile",
+        "text": "Our main objective is to make our costumers happy. Every day, we talk to hundreds of clients from more than 65 countries. We are very approachable and we always have a smile on our faces. We love to help, so that you have a pleasant and beneficial experience.",
+        "title": "Dept. of Support"
+      }
+    },
+    "team": {
+      "title": "<span>Meet</span> Our Team",
+      "admin": {
+        "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
+        "name": "Noemí",
+        "position": "Admin Manager",
+        "sentence": "Accounts Keeper",
+        "surname": "Díaz Sanz"
+      },
+      "ceo": {
+        "linkedin": "https://www.linkedin.com/in/joseluisvds",
+        "name": "José Luis",
+        "position": "Co-founder & CEO",
+        "sentence": "I command!",
+        "surname": "Vega de Seoane Barona",
+        "twitter": "https://twitter.com/joseluisVdS"
+      },
+      "cmo": {
+        "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
+        "name": "Víctor",
+        "position": "Co-founder & CMO",
+        "sentence": "I command too, uh!",
+        "surname": "Rodado Frutos",
+        "twitter": "https://twitter.com/rodadofrutos"
+      },
+      "cto": {
+        "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
+        "name": "Javier",
+        "position": "CTO",
+        "sentence": "Technology Master",
+        "surname": "Arnáiz González",
+        "twitter": "https://twitter.com/arnaix"
+      },
+      "design": {
+        "linkedin": "https://www.linkedin.com/in/javierlorenzofernandez",
+        "name": "Javier",
+        "position": "Arts & Design Manager",
+        "sentence": "Red is a color...",
+        "surname": "Lorenzo Fernández",
+        "twitter": "https://twitter.com/jalofernandez"
+      },
+      "content": {
+        "manager": {
+          "linkedin": "https://www.linkedin.com/in/luciapalmaescobales/",
+          "name": "Lucía",
+          "position": "Content manager",
+          "sentence": "You tell me and I write it!",
+          "surname": "Palma Escobales",
+          "twitter": "https://twitter.com/luciliuliu"
+        }
+      },
+      "dev": {
+        "backend_1": {
+          "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
+          "name": "Gorka",
+          "position": "Developer",
+          "sentence": "Ctrl + F",
+          "surname": "Jimeno Garrachón",
+          "twitter": "https://twitter.com/gorkajg"
+        },
+        "backend_3": {
+          "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
+          "name": "Clara",
+          "position": "Developer",
+          "sentence": "Code girl power!",
+          "surname": "Antolín García",
+          "twitter": "https://twitter.com/ClaraAntolin"
+        },
+        "frontend_1": {
+          "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+          "name": "Juan José",
+          "position": "Developer",
+          "sentence": "Java is not only a Star Wars character",
+          "surname": "Herrero Barbosa",
+          "twitter": "https://twitter.com/dark_xuan"
+        }
+      },
+      "nextone": {
+        "position": "Be part of our team",
+        "sentence": "New fella in da hood",
+        "surname": "Are you the next one?"
+      },
+      "support": {
+        "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+        "name": "Belén",
+        "position": "Customer & Support",
+        "sentence": "Customers Priority",
+        "support_1": {
+          "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+          "name": "Belén",
+          "position": "Customer & Support",
+          "sentence": "Customers Priority",
+          "surname": "Fernández Pérez",
+          "twitter": "https://twitter.com/BeeleenFP"
+        },
+        "support_2": {
+          "linkedin": "https://www.linkedin.com/in/margot-capó",
+          "name": "Margot",
+          "position": "Customer & Support",
+          "sentence": "All kind of truly help",
+          "surname": "Capó Barroso",
+          "twitter": "https://twitter.com/Margot_cb"
+        },
+        "surname": "Fernández Pérez",
+        "twitter": "https://twitter.com/BeeleenFP"
+      }
+    }
+  }
+}

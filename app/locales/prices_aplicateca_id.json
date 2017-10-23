@@ -1,0 +1,228 @@
+{
+  "prices_aplicateca": {
+    "_keywords": "create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "Upplication to do apps yourself, for you or your business in Movistar Aplicateca. It is easy, without coding, and quick, in few minutes.",
+    "_meta_title": "Upplication Pricing plans in Movistar Aplicateca",
+    "_priority": "0.6",
+    "_url": "/id/prices-aplicateca/",
+    "all_plans_include": {
+      "list": [
+        {
+          "icon": "icon icon-comment-empty",
+          "text": "Dukungan pelanggan melalui e-mail, obrolan, dan telepon."
+        },
+        {
+          "icon": "icon icon-upload",
+          "text": "Unggah otomatis ke semua App Stores, kami menerbitkan aplikasi Anda."
+        },
+        {
+          "icon": "icon icon-tablet",
+          "text": "Web responsif, mendukung banyak perangkat."
+        },
+        {
+          "icon": "icon icon-graduation-cap",
+          "text": "Tutor pribadi."
+        }
+      ],
+      "title": "Semua paket harga termasuk"
+    },
+    "contact": {
+      "customer_service": {
+        "email": {
+          "link": "mailto:aplicateca@upplication.com",
+          "text": "aplicateca@upplication.com",
+          "title": "aplicateca@upplication.com"
+        },
+        "phone": {
+          "link": "tel:0034917958203",
+          "text": "+34 917 958 203 (gratis)",
+          "title": "+34 917 958 203"
+        },
+        "text": "Layanan pelanggan:"
+      }
+    },
+    "custom_app": {
+      "subtitle": "Kami akan menjelaskan bagaimana kita melakukannya",
+      "title": "Membangun aplikasi Anda sendiri dengan kami",
+      "btn": "mailto:aplicateca@upplication.com",
+      "copy": "Menulis kami"
+    },
+    "dollar": "$",
+    "euro": "€",
+    "free_trial": "Coba gratis",
+    "iva_included": "tidak ada pajak",
+    "month": "bulan",
+    "monthly": "Bulanan",
+    "most_popular_plan": "Kebanyakan rencana populer",
+    "permanency": "* Keabadian 3 bulan",
+    "plans": [
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-basic",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-megaphone",
+            "title": "Iklan Upplication"
+          },
+          {
+            "icon_class": "icon icon-pencil",
+            "title": "Cap air pada pola"
+          },
+          {
+            "icon_class": "icon icon-paper-plane",
+            "title": "<span class=\"bold\">Tidak ada</span><span>pemberitahuan push</span>"
+          },
+          {
+            "icon_class": "icon icon-chart-line",
+            "title": "Statistik di aplikasi Anda"
+          }
+        ],
+        "name": "Dasar",
+        "surname": "Selamat datang rencana.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-copper.svg",
+          "title": "Upplication Basic plan"
+        },
+        "price": "8.25",
+        "price_dollars": "8.25",
+        "price_yearly": "82.50",
+        "price_yearly_dollars": "82.50"
+      },
+      {
+        "btn_class": "btn-green",
+        "class_name": "plan-professional",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-megaphone",
+            "title": "<span class=\"bold\">Tidak ada</span><span> Iklan Upplication</span>"
+          },
+          {
+            "icon_class": "icon icon-pencil",
+            "title": "<span class=\"bold\">Tidak ada</span><span>cap air pada pola</span>"
+          },
+          {
+            "icon_class": "icon icon-paper-plane",
+            "title": "4 pemberitahuan push / bulan"
+          },
+          {
+            "icon_class": "icon icon-chart-line",
+            "title": "Statistik di aplikasi Anda"
+          }
+        ],
+        "name": "Profesional",
+        "surname": "Rencana peluncur bisnis.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-silver.svg",
+          "title": "Upplication Professional plan"
+        },
+        "price": "24.75",
+        "price_dollars": "24.75",
+        "price_yearly": "247.50",
+        "price_yearly_dollars": "247.50"
+      },
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-premium",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-megaphone",
+            "title": "<span class=\"bold\">Tidak ada</span><span> Iklan Upplication</span>"
+          },
+          {
+            "icon_class": "icon icon-pencil",
+            "title": "<span class=\"bold\">Tidak ada</span><span>cap air pada pola</span>"
+          },
+          {
+            "icon_class": "icon icon-paper-plane",
+            "title": "Pemberitahuan push tak terbatas"
+          },
+          {
+            "icon_class": "icon icon-chart-line",
+            "title": "Statistik di aplikasi Anda"
+          }
+        ],
+        "name": "Premium",
+        "surname": "Dimasukkan ke dalam orbit",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-gold.svg",
+          "title": "Plan Premium de Upplication"
+        },
+        "price": "49,55",
+        "price_dollars": "49,55",
+        "price_yearly": "495,50",
+        "price_yearly_dollars": "495,50"
+      },
+      {
+        "btn_class": "btn-grey",
+        "class_name": "plan-create",
+        "features": [
+          {
+            "icon_class": "icon icon-tablet",
+            "title": "Android / iOS (iPhone) / Web"
+          },
+          {
+            "icon_class": "icon icon-ok",
+            "title": "<span class=\"bold\">Premium Plan</span><span>dan</span>"
+          },
+          {
+            "icon_class": "icon icon-cog",
+            "title": "<span class=\"bold\">kita buat</span><span>aplikasi Anda</span>"
+          },
+          {
+            "icon_class": "icon icon-ccw",
+            "title": "<span class=\"bold\">3</span><span>meningkatkan per tahun</span>"
+          },
+          {
+            "icon_class": "icon icon-graduation-cap",
+            "title": "<span class=\"bold\">Marketing Apps</span><span>kursus gratis</span>"
+          },
+          {
+            "icon_class": "icon icon-certificate",
+            "title": "<span class=\"bold\">stiker</span><span>untuk bisnis Anda</span>"
+          }
+        ],
+        "name": "Kita lakukan",
+        "surname": "Kami membuat aplikasi anda.",
+        "img": {
+          "src": "@@config.base_path/images/home/icons/rocket-blue.svg",
+          "title": "Upplication kita lakukan aplikasi Anda"
+        },
+        "price": "79,90",
+        "price_dollars": "79,90",
+        "price_yearly": "799,00",
+        "price_yearly_dollars": "799,00"
+      }
+    ],
+    "special_plans": [
+      {
+        "btn_text": "Leave us your data",
+        "features": [
+          "All advantages from premium plan",
+          "We help you with the design of your app",
+          "We promote your app"
+        ],
+        "has_permanency": true,
+        "name": "Executive *",
+        "price": "247.90",
+        "price_dollars": "247.90",
+        "price_yearly": "2479.00",
+        "price_yearly_dollars": "2479.00"
+      }
+    ],
+    "title": "Paket harga",
+    "year": "tahun",
+    "yearly": "Tahunan"
+  }
+}
