@@ -1,0 +1,135 @@
+{
+  "about_us": {
+    "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
+    "_meta_description": "Upplication es un creador de apps online para ti o para tu empresa. Prueba GRATIS durante 15 días, sin necesidad de programación y en cuestión de minutos. Para Android e iOS",
+    "_meta_title": "Equipo de Upplication: creador de apps",
+    "_priority": "0.8",
+    "_url": "/es/nosotros/",
+    "departments": {
+      "title": "<span>Conoce</span> nuestros departamentos",
+      "develop": {
+        "img": "¡Todos los frikis reunidos!",
+        "text": "Cordova, AngularJS, Java, CSS, UX… Somos los que hemos desarrollado la plataforma más sencilla (y más bonita) para que puedas <b>crear una aplicación móvil sin conocimientos de informática</b>. Trabajamos con metodologías ágiles porque somos conscientes de la importancia de la <b>innovación en el mundo empresarial</b> y cada día nos esforzamos en aprender algo nuevo para mejorar tantos los procesos como la plataforma. ¡Nos encanta la tecnología y somos un poco (bastante) freaks!",
+        "title": "Dpto. Desarrollo"
+      },
+      "marketing": {
+        "img": "El trabajo duro de nuestros vendedores",
+        "text": "Objetivo: crecer, crecer y crecer. Ya <b>tenemos clientes en 78 países de todo el mundo</b> y lideramos el crecimiento del proyecto a través de acciones conjuntas de Marketing y Comunicación. Nuestro día a día está orientado a los datos y la analítica. Somos <b>expertos en Mobile</b> y también ofrecemos a nuestros clientes formación continua con <b>contenido en nuestro blog</b>, <b>cursos</b>, <b>eBooks</b>, <b>talleres</b>, etc.¡Cada vez que tenemos un nuevo cliente, hacemos sonar un bocina la oficina!",
+        "title": "Dpto. Marketing"
+      },
+      "support": {
+        "img": "Belén llamando a nuestros clientes con su mejor sonrisa",
+        "text": "Objetivo: asesorarte antes, durante y después de la creación de tu aplicación móvil. Cada cliente es único y <b>te ofrecemos una ayuda personalizada porque somos expertos en creación y desarrollo de aplicaciones móviles</b>. Somos muy cercanos y tu opinión es muy importante para nosotros para mejorar nuestro producto y conseguir que tu experiencia con nosotros se convierta en algo rentable para tu empresa. ¡Y todo esto siempre con la mejor de las sonrisas en la boca!",
+        "title": "Dpto. Soporte"
+      }
+    },
+    "team": {
+      "title": "<span>Conoce a</span> nuestro equipo",
+      "admin": {
+        "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
+        "name": "Noemí",
+        "position": "Administración",
+        "sentence": "Guardiana de las divisas",
+        "surname": "Díaz Sanz",
+        "twitter": ""
+      },
+      "ceo": {
+        "linkedin": "https://es.linkedin.com/in/joseluisvds",
+        "name": "José Luis",
+        "position": "Cofundador y CEO",
+        "sentence": "¡Yo mando!",
+        "surname": "Vega de Seoane Barona",
+        "twitter": "https://twitter.com/joseluisVdS"
+      },
+      "cmo": {
+        "linkedin": "https://www.linkedin.com/in/victorrodadofrutos",
+        "name": "Víctor",
+        "position": "Cofundador y CMO",
+        "sentence": "Yo también mando, ¿eh?",
+        "surname": "Rodado Frutos",
+        "twitter": "https://twitter.com/rodadofrutos"
+      },
+      "cto": {
+        "linkedin": "https://www.linkedin.com/in/javierarnaizgonzalez",
+        "name": "Javier",
+        "position": "CTO",
+        "sentence": "Gurú de la tecnología",
+        "surname": "Arnáiz González",
+        "twitter": "https://twitter.com/arnaix"
+      },
+      "design": {
+        "linkedin": "https://www.linkedin.com/in/javierlorenzofernandez",
+        "name": "Javier",
+        "position": "Arte y Diseño",
+        "sentence": "Rojo es un color...",
+        "surname": "Lorenzo Fernández",
+        "twitter": "https://twitter.com/jalofernandez"
+      },
+      "content": {
+        "manager": {
+          "linkedin": "https://www.linkedin.com/in/luciapalmaescobales/",
+          "name": "Lucía",
+          "position": "Responsable de contenido",
+          "sentence": "Tu cuéntame que yo lo escribo",
+          "surname": "Palma Escobales",
+          "twitter": "https://twitter.com/luciliuliu"
+        }
+      },
+      "dev": {
+        "backend_1": {
+          "linkedin": "https://www.linkedin.com/in/gorka-jimeno-99345397",
+          "name": "Gorka",
+          "position": "Desarrollador",
+          "sentence": "Ctrl + F",
+          "surname": "Jimeno Garrachón",
+          "twitter": "https://twitter.com/gorkajg"
+        },
+        "backend_3": {
+          "linkedin": "https://www.linkedin.com/in/clara-antolín-garcía-61008070",
+          "name": "Clara",
+          "position": "Desarrolladora",
+          "sentence": "Code girl power!",
+          "surname": "Antolín García",
+          "twitter": "https://twitter.com/ClaraAntolin"
+        },
+        "frontend_1": {
+          "linkedin": "https://www.linkedin.com/in/juan-jos%C3%A9-herrero-barbosa-840a7a89",
+          "name": "Juan José",
+          "position": "Desarrollador",
+          "sentence": "Java no sólo es un personaje de Star Wars",
+          "surname": "Herrero Barbosa",
+          "twitter": "https://twitter.com/dark_xuan"
+        }
+      },
+      "nextone": {
+        "position": "Sé parte de nuestro equipo",
+        "sentence": "Tipo nuevo en el vecindario",
+        "surname": "¿Eres el siguiente?"
+      },
+      "support": {
+        "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+        "name": "Belén",
+        "position": "Atención al cliente",
+        "sentence": "Mi prioridad eres tú",
+        "support_1": {
+          "linkedin": "https://www.linkedin.com/in/belén-fernández-pérez-64948a85",
+          "name": "Belén",
+          "position": "Atención al cliente",
+          "sentence": "Mi prioridad eres tú",
+          "surname": "Fernández Pérez",
+          "twitter": "https://twitter.com/BeeleenFP"
+        },
+        "support_2": {
+          "linkedin": "https://www.linkedin.com/in/margot-capó",
+          "name": "Margot",
+          "position": "Atención al cliente",
+          "sentence": "Ayuda todoterreno",
+          "surname": "Capó Barroso",
+          "twitter": "https://twitter.com/Margot_cb"
+        },
+        "surname": "Fernández Pérez",
+        "twitter": "https://twitter.com/BeeleenFP"
+      }
+    }
+  }
+}

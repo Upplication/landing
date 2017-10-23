@@ -45,7 +45,7 @@
   font-family: "Lato", sans-serif;
 }
 
-/* ... TEXT SELECTED COLOR ... */
+/* ... (common) TEXT SELECTED COLOR ... */
 
 ::selection {
   background: @telefonica;
@@ -57,6 +57,19 @@
   color: @white;
 }
 
+/* ... (common) CUSTOM SCROLL BAR ... */
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: @light-lilac;
+}
+
+::-webkit-scrollbar-thumb {
+  background: @telefonica-hover;
+  border: 0px none @white;
+  border-radius: 10px;
+}
 
 // MAIN HEADERS (SECTIONS)
 .headTitles {
@@ -199,6 +212,7 @@
             }
             // pricing plan SURNAME (claim)
             p {
+              font-weight: 400;
               text-align: center;
               padding-bottom: 10px;
             }
@@ -226,6 +240,9 @@
                 }
                 &.most-popular {
                   padding: .8em 0;
+                }
+                &.price-details {
+                  font-weight: 400;
                 }
               }
             }
@@ -269,6 +286,7 @@
     .prices-aplicateca-exceptions {
       p {
         text-align: center;
+        font-weight: 400;
       }
     }
   }
@@ -306,6 +324,7 @@
           }
 
           h3 {
+            font-weight: 400;
             color: #333;
           }
 
@@ -460,6 +479,7 @@
   // Aplicateca�s Terms TEXT
   p {
     color: #222;
+    font-weight: 400;
     text-align: justify;
     line-height: 1.8em;
   }
@@ -1063,19 +1083,6 @@ i.icon {
   -ms-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
   -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
-}
-
-
-/* ... TEXT SELECTED COLOR ... */
-
-::selection {
-  background: @main-green;
-  color: @white;
-}
-
-::-moz-selection {
-  background: @main-green;
-  color: @white;
 }
 
 /* ... to add Shadow Hover Effect in images ... */
