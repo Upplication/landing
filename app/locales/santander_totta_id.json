@@ -13,7 +13,7 @@
       "touchbizz": {
         "logo": {
           "url": "@@config.base_path/id/santandertotta/",
-          "title": "SmartBizz logo"
+          "title": "TouchBizz logo"
         }
       },
       "teledemo": {
@@ -23,7 +23,7 @@
       "slider": {
         "img_01": "Com uma app o seu negócio vai ficar",
         "intro1": "Com uma app o seu negócio vai ficar",
-        "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, <b>criámos o SmartBizz</b>.",
+        "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, <b>criámos o TouchBizz</b>.",
         "text": [
           "emprendedores",
           "hostelería",
@@ -48,11 +48,11 @@
           "code": "Kode validasi"
         },
         "footer": {
-          "copy": "touchbizz by"
+          "copy": "TouchBizz by"
         }
       },
       "business": {
-        "touchbizz": "Santander Totta SmartBizz",
+        "touchbizz": "Santander Totta TouchBizz",
         "restaurants": "Restoran",
         "shops": "Toko online",
         "health": "Kesehatan",
@@ -66,8 +66,8 @@
           "hostelry": "<li>Manajer pemesanan</li> <li>Katalog layanan</li> <li>Manajer pembayaran online</li> <li>Alert promosi (diskon)</li>"
         }
       },
-      "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, <b>no SmartBizz do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
-      "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupaçao será a relação com os seus clientes e nada mais. O <b>SmartBizz</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para actualizar o seu negócio.",
+      "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, <b>no TouchBizz do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
+      "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupaçao será a relação com os seus clientes e nada mais. O <b>TouchBizz</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para actualizar o seu negócio.",
       "pricing": {
         "btn": "Contratar agora",
         "basic": {
