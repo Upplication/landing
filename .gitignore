@@ -6,3 +6,5 @@ node_modules
 design
 onesky.json
 *.log
+*.DS_Store
+package-lock.json
