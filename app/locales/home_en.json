@@ -11,8 +11,9 @@
       "how_four": {
         "publish_step1": "We publish your App",
         "publish_step2": "<b>We will publish your app</b> at all the different App Stores (Apple, Android).",
-        "publish_step3": "Our apps are support <b>multiple devices</b> (mobile, tablet, Pc, Mac...).",
-        "publish_step4": "Shall we start?"
+        "publish_step3": "If you want to see your app in the App Store you must have a developer account. If you doesn't have one, we help you to create it",
+        "publish_step4": "Our apps are support <b>multiple devices</b> (mobile, tablet, Pc, Mac...).",
+        "publish_step5": "Shall we start?"
       },
       "how_main": "Create your App in a few minutes with professional support",
       "how_one": {

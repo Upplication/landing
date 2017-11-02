@@ -60,6 +60,7 @@
       "with_tax": "<strong>VAT included</strong> in all prices.",
       "exchange_rate": "This currency conversion is an approximation. The final charge will be made in <strong>euros</strong> and your bank will be responsible for calculating this final exchange rate.",
       "permanence": "<em>Premium</em> Plan have a 6 mounths commitment of permanence.",
+      "appleStore": "Para publicar tu app móvil en la App Store de Apple necesitas tener tu propia cuenta de desarrollador. Esta cuenta tiene un coste de 99€ (IVA incl.) al año, nosotros nos encargaremos contigo de publicar tu app móvil en las tiendas de Apple.",
       "yearly": "Annual plan",
       "choose_currency": "Choose currency:"
     }

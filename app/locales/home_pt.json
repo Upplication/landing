@@ -11,8 +11,9 @@
       "how_four": {
         "publish_step1": "Publicamos a tua App",
         "publish_step2": "<b>N\u00f3s encarregamo-nos de fazer upload da app</b> aos diferentes markets (Apple, Android).",
-        "publish_step3": "Todas as nossas apps s\u00e3o  <b>multidispositivo</b> (telem\u00f3vel, tablet, Pc, Mac...).",
-        "publish_step4": "Shall we start?"
+        "publish_step3": "Para que tu app esté ubicada en el App Store de Apple tendrás que crear tu propia cuenta de desarrollador, nosotros te ayudamos a crearla contigo",
+        "publish_step4": "Todas as nossas apps s\u00e3o  <b>multidispositivo</b> (telem\u00f3vel, tablet, Pc, Mac...).",
+        "publish_step5": "Shall we start?"
       },
       "how_main": "Cria a tua app facilmente",
       "how_one": {
