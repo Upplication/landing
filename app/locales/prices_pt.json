@@ -7,7 +7,7 @@
     "_url": "/pt/pre\u00e7os/",
     "rates": {
       "all_push": "Notifica\u00e7\u00f5es push <strong>ilimitadas</strong>",
-      "app_web": "Android / iOS / Web",
+      "app_web": "Web / Android / iOS <b>***</b>",
       "basic": "B\u00c1SICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
       "per_month": "/ m\u00eas *",
@@ -59,6 +59,7 @@
       "with_tax": "Todos os pre\u00e7os <strong>incluem IVA</strong>.",
       "exchange_rate": "Esta convers\u00e3o de moeda \u00e9 uma aproxima\u00e7\u00e3o. A cobran\u00e7a final ser\u00e1 realizada em <strong>euros</strong> e ser\u00e1 o teu banco o encarregado de calcular a taxa de c\u00e2mbio final.",
       "permanence": "<em>Premium</em> voc\u00ea tem 6 meses compromisso de perman\u00eancia.",
+      "appleStore": "Para publicar o teu aplicativo móvel na <em>App Store</em>, da <strong>Apple</strong>, necessitas ter a tua própria conta de desenvolvedor. Esta conta tem um custo de 99 € (IVA incluído) por ano. Nós nos encarregaremos de publicar o teu aplicativo móvel na <em>App Store</em>.",
       "yearly": "Plano Anual",
       "choose_currency": "Escolher moeda:"
     }
