@@ -13,11 +13,11 @@ block content
 
     //- MIXIN Declarations
     mixin webapp
-        a(href='#', title='#{prices.rates.app_web}')
+        a(href='#', title='!{prices.rates.app_web}')
             i.icon.icon-desktop-alt
             i.icon.icon-android
             i.icon.icon-apple
-            | #{prices.rates.app_web}
+            | !{prices.rates.app_web}
 
 
     //- CLIENTS
@@ -271,6 +271,11 @@ block content
                             i.icon.icon-asterisk
                             i.icon.icon-asterisk
                             | !{prices.rates.permanence}
+                        p
+                            i.icon.icon-asterisk
+                            i.icon.icon-asterisk
+                            i.icon.icon-asterisk
+                            | !{prices.rates.appleStore}
 
                 //- Common Features for all plans
                 .plans-head.center-align
