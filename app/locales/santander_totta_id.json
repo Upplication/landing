@@ -1,19 +1,19 @@
 {
   "santander_totta": {
-    "_keywords": "create app, how do I create my app, create android app, create iphone app, create application, create online app, create mobile app, build your own app, bui-d an app, app builder",
-    "_meta_description": "TouchBizz by Santander Totta and Upplication App builder, your own online app. Create the app for your business, no coding required, fast and simple. Android and iOS app",
-    "_meta_title": "TouchBizz oleh Santander Totta dan Upplication",
+    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
+    "_meta_description": "Upplication Criar app, a tua própria app móvel online. Experimenta livre durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
+    "_meta_title": "TouchBizz por Santander Totta e Upplication",
     "_priority": "0.8",
     "_url": "/id/santandertotta/",
     "home": {
       "logo": {
         "url": "@@config.base_path/id/santandertotta/",
-        "title": "Santander Totta logo"
+        "title": "Santander Totta logotipo"
       },
       "touchbizz": {
         "logo": {
           "url": "@@config.base_path/id/santandertotta/",
-          "title": "TouchBizz logo"
+          "title": "TouchBizz logotipo"
         }
       },
       "teledemo": {
@@ -25,18 +25,18 @@
         "intro1": "Com uma app o seu negócio vai ficar",
         "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, <b>criámos o TouchBizz</b>.",
         "text": [
-          "emprendedores",
-          "hostelería",
-          "servicios",
-          "tiendas",
-          "ti"
+          "mais smart",
+          "mais smart",
+          "mais smart",
+          "mais smart",
+          "mais smart"
         ],
         "advice": {
           "quote": "Preço exclusivo para clientes Banco Santander Totta",
           "price": {
             "intro": "Por apenas",
             "price": "7",
-            "currency": "€",
+            "currency": "´95 €",
             "date": "Més",
             "more": "Descubra mais",
             "link": "aquí"
@@ -45,7 +45,7 @@
       },
       "form": {
         "input": {
-          "code": "Kode validasi"
+          "code": "Código de validação"
         },
         "footer": {
           "copy": "TouchBizz by"
@@ -53,17 +53,17 @@
       },
       "business": {
         "touchbizz": "Santander Totta TouchBizz",
-        "restaurants": "Restoran",
-        "shops": "Toko online",
-        "health": "Kesehatan",
-        "services": "Jasa",
-        "hostelry": "Perhotelan",
+        "restaurants": "Restaurantes",
+        "shops": "Lojas online",
+        "health": "Saúde",
+        "services": "Serviços",
+        "hostelry": "Hoteleria",
         "tips": {
-          "restaurants": "<li>Menus</li> <li>Pemesanan</li> <li>Bawa pulang</li> <li>Alert promosi (diskon)</li>",
-          "shops": "<li>Katalog produk</li> <li>Toko online</li> <li>Manajer pembayaran online</li> <li>Alert promosi (diskon)</li>",
-          "health": "<li>Jadwal bisnis</li> <li>Tunggu manajer waktu</li> <li>Spesialisasi</li> <li>Manajer pembayaran online</li>",
-          "services": "<li>Syarat & kondisi layanan</li> <li>Promosi eksklusif</li> <li>Kontrak & pembayaran online</li> <li>Jadwal & promosi</li>",
-          "hostelry": "<li>Manajer pemesanan</li> <li>Katalog layanan</li> <li>Manajer pembayaran online</li> <li>Alert promosi (diskon)</li>"
+          "restaurants": "<li>Ementas</li> <li>Reservas</li> <li>Take Away</li> <li>Alerta de promoções (descontos)</li>",
+          "shops": "<li>Apresentação de producto</li> <li>Venda online</li> <li>Pagamentos online</li> <li>Alerta de promoções(descontos)</li>",
+          "health": "<li>Horários de atendimento</li> <li>Gestão de tempos de espera</li> <li>Especialidades</li> <li>Pagamentos online</li>",
+          "services": "<li>Condições dos serviços prestados</li> <li>Ofertas exclusivas</li> <li>Contratação e pagamentos online</li> <li>Horários e promoções</li>",
+          "hostelry": "<li>Reservas e disponibilidade</li> <li>Apresentação de serviços</li> <li>Pagamento online</li> <li>Alerta de promoções (descontos)</li>"
         }
       },
       "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, <b>no TouchBizz do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
@@ -74,19 +74,19 @@
           "alt": "Plano de preços básico",
           "title": "Básico",
           "claim": "Plano de boas-vindas",
-          "price": "<li>7.95</li> <li>€</li> <li>/</li> <li>Més</li>"
+          "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Més</li>"
         },
         "profisional": {
           "alt": "Plano de preços profisional",
           "title": "Profisional",
           "claim": "Plano de lançador de negócios",
-          "price": "<li>24.95</li> <li>€</li> <li>/</li> <li>Més</li>"
+          "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Més</li>"
         },
         "premium": {
           "alt": "Plano de preços premium",
           "title": "Premium",
           "claim": "Colocar em órbita seu negócio",
-          "price": "<li>49.95</li> <li>€</li> <li>/</li> <li>Més</li>"
+          "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Més</li>"
         }
       }
     }
