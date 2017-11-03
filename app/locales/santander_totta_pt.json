@@ -13,7 +13,7 @@
       "touchbizz": {
         "logo": {
           "url": "@@config.base_path/pt/santandertotta/",
-          "title": "TouchBizz logo"
+          "title": "TouchBizz logotipo"
         }
       },
       "teledemo": {
@@ -36,7 +36,7 @@
           "price": {
             "intro": "Por apenas",
             "price": "7",
-            "currency": "€",
+            "currency": "´95 €",
             "date": "Més",
             "more": "Descubra mais",
             "link": "aquí"

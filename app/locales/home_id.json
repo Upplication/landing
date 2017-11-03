@@ -11,8 +11,9 @@
       "how_four": {
         "publish_step1": "Kami menerbitkan Aplikasi Anda",
         "publish_step2": "<b>Kami akan menerbitkan aplikasi Anda</b> di semua App Store berbeda (Apple, Android).",
-        "publish_step3": "Aplikasi kami mendukung <b>banyak perangkat</b> (mobile, tablet, PC, Mac...).",
-        "publish_step4": "Shall we start?"
+        "publish_step3": "If you want to see your app in the App Store you must have a developer account. If you doesn't have one, we help you to create it",
+        "publish_step4": "Aplikasi kami mendukung <b>banyak perangkat</b> (mobile, tablet, PC, Mac...).",
+        "publish_step5": "Shall we start?"
       },
       "how_main": "Buat aplikasi Anda dengan mudah",
       "how_one": {

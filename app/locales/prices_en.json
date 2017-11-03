@@ -7,7 +7,7 @@
     "_url": "/en/prices/",
     "rates": {
       "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push",
-      "app_web": "Android / iOS / Web",
+      "app_web": "Web / Android / iOS <b>***</b>",
       "basic": "BASIC",
       "bullhorn": "Upplication <strong>Ads</strong>",
       "per_month": "/ month *",
@@ -60,6 +60,7 @@
       "with_tax": "<strong>VAT included</strong> in all prices.",
       "exchange_rate": "This currency conversion is an approximation. The final charge will be made in <strong>euros</strong> and your bank will be responsible for calculating this final exchange rate.",
       "permanence": "<em>Premium</em> Plan have a 6 mounths commitment of permanence.",
+      "appleStore": "In order to publish your app in <em>Apple App Store</em> you need to have your own developer account. This account has a cost of € 99 (VAT incl.) per year. We will help you to publish your mobile app in <em>Apple App Store</em>.",
       "yearly": "Annual plan",
       "choose_currency": "Choose currency:"
     }

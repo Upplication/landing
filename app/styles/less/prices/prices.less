@@ -126,14 +126,16 @@
     p {
       font-size: 16px;
       font-weight: 500;
-      padding-left: 15px;
-
+      padding-left: 30px;
+      &:nth-child(3) {
+        padding-left: 15px;
+      }
       &:last-child {
         padding-left:0;
       }
 
       i {
-        color: @medium-lilac;
+        color: @light-lilac;
         font-size: 10px;
         padding-right: 5px;
         top: -3px;
@@ -282,6 +284,11 @@
 
           i {
             padding-right: 10px;
+            color: @light-lilac;
+          }
+          
+          b {
+            font-weight: 400;
             color: @light-lilac;
           }
         }

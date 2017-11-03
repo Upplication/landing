@@ -11,8 +11,9 @@
       "how_four": {
         "publish_step1": "Publicamos tu App",
         "publish_step2": "¡Qué momentazo! Nosotros nos encargamos siempre de subir tu aplicación a los markets de <b>Apple (iOS)</b> y <b>Google (Android)</b>, para que tu App pueda usarse desde cualquier dispositivo.",
-        "publish_step3": "Recuerda: Desde tu <b>panel de control</b>, podrás controlar el número de <b>descargas de tu App</b>.",
-        "publish_step4": "¿Comenzamos?"
+        "publish_step3": "Para que tu app esté ubicada en el App Store de Apple tendrás que crear tu propia cuenta de desarrollador, nosotros te ayudamos a crearla contigo",
+        "publish_step4": "Recuerda: Desde tu <b>panel de control</b>, podrás controlar el número de <b>descargas de tu App</b>.",
+        "publish_step5": "¿Comenzamos?"
       },
       "how_main": "Crea tu aplicación en pocos minutos y con ayuda personalizada",
       "how_one": {
