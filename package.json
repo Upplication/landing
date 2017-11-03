@@ -1,6 +1,6 @@
 {
   "name": "landing-upplication",
-  "version": "3.9.4",
+  "version": "3.9.6",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "scripts": {
     "start": "gulp",
