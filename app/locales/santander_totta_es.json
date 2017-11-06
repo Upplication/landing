@@ -5,6 +5,7 @@
     "_meta_title": "TouchBizz por Santander Totta e Upplication",
     "_priority": "0.8",
     "_url": "/es/santandertotta/",
+    "_sitemap": false,
     "home": {
       "logo": {
         "url": "@@config.base_path/es/santandertotta/",
