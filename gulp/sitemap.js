@@ -40,14 +40,19 @@ module.exports = function (opts) {
         var view = path.basename(file.path, '.jade');
 
         var first = true;
+        var skip = true;
         var priority = '0.5';
         langs.codes.forEach(function(code) {
             var lang = code.language_country;
             var viewConfig = locales[lang][view];
 
             if (viewConfig._sitemap === false) {
+                if (skip) skip = true;
                 gutil.log("sitemap skipped for url: " + viewConfig._url);
                 return;
+            }
+            else {
+                skip = false;
             }
 
             var url = opts.basePath + viewConfig._url;
@@ -64,9 +69,11 @@ module.exports = function (opts) {
             concat += '\t\t<xhtml:link rel="alternate" hreflang="' + lang + '" href="' + url + '"/>\n';
         });
 
-        concat += '\t\t<lastmod>' + dateformat(fs.statSync(file.path).mtime, 'yyyy-mm-dd') +'</lastmod>\n';
-        concat += '\t\t<priority>' + priority + '</priority>\n';
-        concat += '\t</url>\n';
+        if (!skip) {
+            concat += '\t\t<lastmod>' + dateformat(fs.statSync(file.path).mtime, 'yyyy-mm-dd') +'</lastmod>\n';
+            concat += '\t\t<priority>' + priority + '</priority>\n';
+            concat += '\t</url>\n';
+        }
 
         cb();
     }
