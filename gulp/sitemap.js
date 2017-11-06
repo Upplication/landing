@@ -44,6 +44,12 @@ module.exports = function (opts) {
         langs.codes.forEach(function(code) {
             var lang = code.language_country;
             var viewConfig = locales[lang][view];
+
+            if (viewConfig._sitemap === false) {
+                gutil.log("sitemap skipped for url: " + viewConfig._url);
+                return;
+            }
+
             var url = opts.basePath + viewConfig._url;
             if (url.indexOf("http") != 0) {
                 url = "https:" + url;
