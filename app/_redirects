@@ -115,6 +115,9 @@
 # proxy the blog
 /blog/*  https://blog.upplication.com/:splat  200
 
+# proxy para s3
+/como-conseguir-app-exito-rapido* https://s3-eu-west-1.amazonaws.com/upp-static/Consigue+que+tu+app+sea+un+%C3%A9xito+en+5+d%C3%ADas+(Upplication).pdf 200
+
 # proxy estudio-mobile-pymes
 /estudio-mobile-pymes-2016* http://microlanding.upplication.com/estudio-mobile-pymes-2016 200
 
