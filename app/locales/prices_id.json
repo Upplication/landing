@@ -7,7 +7,7 @@
     "_url": "/id/prices/",
     "rates": {
       "all_push": "Pemberitahuan push <strong>tak terbatas</strong> dan <strong>tersegmentasi</strong>",
-      "app_web": "Web / Android / iOS <b>***</b>",
+      "app_web": "Web / Android / iOS <b>**</b>",
       "basic": "DASAR",
       "bullhorn": "<strong>Iklan</strong> Upplication",
       "per_month": "/ bulan *",
@@ -59,7 +59,6 @@
       "unlimited": "TAK TERBATAS",
       "with_tax": "Sudah termasuk <strong>PPN</strong>.",
       "exchange_rate": "Konversi mata uang ini adalah sebuah pendekatan. Pembayaran akhir akan dilakukan di <strong>euros</strong> bank Anda akan bertanggung jawab untuk menghitung nilai tukar akhir.",
-      "permanence": "<em>Premium</em> anda memiliki 6 bulan komitmen untuk tetap.",
       "appleStore": "In order to publish your app in <em>Apple App Store</em> you need to have your own developer account. This account has a cost of € 99 (VAT incl.) per year. We will help you to publish your mobile app in <em>Apple App Store</em>.",
       "yearly": "Paket tahunan",
       "choose_currency": "Pilih mata uang:"

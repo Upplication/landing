@@ -7,7 +7,7 @@
     "_url": "/es/precios/",
     "rates": {
       "all_push": "Push <strong>ilimitadas</strong> y <strong>segmentadas</strong>",
-      "app_web": "Web / Android / iOS <b>***</b>",
+      "app_web": "Web / Android / iOS <b>**</b>",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
       "per_month": "/ mes *",
@@ -59,7 +59,6 @@
       "unlimited": "ILIMITADO",
       "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
       "exchange_rate": "Esta conversión de moneda es una aproximación. El cobro final se realizará en <strong>euros</strong> y será tu banco el encargado de calcular la tasa de cambio final.",
-      "permanence": "El plan <em>Premium</em> tiene un periodo de permanencia de 6 meses.",
       "appleStore": "Para publicar tu app móvil en el <em>App Store</em> de <strong>Apple</strong> necesitas tener tu propia cuenta de desarrollador. Esta cuenta tiene un coste de 99€ (IVA incl.) al año. Nosotros nos encargaremos contigo de publicar tu app móvil en el <em>App Store</em>.",
       "yearly": "Plan Anual",
       "choose_currency": "Elegir moneda:"
