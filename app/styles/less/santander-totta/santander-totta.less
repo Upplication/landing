@@ -178,7 +178,7 @@
               min-width: inherit;
               .contact-info-left {
                 width: 100%;
-                //
+                // (Responsive) "Contact-info"
                 @media only screen and (max-width: 980px) {
                   .chat {
                     display: inherit;
@@ -186,13 +186,23 @@
                 }
               }
             }
-            //
+            // (Responsive) "Contact-info"
             @media only screen and (max-width: 875px) {
               display: inherit;
             }
           }
           a {
             max-width: inherit;
+          }
+          // (Responsive) in hamburguer top main menu
+          @media only screen and (max-width: 767px) {
+            &.enter-btn, &.contact-info {
+              width: 90%;
+              margin: 1% 5%;
+            }
+            &.enter-btn a {
+              margin: 0;
+            }
           }
         }
       }
