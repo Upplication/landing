@@ -157,7 +157,7 @@
         width: 100%;
         // responsive behaviour
         // (carefully cause erase this code will affect to mobile dorpdown top menu)
-        @media (min-width: 768px) {
+        @media (min-width: 769px) {
           display: flex;
           justify-content: flex-end;
         }
@@ -197,8 +197,6 @@
           }
 
           // (Responsive) in hamburguer top main menu
-          @media only screen and (max-width: 767px) {
-            &.enter-btn, &.contact-info {
           @media only screen and (max-width: 768px) {
             &.enter-btn,
             &.contact-info,
@@ -214,6 +212,9 @@
             &.enter-btn a {
               margin: 0;
             }
+          }
+          @media only screen and (max-width: 320px) {
+            padding: 0;
           }
         }
       }
