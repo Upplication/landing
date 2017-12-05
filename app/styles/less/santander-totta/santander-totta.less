@@ -188,21 +188,28 @@
             }
           }
 
-          &.phone {
-            @media (max-width: 767px) {
-              width: 100%;
-              text-align: center;
-            }
+          &.phone-support-pt {
+            font-family: "Lato", sans-serif;
           }
 
           a {
             max-width: inherit;
           }
+
           // (Responsive) in hamburguer top main menu
           @media only screen and (max-width: 767px) {
             &.enter-btn, &.contact-info {
+          @media only screen and (max-width: 768px) {
+            &.enter-btn,
+            &.contact-info,
+            &.phone-support-pt {
               width: 90%;
               margin: 1% 5%;
+            }
+            &.phone-support-pt {
+              text-align: center;
+              background-color: @santander-grey;
+              margin-bottom: 0.5%;
             }
             &.enter-btn a {
               margin: 0;

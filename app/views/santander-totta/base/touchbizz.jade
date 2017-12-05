@@ -75,8 +75,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 img(src='#{localConfig.base_path}/images/santander-totta/touchbizz-logo.png', title='#{santander_totta.home.touchbizz.logo.title}', alt='#{santander_totta.home.touchbizz.logo.title}')
                         nav.top-nav
                             ul.top-nav-list.hide-ul
-                                li.phone
-                                    a(href="tel:+351300509132") tel: +351300509132
+                                li.phone-support-pt
+                                    a(href="#{santander_totta.home.support.url}", title="#{santander_totta.home.support.title}")
+                                        | #{santander_totta.home.support.phone}
                                 li.enter-btn
                                     a.hide-tab(href="#{external.dashboard.url}")
                                         i.icon.icon-key
