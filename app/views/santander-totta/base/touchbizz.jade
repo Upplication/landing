@@ -75,38 +75,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 img(src='#{localConfig.base_path}/images/santander-totta/touchbizz-logo.png', title='#{santander_totta.home.touchbizz.logo.title}', alt='#{santander_totta.home.touchbizz.logo.title}')
                         nav.top-nav
                             ul.top-nav-list.hide-ul
-                                li.how
-                                    a.hide-tab(href='#timeline', title='#{header.nav.how}') !{header.nav.how}
-                                li.samples
-                                    a.hide-tab(href='#tabs', title='#{header.nav.apps}') #{header.nav.apps}
-                                li.blog
-                                    a.hide-tab(href='#{external.blog.url}', target='_blank', title='#{external.blog.title}') #{external.blog.anchor}
-                                li.more
-                                    a.lang-link(href='#{routing[_template][lang]}#', data-activates='dropdown-terms')
-                                        | !{header.nav.info.info}
-                                    ul#dropdown-terms.dropdown-content.notshow
-                                        li
-                                            a.hide-tab.lang-link(href="#{header.nav.info.about_us.url}", title='#{header.nav.info.about_us.title}') #{header.nav.info.about_us.title}
-                                        li
-                                            a.hide-tab.lang-link(href="#{header.nav.info.company_bio.url}", title='#{header.nav.info.company_bio.title}') #{header.nav.info.company_bio.title}
-                                        li
-                                            a.hide-tab.lang-link(href="#{header.nav.info.helpcenter.url}", title='#{header.nav.info.helpcenter.title}', target='_blank') #{header.nav.info.helpcenter.title}
-                                        li
-                                            a.hide-tab.lang-link(href="#{header.nav.info.prices.url}", title='#{header.nav.info.prices.title}') #{header.nav.info.prices.title}
-                                        li
-                                            a(href='#hiring', title='#{header.nav.info.hiring}', target='_blank') #{header.nav.info.hiring}
-                                        li
-                                            a.hide-tab.lang-link(href="#{header.nav.info.terms.url}", title='#{header.nav.info.terms.title}') #{header.nav.info.terms.title}
-                                li.languages
-                                    each language in langs.codes
-                                        if lang == language.language_country
-                                            a.lang-link(href="#{routing[_template][lang]}#", data-activates='dropdown-lang')
-                                                i.icon.icon-globe
-                                                | !{language.language_short_code}
-                                    ul#dropdown-lang.dropdown-content.notshow
-                                        each lang in langs.codes
-                                            li
-                                                a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
+                                li.phone
+                                    a(href="tel:+351300509132") tel: +351300509132
                                 li.enter-btn
                                     a.hide-tab(href="#{external.dashboard.url}")
                                         i.icon.icon-key
@@ -141,45 +111,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         //- end scripts
         script(type='text/javascript').
             $(document).ready(function () {
-                //- Typical "Our clients" footer carousel
-                $('.owl-carousel').owlCarousel({
-                    loop: true,
-                    margin: 10,
-                    autoplay: true,
-                    autoplayHoverPause: true,
-                    autoplaySpeed: 2000,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 2
-                        },
-                        768: {
-                            items: 3
-                        },
-                        1080: {
-                            items: 4
-                        }
-                    }
-                });
-
                 $('.scrollspy').scrollSpy();
 
                 $('.materialboxed').materialbox();
-
-                $('.lang-link').click(function () {
-                    $("#dropdown-lang").toggleClass("notshow");
-                });
-                $('.lang-link').dropdown({
-                        inDuration: 300,
-                        outDuration: 225,
-                        constrain_width: false,
-                        gutter: 0,
-                        belowOrigin: false,
-                        alignment: 'left'
-                    }
-                );
 
                 //- navbar
                 var $pull = $('#pull');
@@ -199,14 +133,15 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     $(".hide-ul").removeClass("hide-tabs");
                 });
                 var windowWidth = $(window).width();
-                if(windowWidth < 769){
+
+                /*if(windowWidth < 769){
                     $('.hide-tab').click(function () {
                         $(".hide-ul").addClass("hide-tabs");
                     });
                     $('#pull').click(function () {
                         $("#pull").toggleClass("open");
                     });
-                }
+                }*/
 
                 //- header resize when scroll
                 $(window).scroll(function () {

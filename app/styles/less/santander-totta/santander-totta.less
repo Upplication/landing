@@ -178,6 +178,11 @@
               min-width: inherit;
               .contact-info-left {
                 width: 100%;
+                .chat {
+                  @media (max-width: 768px) {
+                    margin-bottom: 10px;
+                  }
+                }
                 // (Responsive) "Contact-info"
                 @media only screen and (max-width: 980px) {
                   .chat {
@@ -191,6 +196,14 @@
               display: inherit;
             }
           }
+
+          &.phone {
+            @media (max-width: 767px) {
+              width: 100%;
+              text-align: center;
+            }
+          }
+
           a {
             max-width: inherit;
           }
