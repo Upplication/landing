@@ -16,6 +16,11 @@
           "title": "TouchBizz logotipo"
         }
       },
+      "support": {
+        "phone": "tel: +351300509132",
+        "url": "tel:+351300509132",
+        "title": "tel: +351300509132"
+      },
       "teledemo": {
         "btn": "Experimente aqui",
         "title": "Experimente aqui"
