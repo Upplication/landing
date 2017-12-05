@@ -10,12 +10,6 @@
 // Slider and main claim top first block
 @import "../base/_main-claim.less";
 @import "../base/_sliders.less";
-// special section blocks
-@import "../base/_samples.less";
-@import "../base/_multidevices.less";
-@import "../base/_timeline.less";
-@import "../base/_showcases.less";
-@import "../base/_youtube-player.less";
 
 
 // main Text mixin with default values (overwrite default ones!)
@@ -163,21 +157,23 @@
         width: 100%;
         // responsive behaviour
         // (carefully cause erase this code will affect to mobile dorpdown top menu)
-        @media (min-width: 768px) {
+        @media (min-width: 769px) {
           display: flex;
           justify-content: flex-end;
         }
 
         // each top main navbar items!!
         li {
-          &.how, &.samples, &.blog, &.more, &.languages {
-            display: none;
-          }
           &.contact-info {
             .contact-info-grids {
               min-width: inherit;
               .contact-info-left {
                 width: 100%;
+                .chat {
+                  @media (max-width: 768px) {
+                    margin-bottom: 10px;
+                  }
+                }
                 // (Responsive) "Contact-info"
                 @media only screen and (max-width: 980px) {
                   .chat {
@@ -191,18 +187,34 @@
               display: inherit;
             }
           }
+
+          &.phone-support-pt {
+            font-family: "Lato", sans-serif;
+          }
+
           a {
             max-width: inherit;
           }
+
           // (Responsive) in hamburguer top main menu
-          @media only screen and (max-width: 767px) {
-            &.enter-btn, &.contact-info {
+          @media only screen and (max-width: 768px) {
+            &.enter-btn,
+            &.contact-info,
+            &.phone-support-pt {
               width: 90%;
               margin: 1% 5%;
+            }
+            &.phone-support-pt {
+              text-align: center;
+              background-color: @santander-grey;
+              margin-bottom: 0.5%;
             }
             &.enter-btn a {
               margin: 0;
             }
+          }
+          @media only screen and (max-width: 320px) {
+            padding: 0;
           }
         }
       }
