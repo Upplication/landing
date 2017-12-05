@@ -111,7 +111,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         //- end scripts
         script(type='text/javascript').
             $(document).ready(function () {
-                $('.scrollspy').scrollSpy();
 
                 $('.materialboxed').materialbox();
 
@@ -133,15 +132,6 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     $(".hide-ul").removeClass("hide-tabs");
                 });
                 var windowWidth = $(window).width();
-
-                /*if(windowWidth < 769){
-                    $('.hide-tab').click(function () {
-                        $(".hide-ul").addClass("hide-tabs");
-                    });
-                    $('#pull').click(function () {
-                        $("#pull").toggleClass("open");
-                    });
-                }*/
 
                 //- header resize when scroll
                 $(window).scroll(function () {
