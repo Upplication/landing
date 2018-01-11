@@ -11,15 +11,16 @@
       "how_four": {
         "publish_step1": "Kami menerbitkan Aplikasi Anda",
         "publish_step2": "<b>Kami akan menerbitkan aplikasi Anda</b> di semua App Store berbeda (Apple, Android).",
-        "publish_step3": "If you want to see your app in the App Store you must have a developer account. If you doesn't have one, we help you to create it",
+        "publish_step3": "Jika Anda ingin melihat aplikasi Anda di App Store Anda harus memiliki akun pengembang. Jika Anda tidak memilikinya, kami membantu Anda untuk membuatnya.",
         "publish_step4": "Aplikasi kami mendukung <b>banyak perangkat</b> (mobile, tablet, PC, Mac...).",
-        "publish_step5": "Shall we start?"
+        "publish_step5": "kami mulai"
       },
       "how_main": "Buat aplikasi Anda dengan mudah",
       "how_one": {
         "reg_step1": "Daftar",
         "reg_step2": "Daftar dalam tiga langkah mudah:",
         "reg_step3": "nama aplikasi, e-mail dan password.",
+        "reg_step4": "Ingat: Anda memiliki <b>15 hari percobaan gratis</b> dengan <b>tutor profesional</b>.",
         "reg_step5": "kami mulai",
         "reg_title": "Pergi ke onboarding Upplication"
       },
@@ -42,8 +43,8 @@
       "title": "Improve your sales"
     },
     "multidevices": {
-      "sub_title": "Web responsive, supports multiple devices and OS",
-      "title": "Multidevices Apps"
+      "sub_title": "Web responsif, mendukung beberapa perangkat yang berjalan di iOS atau Android",
+      "title": "Aplikasi Multidevices untuk Apple atau Android"
     },
     "optimize": {
       "points": [
