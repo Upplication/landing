@@ -13,7 +13,7 @@
   },
   "external": {
     "about": {
-      "anchor": "About us",
+      "anchor": "Tentang kami",
       "url": "@@config.base_path/id/about-us/"
     },
     "aplicateca": {
@@ -35,7 +35,7 @@
       "url": "@@config.base_path/id/asis-and-gross-sucessfull-showcase/"
     },
     "company": {
-      "anchor": "Upplication bio",
+      "anchor": "Upplication biografi",
       "url": "@@config.base_path/id/company-bio/"
     },
     "create_apps": {
@@ -50,7 +50,7 @@
       "url": "http://www.facebook.com/Upplication"
     },
     "features": {
-      "anchor": "Features"
+      "anchor": "Fitur dan keuntungan"
     },
     "googleplus": {
       "anchor": "Google Plus",
@@ -68,7 +68,7 @@
       "anchor": "Pusat bantuan",
       "url": "https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no"
     },
-    "hiring": "We are hiring!",
+    "hiring": "Kami merekrut",
     "hiring_backend": {
       "anchor": "Backend developer",
       "url": "http://backend.upplication.com/"
@@ -152,8 +152,8 @@
     "byfibonad": "by Fibonad",
     "community": "Komunitas",
     "company": "Perusahaan",
-    "cookies": "If you close this window, you accept our <a href='@@config.base_path/terms/#cookies-policy'>Penggunaan Cookies</a>.",
-    "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/terms-aplicateca/'>Penggunaan Cookies.</a>.",
+    "cookies": "Jika Anda menutup jendela ini Anda menerima kami <a href='@@config.base_path/terms-aplicateca/'>Penggunaan Cookies.</a>.",
+    "cookies_aplicateca": "Jika Anda menutup jendela ini Anda menerima kami <a href='@@config.base_path/terms-aplicateca/'>Penggunaan Cookies.</a>.",
     "free_trial": "Coba gratis",
     "media": "Media",
     "partners": {
@@ -189,11 +189,11 @@
         "url": "@@config.base_path/id/terms/"
       },
       "privacy": {
-        "title": "Privacy Policy",
+        "title": "Kebijakan pribadi",
         "url": "@@config.base_path/id/terms/#privacidad"
       },
       "terms_of_use": {
-        "title": "General Conditions of Use",
+        "title": "Kondisi Penggunaan",
         "url": "@@config.base_path/id/terms/#uso"
       }
     },
@@ -201,11 +201,11 @@
     "try_it_free": "Coba 15 hari dengan guru pribadi"
   },
   "form": {
-    "call_to_action": "Build your own App now!",
+    "call_to_action": "Bangun aplikasi anda",
     "input": {
       "email": "E-mail",
       "name": "Nama aplikasi",
-      "pass": "Coba Gratis"
+      "pass": "kata sandi"
     }
   },
   "header": {
@@ -279,19 +279,19 @@
   },
   "testimonials": {
     "client1": {
-      "quote": "Necesitábamos un canal que nos acercase a nuestras clientas para comunicarles nuestros nuevos productos y tener un escaparate 24h 365 días y Upplication nos pareció muy útil y sencillo.",
+      "quote": "Kami membutuhkan saluran yang akan membawa kami lebih dekat kepada pelanggan kami untuk mengkomunikasikan produk baru kami dan memiliki showcase 24h 365 hari dan Upplication tampak sangat berguna dan sederhana.",
       "name": "Sandra dan Paloma, <span>Asis & Gross</span>",
       "more": "Lebih tentang Asis & Gross",
       "url": "@@config.base_path/id/asis-and-gross-sucessfull-showcase/"
     },
     "client2": {
-      "quote": "La idea de crear una aplicación es más que obvia: los clientes tienen al fisio en el bolsillo 24 horas. Además, nos decantamos por Upplication por su precio y su sencillez de uso.",
+      "quote": "Gagasan untuk membuat aplikasi lebih dari sekedar jelas: pelanggan memiliki physio di saku mereka 24 jam. Selain itu, kami memilih untuk Upplication untuk harga dan kesederhanaan penggunaannya.",
       "name": "Pablo, <span>Fisiohogar</span>",
       "more": "Lebih tentang Fisiohogar",
       "url": "@@config.base_path/id/fisiohogar-sucessfull-showcase/"
     },
     "client3": {
-      "quote": "Ahora es aún más fácil crear apps con Upplication, no necesitas programar nada, sólo el enlace de tu Página de negocio de Facebook ¡y tendrás la aplicación móvil de tu empresa creada!",
+      "quote": "Sekarang lebih mudah untuk membuat aplikasi dengan Upplication, Anda tidak perlu memprogram apapun, hanya link dari Halaman Bisnis Facebook Anda dan Anda akan memiliki aplikasi mobile dari perusahaan Anda!",
       "name": "Menemukan <span>Facebook onboarding</span>",
       "more": "Lebih tentang Facebook onboarding",
       "url": "https://youtu.be/NyRm-ttbKeM"

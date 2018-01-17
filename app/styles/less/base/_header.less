@@ -23,9 +23,6 @@
   height: 80px;
   background-color: @header-bg;
   border-bottom: 1px solid @header-border;
-  /* Only for Xmas:
-  background: #fefeff url("@@config.base_path/images/home/icons/upp_header_bg_xmas.png") repeat-x;
-  */
   .anim(height, 0.3s, ease);
 
   // container Header inside
@@ -666,3 +663,127 @@
     }
   }
 }
+
+
+/*
+-------------------------------------------
+  XMAS DECORATION :: (color) LIGHTS BULBS
+-------------------------------------------
+
+@globe-width:       8px;
+@globe-height:      8px;
+@globe-spacing:    40px;
+@globe-spread:      3px;
+@light-off-opacity: 0.4;
+
+.lightrope {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  margin: -9px 0 0 0;
+  padding: 0;
+  pointer-events: none;
+  width: 100%;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    width: @globe-width;
+    height: @globe-height;
+    margin: @globe-spacing/4 @globe-spacing/2 @globe-spacing/2;
+    padding: 0;
+    position: relative;
+    .border-radius(50%);
+    background: rgba(0,247,165,1);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(0,247,165,1);
+    animation-name: flash-1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count:infinite;
+    &:nth-child(2n+1) {
+      background: rgba(241,246,83,1);
+      box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(241,246,83,0.5);
+      animation-name: flash-2;
+      animation-duration: 0.4s;
+    }
+    &:nth-child(4n+2) {
+      background: rgba(247,0,148,1);
+      box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(247,0,148,1);
+      animation-name: flash-3;
+      animation-duration: 1.1s;
+    }
+    &:nth-child(odd) {
+      animation-duration: 1.8s;
+    }
+    &:nth-child(3n+1) {
+      animation-duration: 1.4s;
+    }
+    &:before {
+      content: "";
+      width: 10px;
+      height: 3px;
+      background: @light-lilac;
+      .border-radius(3px);
+      position: absolute;
+      top: -2px;
+      left: -1px;
+    }
+    &:after {
+      content: "";
+      width: @globe-spacing + 12;
+      height: (@globe-height/3 * 2);
+      .border-radius(50%);
+      border-bottom: solid @light-lilac 1px;
+      position: absolute;
+      top: (0 - @globe-height/2);
+      left: @globe-width - 3;
+    }
+    &:last-child:after {
+      content: none;
+    }
+    &:first-child {
+      margin-left: -@globe-spacing;
+    }
+  }
+}
+@keyframes flash-1 {
+  0%, 100% {
+    background: rgba(0,247,165,1);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(0,247,165,1);
+  }
+  50% {
+    background: rgba(0,247,165,@light-off-opacity);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(0,247,165,0.2);
+  }
+}
+@keyframes flash-2 {
+  0%, 100% {
+    background: rgba(241,246,83,1);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(241,246,83,1);
+  }
+  50% {
+    background: rgba(0,255,255,@light-off-opacity);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(241,246,83,0.2);
+  }
+}
+@keyframes flash-3 {
+  0%, 100% {
+    background: rgba(247,0,148,1);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(247,0,148,1);
+  }
+  50% {
+    background: rgba(247,0,148,@light-off-opacity);
+    box-shadow: 0 @globe-height/6 @globe-width*2 @globe-spread rgba(247,0,148,0.2);
+  }
+}
+// Media Queries :: XMAS decoration
+@media only screen and (max-width: 768px) {
+  .lightrope {
+      margin: -77px 0 0 0;
+  }
+}
+
+// End of COLOR LIGHTS XMAS DECORATION
+*/
