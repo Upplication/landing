@@ -65,6 +65,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                     .logo
                         a(href='#{header.logo.url}', alt='#{header.logo.title}')
                             img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{header.logo.title}')
+                    //- XMAS LOGO version
+                        a(href='#{header.logo.url}', alt='#{header.logo.title_xmas}')
+                            img(src='#{localConfig.base_path}/images/home/icons/upplication_xmas.svg', title='#{header.logo.title_xmas}')
                     nav.top-nav
                         ul.top-nav-list.hide-ul
                             li.how
@@ -120,6 +123,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             span
                             span
                             span
+             //- COLOR LIGHTS XMAS DECORATION
+                ul.lightrope
+                    - for (var x = 0; x < 45; x++)
+                        li
 
         //- MODAL :: FREE TRIAL
         #free-trial.modal.modal-upp
