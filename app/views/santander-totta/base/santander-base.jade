@@ -49,8 +49,9 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         link(rel="apple-touch-icon", sizes="180x180", href='#{localConfig.base_path}/images/santander-totta/favicon/apple-touch-icon.png')
         link(rel="icon", type="image/png", sizes="32x32", href="#{localConfig.base_path}/images/santander-totta/favicon/favicon-32x32.png")
         link(rel="icon", type="image/png", sizes="16x16", href="#{localConfig.base_path}/images/santander-totta/favicon/favicon-16x16.png")
-        link(rel="manifest", href="#{localConfig.base_path}/images/santander-totta/favicon/manifest.json")
+        link(rel="manifest", href="#{localConfig.base_path}/images/santander-totta/favicon/site.webmanifest")
         link(rel="mask-icon", href="#{localConfig.base_path}/images/santander-totta/favicon/safari-pinned-tab.svg", color="#5bbad5")
+        meta(name="msapplication-TileColor", content="#b91d47")
         meta(name="theme-color", content="#ffffff")
 
         //- CSS files
@@ -68,11 +69,11 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         .logo
                             a(href='#{santander_totta.home.logo.url}', alt='#{santander_totta.home.logo.title}')
                                 img(src='#{localConfig.base_path}/images/santander-totta/santandertotta-logo.svg', title='#{santander_totta.home.logo.title}', alt='#{santander_totta.home.logo.title}')
-                .touchbizz
+                .upplication
                     .container
                         .logo
-                            a(href='#{santander_totta.home.touchbizz.logo.url}', alt='#{santander_totta.home.touchbizz.logo.title}')
-                                img(src='#{localConfig.base_path}/images/santander-totta/touchbizz-logo.png', title='#{santander_totta.home.touchbizz.logo.title}', alt='#{santander_totta.home.touchbizz.logo.title}')
+                            a(href='#{header.logo.url}', alt='#{header.logo.title}')
+                                img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{header.logo.title}', alt='#{header.logo.title}')
                         nav.top-nav
                             ul.top-nav-list.hide-ul
                                 li.phone-support-pt
