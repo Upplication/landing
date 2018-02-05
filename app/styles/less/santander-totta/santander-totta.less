@@ -235,8 +235,8 @@
     }
   }
 
-  // 2. "SmartBizz" main navbar Top Header
-  .touchbizz {
+  // 2. "Upplication" main navbar Top Header
+  .upplication {
     width: 100%;
     height: 80px;
     background-color: @header-bg;
@@ -244,9 +244,9 @@
     .anim(height, 0.3s, ease);
 
     .container .logo a img {
-      width: 39px;
-      height: 50px;
-      top: 5px;
+      width: 159px;
+      height: 60px;
+      top: 0;
     }
   }
 
@@ -262,11 +262,11 @@
         height: 24px;
       }
     }
-    .touchbizz {
+    .upplication {
       height: 60px;
 
       .container .logo a img {
-        width: 31px;
+        width: 127px;
         height: 40px;
         top: 10px;
       }
@@ -277,7 +277,7 @@
 // Responsive behaviour HEADER
 @media (max-width: 768px) {
   .top-header {
-    .touchbizz {
+    .upplication {
       height: 65px;
     }
     .santander-totta .container .logo a img {
@@ -473,14 +473,15 @@
       padding-left: 20px;
       padding-right: 20px;
       .flex();
+      justify-content: space-around;
       // Responsive behaviour
       @media (min-width: 1007px) {
         max-height: 123px;
       }
 
       div {
-        width: ~"calc(16.6666% - 10px)";
-        height: ~"calc(16.6666% - 10px)";
+        width: ~"calc(20% - 10px)";
+        height: ~"calc(20% - 10px)";
         min-width: 55px;
         min-height: 55px;
         display: inline-block;
@@ -584,35 +585,6 @@
         }
       }
     }
-
-    // footer copy and "Upplication by Fibonad" logotype
-    .touchbizz-by {
-      .flex();
-
-      span {
-        width: 42%;
-        text-align: right;
-        font-size: 12px;
-        color: @santander-main-text;
-        position: relative;
-        bottom: 2px;
-        right: 10px;
-      }
-
-      a {
-        width: 58%;
-        img {
-          width: 120px;
-          height: 38px;
-          .anim(all, 150ms, ease);
-        }
-        &:hover {
-          img {
-            .scale(.9);
-          }
-        }
-      }
-    }
   }
 }
 
@@ -711,26 +683,15 @@
       }
     }
 
-    // main CLAIM and IMG
+    // main CLAIM without (oldies) IMG
     .claim-wrapper {
       .flex();
 
-      img {
-        width: 86px;
-        height: 110px;
-        margin: 25px;
-      }
-
       p {
-        width: ~"calc(100% - 160px)";
-        padding-right: 10px;
+        width: 100%;
+        margin: 20px 25px 20px 35px;
         .main-text(20px, 300);
         color: @santander-main-text;
-        // Responsive behaviour
-        @media (max-width: 601px) {
-          width: 100%;
-          padding: 0 25px;
-        }
 
         b {
           color: @santander;
