@@ -2,48 +2,38 @@
   "santander_totta": {
     "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel",
     "_meta_description": "Upplication Criar app, a tua própria app móvel online. Experimenta livre durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
-    "_meta_title": "TouchBizz por Santander Totta e Upplication",
+    "_meta_title": "Santander Totta e Upplication",
     "_priority": "0.8",
     "_url": "/es/santandertotta/",
-    "_sitemap": false,
     "home": {
       "logo": {
-        "url": "@@config.base_path/es/santandertotta/",
+        "url": "@@config.base_path/pt/santandertotta/",
         "title": "Santander Totta logotipo"
       },
-      "touchbizz": {
-        "logo": {
-          "url": "@@config.base_path/es/santandertotta/",
-          "title": "TouchBizz logotipo"
-        }
-      },
       "support": {
-        "phone": "tel: +351300509132",
-        "url": "tel:+351300509132",
-        "title": "tel: +351300509132"
+        "phone": "Telefone: +351300509132",
+        "url": "Telefone:+351300509132",
+        "title": "Telefone: +351300509132"
       },
       "teledemo": {
         "btn": "Experimente aqui",
         "title": "Experimente aqui"
       },
       "slider": {
-        "img_01": "Com uma app o seu negócio vai ficar",
-        "intro1": "Com uma app o seu negócio vai ficar",
-        "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, <b>criámos o TouchBizz</b>.",
+        "img_01": "Conecta o teu negócio",
+        "intro1": "Conecta o teu negócio:",
+        "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, criámos o programa <b>Digitaliza a sua empresa</b>:",
         "text": [
-          "mais smart",
-          "mais smart",
-          "mais smart",
-          "mais smart",
-          "mais smart"
+          "Restaurantes",
+          "Lojas online",
+          "Saúde",
+          "Serviços",
+          "Hotelaria"
         ],
         "advice": {
           "quote": "Preço exclusivo para clientes Banco Santander Totta",
-          "price": {
-            "intro": "Por apenas",
-            "price": "7",
-            "currency": "´95 €",
-            "date": "Més",
+          "price": ["Por apenas", "7", "´95 €", "Mês <i class='icon icon-asterisk'></i>"],
+          "mais": {
             "more": "Descubra mais",
             "link": "aquí"
           }
@@ -52,18 +42,14 @@
       "form": {
         "input": {
           "code": "Código de validação"
-        },
-        "footer": {
-          "copy": "TouchBizz by"
         }
       },
       "business": {
-        "touchbizz": "Santander Totta TouchBizz",
         "restaurants": "Restaurantes",
         "shops": "Lojas online",
         "health": "Saúde",
         "services": "Serviços",
-        "hostelry": "Hoteleria",
+        "hostelry": "Hotelaria",
         "tips": {
           "restaurants": "<li>Ementas</li> <li>Reservas</li> <li>Take Away</li> <li>Alerta de promoções (descontos)</li>",
           "shops": "<li>Apresentação de producto</li> <li>Venda online</li> <li>Pagamentos online</li> <li>Alerta de promoções(descontos)</li>",
@@ -72,27 +58,27 @@
           "hostelry": "<li>Reservas e disponibilidade</li> <li>Apresentação de serviços</li> <li>Pagamento online</li> <li>Alerta de promoções (descontos)</li>"
         }
       },
-      "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, <b>no TouchBizz do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
-      "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupaçao será a relação com os seus clientes e nada mais. O <b>TouchBizz</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para actualizar o seu negócio.",
+      "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, no <b>Digitaliza a sua empresa do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
+      "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupação será a relação com os seus clientes e nada mais. O <b>Digitaliza a sua empresa</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para digitalizar o seu negócio.",
       "pricing": {
         "btn": "Contratar agora",
         "basic": {
           "alt": "Plano de preços básico",
           "title": "Básico",
           "claim": "Plano de boas-vindas",
-          "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Més</li>"
+          "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
         },
-        "profisional": {
-          "alt": "Plano de preços profisional",
-          "title": "Profisional",
+        "profissional": {
+          "alt": "Plano de preços Profissional",
+          "title": "Profissional",
           "claim": "Plano de lançador de negócios",
-          "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Més</li>"
+          "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
         },
         "premium": {
           "alt": "Plano de preços premium",
           "title": "Premium",
           "claim": "Colocar em órbita seu negócio",
-          "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Més</li>"
+          "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
         }
       }
     }

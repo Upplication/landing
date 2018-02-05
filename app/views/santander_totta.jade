@@ -1,4 +1,4 @@
-extend santander-totta/base/touchbizz
+extend santander-totta/base/santander-base
 
 block vars
     - var title = santander_totta._meta_title
@@ -35,6 +35,9 @@ block content
             .advice
                 .price-since
                     div
+                        each price, i in santander_totta.home.slider.advice.price
+                            span !{price}
+                    //-
                         span #{santander_totta.home.slider.advice.price.intro}
                         span #{santander_totta.home.slider.advice.price.price}
                         span #{santander_totta.home.slider.advice.price.currency}
@@ -42,12 +45,9 @@ block content
                             | #{santander_totta.home.slider.advice.price.date}
                             i.icon.icon-asterisk
                     .price-advice
-                        | #{santander_totta.home.slider.advice.price.more}
-                        a #{santander_totta.home.slider.advice.price.link}
+                        | #{santander_totta.home.slider.advice.mais.more}
+                        a #{santander_totta.home.slider.advice.mais.link}
                 .business-types
-                    div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/touchbizz-logo.png', title='#{santander_totta.home.business.touchbizz}', alt='#{santander_totta.home.business.touchbizz}')
-                        // span #{santander_totta.home.slider.advice.business.touchbizz}
                     div
                         img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.home.business.restaurants}', alt='#{santander_totta.home.business.restaurants}')
                         span #{santander_totta.home.business.restaurants}
@@ -79,7 +79,6 @@ block content
                 span
                 span
                 .claim-wrapper
-                    img(src='#{localConfig.base_path}/images/santander-totta/business/touchbizz-logo.png', title='#{santander_totta.home.business.touchbizz}', alt='#{santander_totta.home.business.touchbizz}')
                     p !{santander_totta.home.claim}
 
     //- BUSINESS TYPES (samples and his tips)
@@ -125,11 +124,11 @@ block content
                         ul !{santander_totta.home.pricing.basic.price}
                         a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
                 .col.s12.m4
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-blue.svg', title='#{santander_totta.home.pricing.profisional.alt}', alt='#{santander_totta.home.pricing.profisional.alt}')
-                    h3 #{santander_totta.home.pricing.profisional.title}
-                    h5 #{santander_totta.home.pricing.profisional.claim}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-blue.svg', title='#{santander_totta.home.pricing.profissional.alt}', alt='#{santander_totta.home.pricing.profissional.alt}')
+                    h3 #{santander_totta.home.pricing.profissional.title}
+                    h5 #{santander_totta.home.pricing.profissional.claim}
                     .price-plan-detail
-                        ul !{santander_totta.home.pricing.profisional.price}
+                        ul !{santander_totta.home.pricing.profissional.price}
                         a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
                 .col.s12.m4
                     img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-gold.svg', title='#{santander_totta.home.pricing.premium.alt}', alt='#{santander_totta.home.pricing.premium.alt}')
