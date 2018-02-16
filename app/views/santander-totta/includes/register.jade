@@ -18,7 +18,11 @@
                     label(for='password') #{form.input.pass}
                         p.error.display-none.register-password-error
                 .input-field.col.s12
-                    input#validation_code.validate(type='text', name='license', required)
+                    input#cif.validate(type='text', name='cif', required)
+                    label(for='cif') #{santander_totta.home.form.input.cif}
+                        p.error.display-none.register-license-error
+                .input-field.col.s12
+                    input#license.validate(type='text', name='license', required)
                     label(for='license') #{santander_totta.home.form.input.code}
                         p.error.display-none.register-license-error
             .register-form-btn

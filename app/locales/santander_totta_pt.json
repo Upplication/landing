@@ -41,7 +41,8 @@
       },
       "form": {
         "input": {
-          "code": "Código de validação"
+          "code": "Código de validação",
+          "cif": "CIF"
         }
       },
       "business": {
