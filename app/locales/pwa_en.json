@@ -1,0 +1,45 @@
+{
+  "pwa": {
+    "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
+    "_meta_title": "404: Page not found in Upplication: the app creator",
+    "_url": "/en/progressive-web-app/",
+    "title": "Progressive Web App",
+    "subtitle": "The new way of understanding Apps",
+    "what": {
+      "maintitle": "What is a <span>Progressive Web App</span>?",
+      "description": "Las <b>Progressive Web Apps</b> <em>(aplicaciones web progresivas)</em>, son experiencias que combinan <span>lo mejor de la web</span> y <span>lo mejor de las apps</span>. Están disponibles para los usuarios a partir de la primera visita en una pestaña del navegador y <b>no requieren instalación</b>. Además incrementan su funcionalidad a medida que se usa. Se <b>carga rápidamente</b> como experiencia de pantalla completa y de primer nivel, incluso con redes débiles, envía <b>notificaciones push</b> relevantes, tiene un ícono en la pantalla principal..."
+    },
+    "advantages": {
+      "maintitle": "What advantages does a <span>Progressive Web App</span> have?",
+      "step1": {
+        "description": "They are installed directly from the web browser without taking up much space on your device.",
+        "pic": "Installation from the web browser"
+      },
+      "step2": {
+        "description": "Do not depend on the (Apple or Google) marketplaces. You will save the wait for review and publication of the app.",
+        "pic": "You do not depend on the marketplaces"
+      },
+      "step3": {
+        "description": "PWA can work offline (without internet connection) and they are 4 times faster than any web",
+        "pic": "PWA 4 times faster than any web"
+      },
+      "step4": {
+        "description": "They are full responsives adapting to any screen of any device: computer, tablet or mobile",
+        "pic": "They are responsives"
+      },
+      "step5": {
+        "description": "PWA can use native features such as push notifications (soon also available on Apple's iOS).",
+        "pic": "With push notifications"
+      },
+      "step6": {
+        "description": "They affect SEO positioning because they appear in search engines like Google improving the visibility of the brand on the internet.",
+        "pic": "They affect SEO positioning"
+      },
+      "step7": {
+        "description": "All-in-one mobile marketing solution since you can create loyalty systems to retain your customers, communicate with them, make bookings from your mobile, facilitate purchases...",
+        "pic": "A mobile marketing solution"
+      }
+    }
+  }
+}

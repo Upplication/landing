@@ -1,0 +1,45 @@
+{
+  "pwa": {
+    "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
+    "_meta_title": "404: Page not found in Upplication: the app creator",
+    "_url": "/es/progressive-web-app/",
+    "title": "Progressive Web App",
+    "subtitle": "La nueva manera de entender las Apps",
+    "what": {
+      "maintitle": "¿Qué es una <span>Progressive Web App</span>?",
+      "description": "Las <b>Progressive Web Apps</b> <em>(aplicaciones web progresivas)</em>, son experiencias que combinan <span>lo mejor de la web</span> y <span>lo mejor de las apps</span>. Están disponibles para los usuarios a partir de la primera visita en una pestaña del navegador y <b>no requieren instalación</b>. Además incrementan su funcionalidad a medida que se usa. Se <b>carga rápidamente</b> como experiencia de pantalla completa y de primer nivel, incluso con redes débiles, envía <b>notificaciones push</b> relevantes, tiene un ícono en la pantalla principal..."
+    },
+    "advantages": {
+      "maintitle": "¿Qué ventajas tiene una <span>Progressive Web App</span>?",
+      "step1": {
+        "description": "Se instalan directamente desde el navegador web sin apenas ocupar espacio en tu dispositivo.",
+        "pic": "Instalación desde el navegador web"
+      },
+      "step2": {
+        "description": "No dependes de los markets de Apple ni de Google ahorrándote así las esperas de revisión y publicación de la app.",
+        "pic": "No dependes de los markets"
+      },
+      "step3": {
+        "description": "Pueden funcionar offline (sin conexión a internet) y son hasta 4 veces más rápidas que cualquier web.",
+        "pic": "4 veces más rápidas que cualquier web"
+      },
+      "step4": {
+        "description": "Son multiplataforma (responsives) adaptándose a cualquier pantalla de cualquier dispositivo: ordenador, tablet o móvil.",
+        "pic": "Son multiplataforma (responsives)"
+      },
+      "step5": {
+        "description": "Pueden usar funcionalidades nativas como las notificaciones push (en breve también en iOS de Apple).",
+        "pic": "Envío de notificaciones push"
+      },
+      "step6": {
+        "description": "Inciden en el posicionamiento SEO pues aparecen en los buscadores como Google mejorando la visibilidad de la marca en internet.",
+        "pic": "Inciden en el posicionamiento SEO"
+      },
+      "step7": {
+        "description": "Solución todo en uno de marketing móvil ya que podrás crear sistemas de fidelización para retener a sus clientes, comunicarse con ellos, hacer reservas desde el móvil, facilitar las compras...",
+        "pic": "Solución de marketing móvil"
+      }
+    }
+  }
+}

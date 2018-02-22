@@ -1,0 +1,189 @@
+/**
+ ************************************************************************************************
+ ************************************************************************************************
+ * {LESS} :: PWA (progressive web app) :: (upplication, 2018)
+ ************************************************************************************************
+  ***********************************************************************************************
+ */
+
+@import "../base/_common.less";
+@import "../base/_timeline.less";
+
+/* -- (0) Title BG img -- */
+.pwa-bg {
+  width: 100%;
+  padding-top: 50px;
+}
+
+// Heading TITLE in current (PWA) view
+.pwa-header {
+  top: 265px;
+  .centered;
+  position: absolute;
+
+  h4 {
+    color: @main-green;
+    position: relative;
+    font-size: 70px;
+    font-weight: 600;
+    margin: .2em 0 0 0;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 5px;
+    font-size: 39.5px;
+    color: @darkest-lilac;
+  }
+}
+
+// (common) Paragraphs
+.pwa-text {
+  p {
+    margin-bottom: 0;
+    line-height: 30px;
+    color: @dark-lilac;
+    font-size: 18px;
+    font-weight: 400;
+
+    span {
+      color: @main-green;
+      font-weight: 500;
+    }
+
+    a {
+      font-weight: 500;
+      text-decoration: underline;
+
+      &:hover {
+        color: @dark-lilac;
+      }
+    }
+  }
+}
+
+/* -- (1) WHAT IS A PWA -- */
+#what {
+  padding-top: 3em;
+}
+
+/* -- MEDIA QUERIES :: Progressive Web App -- */
+
+@media all and (max-width: 480px) {
+  #what {
+    // to reset margin
+    .container {
+      margin-bottom: 25px;
+      // Text adapted
+      .company-intro {
+        p {
+          .font-mobile;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1350px) {
+  .pwa-header{
+    top: 60px;
+  }
+}
+
+@media (max-width:1150px) {
+  .pwa-header{
+    top: 30px;
+  }
+}
+
+@media (max-width:1080px) {
+  .pwa-header{
+    h4 {
+      font-size: 150px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width:768px) {
+  .pwa-header{
+    h4 {
+      font-size: 130px;
+    }
+  }
+}
+
+@media (max-width:667px) {
+  .pwa-header{
+    h4:after {
+      text-shadow: -4px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width:600px) {
+  .pwa-header{
+    text-align: left;
+    padding-bottom: 0;
+    top: 50px;
+
+    h4 {
+      font-size: 90px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width:480px) {
+  .pwa-header{
+    top: 35px;
+  }
+}
+
+@media (max-width:420px) {
+  .pwa-header{
+    h4 {
+      font-size: 75px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+/* -- (2) PWA ADVANTAGES TIMELINE -- */
+
+// overwrite (timeline) styles by default
+.timeline-section {
+  .timeline {
+    .timeline-panel {
+      .timeline-body {
+        padding: 5px 15px;
+
+        > p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+/* -- (3) HOW TO INSTALL A PWA -- */
+
+#how {
+  width: 100%;
+  border-top: 1px solid @header-border;
+  margin-top: 0;
+
+  .pwa-how:last-child {
+    float: right;
+  }
+}

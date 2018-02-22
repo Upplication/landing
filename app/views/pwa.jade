@@ -1,0 +1,98 @@
+extend base/v2/base
+
+block vars
+    - var title = pwa._meta_title
+    - var description = pwa._meta_description
+    - var keywords = pwa._keywords
+    - var cssClass = 'pwa'
+
+block css
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/pwa/pwa.css')
+
+block content
+
+    //- PROGRESSIVE WEB APP
+    //- (0) Title BG img
+    .pwa-bg
+        img.responsive-img(src='#{localConfig.base_path}/images/pwa/pwa_bg.jpg', title='#{pwa.title}', alt='#{pwa.title}')
+    .container
+        .col.s12.center-align.pwa-header
+            h4 #{pwa.title}
+            p #{pwa.subtitle}
+
+    //- (1) WHAT IS A PWA
+    section#what
+        .container.marBot50
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.what.maintitle}
+            .row.pwa-text(data-aos='fade-down')
+                .col.s12.m8.offset-m2
+                    p !{pwa.what.description}
+
+    //- (2) PWA ADVANTAGES TIMELINE
+    section#advantages.timeline-section.scrollspy
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.what.maintitle}
+            .row
+                .col.l12
+                    ul.timeline
+                        li.step1
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-01.svg', title='#{pwa.advantages.step1.pic}', alt='#{pwa.advantages.step1.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step1.description}
+                        li.timeline-inverted.step2
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-02.svg', title='#{pwa.advantages.step2.pic}', alt='#{pwa.advantages.step2.pic}')
+                            .timeline-panel(data-aos='flip-down')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step2.description}
+                        li.step3
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-03.svg', title='#{pwa.advantages.step3.pic}', alt='#{pwa.advantages.step3.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step3.description}
+                        li.timeline-inverted.step4
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-04.svg', title='#{pwa.advantages.step4.pic}', alt='#{pwa.advantages.step4.pic}')
+                            .timeline-panel(data-aos='flip-down')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step4.description}
+                        li.step5
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-05.svg', title='#{pwa.advantages.step5.pic}', alt='#{pwa.advantages.step5.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step5.description}
+                        li.timeline-inverted.step6
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-06.svg', title='#{pwa.advantages.step6.pic}', alt='#{pwa.advantages.step6.pic}')
+                            .timeline-panel(data-aos='flip-down')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step6.description}
+                        li.step7
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-07.svg', title='#{pwa.advantages.step7.pic}', alt='#{pwa.advantages.step7.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step7.description}
+    //- (3) HOW TO INSTALL A PWA
+    section#how
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.what.maintitle}
+            .row.pwa-text
+                .col.s12.m3(data-aos='fade-right')
+                    img.img-responsive(src='#{localConfig.base_path}/images/home/timeline/sign-up.svg', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
+                .col.s12.m6(data-aos='zoom-in')
+                    p !{pwa.what.description}
+                .col.s12.m3(data-aos='fade-left')
+                    img.img-responsive(src='#{localConfig.base_path}/images/home/timeline/sign-up.svg', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
+
+block scripts
