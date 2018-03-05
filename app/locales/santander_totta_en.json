@@ -80,6 +80,17 @@
           "claim": "Colocar em órbita seu negócio",
           "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
         }
+      },
+      "footer": {
+        "brand_copy": "Santander Totta",
+        "partners": {
+          "title": "by Upplication",
+          "url": "@@config.base_path/pt/santandertotta/"
+        },
+        "legal": {
+          "title": "Aviso Legal",
+          "url": "@@config.base_path/pt/santandertotta-legal/"
+        }
       }
     }
   }

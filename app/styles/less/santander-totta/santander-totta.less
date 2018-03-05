@@ -95,8 +95,6 @@
 }
 
 
-
-
 /**
  ******************************************************
  *      SANTANDER TOTTA new styles!
@@ -789,6 +787,7 @@
 // ----------------------------------
 .pricing-plans-totta {
   top: 70px;
+  margin-bottom: 50px; /* to place Footer */
 
   .col {
     // to overwrite "materialize" default values
@@ -880,6 +879,43 @@
         &:hover {
           background-color: @accept-btn-hover;
         }
+      }
+    }
+  }
+}
+
+// (comon) FOOTER in "Santander Totta"
+// ----------------------------------
+footer.page-footer {
+  background-color: transparent; /* overwrite color by default */
+
+  .footer-copyright {
+    a {
+      &.by {
+        pointer-events: none;
+        cursor: default;
+      }
+      &.legal {
+        text-decoration: underline;
+        &:hover {
+          color: @accept-btn-hover;
+        }
+      }
+    }
+    /* responsive behaviour (overwrite color by default) */
+    @media only screen and (max-width: 810px) {
+      .container span {
+        padding-left: 0;
+        margin-top: 0;
+      }
+    }
+    @media only screen and (max-width: 420px) {
+      span {
+        display: inline-block;
+      }
+      a.legal {
+        display: block;
+        padding: 10px 0;
       }
     }
   }

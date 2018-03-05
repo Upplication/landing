@@ -138,6 +138,20 @@ block content
                         ul !{santander_totta.home.pricing.premium.price}
                         a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
 
+    //- FOOTER :: Copyright & Legal Terms
+    footer.page-footer
+        .footer-copyright
+            .container
+                span
+                    i.icon.icon-copyright
+                    | #{santander_totta.home.footer.brand_copy},
+                    span#js-current-year
+                a.by(rel='nofollow', href='#{santander_totta.home.footer.partners.url}', target='_blank', title='#{santander_totta.home.footer.partners.title}') #{santander_totta.home.footer.partners.title}
+                i.icon.icon-dot
+                a.legal(rel='nofollow', href='#{santander_totta.home.footer.legal.url}', target='_blank', title='#{santander_totta.home.footer.legal.title}') #{santander_totta.home.footer.legal.title}
+                i.icon.icon-dot
+                em #{footer.signature}
+
 block scripts
 
     //- to load iframes with delay
