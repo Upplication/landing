@@ -8,6 +8,7 @@
 
 @import "../base/_common.less";
 @import "../base/_timeline.less";
+@import "../base/_trial.less";
 
 /* -- (0) Title BG img -- */
 .pwa-bg {
@@ -17,9 +18,15 @@
 
 // Heading TITLE in current (PWA) view
 .pwa-header {
+  width: 100%;
   top: 265px;
   .centered;
   position: absolute;
+  // (block) responsive behaviour
+  @media (max-width:1080px) { top: 225px; }
+  @media (max-width: 980px) { top: 155px; }
+  @media (max-width: 600px) { top: 125px; }
+  @media (max-width: 480px) { top: 120px; }
 
   h4 {
     color: @main-green;
@@ -34,6 +41,24 @@
     margin-top: 5px;
     font-size: 39.5px;
     color: @darkest-lilac;
+  }
+
+  // (Copies) responsive behaviour
+  @media (max-width: 350px) {
+    h4 { font-size: 60px; }
+    p {  font-size: 33.5px; }
+  }
+  @media (max-width: 1150px) {
+    h4 { font-size: 50px; }
+    p {  font-size: 28px; }
+  }
+  @media (max-width: 980px) {
+    h4 { font-size: 40px; }
+    p {  font-size: 22.5px; }
+  }
+  @media (max-width: 480px) {
+    h4 { font-size: 30px; }
+    p {  font-size: 17px; }
   }
 }
 
@@ -62,12 +87,11 @@
   }
 }
 
-/* -- (1) WHAT IS A PWA -- */
+/* -- (1) WHAT IS A PWA ---------------------------- */
+
 #what {
   padding-top: 3em;
 }
-
-/* -- MEDIA QUERIES :: Progressive Web App -- */
 
 @media all and (max-width: 480px) {
   #what {
@@ -84,83 +108,38 @@
   }
 }
 
-@media (max-width:1350px) {
-  .pwa-header{
-    top: 60px;
-  }
-}
+/* -- (2) PWA Are ... ---------------------------------- */
 
-@media (max-width:1150px) {
-  .pwa-header{
-    top: 30px;
+.features {
+  padding: 3em 0 3em 0;
+  border-top: 1px solid @header-border;
+  // responsive behaviour
+  @media all and (max-width: 768px) {
+    padding: 3em 0 1em 0;
   }
-}
 
-@media (max-width:1080px) {
-  .pwa-header{
-    h4 {
-      font-size: 150px;
-    }
-    p {
-      font-size: 30px;
-    }
-  }
-}
+  h3 {
+    color: @dark-lilac;
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
 
-@media (max-width:768px) {
-  .pwa-header{
-    h4 {
-      font-size: 130px;
+    em {
+      color: @light-lilac;
+      font-weight: 400;
+      letter-spacing: 0.015em;
     }
   }
-}
 
-@media (max-width:667px) {
-  .pwa-header{
-    h4:after {
-      text-shadow: -4px 5px 5px rgba(0, 0, 0, 0.1);
-    }
-    p {
-      font-size: 24px;
-    }
-  }
-}
-
-@media (max-width:600px) {
-  .pwa-header{
+  .pwa-text p {
     text-align: left;
-    padding-bottom: 0;
-    top: 50px;
-
-    h4 {
-      font-size: 90px;
-    }
-    p {
-      font-size: 18px;
-    }
   }
 }
 
-@media (max-width:480px) {
-  .pwa-header{
-    top: 35px;
-  }
-}
+/* -- (3) PWA ADVANTAGES TIMELINE ---------------------- */
 
-@media (max-width:420px) {
-  .pwa-header{
-    h4 {
-      font-size: 75px;
-    }
-    p {
-      font-size: 16px;
-    }
-  }
-}
-
-/* -- (2) PWA ADVANTAGES TIMELINE -- */
-
-// overwrite (timeline) styles by default
+// overwrite ("_timeline.less") styles by default
 .timeline-section {
   .timeline {
     .timeline-panel {
@@ -176,14 +155,79 @@
   }
 }
 
-/* -- (3) HOW TO INSTALL A PWA -- */
+@media (min-width: 1200px) {
+  .timeline-section {
+    .timeline > li {
+      min-height: 150px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline-section {
+    .timeline > li:last-child {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+/* -- (4) HOW TO INSTALL A PWA ------------------------- */
 
 #how {
   width: 100%;
   border-top: 1px solid @header-border;
   margin-top: 0;
+  padding-top: 3em;
 
-  .pwa-how:last-child {
-    float: right;
+  .pwa-text {
+    .col:last-child {
+      // to overwrite styles above in some devices
+      @media (min-width: 921px) {
+        margin-top: 20px;
+        img {
+          float: right;
+          margin-top: 0;
+        }
+      }
+    }
+    // to overwrite "materialize" grid in some devices
+    > .col {
+      @media (max-width: 920px) {
+        width: 100% !important;
+        img {
+          .centered;
+        }
+      }
+    }
+  }
+}
+
+/* -- (5) PWA .PDF DOWNLOAD ---------------------------- */
+
+#summary {
+  .icon-quote-left {
+    font-size: 1.5em;
+    color: @light-lilac;
+
+    &:first-child {
+      padding-right: 5px;
+    }
+    &:last-child {
+      padding-left: 5px;
+      &::before {
+        .rotate(180deg);
+      }
+    }
+  }
+}
+
+/* -- (6) PWA .PDF DOWNLOAD ---------------------------- */
+
+// overwrite ("_trial.less") styles by default
+.trial-block {
+  &.pwa-trial-block {
+    border-top: 1px solid @header-border;
+    padding-top: 6em;
+    padding-bottom: 0;
   }
 }

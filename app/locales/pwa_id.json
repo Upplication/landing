@@ -10,6 +10,24 @@
       "maintitle": "What is a <span>Progressive Web App</span>?",
       "description": "Las <b>Progressive Web Apps</b> <em>(aplicaciones web progresivas)</em>, son experiencias que combinanlo mejor de la web y lo mejor de las apps. Están disponibles para los usuarios a partir de la primera visita en una pestaña del navegador y <b>no requieren instalación</b>. Además incrementan su funcionalidad a medida que se usa. Se <b>carga rápidamente</b> como experiencia de pantalla completa y de primer nivel, incluso con redes débiles, envía <b>notificaciones push</b> relevantes, tiene un ícono en la pantalla principal..."
     },
+    "features": {
+      "maintitle": "<span>PWA</span> are apps that <span>...</span>",
+      "progressive": {
+        "title": "Progressive <em>(progresivas)</em>",
+        "description": "... <span>Increase their functionality</span>, conform to the capabilities of the device on which they run, becoming more and more powerful as they are used.",
+        "pic": "Increase their functionality"
+      },
+      "web": {
+        "title": "Web <em>(web)</em>",
+        "description": "... <span>Are built using web development standards</span>, like HTML, CSS, javaScript and a new generation of javaScript APIs",
+        "pic": "Are built using web development standards"
+      },
+      "app": {
+        "title": "App <em>(app)</em>",
+        "description": "... <span>Have all the most remarkable Apps features</span> as: can be installed on mobile devices, run offline, have apps look and feel, push notifications, etc.",
+        "pic": "Have all the most remarkable Apps features"
+      }
+    },
     "advantages": {
       "maintitle": "What advantages does a <span>Progressive Web App</span> have?",
       "step1": {
@@ -40,6 +58,26 @@
         "description": "All-in-one mobile marketing solution since you can create loyalty systems to retain your customers, communicate with them, make bookings from your mobile, facilitate purchases...",
         "pic": "A mobile marketing solution"
       }
+    },
+    "install": {
+      "maintitle": "How to install a <span>Progressive Web App</span>?",
+      "ios": "How to install PWA in iOS Safari browser",
+      "android": "How to install PWA in Android Chrome browser",
+      "how": [
+        "<span>1.</span> <b>Open the PWA</b> in device browser. The URL will always be:</br> <span>app name + upplication.com</span> <em>(cafedelrey.upplication.com)</em>",
+        "<span>2.</span> <b>Push button</b> <em>'Add to home screen'</em> when the pop-up window <em>(modal dialog)</em> appears.",
+        "<span>3.</span> <b>Search the icon</b> on the mobile and open the app."
+      ]
+    },
+    "summary": {
+      "maintitle": "In summary <span>...</span>",
+      "description": "... A <span>Progresive Web App</span> uses the latest technologies available in browsers to offer a complete mobile experience almost identical to a native application."
+    },
+    "download": {
+      "maintitle": "Download this info!",
+      "subtitle": "All this info is available in .PDF format",
+      "btn": "Download PDF",
+      "src": "@@config.base_path/download/upplication_PWA_2018_en-EN.pdf"
     }
   }
 }

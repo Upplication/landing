@@ -30,12 +30,36 @@ block content
                 .col.s12.m8.offset-m2
                     p !{pwa.what.description}
 
-    //- (2) PWA ADVANTAGES TIMELINE
+    //- (2) PWA Are ...
+    .features.features-upp
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.features.maintitle}
+            .row.features-grids.center-align(data-aos='zoom-in')
+                .col.s12.m4
+                    .features-grid.pwa-text.center-img
+                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rise.svg', alt='#{pwa.features.progressive.pic}', title='#{pwa.features.progressive.pic}')
+                        h3 !{pwa.features.progressive.title}
+                        p !{pwa.features.progressive.description}
+                .col.s12.m4
+                    .features-grid.pwa-text.center-img
+                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/loyal.svg', alt='#{pwa.features.web.pic}', title='#{pwa.features.web.pic}')
+                        h3 !{pwa.features.web.title}
+                        p !{pwa.features.web.description}
+                .col.s12.m4
+                    .features-grid.pwa-text.center-img
+                        img.img-responsive(src='#{localConfig.base_path}/images/home/icons/rocket.svg', alt='#{pwa.features.app.pic}', title='#{pwa.features.app.pic}')
+                        h3 !{pwa.features.app.title}
+                        p !{pwa.features.app.description}
+                .clearfix
+
+    //- (3) PWA ADVANTAGES TIMELINE
     section#advantages.timeline-section.scrollspy
         .container
             .row
                 .plans-head.center-align
-                    h4.headTitles !{pwa.what.maintitle}
+                    h4.headTitles !{pwa.advantages.maintitle}
             .row
                 .col.l12
                     ul.timeline
@@ -81,18 +105,47 @@ block content
                             .timeline-panel(data-aos='flip-up')
                                 .timeline-body
                                     p.text-muted !{pwa.advantages.step7.description}
-    //- (3) HOW TO INSTALL A PWA
+    //- (4) HOW TO INSTALL A PWA
     section#how
         .container
             .row
                 .plans-head.center-align
-                    h4.headTitles !{pwa.what.maintitle}
+                    h4.headTitles !{pwa.install.maintitle}
             .row.pwa-text
                 .col.s12.m3(data-aos='fade-right')
-                    img.img-responsive(src='#{localConfig.base_path}/images/home/timeline/sign-up.svg', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
+                    img.img-responsive(src='#{localConfig.base_path}/images/pwa/pwa-how-to-install-in-safari-iOS.png', alt='#{pwa.install.ios}', title='#{pwa.install.ios}')
                 .col.s12.m6(data-aos='zoom-in')
-                    p !{pwa.what.description}
+                    p !{pwa.install.description}
+                    //- for each loop to load all copies in "locales" json file/s
+                    each howtoinstall, i in pwa.install.how
+                        p !{howtoinstall}
                 .col.s12.m3(data-aos='fade-left')
-                    img.img-responsive(src='#{localConfig.base_path}/images/home/timeline/sign-up.svg', alt='#{home.how.how_one.reg_step1}', title='#{home.how.how_one.reg_step1}')
+                    img.img-responsive(src='#{localConfig.base_path}/images/pwa/pwa-how-to-install-in-chrome-android.png', alt='#{pwa.install.android}', title='#{pwa.install.android}')
+
+    //- (5) PWA SUMMARY
+    section#summary.timeline-section
+        .container.marBot50
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.summary.maintitle}
+            .row.pwa-text(data-aos='fade-down')
+                .col.s12.m8.offset-m2.marBot50
+                    p
+                        i.icon.icon-quote-left
+                        em !{pwa.summary.description}
+                        i.icon.icon-quote-left
+
+    //- (6) PWA .PDF DOWNLOAD
+    .trial-block.pwa-trial-block
+        .container
+            .trial-block-grids
+                .trial-block-left
+                    h2 #{pwa.download.maintitle}
+                    h3 #{pwa.download.subtitle}
+                .trial-block-right
+                    a.price-btn(href='#{pwa.download.src}', title='#{pwa.download.btn}', download)
+                        i.icon.icon-download
+                        | #{pwa.download.btn}
+                .clearfix
 
 block scripts
