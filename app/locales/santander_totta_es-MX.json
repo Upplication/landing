@@ -5,82 +5,109 @@
     "_meta_title": "Santander Totta e Upplication",
     "_priority": "0.8",
     "_url": "/mx/santandertotta/",
-    "home": {
-      "logo": {
-        "url": "@@config.base_path/pt/santandertotta/",
-        "title": "Santander Totta logotipo"
-      },
-      "support": {
-        "phone": "Telefone: +351300509132",
-        "url": "Telefone:+351300509132",
-        "title": "Telefone: +351300509132"
-      },
-      "teledemo": {
-        "btn": "Experimente aqui",
-        "title": "Experimente aqui"
-      },
-      "slider": {
-        "img_01": "Conecta o teu negócio",
-        "intro1": "Conecta o teu negócio:",
-        "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, criámos o programa <b>Digitaliza a sua empresa</b>:",
-        "text": [
-          "Restaurantes",
-          "Lojas online",
-          "Saúde",
-          "Serviços",
-          "Hotelaria"
+    "logo": {
+      "url": "@@config.base_path/pt/santandertotta/",
+      "title": "Santander Totta logotipo"
+    },
+    "support": {
+      "phone": "Telefone: +351300509132",
+      "url": "Telefone:+351300509132",
+      "title": "Telefone: +351300509132"
+    },
+    "teledemo": {
+      "btn": "Experimente aqui",
+      "title": "Experimente aqui"
+    },
+    "slider": {
+      "img_01": "Conecta o seu negócio",
+      "intro1": "Conecta o seu negócio:",
+      "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, criámos o programa <b>Digitalize a sua empresa</b>:",
+      "text": [
+        "Restaurantes",
+        "Lojas online",
+        "Saúde",
+        "Serviços",
+        "Hotelaria"
+      ],
+      "advice": {
+        "quote": "Preço exclusivo para clientes Banco Santander Totta",
+        "price": ["Por apenas", "7", "´95 €", "Mês <i class='icon icon-asterisk'></i>"],
+        "mais": {
+          "more": "Descubra mais",
+          "link": "aquí"
+        }
+      }
+    },
+    "form": {
+      "input": {
+        "cif": "NIF",
+        "code": "Código de validação"
+      }
+    },
+    "business": {
+      "restaurants": "Restaurantes",
+      "shops": "Lojas online",
+      "health": "Saúde",
+      "services": "Serviços",
+      "hostelry": "Hotelaria",
+      "tips": {
+        "restaurants": "<li>Ementas</li> <li>Reservas</li> <li>Take Away</li> <li>Alerta de promoções (descontos)</li>",
+        "shops": "<li>Apresentação do produto</li> <li>Venda online</li> <li>Pagamentos online</li> <li>Alerta de promoções(descontos)</li>",
+        "health": "<li>Horários de atendimento</li> <li>Gestão de tempos de espera</li> <li>Especialidades</li> <li>Pagamentos online</li>",
+        "services": "<li>Condições dos serviços prestados</li> <li>Ofertas exclusivas</li> <li>Contratação e pagamentos online</li> <li>Horários e promoções</li>",
+        "hostelry": "<li>Reservas e disponibilidade</li> <li>Apresentação de serviços</li> <li>Pagamento online</li> <li>Alerta de promoções (descontos)</li>"
+      }
+    },
+    "claim": "Seja um restaurante, uma loja, um escritório de advogados, uma clinica ou um hotel; com a solução <b>Conecte o seu Negócio</b> encontra um modelo que poderá adaptar à imagem da sua empresa.",
+    "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupação será a relação com os seus clientes e nada mais. O <b>Digitalize a sua empresa</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para digitalizar o seu negócio.",
+    "pricing": {
+      "btn": "Contratar agora",
+      "basic": {
+        "alt": "Plano de preços básico",
+        "title": "Básico",
+        "claim": "Plano de boas-vindas",
+        "features": [
+          "<i class='icon icon-chart-line'></i> <b>Estatísticas</b> da app",
+          "<i class='icon icon-megaphone'></i> <b>Publicidade</b> Upplication",
+          "<i class='icon icon-pencil'></i> <b>Logo</b> da upplication nas folhas",
+          "<i class='icon icon-paper-plane'></i> <b>Sem</b> notificações push"
         ],
-        "advice": {
-          "quote": "Preço exclusivo para clientes Banco Santander Totta",
-          "price": ["Por apenas", "7", "´95 €", "Mês <i class='icon icon-asterisk'></i>"],
-          "mais": {
-            "more": "Descubra mais",
-            "link": "aquí"
-          }
-        }
+        "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
       },
-      "form": {
-        "input": {
-          "code": "Código de validação",
-          "cif": "CIF"
-        }
+      "profissional": {
+        "alt": "Plano de preços Profissional",
+        "title": "Profissional",
+        "claim": "Plano lançador de negócios",
+        "features": [
+          "<i class='icon icon-chart-line'></i> <b>Estatísticas</b> da app",
+          "<i class='icon icon-megaphone'></i> <b>Sem</b> publicidade",
+          "<i class='icon icon-pencil'></i> <b>Sem</b> logo da upplication nas folhas",
+          "<i class='icon icon-paper-plane'></i> <b>4</b> notificações push/mês"
+        ],
+        "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
       },
-      "business": {
-        "restaurants": "Restaurantes",
-        "shops": "Lojas online",
-        "health": "Saúde",
-        "services": "Serviços",
-        "hostelry": "Hotelaria",
-        "tips": {
-          "restaurants": "<li>Ementas</li> <li>Reservas</li> <li>Take Away</li> <li>Alerta de promoções (descontos)</li>",
-          "shops": "<li>Apresentação de producto</li> <li>Venda online</li> <li>Pagamentos online</li> <li>Alerta de promoções(descontos)</li>",
-          "health": "<li>Horários de atendimento</li> <li>Gestão de tempos de espera</li> <li>Especialidades</li> <li>Pagamentos online</li>",
-          "services": "<li>Condições dos serviços prestados</li> <li>Ofertas exclusivas</li> <li>Contratação e pagamentos online</li> <li>Horários e promoções</li>",
-          "hostelry": "<li>Reservas e disponibilidade</li> <li>Apresentação de serviços</li> <li>Pagamento online</li> <li>Alerta de promoções (descontos)</li>"
-        }
+      "premium": {
+        "alt": "Plano de preços premium",
+        "title": "Premium",
+        "claim": "Colocar em órbita seu negócio",
+        "features": [
+          "<i class='icon icon-ok'></i> <b>Premium plano</b> e também:",
+          "<i class='icon icon-graduation-cap'></i> Curso gratuito de <b>Marketing Apps</b>",
+          "<i class='icon icon-certificate'></i> <b>Adesivo</b> para o seu negócio",
+          "<i class='icon icon-paper-plane'></i> Notificações push/mês <b>ilimitadas</b>"
+        ],
+        "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
+      }
+    },
+    "footer": {
+      "brand_copy": "Santander Totta",
+      "partners": {
+        "title": "by Upplication",
+        "url": "@@config.base_path/pt/santandertotta/"
       },
-      "claim": "Seja um restaurante, uma loja de artesanato ou um escritório de advogados, entre outros, no <b>Digitaliza a sua empresa do Santander Advance</b> vai encontrar um modelo que poderá adaptar à imagem e aos serviços da sua empresa.",
-      "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupação será a relação com os seus clientes e nada mais. O <b>Digitaliza a sua empresa</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para digitalizar o seu negócio.",
-      "pricing": {
-        "btn": "Contratar agora",
-        "basic": {
-          "alt": "Plano de preços básico",
-          "title": "Básico",
-          "claim": "Plano de boas-vindas",
-          "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
-        },
-        "profissional": {
-          "alt": "Plano de preços Profissional",
-          "title": "Profissional",
-          "claim": "Plano de lançador de negócios",
-          "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
-        },
-        "premium": {
-          "alt": "Plano de preços premium",
-          "title": "Premium",
-          "claim": "Colocar em órbita seu negócio",
-          "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
-        }
+      "legal": {
+        "title": "Aviso Legal",
+        "url": "@@config.base_path/pt/santandertotta-legal/"
       }
     }
   }
