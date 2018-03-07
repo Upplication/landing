@@ -67,8 +67,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 .santander-totta
                     .container
                         .logo
-                            a(href='#{santander_totta.home.logo.url}', alt='#{santander_totta.home.logo.title}')
-                                img(src='#{localConfig.base_path}/images/santander-totta/santandertotta-logo.svg', title='#{santander_totta.home.logo.title}', alt='#{santander_totta.home.logo.title}')
+                            a(href='#{santander_totta.logo.url}', alt='#{santander_totta.logo.title}')
+                                img(src='#{localConfig.base_path}/images/santander-totta/santandertotta-logo.svg', title='#{santander_totta.logo.title}', alt='#{santander_totta.logo.title}')
                 .upplication
                     .container
                         .logo
@@ -77,16 +77,17 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         nav.top-nav
                             ul.top-nav-list.hide-ul
                                 li.phone-support-pt
-                                    a(href="#{santander_totta.home.support.url}", title="#{santander_totta.home.support.title}")
-                                        | #{santander_totta.home.support.phone}
+                                    a(href="#{santander_totta.support.url}", title="#{santander_totta.support.title}")
+                                        | #{santander_totta.support.phone}
                                 li.enter-btn
                                     a.hide-tab(href="#{external.dashboard.url}")
                                         i.icon.icon-key
                                         | #{header.enter}
-                                li.contact-info
-                                    .contact-info-grids
-                                        .contact-info-left
-                                            a.chat(href='#free-trial', title='#{santander_totta.home.teledemo.title}') #{santander_totta.home.teledemo.btn}
+                                //- TODO: temporarily disabled by Pedro´s (Portugal) request!
+                                    li.contact-info
+                                        .contact-info-grids
+                                            .contact-info-left
+                                                a.chat(href='#free-trial', title='#{santander_totta.teledemo.title}') #{santander_totta.teledemo.btn}
                             //- Three animated bars for drop down main navbar in mobile
                             a#pull(href='')
                                 span
