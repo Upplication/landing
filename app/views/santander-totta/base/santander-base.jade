@@ -72,8 +72,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                 .upplication
                     .container
                         .logo
-                            a(href='#{header.logo.url}', alt='#{header.logo.title}')
-                                img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{header.logo.title}', alt='#{header.logo.title}')
+                            a(href='#{santander_totta.upplication.url}', alt='#{santander_totta.upplication.title}')
+                                img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{santander_totta.upplication.title}', alt='#{santander_totta.upplication.title}')
                         nav.top-nav
                             ul.top-nav-list.hide-ul
                                 li.phone-support-pt
@@ -82,7 +82,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 li.enter-btn
                                     a.hide-tab(href="#{external.dashboard.url}")
                                         i.icon.icon-key
-                                        | #{header.enter}
+                                        | #{santander_totta.dashboard.enter}
                                 //- TODO: temporarily disabled by Pedro´s (Portugal) request!
                                     li.contact-info
                                         .contact-info-grids
@@ -105,7 +105,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         //- Cookies alert
         #cookies
             i#cookies-accept.icon.icon-cross
-            p !{footer.cookies}
+            p !{santander_totta.cookies}
 
 
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')

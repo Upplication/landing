@@ -5,9 +5,16 @@
     "_meta_title": "Santander Totta e Upplication",
     "_priority": "0.8",
     "_url": "/pt/santandertotta/",
+    "upplication": {
+      "url": "@@config.base_path/pt/santandertotta/",
+      "title": "Upplication logotipo"
+    },
     "logo": {
       "url": "@@config.base_path/pt/santandertotta/",
       "title": "Santander Totta logotipo"
+    },
+    "dashboard": {
+      "enter": "Entrar"
     },
     "support": {
       "phone": "Telefone: +351300509132",
@@ -39,9 +46,18 @@
       }
     },
     "form": {
+      "title": "Regista-te <span>grátis</span> e experimenta <span>15 dias</span>",
       "input": {
+        "name": "Nome da sua aplicação",
+        "email": "email",
+        "pass": "Senha",
         "cif": "NIF",
         "code": "Código de validação"
+      },
+      "call_to_action": "Cria a tua app grátis",
+      "promo": "15 dias de experiência grátis com ajuda personalizada.",
+      "error": {
+        "general": "Ops! Ocorreu um erro."
       }
     },
     "business": {
@@ -108,7 +124,9 @@
       "legal": {
         "title": "Aviso Legal",
         "url": "@@config.base_path/pt/santandertotta-legal/"
-      }
-    }
+      },
+      "signature": "Desenhado e desenvolvido em Madrid"
+    },
+    "cookies": "Ao fechar esta janela aceita a nossa <a href='@@config.base_path/pt/santandertotta-legal/' target='_blank'>política de cookies</a>."
   }
 }
