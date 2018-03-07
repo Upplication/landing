@@ -37,7 +37,7 @@ block content
                     div
                         each copy in santander_totta.slider.advice.price
                             span !{copy}
-                    //-
+                    //- TODO: remove uselee code below cause for each above
                         span #{santander_totta.slider.advice.price.intro}
                         span #{santander_totta.slider.advice.price.price}
                         span #{santander_totta.slider.advice.price.currency}
@@ -162,7 +162,7 @@ block content
                 i.icon.icon-dot
                 a.legal(rel='nofollow', href='#{santander_totta.footer.legal.url}', title='#{santander_totta.footer.legal.title}') #{santander_totta.footer.legal.title}
                 i.icon.icon-dot
-                em #{footer.signature}
+                em #{santander_totta.footer.signature}
 
 block scripts
 
