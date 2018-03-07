@@ -1,0 +1,43 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: TERMS - index :: (upplication, 2018)
+ ******************************************************
+  *****************************************************
+ */
+
+// (common) imports
+@import "../base/_common.less";
+@import "../terms/terms.less";
+// (specific) "Santander Totta" imports
+@import "_common-santander-totta.less";
+
+// Terms & Legal
+.terms-grid {
+  margin-top: 7em;
+
+  // Text blocks
+  p,
+  ul li {
+    color: @santander-main-text;
+  }
+  p {
+    strong {
+      color: @santander-light-text;
+    }
+    a {
+      color: @main-blue;
+
+      &:hover {
+        color: darken(@main-blue, 15%);
+      }
+    }
+  }
+}
+
+// overwrites styles
+.headTitles span,
+h4.headTitles span,
+h2.headTitles span {
+  color: @santander;
+}

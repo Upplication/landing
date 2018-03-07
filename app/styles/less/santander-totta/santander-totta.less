@@ -12,15 +12,6 @@
 @import "../base/_sliders.less";
 
 
-// main Text mixin with default values (overwrite default ones!)
-.main-text(@size: 15px, @weight: 300) {
-  font-family: "Roboto", sans-serif;
-  font-size: @size;
-  letter-spacing: .02em;
-  font-weight: @weight;
-}
-
-
 /* ... TYPED SLIDER PLUGIN ... */
 
 .typed-cursor {
@@ -103,183 +94,6 @@
 
 @import "_common-santander-totta.less";
 
-// (common) COOKIES advise in "Santander Totta"
-// --------------------------------------------
-#cookies {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid @santander-main-text;
-
-  p a:hover {
-    color: @santander;
-  }
-}
-
-// main HEADER in "Santander Totta"
-// --------------------------------
-.top-header {
-  height: 135px;
-  background-color: transparent;
-  border: none;
-
-  // 0. Overwrite default values:
-  .container {
-    @media (min-width: 769px) {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-
-    .logo {
-      width: 50px;
-    }
-    .top-nav {
-      width: ~"calc(100% - 50px)";
-
-      .top-nav-list {
-        width: 100%;
-        // responsive behaviour
-        // (carefully cause erase this code will affect to mobile dorpdown top menu)
-        @media (min-width: 769px) {
-          display: flex;
-          justify-content: flex-end;
-        }
-
-        // each top main navbar items!!
-        li {
-          &.contact-info {
-            .contact-info-grids {
-              min-width: inherit;
-              .contact-info-left {
-                width: 100%;
-                .chat {
-                  @media (max-width: 768px) {
-                    margin-bottom: 10px;
-                  }
-                }
-                // (Responsive) "Contact-info"
-                @media only screen and (max-width: 980px) {
-                  .chat {
-                    display: inherit;
-                  }
-                }
-              }
-            }
-            // (Responsive) "Contact-info"
-            @media only screen and (max-width: 875px) {
-              display: inherit;
-            }
-          }
-
-          &.phone-support-pt {
-            font-family: "Lato", sans-serif;
-          }
-
-          a {
-            max-width: inherit;
-          }
-
-          // (Responsive) in hamburguer top main menu
-          @media only screen and (max-width: 768px) {
-            &.enter-btn,
-            &.contact-info,
-            &.phone-support-pt {
-              width: 90%;
-              margin: 1% 5%;
-            }
-            &.phone-support-pt {
-              text-align: center;
-              background-color: @santander-grey;
-              margin-bottom: 0.5%;
-            }
-            &.enter-btn a {
-              margin: 0;
-            }
-          }
-          @media only screen and (max-width: 320px) {
-            padding: 0;
-          }
-        }
-      }
-    }
-  }
-
-  // 1. "Santander" premain navbar Top Header
-  .santander-totta {
-    width: 100%;
-    height: 55px;
-    background-color: @santander;
-    .anim(height, 0.3s, ease);
-
-    .container .logo a img {
-      width: 200px;
-      height: 30px;
-      top: 0;
-    }
-  }
-
-  // 2. "Upplication" main navbar Top Header
-  .upplication {
-    width: 100%;
-    height: 80px;
-    background-color: @header-bg;
-    border-bottom: 1px solid @header-border;
-    .anim(height, 0.3s, ease);
-
-    .container .logo a img {
-      width: 159px;
-      height: 60px;
-      top: 0;
-    }
-  }
-
-  /* ... Main Header shrink when you scrolls down ... */
-  &.thiny-top-header {
-    height: 90px;
-
-    .santander-totta {
-      height: 30px;
-
-      .container .logo a img {
-        width: 150px;
-        height: 24px;
-      }
-    }
-    .upplication {
-      height: 60px;
-
-      .container .logo a img {
-        width: 127px;
-        height: 40px;
-        top: 10px;
-      }
-    }
-  }
-}
-
-// Responsive behaviour HEADER
-@media (max-width: 768px) {
-  .top-header {
-    .upplication {
-      height: 65px;
-    }
-    .santander-totta .container .logo a img {
-      top: 10px;
-    }
-    nav a#pull {
-      top: 75px;
-      right: 25px;
-    }
-    // Small header when user scroll down
-    &.thiny-top-header {
-      .santander-totta .container .logo a img {
-        top: 0;
-      }
-      nav a#pull {
-        top: 47px;
-      }
-    }
-  }
-}
-
 // SLIDER and his Content in "Santander Totta"
 // -------------------------------------------
 .slider {
@@ -296,6 +110,11 @@
   top: 165px;
   .flex();
   align-items: flex-end;
+  // Responsive Behaviour
+  @media (min-width: 1271px) and (max-width: 1450px) { left: 10%; }
+  @media (min-width: 1121px) and (max-width: 1270px) { left: 5%; }
+  @media (min-width: 1081px) and (max-width: 1120px) { left: 2.5%; }
+  @media (max-width: 1080px) { left: 0; }
 
   .main-clain-on-head,
   .register-form {
@@ -481,8 +300,8 @@
 
         span {
           display: inline-block;
-          .main-text(8px, 600);
-          color: @santander-light-text;
+          .main-text(11px, 400);
+          color: @santander-main-text;
           position: relative;
           bottom: 5px;
         }
@@ -671,7 +490,7 @@
       p {
         width: 100%;
         margin: 20px 25px 20px 35px;
-        .main-text(20px, 300);
+        .main-text(22px, 300);
         color: @santander-main-text;
 
         b {
@@ -797,13 +616,32 @@
       margin-top: 0;
       margin-bottom: 25px;
       .main-text(15px, 400);
-      color: @santander-main-text;
+      font-style: oblique;
+      color: lighten(@santander-main-text, 5%);
+    }
+    // Pricing Plan Features list
+    .price-plan-features {
+      max-width: 235px;
+      margin: 0 auto;
+
+      li {
+        text-align: left;
+        font-size: 14px;
+        line-height: 25px;
+        color: @santander-main-text;
+
+        i {
+          padding-right: 5px;
+          color: @santander;
+        }
+      }
     }
     // Price per month
     .price-plan-detail {
-      max-width: 200px;
-      min-height: 115px;
-      margin: 0 auto;
+      /* min-height: 115px; to enable old CTA buttons */
+      max-width: 240px;
+      min-height: 70px;
+      margin: 20px auto 0;
       background-color: @santander-grey;
       .border-radius(2px);
 
@@ -847,6 +685,7 @@
           }
         }
       }
+      /* TODO: to enable old CTA buttons
       // Call to Action
       a {
         display: block;
@@ -863,43 +702,7 @@
           background-color: @accept-btn-hover;
         }
       }
-    }
-  }
-}
-
-// (comon) FOOTER in "Santander Totta"
-// ----------------------------------
-footer.page-footer {
-  background-color: transparent; /* overwrite color by default */
-
-  .footer-copyright {
-    a {
-      &.by {
-        pointer-events: none;
-        cursor: default;
-      }
-      &.legal {
-        text-decoration: underline;
-        &:hover {
-          color: @accept-btn-hover;
-        }
-      }
-    }
-    /* responsive behaviour (overwrite color by default) */
-    @media only screen and (max-width: 810px) {
-      .container span {
-        padding-left: 0;
-        margin-top: 0;
-      }
-    }
-    @media only screen and (max-width: 420px) {
-      span {
-        display: inline-block;
-      }
-      a.legal {
-        display: block;
-        padding: 10px 0;
-      }
+      */
     }
   }
 }
@@ -907,43 +710,6 @@ footer.page-footer {
 // RESPONSIVE BEHAVIOUR (media queries)
 // overwrite Common Values "Santander Totta"
 // --------------------------------------------
-@media only screen and (min-width: 1451px) {
-  .container {
-    width: 70%; // 92% in "Upplication"
-  }
-}
-@media (min-width: 1271px) and (max-width: 1450px) {
-  .container {
-    width: 80%; // 92% in "Upplication"
-  }
-  .register-area {
-    left: 10%;
-  }
-}
-@media (min-width: 1121px) and (max-width: 1270px) {
-  .container {
-    width: 90%; // 92% in "Upplication"
-  }
-  .register-area {
-    left: 5%;
-  }
-}
-@media (min-width: 1081px) and (max-width: 1120px) {
-  .container {
-    width: 95%; // 92% in "Upplication"
-  }
-  .register-area {
-    left: 2.5%;
-  }
-}
-@media (min-width: 769px) and (max-width: 1080px) {
-  .container {
-    width: 100%; // 92% in "Upplication"
-  }
-  .register-area {
-    left: 0;
-  }
-}
 
 // main CLAIM (responsive behaviour)
 @media (max-width: 1006px) {
@@ -1002,12 +768,6 @@ footer.page-footer {
   .features-totta,
   .pricing-plans-totta {
     top: -100px;
-  }
-}
-
-@media (max-width: 768px) {
-  .register-area {
-    left: 0;
   }
 }
 

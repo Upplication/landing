@@ -35,6 +35,9 @@ block content
             .advice
                 .price-since
                     div
+                        each copy in santander_totta.slider.advice.price
+                            span !{copy}
+                    //-
                         span #{santander_totta.slider.advice.price.intro}
                         span #{santander_totta.slider.advice.price.price}
                         span #{santander_totta.slider.advice.price.currency}
@@ -117,23 +120,35 @@ block content
                     img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-grey.svg', title='#{santander_totta.pricing.basic.alt}', alt='#{santander_totta.pricing.basic.alt}')
                     h3 #{santander_totta.pricing.basic.title}
                     h5 #{santander_totta.pricing.basic.claim}
+                    ul.price-plan-features
+                        each feature in santander_totta.pricing.basic.features
+                            li !{feature}
                     .price-plan-detail
                         ul !{santander_totta.pricing.basic.price}
-                        a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
+                        //- TODO: to enable old CTA buttons
+                            a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
                 .col.s12.m4
                     img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-blue.svg', title='#{santander_totta.pricing.profissional.alt}', alt='#{santander_totta.pricing.profissional.alt}')
                     h3 #{santander_totta.pricing.profissional.title}
                     h5 #{santander_totta.pricing.profissional.claim}
+                    ul.price-plan-features
+                        each feature in santander_totta.pricing.profissional.features
+                            li !{feature}
                     .price-plan-detail
                         ul !{santander_totta.pricing.profissional.price}
-                        a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
+                        //- TODO: to enable old CTA buttons
+                            a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
                 .col.s12.m4
                     img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-gold.svg', title='#{santander_totta.pricing.premium.alt}', alt='#{santander_totta.pricing.premium.alt}')
                     h3 #{santander_totta.pricing.premium.title}
                     h5 #{santander_totta.pricing.premium.claim}
+                    ul.price-plan-features
+                        each feature in santander_totta.pricing.premium.features
+                            li !{feature}
                     .price-plan-detail
                         ul !{santander_totta.pricing.premium.price}
-                        a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
+                        //- TODO: to enable old CTA buttons
+                            a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
 
     //- FOOTER :: Copyright & Legal Terms
     footer.page-footer
@@ -145,7 +160,7 @@ block content
                     span#js-current-year
                 a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}') #{santander_totta.footer.partners.title}
                 i.icon.icon-dot
-                a.legal(rel='nofollow', href='#{santander_totta.footer.legal.url}', target='_blank', title='#{santander_totta.footer.legal.title}') #{santander_totta.footer.legal.title}
+                a.legal(rel='nofollow', href='#{santander_totta.footer.legal.url}', title='#{santander_totta.footer.legal.title}') #{santander_totta.footer.legal.title}
                 i.icon.icon-dot
                 em #{footer.signature}
 
