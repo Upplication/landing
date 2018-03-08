@@ -45,7 +45,7 @@
     "form": {
       "title": "Regista-te <span>grátis</span> e experimenta <span>15 dias</span>",
       "input": {
-        "name": "Nome da App",
+        "name": "Nome da sua App",
         "email": "Email",
         "pass": "Senha",
         "cif": "NIF",
