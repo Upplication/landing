@@ -109,6 +109,7 @@
   left: 15%; // 100% - 70% (".container" width) / 2
   top: 165px;
   .flex();
+  flex-wrap: nowrap;
   align-items: flex-end;
   // Responsive Behaviour
   @media (min-width: 1271px) and (max-width: 1450px) { left: 10%; }
@@ -246,11 +247,14 @@
         }
       }
 
-      div:not(.price-advice) {
-        max-height: 85px;
+      div {
+        max-height: 75px;
         width: 120px;
         .full-center-block();
+        top: 42%;
+        z-index: 1;
       }
+      /* link to scrolldown till "pricing plans" */
       .price-advice {
         width: 100%;
         padding: 10px;
@@ -259,8 +263,9 @@
         text-align: center;
         position: absolute;
         bottom: 0;
-        a {
-          padding-left: 3px;
+        cursor: default;
+        z-index: 2;
+        b {
           color: @santander;
           text-decoration: none;
           cursor: pointer;
@@ -307,7 +312,7 @@
 
         span {
           display: inline-block;
-          .main-text(11px, 400);
+          .main-text(12px, 400);
           color: @santander-main-text;
           position: relative;
           bottom: 5px;
@@ -599,12 +604,6 @@
   margin-bottom: 50px; /* to place Footer */
 
   .col {
-    // to overwrite "materialize" default values
-    @media only screen and (max-width: 768px) {
-      width: 100% !important;
-      margin-bottom: 50px;
-    }
-
     img {
       width: 60px;
       height: 60px;
@@ -628,7 +627,7 @@
     }
     // Pricing Plan Features list
     .price-plan-features {
-      max-width: 235px;
+      max-width: 275px;
       margin: 0 auto;
 
       li {
@@ -646,7 +645,7 @@
     // Price per month
     .price-plan-detail {
       /* min-height: 115px; to enable old CTA buttons */
-      max-width: 240px;
+      max-width: 275px;
       min-height: 70px;
       margin: 20px auto 0;
       background-color: @santander-grey;
@@ -712,6 +711,17 @@
       */
     }
   }
+  // (asterisk) "exceptions" paragraph
+  .features-exceptions {
+    p {
+      .main-text(13px, 300);
+      i {
+        font-size: 8px;
+        color: @santander;
+        top: -2px;
+      }
+    }
+  }
 }
 
 // RESPONSIVE BEHAVIOUR (media queries)
@@ -724,7 +734,6 @@
     .advice {
       .price-since {
         width: 30%;
-        min-height: 200px;
       }
       .business-types {
         width: 70%;
@@ -738,10 +747,36 @@
     .advice {
       .price-since {
         width: 40%;
+        min-height: 200px;
       }
       .business-types {
         width: 60%;
         min-height: 200px;
+      }
+    }
+  }
+}
+
+// Tablet breakpoint
+@media (max-width: 768px) {
+  .pricing-plans-totta {
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+
+    > .row {
+      margin-bottom: 0;
+    }
+
+    .col {
+      // to overwrite "materialize" default values
+      width: 100% !important;
+      margin-bottom: 50px;
+    }
+    .features-exceptions {
+      margin: 0 !important;
+      p {
+        margin: 0;
+        padding: 0 10px;
       }
     }
   }
@@ -755,6 +790,7 @@
   .register-area {
     position: relative;
     top: -150px;
+    flex-wrap: wrap;
 
     .main-clain-on-head {
       width: 100%;

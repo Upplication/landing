@@ -218,6 +218,9 @@
 // ------------------------------------
 footer.page-footer {
   background-color: transparent; /* overwrite color by default */
+  @media (max-width: 768px) {
+    padding-top: 0;
+  }
 
   .footer-copyright {
     a {
@@ -270,4 +273,17 @@ footer.page-footer {
   @media (min-width: 769px) and (max-width: 1080px) {
     width: 100%; // 92% in "Upplication"
   }
+}
+
+// TODO: to hide "Marketing App" course Modal (dialog)
+/* -- MARKETING APP eBook -- */
+html div#om-gylasdx7iwcdo5a40ykm,
+html div#om-gylasdx7iwcdo5a40ykm-holder,
+#om-gylasdx7iwcdo5a40ykm,
+#om-gylasdx7iwcdo5a40ykm-holder,
+  // (custom) Class to hide DOM elements
+.hidden-modal {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
 }

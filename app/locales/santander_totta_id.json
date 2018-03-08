@@ -26,12 +26,12 @@
       "title": "Experimente aqui"
     },
     "slider": {
-      "img_01": "Conecta o seu negócio",
-      "intro1": "Conecta o seu negócio:",
-      "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, criámos o programa <b>Digitalize a sua empresa</b>:",
+      "img_01": "Conecte o seu Negócio",
+      "intro1": "Conecte o seu Negócio:",
+      "intro2": "Ter uma forte presença digital é hoje obrigatório para qualquer empresa. Porque sabemos disso, <b>criámos a Solução Conecte o seu Negócio</b>:",
       "text": [
         "Restaurantes",
-        "Lojas online",
+        "Lojas",
         "Saúde",
         "Serviços",
         "Hotelaria"
@@ -39,30 +39,27 @@
       "advice": {
         "quote": "Preço exclusivo para clientes Banco Santander Totta",
         "price": ["Por apenas", "7", "´95 €", "Mês <i class='icon icon-asterisk'></i>"],
-        "mais": {
-          "more": "Descubra mais",
-          "link": "aquí"
-        }
+        "mais": "Descubra mais <b>aqui</b>"
       }
     },
     "form": {
       "title": "Regista-te <span>grátis</span> e experimenta <span>15 dias</span>",
       "input": {
-        "name": "Nome da sua aplicação",
-        "email": "email",
+        "name": "Nome da App",
+        "email": "Email",
         "pass": "Senha",
         "cif": "NIF",
         "code": "Código de validação"
       },
-      "call_to_action": "Cria a tua app grátis",
-      "promo": "15 dias de experiência grátis com ajuda personalizada.",
+      "call_to_action": "Crie a sua app",
+      "promo": "Período experimental de 15 dias.",
       "error": {
         "general": "Ops! Ocorreu um erro."
       }
     },
     "business": {
       "restaurants": "Restaurantes",
-      "shops": "Lojas online",
+      "shops": "Lojas",
       "health": "Saúde",
       "services": "Serviços",
       "hostelry": "Hotelaria",
@@ -74,8 +71,8 @@
         "hostelry": "<li>Reservas e disponibilidade</li> <li>Apresentação de serviços</li> <li>Pagamento online</li> <li>Alerta de promoções (descontos)</li>"
       }
     },
-    "claim": "Seja um restaurante, uma loja, um escritório de advogados, uma clinica ou um hotel; com a solução <b>Conecte o seu Negócio</b> encontra um modelo que poderá adaptar à imagem da sua empresa.",
-    "explain": "A juntar a isto, <b>contará com assitência técnica sempre disponível</b> para garantir que a sua única preocupação será a relação com os seus clientes e nada mais. O <b>Digitalize a sua empresa</b> inclui ainda a criação de uma página no Facebook. Fale connosco e prepare-se para digitalizar o seu negócio.",
+    "claim": "Seja um restaurante, loja, escritório de advogados, clínica, hotel ou outra atividade, com a Solução <b>Conecte o seu Negócio</b> encontra um modelo de App que poderá adaptar à imagem da sua empresa ou negócio.",
+    "explain": "A juntar a isto, <b>contará com assistência técnica sempre disponível</b> para que a sua única preocupação seja na relação com os seus clientes. A Solução <b>Conecte o seu Negócio</b> inclui ainda a criação de uma página no Facebook.",
     "pricing": {
       "btn": "Contratar agora",
       "basic": {
@@ -85,7 +82,7 @@
         "features": [
           "<i class='icon icon-chart-line'></i> <b>Estatísticas</b> da app",
           "<i class='icon icon-megaphone'></i> <b>Publicidade</b> Upplication",
-          "<i class='icon icon-pencil'></i> <b>Logo</b> da upplication nas folhas",
+          "<i class='icon icon-pencil'></i> <b>Logotipo</b> da Upplication nas páginas",
           "<i class='icon icon-paper-plane'></i> <b>Sem</b> notificações push"
         ],
         "price": "<li>7´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
@@ -97,7 +94,7 @@
         "features": [
           "<i class='icon icon-chart-line'></i> <b>Estatísticas</b> da app",
           "<i class='icon icon-megaphone'></i> <b>Sem</b> publicidade",
-          "<i class='icon icon-pencil'></i> <b>Sem</b> logo da upplication nas folhas",
+          "<i class='icon icon-pencil'></i> <b>Sem</b> logotipo da Upplication nas páginas",
           "<i class='icon icon-paper-plane'></i> <b>4</b> notificações push/mês"
         ],
         "price": "<li>24´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
@@ -107,13 +104,14 @@
         "title": "Premium",
         "claim": "Colocar em órbita seu negócio",
         "features": [
-          "<i class='icon icon-ok'></i> <b>Premium plano</b> e também:",
-          "<i class='icon icon-graduation-cap'></i> Curso gratuito de <b>Marketing Apps</b>",
+          "<i class='icon icon-ok'></i> <b>Plano profissional</b> e também:",
+          "<i class='icon icon-graduation-cap'></i> Curso gratuito de <b>Marketing de Apps</b>",
           "<i class='icon icon-certificate'></i> <b>Adesivo</b> para o seu negócio",
           "<i class='icon icon-paper-plane'></i> Notificações push/mês <b>ilimitadas</b>"
         ],
         "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
-      }
+      },
+      "exceptions": "<i class='icon icon-asterisk'></i> Valores com desconto incluído. Os planos de preços da Solução (Básico, Profissional e Premium) apresentados ñão incluem o custo da publicação da aplicação iOS na App Store."
     },
     "footer": {
       "brand_copy": "Santander Totta",

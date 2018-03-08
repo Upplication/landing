@@ -44,9 +44,7 @@ block content
                         span
                             | #{santander_totta.slider.advice.price.date}
                             i.icon.icon-asterisk
-                    .price-advice
-                        | #{santander_totta.slider.advice.mais.more}
-                        a #{santander_totta.slider.advice.mais.link}
+                    a.price-advice(href='#pricing-plans-totta', title='#{santander_totta.slider.advice.mais}') !{santander_totta.slider.advice.mais}
                 .business-types
                     div
                         img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.business.restaurants}', alt='#{santander_totta.business.restaurants}')
@@ -113,7 +111,7 @@ block content
             p !{santander_totta.explain}
 
     //- PRICING PLANS (info & calls to action)
-    .features.pricing-plans-totta
+    #pricing-plans-totta.features.pricing-plans-totta.scrollspy
         .container
             .row.features-grids.center-align(data-aos='zoom-in')
                 .col.s12.m4
@@ -149,6 +147,9 @@ block content
                         ul !{santander_totta.pricing.premium.price}
                         //- TODO: to enable old CTA buttons
                             a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
+            .row
+                .col.s12.m8.offset-m2.features-exceptions
+                    p !{santander_totta.pricing.exceptions}
 
     //- FOOTER :: Copyright & Legal Terms
     footer.page-footer
@@ -186,6 +187,7 @@ block scripts
     script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
     script(type='text/javascript').
         $(function () {
+            //- to enable tying Text effect
             $(".element").typed({
                 strings: !{JSON.stringify(santander_totta.slider.text)},
                 typeSpeed: 100,
@@ -198,8 +200,13 @@ block scripts
     //- CUSTOM JS
     script(type='text/javascript').
         $(document).ready(function () {
+            //- to enable slider (caroussel)
             $('.slider').slider({
                 indicators: false,
                 interval: 4000
             }).slider('pause');
+            //- to enable scroll anchors
+            $('.scrollspy').scrollSpy();
+            //- to disable eBook Marketing App Modal
+            $('#om-gylasdx7iwcdo5a40ykm').addClass('hidden-modal');
         });
