@@ -185,12 +185,8 @@
             "title": "<span class=\"bold\">3</span><span>cambios al año</span>"
           },
           {
-            "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Curso</span><span>de Marketing Apps</span>"
-          },
-          {
-            "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">Pegatina</span><span>para tu local</span>"
+            "icon_class": "icon icon-book-open",
+            "title": "<span>eBook de </span><span class=\"bold\">Marketing Apps</span>"
           }
         ],
         "name": "Hacemos tu App",

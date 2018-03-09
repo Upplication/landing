@@ -185,12 +185,8 @@
             "title": "<span class=\"bold\">3</span><span>meningkatkan per tahun</span>"
           },
           {
-            "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Marketing Apps</span><span>kursus gratis</span>"
-          },
-          {
-            "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">stiker</span><span>untuk bisnis Anda</span>"
+            "icon_class": "icon icon-book-open",
+            "title": "<span class=\"bold\">Marketing Apps</span><span>eBook gratis</span>"
           }
         ],
         "name": "Kita lakukan",
