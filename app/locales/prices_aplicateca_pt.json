@@ -185,12 +185,8 @@
             "title": "<span class=\"bold\">3</span><span>atualiza\u00e7\u00f5es por ano</span>"
           },
           {
-            "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Marketing Apps</span><span>curso gratuito</span>"
-          },
-          {
-            "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">Adesivo</span><span>para voc\u00ea neg\u00f3cio</span>"
+            "icon_class": "icon icon-book-open",
+            "title": "<span>eBook de </span><span class=\"bold\">Marketing Apps</span>"
           }
         ],
         "name": "N\u00f3s criamos seu app",

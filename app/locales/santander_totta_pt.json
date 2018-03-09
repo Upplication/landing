@@ -105,13 +105,13 @@
         "claim": "Colocar em órbita seu negócio",
         "features": [
           "<i class='icon icon-ok'></i> <b>Plano profissional</b> e também:",
-          "<i class='icon icon-graduation-cap'></i> Curso gratuito de <b>Marketing de Apps</b>",
-          "<i class='icon icon-certificate'></i> <b>Adesivo</b> para o seu negócio",
+          "<i class='icon icon-book-open'></i> eBook gratuito de <b>Marketing de Apps</b>",
+          "<i class='icon icon-graduation-cap'></i> <b>Tutor</b> personalizado",
           "<i class='icon icon-paper-plane'></i> Notificações push/mês <b>ilimitadas</b>"
         ],
         "price": "<li>49´95</li> <li>€</li> <li>/</li> <li>Mês</li>"
       },
-      "exceptions": "<i class='icon icon-asterisk'></i> Valores com desconto incluído. Os planos de preços da Solução (Básico, Profissional e Premium) apresentados ñão incluem o custo da publicação da aplicação iOS na App Store."
+      "exceptions": "<i class='icon icon-asterisk'></i> Valores com desconto incluído. Os planos de preços da Solução (Básico, Profissional e Premium) apresentados não incluem o custo da publicação da aplicação iOS na App Store."
     },
     "footer": {
       "brand_copy": "Santander Totta",

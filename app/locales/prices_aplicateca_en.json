@@ -185,12 +185,8 @@
             "title": "<span class=\"bold\">3</span><span>upgrades per year</span>"
           },
           {
-            "icon_class": "icon icon-graduation-cap",
-            "title": "<span class=\"bold\">Marketing Apps</span><span>free course</span>"
-          },
-          {
-            "icon_class": "icon icon-certificate",
-            "title": "<span class=\"bold\">Sticker</span><span>for your workplace</span>"
+            "icon_class": "icon icon-book-open",
+            "title": "<span class=\"bold\">Marketing Apps</span><span>free eBook</span>"
           }
         ],
         "name": "We create your App",
