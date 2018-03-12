@@ -8,7 +8,7 @@
     "subtitle": "The new way of understanding Apps",
     "what": {
       "maintitle": "What is a <span>Progressive Web App</span>?",
-      "description": "<b>Progressive Web Apps</b>, are experiences that combine <span>the best of the web</span> and <span>the best of the apps/span>. They are available to users from the very first visit in a browser tab and <b>do not require installation</b>. They also increase their functionality as they are used. PWA <b>load fast</b> as a full-screen and first-level experience, even with weak network connection, be able to send <b>push notifications</b>, has an icon on the home screen..."
+      "description": "<b>Progressive Web Apps</b>, are experiences that combine <span>the best of the web</span> and <span>the best of the apps</span>. They are available to users from the very first visit in a browser tab and <b>do not require installation</b>. They also increase their functionality as they are used. PWA <b>load fast</b> as a full-screen and first-level experience, even with weak network connection, be able to send <b>push notifications</b>, has an icon on the home screen..."
     },
     "features": {
       "maintitle": "<span>PWA</span> are apps that <span>...</span>",

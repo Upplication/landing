@@ -63,6 +63,7 @@
       "maintitle": "How to install a <span>Progressive Web App</span>?",
       "ios": "How to install PWA in iOS Safari browser",
       "android": "How to install PWA in Android Chrome browser",
+      "description": "<b>Progressive Web Apps</b> can be installed instantaneously on the home screens of mobile devices, without visiting the marketplaces <em>(Apple Store y Google Play)</em> :",
       "how": [
         "<span>1.</span> <b>Open the PWA</b> in device browser. The URL will always be:</br> <span>app name + upplication.com</span> <em>(cafedelrey.upplication.com)</em>",
         "<span>2.</span> <b>Push button</b> <em>'Add to home screen'</em> when the pop-up window <em>(modal dialog)</em> appears.",

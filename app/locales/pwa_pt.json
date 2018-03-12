@@ -63,6 +63,7 @@
       "maintitle": "Como é feita a instalação de um <span>Progressive Web App</span>?",
       "ios": "Como é feita a instalação de um PWA no iOS Safari",
       "android": "Como é feita a instalação de um PWA no Android Chrome",
+      "description": "Os <b>Progressive Web Apps</b> podem ser instalados instantaneamente nas telas iniciais dos dispositivos móveis, sem precisar acessar uma loja de aplicativos <em>(Apple Store y Google Play)</em>:",
       "how": [
         "<span>1.</span> <b>Abrir o PWA</b> no browser. A URL sempre está formada por:</br> <span>nome do app + upplication.com</span> <em>(cafedelrey.upplication.com)</em> :",
         "<span>2.</span> <b> Clicar no botão</b> <em>'Adicionar à Tela Início'</em> quando apareça a pop up <em>(modal dialog)</em>.",
