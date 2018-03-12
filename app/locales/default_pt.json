@@ -157,8 +157,8 @@
     "byfibonad": "by Fibonad",
     "community": "Sociedade",
     "company": "Empresa",
-    "cookies": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/pt/termos/#cookies-policy'>pol\u00edtica de cookies</a>.",
-    "cookies_aplicateca": "Ao fechar esta janela aceitas a nossa <a href='@@config.base_path/pt/termos-aplicateca/'>pol\u00edtica de cookies.</a>",
+    "cookies": "Ao fechar esta janela aceita a nossa <a href='@@config.base_path/pt/termos/#cookies-policy'>pol\u00edtica de cookies</a>.",
+    "cookies_aplicateca": "Ao fechar esta janela aceita a nossa <a href='@@config.base_path/pt/termos-aplicateca/'>pol\u00edtica de cookies.</a>",
     "free_trial": "Experimente gr\u00e1tis",
     "media": "Meios e redes",
     "partners": {

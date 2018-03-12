@@ -1,0 +1,54 @@
+extend santander-totta/base/santander-base
+
+block vars
+    - var title = santander_totta_terms._meta_title
+    - var description = santander_totta_terms._meta_description
+    - var keywords = santander_totta_terms._keywords
+    - var cssClass = 'santander_totta_terms'
+
+block css
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/santander-totta/santander-totta-terms.css')
+
+block content
+
+    //- TERMS & CONDITIONS
+    .col.s12.center-align.legal
+        #legal.about.scrollspy
+            .about-grids
+                .container
+                    .terms-grid.about-left-grids
+                        h4.headTitles.head-terms !{santander_totta_terms.legal.title}
+                        each paragraph in santander_totta_terms.legal.paragraphs
+                            p(data-aos='fade-up') !{paragraph}
+                        h4#privacidad.headTitles.head-terms.scrollspy !{santander_totta_terms.privacy.title}
+                        each paragraph in santander_totta_terms.privacy.paragraphs
+                            p(data-aos='fade-up') !{paragraph}
+                        h4#uso.headTitles.head-terms.scrollspy !{santander_totta_terms.general.title}
+                        each subsection in santander_totta_terms.general.subsections
+                            h5 !{subsection.title}
+                            each paragraph in subsection.paragraphs
+                                p(data-aos='fade-up') !{paragraph}
+                        h4#cookies-policy.headTitles.head-terms.scrollspy !{santander_totta_terms.cookies.title}
+                        each subsections in santander_totta_terms.cookies.subsections
+                            h5 !{subsections.title}
+                            each paragraph in subsections.paragraphs
+                                p(data-aos='fade-up') !{paragraph}
+                        h4#dashboard-policy.headTitles.head-terms.scrollspy !{santander_totta_terms.dashboard.title}
+                        each subsections in santander_totta_terms.dashboard.subsections
+                            h5 !{subsections.title}
+                            each paragraph in subsections.paragraphs
+                                p(data-aos='fade-up') !{paragraph}
+
+    //- FOOTER :: Copyright & Legal Terms
+    footer.page-footer
+        .footer-copyright
+            .container
+                span
+                    i.icon.icon-copyright
+                    | #{santander_totta.footer.brand_copy},
+                    span#js-current-year
+                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}') #{santander_totta.footer.partners.title}
+                i.icon.icon-dot
+                a.legal(rel='nofollow', href='#{santander_totta_terms.footer.home.url}', title='#{santander_totta_terms.footer.home.title}') #{santander_totta_terms.footer.home.title}
+                i.icon.icon-dot
+                em #{santander_totta.footer.signature}

@@ -15,7 +15,7 @@ block content
     .slider.slides-to-mobile
         ul.slides
             li
-                img(src='#{localConfig.base_path}/images/santander-totta//slider/hipster.jpg', alt='#{santander_totta.home.slider.img_01}', title='#{santander_totta.home.slider.img_01}')
+                img(src='#{localConfig.base_path}/images/santander-totta//slider/hipster.jpg', alt='#{santander_totta.slider.img_01}', title='#{santander_totta.slider.img_01}')
         //- todo: add a few more images for this main slider
             li
                 img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgcoffeeshop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
@@ -27,45 +27,43 @@ block content
     //- MAIN CLAIM & REGISTER FORM (over top Slider)
     .register-area.container
         .main-clain-on-head(data-aos='fade-down-right')
-            h2 #{santander_totta.home.slider.intro1}
+            h2 #{santander_totta.slider.intro1}
                 .typed-effect
                     span.element
-            h1 !{santander_totta.home.slider.intro2}
+            h1 !{santander_totta.slider.intro2}
             //- advice quotes about price, business types...
             .advice
                 .price-since
                     div
-                        each price, i in santander_totta.home.slider.advice.price
-                            span !{price}
-                    //-
-                        span #{santander_totta.home.slider.advice.price.intro}
-                        span #{santander_totta.home.slider.advice.price.price}
-                        span #{santander_totta.home.slider.advice.price.currency}
+                        each copy in santander_totta.slider.advice.price
+                            span !{copy}
+                    //- TODO: remove uselee code below cause for each above
+                        span #{santander_totta.slider.advice.price.intro}
+                        span #{santander_totta.slider.advice.price.price}
+                        span #{santander_totta.slider.advice.price.currency}
                         span
-                            | #{santander_totta.home.slider.advice.price.date}
+                            | #{santander_totta.slider.advice.price.date}
                             i.icon.icon-asterisk
-                    .price-advice
-                        | #{santander_totta.home.slider.advice.mais.more}
-                        a #{santander_totta.home.slider.advice.mais.link}
+                    a.price-advice(href='#pricing-plans-totta', title='#{santander_totta.slider.advice.mais}') !{santander_totta.slider.advice.mais}
                 .business-types
                     div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.home.business.restaurants}', alt='#{santander_totta.home.business.restaurants}')
-                        span #{santander_totta.home.business.restaurants}
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.business.restaurants}', alt='#{santander_totta.business.restaurants}')
+                        span #{santander_totta.business.restaurants}
                     div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.home.business.shops}', alt='#{santander_totta.home.business.shops}')
-                        span #{santander_totta.home.business.shops}
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.business.shops}', alt='#{santander_totta.business.shops}')
+                        span #{santander_totta.business.shops}
                     div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.home.business.health}', alt='#{santander_totta.home.business.health}')
-                        span #{santander_totta.home.business.health}
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.business.health}', alt='#{santander_totta.business.health}')
+                        span #{santander_totta.business.health}
                     div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.home.business.services}', alt='#{santander_totta.home.business.services}')
-                        span #{santander_totta.home.business.services}
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.business.services}', alt='#{santander_totta.business.services}')
+                        span #{santander_totta.business.services}
                     div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.home.business.hostelry}', alt='#{santander_totta.home.business.hostelry}')
-                        span #{santander_totta.home.business.hostelry}
+                        img(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.business.hostelry}', alt='#{santander_totta.business.hostelry}')
+                        span #{santander_totta.business.hostelry}
                 p.advice-quote
                     i.icon.icon-asterisk
-                    | #{santander_totta.home.slider.advice.quote}
+                    | #{santander_totta.slider.advice.quote}
 
         //- REGISTER panel :: "15 days free trial" (desktop - laptop)
         include santander-totta/includes/register
@@ -79,64 +77,93 @@ block content
                 span
                 span
                 .claim-wrapper
-                    p !{santander_totta.home.claim}
+                    p !{santander_totta.claim}
 
     //- BUSINESS TYPES (samples and his tips)
     .features.features-totta
         .container
             .row.features-grids.center-align(data-aos='zoom-in')
                 .col.s12
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.home.business.restaurants}', alt='#{santander_totta.home.business.restaurants}')
-                    h3 #{santander_totta.home.business.restaurants}
-                    ul.tips !{santander_totta.home.business.tips.restaurants}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.business.restaurants}', alt='#{santander_totta.business.restaurants}')
+                    h3 #{santander_totta.business.restaurants}
+                    ul.tips !{santander_totta.business.tips.restaurants}
                 .col.s12
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.home.business.shops}', alt='#{santander_totta.home.business.shops}')
-                    h3 #{santander_totta.home.business.shops}
-                    ul.tips !{santander_totta.home.business.tips.shops}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.business.shops}', alt='#{santander_totta.business.shops}')
+                    h3 #{santander_totta.business.shops}
+                    ul.tips !{santander_totta.business.tips.shops}
                 .col.s12
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.home.business.health}', alt='#{santander_totta.home.business.health}')
-                    h3 #{santander_totta.home.business.health}
-                    ul.tips !{santander_totta.home.business.tips.health}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.business.health}', alt='#{santander_totta.business.health}')
+                    h3 #{santander_totta.business.health}
+                    ul.tips !{santander_totta.business.tips.health}
                 .col.s12
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.home.business.services}', alt='#{santander_totta.home.business.services}')
-                    h3 #{santander_totta.home.business.services}
-                    ul.tips !{santander_totta.home.business.tips.services}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.business.services}', alt='#{santander_totta.business.services}')
+                    h3 #{santander_totta.business.services}
+                    ul.tips !{santander_totta.business.tips.services}
                 .col.s12
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.home.business.hostelry}', alt='#{santander_totta.home.business.hostelry}')
-                    h3 #{santander_totta.home.business.hostelry}
-                    ul.tips !{santander_totta.home.business.tips.hostelry}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.business.hostelry}', alt='#{santander_totta.business.hostelry}')
+                    h3 #{santander_totta.business.hostelry}
+                    ul.tips !{santander_totta.business.tips.hostelry}
                 .clearfix
 
     //- EXPLAIN (extended Claim)
     .features.expanded-claim-totta
         .container(data-aos='fade-left')
-            p !{santander_totta.home.explain}
+            p !{santander_totta.explain}
 
     //- PRICING PLANS (info & calls to action)
-    .features.pricing-plans-totta
+    #pricing-plans-totta.features.pricing-plans-totta.scrollspy
         .container
             .row.features-grids.center-align(data-aos='zoom-in')
                 .col.s12.m4
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-grey.svg', title='#{santander_totta.home.pricing.basic.alt}', alt='#{santander_totta.home.pricing.basic.alt}')
-                    h3 #{santander_totta.home.pricing.basic.title}
-                    h5 #{santander_totta.home.pricing.basic.claim}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-grey.svg', title='#{santander_totta.pricing.basic.alt}', alt='#{santander_totta.pricing.basic.alt}')
+                    h3 #{santander_totta.pricing.basic.title}
+                    h5 #{santander_totta.pricing.basic.claim}
+                    ul.price-plan-features
+                        each feature in santander_totta.pricing.basic.features
+                            li !{feature}
                     .price-plan-detail
-                        ul !{santander_totta.home.pricing.basic.price}
-                        a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
+                        ul !{santander_totta.pricing.basic.price}
+                        //- TODO: to enable old CTA buttons
+                            a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
                 .col.s12.m4
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-blue.svg', title='#{santander_totta.home.pricing.profissional.alt}', alt='#{santander_totta.home.pricing.profissional.alt}')
-                    h3 #{santander_totta.home.pricing.profissional.title}
-                    h5 #{santander_totta.home.pricing.profissional.claim}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-blue.svg', title='#{santander_totta.pricing.profissional.alt}', alt='#{santander_totta.pricing.profissional.alt}')
+                    h3 #{santander_totta.pricing.profissional.title}
+                    h5 #{santander_totta.pricing.profissional.claim}
+                    ul.price-plan-features
+                        each feature in santander_totta.pricing.profissional.features
+                            li !{feature}
                     .price-plan-detail
-                        ul !{santander_totta.home.pricing.profissional.price}
-                        a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
+                        ul !{santander_totta.pricing.profissional.price}
+                        //- TODO: to enable old CTA buttons
+                            a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
                 .col.s12.m4
-                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-gold.svg', title='#{santander_totta.home.pricing.premium.alt}', alt='#{santander_totta.home.pricing.premium.alt}')
-                    h3 #{santander_totta.home.pricing.premium.title}
-                    h5 #{santander_totta.home.pricing.premium.claim}
+                    img.img-responsive(src='#{localConfig.base_path}/images/santander-totta/pricing/pricing-plans-icon-gold.svg', title='#{santander_totta.pricing.premium.alt}', alt='#{santander_totta.pricing.premium.alt}')
+                    h3 #{santander_totta.pricing.premium.title}
+                    h5 #{santander_totta.pricing.premium.claim}
+                    ul.price-plan-features
+                        each feature in santander_totta.pricing.premium.features
+                            li !{feature}
                     .price-plan-detail
-                        ul !{santander_totta.home.pricing.premium.price}
-                        a(href='#free-trial', title='#{santander_totta.home.pricing.btn}') #{santander_totta.home.pricing.btn}
+                        ul !{santander_totta.pricing.premium.price}
+                        //- TODO: to enable old CTA buttons
+                            a(href='#free-trial', title='#{santander_totta.pricing.btn}') #{santander_totta.pricing.btn}
+            .row
+                .col.s12.m8.offset-m2.features-exceptions
+                    p !{santander_totta.pricing.exceptions}
+
+    //- FOOTER :: Copyright & Legal Terms
+    footer.page-footer
+        .footer-copyright
+            .container
+                span
+                    i.icon.icon-copyright
+                    | #{santander_totta.footer.brand_copy},
+                    span#js-current-year
+                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}') #{santander_totta.footer.partners.title}
+                i.icon.icon-dot
+                a.legal(rel='nofollow', href='#{santander_totta.footer.legal.url}', title='#{santander_totta.footer.legal.title}') #{santander_totta.footer.legal.title}
+                i.icon.icon-dot
+                em #{santander_totta.footer.signature}
 
 block scripts
 
@@ -160,8 +187,9 @@ block scripts
     script(type="text/javascript", src='#{localConfig.base_path}/bower_components/typed.js/dist/typed.min.js')
     script(type='text/javascript').
         $(function () {
+            //- to enable tying Text effect
             $(".element").typed({
-                strings: !{JSON.stringify(santander_totta.home.slider.text)},
+                strings: !{JSON.stringify(santander_totta.slider.text)},
                 typeSpeed: 100,
                 startDelay: 200,
                 backDelay: 2500,
@@ -172,8 +200,13 @@ block scripts
     //- CUSTOM JS
     script(type='text/javascript').
         $(document).ready(function () {
+            //- to enable slider (caroussel)
             $('.slider').slider({
                 indicators: false,
                 interval: 4000
             }).slider('pause');
+            //- to enable scroll anchors
+            $('.scrollspy').scrollSpy();
+            //- to disable eBook Marketing App Modal
+            $('#om-gylasdx7iwcdo5a40ykm').addClass('hidden-modal');
         });
