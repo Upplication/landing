@@ -11,7 +11,7 @@ block css
 
 block content
 
-    //- SLIDER
+    //- (1) SLIDER
     .slider.slides-to-mobile
         .main-clain-on-head
             h2 #{home.slider.intro1}
@@ -29,10 +29,10 @@ block content
                 img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
         .dippah.skew-right
 
-    //- REGISTER PANEL :: "15 days free trial" (DESKTOP - LAPTOP)
+    //- (...) REGISTER PANEL :: "15 days free trial" (DESKTOP - LAPTOP)
     include includes/register
 
-    //- WHY (Intro Tips)
+    //- (2) WHY (Intro Tips)
     .features.features-upp
         .container
             .row.features-grids.center-align(data-aos='zoom-in')
@@ -50,16 +50,40 @@ block content
                         h3 !{home.why.others}
                 .clearfix
 
-    //- SAMPLES :: app showcases
+    //- (3) SAMPLES :: app showcases
     include includes/samples
 
-    //- Spacer with Grey Border
+    //- (...) Spacer with Grey Border
     .spacer-border-grey
 
-    //- MULTIDEVISES APPS
+    //- (5) MULTIDEVISES APPS
     include includes/multidevices
 
-    //- HOW I MADE MY OWN APP in 4 Steps
+    //- (...) Spacer with Grey Border
+    .spacer-border-grey
+
+    //- (6) HOW TO INSTALL A PWA
+    section#how
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{home.pwa.maintitle}
+            .row.pwa-text
+                .col.s12.m3(data-aos='fade-right')
+                    img.img-responsive(src='#{localConfig.base_path}/images/pwa/pwa-how-to-install-in-safari-iOS.png', alt='#{home.pwa.ios}', title='#{home.pwa.ios}')
+                .col.s12.m6(data-aos='zoom-in')
+                    //- for each loop to load all copies in "locales" json file/s
+                    each alltips, i in home.pwa.tips
+                        p !{alltips}
+                    //- (btn)
+                    p
+                        a.waves-effect.waves-light.btn-large.btn-upp(href='#{home.pwa.url}', title='#{home.pwa.btn}')
+                            i.icon.icon-plus.left
+                            | #{home.pwa.btn}
+                .col.s12.m3(data-aos='fade-left')
+                    img.img-responsive(src='#{localConfig.base_path}/images/pwa/pwa-how-to-install-in-chrome-android.png', alt='#{home.pwa.android}', title='#{home.pwa.android}')
+
+    //- (7) HOW I MADE MY OWN APP in 4 Steps
     section#timeline.timeline-section.scrollspy
         .container
             .row
@@ -120,7 +144,7 @@ block content
                                     p.text-muted
                                         a(href='#free-trial', alt='#{home.how.how_one.reg_title}', title='#{home.how.how_one.reg_title}') #{home.how.how_four.publish_step5}
                                             i.icon.icon-left
-    //- SLIDER 2
+    //- (8) SLIDER 2
     .slider.middle-page-slider
         .app-ready.center
             h4 #{home.slider.appready.title}
@@ -136,7 +160,7 @@ block content
             li
                 img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bg_05.jpg', alt='#{home.slider.appready.bg}', title='#{home.slider.appready.bg}')
 
-    //- CLIENTS :: new testimonial area
+    //- (9) CLIENTS :: new testimonial area
     include includes/testimonials
 
 block scripts

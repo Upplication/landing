@@ -46,6 +46,19 @@
       "sub_title": "V\u00e1lidas para qualquer dispositivo com qualquer sistema operativo",
       "title": "As nossas apps s\u00e3o multiplataforma"
     },
+    "pwa": {
+      "maintitle": "Nossas Apps são <span>Progressive Web Apps</span>!",
+      "ios": "Como é feita a instalação de um PWA no iOS Safari",
+      "android": "Como é feita a instalação de um PWA no Android Chrome",
+      "tips": [
+        "Os <b>Las Progressive Web Apps</b> <em>(aplicaciones web progressivos)</em>, são experiências que combinam o <span>melhor da Web</span> com o <span>melhor dos apps</span>:",
+        "<span>1.</span> <b>Incrementam sua funcionalidade</b>, conforme as capacidades do dispositivo no qual são executados tornando-se mais e mais poderosos à medida que se utilizam.",
+        "<span>2.</span> <b>São construídos utilizando modelos de desenvolvimento web</b>, como HTML, CSS e javaScript e uma nova geração de APIs de javaScript.",
+        "<span>3.</span> <b>Possuem todos os aspectos de mais destaque dos apps como</b>: podem ser instalados em dispositivos móveis, trabalham off-line, com interações e navegação de estilo aplicativos, envia notificações push..."
+      ],
+      "btn": "Saber más sobre PWA",
+      "url": "@@config.base_path/pt/progressive-web-app/"
+    },
     "optimize": {
       "points": [
         {
