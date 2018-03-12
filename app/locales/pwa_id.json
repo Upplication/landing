@@ -77,7 +77,7 @@
       "maintitle": "Download this info!",
       "subtitle": "All this info is available in .PDF format",
       "btn": "Download PDF",
-      "src": "@@config.base_path/download/upplication_PWA_2018_en-EN.pdf"
+      "src": "@@config.base_path/images/pwa/upplication_PWA_2018_en-EN.pdf"
     }
   }
 }

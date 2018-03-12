@@ -78,7 +78,7 @@
       "maintitle": "¡Descárgate esta infografía!",
       "subtitle": "Esta infografía está disponible en formato .PDF",
       "btn": "Descargar PDF",
-      "src": "@@config.base_path/download/upplication_PWA_2018_es-ES.pdf"
+      "src": "@@config.base_path/images/pwa/upplication_PWA_2018_es-ES.pdf"
     }
   }
 }
