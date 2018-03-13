@@ -47,6 +47,19 @@
       "sub_title": "Válidas para cualquier dispositivo con sistema operativo Android o iOS",
       "title": "Aplicaciones multiplataforma para iPhone y Android"
     },
+    "pwa": {
+      "maintitle": "¡Nuestras Apps son <span>Progressive Web App</span>!",
+      "ios": "Cómo instalar una PWA en iOS Safari",
+      "android": "Cómo instalar una PWA en Android Chrome",
+      "tips": [
+        "<b>Las Progressive Web Apps</b> <em>(aplicaciones web progresivas)</em>, son experiencias que combinan lo <span>mejor de la web</span> y lo <span>mejor de las apps</span>. Estas son:",
+        "<span>1.</span> <b>Incrementan su funcionalidad</b>, conforme las capacidades del dispositivo en el que se ejecutan haciendose más y más poderosas a medida que se utilizan.",
+        "<span>2.</span> <b>Se construyen utilizando estándares de desarrollo web</b>, como HTML, CSS y javaScript y una nueva generación de APIs de javaScript.",
+        "<span>3.</span> <b>Poseen todos los aspectos más destacables de las Apps como</b>: poder instalarse en dispositivos móviles, ejecutarse offline, tener el estilo y la navegación propias de las apps, envío de notificaciones push..."
+      ],
+      "btn": "Saber más sobre PWA",
+      "url": "@@config.base_path/es/progressive-web-app/"
+    },
     "optimize": {
       "points": [
         {

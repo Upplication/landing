@@ -1,0 +1,151 @@
+extend base/v2/base
+
+block vars
+    - var title = pwa._meta_title
+    - var description = pwa._meta_description
+    - var keywords = pwa._keywords
+    - var cssClass = 'pwa'
+
+block css
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/pwa/pwa.css')
+
+block content
+
+    //- PROGRESSIVE WEB APP
+    //- (0) Title BG img
+    .pwa-bg
+        img.responsive-img(src='#{localConfig.base_path}/images/pwa/pwa_bg.jpg', title='#{pwa.title}', alt='#{pwa.title}')
+    .container
+        .col.s12.center-align.pwa-header
+            h4 #{pwa.title}
+            p #{pwa.subtitle}
+
+    //- (1) WHAT IS A PWA
+    section#what
+        .container.marBot50
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.what.maintitle}
+            .row.pwa-text(data-aos='fade-down')
+                .col.s12.m8.offset-m2
+                    p !{pwa.what.description}
+
+    //- (2) PWA Are Apps that...
+    .features.features-upp
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.features.maintitle}
+            .row.features-grids.center-align(data-aos='zoom-in')
+                .col.s12.m4
+                    .features-grid.pwa-text.center-img
+                        img.img-responsive(src='#{localConfig.base_path}/images/pwa/rocket.svg', alt='#{pwa.features.progressive.pic}', title='#{pwa.features.progressive.pic}')
+                        h3 !{pwa.features.progressive.title}
+                        p !{pwa.features.progressive.description}
+                .col.s12.m4
+                    .features-grid.pwa-text.center-img
+                        img.img-responsive(src='#{localConfig.base_path}/images/pwa/tech.svg', alt='#{pwa.features.web.pic}', title='#{pwa.features.web.pic}')
+                        h3 !{pwa.features.web.title}
+                        p !{pwa.features.web.description}
+                .col.s12.m4
+                    .features-grid.pwa-text.center-img
+                        img.img-responsive(src='#{localConfig.base_path}/images/pwa/features.svg', alt='#{pwa.features.app.pic}', title='#{pwa.features.app.pic}')
+                        h3 !{pwa.features.app.title}
+                        p !{pwa.features.app.description}
+                .clearfix
+
+    //- (3) PWA ADVANTAGES TIMELINE
+    section#advantages.timeline-section.scrollspy
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.advantages.maintitle}
+            .row
+                .col.l12
+                    ul.timeline
+                        li.step1
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-01.svg', title='#{pwa.advantages.step1.pic}', alt='#{pwa.advantages.step1.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step1.description}
+                        li.timeline-inverted.step2
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-02.svg', title='#{pwa.advantages.step2.pic}', alt='#{pwa.advantages.step2.pic}')
+                            .timeline-panel(data-aos='flip-down')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step2.description}
+                        li.step3
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-03.svg', title='#{pwa.advantages.step3.pic}', alt='#{pwa.advantages.step3.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step3.description}
+                        li.timeline-inverted.step4
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-04.svg', title='#{pwa.advantages.step4.pic}', alt='#{pwa.advantages.step4.pic}')
+                            .timeline-panel(data-aos='flip-down')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step4.description}
+                        li.step5
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-05.svg', title='#{pwa.advantages.step5.pic}', alt='#{pwa.advantages.step5.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step5.description}
+                        li.timeline-inverted.step6
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-06.svg', title='#{pwa.advantages.step6.pic}', alt='#{pwa.advantages.step6.pic}')
+                            .timeline-panel(data-aos='flip-down')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step6.description}
+                        li.step7
+                            .timeline-image
+                                img.img-circle.img-responsive.imgFlash(src='#{localConfig.base_path}/images/pwa/timeline-pwa-07.svg', title='#{pwa.advantages.step7.pic}', alt='#{pwa.advantages.step7.pic}')
+                            .timeline-panel(data-aos='flip-up')
+                                .timeline-body
+                                    p.text-muted !{pwa.advantages.step7.description}
+    //- (4) HOW TO INSTALL A PWA
+    section#how
+        .container
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.install.maintitle}
+            .row.pwa-text
+                .col.s12.m3(data-aos='fade-right')
+                    img.img-responsive(src='#{localConfig.base_path}/images/pwa/pwa-how-to-install-in-safari-iOS.png', alt='#{pwa.install.ios}', title='#{pwa.install.ios}')
+                .col.s12.m6(data-aos='zoom-in')
+                    p !{pwa.install.description}
+                    //- for each loop to load all copies in "locales" json file/s
+                    each howtoinstall, i in pwa.install.how
+                        p !{howtoinstall}
+                .col.s12.m3(data-aos='fade-left')
+                    img.img-responsive(src='#{localConfig.base_path}/images/pwa/pwa-how-to-install-in-chrome-android.png', alt='#{pwa.install.android}', title='#{pwa.install.android}')
+
+    //- (5) PWA SUMMARY
+    section#summary.timeline-section
+        .container.marBot50
+            .row
+                .plans-head.center-align
+                    h4.headTitles !{pwa.summary.maintitle}
+            .row.pwa-text(data-aos='fade-down')
+                .col.s12.m8.offset-m2.marBot50
+                    p
+                        i.icon.icon-quote-left
+                        em !{pwa.summary.description}
+                        i.icon.icon-quote-left
+
+    //- (6) PWA .PDF DOWNLOAD
+    .trial-block.pwa-trial-block
+        .container
+            .trial-block-grids
+                .trial-block-left
+                    h2 #{pwa.download.maintitle}
+                    h3 #{pwa.download.subtitle}
+                .trial-block-right
+                    a.price-btn(href='#{pwa.download.src}', title='#{pwa.download.btn}', download)
+                        i.icon.icon-download
+                        | #{pwa.download.btn}
+                .clearfix
+
+block scripts

@@ -63,7 +63,7 @@
     }
 
     .logo {
-      width: 50px;
+      width: 0;
     }
     .top-nav {
       width: ~"calc(100% - 50px)";
@@ -144,9 +144,9 @@
     .anim(height, 0.3s, ease);
 
     .container .logo a img {
-      width: 200px;
-      height: 30px;
-      top: 0;
+      width: 240px;
+      height: 45px;
+      top: -5px;
     }
   }
 
@@ -173,8 +173,9 @@
       height: 30px;
 
       .container .logo a img {
-        width: 150px;
-        height: 24px;
+        width: 134px;
+        height: 25px;
+        top: 2px;
       }
     }
     .upplication {
@@ -189,24 +190,32 @@
   }
 }
 
-// Responsive behaviour HEADER
+/* -- Responsive behaviour HEADER -- */
+// to overwrite (common) styles by default
+@media only screen and (max-width: 1030px) {
+  .top-header .container .logo a img {
+    width: 240px;
+    height: 45px;
+    top: -5px;
+    padding-top: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .top-header {
     .upplication {
       height: 65px;
     }
-    .santander-totta .container .logo a img {
-      top: 10px;
-    }
     nav a#pull {
       top: 75px;
       right: 25px;
     }
+    //
+    .santander-totta .container .logo a img {
+      top: 5px;
+    }
     // Small header when user scroll down
     &.thiny-top-header {
-      .santander-totta .container .logo a img {
-        top: 0;
-      }
       nav a#pull {
         top: 47px;
       }

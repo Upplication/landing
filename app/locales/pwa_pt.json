@@ -1,0 +1,84 @@
+{
+  "pwa": {
+    "_keywords": "error, 404, error 404, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "404 Page not found in Upplication: the online app creator. 15 days free trial.",
+    "_meta_title": "404: Page not found in Upplication: the app creator",
+    "_url": "/pt/progressive-web-app/",
+    "title": "Progressive Web App",
+    "subtitle": "A nova maneira de entender os apps",
+    "what": {
+      "maintitle": "O que é um <span>Progressive Web App</span>?",
+      "description": "Os <b>Progressive Web Apps</b> <em>(Aplicativos Web Progressivos)</em> são experiências que combinam o <span>melhor da Web</span> com o <span>melhor dos apps</span>. Sua instalação está disponível para os usuários a partir da primeira visita em uma guia de navegador desde o seu dispositivo. Ademais ele se torna cada vez mais eficaz conforme aumenta a freqüência de uso. Ele é <b>carregado com rapidez</b> como uma experiência de tela inteira de alto nível, mesmo em redes instáveis, envia <b>notificações push</b> e tem um ícone na tela inicial."
+    },
+    "features": {
+      "maintitle": "Os <span>PWA</span> são aplicativos que <span>...</span>",
+      "progressive": {
+        "title": "Progressive <em>(progressivos)</em>",
+        "description": "... <span>Incrementam sua funcionalidade</span>, conforme as capacidades do dispositivo no qual são executados tornando-se mais e mais poderosos à medida que se utilizam.",
+        "pic": "Incrementam sua funcionalidade"
+      },
+      "web": {
+        "title": "Web <em>(web)</em>",
+        "description": "... <span>São construídos utilizando modelos de desenvolvimento web</span>, como HTML, CSS e javaScript e uma nova geração de APIs de javaScript.",
+        "pic": "São construídos utilizando modelos de desenvolvimento web"
+      },
+      "app": {
+        "title": "App <em>(app)</em>",
+        "description": "... <span> Possuem todos os aspectos de mais destaque dos apps</span> como: podem ser instalados em dispositivos móveis, trabalham off-line , com interações e navegação de estilo aplicativos, envia notificações push, etc.",
+        "pic": " Possuem todos os aspectos de mais destaque dos apps"
+      }
+    },
+    "advantages": {
+      "maintitle": "Que vantagens têm os <span>Progressive Web App</span>?",
+      "step1": {
+        "description": "São instalados diretamente desde o navegador web e quase não ocupam espaço no dispositivo.",
+        "pic": "São instalados desde o navegador web"
+      },
+      "step2": {
+        "description": "Não dependem do acesso á uma loja de aplicativos (Apple Store e Google Play) o que faz com que não seja necessário esperar a revisão e publicação do app.",
+        "pic": "Você não depende dos mercados"
+      },
+      "step3": {
+        "description": "Podem funcionar oﬄine (sem conexão a internet) e são até quatro vezes mais rápidos que qualquer web.",
+        "pic": "quatro vezes mais rápidos que qualquer web"
+      },
+      "step4": {
+        "description": "São multiplataformas (responsivos) se adequam a qualquer formato: desktop, tablet ou smartphones.",
+        "pic": "São responsivos"
+      },
+      "step5": {
+        "description": "Podem usar funcionalidades nativas como as notiﬁcações push (em breve também em iOS de Apple).",
+        "pic": "Notiﬁcações push"
+      },
+      "step6": {
+        "description": "Influem no posicionamento SEO, pois aparecem nos mecanismos de pesquisa como Google melhorando a visibilidade da marca na internet.",
+        "pic": "Influem no posicionamento SEO"
+      },
+      "step7": {
+        "description": "Solução completa de Mobile Marketing já que é possível criar sistemas de ﬁdelização para reter clientes, comunicar-se com eles, fazer reservas desde o smartphone, facilitar as compras...",
+        "pic": "Solução completa de Mobile Marketing"
+      }
+    },
+    "install": {
+      "maintitle": "Como é feita a instalação de um <span>Progressive Web App</span>?",
+      "ios": "Como é feita a instalação de um PWA no iOS Safari",
+      "android": "Como é feita a instalação de um PWA no Android Chrome",
+      "description": "Os <b>Progressive Web Apps</b> podem ser instalados instantaneamente nas telas iniciais dos dispositivos móveis, sem precisar acessar uma loja de aplicativos <em>(Apple Store y Google Play)</em>:",
+      "how": [
+        "<span>1.</span> <b>Abrir o PWA</b> no browser. A URL sempre está formada por:</br> <span>nome do app + upplication.com</span> <em>(cafedelrey.upplication.com)</em> :",
+        "<span>2.</span> <b> Clicar no botão</b> <em>'Adicionar à Tela Início'</em> quando apareça a pop up <em>(modal dialog)</em>.",
+        "<span>3.</span> <b>Procurar o ícone</b> no seu smartphone e aceder ao app."
+      ]
+    },
+    "summary": {
+      "maintitle": "Resumindo <span>...</span>",
+      "description": "... Um <span>Progresive Web App</span> utiliza as últimas tecnologias disponíveis nos navegadores para oferecer uma experiência em smartphones quase idêntica a um aplicativo nativo."
+    },
+    "download": {
+      "maintitle": "Descarregue esta infografia!",
+      "subtitle": "Esta infografia está disponível em formato .PDF",
+      "btn": "Descarregue o PDF",
+      "src": "@@config.base_path/images/pwa/upplication_PWA_2018_pt-PT.pdf"
+    }
+  }
+}
