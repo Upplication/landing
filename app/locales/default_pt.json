@@ -117,6 +117,10 @@
       "anchor": "Pre\u00e7os",
       "url": "@@config.base_path/pt/pre\u00e7os-aplicateca/"
     },
+    "pwa": {
+      "anchor": "Progressive Web Apps",
+      "url": "@@config.base_path/pt/progressive-web-app/"
+    },
     "social_media_btns": {
       "facebook": "",
       "twitter": "https://twitter.com/upplication"
@@ -240,6 +244,10 @@
         "prices": {
           "title": "Pre\u00e7os",
           "url": "@@config.base_path/pt/pre\u00e7os/"
+        },
+        "pwa": {
+          "title": "PWA",
+          "url": "@@config.base_path/pt/progressive-web-app/"
         },
         "terms": {
           "title": "Aviso Legal",

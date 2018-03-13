@@ -46,6 +46,19 @@
       "sub_title": "Web responsif, mendukung beberapa perangkat yang berjalan di iOS atau Android",
       "title": "Aplikasi Multidevices untuk Apple atau Android"
     },
+    "pwa": {
+      "maintitle": "All our Apps are <span>Progressive Web App</span>!",
+      "ios": "How to install PWA in iOS Safari browser",
+      "android": "How to install PWA in Android Chrome browser",
+      "tips": [
+        "<b>Progressive Web Apps</b> are experiences that combine the <span>best of the web</span> and the <span>best of the apps</span>.",
+        "<span>1.</span> <b>Increase their functionality</b>, conform to the capabilities of the device on which they run, becoming more and more powerful as they are used.",
+        "<span>2.</span> <b>Are built using web development standards</b>, like HTML, CSS, javaScript and a new generation of javaScript APIs.",
+        "<span>3.</span> <b>Have all the most remarkable Apps features as</b>: can be installed on mobile devices, run offline, have apps look and feel, push notifications, etc."
+      ],
+      "btn": "More about PWA",
+      "url": "@@config.base_path/id/progressive-web-app/"
+    },
     "optimize": {
       "points": [
         {
