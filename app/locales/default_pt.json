@@ -39,7 +39,7 @@
       "url": "@@config.base_path/pt/bio-do-companhia/"
     },
     "create_apps": {
-      "anchor": "Criamos a tua app"
+      "anchor": "Criamos a sua app"
     },
     "dashboard": {
       "anchor": "Entrar",
@@ -202,14 +202,14 @@
         "url": "@@config.base_path/pt/termos/#uso"
       }
     },
-    "try_it": "Cria a tua app!",
+    "try_it": "Crie a sua app!",
     "try_it_free": "Tens 15 dias gr\u00e1tis!"
   },
   "form": {
-    "call_to_action": "Cria a tua app gr\u00e1tis agora!",
+    "call_to_action": "Crie a sua app gr\u00e1tis agora!",
     "input": {
       "email": "email",
-      "name": "Nome da tua aplica\u00e7\u00e3o",
+      "name": "Nome da sua aplica\u00e7\u00e3o",
       "pass": "Senha"
     }
   },
@@ -387,7 +387,7 @@
     "app_name": "Nome da app",
     "arguments": "Cria a app do teu neg\u00f3cio, sem programar, f\u00e1cil e r\u00e1pido.",
     "call_to_action": "Experimentar gr\u00e1tis",
-    "claim": "A tua app, o teu neg\u00f3cio.",
+    "claim": "A sua app, o teu neg\u00f3cio.",
     "email": "E-mail",
     "error": {
       "general": "Erro geral",
@@ -409,7 +409,7 @@
     "warning": {
       "ajax": "Uuups..., houve um problema",
       "ajax_msg": "O registo n\u00e3o se p\u00f4de completar, por favor tenta novamente ou escreve-nos para <a href='mailto:soporte@upplication.com'>soporte@upplication.com</a>",
-      "name": "O nome da tua app tem de ter entre 3 e 32 caracteres e n\u00e3o pode come\u00e7ar por um n\u00famero",
+      "name": "O nome da sua app tem de ter entre 3 e 32 caracteres e n\u00e3o pode come\u00e7ar por um n\u00famero",
       "password": "O tamanho m\u00ednimo para a senha \u00e9 de 8 caracteres."
     }
   },
