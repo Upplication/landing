@@ -109,9 +109,22 @@
       }
     }
 
+    // Responsive Behaviour
     .col[data-aos="fade-left"] {
-      img {
-        float: right;
+      // to overwrite styles above in some devices
+      @media (min-width: 921px) {
+        img {
+          float: right;
+        }
+      }
+    }
+    // to overwrite "materialize" grid in some devices
+    > .col {
+      @media (max-width: 920px) {
+        width: 100% !important;
+        img {
+          .centered;
+        }
       }
     }
   }
