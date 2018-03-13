@@ -56,7 +56,7 @@
         "<span>2.</span> <b>São construídos utilizando modelos de desenvolvimento web</b>, como HTML, CSS e javaScript e uma nova geração de APIs de javaScript.",
         "<span>3.</span> <b>Possuem todos os aspectos de mais destaque dos apps como</b>: podem ser instalados em dispositivos móveis, trabalham off-line, com interações e navegação de estilo aplicativos, envia notificações push..."
       ],
-      "btn": "Saber más sobre PWA",
+      "btn": "Mais sobre PWA",
       "url": "@@config.base_path/pt/progressive-web-app/"
     },
     "optimize": {
