@@ -117,6 +117,10 @@
       "anchor": "Pricing",
       "url": "@@config.base_path/en/prices-aplicateca/"
     },
+    "pwa": {
+      "anchor": "Progressive Web Apps",
+      "url": "@@config.base_path/en/progressive-web-app/"
+    },
     "social_media_btns": {
       "twitter": "https://twitter.com/upplicationENG"
     },
@@ -239,6 +243,10 @@
         "prices": {
           "title": "Prices",
           "url": "@@config.base_path/en/prices/"
+        },
+        "pwa": {
+          "title": "PWA",
+          "url": "@@config.base_path/en/progressive-web-app/"
         },
         "terms": {
           "title": "Legal terms",

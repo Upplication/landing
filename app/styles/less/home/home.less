@@ -82,7 +82,53 @@
   }
 }
 
+/* ... (6) ALL YOUR APPS ARE PWA (progressive web app) :: Home Section ... */
 
+#how {
+  margin: 2em 0;
+
+  .pwa-text {
+    p {
+      color: lighten(@darkest-lilac, 5%);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+
+      span {
+        color: @main-green;
+        font-weight: 600;
+      }
+      
+      em {
+        color: @dark-lilac;
+      }
+      // to center (btn)
+      &:last-child {
+        margin-top: 35px;
+        text-align: center;
+      }
+    }
+
+    // Responsive Behaviour
+    .col[data-aos="fade-left"] {
+      // to overwrite styles above in some devices
+      @media (min-width: 921px) {
+        img {
+          float: right;
+        }
+      }
+    }
+    // to overwrite "materialize" grid in some devices
+    > .col {
+      @media (max-width: 920px) {
+        width: 100% !important;
+        img {
+          .centered;
+        }
+      }
+    }
+  }
+}
 
 /* ... (component) :: THREE CARDS GRID layout .... */
 

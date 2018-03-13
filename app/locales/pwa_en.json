@@ -1,0 +1,84 @@
+{
+  "pwa": {
+    "_keywords": "PWA, Progressive Web App, help center, support, support to create app, how to create your app, create app android, create app iphone, create application, create online app, crear mobile app",
+    "_meta_description": "What is a Progressive Web App in Upplication: the online app creator. 15 days free trial.",
+    "_meta_title": "PWA: Progressive Web App",
+    "_url": "/en/progressive-web-app/",
+    "title": "Progressive Web App",
+    "subtitle": "The new way of understanding Apps",
+    "what": {
+      "maintitle": "What is a <span>Progressive Web App</span>?",
+      "description": "<b>Progressive Web Apps</b>, are experiences that combine <span>the best of the web</span> and <span>the best of the apps</span>. They are available to users from the very first visit in a browser tab and <b>do not require installation</b>. They also increase their functionality as they are used. PWA <b>load fast</b> as a full-screen and first-level experience, even with weak network connection, be able to send <b>push notifications</b>, has an icon on the home screen..."
+    },
+    "features": {
+      "maintitle": "<span>PWA</span> are apps that <span>...</span>",
+      "progressive": {
+        "title": "Progressive <em>(progressives)</em>",
+        "description": "... <span>Increase their functionality</span>, conform to the capabilities of the device on which they run, becoming more and more powerful as they are used.",
+        "pic": "Increase their functionality"
+      },
+      "web": {
+        "title": "Web <em>(web)</em>",
+        "description": "... <span>Are built using web development standards</span>, like HTML, CSS, javaScript and a new generation of javaScript APIs",
+        "pic": "Are built using web development standards"
+      },
+      "app": {
+        "title": "App <em>(app)</em>",
+        "description": "... <span>Have all the most remarkable Apps features</span> as: can be installed on mobile devices, run offline, have apps look and feel, push notifications, etc.",
+        "pic": "Have all the most remarkable Apps features"
+      }
+    },
+    "advantages": {
+      "maintitle": "What advantages does a <span>Progressive Web App</span> have?",
+      "step1": {
+        "description": "They are installed directly from the web browser without taking up much space on your device.",
+        "pic": "Installation from the web browser"
+      },
+      "step2": {
+        "description": "Do not depend on the (Apple or Google) marketplaces. You will save the wait for review and publication of the app.",
+        "pic": "You do not depend on the marketplaces"
+      },
+      "step3": {
+        "description": "PWA can run offline (without internet connection) and they are 4 times faster than any web",
+        "pic": "PWA 4 times faster than any web"
+      },
+      "step4": {
+        "description": "They are full responsives adapting to any screen of any device: computer, tablet or mobile",
+        "pic": "They are responsives"
+      },
+      "step5": {
+        "description": "PWA can use native features such as push notifications (soon also available on Apple's iOS).",
+        "pic": "With push notifications"
+      },
+      "step6": {
+        "description": "They affect SEO positioning because they appear in search engines like Google improving the visibility of the brand on the internet.",
+        "pic": "They affect SEO positioning"
+      },
+      "step7": {
+        "description": "All-in-one mobile marketing solution since you can create loyalty systems to retain your customers, communicate with them, make bookings from your mobile, facilitate purchases...",
+        "pic": "A mobile marketing solution"
+      }
+    },
+    "install": {
+      "maintitle": "How to install a <span>Progressive Web App</span>?",
+      "ios": "How to install PWA in iOS Safari browser",
+      "android": "How to install PWA in Android Chrome browser",
+      "description": "<b>Progressive Web Apps</b> can be installed instantaneously on the home screens of mobile devices, without visiting the marketplaces <em>(Apple Store y Google Play)</em> :",
+      "how": [
+        "<span>1.</span> <b>Open the PWA</b> in device browser. The URL will always be:</br> <span>app name + upplication.com</span> <em>(cafedelrey.upplication.com)</em>",
+        "<span>2.</span> <b>Push button</b> <em>'Add to home screen'</em> when the pop-up window <em>(modal dialog)</em> appears.",
+        "<span>3.</span> <b>Search the icon</b> on the mobile and open the app."
+      ]
+    },
+    "summary": {
+      "maintitle": "In summary <span>...</span>",
+      "description": "... A <span>Progresive Web App</span> uses the latest technologies available in browsers to offer a complete mobile experience almost identical to a native application."
+    },
+    "download": {
+      "maintitle": "Download this info!",
+      "subtitle": "All this info is available in .PDF format",
+      "btn": "Download PDF",
+      "src": "@@config.base_path/images/pwa/upplication_PWA_2018_en-EN.pdf"
+    }
+  }
+}
