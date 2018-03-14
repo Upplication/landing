@@ -22,12 +22,15 @@
     color: @santander-main-text;
   }
   p {
+    em {
+      font-style: normal;
+      color: #00c86b; /* Upplication corp. color */
+    }
     strong {
       color: @santander-light-text;
     }
     a {
       color: @main-blue;
-
       &:hover {
         color: darken(@main-blue, 15%);
       }
