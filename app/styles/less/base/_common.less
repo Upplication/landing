@@ -103,15 +103,17 @@ i.icon {
 /* ... CUSTOM SCROLL BAR ... */
 
 ::-webkit-scrollbar {
-  width: 3px;
-  height: 3px;
-  background: @light-lilac;
+  width: 5px;
+  height: 5px;
+  background: lighten(@light-lilac, 10%);
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: @dark-lilac;
-  border: 0px none @white;
-  border-radius: 10px;
+  background: @white;
+  border: 0 solid transparent;
+  border-radius: 0;
+  height: 5em;
 }
 
 /* ... to add Shadow Hover Effect in images ... */

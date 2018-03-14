@@ -60,15 +60,17 @@
 /* ... (common) CUSTOM SCROLL BAR ... */
 
 ::-webkit-scrollbar {
-  width: 3px;
-  height: 3px;
-  background: @light-lilac;
+  width: 5px;
+  height: 5px;
+  background: lighten(@light-lilac, 10%);
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: @telefonica-hover;
-  border: 0px none @white;
-  border-radius: 10px;
+  background: @telefonica;
+  border: 0 none @white;
+  border-radius: 0;
+  height: 4.5em;
 }
 
 // MAIN HEADERS (SECTIONS)
@@ -470,7 +472,7 @@
 
   // Aplicateca�s Terms SubTitle
   h3 {
-    margin-top: 2em;
+    margin-top: 1.5em !important;
     margin-bottom: 1em;
     font-size: 18px;
     font-weight: 600;

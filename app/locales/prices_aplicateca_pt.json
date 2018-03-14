@@ -1,7 +1,7 @@
 {
   "prices_aplicateca": {
-    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
-    "_meta_description": "Upplication para criar online a tua pr\u00f3pria app m\u00f3vel para Android e iOS atrav\u00e9s de Aplicateca da Movistar.",
+    "_keywords": "criar app, como criar a sua app, criar app android, criar app iphone, criar aplica\u00e7\u00e3o, criar app online, criar app m\u00f3vel",
+    "_meta_description": "Upplication para criar online a sua pr\u00f3pria app m\u00f3vel para Android e iOS atrav\u00e9s de Aplicateca da Movistar.",
     "_meta_title": "Pre\u00e7os de Upplication para Movistar Aplicateca",
     "_priority": "0.6",
     "_url": "/pt/pre\u00e7os-aplicateca/",
@@ -13,7 +13,7 @@
         },
         {
           "icon": "icon icon-upload",
-          "text": "<span>Upload autom\u00e1tico aos markets, </span><span class=\"bold\">n\u00f3s fazemos o upload da tua app</span>"
+          "text": "<span>Upload autom\u00e1tico aos markets, </span><span class=\"bold\">n\u00f3s fazemos o upload da sua app</span>"
         },
         {
           "icon": "icon icon-tablet",
@@ -43,7 +43,7 @@
     },
     "custom_app": {
       "subtitle": "Contacta connosco e explicamos-te como o fazemos.",
-      "title": "Cria a tua app connosco",
+      "title": "Crie a sua app connosco",
       "btn": "mailto:aplicateca@upplication.com",
       "copy": "Escreva-nos"
     },
@@ -78,7 +78,7 @@
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Estat\u00edsticas da tua app"
+            "title": "Estat\u00edsticas da sua app"
           }
         ],
         "name": "B\u00e1sico",
@@ -114,7 +114,7 @@
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Estat\u00edsticas da tua app"
+            "title": "Estat\u00edsticas da sua app"
           }
         ],
         "name": "Profissional",
@@ -150,7 +150,7 @@
           },
           {
             "icon_class": "icon icon-chart-line",
-            "title": "Estat\u00edsticas da tua app"
+            "title": "Estat\u00edsticas da sua app"
           }
         ],
         "name": "Premium",
@@ -206,8 +206,8 @@
         "btn_text": "Deixa-nos os teus dados",
         "features": [
           "Todas as vantagens do plano premium",
-          "Apoio no desenho da tua app",
-          "N\u00f3s promovemos a tua app"
+          "Apoio no desenho da sua app",
+          "N\u00f3s promovemos a sua app"
         ],
         "has_permanency": true,
         "name": "Executivo *",

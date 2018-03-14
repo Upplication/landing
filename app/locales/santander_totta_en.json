@@ -114,7 +114,7 @@
       "exceptions": "<i class='icon icon-asterisk'></i> Valores com desconto incluído. Os planos de preços da Solução (Básico, Profissional e Premium) apresentados não incluem o custo da publicação da aplicação iOS na App Store."
     },
     "footer": {
-      "brand_copy": "Santander Totta",
+      "brand_copy": "Santander Advance Empresas",
       "partners": {
         "title": "by Upplication",
         "url": "@@config.base_path/pt/santandertotta/"

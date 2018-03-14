@@ -1,7 +1,7 @@
 {
   "santander_totta": {
-    "_keywords": "criar app, como criar a tua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel, PWA, Progressive Web App",
-    "_meta_description": "Upplication Criar app, a tua própria app móvel online. Experimenta livre durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
+    "_keywords": "criar app, como criar a sua app, criar app android, criar app iphone, criar aplicação, criar app online, criar app móvel, PWA, Progressive Web App",
+    "_meta_description": "Upplication Criar app, a sua própria app móvel online. Experimenta livre durante 15 dias, sem necessidade de programação em questão de minutos. A sua app para Android e iOS",
     "_meta_title": "Santander Totta e Upplication",
     "_priority": "0.8",
     "_url": "/pt/santandertotta/",
@@ -114,7 +114,7 @@
       "exceptions": "<i class='icon icon-asterisk'></i> Valores com desconto incluído. Os planos de preços da Solução (Básico, Profissional e Premium) apresentados não incluem o custo da publicação da aplicação iOS na App Store."
     },
     "footer": {
-      "brand_copy": "Santander Totta",
+      "brand_copy": "Santander Advance Empresas",
       "partners": {
         "title": "by Upplication",
         "url": "@@config.base_path/pt/santandertotta/"
