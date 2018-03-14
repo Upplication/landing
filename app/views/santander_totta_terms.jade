@@ -43,11 +43,9 @@ block content
     footer.page-footer
         .footer-copyright
             .container
-                span
-                    i.icon.icon-copyright
-                    | #{santander_totta.footer.brand_copy},
+                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}')
+                    | #{santander_totta.footer.partners.title}
                     span#js-current-year
-                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}') #{santander_totta.footer.partners.title}
                 i.icon.icon-dot
                 a.legal(rel='nofollow', href='#{santander_totta_terms.footer.home.url}', title='#{santander_totta_terms.footer.home.title}') #{santander_totta_terms.footer.home.title}
                 i.icon.icon-dot

@@ -233,12 +233,23 @@ footer.page-footer {
   }
 
   .footer-copyright {
+
     a {
       &.by {
         pointer-events: none;
         cursor: default;
+        // current year
+        #js-current-year {
+          color: @white;
+          &::before {
+            content: ",";
+            padding-right: 5px;
+            display: inline-block;
+          }
+        }
       }
       &.legal {
+        padding-left: 0;
         text-decoration: underline;
         &:hover {
           color: @accept-btn-hover;
