@@ -99,7 +99,13 @@
 .slider {
   height: 600px !important;
   background-color: transparent !important;
-  top: 120px;
+  top: 100px;
+  // responsive behaviour
+  @media only screen and (max-width: 768px) {
+    &.slides-to-mobile {
+      top:85px;
+    }
+  }
 }
 
 // Register & Claim AREA in "Santander Totta"

@@ -58,16 +58,39 @@
 
   // 0. Overwrite default values:
   .container {
+    position: relative;
     @media (min-width: 769px) {
       padding-left: 15px;
       padding-right: 15px;
     }
 
-    .logo {
-      width: 0;
-    }
+    // common ones for both!
+    .logo,
     .top-nav {
-      width: ~"calc(100% - 50px)";
+      display: inline-block;
+      a {
+        display: inline-block;
+        text-decoration: none;
+      }
+    }
+
+    .logo {
+      width: ~"calc(100% - 340px)";
+      @media only screen and (max-width: 768px) {
+        width: ~"calc(100% - 75px)";
+        position: absolute;
+        z-index: 1;
+      }
+    }
+
+    .top-nav {
+      width: 340px;
+      z-index: 2;
+      /*
+      @media only screen and (max-width: 768px) {
+        width: 80px;
+      }
+      */
 
       .top-nav-list {
         width: 100%;
@@ -135,20 +158,15 @@
         }
       }
     }
+
   }
 
   // 1. "Santander" premain navbar Top Header
   .santander-totta {
     width: 100%;
-    height: 55px;
+    height: 20px;
     background-color: @santander;
     .anim(height, 0.3s, ease);
-
-    .container .logo a img {
-      width: 240px;
-      height: 45px;
-      top: -5px;
-    }
   }
 
   // 2. "Upplication" main navbar Top Header
@@ -159,10 +177,26 @@
     border-bottom: 1px solid @header-border;
     .anim(height, 0.3s, ease);
 
-    .container .logo a img {
-      width: 159px;
-      height: 60px;
-      top: 0;
+    .container .logo a {
+      &.bst:last-child {
+        position: relative;
+        bottom: 6px;
+      }
+      // each corp. logo
+      img {
+        position: relative;
+        .anim(all, 0.3s, ease);
+
+        &.bst-upplication {
+          width: 143px;
+          height: 54px;
+          margin-right: 20px;
+        }
+        &.bst-advance-empresas {
+          width: 216px;
+          height: 41px;
+        }
+      }
     }
   }
 
@@ -170,22 +204,26 @@
   &.thiny-top-header {
     height: 90px;
 
+    // 1. "Upplication" main navbar Top Header
     .santander-totta {
-      height: 30px;
-
-      .container .logo a img {
-        width: 134px;
-        height: 25px;
-        top: 2px;
-      }
+      height: 10px;
     }
+
+    // 2. "Upplication" main navbar Top Header
     .upplication {
       height: 60px;
 
       .container .logo a img {
-        width: 127px;
-        height: 40px;
-        top: 10px;
+        top: 8px;
+
+        &.bst-upplication {
+          width: 127px;
+          height: 40px;
+        }
+        &.bst-advance-empresas {
+          width: 134px;
+          height: 25px;
+        }
       }
     }
   }
@@ -197,7 +235,6 @@
   .top-header .container .logo a img {
     width: 240px;
     height: 45px;
-    top: -5px;
     padding-top: 0;
   }
 }
@@ -207,22 +244,48 @@
     .upplication {
       height: 65px;
     }
-    nav a#pull {
-      top: 75px;
-      right: 25px;
-    }
     //
     .santander-totta .container .logo a img {
       top: 5px;
     }
-    // Small header when user scroll down
+  }
+}
+
+@media (max-width: 480px) {
+  .top-header,
+  .top-header.thiny-top-header {
+    .upplication,
+    .santander-totta {
+      .container .logo a img {
+        &.bst-upplication {
+          width: 86px;
+          height: 32px;
+        }
+        &.bst-advance-empresas {
+          width: 132px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  .top-header {
+    .upplication,
+    .santander-totta {
+      .container .logo {
+        top: 16px;
+      }
+    }
     &.thiny-top-header {
-      nav a#pull {
-        top: 47px;
+      .upplication,
+      .santander-totta {
+        .container .logo {
+          top: 8px;
+        }
       }
     }
   }
 }
+
 
 // (common) FOOTER in "Santander Totta"
 // ------------------------------------
