@@ -17,7 +17,10 @@ block content
             .about-grids
                 .container
                     .terms-grid.about-left-grids
-                        h4.headTitles.head-terms !{santander_totta_terms.legal.title}
+                        h4#parceria.headTitles.head-terms.scrollspy !{santander_totta_terms.parceria.title}
+                        each paragraph in santander_totta_terms.parceria.paragraphs
+                            p(data-aos='fade-up') !{paragraph}
+                        h4#upplegal.headTitles.head-terms.scrollspy !{santander_totta_terms.legal.title}
                         each paragraph in santander_totta_terms.legal.paragraphs
                             p(data-aos='fade-up') !{paragraph}
                         h4#privacidad.headTitles.head-terms.scrollspy !{santander_totta_terms.privacy.title}
@@ -43,11 +46,9 @@ block content
     footer.page-footer
         .footer-copyright
             .container
-                span
-                    i.icon.icon-copyright
-                    | #{santander_totta.footer.brand_copy},
+                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}')
+                    | #{santander_totta.footer.partners.title}
                     span#js-current-year
-                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}') #{santander_totta.footer.partners.title}
                 i.icon.icon-dot
                 a.legal(rel='nofollow', href='#{santander_totta_terms.footer.home.url}', title='#{santander_totta_terms.footer.home.title}') #{santander_totta_terms.footer.home.title}
                 i.icon.icon-dot

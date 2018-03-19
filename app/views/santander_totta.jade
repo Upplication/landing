@@ -11,7 +11,7 @@ block css
 
 block content
 
-    //- SLIDER
+    //- (1) SLIDER
     .slider.slides-to-mobile
         ul.slides
             li
@@ -24,51 +24,52 @@ block content
             li
                 img(src="#{localConfig.base_path}/images/common/pixel.jpg", data-src='#{localConfig.base_path}/images/home/bg/bgbarbershop.jpg', alt='#{home.slider.bg}', title='#{home.slider.bg}')
 
-    //- MAIN CLAIM & REGISTER FORM (over top Slider)
-    .register-area.container
-        .main-clain-on-head(data-aos='fade-down-right')
-            h2 #{santander_totta.slider.intro1}
-                .typed-effect
-                    span.element
-            h1 !{santander_totta.slider.intro2}
-            //- advice quotes about price, business types...
-            .advice
-                .price-since
-                    div
-                        each copy in santander_totta.slider.advice.price
-                            span !{copy}
-                    //- TODO: remove uselee code below cause for each above
-                        span #{santander_totta.slider.advice.price.intro}
-                        span #{santander_totta.slider.advice.price.price}
-                        span #{santander_totta.slider.advice.price.currency}
-                        span
-                            | #{santander_totta.slider.advice.price.date}
-                            i.icon.icon-asterisk
-                    a.price-advice(href='#pricing-plans-totta', title='#{santander_totta.slider.advice.mais}') !{santander_totta.slider.advice.mais}
-                .business-types
-                    div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.business.restaurants}', alt='#{santander_totta.business.restaurants}')
-                        span #{santander_totta.business.restaurants}
-                    div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.business.shops}', alt='#{santander_totta.business.shops}')
-                        span #{santander_totta.business.shops}
-                    div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.business.health}', alt='#{santander_totta.business.health}')
-                        span #{santander_totta.business.health}
-                    div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.business.services}', alt='#{santander_totta.business.services}')
-                        span #{santander_totta.business.services}
-                    div
-                        img(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.business.hostelry}', alt='#{santander_totta.business.hostelry}')
-                        span #{santander_totta.business.hostelry}
-                p.advice-quote
-                    i.icon.icon-asterisk
-                    | #{santander_totta.slider.advice.quote}
+    //- (2) MAIN CLAIM & REGISTER FORM (over top Slider)
+    .register-area
+        .container
+            .main-clain-on-head(data-aos='fade-down-right')
+                h2 #{santander_totta.slider.intro1}
+                    .typed-effect
+                        span.element
+                h1 !{santander_totta.slider.intro2}
+                //- (2.1) Advice quotes about price, business types...
+                .advice
+                    .price-since
+                        div
+                            each copy in santander_totta.slider.advice.price
+                                span !{copy}
+                        //- TODO: remove uselee code below cause for each above
+                            span #{santander_totta.slider.advice.price.intro}
+                            span #{santander_totta.slider.advice.price.price}
+                            span #{santander_totta.slider.advice.price.currency}
+                            span
+                                | #{santander_totta.slider.advice.price.date}
+                                i.icon.icon-asterisk
+                        a.price-advice(href='#pricing-plans-totta', title='#{santander_totta.slider.advice.mais}') !{santander_totta.slider.advice.mais}
+                    .business-types
+                        div
+                            img(src='#{localConfig.base_path}/images/santander-totta/business/restaurants.png', title='#{santander_totta.business.restaurants}', alt='#{santander_totta.business.restaurants}')
+                            span #{santander_totta.business.restaurants}
+                        div
+                            img(src='#{localConfig.base_path}/images/santander-totta/business/shops.png', title='#{santander_totta.business.shops}', alt='#{santander_totta.business.shops}')
+                            span #{santander_totta.business.shops}
+                        div
+                            img(src='#{localConfig.base_path}/images/santander-totta/business/health.png', title='#{santander_totta.business.health}', alt='#{santander_totta.business.health}')
+                            span #{santander_totta.business.health}
+                        div
+                            img(src='#{localConfig.base_path}/images/santander-totta/business/services.png', title='#{santander_totta.business.services}', alt='#{santander_totta.business.services}')
+                            span #{santander_totta.business.services}
+                        div
+                            img(src='#{localConfig.base_path}/images/santander-totta/business/hostelry.png', title='#{santander_totta.business.hostelry}', alt='#{santander_totta.business.hostelry}')
+                            span #{santander_totta.business.hostelry}
+                    p.advice-quote
+                        i.icon.icon-asterisk
+                        | #{santander_totta.slider.advice.quote}
 
-        //- REGISTER panel :: "15 days free trial" (desktop - laptop)
-        include santander-totta/includes/register
+            //- (2.2) REGISTER panel :: "15 days free trial" (desktop - laptop)
+            include santander-totta/includes/register
 
-    //- CLAIM just below Sider (main Claim)
+    //- (3) CLAIM just below Sider (main Claim)
     .features.main-claim-totta
         .container(data-aos='fade-right')
             div
@@ -79,7 +80,7 @@ block content
                 .claim-wrapper
                     p !{santander_totta.claim}
 
-    //- BUSINESS TYPES (samples and his tips)
+    //- (4) BUSINESS TYPES (samples and his tips)
     .features.features-totta
         .container
             .row.features-grids.center-align(data-aos='zoom-in')
@@ -105,12 +106,12 @@ block content
                     ul.tips !{santander_totta.business.tips.hostelry}
                 .clearfix
 
-    //- EXPLAIN (extended Claim)
+    //- (5) EXPLAIN (extended Claim)
     .features.expanded-claim-totta
         .container(data-aos='fade-left')
             p !{santander_totta.explain}
 
-    //- PRICING PLANS (info & calls to action)
+    //- (6) PRICING PLANS (info & calls to action)
     #pricing-plans-totta.features.pricing-plans-totta.scrollspy
         .container
             .row.features-grids.center-align(data-aos='zoom-in')
@@ -155,11 +156,9 @@ block content
     footer.page-footer
         .footer-copyright
             .container
-                span
-                    i.icon.icon-copyright
-                    | #{santander_totta.footer.brand_copy},
+                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}')
+                    | #{santander_totta.footer.partners.title}
                     span#js-current-year
-                a.by(rel='nofollow', href='#{santander_totta.footer.partners.url}', target='_blank', title='#{santander_totta.footer.partners.title}') #{santander_totta.footer.partners.title}
                 i.icon.icon-dot
                 a.legal(rel='nofollow', href='#{santander_totta.footer.legal.url}', title='#{santander_totta.footer.legal.title}') #{santander_totta.footer.legal.title}
                 i.icon.icon-dot
