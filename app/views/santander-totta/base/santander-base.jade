@@ -65,15 +65,13 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         #home.header
             #move-top.top-header
                 .santander-totta
-                    .container
-                        .logo
-                            a(href='#{santander_totta.logo.url}', alt='#{santander_totta.logo.title}')
-                                img(src='#{localConfig.base_path}/images/santander-totta/santander-advance-empresas.svg', title='#{santander_totta.logo.title}', alt='#{santander_totta.logo.title}')
                 .upplication
                     .container
                         .logo
-                            a(href='#{santander_totta.upplication.url}', alt='#{santander_totta.upplication.title}')
-                                img(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{santander_totta.upplication.title}', alt='#{santander_totta.upplication.title}')
+                            a.bst(href='#{santander_totta.upplication.url}', alt='#{santander_totta.upplication.title}')
+                                img.bst-upplication(src='#{localConfig.base_path}/images/home/icons/upplication.svg', title='#{santander_totta.upplication.title}', alt='#{santander_totta.upplication.title}')
+                            a.bst(href='#{santander_totta.logo.url}', alt='#{santander_totta.logo.title}')
+                                img.bst-advance-empresas(src='#{localConfig.base_path}/images/santander-totta/santander-advance-empresas.svg', title='#{santander_totta.logo.title}', alt='#{santander_totta.logo.title}')
                         nav.top-nav
                             ul.top-nav-list.hide-ul
                                 li.phone-support-pt

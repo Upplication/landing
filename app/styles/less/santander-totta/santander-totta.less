@@ -99,23 +99,33 @@
 .slider {
   height: 600px !important;
   background-color: transparent !important;
-  top: 120px;
+  top: 100px;
+  // responsive behaviour
+  @media only screen and (max-width: 768px) {
+    &.slides-to-mobile {
+      top:85px;
+    }
+  }
 }
 
 // Register & Claim AREA in "Santander Totta"
 // ------------------------------------------
 .register-area {
   position: absolute;
-  left: 15%; // 100% - 70% (".container" width) / 2
+  //left: 15%; // 100% - 70% (".container" width) / 2
   top: 165px;
   .flex();
   flex-wrap: nowrap;
   align-items: flex-end;
-  // Responsive Behaviour
-  @media (min-width: 1271px) and (max-width: 1450px) { left: 10%; }
-  @media (min-width: 1121px) and (max-width: 1270px) { left: 5%; }
-  @media (min-width: 1081px) and (max-width: 1120px) { left: 2.5%; }
-  @media (max-width: 1080px) { left: 0; }
+  width: 100%;
+  z-index: 2;
+
+  .container {
+    @media (min-width: 907px) {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
 
   .main-clain-on-head,
   .register-form {
@@ -191,6 +201,10 @@
       &.intro-2b::after {
         display: none;
       }
+    }
+    // to overwrite styles by default
+    @media only screen and (max-width: 980px) {
+      max-width: inherit;
     }
   }
 
