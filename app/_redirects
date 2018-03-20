@@ -109,6 +109,18 @@
 /id/help-center/ https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no 301
 /mx/centro-de-ayuda/ https://www.youtube.com/playlist?list=PLK1kaM1jaEvuaZ0Zp38S5OYYWARq41-no 301
 
+# BST (Santander Totta) :: Home
+/es/santandertotta/ /es/conecte-o-seu-negocio/ 301
+/en/santandertotta/ /en/conecte-o-seu-negocio/ 301
+/id/santandertotta/ /id/conecte-o-seu-negocio/ 301
+/pt/santandertotta/ /pt/conecte-o-seu-negocio/ 301
+
+# BST (Santander Totta) :: TOS legal terms
+/es/santandertotta-legal/ /es/legal-conecte-o-seu-negocio/ 301
+/en/santandertotta-legal/ /en/legal-conecte-o-seu-negocio/ 301
+/id/santandertotta-legal/ /id/legal-conecte-o-seu-negocio/ 301
+/pt/santandertotta-legal/ /pt/legal-conecte-o-seu-negocio/ 301
+
 # microlandings migrated to instapage
 /crear-app-movil-*  /crear-app-movil/:splat 301
 
