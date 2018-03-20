@@ -4,13 +4,13 @@
     "_meta_description": "Upplication Criar app, a tua própria app móvel online. Experimenta livre durante 15 dias, sem necessidade de programação em questão de minutos. A tua app para Android e iOS",
     "_meta_title": "Santander Totta e Upplication",
     "_priority": "0.8",
-    "_url": "/en/santandertotta/",
+    "_url": "/en/conecte-o-seu-negocio/",
     "upplication": {
-      "url": "@@config.base_path/pt/santandertotta/",
+      "url": "@@config.base_path/pt/conecte-o-seu-negocio/",
       "title": "Upplication logotipo"
     },
     "logo": {
-      "url": "@@config.base_path/pt/santandertotta/",
+      "url": "@@config.base_path/pt/conecte-o-seu-negocio/",
       "title": "Santander Advance Empresas logotipo"
     },
     "dashboard": {
@@ -116,14 +116,14 @@
     "footer": {
       "partners": {
         "title": "by Upplication",
-        "url": "@@config.base_path/pt/santandertotta/"
+        "url": "@@config.base_path/pt/conecte-o-seu-negocio/"
       },
       "legal": {
         "title": "Aviso Legal",
-        "url": "@@config.base_path/pt/santandertotta-legal/"
+        "url": "@@config.base_path/pt/legal-conecte-o-seu-negocio/"
       },
       "signature": "Desenhado e desenvolvido em Madrid"
     },
-    "cookies": "Ao fechar esta janela aceita a nossa <a href='@@config.base_path/pt/santandertotta-legal/' target='_blank'>política de cookies</a>."
+    "cookies": "Ao fechar esta janela aceita a nossa <a href='@@config.base_path/pt/legal-conecte-o-seu-negocio/' target='_blank'>política de cookies</a>."
   }
 }
