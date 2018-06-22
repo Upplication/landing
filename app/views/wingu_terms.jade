@@ -1,0 +1,19 @@
+extend wingu/base/base
+block vars
+    - var title = wingu_terms._meta_title
+    - var description = wingu_terms._meta_description
+    - var keywords = wingu_terms._keywords
+    - var cssClass = 'terms'
+block content
+    section
+        h4.headTitles #{wingu_terms.sections.title}
+        div.container.margin
+            each section in wingu_terms.sections.sections
+                h5 #{section.title}
+                each ch in section.children
+                    if typeof ch != 'object'
+                        p #{ch}
+                    else
+                        h3 #{ch.title}
+                        each subchild in ch.children
+                            p #{subchild}

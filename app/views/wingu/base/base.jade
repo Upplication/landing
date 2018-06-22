@@ -1,0 +1,82 @@
+doctype
+//if lt IE 7
+  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="#{lang_html}" prefix="og: http://ogp.me/ns#">
+//if IE 7
+  <html class="no-js lt-ie9 lt-ie8" lang="#{lang_html}" prefix="og: http://ogp.me/ns#">
+//if IE 8
+  <html class="no-js lt-ie9" lang="#{lang_html}" prefix="og: http://ogp.me/ns#">
+//[if gt IE 8]><!
+html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
+    //<![endif]
+
+    block vars
+
+    head
+        include ../../base/scripts
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+        title #{title}
+
+        meta(name='description', content='#{description}')
+        meta(name='keywords', content='#{keywords}')
+
+        meta(name='viewport', content='width=device-width')
+        meta(name="google-site-verification", content="juFFMSMoqmlI8iFOJJs3EE2tObAcgyeywGbfKBrTXrU")
+
+        meta(property='og:locale', content='es_ES')
+        meta(property='og:type', content='article')
+        meta(property='og:title', content='#{title}')
+        meta(property='og:description', content='#{description}')
+        meta(property='og:url', content='http://www.winguapps.com/')
+        meta(property='og:site_name', content='Upplication')
+        meta(property='og:image', content='#{localConfig.base_path}/images/wingu/rrss.png')
+
+        meta(name="twitter:card", content="summary")
+        meta(name="twitter:site", content="@upplication")
+        meta(name="twitter:domain", content="Upplication")
+        meta(name="twitter:creator", content="@upplication")
+        meta(name="twitter:image:src", content="#{localConfig.base_path}/images/wingu/rrss.png")
+
+        link(type='text/plain', rel="author", href='#{localConfig.base_path}/humans.txt')
+        link(rel="canonical", href="#{routing[_template][lang]}")
+        link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
+
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/upplication-icons.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/styles/wingu/wingu.css')
+
+        //- FAVICON
+        link(rel="apple-touch-icon", sizes="180x180", href='#{localConfig.base_path}/images/wingu/apple-touch-icon.png')
+        link(rel="icon", type="image/png", href='#{localConfig.base_path}/images/wingu/favicon-32x32.png', sizes="32x32")
+        link(rel="icon", type="image/png", href='#{localConfig.base_path}/images/wingu/favicon-16x16.png', sizes="16x16")
+        link(rel="manifest", href='#{localConfig.base_path}/images/wingu/manifest.json')
+        link(rel="mask-icon", href='#{localConfig.base_path}/images/wingu/safari-pinned-tab.svg', color="#00c86b")
+        meta(name="theme-color", content="#ffffff")
+
+    body(id="#{_template}", data-lang="#{lang}")
+
+        .outer-wrap
+            #main-container.slide-pannel.effects
+                .header-container
+                    header.wingu-header
+                        a.logo
+                            img(src="#{localConfig.base_path}/images/wingu/logo.svg", alt="#{wingu.logo.title}", title="#{wingu.logo.title}")
+
+                        a.icon-list
+                            span Menu
+                        nav.main-menu.uppercase.unstyled
+                            ul#sections
+                                li.login_btn
+                                    a(href='#{wingu.vodafone.url}', title='#{wingu.vodafone.title}') #{wingu.vodafone.anchor}
+
+                #content(class="#{cssClass}")
+                    block content
+
+                .footer-container
+                //- Cookies (default one + wingu style added)
+                #cookies
+                    p !{wingu.footer_cookies}
+                        i.icon.icon-cross#cookies-accept.close
+
+        script(type="text/javascript", src='#{localConfig.base_path}/bower_components/jquery/dist/jquery.min.js')
+        script(type="text/javascript", src='#{localConfig.base_path}/scripts/main.js')
