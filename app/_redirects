@@ -7,7 +7,7 @@ https://www.upplication.es/* https://www.upplication.com/:splat 301!
 # Try to redict any content "outside vodafone path" to the vodafone path
 
 https://www.winguapps.com/ https://www.winguapps.com/es/vodafone/ 301!
-https://www.winguapps.com/* https://www.winguapps.com/es/vodafone/404 404!
+https://www.winguapps.com/* https://www.winguapps.com/es/vodafone/ 301!
 
 # seo redirects
 
