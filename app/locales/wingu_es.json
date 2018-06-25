@@ -120,20 +120,6 @@
         "5": {
           "children": [
             {
-              "title": "PLAN BÁSICO",
-              "children": [
-                "Aspectos funcionales:",
-                "- App móvil Android y iOS. Los sistema operativos en los que se desarrollarán tus apps serán Android de Google y iOS de Apple.",
-                "- Web multidispositivo (pc, tablet, smartphone). Web válida para los dispositivos: smartphone, tablet y PC. Es accesible y se ajusta visual y funcionalmente a cada una de estas pantallas.",
-                "- Subida a los markets. WINGU se encargará de publicar tu app en Google Play Store sin necesidad de que el cliente tenga que crear su propia cuenta de desarrollador. La decisión final de que la app sea aceptada siempre dependerá de Google. Para que la app esté publicada en el App Store de Apple el cliente tendrá que crear y pagar su propia cuenta de desarrollador, como bien exige Apple en sus condiciones de publicación. WINGU le ayudará a crear esa cuenta de desarrollador y se encargará de publicar la app móvil desde su panel. El coste del servicio de publicación en App Store y Google Play Store está incluido en el precio de este plan. La cuenta de desarrollador tiene un sobrecoste para el cliente de 99€ al año que el cliente paga a Apple, este gasto no está incluido en este plan.",
-                "- Publicidad WINGU. La aplicación lleva publicidad de WINGU y/o de terceros.",
-                "- Firma en las plantillas. La aplicación lleva firma de WINGU en la plantilla.",
-                "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
-                "- Notificaciones push. El dashboard no permitirá enviar notificaciones push.",
-                "PRECIO: Pago mensual: 8,25 € al mes IVA no inc."
-              ]
-            },
-            {
               "title": "PLAN PROFESIONAL",
               "children": [
                 "Aspectos funcionales:",
@@ -159,24 +145,6 @@
                 "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
                 "- Notificaciones push. El dashboard permitirá enviar notificaciones push ilimitadas.",
                 "PRECIO: Pago mensual: 49,55€ al mes IVA no inc."
-              ]
-            },
-            {
-              "title": "PLAN HACEMOS TU APP",
-              "children": [
-                "Aspectos funcionales:",
-                "- App móvil Android y iOS. Los sistema operativos en los que se desarrollarán tus apps serán Android de Google y iOS de Apple.",
-                "- Web multidispositivo (pc, tablet, smartphone). Web válida para los dispositivos: smartphone, tablet y PC. Es accesible y se ajusta visual y funcionalmente a cada una de estas pantallas.",
-                "- Subida a los markets. WINGU se encargará de publicar tu app en Google Play Store sin necesidad de que el cliente tenga que crear su propia cuenta de desarrollador. La decisión final de que la app sea aceptada siempre dependerá de Google. Para que la app esté publicada en el App Store de Apple el cliente tendrá que crear y pagar su propia cuenta de desarrollador, como bien exige Apple en sus condiciones de publicación. WINGU le ayudará a crear esa cuenta de desarrollador y se encargará de publicar la app móvil desde su panel. El coste del servicio de publicación en App Store y Google Play Store está incluido en el precio de este plan. La cuenta de desarrollador tiene un sobrecoste para el cliente de 99€ al año que el cliente paga a Apple, este gasto no está incluido en este plan.",
-                "- Sin publicidad WINGU. La aplicación no lleva publicidad de WINGU y/o de terceros.",
-                "- Sin firma en las plantillas. La aplicación no lleva firma de WINGU en la plantilla.",
-                "- Estadísticas. Obtén información de qué está pasando en tu aplicación. Te damos las herramientas necesarias para tener siempre el control de qué están haciendo tus clientes.",
-                "- Notificaciones push. El dashboard permitirá enviar notificaciones push ilimitadas.",
-                "- Atención al cliente personalizada. Llámanos y te ayudaremos a crear una aplicación de alta calidad. Estaremos a tu disposición en el teléfono al número +34 910 059 424 (coste de la llamada variará en función del operador ajustándose a la tarifa ordinaria nacional) de Lunes a Jueves de 10:00h a 18:00h y Viernes de 09:00h a 15:00h, el horario de verano será de Lunes a Viernes de 09:00h a 15:00h (Hora en España).",
-                "- Desarrollo y diseño personalizado en 3 semanas. Un miembro del equipo de diseño de WINGU se encargará de que tu app sea perfecta, para eso es importante que rellenes de manera obligatoria dos formularios con el contenido que necesitas mostrar en tu app. Hasta que ambos formularios no sean rellenados WINGU no comenzará a crear tu app.",
-                "- Tres cambios al año. Este servicio permite únicamente tres modificaciones de contenido al año tras la publicación en los markets. Pueden realizarse de forma consecutiva o espaciados a lo largo de los 12 meses. Para solicitar un cambio en tu app debes escribirnos a la dirección soporte.vodafone@winguapps.com o llamar al número +34 910 059 424 (coste de la llamada variará en función del operador ajustándose a la tarifa ordinaria nacional).",
-                "- eBook gratuito de Marketing App para pymes. WINGU pone a tu disposición un eBook para aprender a mejorar tu empresa y aumentar tus ventas usando la app móvil de tu negocio. Este curso consta de siete lecciones dividas en tres bloques y tiene una duración aproximada de 10 días. El envío del temario se realizará vía mail.",
-                "PRECIO: Pago mensual: 79,90€ al mes IVA no inc. (Este servicio está sujeto a 3 meses de permanencia.)"
               ]
             }
           ],
