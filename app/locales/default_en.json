@@ -156,8 +156,8 @@
     "byfibonad": "by Fibonad",
     "community": "Comunidad",
     "company": "Compañía",
-    "cookies": "If you close this window, you accept our <a href='@@config.base_path/en/terms/#cookies-policy'>cookies policy</a>.",
-    "cookies_aplicateca": "If you close this window, you accept our <a href='@@config.base_path/en/termsandconditionsmovistar-upplication/'>cookies policy.</a>.",
+    "cookies": "We use cookies: help us provide a better browsing experience. By using our website, you agree that we may store cookies and access them on your device. Form more information, see our <a href='@@config.base_path/en/terms/#cookies-policy'>Cookies policy</a>.",
+    "cookies_aplicateca": "We use cookies: help us provide a better browsing experience. By using our website, you agree that we may store cookies and access them on your device. Form more information, see our <a href='@@config.base_path/en/terms/#cookies-policy'>Cookies policy</a>.",
     "free_trial": "Free trial",
     "media": "Medios y redes",
     "partners": {
@@ -209,7 +209,8 @@
     "input": {
       "email": "E-mail",
       "name": "App name",
-      "pass": "Password"
+      "pass": "Password",
+      "checkTOS": "I've read the terms and conditions including the privacy policy."
     }
   },
   "header": {

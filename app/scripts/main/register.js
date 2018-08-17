@@ -156,10 +156,24 @@ $(function () {
                 $(this).find(".general-error").show();
             };
         };
-
+        //Validation of terms & conditions
+        //Enables or disables submit button
+        $("#app_name").focus(function(e){
+            $("#submitForm").attr("disabled", true)
+            $('#checkboxTos').change(function() {
+                if (!$("#checkboxTos").is(':checked')) {
+                    $("#submitForm").attr("disabled", true)
+                }
+                else {
+                    $("#submitForm").attr("disabled", false)
+                }
+            });
+        });
         //Register form through AJAX
         //Validation done in HTML5 (patterns, minlength, etc)
         $("form[name='register']").submit(function (e) {
+
+
             e.preventDefault();
             e.stopPropagation();
 
@@ -183,6 +197,8 @@ $(function () {
             if ($innerSpan.length > 0) {
                 $innerSpan.text(submit.data("loading"));
             }
+
+
 
             submit.prop("disabled", true);
             $.ajax({

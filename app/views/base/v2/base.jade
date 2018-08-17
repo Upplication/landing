@@ -105,21 +105,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     each lang in langs.codes
                                         li
                                             a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
-                            li.trial.only-show-small-devises.phone-kerning
-                                a(href='#all-contact') #{header.telephone}
-                            li.trial.only-show-small-devises
-                                a(href='#free-trial', title='') #{header.free_trial}
-                            li.enter-btn
-                                a.hide-tab(href="#{external.dashboard.url}")
-                                    i.icon.icon-key
-                                    | #{header.enter}
-                            li.contact-info
-                                .contact-info-grids
-                                    .contact-info-left
-                                        a.chat(href='#free-trial') #{header.free_trial}
-                                    .contact-info-right
-                                        a(href='#all-contact', title='#{header.telephone}') #{header.telephone}
-                                        a.support(href='#{common.customer_service.email.link}', title='#{common.customer_service.email.alt_tag}') #{common.customer_service.email.title}
+
                         //- Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
@@ -152,9 +138,11 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         include ../../includes/footer
 
         //- Cookies alert
-        #cookies
-            i#cookies-accept.icon.icon-cross
+        #cookies.show
             p !{footer.cookies}
+            button#cookies-accept.icon.icon-ok.centered
+                span OK
+
 
 
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')

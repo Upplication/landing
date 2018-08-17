@@ -157,8 +157,8 @@
     "byfibonad": "by Fibonad",
     "community": "Comunidad",
     "company": "Compañía",
-    "cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/es/terminos/#cookies-policy'>política de cookies</a>.",
-    "cookies_aplicateca": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/es/terminos-aplicateca/'>política de cookies.</a>",
+    "cookies": "Usamos cookies: Ayúdenos a brindar una mejor experiencia de navegación. Al usar nuestro sitio web, acepta que podamos almacenar cookies y acceder a ellas en su dispositivo. Para más información, vea nuestros <a href='@@config.base_path/en/terms/#cookies-policy'>Términos de uso.</a>",
+    "cookies_aplicateca": "Usamos cookies: Ayúdenos a brindar una mejor experiencia de navegación. Al usar nuestro sitio web, acepta que podamos almacenar cookies y acceder a ellas en su dispositivo. Para más información, vea nuestros <a href='@@config.base_path/en/terms/#cookies-policy'>Términos de uso.</a>",
     "free_trial": "Crear mi app gratis",
     "media": "Medios y redes",
     "partners": {
@@ -208,9 +208,10 @@
   "form": {
     "call_to_action": "¡Crea ahora tu app gratis!",
     "input": {
-      "email": "email",
+      "email": "Email",
       "name": "Nombre de tu aplicación",
-      "pass": "Contraseña"
+      "pass": "Contraseña",
+      "checkTOS": "He leído y acepto los términos y condiciones incluyendo la política de privacidad."
     }
   },
   "header": {

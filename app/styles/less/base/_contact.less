@@ -1,0 +1,77 @@
+/**
+ ******************************************************
+ ******************************************************
+ * {LESS} :: CONTACT :: (upplication, 2018)
+ ******************************************************
+  *****************************************************
+ */
+@import (reference) "_common.less";
+
+#contact {
+  background-color: rgba(222, 225, 236, 0.8);
+  color: @main-green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.titulo{
+  font-weight: 700;
+  font-size: 5.6vw;
+}
+.contact-title{
+  padding: 7.66vw 15vw 7vw 7.9vw;
+  width: 100%;
+
+}
+.contact-form{
+  padding: 8vw 15vw 7vw 7.9vw;
+  width: 100%;
+}
+
+#contact .ct-t2 {
+  margin-top: 1.4vw;
+}
+#contact .ct-t1, #contact .ct-t2 {
+  font-size: 2.17vw;
+  margin-top: 1.85vw;
+  line-height: 1.3;
+  letter-spacing: -0.034em;
+  padding-left: 0.11vw;
+  max-width: 88%;
+}
+#contact input, #contact textarea{
+  background-color: #a7aab31a;
+  color: @main-green;
+  padding-left: 3px;
+}
+input::placeholder, textarea::placeholder {
+  color: @main-green;
+}
+textarea{
+  border: none;
+  outline: none;
+  height: 6.9vw;
+  resize: none;
+}
+
+textarea:focus{
+  outline: none !important;
+  border-bottom: 2px solid @main-green;
+  box-shadow: 0 0 10px rgba(237, 253, 235, 0.04);
+}
+#contact input[type=submit]{
+  width: 100%;
+  margin-top: 1.3vw;
+  text-align: center;
+  color: #fff;
+  background: @main-green;
+  border: none;
+  padding: 0.75vw 0 1.15vw;
+  letter-spacing: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+#contact input[type=submit]:hover{
+  background-color: rgba(0, 226, 121, 0.71);
+}

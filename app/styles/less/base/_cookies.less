@@ -11,30 +11,34 @@
 #cookies {
   display: none;
   position: fixed;
-  bottom: 0;
-  width: 100%;
+  bottom: 2%;
+  width: 20%;
+  left: 80%;
   z-index: 8999;
-  background-color: rgba(0,200,107,.7);
+  background-color: rgba(0, 200, 107, .7);
   border-top: 1px solid @main-green;
   color: @black;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 12px 18px 0;
 
   &.show {
     display: block;
   }
 
-  i {
-    float: left;
-    top: 0;
+  button {
+    top: -4px;
     cursor: pointer;
-    .anim(all, 250ms, ease-in-out);
+    width: 60%;
+    margin-bottom: 5px;
+    .anim(all, 500ms, ease-in-out);
 
     &:hover {
-      color: @darkest-lilac;
-      top: -2px;
-      .rotate(180deg);
+      color: @white;
+      background-color: rgb(0, 0, 0);
+      text-decoration: underline;
+
+      //.rotate(180deg);
     }
   }
 
@@ -52,7 +56,15 @@
     }
   }
 }
-
+.cookies-table{
+  width: 70%;
+}
+.cookies-table tr:first-child{
+  background-color: @main-green;
+}
+.cookies-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
 // MEDIA QUERIES :: Cookies
 @media only screen and (max-width: 899px) {
