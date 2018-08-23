@@ -1,39 +1,23 @@
 //- CONTACT ::
 section#contact
     .contact-title.left
-        h4.titulo
-            | Contact.
+        h4.titulo #{contact.contact_title}
         span.bold.white
-            p.ct-t1
-                | If you require more information or are interested in any of our services, we want to hear from you!
-            p.ct-t2 Get in touch now!
+            p.ct-t1 #{contact.contact_subtitle}
+            p.ct-t2 #{contact.call_to_action}
     .contact-form
-        //p.form-error Oops, please check the fields marked in red.
         form.ct-form(action='')
-
-                input#attendant(type='hidden', name='attendant', value='')
-                input#phone(type='hidden', name='phone', value='N/A')
-                input#name.form-data(type='text', name='name', placeholder='Type your name...')
-                input#emailForm.form-data(type='email', name='email', placeholder='Type your email...')
-                textarea#comment.form-data(name='comment', placeholder='Type your comment...')
-                .check
-                    input#accept-privacy.checkbox(type='checkbox', name='accept')
-                    label.ch-label(for='accept-privacy')
-                        | I have read and accept the
-                        // <a href="#" target="_blank" class="blue">terms &amp; conditions</a>,
-                        a(href='#{localConfig.base_path}/es/terminos/', target='_blank') privacy policy & data protection policy
-
-                input#lopd(type='checkbox', name='lopd', style='display: none')
-                // CAPTCHA goes here
-                // Poner esta cuando esté en producción
-                //.g-recaptcha(data-sitekey='XXXXXXXX')
-                    div(style='width: 304px; height: 78px;')
-                        div
-                            iframe(src='https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Le72CoUAAAAAIuAfXv0NKUHw68yjFCKUVpzzWYF&co=aHR0cHM6Ly93d3cuZmlib25hZC5jb206NDQz&hl=en&v=v1534181115703&size=normal&cb=guby94wnw9p', width='304', height='78', role='presentation', name='a-ccctkgtzxghb', frameborder='0', scrolling='no', sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox')
-                        textarea#g-recaptcha-response.g-recaptcha-response(name='g-recaptcha-response', style='width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; ')
-                //input(type='hidden', name='landing', value='Fibonad')
-                input.submit-btn.bold(type='submit', name='', value='Send message')
-
+            input#attendant(type='hidden', name='attendant', value='')
+            input#phone(type='hidden', name='phone', value='N/A')
+            input#name.form-data(type='text', name='name', placeholder='#{contact.name_placeholder}')
+            input#emailForm.form-data(type='email', name='email', placeholder='#{contact.email_placeholder}')
+            textarea#comment.form-data(name='comment', placeholder='#{contact.comment_placeholder}')
+            .check
+                input#accept-privacy.checkbox(type='checkbox', name='accept')
+                label.ch-label(for='accept-privacy') !{contact.tos_checkbox}
+                    input#lopd(type='checkbox', name='lopd', style='display: none')
+                // CAPTCHA goes here if necessary
+                input.submit-btn.bold(type='submit', name='', value='#{contact.send_button}')
             //.form-accept.thinest
                 .tick
                 p.fa-t1 Thanks for your message.

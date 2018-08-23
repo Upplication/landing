@@ -105,7 +105,21 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                     each lang in langs.codes
                                         li
                                             a.hide-tab.lang-link(href="#{routing[_template][lang.language_country]}", data-lang="#{lang.language_country}") #{lang.language_name}
-
+                            li.trial.only-show-small-devises.phone-kerning
+                                a(href='#all-contact') #{header.telephone}
+                            li.trial.only-show-small-devises
+                                a(href='#free-trial', title='') #{header.free_trial}
+                            li.enter-btn
+                                a.hide-tab(href="#{external.dashboard.url}")
+                                    i.icon.icon-key
+                                    | #{header.enter}
+                            li.contact-info
+                                .contact-info-grids
+                                    .contact-info-left
+                                        a.chat(href='#free-trial') #{header.free_trial}
+                                    .contact-info-right
+                                        a(title='#{header.telephone}') #{header.telephone}
+                                        a.support(title='#{common.customer_service.email.title}') #{common.customer_service.email.title}
                         //- Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
@@ -134,6 +148,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         include ../../includes/clients
         //- TRIAL
         include ../../includes/trial
+        //- CONTACT :: Contact form
+        include ../../includes/contact
         //- FOOTER :: Contact, links list and Copyright
         include ../../includes/footer
 

@@ -210,7 +210,7 @@
       "email": "E-mail",
       "name": "App name",
       "pass": "Password",
-      "checkTOS": "I've read the terms and conditions including the privacy policy."
+      "check_TOS": "I have read and accept the <a href='@@config.base_path/en/terms/' target='_blank'> privacy policy & data protection policy.</a>"
     }
   },
   "header": {
@@ -589,6 +589,16 @@
       }
     ]
   },
+  "contact":{
+    "contact_title":"Contact.",
+    "contact_subtitle": "If you require more information or are interested in any of our services, we want to hear from you!",
+    "call_to_action": "Get in touch now!",
+    "name_placeholder": "Type your name",
+    "email_placeholder": "Type your email",
+    "comment_placeholder": "Type your comment",
+    "tos_checkbox": "I have read and accept the <a href='@@config.base_path/en/terms/' target='_blank'> privacy policy & data protection policy.</a>",
+    "send_button": "Send message"
+  },
   "signup": {
     "close": "(&times;) close",
     "dont_have_a_code": "I don't have a seller code",
@@ -598,4 +608,5 @@
     "submit": "Create my app for free",
     "warning_seller": "Seller code can not be blank"
   }
+
 }

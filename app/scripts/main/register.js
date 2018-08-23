@@ -158,14 +158,14 @@ $(function () {
         };
         //Validation of terms & conditions
         //Enables or disables submit button
-        $("#app_name").focus(function(e){
-            $("#submitForm").attr("disabled", true)
-            $('#checkboxTos').change(function() {
-                if (!$("#checkboxTos").is(':checked')) {
-                    $("#submitForm").attr("disabled", true)
+        $("#app_name, #modal_app_name").focus(function(e){
+            $(":submit").attr("disabled", true)
+            $(':checkbox').change(function() {
+                if (!$(":checkbox").is(':checked')) {
+                    $(":submit").attr("disabled", true)
                 }
                 else {
-                    $("#submitForm").attr("disabled", false)
+                    $(":submit").attr("disabled", false)
                 }
             });
         });
@@ -197,6 +197,7 @@ $(function () {
             if ($innerSpan.length > 0) {
                 $innerSpan.text(submit.data("loading"));
             }
+
 
 
 

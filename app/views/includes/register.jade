@@ -18,15 +18,13 @@
                     label(for='password') #{form.input.pass}
                         p.error.display-none.register-password-error
                 .input-field.col.s12
-                    input#checkboxTos.validate(type='checkbox', name='checkboxTos',required)
-                    label#labelCheckTos.tosText(for='checkboxTos') #{form.input.checkTOS}
+                    input#checkbox_tos.validate(type='checkbox', name='checkboxTos',required)
+                    label#labelCheckTos.tosText(for='checkbox_tos') !{form.input.check_TOS}
 
             .register-form-btn
                 button#submitForm(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                     span #{form.call_to_action}
                 p #{modal.footer.free}
-
-
 
 //- REGISTER PANEL :: "15 days free trial" (MOBILE - TABLET)
 .row.register-form-mobile(data-aos='fade-up')

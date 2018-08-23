@@ -23,6 +23,9 @@ a.modal-action.modal-close.waves-effect.waves-green.btn-flat(title='#{modal.head
                 label(for='modal_pass') #{form.input.pass}
                 p.error.display-none.register-password-error
             .input-field.col.s12
+                input#checkbox_modal_tos.validate(type='checkbox', name='checkboxTos',required)
+                label.tosText(for='checkbox_modal_tos') !{form.input.check_TOS}
+            .input-field.col.s12
                 button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                     i.icon.icon-ok
                     span #{header.free_trial}

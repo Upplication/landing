@@ -211,7 +211,7 @@
       "email": "Email",
       "name": "Nombre de tu aplicación",
       "pass": "Contraseña",
-      "checkTOS": "He leído y acepto los términos y condiciones incluyendo la política de privacidad."
+      "check_TOS": "He leído y acepto los <a href='@@config.base_path/es/terminos/' target='_blank'> términos y condiciones incluyendo la pólitica de privacidad.</a>"
     }
   },
   "header": {
@@ -413,6 +413,16 @@
       "name": "El nombre de tu app debe tener entre 3 y 32 caracteres y no puede empezar por un número",
       "password": "La longitud mínima para la contraseña es de 8 caracteres"
     }
+  },
+  "contact":{
+    "contact_title":"Contacto.",
+    "contact_subtitle": "Si necesitas más información o estás interesado en alguno de nuestros servicios, no dudes en ponerte en contacto!",
+    "call_to_action": "¿Hablamos?",
+    "name_placeholder": "Escribe tu nombre",
+    "email_placeholder": "Escribe tu email",
+    "comment_placeholder": "Escribe tu comentario",
+    "tos_checkbox": "He leído y acepto los <a href='@@config.base_path/es/terminos/' target='_blank'> términos y condiciones incluyendo la pólitica de privacidad.</a>",
+    "send_button": "Enviar mensaje"
   },
   "signup": {
     "close": "(&times;) cerrar",
