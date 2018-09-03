@@ -597,7 +597,8 @@
     "email_placeholder": "Type your email",
     "comment_placeholder": "Type your comment",
     "tos_checkbox": "I have read and accept the <a href='@@config.base_path/en/terms/' target='_blank'> privacy policy & data protection policy.</a>",
-    "send_button": "Send message"
+    "send_button": "Send message",
+    "thanks_text": "Thanks for your message. We'll in touch soon!"
   },
   "signup": {
     "close": "(&times;) close",
@@ -608,5 +609,4 @@
     "submit": "Create my app for free",
     "warning_seller": "Seller code can not be blank"
   }
-
 }

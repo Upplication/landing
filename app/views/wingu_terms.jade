@@ -6,14 +6,17 @@ block vars
     - var cssClass = 'terms'
 block content
     section
-        h4.headTitles #{wingu_terms.sections.title}
-        div.container.margin
-            each section in wingu_terms.sections.sections
-                h5 #{section.title}
-                each ch in section.children
-                    if typeof ch != 'object'
-                        p #{ch}
-                    else
-                        h3 #{ch.title}
-                        each subchild in ch.children
-                            p #{subchild}
+        .col.s12.center-align
+            .about.scrollspy
+                .container
+                    .terms-grid.about-left-grids
+                        h4.headTitles !{wingu_terms.sections.title}
+                        each section in wingu_terms.sections.sections
+                            h5 !{section.title}
+                            each ch in section.children
+                                if typeof ch != 'object'
+                                    p !{ch}
+                                else
+                                    h3 !{ch.title}
+                                    each subchild in ch.children
+                                        p !{subchild}

@@ -422,7 +422,8 @@
     "email_placeholder": "Escribe tu email",
     "comment_placeholder": "Escribe tu comentario",
     "tos_checkbox": "He leído y acepto los <a href='@@config.base_path/es/terminos/' target='_blank'> términos y condiciones incluyendo la pólitica de privacidad.</a>",
-    "send_button": "Enviar mensaje"
+    "send_button": "Enviar mensaje",
+    "thanks_text": "Gracias por tu mensaje.¡Nos pondremos en contacto contigo lo antes posible!"
   },
   "signup": {
     "close": "(&times;) cerrar",

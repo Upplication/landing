@@ -8,53 +8,64 @@
 @import (reference) "_common.less";
 
 #contact {
-  background: rgba(222, 225, 236, 1);
+  background: rgba(222, 225, 236, 1) url("../../../images/home/bg/lines-d2.png") repeat-y top/100vw;
   color: @main-green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   z-index: -100 ;
+  font-weight: 500;
 }
 .titulo{
   font-weight: 700;
-  font-size: 5.6vw;
+  font-size: 3.8vw;
 }
 .contact-title{
-  background:url("../../../images/home/bg/lines-d2.png") repeat-y top/100vw;
-  padding: 7.66vw 15vw 7vw 8.9vw;
+  padding: 5.66vw 15vw 4vw 7.9vw;
   width: 100%;
 }
 .contact-form{
-  background: url("../../../images/home/bg/lines-d2.png") repeat-y top/100vw;
-  padding: 10.9vw 15vw 7vw 7.9vw;
+  padding: 5.9vw 11vw 4vw 5.9vw;
   width: 100%;
 }
 
 #contact .ct-t2 {
   margin-top: 1.4vw;
 }
-#contact .ct-t1, #contact .ct-t2 {
-  font-size: 2.17vw;
+#contact .ct-t1{
+  font-size: 1.5vw;
   margin-top: 1.85vw;
   line-height: 1.3;
   letter-spacing: -0.034em;
   padding-left: 0.11vw;
-  max-width: 88%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#contact .ct-t2{
+  font-size: 2vw;
 }
 #contact input, #contact textarea{
-  background-color: #a7aab31a;
+  background-color: #d5d8e2;
   color: @main-green;
   padding-left: 3px;
 }
 input::placeholder, textarea::placeholder {
   color: @main-green;
 }
+input:disabled {
+  pointer-events: none;
+  background-color: #DFDFDF !important;
+  box-shadow: none;
+  color: #9F9F9F !important;
+  cursor: default;
+}
 textarea{
   border: none;
   outline: none;
   height: 6.9vw;
   resize: none;
+  border-bottom: 1px solid #9e9e9e;
 }
 
 textarea:focus{

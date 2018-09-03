@@ -6,7 +6,7 @@ section#contact
             p.ct-t1 #{contact.contact_subtitle}
             p.ct-t2 #{contact.call_to_action}
     .contact-form
-        form.ct-form(action='')
+        form#contactForm.ct-form(action='mailto:info@upplication.com')
             input#attendant(type='hidden', name='attendant', value='')
             input#phone(type='hidden', name='phone', value='N/A')
             input#name.form-data(type='text', name='name', placeholder='#{contact.name_placeholder}')
@@ -15,10 +15,8 @@ section#contact
             .check
                 input#accept-privacy.checkbox(type='checkbox', name='accept')
                 label.ch-label(for='accept-privacy') !{contact.tos_checkbox}
-                    input#lopd(type='checkbox', name='lopd', style='display: none')
                 // CAPTCHA goes here if necessary
-                input.submit-btn.bold(type='submit', name='', value='#{contact.send_button}')
-            //.form-accept.thinest
+            input.submit-btn.bold(type='submit', name='', value='#{contact.send_button}')
+            .form-accept.thinest
                 .tick
-                p.fa-t1 Thanks for your message.
-                p.fa-t2 We'll be in touch soon!
+                p. #{contact.thanks_text}

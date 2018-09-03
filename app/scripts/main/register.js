@@ -59,6 +59,38 @@ $(function () {
 
     var setup = function () {
 
+        //Validation of terms & conditions
+        //Enables or disables submit button
+        $("form[name='register'] input").focus(function(){
+            if(!$("form[name='register'] input:checkbox").is(":checked")) {
+                $("form[name='register'] button:submit").attr("disabled", true)
+                $("form[name='register'] input:checkbox").change(function () {
+                    if (!$("form[name='register'] input:checkbox").is(":checked")) {
+                        console.log("no check")
+                        $("form[name='register'] button:submit").attr("disabled", true)
+                    }
+                    else {
+                        console.log("check")
+                        $("form[name='register'] button:submit").attr("disabled", false)
+                    }
+                })
+            }
+        })
+        //Footer contact form disabled submit until accept TOS
+        $("#contactForm input").focus(function () {
+            $("#contactForm  input:checkbox").change(function () {
+                if (!$("#contactForm input:checkbox").is(":checked")) {
+                    console.log("no check")
+                    $("#contactForm input:submit").attr("disabled", true)
+                    $("#contactForm input:submit").attr("disabled", true)
+                }
+                else {
+                    console.log("check")
+                    $("#contactForm input:submit").attr("disabled", false)
+                }
+            })
+        })
+
         var registerSuccessCallback = function (fn, submit) {
             return function (data) {
                 if (data.success) {
@@ -156,23 +188,10 @@ $(function () {
                 $(this).find(".general-error").show();
             };
         };
-        //Validation of terms & conditions
-        //Enables or disables submit button
-        $("#app_name, #modal_app_name").focus(function(e){
-            $(":submit").attr("disabled", true)
-            $(':checkbox').change(function() {
-                if (!$(":checkbox").is(':checked')) {
-                    $(":submit").attr("disabled", true)
-                }
-                else {
-                    $(":submit").attr("disabled", false)
-                }
-            });
-        });
+
         //Register form through AJAX
         //Validation done in HTML5 (patterns, minlength, etc)
         $("form[name='register']").submit(function (e) {
-
 
             e.preventDefault();
             e.stopPropagation();
@@ -197,9 +216,6 @@ $(function () {
             if ($innerSpan.length > 0) {
                 $innerSpan.text(submit.data("loading"));
             }
-
-
-
 
             submit.prop("disabled", true);
             $.ajax({
