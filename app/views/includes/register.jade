@@ -6,8 +6,8 @@
             p.error.general-error.display-none #{register.error.general}
             .row.marBot10
                 .input-field.col.s12
-                    input#app_name.validate(type='text', name='appName', required)
-                    label(for='app_name') #{form.input.name}
+                    input#app-name.validate(type='text', name='appName', required)
+                    label(for='app-name') #{form.input.name}
                         p.error.display-none.register-appName-error
                 .input-field.col.s12
                     input#email.validate(type='email', name='email', required)
@@ -17,12 +17,11 @@
                     input#password.validate(type='password', name='password', required)
                     label(for='password') #{form.input.pass}
                         p.error.display-none.register-password-error
-                .input-field.col.s12
-                    input#checkbox_tos.validate(type='checkbox', name='checkboxTos',required)
-                    label#labelCheckTos.tosText(for='checkbox_tos') !{form.input.check_TOS}
-
+                .col.s12
+                    input#checkbox-tos.validate(type='checkbox', name='checkbox-tos',required)
+                    label#label-check-tos.tos-text(for='checkbox-tos') !{form.input.check_TOS}
             .register-form-btn
-                button#submitForm(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
+                button#submit-form(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                     span #{form.call_to_action}
                 p #{modal.footer.free}
 

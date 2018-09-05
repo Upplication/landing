@@ -5,26 +5,26 @@ a.modal-action.modal-close.waves-effect.waves-green.btn-flat(title='#{modal.head
     h3 !{modal.head.register_modal}
     .row
         form(name="register", action="/register", method="post").col.s12.center
-            input(type="hidden", name="customerType", value="UPPLICATION")
+            input(type="hidden", name="customer-type", value="UPPLICATION")
             p.error.general-error.display-none #{register.error.general}
             .input-field.col.s12
                 i.icon.icon-mobile.prefix
-                input#modal_app_name.validate(type='text', name='appName', required)
-                label(for='modal_app_name') #{form.input.name}
+                input#modal-app-name.validate(type='text', name='app-name', required)
+                label(for='modal-app-name') #{form.input.name}
                 p.error.display-none.register-appName-error
             .input-field.col.s12
                 i.icon.icon-mail.prefix
-                input#modal_email.validate(type='email', name='email', required)
-                label(for='modal_email') #{form.input.email}
+                input#modal-email.validate(type='email', name='email', required)
+                label(for='modal-email') #{form.input.email}
                 p.error.display-none.register-email-error
             .input-field.col.s12
                 ii.icon.icon-key.prefix
-                input#modal_pass.validate(type='password', name='password', required)
-                label(for='modal_pass') #{form.input.pass}
+                input#modal-pass.validate(type='password', name='password', required)
+                label(for='modal-pass') #{form.input.pass}
                 p.error.display-none.register-password-error
             .input-field.col.s12
-                input#checkbox_modal_tos.validate(type='checkbox', name='checkboxTos',required)
-                label.tosText(for='checkbox_modal_tos') !{form.input.check_TOS}
+                input#checkbox-modal-tos.validate(type='checkbox', name='checkbox-tos',required)
+                label.tosText(for='checkbox-modal-tos') !{form.input.check_TOS}
             .input-field.col.s12
                 button(type="submit", data-loading="#{register.loading}", data-text="#{register.call_to_action}").waves-effect.waves-light.btn-large.btn-upp
                     i.icon.icon-ok
