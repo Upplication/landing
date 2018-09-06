@@ -49,7 +49,7 @@ The file `config.json` contains the definition of all the configuration needed b
 
 * Jade templates by calling `#{localConfig.xxxx}`
 * Saas files by calling `@@config`. (#{localConfig.} cant be use because saas define his own vars in that way)
-* Jade i18n files by calling `@@config`.
+* JSON i18n files by calling `@@config`.
 
 You can override this vars passing the concrete key as parameter with the prefix `config.`. Example `npm run deploy -- --env=localhost --config.token_manager=1337 --type=production` load all the vars defined in the localhost section and override the token_manager var with the value `1337`
 
