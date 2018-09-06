@@ -1,6 +1,6 @@
 {
   "name": "landing-upplication",
-  "version": "3.9.24",
+  "version": "3.10.0",
   "author": "Upplication Team <javier.arnaiz@upplication.com>",
   "scripts": {
     "start": "gulp",
@@ -44,7 +44,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^4.1.0",
     "gulp-data": "^1.2.1",
-    "gulp-imagemin": "^3.0.3",
+    "gulp-imagemin": "^4.1.0",
     "gulp-jade": "^1.1.0",
     "gulp-less": "^3.1.0",
     "gulp-minify-inline": "^0.2.1",

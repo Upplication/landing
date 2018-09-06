@@ -116,10 +116,10 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                             li.contact-info
                                 .contact-info-grids
                                     .contact-info-left
-                                        a.chat(href='#free-trial') #{header.free_trial}
+                                        a.modal-trigger.chat(href='#free-trial') #{header.free_trial}
                                     .contact-info-right
-                                        a(href='#all-contact', title='#{header.telephone}') #{header.telephone}
-                                        a.support(href='#{common.customer_service.email.link}', title='#{common.customer_service.email.alt_tag}') #{common.customer_service.email.title}
+                                        a(title='#{header.telephone}') #{header.telephone}
+                                        a.support(title='#{common.customer_service.email.title}') #{common.customer_service.email.title}
                         //- Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
@@ -148,13 +148,17 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         include ../../includes/clients
         //- TRIAL
         include ../../includes/trial
+        //- CONTACT :: Contact form
+        include ../../includes/contact
         //- FOOTER :: Contact, links list and Copyright
         include ../../includes/footer
 
         //- Cookies alert
-        #cookies
-            i#cookies-accept.icon.icon-cross
+        #cookies.show
             p !{footer.cookies}
+            button#cookies-accept.icon.icon-ok.centered
+                span OK
+
 
 
         script(type="text/javascript", src='#{localConfig.base_path}/scripts/vendor/base.js')

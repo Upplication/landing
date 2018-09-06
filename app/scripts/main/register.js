@@ -160,6 +160,7 @@ $(function () {
         //Register form through AJAX
         //Validation done in HTML5 (patterns, minlength, etc)
         $("form[name='register']").submit(function (e) {
+
             e.preventDefault();
             e.stopPropagation();
 
