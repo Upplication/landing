@@ -5,11 +5,11 @@ a.modal-action.modal-close.waves-effect.waves-green.btn-flat(title='#{modal.head
     h3 !{modal.head.register_modal}
     .row
         form(name="register", action="/register", method="post").col.s12.center
-            input(type="hidden", name="customer-type", value="UPPLICATION")
+            input(type="hidden", name="customerType", value="UPPLICATION")
             p.error.general-error.display-none #{register.error.general}
             .input-field.col.s12
                 i.icon.icon-mobile.prefix
-                input#modal-app-name.validate(type='text', name='app-name', required)
+                input#modal-app-name.validate(type='text', name='appName', required)
                 label(for='modal-app-name') #{form.input.name}
                 p.error.display-none.register-appName-error
             .input-field.col.s12
