@@ -1,22 +1,23 @@
 //- CONTACT ::
 section#contact
-    .contact-title.left
-        h4.titulo #{contact.contact_title}
-        span.bold.white
-            p.ct-t1 #{contact.contact_subtitle}
-            p.ct-t2 #{contact.call_to_action}
-    .contact-form
-        form#contact-form.ct-form(action="mailto:info@upplication.com?subject=Contact from Dashboard" method="post" enctype="text/plain")
-            .input-field
-                input#name.form-data(type='text', name='name', required)
-                label(for='name' data-error="wrong" data-success="right") #{contact.name_placeholder}
-            .input-field
-                input#email-form.form-data(type='email', name='email', required)
-                label(for='email-form') #{contact.email_placeholder}
-            .input-field
-                textarea#comment.form-data(name='comment', required)
-                label(for='comment') #{contact.comment_placeholder}
-            input#accept-privacy.checkbox.validate(type='checkbox', name='accept', required)
-            label(for='accept-privacy' data-error='error') !{contact.tos_checkbox}
-                // CAPTCHA goes here if necessary
-            input.submit-btn.bold(type='submit', name='', value='#{contact.send_button}')
+    .container
+        .contact-title.col.s12.l6
+            h4.titulo #{contact.contact_title}
+            span.bold.white
+                p.ct-t1 #{contact.contact_subtitle}
+                p.ct-t2 #{contact.call_to_action}
+        .contact-form.col.s12.l6.right
+            form#contact-form.ct-form(action="mailto:info@upplication.com?subject=Contact from Dashboard" method="post" enctype="text/plain")
+                .input-field
+                    input#name.form-data(type='text', name='name', required)
+                    label(for='name' data-error="wrong" data-success="right") #{contact.name_placeholder}
+                .input-field
+                    input#email-form.form-data(type='email', name='email', required)
+                    label(for='email-form') #{contact.email_placeholder}
+                .input-field
+                    textarea#comment.form-data(name='comment', required)
+                    label(for='comment') #{contact.comment_placeholder}
+                input#accept-privacy.checkbox.validate(type='checkbox', name='accept', required)
+                label(for='accept-privacy' data-error='error') !{contact.tos_checkbox}
+                    // CAPTCHA goes here if necessary
+                input.submit-btn.bold(type='submit', name='', value='#{contact.send_button}')
