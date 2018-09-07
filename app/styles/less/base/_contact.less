@@ -16,6 +16,7 @@
   width: 100%;
   z-index: -100 ;
   font-weight: 500;
+
 }
 .titulo{
   font-weight: 700;
@@ -23,11 +24,12 @@
 }
 .contact-title{
   padding: 5.66vw 15vw 4vw 7.9vw;
-  width: 100%;
+  width: 50%;
+  float:left;
 }
 .contact-form{
   padding: 5.9vw 11vw 4vw 5.9vw;
-  width: 100%;
+  width: 50%;
 }
 
 #contact .ct-t2 {
@@ -66,6 +68,7 @@ textarea{
   height: 6.9vw;
   resize: none;
   border-bottom: 1px solid #9e9e9e;
+  margin-bottom: 1.2vw;
 }
 
 textarea:focus{
@@ -87,4 +90,54 @@ textarea:focus{
 }
 #contact input[type=submit]:hover{
   background-color: rgba(0, 226, 121, 0.71);
+}
+
+@media only screen and (max-width: 900px) {
+  .titulo{
+    margin-top: 2.35vw;
+    font-size: 5vw;
+    max-width: 100%;
+  }
+  .contact-title, .contact-form{
+    width:100%;
+    padding:  0.9vw 11vw 2vw 5.9vw;
+  }
+  #contact .ct-t1, #contact .ct-t2 {
+    margin-top: 5.35vw;
+    font-size: 3vw;
+    max-width: 100%;
+    margin-botom: 1.5vw;
+    width: 100%;
+  }
+  #contact input[type=submit] {
+    margin: 2.75vw 0 2.75vw;
+    padding: 2vw 5vw 2vw 5vw;
+  }
+  #contact textarea {
+    height: 13vw;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .titulo{
+    margin-top: 5.35vw;
+    font-size: 11.574vw;
+    max-width: 100%;
+  }
+  #contact .ct-t1, #contact .ct-t2 {
+    margin-top: 5.35vw;
+    font-size: 4.55vw;
+    max-width: 100%;
+    margin-botom: 2.5vw;
+  }
+  .contact-title, .contact-form{
+    width:100%;
+  }
+  #contact input[type=submit] {
+    margin: 2.75vw 0 2.75vw;
+    padding: 3vw 0 3vw 1.5vw;
+  }
+  #contact textarea {
+    height: 13vw;
+  }
 }
