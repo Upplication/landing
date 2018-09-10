@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
     CurrencyService.prototype.getRates = function(cb) {
         var conf = $.extend({}, this.conf)
 
-        var url = '//api.fixer.io/latest'
+        var url = '//api.exchangeratesapi.io/latest?symbols=USD,MX'
         var params = []
         if (conf.symbols)
             params.push('base=' + conf.base)
