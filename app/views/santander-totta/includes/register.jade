@@ -3,6 +3,7 @@
     .row.register-top
         form(name="register", action="/register", method="post").col.s12.register-form-block
             input(type="hidden", name="customerType", value="SANTANDER")
+            input(type="hidden", name="request_locale", value="pt")
             p.error.general-error.display-none #{santander_totta.form.error.general}
             .row.marBot10
                 .input-field.col.s12

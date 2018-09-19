@@ -43,7 +43,7 @@
     },
     "dashboard": {
       "anchor": "Entrar",
-      "url": "@@config.dashboard_base_path/web"
+      "url": "@@config.dashboard_base_path/web/login?request_locale=pt"
     },
     "facebook": {
       "anchor": "Facebook",
