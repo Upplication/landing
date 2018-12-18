@@ -10,7 +10,22 @@ https://www.upplication.es/* https://www.upplication.com/:splat 301!
 https://www.winguapps.com/condiciones https://www.winguapps.com/es/vodafone 301
 https://www.winguapps.com/login https://dashboard.winguapps.com/v2/wingu-login 301!
 https://www.winguapps.com/ https://dashboard.winguapps.com/v2/wingu-login 301!
-https://www.winguapps.com/* https://www.winguapps.com/es/vodafone/ 301!
+# not working => too many redirects .... https://www.winguapps.com/* https://www.winguapps.com/es/vodafone/ 301!
+# so we must add manually
+https://www.winguapps.com/en/* https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/pt/* https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/id/* https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es-MX/* https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/telefonica/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/oferta-practicas-developer/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/ejemplos-vodafone/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/precios/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/progressive-web-app/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/asis-and-gross/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/fisiohogar/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/terminos/ https://www.winguapps.com/es/vodafone/ 301!
+https://www.winguapps.com/es/terminos/ https://www.winguapps.com/es/vodafone/ 301!
 
 # seo redirects
 
