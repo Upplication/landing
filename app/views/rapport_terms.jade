@@ -1,0 +1,85 @@
+extend base/v2/base
+
+block vars
+    - var title = rapport_terms._meta_title
+    - var description = rapport_terms._meta_description
+    - var keywords = rapport_terms._keywords
+    - var cssClass = 'terms'
+
+block css
+    link(rel='stylesheet', href='#{localConfig.base_path}/styles/terms/terms.css')
+
+block content
+
+    //- TERMS & CONDITIONS
+    .col.s12.center-align.legal
+        #legal.about.scrollspy
+            .about-grids
+                .container
+                    .terms-grid.about-left-grids
+                        h4.headTitles.head-terms Política de privacidad para la aplicación TU NEGOCIO PRÓXIMO
+                            p.terms.legal.paragraphs
+                                |La política de Privacidad que se desarrolla a continuación explica de forma transparente como la aplicación “Tu Negocio Próximo” (en adelante la Aplicación) recopila datos personales, en calidad de responsable del tratamiento, provenientes de los usuarios de la misma, para poder ofrecer los diferentes servicios de la Aplicación, tanto a los usuarios de la aplicación como a los clientes del titular de la misma.
+                        h7.headTitles
+                            | 1. Recabo y finalidades del tratamiento de datos personales
+                        p.terms.legal.paragraphs
+                            | De conformidad con el Reglamento (UE) 2016/679, de 27 de abril, general de protección de datos (“RGPD”),
+                            |UPPLICATION SOFTWARE TECHNOLOGIES, S.L.(“Upplication”) le informa de que es el titular de la Aplicación.
+                            |Y en calidad de responsable del tratamiento de datos, le informa de que cuando un usuario se descarga la Aplicación,
+                            |Upplication recaba datos relativos a su geolocalización y también podría tener acceso a su:
+                        ul
+                            li.headTitles.head-terms
+                                |Identify for Advertisers (IDFA)
+                            p.terms.legal.paragraphs
+                                | IDFA es la identificación de dispositivo específica de Apple iOS para publicidad. El IDFA es un identificador aleatorio asignado a un dispositivo individual y se utiliza para entregar anuncios personalizados. Esta ID se genera para aplicaciones móviles, mientras que si está navegando en un navegador web a través de un dispositivo móvil, se utilizará una cookie del navegador. Este identificador puede ser visto o reseteado por el usuario.
+                            li.headTitles.head-terms
+                                | Google Play ID/GAID/AAID
+                            p.terms.legal.paragraphs
+                                |El AAID es la versión de Android del identificador de anunciante único con funcionalidad y capacidades similares
+                            p.terms.legal.paragraphs
+                                | La finalidad del tratamiento de estos datos es lograr ofrecer el servicio a los usuarios, quienes obtendrán información de los Clientes de Upplication que se encuentren registrados en la Aplicación cercanos a la localización del usuario.
+                            p.terms.legal.paragraphs
+                                | Sin embargo, los usuarios no serán identificados con la finalidad de conocer quiénes son.
+                            p.terms.legal.paragraphs
+                                | La finalidad del tratamiento por parte de Upplication es almacenar los datos personales, gestionar y desarrollar el servicio ofertado a los usuarios de la aplicación móvil y a los clientes de Upplication que se anuncian en la aplicación móvil. La base jurídica del tratamiento es el consentimiento.
+
+                        h6.headTitles
+                            | 2. Plazo de conservación
+                        p.terms.legal.paragraphs
+                            | Los datos personales serán conservados durante los plazos de prestación del servicio, siendo bloqueados a la finalización de los mismos durante el periodo de prescripción de las acciones legales y suprimidos tras las expiraciones de estas.
+                        h6.headTitles
+                            | 3. Destinatarios de los datos personales
+                        p.terms.legal.paragraphs
+                            | Los datos recabados por la aplicación no serán cedidos a otras personas o empresas para ser utilizados para sus propios fines.
+                            | No obstante, Upplication revelará a las autoridades públicas competentes los Datos Personales y cualquier otra información que esté en su poder o sea accesible a través de sus sistemas y sea requerida de conformidad con las disposiciones legales y reglamentarias aplicables al caso.
+                        p.terms.legal.paragraphs
+                            | Asimismo, se informa que para el almacenamiento y gestión de los servicios contratados a Upplication, ésta podrá subcontratar los mismos con la sociedad Acens Technologies, S.L. con domicilio en la calle San Rafael, 14, 28108 – Alcobendas (Madrid). También se le informa de que el tratamiento de datos de carácter personal, tanto por Upplication como por la empresa subcontratada, se ajustará a las instrucciones del responsable del tratamiento.
+                        h6.headTitles
+                            | 4. Derechos de los usuarios
+                        p.terms.legal.paragraphs
+                            | Los titulares de los datos personales pueden ejercitar los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad ante el Responsable del tratamiento de conformidad con lo indicado en su política de privacidad o bien ante el encargado del tratamiento a través del correo electrónico gdpr@upplication.como bien a la dirección postal de UPPLICATION SOFTWARE TECHNOLOGIES, S.L,con domicilio social en Calle Quintana 2, 2ª planta, C.P. 28008 Madrid y CIF B-86569654, a la atención del Departamento Legal.
+                        p.terms.legal.paragraphs
+                            | La solicitud deberá contener copia de su DNI u otro documento identificativo equivalente, así como el contenido mínimo previsto en la normativa aplicable. Si la solicitud no reúne los requisitos especificados, Upplication podrá requerir su subsanación. En caso de no obtener satisfacción en el ejercicio de sus derechos, podrá presentar una reclamación ante la autoridad de control en materia de protección de datos, la Agencia Española de Protección de Datos, cuya página web es: http://www.agpd.es.
+                        h6.headTitles
+                            | 5. Medidas de seguridad
+                        p.terms.legal.paragraphs
+                            | Upplication trata los datos personales de manera absolutamente confidencial. Asimismo, ha implantado medidas técnicas y organizativas adecuadas para garantizar la seguridad de sus datos personales y evitar su destrucción, pérdida, acceso ilícito o alteración ilícita. A la hora de determinar estas medidas, se han tenido en cuenta criterios como el alcance, el contexto y los fines del tratamiento; el estado de la técnica y los riesgos existentes. Upplication garantiza las siguientes medidas de seguridad:
+                        ul
+                            li
+                                p -La seudoniminación y el cifrado de datos personales.
+                            li
+                                p -La capacidad de garantizar la confidencialidad, integridad, disponibilidad y resiliencia permanentes de los sistemas y servicios de tratamiento.
+                            li
+                                p -La capacidad de restaurar la disponibilidad y el acceso a los datos personales de forma rápida, en caso de incidente físico o técnico.
+                            li
+                                p -El proceso de verificación, evaluación y valoración regulares de la eficacia de las medidas técnicas y organizativas para garantizar la seguridad del tratamiento.
+                            p Upplication no se hace responsable de las medidas de seguridad de terceros, por ejemplo, sus colaboradores. Para obtener más información sobre sus prácticas de recopilación y uso de datos personales, consulte sus respectivas políticas de privacidad.
+                        h6.headTitles
+                            | 6. ¿Cómo rechazar el tratamiento de datos personales?
+                        p.terms.legal.paragraphs
+                            |El Usuario puede configurar funcionalidades de la aplicación móvil para bloquear los envíos de notificaciones push y el acceso a su localización. Asimismo, el Usuario puede retirar en cualquier momento un consentimiento otorgado previamente para la instalación de las mismas. A continuación se indica la ruta que debe seguir el Usuario para no autorizar, deshabilitar o bloquear las diferentes funcionalidades:
+                            ul
+                                li
+                                    p Dispositivos iOS: Ajustes -> Sección de Aplicaciones -> Aplicación Tu negocio próximo -> Configuración de Notificaciones y Configuración de Geolocalización
+                                li
+                                    p Dispositivos Android: Ajustes -> Sección de Aplicaciones -> Aplicación Tu negocio próximo -> Configuración de Notificaciones y Configuración de Geolocalización
