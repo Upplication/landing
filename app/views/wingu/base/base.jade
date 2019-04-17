@@ -28,8 +28,11 @@ html.no-js(lang="#{lang_html}", prefix="og: http://ogp.me/ns#")
         link(rel="canonical", href="#{routing[_template][lang]}")
         link(rel="publisher", href="https://plus.google.com/u/0/b/104473837308143303881/104473837308143303881/posts")
 
-        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/upplication-icons.min.css')
+        link(rel='stylesheet', href='#{localConfig.base_path}/bower_components/upplication-icons/dist/wingu/wingu-icons.min.css')
         link(rel='stylesheet', href='#{localConfig.base_path}/styles/wingu/wingu.css')
+
+        //- ICONS
+        link(rel="shortcut icon", href="#{localConfig.base_path}/images/wingu/favicon.png")
 
     body(id="#{_template}", data-lang="#{lang}")
 
