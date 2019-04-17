@@ -12,11 +12,11 @@
       "bullhorn": "<strong>Publicidade</strong> Upplication",
       "per_month": "/ m\u00eas *",
       "per_year": "/ ano *",
-      "four_push": "<strong>4</strong> notifica\u00e7\u00f5es push / m\u00eas",
+      "num_push": "<strong>30</strong> notifica\u00e7\u00f5es push / m\u00eas",
       "icons": {
         "all_push": "Notifica\u00e7\u00f5es push ilimitadas",
         "bullhorn": "Publicidade Upplication",
-        "four_push": "4 notifica\u00e7\u00f5es push / m\u00eas",
+        "num_push": "30 notifica\u00e7\u00f5es push / m\u00eas",
         "no_bullhorn": "Sem publicidade Upplication",
         "no_push": "Sem notifica\u00e7\u00f5es push",
         "no_sign": "Sem logo nas folhas de c\u00e1lculo",

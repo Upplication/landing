@@ -12,11 +12,11 @@
       "bullhorn": "<strong>Publicidad</strong> Upplication",
       "per_month": "/ mes *",
       "per_year": "/ año *",
-      "four_push": "<strong>4</strong> notificaciones push / mes",
+      "num_push": "<strong>30</strong> notificaciones push / mes",
       "icons": {
         "all_push": "Push ilimitadas y segmentadas",
         "bullhorn": "Publicidad Upplication",
-        "four_push": "4 notificaciones push / mes",
+        "num_push": "30 notificaciones push / mes",
         "no_bullhorn": "Sin publicidad Upplication",
         "no_push": "Sin notificaciones push",
         "no_sign": "Sin firma en las plantillas",
