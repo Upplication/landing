@@ -10,7 +10,6 @@ var replace = require('gulp-replace-task');
 var uglify = require('gulp-uglify');
 var cleanCSS = require('gulp-clean-css');
 var rev = require('gulp-rev');
-var bower = require('gulp-bower');
 var del = require('del');
 var gutil = require('gulp-util');
 var less = require('gulp-less');
@@ -119,13 +118,13 @@ var routes = function () {
     return routing;
 }();
 
-gulp.task('vendor:js', ['bower'], function() {
+gulp.task('vendor:js', function() {
     var baseTask =
         gulp.src([
-            './dist/bower_components/jquery/dist/jquery.min.js',
-            './dist/bower_components/materialize/dist/js/materialize.min.js',
-            './dist/bower_components/owl.carousel/dist/owl.carousel.min.js',
-            './dist/bower_components/aos/dist/aos.js'
+            './node_modules/@bower_components/jquery/dist/jquery.min.js',
+            './node_modules/@bower_components/materialize/dist/js/materialize.min.js',
+            './node_modules/@bower_components/owl.carousel/dist/owl.carousel.min.js',
+            './node_modules/@bower_components/aos/dist/aos.js'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
             .pipe(concat('base.js'))
@@ -134,8 +133,8 @@ gulp.task('vendor:js', ['bower'], function() {
 
     var vodafoneTask =
         gulp.src([
-            './dist/bower_components/jquery/dist/jquery.min.js',
-            './dist/bower_components/materialize/dist/js/materialize.min.js'
+            './node_modules/@bower_components/jquery/dist/jquery.min.js',
+            './node_modules/@bower_components/materialize/dist/js/materialize.min.js'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
             .pipe(concat('vodafone.js'))
@@ -143,16 +142,22 @@ gulp.task('vendor:js', ['bower'], function() {
             .pipe(gulp.dest('./dist/scripts/vendor'));
 
 
-    return merge([baseTask, vodafoneTask]);
+    // add all bower_components
+    var vendorTask =
+        gulp.src('./node_modules/@bower_components/**/*.js')
+            .pipe(gulp.dest('./dist/bower_components'));
+
+
+    return merge([baseTask, vodafoneTask, vendorTask]);
 });
 
-gulp.task('vendor:css', ['bower'], function() {
+gulp.task('vendor:css', function() {
     var baseTask =
         gulp.src([
-            './dist/bower_components/upplication-icons/dist/upplication-icons.css',
-            './dist/bower_components/materialize/dist/css/materialize.min.css',
-            './dist/bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
-            './dist/bower_components/aos/dist/aos.css'
+            './node_modules/@bower_components/upplication-icons/dist/upplication/upplication-icons.css',
+            './node_modules/@bower_components/materialize/dist/css/materialize.min.css',
+            './node_modules/@bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
+            './node_modules/@bower_components/aos/dist/aos.css'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
             .pipe(concat('base.css'))
@@ -161,15 +166,20 @@ gulp.task('vendor:css', ['bower'], function() {
 
     var vodafoneTask =
         gulp.src([
-            './dist/bower_components/upplication-icons/dist/upplication-icons.css',
-            './dist/bower_components/materialize/dist/css/materialize.min.css'
+            './node_modules/@bower_components/upplication-icons/dist/wingu/wingu-icons.css',
+            './node_modules/@bower_components/materialize/dist/css/materialize.min.css'
             ])
             .pipe(gutil.env.type !== 'production' ? sourcemaps.init() : gutil.noop())
             .pipe(concat('vodafone.css'))
             .pipe(gutil.env.type !== 'production' ? sourcemaps.write() : gutil.noop())
             .pipe(gulp.dest('./dist/styles/vendor'));
 
-    return merge([baseTask, vodafoneTask]);
+    // add all bower_components
+    var vendorTask =
+        gulp.src('./node_modules/@bower_components/**/*.css')
+            .pipe(gulp.dest('./dist/bower_components'));
+
+    return merge([baseTask, vodafoneTask, vendorTask]);
 });
 
 gulp.task('templates', function() {
@@ -252,7 +262,7 @@ gulp.task('scripts', function() {
 gulp.task('post', ['rev:scripts', 'rev:styles', 'templates'], function() {
     if (gutil.env.type === 'production') {
         return gulp.src([
-                '!./dist/bower_components/**/*',
+                '!./node_modules/@bower_components/**/*',
                 './dist/**/*.html'
             ])
             .pipe(revReplace({manifest: gulp.src("./dist/rev-manifest-*.json")}))
@@ -304,10 +314,6 @@ gulp.task('styles', function() {
         }))
         .pipe(gulp.dest("./dist/styles"))
         .pipe(gutil.env.type !== 'production' ? connect.reload() : gutil.noop());
-});
-
-gulp.task('bower', function() {
-    return bower();
 });
 
 gulp.task('connect', ['templates'], function() {
@@ -384,6 +390,6 @@ gulp.task('sitemap', function () {
         .pipe(gulp.dest("dist"));
 });
 
-gulp.task('default', ['templates', 'styles', 'scripts', 'post', 'bower', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing', 'connect', 'watch']);
-gulp.task('deploy', ['templates', 'styles', 'scripts', 'post', 'bower', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing']);
+gulp.task('default', ['templates', 'styles', 'scripts', 'post', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing', 'connect', 'watch']);
+gulp.task('deploy', ['templates', 'styles', 'scripts', 'post', 'vendor:js', 'vendor:css', 'copy:images', 'copy', 'sitemap', 'routing']);
 

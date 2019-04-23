@@ -64,7 +64,7 @@ $(function () {
                 if (data.success) {
                     Topic.fire("register-success");
 					window.setTimeout(function(){
-						window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/web" + data.url);
+						window.location = addUtmParamsToUrl(DASHBOARD_PATH + "/v2" + data.url);
 					}, 400);
                 } else {
                     $(this).find("input").prop("disabled", false);
@@ -169,7 +169,7 @@ $(function () {
             var $form = $(this);
             addUtmParamsToForm($form);
 
-            var url = DASHBOARD_PATH + "/web/register";
+            var url = DASHBOARD_PATH + "/v2/register";
             var data = $form.serialize();
             if (!data) return;
 

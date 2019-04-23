@@ -12,11 +12,11 @@
       "bullhorn": "<strong>Iklan</strong> Upplication",
       "per_month": "/ bulan *",
       "per_year": "/ tahun *",
-      "four_push": "<strong>4</strong> pemberitahuan push / bulan",
+      "num_push": "<strong>30</strong> pemberitahuan push / bulan",
       "icons": {
         "all_push": "Pemberitahuan push tak terbatas",
         "bullhorn": "Iklan Upplication",
-        "four_push": "4 pemberitahuan push / bulan",
+        "num_push": "30 pemberitahuan push / bulan",
         "no_bullhorn": "Tidak ada Iklan Upplication",
         "no_push": "Tidak ada pemberitahuan push",
         "no_sign": "Tidak ada cap air pada pola",

@@ -12,11 +12,11 @@
       "bullhorn": "Upplication <strong>Ads</strong>",
       "per_month": "/ month *",
       "per_year": "/ year *",
-      "four_push": "<strong>4</strong> push alerts / month",
+      "num_push": "<strong>30</strong> push alerts / month",
       "icons": {
         "all_push": "Unlimited and customized push",
         "bullhorn": "Upplication Ads",
-        "four_push": "4 push alerts / month",
+        "num_push": "30 push alerts / month",
         "no_bullhorn": "No Upplication Ads",
         "no_push": "No push alerts",
         "no_sign": "No watermark on templates",
