@@ -43,7 +43,7 @@
     },
     "dashboard": {
       "anchor": "Entrar",
-      "url": "@@config.dashboard_base_path/web"
+      "url": "@@config.dashboard_base_path/v2"
     },
     "facebook": {
       "anchor": "Facebook",
