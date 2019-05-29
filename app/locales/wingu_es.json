@@ -1,6 +1,5 @@
 {
   "wingu": {
-    "footer_cookies": "Al cerrar esta ventana aceptas nuestra <a href='@@config.base_path/es/vodafone/'>política de cookies.</a>",
     "vodafone":{
       "url": "https://www.vodafone.es",
       "title": "Entrar",
@@ -15,6 +14,6 @@
     "_meta_title": "Términos legales para el uso de WINGU: creador de apps",
     "_keywords": "crear app, como crear tu app, crear app android, crear app iphone, crear aplicacion, crear app online, crear app movil",
     "_meta_description": "Condiciones de uso de Wingu, creador de apps online para ti o tu negocio.",
-    "_priority": "0.5",
+    "_priority": "0.5"
   }
 }

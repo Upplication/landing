@@ -15,7 +15,7 @@ module.exports = function() {
     var result = {};
     var defaultLocale = {};
 
-    fs.readdirSync('./app/locales/').forEach(function(locale){
+    fs.readdirSync('./app/locales/').forEach(function(locale) {
         if (path.basename(locale, '.json').indexOf('_' + langs.default) > 0) {
             _.merge(defaultLocale, JSON.parse(fs.readFileSync('./app/locales/' + locale)));
         }
