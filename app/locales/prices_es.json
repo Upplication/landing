@@ -59,7 +59,7 @@
       "unlimited": "ILIMITADO",
       "with_tax": "Todos los precios <strong>incluyen IVA</strong>.",
       "exchange_rate": "Esta conversión de moneda es una aproximación. El cobro final se realizará en <strong>euros</strong> y será tu banco el encargado de calcular la tasa de cambio final.",
-      "appleStore": "Para publicar tu app móvil en el <em>App Store</em> de <strong>Apple</strong> necesitas tener tu propia cuenta de desarrollador. Esta cuenta tiene un coste de 99€ (IVA incl.) al año. Nosotros nos encargaremos contigo de publicar tu app móvil en el <em>App Store</em>.",
+      "stores": "Para publicar tu app móvil en <strong>App Store</strong> y <strong>Google Play</strong> necesitas tener tus propias cuentas de desarrollador. Estas cuentas tienen un coste de 99€ (IVA incl.) al año para Apple Store y un único pago de 25€ (IVA incl.) para Google Play. Nosotros nos encargaremos contigo de publicar tu app móvil en el <em>App Store</em> y en <em>Google Play</em>.",
       "yearly": "Plan Anual",
       "choose_currency": "Elegir moneda:"
     }

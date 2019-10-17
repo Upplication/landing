@@ -59,7 +59,7 @@
       "unlimited": "UNLIMITED",
       "with_tax": "<strong>VAT included</strong> in all prices.",
       "exchange_rate": "This currency conversion is an approximation. The final charge will be made in <strong>euros</strong> and your bank will be responsible for calculating this final exchange rate.",
-      "appleStore": "In order to publish your app in <em>Apple App Store</em> you need to have your own developer account. This account has a cost of € 99 (VAT incl.) per year. We will help you to publish your mobile app in <em>Apple App Store</em>.",
+      "stores": "In order to publish your app in <strong>Apple Store</strong> and <strong>Google Play</strong> you need to have your own developer account. This accounts have a cost of € 99 (VAT incl.) per year for the Apple Store and a single cost of € 25 (VAT incl.) for the Google Play. We will help you to publish your mobile app in <em>Apple Store</em> and <em>Google Play</em>.",
       "yearly": "Annual plan",
       "choose_currency": "Choose currency:"
     }
