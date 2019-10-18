@@ -33,7 +33,7 @@ Starts a local development environment which:
 
 ## Deployment
 ```
-$ yarn run deploy --type=production
+$ yarn run deploy --mode=production
 ```
 
 Builds the project with optimization for distribution.
@@ -51,7 +51,7 @@ The file `config.json` contains the definition of all the configuration needed b
 * Saas files by calling `@@config`. (#{localConfig.} cant be use because saas define his own vars in that way)
 * JSON i18n files by calling `@@config`.
 
-You can override this vars passing the concrete key as parameter with the prefix `config.`. Example `yarn run deploy -- --env=localhost --config.token_manager=1337 --type=production` load all the vars defined in the localhost section and override the token_manager var with the value `1337`
+You can override this vars passing the concrete key as parameter with the prefix `config.`. Example `yarn run deploy -- --env=localhost --config.token_manager=1337 --mode=production` load all the vars defined in the localhost section and override the token_manager var with the value `1337`
 
 ### Add a new view
 
