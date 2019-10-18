@@ -4,6 +4,7 @@ node_js:
 before_install:
   - npm install -g bower
   - npm install -g gulp-cli
+  - npm install -g netlify-cli
   - yarn install
 before_script:
   - chmod a+x ./netlify_deploy.sh
