@@ -6,7 +6,7 @@
     "_priority": "0.6",
     "_url": "/es/precios/",
     "rates": {
-      "all_push": "Push <strong>ilimitadas</strong> y <strong>segmentadas</strong>",
+      "all_push": "Push <strong>ilimitadas</strong>, <strong>segmentadas</strong> y <strong>programadas</strong>",
       "app_web": "Web / Android / iOS <b>**</b>",
       "basic": "BÁSICO",
       "bullhorn": "<strong>Publicidad</strong> Upplication",
@@ -14,7 +14,7 @@
       "per_year": "/ año *",
       "num_push": "<strong>30</strong> notificaciones push / mes",
       "icons": {
-        "all_push": "Push ilimitadas y segmentadas",
+        "all_push": "Push ilimitadas, segmentadas y programadas",
         "bullhorn": "Publicidad Upplication",
         "num_push": "30 notificaciones push / mes",
         "no_bullhorn": "Sin publicidad Upplication",
@@ -49,7 +49,7 @@
       "more": "Plan <strong>Profesional</strong> y además:",
       "course": "eBook gratis de <strong>Marketing Apps</strong>",
       "sticker": "<strong>Tutor</strong> personal",
-      "all_push": "Push <strong>ilimitadas</strong> y <strong>segmentadas</strong>",
+      "all_push": "Push <strong>ilimitadas</strong>, <strong>segmentadas</strong> y <strong>programadas</strong>",
       "sub1": "<b>Atención al cliente</b> por teléfono y chat.",
       "sub2": "<span>Subida automática a los markets,</span> <span><b>nosotros subimos tu app</b>.</span>",
       "sub3": "<b>Web responsive</b> multidispositivo.",
