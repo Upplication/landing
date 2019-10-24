@@ -6,7 +6,7 @@
     "_priority": "0.6",
     "_url": "/en/prices/",
     "rates": {
-      "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push",
+      "all_push": "<strong>Unlimited</strong>, <strong>customized</strong> and <strong>scheduled</strong> push",
       "app_web": "Web / Android / iOS <b>**</b>",
       "basic": "BASIC",
       "bullhorn": "Upplication <strong>Ads</strong>",
@@ -14,7 +14,7 @@
       "per_year": "/ year *",
       "num_push": "<strong>30</strong> push alerts / month",
       "icons": {
-        "all_push": "Unlimited and customized push",
+        "all_push": "Unlimited, customized & scheduled push",
         "bullhorn": "Upplication Ads",
         "num_push": "30 push alerts / month",
         "no_bullhorn": "No Upplication Ads",
@@ -49,7 +49,7 @@
       "more": "All <strong>Professional</strong> features and:",
       "course": "<strong>Marketing Apps</strong> free eBook",
       "sticker": "Personal <strong>tutor</strong>",
-      "all_push": "<strong>Unlimited</strong> and <strong>customized</strong> push",
+      "all_push": "<strong>Unlimited</strong>, <strong>customized</strong> and <strong>scheduled</strong> push",
       "sub1": "<b>Customer support</b> by e-mail, chat, and phone.",
       "sub2": "<span>Automatic upload to all App Stores,</span> <span><b>we publish your app</b>.</span>",
       "sub3": "<b>Web responsive</b>, supports multiple devices.",

@@ -6,7 +6,7 @@
     "_priority": "0.6",
     "_url": "/pt/pre\u00e7os/",
     "rates": {
-      "all_push": "Notifica\u00e7\u00f5es push <strong>ilimitadas</strong>",
+      "all_push": "Notifica\u00e7\u00f5es push <strong>ilimitadas</strong>, <strong>segmentadas</strong> y <strong>programadas</strong>",
       "app_web": "Web / Android / iOS <b>**</b>",
       "basic": "B\u00c1SICO",
       "bullhorn": "<strong>Publicidade</strong> Upplication",
@@ -14,7 +14,7 @@
       "per_year": "/ ano *",
       "num_push": "<strong>30</strong> notifica\u00e7\u00f5es push / m\u00eas",
       "icons": {
-        "all_push": "Notifica\u00e7\u00f5es push ilimitadas",
+        "all_push": "Notifica\u00e7\u00f5es push ilimitadas, segmentadas y programadas",
         "bullhorn": "Publicidade Upplication",
         "num_push": "30 notifica\u00e7\u00f5es push / m\u00eas",
         "no_bullhorn": "Sem publicidade Upplication",
