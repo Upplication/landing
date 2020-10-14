@@ -16,7 +16,7 @@ module.exports = function() {
     var defaultLocale = {};
 
     fs.readdirSync('./app/locales/').forEach(function(locale) {
-        if (path.basename(locale, '.json').indexOf('_' + langs.default) > 0) {
+        if (path.basename(locale).indexOf('_' + langs.default + '.json') > 0) {
             _.merge(defaultLocale, JSON.parse(fs.readFileSync('./app/locales/' + locale)));
         }
     });
@@ -28,7 +28,7 @@ module.exports = function() {
         if (langs.default != lang) {
             var localeGrouped = {};
             fs.readdirSync('./app/locales/').forEach(function(locale){
-                if (langs.default != lang && path.basename(locale, '.json').indexOf('_' + lang) > 0) {
+                if (langs.default != lang && path.basename(locale).indexOf('_' + lang + '.json') > 0) {
                     _.merge(localeGrouped, JSON.parse(fs.readFileSync('./app/locales/' + locale)));
                 }
             });
