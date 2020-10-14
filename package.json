@@ -72,12 +72,20 @@
     "@bower_components/money.js": "openexchangerates/money.js#0.1.3",
     "@bower_components/owl.carousel": "OwlCarousel2/OwlCarousel2#2.2.1",
     "@bower_components/typed.js": "mattboldt/typed.js#v1.1.7",
-    "@bower_components/upplication-icons": "upplication/icons#v1.0.18"
+    "@bower_components/upplication-icons": "upplication/icons#v1.0.18",
+    "aos": "michalsnik/aos#2.1.1",
+    "jquery": "jquery/jquery-dist#2.2.4",
+    "materialize-css": "Dogfalo/materialize#v0.100.2",
+    "money": "openexchangerates/money.js#0.1.3",
+    "owl.carousel": "OwlCarousel2/OwlCarousel2#2.2.1",
+    "typed.js": "mattboldt/typed.js#v1.1.7",
+    "upplication-icons": "upplication/icons#v1.0.18"
   },
   "resolutions": {
     "natives": "1.1.3"
   },
   "engines": {
-    "yarn": ">= 1.0.0"
+    "yarn": ">= 1.0.0",
+    "node" : ">=6.0.0"
   }
 }
