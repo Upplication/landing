@@ -114,13 +114,13 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                                 a.hide-tab(href="#{external.dashboard.url}")
                                     i.icon.icon-key
                                     | #{header.enter}
-                            li.contact-info
-                                .contact-info-grids
-                                    .contact-info-left
-                                        a.modal-trigger.chat(href='#free-trial') #{header.free_trial}
-                                    .contact-info-right
-                                        a(title='#{header.telephone}') #{header.telephone}
-                                        a.support(title='#{common.customer_service.email.title}') #{common.customer_service.email.title}
+                            //li.contact-info
+                            //    .contact-info-grids
+                            //        .contact-info-left
+                            //            a.modal-trigger.chat(href='#free-trial') #{header.free_trial}
+                            //        .contact-info-right
+                            //            a(title='#{header.telephone}') #{header.telephone}
+                            //            a.support(title='#{common.customer_service.email.title}') #{common.customer_service.email.title}
                         //- Three animated bars for drop down main navbar in mobile
                         a#pull(href='')
                             span
@@ -133,8 +133,8 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
                         li
 
         //- MODAL :: FREE TRIAL
-        #free-trial.modal.modal-upp
-            include ../../includes/modal-free
+        //#free-trial.modal.modal-upp
+            //include ../../includes/modal-free
         //- MODAL :: CONTACT
         #all-contact.modal.modal-upp
             include ../../includes/modal-contact
@@ -148,7 +148,7 @@ html.no-js(lang='#{lang}', data-lang="#{lang}")
         //- CLIENTS :: "owl" carousel
         include ../../includes/clients
         //- TRIAL
-        include ../../includes/trial
+        //include ../../includes/trial
         //- CONTACT :: Contact form
         include ../../includes/contact
         //- FOOTER :: Contact, links list and Copyright
